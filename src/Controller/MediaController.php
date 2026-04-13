@@ -6,6 +6,7 @@ use App\Exceptions\ProviderNotRegisteredException;
 use App\Services\MediaService;
 use App\Support\ResponseSupport;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
 
 class MediaController
