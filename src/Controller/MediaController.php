@@ -24,11 +24,15 @@ class MediaController
      *
      * @throws ProviderNotRegisteredException
      */
-    #[Route('/episode/{slug}/{season}/{episodeNumber}', name: 'episodes', methods: ['GET'])]
-    public function episode(string $slug, int $season, int $episodeNumber): Response
-    {
-        return ResponseSupport::json(
-            $this->mediaService->searchEpisode($episodeNumber, $season, $slug)
-        );
-    }
+    #[Route('/', name: 'home', methods: ['GET'])]
+public function home(): JsonResponse
+{
+    return new JsonResponse([
+        'name' => 'SUGOIAPI',
+        'status' => 'online',
+        'message' => 'API em funcionamento',
+        'endpoints' => [
+            '/episode/{slug}/{season}/{episodeNumber}'
+        ]
+    ]);
 }
