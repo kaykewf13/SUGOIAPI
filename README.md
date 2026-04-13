@@ -1,15 +1,15 @@
+# SUGOIAPI
 
-# SugoiAPI
+Fork personalizado da SugoiAPI para organização de catálogo, manutenção de fontes e execução via Docker.
 
-Olá, este é um projeto open source para compartilhar links de animes de maneira fácil e rápida, sinta-se à vontade para contribuir com o projeto.
-Por enquanto o projeto não está hospedado em nenhum servidor, porém você pode clonar o repositório e rodar localmente com o docker:
+## Instalação
+
+Clone este repositório:
 
 ```bash
-> git clone https://github.com/yzPeedro/SugoiAPI.git sugoiapi 
-
-> cd sugoiapi
-
-> docker compose up -d
+git clone https://github.com/kaykewf13/SUGOIAPI.git
+cd SUGOIAPI
+docker compose up -d
 ```
 
 ## Parâmetros
