@@ -2,10 +2,7 @@
 
 namespace App\Controller;
 
-use App\Exceptions\ProviderNotRegisteredException;
 use App\Services\MediaService;
-use App\Support\ResponseSupport;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
 
@@ -18,22 +15,24 @@ class MediaController
         $this->mediaService = new MediaService();
     }
 
-    /**
-     * Display a list of episodes.
-     *
-     * @return string
-     *
-     * @throws ProviderNotRegisteredException
-     */
     #[Route('/', name: 'home', methods: ['GET'])]
-public function home(): JsonResponse
-{
-    return new JsonResponse([
-        'name' => 'SUGOIAPI',
-        'status' => 'online',
-        'message' => 'API em funcionamento',
-        'endpoints' => [
-            '/episode/{slug}/{season}/{episodeNumber}'
-        ]
-    ]);
+    public function home(): JsonResponse
+    {
+        return new JsonResponse([
+            'name' => 'SUGOIAPI',
+            'status' => 'online',
+            'message' => 'API em funcionamento',
+            'endpoints' => [
+                '/episode/{slug}/{season}/{episodeNumber}'
+            ]
+        ]);
+    }
+
+    #[Route('/episode/{slug}/{season}/{episodeNumber}', name: 'episodes', methods: ['GET'])]
+    public function episodes(string $slug, int $season, int $episodeNumber): JsonResponse
+    {
+        return new JsonResponse(
+            $this->mediaService->getEpisode($slug, $season, $episodeNumber)
+        );
+    }
 }
