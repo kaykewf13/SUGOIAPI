@@ -32,7 +32,7 @@ class MediaController
     public function episodes(string $slug, int $season, int $episodeNumber): JsonResponse
     {
         return new JsonResponse(
-            $this->mediaService->getEpisode($slug, $season, $episodeNumber)
+            $this->mediaService->searchEpisode($episodeNumber, $season, $slug)
         );
     }
 }
