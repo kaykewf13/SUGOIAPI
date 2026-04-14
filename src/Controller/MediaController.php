@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Exceptions\ProviderNotRegisteredException;
 use App\Services\MediaService;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
@@ -28,6 +29,11 @@ class MediaController
         ]);
     }
 
+    /**
+     * Display a list of episodes.
+     *
+     * @throws ProviderNotRegisteredException
+     */
     #[Route('/episode/{slug}/{season}/{episodeNumber}', name: 'episodes', methods: ['GET'])]
     public function episodes(string $slug, int $season, int $episodeNumber): JsonResponse
     {
