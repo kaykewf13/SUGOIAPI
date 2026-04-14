@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 
 jobs:
-  build-and-test:
+  validate-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,6 +21,12 @@ jobs:
         run: |
           docker --version
           docker compose version
+
+      - name: Validar sintaxe do MediaController
+        run: php -l src/Controller/MediaController.php
+
+      - name: Validar sintaxe do MediaService
+        run: php -l src/Services/MediaService.php
 
       - name: Build da aplicação
         run: docker compose build
@@ -48,7 +54,7 @@ jobs:
       - name: Testar rota de episódio
         run: curl -i http://localhost:1010/episode/naruto/1/1 || true
 
-      - name: Listar logs se falhar
+      - name: Logs em caso de falha
         if: failure()
         run: docker compose logs
 
