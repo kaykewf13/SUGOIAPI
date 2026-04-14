@@ -39,6 +39,11 @@ class MediaController
     {
         return new JsonResponse(
             $this->mediaService->searchEpisode($episodeNumber, $season, $slug)
+            return new JsonResponse(
+    $this->mediaService->searchEpisode($episodeNumber, $season, $slug),
+    200,
+    ['Content-Type' => 'application/json; charset=utf-8']
+);
         );
     }
 }
