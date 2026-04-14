@@ -21,12 +21,11 @@ jobs:
         run: |
           docker --version
           docker compose version
+          php --version
 
-      - name: Validar sintaxe do MediaController
-        run: php -l src/Controller/MediaController.php
-
-      - name: Validar sintaxe do MediaService
-        run: php -l src/Services/MediaService.php
+      - name: Validar sintaxe de todos os arquivos PHP
+        run: |
+          find . -type f -name "*.php" -not -path "./vendor/*" -print0 | xargs -0 -n1 php -l
 
       - name: Build da aplicação
         run: docker compose build
