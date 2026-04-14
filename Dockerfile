@@ -1,38 +1,27 @@
-FROM php:8.3-alpine
+FROM php:8.3-cli-alpine
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN apk add --no-cache \
-    php-mbstring \
-    php-xml \
-    php-ctype \
-    php-json \
-    php-tokenizer \
-    php-openssl \
-    php-session \
-    php-xmlwriter \
-    php-xmlreader \
-    php-simplexml \
-    php-dom \
-    php-xml \
-    php-curl \
-    php-phar \
-    php-iconv \
-    php-fileinfo \
-    php-zip \
-    php-gd \
-    php-intl
+    git \
+    curl \
+    unzip \
+    icu-dev \
+    oniguruma-dev \
+    libzip-dev \
+    && docker-php-ext-install \
+    intl \
+    mbstring \
+    zip
 
 WORKDIR /app
 
-COPY composer.json .
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-RUN curl -sS https://getcomposer.org/installer | php
+COPY composer.json composer.lock* ./
 
-RUN php composer.phar install
+RUN composer install --no-interaction --prefer-dist --no-scripts
 
 COPY . .
-
-CMD chmod -R 777 /app/var/cache /app/var/log && /app/bin/console cache:clear
 
 EXPOSE 1010
