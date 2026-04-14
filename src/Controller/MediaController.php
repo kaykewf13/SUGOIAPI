@@ -30,8 +30,6 @@ class MediaController
     }
 
     /**
-     * Display a list of episodes.
-     *
      * @throws ProviderNotRegisteredException
      */
     #[Route('/episode/{slug}/{season}/{episodeNumber}', name: 'episodes', methods: ['GET'])]
@@ -39,11 +37,6 @@ class MediaController
     {
         return new JsonResponse(
             $this->mediaService->searchEpisode($episodeNumber, $season, $slug)
-            return new JsonResponse(
-    $this->mediaService->searchEpisode($episodeNumber, $season, $slug),
-    200,
-    ['Content-Type' => 'application/json; charset=utf-8']
-);
         );
     }
 }
