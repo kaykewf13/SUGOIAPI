@@ -7,4 +7,4 @@ services:
       - ./:/app
       - /app/vendor
     working_dir: /app
-    command: php -S 0.0.0.0:1010 -t public/
+    command: sh -c "php bin/console cache:clear && php -S 0.0.0.0:1010 -t public/"
