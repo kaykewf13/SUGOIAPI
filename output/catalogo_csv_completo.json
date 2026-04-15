@@ -1,7 +1,20 @@
 [
   {
     "anime_name": "Naruto",
-    "anime_slug_used": null,
+    "query_used": "Naruto",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Naruto",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -10,11 +23,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Naruto Shippuden",
-    "anime_slug_used": null,
+    "query_used": "Naruto Shippuden",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Naruto Shippuden",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -23,11 +49,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Boruto",
-    "anime_slug_used": null,
+    "query_used": "Boruto",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Boruto",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -36,11 +75,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "One Piece",
-    "anime_slug_used": null,
+    "query_used": "One Piece",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "One Piece",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -49,11 +101,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Dragon Ball Z",
-    "anime_slug_used": null,
+    "query_used": "Dragon Ball Z",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Dragon Ball Z",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -62,11 +127,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Dragon Ball Super",
-    "anime_slug_used": null,
+    "query_used": "Dragon Ball Super",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Dragon Ball Super",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -75,11 +153,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Attack on Titan",
-    "anime_slug_used": null,
+    "query_used": "Attack on Titan",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Attack on Titan",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -88,11 +179,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Shingeki no Kyojin",
-    "anime_slug_used": null,
+    "query_used": "Shingeki no Kyojin",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Shingeki no Kyojin",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -101,11 +205,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Demon Slayer",
-    "anime_slug_used": null,
+    "query_used": "Demon Slayer",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Demon Slayer",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -114,11 +231,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Kimetsu no Yaiba",
-    "anime_slug_used": null,
+    "query_used": "Kimetsu no Yaiba",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Kimetsu no Yaiba",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -127,11 +257,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Jujutsu Kaisen",
-    "anime_slug_used": null,
+    "query_used": "Jujutsu Kaisen",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Jujutsu Kaisen",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -140,11 +283,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Death Note",
-    "anime_slug_used": null,
+    "query_used": "Death Note",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Death Note",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -153,11 +309,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Fullmetal Alchemist Brotherhood",
-    "anime_slug_used": null,
+    "query_used": "Fullmetal Alchemist Brotherhood",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Fullmetal Alchemist Brotherhood",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -166,11 +335,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Tokyo Ghoul",
-    "anime_slug_used": null,
+    "query_used": "Tokyo Ghoul",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Tokyo Ghoul",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -179,11 +361,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Bleach",
-    "anime_slug_used": null,
+    "query_used": "Bleach",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Bleach",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -192,11 +387,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Bleach Thousand-Year Blood War",
-    "anime_slug_used": null,
+    "query_used": "Bleach Thousand-Year Blood War",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Bleach Thousand-Year Blood War",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -205,11 +413,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Hunter x Hunter",
-    "anime_slug_used": null,
+    "query_used": "Hunter x Hunter",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Hunter x Hunter",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -218,11 +439,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Black Clover",
-    "anime_slug_used": null,
+    "query_used": "Black Clover",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Black Clover",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -231,11 +465,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "My Hero Academia",
-    "anime_slug_used": null,
+    "query_used": "My Hero Academia",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "My Hero Academia",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -244,11 +491,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Boku no Hero Academia",
-    "anime_slug_used": null,
+    "query_used": "Boku no Hero Academia",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Boku no Hero Academia",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -257,11 +517,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Chainsaw Man",
-    "anime_slug_used": null,
+    "query_used": "Chainsaw Man",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Chainsaw Man",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -270,11 +543,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Solo Leveling",
-    "anime_slug_used": null,
+    "query_used": "Solo Leveling",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Solo Leveling",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -283,11 +569,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Sword Art Online",
-    "anime_slug_used": null,
+    "query_used": "Sword Art Online",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Sword Art Online",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -296,11 +595,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Fairy Tail",
-    "anime_slug_used": null,
+    "query_used": "Fairy Tail",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Fairy Tail",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -309,11 +621,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Blue Lock",
-    "anime_slug_used": null,
+    "query_used": "Blue Lock",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Blue Lock",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -322,11 +647,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Haikyuu",
-    "anime_slug_used": null,
+    "query_used": "Haikyuu",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Haikyuu",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -335,11 +673,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Kuroko no Basket",
-    "anime_slug_used": null,
+    "query_used": "Kuroko no Basket",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Kuroko no Basket",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -348,11 +699,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "The Rising of the Shield Hero",
-    "anime_slug_used": null,
+    "query_used": "The Rising of the Shield Hero",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "The Rising of the Shield Hero",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -361,11 +725,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Tate no Yuusha no Nariagari",
-    "anime_slug_used": null,
+    "query_used": "Tate no Yuusha no Nariagari",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Tate no Yuusha no Nariagari",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -374,11 +751,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Re Zero",
-    "anime_slug_used": null,
+    "query_used": "Re Zero",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Re Zero",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -387,11 +777,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Re Zero kara Hajimeru Isekai Seikatsu",
-    "anime_slug_used": null,
+    "query_used": "Re Zero kara Hajimeru Isekai Seikatsu",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Re Zero kara Hajimeru Isekai Seikatsu",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -400,11 +803,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "No Game No Life",
-    "anime_slug_used": null,
+    "query_used": "No Game No Life",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "No Game No Life",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -413,11 +829,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Overlord",
-    "anime_slug_used": null,
+    "query_used": "Overlord",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Overlord",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -426,11 +855,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Mushoku Tensei",
-    "anime_slug_used": null,
+    "query_used": "Mushoku Tensei",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Mushoku Tensei",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -439,11 +881,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "That Time I Got Reincarnated as a Slime",
-    "anime_slug_used": null,
+    "query_used": "That Time I Got Reincarnated as a Slime",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "That Time I Got Reincarnated as a Slime",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -452,11 +907,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Tensei Shitara Slime Datta Ken",
-    "anime_slug_used": null,
+    "query_used": "Tensei Shitara Slime Datta Ken",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Tensei Shitara Slime Datta Ken",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -465,11 +933,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Frieren Beyond Journey's End",
-    "anime_slug_used": null,
+    "query_used": "Frieren Beyond Journey's End",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Frieren Beyond Journey's End",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -478,11 +959,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Sousou no Frieren",
-    "anime_slug_used": null,
+    "query_used": "Sousou no Frieren",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Sousou no Frieren",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -491,11 +985,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Made in Abyss",
-    "anime_slug_used": null,
+    "query_used": "Made in Abyss",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Made in Abyss",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -504,11 +1011,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Steins Gate",
-    "anime_slug_used": null,
+    "query_used": "Steins Gate",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Steins Gate",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -517,11 +1037,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Cowboy Bebop",
-    "anime_slug_used": null,
+    "query_used": "Cowboy Bebop",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Cowboy Bebop",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -530,11 +1063,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Neon Genesis Evangelion",
-    "anime_slug_used": null,
+    "query_used": "Neon Genesis Evangelion",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Neon Genesis Evangelion",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -543,11 +1089,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Code Geass",
-    "anime_slug_used": null,
+    "query_used": "Code Geass",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Code Geass",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -556,11 +1115,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Akame ga Kill",
-    "anime_slug_used": null,
+    "query_used": "Akame ga Kill",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Akame ga Kill",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -569,11 +1141,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Another",
-    "anime_slug_used": null,
+    "query_used": "Another",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Another",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -582,11 +1167,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Erased",
-    "anime_slug_used": null,
+    "query_used": "Erased",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Erased",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -595,11 +1193,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Mirai Nikki",
-    "anime_slug_used": null,
+    "query_used": "Mirai Nikki",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Mirai Nikki",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -608,11 +1219,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Elfen Lied",
-    "anime_slug_used": null,
+    "query_used": "Elfen Lied",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Elfen Lied",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -621,11 +1245,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Toradora",
-    "anime_slug_used": null,
+    "query_used": "Toradora",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Toradora",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -634,11 +1271,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Your Lie in April",
-    "anime_slug_used": null,
+    "query_used": "Your Lie in April",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Your Lie in April",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -647,11 +1297,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Clannad",
-    "anime_slug_used": null,
+    "query_used": "Clannad",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Clannad",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -660,11 +1323,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Horimiya",
-    "anime_slug_used": null,
+    "query_used": "Horimiya",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Horimiya",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -673,11 +1349,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Kaguya Sama Love is War",
-    "anime_slug_used": null,
+    "query_used": "Kaguya Sama Love is War",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Kaguya Sama Love is War",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -686,11 +1375,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Konosuba",
-    "anime_slug_used": null,
+    "query_used": "Konosuba",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Konosuba",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -699,11 +1401,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "The Eminence in Shadow",
-    "anime_slug_used": null,
+    "query_used": "The Eminence in Shadow",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "The Eminence in Shadow",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -712,11 +1427,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Classroom of the Elite",
-    "anime_slug_used": null,
+    "query_used": "Classroom of the Elite",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Classroom of the Elite",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -725,11 +1453,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "DanMachi",
-    "anime_slug_used": null,
+    "query_used": "DanMachi",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "DanMachi",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -738,11 +1479,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Is It Wrong to Try to Pick Up Girls in a Dungeon",
-    "anime_slug_used": null,
+    "query_used": "Is It Wrong to Try to Pick Up Girls in a Dungeon",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Is It Wrong to Try to Pick Up Girls in a Dungeon",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -751,11 +1505,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "High School DxD",
-    "anime_slug_used": null,
+    "query_used": "High School DxD",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "High School DxD",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -764,11 +1531,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "To Love Ru",
-    "anime_slug_used": null,
+    "query_used": "To Love Ru",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "To Love Ru",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -777,11 +1557,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Date A Live",
-    "anime_slug_used": null,
+    "query_used": "Date A Live",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Date A Live",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -790,11 +1583,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "The Testament of Sister New Devil",
-    "anime_slug_used": null,
+    "query_used": "The Testament of Sister New Devil",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "The Testament of Sister New Devil",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -803,11 +1609,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Prison School",
-    "anime_slug_used": null,
+    "query_used": "Prison School",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Prison School",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -816,11 +1635,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Redo of Healer",
-    "anime_slug_used": null,
+    "query_used": "Redo of Healer",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Redo of Healer",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -829,11 +1661,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Highschool of the Dead",
-    "anime_slug_used": null,
+    "query_used": "Highschool of the Dead",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Highschool of the Dead",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -842,11 +1687,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Hellsing Ultimate",
-    "anime_slug_used": null,
+    "query_used": "Hellsing Ultimate",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Hellsing Ultimate",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -855,11 +1713,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Berserk",
-    "anime_slug_used": null,
+    "query_used": "Berserk",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Berserk",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -868,11 +1739,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Vinland Saga",
-    "anime_slug_used": null,
+    "query_used": "Vinland Saga",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Vinland Saga",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -881,11 +1765,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Dororo",
-    "anime_slug_used": null,
+    "query_used": "Dororo",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Dororo",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -894,11 +1791,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Mob Psycho 100",
-    "anime_slug_used": null,
+    "query_used": "Mob Psycho 100",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Mob Psycho 100",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -907,11 +1817,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "One Punch Man",
-    "anime_slug_used": null,
+    "query_used": "One Punch Man",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "One Punch Man",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -920,11 +1843,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Dr Stone",
-    "anime_slug_used": null,
+    "query_used": "Dr Stone",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Dr Stone",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -933,11 +1869,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Fire Force",
-    "anime_slug_used": null,
+    "query_used": "Fire Force",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Fire Force",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -946,11 +1895,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "The Seven Deadly Sins",
-    "anime_slug_used": null,
+    "query_used": "The Seven Deadly Sins",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "The Seven Deadly Sins",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -959,11 +1921,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Nanatsu no Taizai",
-    "anime_slug_used": null,
+    "query_used": "Nanatsu no Taizai",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Nanatsu no Taizai",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -972,11 +1947,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Pokémon",
-    "anime_slug_used": null,
+    "query_used": "Pokémon",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Pokémon",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -985,11 +1973,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Digimon Adventure",
-    "anime_slug_used": null,
+    "query_used": "Digimon Adventure",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Digimon Adventure",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -998,11 +1999,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Yu Yu Hakusho",
-    "anime_slug_used": null,
+    "query_used": "Yu Yu Hakusho",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Yu Yu Hakusho",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -1011,11 +2025,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Inuyasha",
-    "anime_slug_used": null,
+    "query_used": "Inuyasha",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Inuyasha",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -1024,11 +2051,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Sailor Moon",
-    "anime_slug_used": null,
+    "query_used": "Sailor Moon",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Sailor Moon",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -1037,11 +2077,24 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   },
   {
     "anime_name": "Cardcaptor Sakura",
-    "anime_slug_used": null,
+    "query_used": "Cardcaptor Sakura",
+    "season": 1,
+    "episode": 1,
+    "provider_name": "provider_interno_1",
+    "provider_slug": "provider-interno-1",
+    "has_ads": null,
+    "is_embed": null,
+    "title": null,
+    "url": null,
+    "error": "Provider bloqueou a requisição (403)"
+  },
+  {
+    "anime_name": "Cardcaptor Sakura",
+    "query_used": null,
     "season": 1,
     "episode": 1,
     "provider_name": null,
@@ -1050,6 +2103,6 @@
     "is_embed": null,
     "title": null,
     "url": null,
-    "error": "Nenhuma variação retornou link válido"
+    "error": "Nenhum provider retornou link válido"
   }
 ]
