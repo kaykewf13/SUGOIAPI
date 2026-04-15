@@ -45,6 +45,7 @@ PROVIDERS: list[dict[str, Any]] = [
         "headers": {},
         "query_params": {},
     },
+{
  "name": "provider_interno_3",
         "slug": "provider-interno-3",
         "base_url": "https://goyabu.io/lista-de-animes?l=todos/",
@@ -52,6 +53,7 @@ PROVIDERS: list[dict[str, Any]] = [
         "headers": {},
         "query_params": {},
     },
+{
  "name": "provider_interno_4",
         "slug": "provider-interno-4”,
         "base_url": "https://sushianimes.com.br/categories/",
@@ -60,7 +62,6 @@ PROVIDERS: list[dict[str, Any]] = [
         "query_params": {},
     },
 ]
-
 # Aliases manuais para títulos com variações
 MANUAL_TITLE_ALIASES: dict[str, list[str]] = {
     "attack on titan": [
