@@ -1,0 +1,617 @@
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import re
+from pathlib import Path
+from typing import Any
+
+import requests
+from openpyxl import Workbook
+from openpyxl.styles import Font
+
+
+TIMEOUT = 30
+OUTPUT_DIR = Path("output")
+
+# =========================================================
+# CONFIGURAÇÃO DOS PROVIDERS AUTORIZADOS
+# =========================================================
+# Adicione aqui seus endpoints próprios ou autorizados.
+# Cada provider precisa aceitar:
+#   /episode/{slug}/{season}/{episode}
+#
+# Exemplo:
+#   https://animefire.io/animes/episode/naruto/1/1
+#
+# Se o provider usar outra estrutura, ajuste build_provider_url().
+# =========================================================
+
+PROVIDERS: list[dict[str, Any]] = [
+    {
+        "name": "provider_interno_1",
+        "slug": "provider-interno-1",
+        "base_url": "https://animefire.io/animes/",
+        "enabled": True,
+        "headers": {},
+        "query_params": {},
+    },
+    {
+        "name": "provider_interno_2",
+        "slug": "provider-interno-2",
+        "base_url": "https://animesonlinecc.to/anime/",
+        "enabled": True,
+        "headers": {},
+        "query_params": {},
+    },
+ "name": "provider_interno_3",
+        "slug": "provider-interno-3",
+        "base_url": "https://goyabu.io/lista-de-animes?l=todos/",
+        "enabled": True,
+        "headers": {},
+        "query_params": {},
+    },
+ "name": "provider_interno_4",
+        "slug": "provider-interno-4”,
+        "base_url": https://sushianimes.com.br/categories/",
+        "enabled": True,
+        "headers": {},
+        "query_params": {},
+    },
+]
+
+# Aliases manuais para títulos com variações
+MANUAL_TITLE_ALIASES: dict[str, list[str]] = {
+    "attack on titan": [
+        "attack on titan",
+        "shingeki no kyojin",
+    ],
+    "frieren": [
+        "frieren",
+        "sousou no frieren",
+        "frieren beyond journeys end",
+    ],
+    "demon slayer": [
+        "demon slayer",
+        "kimetsu no yaiba",
+    ],
+    "my hero academia": [
+        "my hero academia",
+        "boku no hero academia",
+    ],
+}
+
+def slugify(value: str) -> str:
+    value = value.strip().lower()
+    value = re.sub(r"[^\w\s-]", "", value)
+    value = re.sub(r"\s+", "-", value)
+    value = re.sub(r"-+", "-", value)
+    return value
+
+
+def normalize_name(value: str) -> str:
+    return re.sub(r"\s+", " ", value.strip().lower())
+
+
+def gerar_variacoes_titulo(anime_name: str) -> list[str]:
+    original = anime_name.strip()
+    normalized = normalize_name(anime_name)
+
+    variacoes = [
+        original,
+        slugify(original),
+        original.replace(":", ""),
+        original.replace("-", " "),
+    ]
+
+    if normalized in MANUAL_TITLE_ALIASES:
+        variacoes.extend(MANUAL_TITLE_ALIASES[normalized])
+
+    # dedup
+    saida = []
+    seen = set()
+    for item in variacoes:
+        key = normalize_name(item)
+        if key and key not in seen:
+            seen.add(key)
+            saida.append(item.strip())
+
+    return saida
+
+
+def build_provider_url(
+    provider: dict[str, Any],
+    anime_name_or_slug: str,
+    season: int,
+    episode: int,
+) -> str:
+    """
+    Ajuste esta função se seus providers usarem outro padrão.
+    Padrão atual:
+      {base_url}/episode/{slug}/{season}/{episode}
+    """
+    base_url = provider["base_url"].rstrip("/")
+    anime_slug = slugify(anime_name_or_slug)
+    return f"{base_url}/episode/{anime_slug}/{season}/{episode}"
+
+
+def consultar_provider(
+    provider: dict[str, Any],
+    anime_name_or_slug: str,
+    season: int,
+    episode: int,
+) -> Any:
+    url = build_provider_url(provider, anime_name_or_slug, season, episode)
+
+    response = requests.get(
+        url,
+        headers=provider.get("headers", {}),
+        params=provider.get("query_params", {}),
+        timeout=TIMEOUT,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def normalizar_payload_provider(
+    payload: Any,
+    anime_name: str,
+    tentativa: str,
+    season: int,
+    episode: int,
+    provider_cfg: dict[str, Any],
+) -> list[dict[str, Any]]:
+    linhas: list[dict[str, Any]] = []
+
+    if not isinstance(payload, list):
+        return linhas
+
+    for provider_item in payload:
+        if not isinstance(provider_item, dict):
+            continue
+
+        provider_name = (
+            provider_item.get("provider")
+            or provider_item.get("name")
+            or provider_cfg.get("name")
+            or "desconhecido"
+        )
+        provider_slug = (
+            provider_item.get("slug")
+            or provider_cfg.get("slug")
+        )
+        has_ads = provider_item.get("has_ads")
+        is_embed = provider_item.get("is_embed")
+
+        episodes = provider_item.get("episodes", [])
+        if not isinstance(episodes, list):
+            continue
+
+        for ep in episodes:
+            if not isinstance(ep, dict):
+                continue
+
+            linhas.append(
+                {
+                    "anime_name": anime_name,
+                    "query_used": tentativa,
+                    "season": season,
+                    "episode": episode,
+                    "provider_name": provider_name,
+                    "provider_slug": provider_slug,
+                    "has_ads": has_ads,
+                    "is_embed": is_embed,
+                    "title": ep.get("title"),
+                    "url": ep.get("url"),
+                    "error": ep.get("error"),
+                }
+            )
+
+    return linhas
+
+
+def linha_valida(linha: dict[str, Any]) -> bool:
+    return bool(linha.get("url")) and linha.get("error") is not True
+
+
+def deduplicar_linhas(linhas: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    unicas: list[dict[str, Any]] = []
+    seen = set()
+
+    for linha in linhas:
+        chave = (
+            linha.get("anime_name"),
+            linha.get("season"),
+            linha.get("episode"),
+            linha.get("provider_name"),
+            linha.get("title"),
+            linha.get("url"),
+        )
+        if chave not in seen:
+            seen.add(chave)
+            unicas.append(linha)
+
+    return unicas
+
+
+def exportar_json(linhas: list[dict[str, Any]], caminho: Path) -> None:
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    with caminho.open("w", encoding="utf-8") as f:
+        json.dump(linhas, f, ensure_ascii=False, indent=2)
+
+
+def exportar_excel(linhas: list[dict[str, Any]], caminho: Path) -> None:
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Links"
+
+    colunas = [
+        "anime_name",
+        "query_used",
+        "season",
+        "episode",
+        "provider_name",
+        "provider_slug",
+        "has_ads",
+        "is_embed",
+        "title",
+        "url",
+        "error",
+    ]
+
+    ws.append(colunas)
+
+    for cell in ws[1]:
+        cell.font = Font(bold=True)
+
+    for linha in linhas:
+        ws.append([linha.get(col) for col in colunas])
+
+    larguras = {
+        "A": 28,
+        "B": 24,
+        "C": 10,
+        "D": 10,
+        "E": 22,
+        "F": 22,
+        "G": 10,
+        "H": 10,
+        "I": 45,
+        "J": 90,
+        "K": 28,
+    }
+
+    for coluna, largura in larguras.items():
+        ws.column_dimensions[coluna].width = largura
+
+    wb.save(caminho)
+
+
+def exportar_m3u_por_anime(linhas: list[dict[str, Any]], pasta_saida: Path) -> None:
+    pasta_saida.mkdir(parents=True, exist_ok=True)
+
+    agrupado: dict[str, list[dict[str, Any]]] = {}
+
+    for linha in linhas:
+        anime_name = str(linha.get("anime_name") or "anime")
+        anime_file = slugify(anime_name)
+        agrupado.setdefault(anime_file, []).append(linha)
+
+    for anime_file, itens in agrupado.items():
+        caminho = pasta_saida / f"{anime_file}.m3u"
+
+        with caminho.open("w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+
+            for linha in itens:
+                if not linha_valida(linha):
+                    continue
+
+                anime_name = linha.get("anime_name", anime_file)
+                season = linha.get("season", 1)
+                episode = linha.get("episode", 1)
+                provider_name = linha.get("provider_name", "provider")
+                title = linha.get("title") or f"{anime_name} S{season}E{episode}"
+                url = linha.get("url")
+
+                display_name = f"{title} | {provider_name}"
+                group_title = f"Animes/{slugify(str(anime_name))}"
+
+                f.write(
+                    f'#EXTINF:-1 group-title="{group_title}",{display_name}\n'
+                )
+                f.write(f"{url}\n")
+
+
+def carregar_consultas_csv(caminho_csv: Path) -> list[dict[str, Any]]:
+    consultas: list[dict[str, Any]] = []
+
+    with caminho_csv.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            anime = (row.get("anime") or row.get("name") or "").strip()
+            season = row.get("season")
+            episode = row.get("episode")
+
+            if not anime or not season or not episode:
+                continue
+
+            consultas.append(
+                {
+                    "anime_name": anime,
+                    "season": int(season),
+                    "episode": int(episode),
+                }
+            )
+
+    return consultas
+
+
+def coletar_consultas_interativas() -> list[dict[str, Any]]:
+    consultas: list[dict[str, Any]] = []
+
+    print("Digite os animes para consulta.")
+    print("Quando terminar, deixe o nome vazio e pressione Enter.\n")
+
+    while True:
+        anime = input("Anime: ").strip()
+        if not anime:
+            break
+
+        season = input("Temporada: ").strip()
+        episode = input("Episódio: ").strip()
+
+        if not season.isdigit() or not episode.isdigit():
+            print("Temporada e episódio devem ser números.\n")
+            continue
+
+        consultas.append(
+            {
+                "anime_name": anime,
+                "season": int(season),
+                "episode": int(episode),
+            }
+        )
+        print("Consulta adicionada.\n")
+
+    return consultas
+
+
+def executar_consultas(
+    consultas: list[dict[str, Any]]
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    base_completa: list[dict[str, Any]] = []
+    base_valida: list[dict[str, Any]] = []
+
+    providers_habilitados = [p for p in PROVIDERS if p.get("enabled")]
+
+    if not providers_habilitados:
+        raise RuntimeError("Nenhum provider habilitado em PROVIDERS.")
+
+    for item in consultas:
+        anime_name = item["anime_name"]
+        season = item["season"]
+        episode = item["episode"]
+
+        tentativas = gerar_variacoes_titulo(anime_name)
+
+        print(
+            f"\nConsultando anime='{anime_name}' | temporada={season} | episódio={episode}"
+        )
+        print(f"Tentativas: {tentativas}")
+
+        encontrou_valido = False
+
+        for provider in providers_habilitados:
+            print(f" Provider: {provider['name']}")
+
+            for tentativa in tentativas:
+                print(f"   -> tentativa: {tentativa}")
+
+                try:
+                    payload = consultar_provider(provider, tentativa, season, episode)
+
+                    linhas = normalizar_payload_provider(
+                        payload=payload,
+                        anime_name=anime_name,
+                        tentativa=tentativa,
+                        season=season,
+                        episode=episode,
+                        provider_cfg=provider,
+                    )
+
+                    if linhas:
+                        linhas = deduplicar_linhas(linhas)
+                        base_completa.extend(linhas)
+
+                        validas = [l for l in linhas if linha_valida(l)]
+                        if validas:
+                            base_valida.extend(validas)
+                            encontrou_valido = True
+                            print(f"      sucesso: {len(validas)} link(s) válido(s)")
+                            break
+                        else:
+                            print("      retorno sem links válidos")
+                    else:
+                        print("      sem resultados")
+
+                except requests.HTTPError as e:
+                    status_code = e.response.status_code if e.response is not None else None
+
+                    if status_code == 403:
+                        erro_texto = "Provider bloqueou a requisição (403)"
+                    elif status_code == 404:
+                        erro_texto = "Conteúdo não encontrado no provider (404)"
+                    else:
+                        erro_texto = f"HTTPError {status_code}: {e}"
+
+                    base_completa.append(
+                        {
+                            "anime_name": anime_name,
+                            "query_used": tentativa,
+                            "season": season,
+                            "episode": episode,
+                            "provider_name": provider["name"],
+                            "provider_slug": provider["slug"],
+                            "has_ads": None,
+                            "is_embed": None,
+                            "title": None,
+                            "url": None,
+                            "error": erro_texto,
+                        }
+                    )
+
+                    print(f"      erro HTTP {status_code}: {erro_texto}")
+
+                except requests.RequestException as e:
+                    erro_texto = f"Erro de conexão: {e}"
+
+                    base_completa.append(
+                        {
+                            "anime_name": anime_name,
+                            "query_used": tentativa,
+                            "season": season,
+                            "episode": episode,
+                            "provider_name": provider["name"],
+                            "provider_slug": provider["slug"],
+                            "has_ads": None,
+                            "is_embed": None,
+                            "title": None,
+                            "url": None,
+                            "error": erro_texto,
+                        }
+                    )
+
+                    print(f"      {erro_texto}")
+
+                except Exception as e:
+                    erro_texto = f"Erro inesperado: {e}"
+
+                    base_completa.append(
+                        {
+                            "anime_name": anime_name,
+                            "query_used": tentativa,
+                            "season": season,
+                            "episode": episode,
+                            "provider_name": provider["name"],
+                            "provider_slug": provider["slug"],
+                            "has_ads": None,
+                            "is_embed": None,
+                            "title": None,
+                            "url": None,
+                            "error": erro_texto,
+                        }
+                    )
+
+                    print(f"      {erro_texto}")
+
+            # continua para o próximo provider, mesmo se um já tiver dado certo
+            # se quiser parar em todos após achar qualquer válido, descomente:
+            # if encontrou_valido:
+            #     break
+
+        if not encontrou_valido:
+            base_completa.append(
+                {
+                    "anime_name": anime_name,
+                    "query_used": None,
+                    "season": season,
+                    "episode": episode,
+                    "provider_name": None,
+                    "provider_slug": None,
+                    "has_ads": None,
+                    "is_embed": None,
+                    "title": None,
+                    "url": None,
+                    "error": "Nenhum provider retornou link válido",
+                }
+            )
+
+    base_completa = deduplicar_linhas(base_completa)
+    base_valida = deduplicar_linhas(base_valida)
+
+    return base_completa, base_valida
+
+
+def montar_nome_base(args: argparse.Namespace, total_consultas: int) -> str:
+    if args.output_name:
+        return slugify(args.output_name)
+    if args.anime:
+        return slugify(args.anime)
+    return f"consulta_{total_consultas}_animes"
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Consulta providers autorizados e exporta resultados."
+    )
+    parser.add_argument("--anime", type=str, help="Nome do anime")
+    parser.add_argument("--season", type=int, help="Número da temporada")
+    parser.add_argument("--episode", type=int, help="Número do episódio")
+    parser.add_argument("--csv", type=str, help="Arquivo CSV com colunas: anime,season,episode")
+    parser.add_argument("--interactive", action="store_true", help="Modo interativo")
+    parser.add_argument("--output-name", type=str, help="Nome base dos arquivos")
+
+    args = parser.parse_args()
+
+    consultas: list[dict[str, Any]] = []
+
+    if args.csv:
+        consultas = carregar_consultas_csv(Path(args.csv))
+    elif args.interactive:
+        consultas = coletar_consultas_interativas()
+    elif args.anime and args.season and args.episode:
+        consultas = [
+            {
+                "anime_name": args.anime,
+                "season": args.season,
+                "episode": args.episode,
+            }
+        ]
+    else:
+        print(
+            "Informe uma das opções:\n"
+            "1) --anime 'Naruto' --season 1 --episode 1\n"
+            "2) --csv consultas.csv\n"
+            "3) --interactive"
+        )
+        return
+
+    if not consultas:
+        print("Nenhuma consulta válida encontrada.")
+        return
+
+    nome_base = montar_nome_base(args, len(consultas))
+
+    output_json_all = OUTPUT_DIR / f"{nome_base}_completo.json"
+    output_xlsx_all = OUTPUT_DIR / f"{nome_base}_completo.xlsx"
+
+    output_json_valid = OUTPUT_DIR / f"{nome_base}_validos.json"
+    output_xlsx_valid = OUTPUT_DIR / f"{nome_base}_validos.xlsx"
+
+    output_m3u_dir = OUTPUT_DIR / f"{nome_base}_m3u_validos"
+
+    base_completa, base_valida = executar_consultas(consultas)
+
+    exportar_json(base_completa, output_json_all)
+    exportar_excel(base_completa, output_xlsx_all)
+
+    exportar_json(base_valida, output_json_valid)
+    exportar_excel(base_valida, output_xlsx_valid)
+
+    exportar_m3u_por_anime(base_valida, output_m3u_dir)
+
+    print("\nConcluído.")
+    print(f"JSON completo: {output_json_all}")
+    print(f"Excel completo: {output_xlsx_all}")
+    print(f"JSON válidos: {output_json_valid}")
+    print(f"Excel válidos: {output_xlsx_valid}")
+    print(f"M3U válidos por anime: {output_m3u_dir}")
+
+
+if __name__ == "__main__":
+    main()e
