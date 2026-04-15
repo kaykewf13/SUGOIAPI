@@ -9,7 +9,7 @@ use App\Support\Traits\SearchEngine;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\ResponseInterface;
 
-class SuperflixProvider implements MediaProviderInterface, MediaProviderPropertiesInterface, MediaProviderRulesInterface
+class SushiAnimesProviders implements MediaProviderInterface, MediaProviderPropertiesInterface, MediaProviderRulesInterface
 {
     use SearchEngine;
 
