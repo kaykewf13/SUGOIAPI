@@ -14,7 +14,7 @@ class AnimeFireProvider implements MediaProviderInterface, MediaProviderProperti
 {
     use SearchEngine;
 
-    public const BASE_URL = 'https://animefire.plus/video/';
+    public const BASE_URL = 'https://animefire.io';
 
     private array $responseData = [];
 
