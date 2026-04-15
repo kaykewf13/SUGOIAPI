@@ -54,7 +54,7 @@ PROVIDERS: list[dict[str, Any]] = [
     },
  "name": "provider_interno_4",
         "slug": "provider-interno-4”,
-        "base_url": https://sushianimes.com.br/categories/",
+        "base_url": "https://sushianimes.com.br/categories/",
         "enabled": True,
         "headers": {},
         "query_params": {},
