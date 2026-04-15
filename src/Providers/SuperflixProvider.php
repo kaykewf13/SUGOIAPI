@@ -13,7 +13,7 @@ class SuperflixProvider implements MediaProviderInterface, MediaProviderProperti
 {
     use SearchEngine;
 
-    public const BASE_URL = 'https://animeshentai.net/tag/animes-hentai/';
+    public const BASE_URL = 'https://goyabu.io/lista-de-animes?l=todos/';
 
     public const SUCCESS_SIZE_RESPONSE = 262715;
 
@@ -37,7 +37,7 @@ class SuperflixProvider implements MediaProviderInterface, MediaProviderProperti
 
     public function name(): string
     {
-        return 'animes hentai';
+        return 'animes';
     }
 
     public function baseUrl(): string
@@ -82,6 +82,6 @@ class SuperflixProvider implements MediaProviderInterface, MediaProviderProperti
 
     public function slug(): string
     {
-        return 'animeshentai';
+        return 'animes';
     }
 }
