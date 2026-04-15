@@ -12,7 +12,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font
 
 
-BASE_URL = "https://urban-space-guide-pjxvjggw54pwcr6g6-1010.app.github.dev"
+BASE_URL = "https://animefire.io" 
 TIMEOUT = 30
 OUTPUT_DIR = Path("output")
 
