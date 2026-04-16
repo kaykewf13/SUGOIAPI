@@ -34,6 +34,15 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          
+          # Adiciona os arquivos da pasta output
           git add output/
-          git commit -m "Auto-update: Links capturados [$(date +'%Y-%m-%d %H:%M')]" || echo "Sem alterações"
-          git push
+          
+          # Tenta fazer o commit; se não houver mudanças, apenas avisa
+          if git commit -m "Auto-update: Links capturados [$(date +'%Y-%m-%d %H:%M')]"; then
+            # O SEGREDO ESTÁ AQUI: Sincroniza antes de enviar
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "Nada para atualizar."
+          fi
