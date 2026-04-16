@@ -1,9 +1,0 @@
-services:
-  app:
-    image: ghcr.io/kaykewf13/sugoiapi:latest
-    container_name: sugoiapi
-    restart: unless-stopped
-    ports:
-      - "1010:1010"
-    working_dir: /app
-    command: sh -c "php bin/console cache:clear && php -S 0.0.0.0:1010 -t public/"
