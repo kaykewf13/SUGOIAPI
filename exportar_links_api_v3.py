@@ -1,11 +1,12 @@
-import requests
-import pandas as pd
-import os
-import logging
+import subprocess
 import sys
-import traceback
-from pathlib import Path
-from datetime import datetime
+# Tenta importar o pandas; se falhar, instala automaticamente
+try:
+    import pandas as pd
+except ImportError:
+    print("🛠️ Pandas não encontrado. Instalando dependências...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas", "openpyxl", "requests"])
+    import pandas as pd
 
 # =========================================================
 # 1. CONFIGURAÇÃO DE DIRETÓRIOS E LOGS
