@@ -4,16 +4,16 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Executa diariamente à meia-noite
+  workflow_dispatch: # Permite rodar manualmente pelo botão "Run workflow"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Permissão necessária para gravar os ficheiros no repositório
 
-       steps:
+    steps:
       - name: 1. Checkout do código
         uses: actions/checkout@v3
 
@@ -22,14 +22,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 3. Instalar dependências
+      - name: 3. Instalar dependências (CRÍTICO)
         run: |
           python -m pip install --upgrade pip
-          # Força a instalação das bibliotecas necessárias
           pip install pandas openpyxl requests
 
-      - name: 4. Executar Script
-        # Remova os argumentos --csv se o seu script atual não estiver preparado para recebê-los
+      - name: 4. Executar Script Python
+        # Removidos os parâmetros --csv e --output-name conforme solicitado
         run: python exportar_links_api_v3.py
 
       - name: 5. Gravar resultados no GitHub (Auto-Commit)
@@ -37,12 +36,12 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # Adiciona a pasta output inteira, independente da extensão
+          # Adiciona a pasta output inteira que o script criou
           git add output/ || echo "Pasta output não encontrada"
           
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update: Relatórios [$(date +'%Y-%m-%d %H:%M')]"
             git push
           else
-            echo "Nada para atualizar."
+            echo "Nada para atualizar hoje."
           fi
