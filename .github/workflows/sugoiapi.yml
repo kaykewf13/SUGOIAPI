@@ -33,20 +33,19 @@ jobs:
       - name: Executar script
         run: python exportar_links_api_v3.py
 
-      - name: 5. Commit e push dos resultados
+      - name: Commit and Push
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          
-          # Garante que o robô veja as mudanças remotas
-          git fetch origin main
-          
-          git add output/
-          
-          if git commit -m "Auto-update: Links [$(date +'%d-%m %H:%M')]"; then
-            # Tenta sincronizar. Se houver conflito, o robô prioriza o que ele acabou de gerar
-            git pull --rebase -X theirs origin main
-            git push origin main
-          else
-            echo "Sem alterações."
-          fi
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        
+        # Adiciona tudo o que foi gerado, inclusive se estiver na raiz ou na pasta output
+        git add . 
+        
+        # Verifica se realmente houve mudança antes de tentar o commit
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto-update: Links [$(date +'%d-%m %H:%M')]"
+          git pull --rebase -X theirs origin main
+          git push origin main
+        else
+          echo "Nenhuma mudança detectada nos arquivos gerados."
+        fi
