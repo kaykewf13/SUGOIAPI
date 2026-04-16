@@ -28,7 +28,7 @@ jobs:
           pip install pandas openpyxl requests
 
       - name: Executar Script Principal
-        run: python kaykewf13/SUGOIAPI/exportar_links_api_v3.py
+        run: python exportar_links_api_v3.py
 
       - name: Commitar e Fazer Push dos Resultados
         run: |
