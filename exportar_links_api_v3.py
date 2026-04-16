@@ -12,97 +12,83 @@ SCRIPT_DIR = Path(__file__).parent.absolute()
 OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+# Fontes que costumam ter links diretos m3u8 ou players extraíveis
 PROVIDERS = [
     {"name": "AnimesHD", "url": "https://animeshd.to/animes", "suffix": "/page/"},
-    {"name": "AnimePlayer", "url": "https://animeplayer.com.br/genero/dublado", "suffix": "/page/"},
-    {"name": "Anizero", "url": "https://anizero.org/lista-de-animes", "suffix": "?page="}
+    {"name": "Anizero", "url": "https://anizero.org/lista-de-animes", "suffix": "?page="},
+    {"name": "GitHub-AnimeList", "url": "https://github.com/search?q=anime+m3u8+playlist&type=repositories", "suffix": "&p="}
 ]
 
-def classificar_inteligente(titulo, genero_site):
-    txt = (titulo + " " + genero_site).lower()
-    
-    # Mapeamento de Categorias Balanceadas
-    regras = {
-        "Hentai": ['hentai', '18+', 'adulto', 'uncensored'],
-        "Ecchi": ['ecchi', 'borderline', 'softcore'],
-        "Seinen": ['seinen', 'adulto-jovem', 'gore'],
-        "Fantasia": ['fantasia', 'fantasy', 'isekai', 'magia', 'adventure', 'aventura'],
-        "Ação": ['ação', 'action', 'shonen', 'luta', 'battle'],
-        "Romance": ['romance', 'shoujo', 'drama', 'love'],
-        "Sci-Fi": ['sci-fi', 'mecha', 'ficção', 'cyberpunk']
-    }
-    
-    for cat, termos in regras.items():
-        if any(t in txt for t in termos):
-            return cat
+def extrair_link_direto(scraper, url_pagina):
+    """Entra na página e tenta encontrar um link .m3u8 ou .mp4 real."""
+    headers = {"User-Agent": "Mozilla/5.0"}
+    try:
+        # Busca por links m3u8 escondidos em scripts (padrão de players VOD)
+        res = scraper.get(url_pagina, headers=headers, timeout=10)
+        if res.status_code == 200:
+            # Regex para links de streaming
+            match = re.search(r'["\'](https?://[^"\']+\.(?:m3u8|mp4|ts))["\']', res.text)
+            if match:
+                return match.group(1)
             
-    return genero_site.capitalize() if genero_site else "Outros"
-
-def extrair_v4(scraper, html, provider_name):
-    soup = BeautifulSoup(html, 'html.parser')
-    items = []
-    cards = soup.select('article, .item, .element, .divCardAnime, .anime-card')
-    
-    for card in cards:
-        try:
-            link_tag = card.select_one('a')
-            if not link_tag: continue
-            
-            raw_title = link_tag.get('title') or card.get_text(" ", strip=True).split('\n')[0]
-            # Limpeza profissional de título
-            titulo_limpo = re.sub(r'^\d+\.?\d*\s*|NOVO\s*|\d{4}\s*|Assistir\s*', '', raw_title).strip()
-            
-            tipo = "Dublado" if "dublado" in raw_title.lower() or "dublado" in link_tag.get('href', '').lower() else "Legendado"
-            
-            gen_tag = card.select_one('.genres, .genero, .category, .ani_it_genre')
-            gen_site = gen_tag.get_text(strip=True).split(',')[0] if gen_tag else ""
-            
-            categoria = classificar_inteligente(titulo_limpo, gen_site)
-
-            items.append({
-                "Anime": titulo_limpo,
-                "URL": link_tag.get('href'),
-                "Imagem": card.select_one('img').get('src', '') if card.select_one('img') else "",
-                "Genero": categoria,
-                "Tipo": tipo
-            })
-        except: continue
-    return items
+            # Tenta encontrar em iframes de players populares
+            soup = BeautifulSoup(res.text, 'html.parser')
+            iframe = soup.find('iframe', src=re.compile(r'player|vidsrc|m3u8'))
+            if iframe: return iframe['src']
+    except:
+        pass
+    return None
 
 def main():
-    print(f"🚀 SUGOIAPI V4 - EXPANSÃO BALANCEADA (20 PÁGINAS)")
-    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+    print(f"🚀 INICIANDO MINERAÇÃO VOD DIRETA (.m3u8 / .mp4)")
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows'})
     todas_listas = []
 
     for p in PROVIDERS:
-        print(f"📡 Minerando {p['name']}...")
-        # Expansão para 20 páginas por provider
-        for pg in range(1, 21): 
+        print(f"📡 Buscando em: {p['name']}...")
+        for pg in range(1, 11): 
             url = f"{p['url']}{p['suffix']}{pg}" if pg > 1 else p['url']
             try:
-                time.sleep(random.uniform(1.5, 3)) # Delay otimizado para velocidade
+                time.sleep(2)
                 res = scraper.get(url, timeout=20)
                 if res.status_code == 200:
-                    dados = extrair_v4(scraper, res.text, p['name'])
-                    if not dados: break
-                    todas_listas.extend(dados)
+                    soup = BeautifulSoup(res.text, 'html.parser')
+                    # Captura cards
+                    cards = soup.select('article, .item, .divCardAnime, .repo-list-item')
+                    
+                    for card in cards:
+                        link_tag = card.select_one('a')
+                        if not link_tag: continue
+                        
+                        url_origem = link_tag.get('href')
+                        if not url_origem.startswith('http'): continue
+                        
+                        # TENTA EXTRAIR O VÍDEO REAL
+                        print(f"   🎬 Investigando: {url_origem[:40]}...")
+                        link_video = extrair_link_direto(scraper, url_origem)
+                        
+                        if link_video:
+                            todas_listas.append({
+                                "Anime": link_tag.get('title') or "Anime Encontrado",
+                                "URL": link_video,
+                                "Imagem": card.select_one('img').get('src', '') if card.select_one('img') else "",
+                                "Provider": p['name']
+                            })
                 else: break
             except: break
 
     if todas_listas:
-        df = pd.DataFrame(todas_listas).drop_duplicates(subset=['Anime', 'Tipo'])
-        df = df.sort_values(by=['Genero', 'Anime'])
-
+        df = pd.DataFrame(todas_listas).drop_duplicates(subset=['URL'])
+        
         m3u_path = OUTPUT_DIR / "playlist_premium.m3u"
         with open(m3u_path, "w", encoding="utf-8") as f:
             f.write('#EXTM3U\n\n')
             for _, row in df.iterrows():
-                grupo = row['Genero']
-                nome_exibicao = f"{row['Anime']} [{row['Tipo']}]"
-                f.write(f'#EXTINF:-1 tvg-logo="{row["Imagem"]}" group-title="{grupo}", {nome_exibicao}\n')
+                # Formato compatível com SmartOne/IBO Player
+                f.write(f'#EXTINF:-1 tvg-logo="{row["Imagem"]}" group-title="{row["Provider"]}", {row["Anime"]}\n')
                 f.write(f"{row['URL']}|User-Agent=Mozilla/5.0\n\n")
         
-        print(f"✅ Lista Premium Finalizada. Total de {len(df)} itens em categorias equilibradas.")
+        print(f"✅ Sucesso! {len(df)} links VOD diretos encontrados.")
 
 if __name__ == "__main__":
     main()
