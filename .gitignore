@@ -27,3 +27,9 @@
 ###> ide ###
 /.idea
 /.vscode
+
+###> clean output
+kaykewf13/SUGOIAPI/output/*.log
+kaykewf13/SUGOIAPI/output/*.json
+__pycache__/
+
