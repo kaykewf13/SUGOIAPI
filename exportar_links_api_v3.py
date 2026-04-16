@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-“””
-exportar_links_api_v3.py  — SUGOIAPI
-Classifica animes por gênero via AniList API com cache local.
-Suporta conteúdo adulto (Hentai / Ecchi).
-“””
 import re, json, time, shutil, urllib.request, cloudscraper
 from pathlib import Path
 from collections import defaultdict
@@ -24,16 +19,16 @@ LIVE_TERMS = {“TV”,“LIVE”,“24/7”,“ONLINE”,“AO VIVO”,“CANAL
 GENRE_MAP = {
 “Hentai”:        “HENTAI”,
 “Ecchi”:         “ECCHI”,
-“Action”:        “AÇÃO”,
+“Action”:        “ACAO”,
 “Adventure”:     “AVENTURA”,
-“Comedy”:        “COMÉDIA”,
+“Comedy”:        “COMEDIA”,
 “Drama”:         “DRAMA”,
 “Fantasy”:       “FANTASIA”,
 “Horror”:        “TERROR”,
-“Mystery”:       “MISTÉRIO”,
-“Psychological”: “PSICOLÓGICO”,
+“Mystery”:       “MISTERIO”,
+“Psychological”: “PSICOLOGICO”,
 “Romance”:       “ROMANCE”,
-“Sci-Fi”:        “FICÇÃO CIENTÍFICA”,
+“Sci-Fi”:        “FICCAO CIENTIFICA”,
 “Slice of Life”: “SLICE OF LIFE”,
 “Sports”:        “ESPORTES”,
 “Supernatural”:  “SOBRENATURAL”,
@@ -42,8 +37,6 @@ GENRE_MAP = {
 “Music”:         “MUSICAL”,
 }
 
-# Hentai e Ecchi primeiro — evita que caiam em outro gênero
-
 PRIORITY = [
 “Hentai”, “Ecchi”,
 “Action”, “Fantasy”, “Sci-Fi”, “Horror”, “Psychological”,
@@ -51,19 +44,13 @@ PRIORITY = [
 “Slice of Life”, “Drama”, “Adventure”, “Supernatural”, “Mecha”, “Music”,
 ]
 
-# ── Cache ──────────────────────────────────────────────────────────────────
-
 def load_cache():
 return json.loads(CACHE_FILE.read_text(“utf-8”)) if CACHE_FILE.exists() else {}
 
 def save_cache(c):
 CACHE_FILE.write_text(json.dumps(c, ensure_ascii=False, indent=2), “utf-8”)
 
-# ── AniList ────────────────────────────────────────────────────────────────
-
-# isAdult:null retorna todos os títulos, incluindo conteúdo adulto
-
-GQL = ‘query($s:String){Media(search:$s,type:ANIME,isAdult:null){genres}}’
+GQL = “query($s:String){Media(search:$s,type:ANIME,isAdult:null){genres}}”
 
 def fetch_genres(title):
 data = json.dumps({“query”: GQL, “variables”: {“s”: title}}).encode()
@@ -75,7 +62,7 @@ method=“POST”,
 try:
 with urllib.request.urlopen(req, timeout=8) as r:
 return json.loads(r.read()).get(“data”, {}).get(“Media”, {}).get(“genres”, [])
-except:
+except Exception:
 return []
 
 def pick_genre(genres):
@@ -84,11 +71,9 @@ if g in genres:
 return GENRE_MAP.get(g, g.upper())
 return GENRE_MAP.get(genres[0], genres[0].upper()) if genres else “OUTROS”
 
-# ── Título limpo para busca ────────────────────────────────────────────────
-
 STRIP = [
 r”[.*?]”, r”(.*?)”,
-r”\s[-–]\s?\d+.*$”,
+r”\s[-]\s?\d+.*$”,
 r”\bS\d{1,2}E\d{1,2}\b.*$”,
 r”\b(ep|episode).?\s?\d+.*$”,
 r”\b(dublado|legendado|dub|sub|leg)\b”,
@@ -107,10 +92,8 @@ if not key:
 return “OUTROS”
 if key not in cache:
 cache[key] = pick_genre(fetch_genres(key))
-time.sleep(0.6)   # rate limit AniList ~90 req/min
+time.sleep(0.6)
 return cache[key]
-
-# ── Fontes M3U ────────────────────────────────────────────────────────────
 
 def fetch_sources(scraper):
 entries, seen = [], set()
@@ -118,7 +101,7 @@ for url in SOURCES:
 try:
 res = scraper.get(url, timeout=15)
 if res.status_code != 200:
-print(f”  [SKIP] {url} → {res.status_code}”)
+print(”  [SKIP] “ + url + “ -> “ + str(res.status_code))
 continue
 matches = re.findall(r”#EXTINF:.*?,(.*?)\n(https?://\S+)”, res.text, re.DOTALL)
 added = 0
@@ -129,35 +112,31 @@ continue
 seen.add(link)
 entries.append({“nome”: nome, “url”: link})
 added += 1
-print(f”  [OK] {url} → {added} entradas”)
+print(”  [OK] “ + url + “ -> “ + str(added) + “ entradas”)
 except Exception as e:
-print(f”  [ERRO] {url}: {e}”)
+print(”  [ERRO] “ + url + “: “ + str(e))
 return entries
-
-# ── M3U ───────────────────────────────────────────────────────────────────
 
 NOISE = re.compile(r”[(1080p?|720p?|480p?|4K|HDR|x264|x265|HEVC|AAC|BluRay|WEB-?DL)]”, re.I)
 
 def build_m3u(entries, cache):
-lines = [’#EXTM3U x-tvg-url=”” m3u-type=“m3u_plus”\n\n’]
+lines = [”#EXTM3U x-tvg-url="" m3u-type="m3u_plus"\n\n”]
 stats, total = defaultdict(int), len(entries)
 for i, e in enumerate(entries, 1):
 genre = resolve_genre(e[“nome”], cache)
-group = f”ANIMES | {genre}”
+group = “ANIMES | “ + genre
 nome  = re.sub(r”\s{2,}”, “ “, NOISE.sub(””, e[“nome”])).strip()
 tid   = re.sub(r”[^\w]”, “_”, nome.lower())[:40]
 lines.append(
-f’#EXTINF:-1 tvg-id=”{tid}” tvg-name=”{nome}” ’
-f’tvg-logo=”” group-title=”{group}”, {nome}\n’
-f’{e[“url”]}?output=ts\n\n’
+“#EXTINF:-1 tvg-id="” + tid + “" tvg-name="” + nome + “" “
+“tvg-logo="" group-title="” + group + “", “ + nome + “\n”
++ e[“url”] + “?output=ts\n\n”
 )
 stats[group] += 1
 if i % 50 == 0:
 save_cache(cache)
-print(f”  [{i}/{total}] processados…”)
+print(”  [” + str(i) + “/” + str(total) + “] processados…”)
 return “”.join(lines), dict(stats)
-
-# ── Main ──────────────────────────────────────────────────────────────────
 
 def main():
 if OUTPUT_DIR.exists():
@@ -166,7 +145,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ```
 print("\n" + "="*55)
-print("  SUGOIAPI — Gêneros via AniList (+ adulto)")
+print("  SUGOIAPI - Generos via AniList (+ adulto)")
 print("="*55 + "\n")
 
 cache   = load_cache()
@@ -174,19 +153,19 @@ scraper = cloudscraper.create_scraper()
 
 print("[1/3] Buscando fontes...\n")
 entries = fetch_sources(scraper)
-print(f"\n  {len(entries)} entradas | {len(cache)} no cache\n")
+print("\n  " + str(len(entries)) + " entradas | " + str(len(cache)) + " no cache\n")
 
-print("[2/3] Classificando por gênero...\n")
+print("[2/3] Classificando por genero...\n")
 m3u, stats = build_m3u(entries, cache)
 save_cache(cache)
 
 out = OUTPUT_DIR / "playlist_premium.m3u"
 out.write_text(m3u, encoding="utf-8")
 
-print("\n[3/3] Por gênero:\n")
+print("\n[3/3] Por genero:\n")
 for g, c in sorted(stats.items(), key=lambda x: -x[1]):
-    print(f"  {c:>5}  {g}")
-print(f"\n  Total: {sum(stats.values())} → {out}\n" + "="*55 + "\n")
+    print("  " + str(c).rjust(5) + "  " + g)
+print("\n  Total: " + str(sum(stats.values())) + " -> " + str(out) + "\n" + "="*55 + "\n")
 ```
 
 if **name** == “**main**”:
