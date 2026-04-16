@@ -1,66 +1,37 @@
-name: Executar SUGOIAPI VOD e Gravar Resultados
+import sys
+import logging
+import traceback
+from pathlib import Path
 
-on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 0 * * *' # Executa diariamente à meia-noite (UTC)
-  workflow_dispatch: # Permite execução manual pelo botão "Run workflow"
+# ... (seus outros imports: requests, pandas, etc)
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write # Permissão crucial para gravar ficheiros no repositório
+# 1. Configuração Robusta de Diretórios
+SCRIPT_DIR = Path(__file__).parent.absolute()
+OUTPUT_DIR = SCRIPT_DIR / "output"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    steps:
-      - name: Checkout do código
-        uses: actions/checkout@v3
+LOG_FILE = OUTPUT_DIR / "saude_providers.log"
 
-      - name: Configurar Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+logging.basicConfig(
+    filename=str(LOG_FILE),
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    encoding='utf-8'
+)
 
-      - name: Instalar Dependências
-        run: |
-          python -m pip install --upgrade pip
-          pip install pandas openpyxl requests
-
-      - name: Listar Estrutura de Pastas (Debug)
-        run: ls -R
-
-      - name: Executar Script Principal
-        run: |
-          # Procura o ficheiro dinamicamente para evitar erro de caminho
-          SCRIPT_PATH=$(find . -name "exportar_links_api_v3.py" | head -n 1)
-          if [ -z "$SCRIPT_PATH" ]; then
-            echo "❌ Erro: Ficheiro exportar_links_api_v3.py não encontrado no repositório!"
-            exit 1
-          fi
-          python "$SCRIPT_PATH"
-
-      - name: Commitar e Fazer Push dos Resultados
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
-          # Procura a pasta output onde quer que ela tenha sido criada
-          OUTPUT_DIR=$(find . -type d -name "output" | head -n 1)
-          
-          if [ -n "$OUTPUT_DIR" ]; then
-            git add "$OUTPUT_DIR"/*.csv || echo "Sem CSV"
-            git add "$OUTPUT_DIR"/*.xlsx || echo "Sem XLSX"
-            git add "$OUTPUT_DIR"/*.m3u || echo "Sem M3U"
-            
-            # Só faz commit se houver alterações reais
-            if [ -n "$(git status --porcelain)" ]; then
-              git commit -m "Auto-update: Relatórios e Playlist [$(date +'%Y-%m-%d %H:%M')]"
-              git push
-            else
-              echo "Nada de novo para commitar."
-            fi
-          else
-            echo "❌ Erro: Pasta output não foi gerada pelo script Python."
-            exit 1
-          fi
+# 2. Execução Protegida
+if __name__ == "__main__":
+    try:
+        print("🚀 Iniciando processamento...")
+        # CHAME SUA FUNÇÃO PRINCIPAL AQUI (ex: main())
+        # main() 
+        print("✅ Script finalizado com sucesso.")
+        
+    except Exception as e:
+        print(f"❌ ERRO CRÍTICO ENCONTRADO: {e}")
+        # Isso imprime o rastro do erro no log do GitHub Actions
+        traceback.print_exc() 
+        logging.error(f"Erro fatal: {traceback.format_exc()}")
+        # Encerra com código 1 para o GitHub saber que falhou, 
+        # mas agora com uma mensagem clara no console.
+        sys.exit(1) 
