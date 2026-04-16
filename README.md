@@ -2,6 +2,26 @@
 
 Fork personalizado da SugoiAPI para organização de catálogo, manutenção de fontes e execução via Docker.
 
+# Anime VOD Intelligence Scraper 🎬
+
+Script avançado para automação de listas M3U8 focadas em animes, com categorização inteligente e gestão de saúde de links.
+
+## ✨ Funcionalidades
+- **Categorização Automática:** Separa Filmes/Séries e Dublado/Legendado.
+- **Priorização de Qualidade:** Seleciona automaticamente o melhor link (1080p > 720p).
+- **Auto-Health Check:** Valida links e remove "mortos" após 3 falhas.
+- **Cache Inteligente:** Evita bloqueios (403) reutilizando links válidos por 6h.
+
+## 🛠️ Como Configurar
+1. Altere a lista `PROVIDERS` no ficheiro `main.py` com as URLs dos seus sites.
+2. Instale as dependências: `pip install -r requirements.txt`.
+3. Execute: `python main.py`.
+
+## 📂 Saídas
+- `vod_animes_final.m3u`: Lista pronta para VLC, IPTV Smarters, etc.
+- `saude_providers.log`: Registo técnico de falhas e bloqueios.
+
+
 ## Instalação
 
 Clone este repositório:
