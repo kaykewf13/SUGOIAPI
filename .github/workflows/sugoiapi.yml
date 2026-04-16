@@ -30,19 +30,16 @@ jobs:
       - name: Executar script
         run: python exportar_links_api_v3.py
 
-      - name: Commit e push dos resultados
+      - name: 5. Commit e push dos resultados
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           
-          # Adiciona os arquivos da pasta output
           git add output/
           
-          # Tenta fazer o commit; se não houver mudanças, apenas avisa
-          if git commit -m "Auto-update: Links capturados [$(date +'%Y-%m-%d %H:%M')]"; then
-            # O SEGREDO ESTÁ AQUI: Sincroniza antes de enviar
+          if git commit -m "Auto-update: Links [$(date +'%d-%m %H:%M')]"; then
             git pull --rebase origin main
             git push origin main
           else
-            echo "Nada para atualizar."
+            echo "Sem alterações para salvar."
           fi
