@@ -38,3 +38,7 @@
 2026-04-16 03:58:44,970 - WARNING - Provider Provider-Anime2 retornou status 403
 2026-04-16 03:58:45,657 - INFO - Sucesso ao acessar Provider-Anime3
 2026-04-16 03:58:45,803 - WARNING - Provider Provider-Anime4 retornou status 403
+2026-04-16 04:01:14,544 - WARNING - AVISO [403]: Provider-Anime1
+2026-04-16 04:01:16,629 - WARNING - AVISO [403]: Provider-Anime2
+2026-04-16 04:01:19,323 - INFO - SUCESSO [200]: Provider-Anime3
+2026-04-16 04:01:21,477 - WARNING - AVISO [403]: Provider-Anime4
