@@ -1,35 +1,55 @@
 import requests
 import pandas as pd
 import os
-import logging  # Adicione este import que estava faltando
+import logging  # Essencial para não dar erro no basicConfig
+import sys      # Necessário para o sys.exit()
+import traceback # Para te mostrar o erro exato no log do GitHub
 from pathlib import Path
-from datetime import datetime # Corrigido: era 'datetime', não 'date time'
+from datetime import datetime
 
 # =========================================================
-# CONFIGURAÇÃO DE DIRETÓRIOS (DINÂMICO PARA GITHUB/LOCAL)
+# CONFIGURAÇÃO DE DIRETÓRIOS (kaykewf13/SUGOIAPI/output)
 # =========================================================
 
-# 1. Detecta onde o script está (raiz do repo ou subpasta)
+# Detecta o caminho onde o script está rodando
 SCRIPT_DIR = Path(__file__).parent.absolute()
-
-# 2. Define a saída SEMPRE relativa ao script para o Git não se perder
-# Isso resolve o erro de 'No such file or directory'
 OUTPUT_DIR = SCRIPT_DIR / "output"
 
-# 3. Cria a pasta (parents=True garante que kaykewf13/SUGOIAPI sejam criadas se necessário)
+# Cria a pasta de saída (parents=True evita erros de diretório pai inexistente)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# 4. Define os arquivos técnicos dentro da pasta correta
 CACHE_FILE = OUTPUT_DIR / "vod_cache_db.json"
 LOG_FILE = OUTPUT_DIR / "saude_providers.log"
 
-# Configuração de Log de Erros e Saúde
+# Configuração de Log - Agora com o import correto
 logging.basicConfig(
-    filename=str(LOG_FILE), # str() garante compatibilidade com o logging
+    filename=str(LOG_FILE),
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     encoding='utf-8'
 )
+
+# =========================================================
+# EXECUÇÃO PROTEGIDA (O SEU ESCUDO)
+# =========================================================
+
+def main():
+    # Insira aqui sua lógica de busca e exportação
+    # Exemplo: df.to_excel(OUTPUT_DIR / "report.xlsx")
+    print("🚀 Processando links...")
+    pass
+
+if __name__ == "__main__":
+    try:
+        main()
+        print("✅ Script concluído com sucesso!")
+    except Exception as e:
+        print("\n❌ --- ERRO IDENTIFICADO ---")
+        print(f"Tipo do Erro: {type(e).__name__}")
+        print(f"Mensagem: {e}")
+        print("\n--- RASTRO DO ERRO (TRACEBACK) ---")
+        traceback.print_exc() 
+        sys.exit(1) # Informa ao GitHub que houve erro, mas mostra qual foi acima
 
 # =========================================================
 # CONFIGURAÇÃO DE PROVIDERS (4 ESPAÇOS DEFINIDOS)
