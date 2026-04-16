@@ -1,26 +1,31 @@
 import requests
-import re
-import concurrent.futures
-import json
-import logging
-import time
 import pandas as pd
-from urllib.parse import urljoin
+import os
+import logging  # Adicione este import que estava faltando
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime # Corrigido: era 'datetime', não 'date time'
 
 # =========================================================
-# CONFIGURAÇÃO DE DIRETÓRIOS (kaykewf13/SUGOIAPI/output)
+# CONFIGURAÇÃO DE DIRETÓRIOS (DINÂMICO PARA GITHUB/LOCAL)
 # =========================================================
-BASE_OUTPUT_DIR = Path("kaykewf13/SUGOIAPI/output")
-BASE_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-CACHE_FILE = BASE_OUTPUT_DIR / "vod_cache_db.json"
-LOG_FILE = BASE_OUTPUT_DIR / "saude_providers.log"
+# 1. Detecta onde o script está (raiz do repo ou subpasta)
+SCRIPT_DIR = Path(__file__).parent.absolute()
+
+# 2. Define a saída SEMPRE relativa ao script para o Git não se perder
+# Isso resolve o erro de 'No such file or directory'
+OUTPUT_DIR = SCRIPT_DIR / "output"
+
+# 3. Cria a pasta (parents=True garante que kaykewf13/SUGOIAPI sejam criadas se necessário)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# 4. Define os arquivos técnicos dentro da pasta correta
+CACHE_FILE = OUTPUT_DIR / "vod_cache_db.json"
+LOG_FILE = OUTPUT_DIR / "saude_providers.log"
 
 # Configuração de Log de Erros e Saúde
 logging.basicConfig(
-    filename=LOG_FILE,
+    filename=str(LOG_FILE), # str() garante compatibilidade com o logging
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     encoding='utf-8'
