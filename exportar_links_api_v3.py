@@ -113,17 +113,17 @@ def exportar_dados_finais(dados_validados):
     df = pd.DataFrame(dados_validados)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     
-    csv_path = BASE_OUTPUT_DIR / f"report_vod_{timestamp}.csv"
-    xlsx_path = BASE_OUTPUT_DIR / f"report_vod_{timestamp}.xlsx"
+    csv_path = OUTPUT_DIR / f"report_vod_{timestamp}.csv"
+    xlsx_path = OUTPUT_DIR / f"report_vod_{timestamp}.xlsx"
 
     df.to_csv(csv_path, index=False, encoding='utf-8-sig')
     df.to_excel(xlsx_path, index=False)
     
-    print(f"📊 Relatórios salvos em: {BASE_OUTPUT_DIR}")
+    print(f"📊 Relatórios salvos em: {OUTPUT_DIR}")
 
 def gerar_playlist_m3u(dados_validados):
     """Gera a playlist organizada por categorias VOD."""
-    m3u_path = BASE_OUTPUT_DIR / "playlist_vod_final.m3u"
+    m3u_path = OUTPUT_DIR / "playlist_vod_final.m3u"
     
     with open(m3u_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
@@ -141,7 +141,7 @@ def gerar_playlist_m3u(dados_validados):
 # =========================================================
 
 def main():
-    print(f"🚀 Iniciando SUGOIAPI VOD - Output: {BASE_OUTPUT_DIR}")
+    print(f"🚀 Iniciando SUGOIAPI VOD - Output: {OUTPUT_DIR}")
     
     # Exemplo de fluxo:
     # 1. Scraping de links dos 4 providers (Discovery)
