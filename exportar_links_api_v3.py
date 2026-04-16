@@ -32,9 +32,14 @@ PRIORITY = [
 ‘Sports’, ‘Slice of Life’, ‘Drama’, ‘Adventure’, ‘Supernatural’,
 ‘Mecha’, ‘Music’,
 ]
-
 def load_cache():
-return json.loads(CACHE_FILE.read_text(‘utf-8’)) if CACHE_FILE.exists() else {}
+    if not CACHE_FILE.exists():
+        return {}
+    try:
+        content = CACHE_FILE.read_text('utf-8').strip()
+        return json.loads(content) if content else {}
+    except Exception:
+        return {}
 
 def save_cache(c):
 CACHE_FILE.write_text(json.dumps(c, ensure_ascii=False, indent=2), ‘utf-8’)
