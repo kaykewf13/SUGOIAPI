@@ -33,19 +33,15 @@ jobs:
       - name: Executar script
         run: python exportar_links_api_v3.py
 
-      - name: Commit and Push
-        run: |
+           - name: Commit and Push
+      run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
-        
-        # Adiciona tudo o que foi gerado, inclusive se estiver na raiz ou na pasta output
-        git add . 
-        
-        # Verifica se realmente houve mudança antes de tentar o commit
+        git add .
         if ! git diff --cached --quiet; then
           git commit -m "Auto-update: Links [$(date +'%d-%m %H:%M')]"
           git pull --rebase -X theirs origin main
           git push origin main
         else
-          echo "Nenhuma mudança detectada nos arquivos gerados."
+          echo "Sem alterações."
         fi
