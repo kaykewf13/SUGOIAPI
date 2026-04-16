@@ -4,6 +4,7 @@ import traceback
 import pandas as pd
 import cloudscraper
 import time
+import random
 from pathlib import Path
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -14,121 +15,90 @@ OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 HEADERS_CHROME = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Referer": "https://www.google.com/"
+    "Referer": "https://www.google.com/",
+    "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
 }
 
 PROVIDERS = [
-    {"name": "AnimeFire", "base_url": "https://animefire.net/lista-de-animes/", "suffix": "page/"},
-    {"name": "AnimesOnline", "base_url": "https://animesonlinecc.to/anime/", "suffix": "page/"},
-    {"name": "Goyabu", "base_url": "https://goyabu.com/lista-de-animes/", "suffix": "page/"},
-    {"name": "SushiAnimes", "base_url": "https://sushianimes.com.br/lista-de-animes/", "suffix": "page/"}
+    {"name": "AniZero", "url": "https://anizero.org/animes", "suffix": "?page="},
+    {"name": "AnimesOnlineClub", "url": "https://animesonlineclub.net/lista-de-animes", "suffix": "/page/"},
+    {"name": "AnimesHD", "url": "https://animeshd.to/animes", "suffix": "/page/"},
+    {"name": "AnimesComix", "url": "https://animescomix.tv/lista-de-animes", "suffix": "/page/"},
+    {"name": "AnimeFLV", "url": "https://m.animeflv.net/browse", "suffix": "&page="},
+    {"name": "Aniture", "url": "https://aniture-pt.com.br/animes", "suffix": "/page/"},
+    {"name": "TopAnimes", "url": "https://topanimes.net/lista-de-animes", "suffix": "/page/"},
+    {"name": "AnimePlayer-Dub", "url": "https://animeplayer.com.br/genero/dublado", "suffix": "/page/"},
+    {"name": "AnimesOnlineCloud", "url": "https://animesonline.cloud/animes", "suffix": "/page/"},
+    {"name": "Goyabu", "url": "https://goyabu.com/lista-de-animes", "suffix": "/page/"}
 ]
 
-def extrair_dados_site(html, provider_name):
-    """Extrai Título, Link, Imagem e Gêneros."""
+def extrair_universal(html, provider_name):
     soup = BeautifulSoup(html, 'html.parser')
     items = []
     
-    # Identifica os containers de anime (comum em layouts de grid)
-    articles = soup.find_all(['article', 'div'], class_=['item', 'element', 'ani_it', 'vosty', 'ep_item'])
+    # Busca por qualquer elemento que pareça um card de anime
+    cards = soup.select('article, .item, .element, .ani_it, .vosty, .ep_item, .divCardAnime, .anime-card')
     
-    for art in articles:
+    for card in cards:
         try:
-            link_tag = art.find('a')
-            img_tag = art.find('img')
-            # Busca gêneros em tags menores (span ou div dentro do card)
-            genre_tags = art.find_all(['span', 'div'], class_=['genres', 'genero', 'cat'])
-            generos = ", ".join([g.get_text(strip=True) for g in genre_tags]) if genre_tags else "N/A"
+            link_tag = card.select_one('a')
+            if not link_tag: continue
             
-            if link_tag:
-                titulo = link_tag.get('title') or art.get_text(strip=True).split('\n')[0]
-                link = link_tag.get('href')
-                # Tenta pegar a imagem de diferentes atributos (lazy loading comum)
-                imagem = img_tag.get('data-src') or img_tag.get('src') if img_tag else "Sem Imagem"
-                
-                if titulo and link:
-                    items.append({
-                        "Anime": titulo.strip(),
-                        "URL": link,
-                        "Imagem_Capa": imagem,
-                        "Gêneros": generos,
-                        "Provider": provider_name,
-                        "Data_Extração": datetime.now().strftime("%d/%m/%Y")
-                    })
-        except:
-            continue
+            href = link_tag.get('href')
+            titulo = link_tag.get('title') or card.get_text(strip=True).split('\n')[0]
+            
+            img_tag = card.select_one('img')
+            imagem = "Sem Imagem"
+            if img_tag:
+                imagem = img_tag.get('data-src') or img_tag.get('src') or img_tag.get('data-lazy-src') or "Sem Imagem"
+
+            if titulo and href:
+                items.append({
+                    "Anime": titulo.strip()[:120],
+                    "URL": href if href.startswith('http') else f"{provider_name}_link_relativo",
+                    "Imagem": imagem,
+                    "Tipo": "Dublado" if "dublado" in titulo.lower() or "dublado" in href.lower() else "Legendado",
+                    "Provider": provider_name,
+                    "Data": datetime.now().strftime("%d/%m/%Y")
+                })
+        except: continue
     return items
 
-def buscar_links_profundo():
-    resultados = []
-    # Inicializa o scraper anti-bloqueio
+def main():
     scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+    todas_listas = []
     
-    MAX_PAGINAS = 50 
+    PAGINAS_POR_PROVIDER = 10 
 
     for p in PROVIDERS:
-        print(f"🚀 Varredura Profunda: {p['name']}")
-        
-        for pagina in range(1, MAX_PAGINAS + 1):
-            url = f"{p['base_url']}{p['suffix']}{pagina}/" if pagina > 1 else p['base_url']
+        print(f"📡 Varrendo: {p['name']}")
+        for pg in range(1, PAGINAS_POR_PROVIDER + 1):
+            url = f"{p['url']}{p['suffix']}{pg}" if pg > 1 else p['url']
             
             try:
-                print(f"   📄 Lendo página {pagina} de {MAX_PAGINAS}...", end="\r")
-                response = scraper.get(url, headers=HEADERS_CHROME, timeout=20)
+                time.sleep(random.uniform(2, 4))
+                res = scraper.get(url, headers=HEADERS_CHROME, timeout=25)
                 
-                if response.status_code == 200:
-                    encontrados = extrair_dados_site(response.text, p['name'])
-                    if not encontrados:
-                        print(f"\n   ⚠️ Sem novos dados na página {pagina}. Finalizando {p['name']}.")
-                        break
-                    
-                    resultados.extend(encontrados)
+                if res.status_code == 200:
+                    dados = extrair_universal(res.text, p['name'])
+                    if not dados: break
+                    todas_listas.extend(dados)
+                    print(f"   ✅ Pg {pg}: {len(dados)} encontrados.")
                 else:
-                    print(f"\n   🛑 Status {response.status_code} na página {pagina}.")
+                    print(f"   🛑 Status {res.status_code} na pg {pg}")
                     break
-                
-                # Delay curto para evitar sobrecarga e bloqueio de IP
-                time.sleep(1.2) 
-                
             except Exception as e:
-                print(f"\n   ❌ Erro de conexão: {e}")
+                print(f"   ❌ Erro: {str(e)[:50]}")
                 break
-        print(f"\n   ✅ Total parcial: {len(resultados)} itens.")
 
-    return resultados
-
-def main():
-    print(f"📡 SUGOIAPI V3 - Módulo de Extração Visual")
-    print("-" * 40)
-    
-    lista_completa = buscar_links_profundo()
-    
-    if not lista_completa:
-        print("❌ Nenhuma informação foi capturada. Verifique as URLs dos Providers.")
-        return
-
-    df = pd.DataFrame(lista_completa)
-    
-    # Limpeza: Remove animes duplicados entre páginas do mesmo provider
-    df = df.drop_duplicates(subset=['Anime', 'Provider'])
-
-    # Geração dos Arquivos
-    csv_out = OUTPUT_DIR / "catalogo_visual_premium.csv"
-    xlsx_out = OUTPUT_DIR / "catalogo_visual_premium.xlsx"
-
-    df.to_csv(csv_out, index=False, encoding='utf-8-sig')
-    df.to_excel(xlsx_out, index=False)
-    
-    print("-" * 40)
-    print(f"✨ Missão Cumprida!")
-    print(f"📊 Total de Animes Únicos: {len(df)}")
-    print(f"📁 Arquivos salvos em: {OUTPUT_DIR}")
+    if todas_listas:
+        df = pd.DataFrame(todas_listas)
+        df = df.drop_duplicates(subset=['Anime', 'Provider'])
+        df.to_csv(OUTPUT_DIR / "catalogo_global.csv", index=False, encoding='utf-8-sig')
+        df.to_excel(OUTPUT_DIR / "catalogo_global.xlsx", index=False)
+        print(f"✨ Sucesso! {len(df)} animes catalogados.")
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        traceback.print_exc()
-        sys.exit(1)
+    main()
