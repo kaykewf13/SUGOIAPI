@@ -4,20 +4,21 @@ import concurrent.futures
 import json
 import logging
 import time
+import pandas as pd
 from urllib.parse import urljoin
 from pathlib import Path
 from datetime import datetime
 
 # =========================================================
-# CONFIGURAÇÕES E CONSTANTES
+# CONFIGURAÇÃO DE DIRETÓRIOS (kaykewf13/SUGOIAPI/output)
 # =========================================================
-MAX_WORKERS = 15
-TIMEOUT_HEAD = 5
-EXPIRATION_LIMIT_HOURS = 6  # TTL dos links no cache
-CACHE_FILE = Path("vod_cache_db.json")
-LOG_FILE = Path("saude_providers.log")
+BASE_OUTPUT_DIR = Path("kaykewf13/SUGOIAPI/output")
+BASE_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Configuração de Logs
+CACHE_FILE = BASE_OUTPUT_DIR / "vod_cache_db.json"
+LOG_FILE = BASE_OUTPUT_DIR / "saude_providers.log"
+
+# Configuração de Log de Erros e Saúde
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
@@ -25,49 +26,48 @@ logging.basicConfig(
     encoding='utf-8'
 )
 
-# [DESTAQUE] ALTERE OS SITES ABAIXO
+# =========================================================
+# CONFIGURAÇÃO DE PROVIDERS (4 ESPAÇOS DEFINIDOS)
+# =========================================================
 PROVIDERS = [
     {
         "name": "Provider-Anime1",
-        "base_url": "https://animefire.io/animes/", 
+        "base_url": "https://animefire.io/animes/",
         "enabled": True,
         "headers": {"User-Agent": "VLC/3.0.18"}
     },
-  {
-        "name": "Provider-Anime2",
-        "base_url": "https://animesonlinecc.to/anime/", 
+    {
+       "name": "Provider-Anime2",
+        "base_url": "https://animesonlinecc.to/anime/",        
         "enabled": True,
         "headers": {"User-Agent": "VLC/3.0.18"}
     },
-  {
+    {
         "name": "Provider-Anime3",
-        "base_url": "https://goyabu.io/lista-de-animes?l=todos/", 
+        "base_url": "https://goyabu.io/lista-de-animes?l=todos/",
         "enabled": True,
         "headers": {"User-Agent": "VLC/3.0.18"}
     },
-  
-  {
+    {
         "name": "Provider-Anime4",
-        "base_url": "https://sushianimes.com.br/categories/", 
+        "base_url": "https://sushianimes.com.br/categories/",
         "enabled": True,
         "headers": {"User-Agent": "VLC/3.0.18"}
     }
 ]
 
-MEDIA_EXTENSIONS = {".mp4", ".m3u8", ".mkv", ".webm", ".ts"}
-
 # =========================================================
-# NÚCLEO DE INTELIGÊNCIA E VALIDAÇÃO
+# FUNÇÕES DE PROCESSAMENTO E EXPORTAÇÃO
 # =========================================================
 
 def validar_link_midia(url, headers):
-    """Verifica se a URL é um vídeo real e extrai a resolução."""
+    """Verifica integridade e resolução do vídeo."""
     try:
-        res = requests.head(url, headers=headers, timeout=TIMEOUT_HEAD, allow_redirects=True)
+        res = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
         content_type = res.headers.get("Content-Type", "").lower()
         
         if any(t in content_type for t in ["video", "mpegurl", "bitstream"]):
-            # Extração de Resolução via Regex
+            # Busca resolução (1080p, 720p, etc)
             match = re.search(r'(1080p|720p|480p)', url.lower())
             return {
                 "url": url, 
@@ -77,78 +77,54 @@ def validar_link_midia(url, headers):
                 "fail_count": 0
             }
     except Exception as e:
-        logging.error(f"Falha ao validar {url}: {e}")
+        logging.error(f"Erro ao validar {url}: {e}")
     return {"url": url, "valid": False}
 
-def gerenciar_cache(resultados_novos):
-    """Carrega, limpa e atualiza o banco de dados local de links."""
-    cache = {}
-    if CACHE_FILE.exists():
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            cache = json.load(f)
+def exportar_dados_finais(dados_validados):
+    """Gera CSV e XLSX na pasta de output definida."""
+    if not dados_validados:
+        return
 
-    agora = time.time()
-    for item in resultados_novos:
-        url = item['url']
-        # Se o link já existe e não expirou, mantém. Caso contrário, atualiza.
-        if url not in cache or (agora - cache[url].get('timestamp', 0)) > (EXPIRATION_LIMIT_HOURS * 3600):
-            cache[url] = item
-
-    # Limpeza: Remove itens com mais de 3 falhas seguidas
-    cache = {u: d for u, d in cache.items() if d.get('fail_count', 0) < 3}
+    df = pd.DataFrame(dados_validados)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, indent=2, ensure_ascii=False)
-    return cache
+    csv_path = BASE_OUTPUT_DIR / f"report_vod_{timestamp}.csv"
+    xlsx_path = BASE_OUTPUT_DIR / f"report_vod_{timestamp}.xlsx"
 
-# =========================================================
-# GERAÇÃO DE PLAYLIST VOD (M3U8)
-# =========================================================
-
-def gerar_playlist_vod(cache_data):
-    """Cria a lista M3U8 organizada por Categorias (Dub/Leg e Filme/Série)."""
-    priorizados = {}
+    df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+    df.to_excel(xlsx_path, index=False)
     
-    for url, dados in cache_data.items():
-        nome = dados.get('anime_name', 'Anime Desconhecido')
-        
-        # Lógica de Categorização
-        is_dub = any(x in nome.lower() for x in ["dub", "dublado", "(dub)"])
-        idioma = "DUBLADO" if is_dub else "LEGENDADO"
-        is_filme = any(x in nome.lower() for x in ["movie", "filme", "longa"])
-        categoria = f"{'FILMES' if is_filme else 'SÉRIES'} DE ANIMES ({idioma})"
-        
-        chave = (nome, categoria)
-        rank = {"1080P": 3, "720P": 2, "480P": 1, "SD": 0}
-        
-        # Priorização de Qualidade: Mantém apenas o melhor link por título/categoria
-        if chave not in priorizados or rank.get(dados['res'], 0) > rank.get(priorizados[chave]['res'], 0):
-            priorizados[chave] = {**dados, "categoria": categoria}
+    print(f"📊 Relatórios salvos em: {BASE_OUTPUT_DIR}")
 
-    with open("vod_animes_final.m3u", "w", encoding="utf-8") as f:
+def gerar_playlist_m3u(dados_validados):
+    """Gera a playlist organizada por categorias VOD."""
+    m3u_path = BASE_OUTPUT_DIR / "playlist_vod_final.m3u"
+    
+    with open(m3u_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
-        for (nome, cat), d in priorizados.items():
-            f.write(f'#EXTINF:-1 group-title="{cat}", {nome} [{d["res"]}]\n{d["url"]}\n\n')
-    
-    print(f"✅ Playlist gerada com {len(priorizados)} títulos únicos.")
+        for item in dados_validados:
+            nome = item.get('anime_name', 'Anime')
+            is_dub = "DUBLADO" if any(x in nome.lower() for x in ["dub", "dublado"]) else "LEGENDADO"
+            tipo = "FILMES" if any(x in nome.lower() for x in ["movie", "filme"]) else "SÉRIES"
+            categoria = f"{tipo} DE ANIMES ({is_dub})"
+            
+            f.write(f'#EXTINF:-1 group-title="{categoria}", {nome} [{item["res"]}]\n')
+            f.write(f"{item['url']}\n\n")
 
 # =========================================================
-# FLUXO PRINCIPAL
+# FLUXO DE EXECUÇÃO
 # =========================================================
 
 def main():
-    print(f"🚀 Iniciando Media Scraper VOD - {datetime.now().strftime('%d/%m/%Y %H:%M')}")
-    # Simulação de captura (Aqui entraria a sua lógica de scraping de HTML)
-    links_descobertos = [] 
+    print(f"🚀 Iniciando SUGOIAPI VOD - Output: {BASE_OUTPUT_DIR}")
     
-    # Validação em Paralelo
-    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # Lógica de processamento...
-        pass
-    
-    # (Exemplo de fluxo final após extração)
-    # cache = gerenciar_cache(links_validados)
-    # gerar_playlist_vod(cache)
+    # Exemplo de fluxo:
+    # 1. Scraping de links dos 4 providers (Discovery)
+    # 2. Validação paralela (ThreadPoolExecutor)
+    # 3. Gestão de Cache/Expiração
+    # 4. Exportação:
+    # exportar_dados_finais(links_processados)
+    # gerar_playlist_m3u(links_processados)
 
 if __name__ == "__main__":
     main()
