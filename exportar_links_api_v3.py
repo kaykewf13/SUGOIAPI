@@ -9,7 +9,10 @@ from pathlib import Path
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-# 1. CONFIGURAÇÕES INICIAIS
+# =========================================================
+# 1. CONFIGURAÇÕES DE AMBIENTE
+# =========================================================
+# Define o caminho absoluto para garantir que o Git encontre os arquivos
 SCRIPT_DIR = Path(__file__).parent.absolute()
 OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -20,22 +23,25 @@ PROVIDERS = [
     {"name": "Goyabu", "url": "https://goyabu.com/lista-de-animes", "suffix": "/page/"}
 ]
 
+# =========================================================
+# 2. FUNÇÕES DE EXTRAÇÃO DE VÍDEO (DEEP SCRAPING)
+# =========================================================
 def buscar_video_direto(scraper, url_pagina):
-    """Tenta extrair o link real do vídeo ou player para evitar o Timeout."""
+    """Tenta capturar o link real do streaming (m3u8/mp4) ou Iframe."""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Referer": url_pagina
     }
     try:
-        # Aumentamos o timeout para 30s para evitar o erro de 'Time Out'
+        # Timeout estendido para evitar o erro de 'Time Out'
         res = scraper.get(url_pagina, headers=headers, timeout=30)
         if res.status_code != 200: return url_pagina
         
-        # Procura por .m3u8 ou .mp4 (Links diretos)
+        # Procura padrões de vídeo no HTML/Scripts
         video_links = re.findall(r'(https?://[^\s"\']+\.(?:m3u8|mp4))', res.text)
         if video_links: return video_links[0]
             
-        # Procura por Iframes de players
+        # Procura por Iframes de players externos
         soup = BeautifulSoup(res.text, 'html.parser')
         iframe = soup.find('iframe')
         if iframe and iframe.get('src'):
@@ -44,18 +50,21 @@ def buscar_video_direto(scraper, url_pagina):
         pass
     return url_pagina
 
+# =========================================================
+# 3. LÓGICA PRINCIPAL DE VARREDURA
+# =========================================================
 def main():
-    print(f"🚀 SUGOIAPI V3 - Varredura Profunda com Bypass 403/Timeout")
+    print(f"🚀 INICIANDO SUGOIAPI V3 - {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
     todas_listas = []
 
     for p in PROVIDERS:
         print(f"📡 Processando Provider: {p['name']}")
-        for pg in range(1, 4): # Varredura de 3 páginas para evitar sobrecarga
+        # Varredura limitada para evitar bloqueios por excesso de requisições
+        for pg in range(1, 4): 
             url_lista = f"{p['url']}{p['suffix']}{pg}" if pg > 1 else p['url']
             try:
-                # Delay maior para não ser banido por IP
-                time.sleep(random.uniform(4, 7))
+                time.sleep(random.uniform(4, 7)) # Delay humano para evitar 403
                 res = scraper.get(url_lista, timeout=30)
                 
                 if res.status_code == 200:
@@ -74,43 +83,60 @@ def main():
                         img_tag = card.select_one('img')
                         capa = img_tag.get('src') or img_tag.get('data-src') if img_tag else ""
 
-                        # BUSCA PROFUNDA DO LINK DO VÍDEO
-                        print(f"   🎬 Extraindo fonte de: {titulo[:25]}...")
+                        # BUSCA PROFUNDA DO LINK DO VÍDEO (Isso resolve o problema de links de página)
+                        print(f"   🎬 Investigando fonte: {titulo[:30]}...")
                         link_final = buscar_video_direto(scraper, url_origem)
                         
                         todas_listas.append({
-                            "Anime": titulo.strip(),
+                            "Anime": titulo.strip().replace('"', ''),
                             "URL": link_final,
                             "Imagem": capa,
-                            "Provider": p['name']
+                            "Provider": p['name'],
+                            "Tipo": "Dublado" if "dublado" in titulo.lower() else "Legendado"
                         })
-                else: break
+                else: 
+                    print(f"   🛑 Provider {p['name']} retornou status {res.status_code}")
+                    break
             except Exception as e:
-                print(f"   ⚠️ Timeout ou erro na página {pg}: {str(e)[:50]}")
+                print(f"   ⚠️ Erro na página {pg}: {str(e)[:50]}")
                 break
 
+    # =========================================================
+    # 4. GERAÇÃO DA PLAYLIST M3U E LOGS
+    # =========================================================
     if todas_listas:
-        df = pd.DataFrame(todas_listas).drop_duplicates(subset=['Anime'])
+        df = pd.DataFrame(todas_listas).drop_duplicates(subset=['Anime', 'URL'])
         
-        # GERAÇÃO DA PLAYLIST M3U COM HEADERS DE BYPASS
         m3u_path = OUTPUT_DIR / "playlist.m3u"
         with open(m3u_path, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n\n")
             for _, row in df.iterrows():
-                # Classificação Filmes vs Séries
-                cat = "Filmes" if any(x in row['Anime'].lower() for x in ['filme', 'movie']) else "Séries"
+                # Separação Filmes vs Séries
+                is_movie = any(x in row['Anime'].lower() for x in ['filme', 'movie'])
+                cat = "Filmes" if is_movie else "Séries"
                 
-                # Definimos o Referer baseado na URL capturada
-                ref = row['URL'].split('/')[2] if '://' in row['URL'] else "google.com"
+                # Identifica o domínio para o Referer
+                try:
+                    ref_domain = row['URL'].split('/')[2]
+                except:
+                    ref_domain = "google.com"
                 
-                # ADAPTAÇÃO PARA PLAYERS (VLC, Televizo, OTT Navigator)
-                # O caractere '|' anexa o User-Agent e o Referer para evitar o 403/Timeout no player
-                link_header = f"{row['URL']}|User-Agent=Mozilla/5.0&Referer=https://{ref}/"
+                # Camuflagem de Header (User-Agent + Referer) para evitar 403/Timeout
+                link_com_headers = f"{row['URL']}|User-Agent=Mozilla/5.0&Referer=https://{ref_domain}/"
                 
-                f.write(f'#EXTINF:-1 tvg-logo="{row["Imagem"]}" group-title="{cat} | {row["Provider"]}", {row["Anime"]}\n')
-                f.write(f"{link_header}\n")
+                # Tag group-title para criar pastas no player
+                grupo = f"{cat} | {row['Provider']} ({row['Tipo']})"
+                
+                f.write(f'#EXTINF:-1 group-title="{grupo}" tvg-logo="{row["Imagem"]}", {row["Anime"]} [{row["Provider"]}]\n')
+                f.write(f"{link_com_headers}\n")
         
-        print(f"✨ Concluído! Playlist gerada com {len(df)} itens.")
+        # LOGS CRÍTICOS PARA O GITHUB ACTIONS
+        print("-" * 30)
+        print(f"✅ Arquivo salvo com sucesso em: {m3u_path.absolute()}")
+        print(f"📊 Total de itens catalogados: {len(df)}")
+        print("-" * 30)
+    else:
+        print("⚠️ ERRO: Nenhuma informação foi capturada. Verifique os logs de conexão.")
 
 if __name__ == "__main__":
     try:
