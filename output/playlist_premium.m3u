@@ -1,758 +1,737 @@
 #EXTM3U x-tvg-url=""
 
-#EXTINF:-1 group-title="ANIME - GERAL", SBT Cidade Verde (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", SBT Cidade Verde PI
 https://6836041ea1117.streamlock.net/cverde/cverde/chunklist_w635120748.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", SBT Cidade Verde Picos (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", SBT Cidade Verde Picos PI
 https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", SBT Cidade Verde Picos (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", SBT Cidade Verde Picos PI
 https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/chunklist_w86221967.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Meio (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Meio PI
 https://isaocorp.cloudecast.com/redemeio/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Antena 10 (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Antena 10 PI
 https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Tv Assembleia (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Tv Assembleia PI
 https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RedeTV! O Dia (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", RedeTV O Dia PI
 https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Gallo Jaicos (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Gallo Jaicos PI
 https://5c483b9d1019c.streamlock.net/8202/8202/playlist-480p.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TVL News (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TVL News PI
 https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Capital (PI)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Capital PI
 https://stmv2.samcast.com.br/tvcapitalteresina/tvcapitalteresina/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", SBT (MA)
+#EXTINF:-1 group-title="📺 ANIME GERAL", SBT MA
 https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", SBT (BA)
+#EXTINF:-1 group-title="📺 ANIME GERAL", SBT BA
 https://5a2b083e9f360.streamlock.net/bemtv/bemtv.sdp/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Record TV MT
+#EXTINF:-1 group-title="📺 ANIME GERAL", Record TV MT
 https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Record TV (PB)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Record TV PB
 https://video07.logicahost.com.br/portaldatropical/portaldatropical/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Band (RBA TV)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Band RBA TV
 https://aovivo.doozytv.com.br/31025556/10161894/chunks.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Band (PA) 2
+#EXTINF:-1 group-title="📺 ANIME GERAL", Band PA 2
 https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Band (PE)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Band PE
 https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RedeTV! (PR)
+#EXTINF:-1 group-title="📺 ANIME GERAL", RedeTV PR
 https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RedeTV!
+#EXTINF:-1 group-title="📺 ANIME GERAL", RedeTV
 https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Cultura
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Cultura
 https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Cultura
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Gazeta (PA)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Gazeta PA
 https://video01.kshost.com.br:4443/moises3834/moises3834/chunklist_w1625878121.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Gazeta (MA)
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Gazeta MA
 https://5ad482a77183d.streamlock.net/financeirotvc21.com.br/financeirotvc21.com.br/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Terra Viva
+#EXTINF:-1 group-title="📺 ANIME GERAL", Terra Viva
 https://www.dailymotion.com/cdn/live/video/x8qceqq.m3u8?sec=9_AIIjp5UcOkDd9eMF0Og3nl9C2KTQBvJcZz3HcTlSQoTZ076xYC30larI-iIUplO3_qbrpcDl7mcB-ibxjOow&dmTs=11772&dmV1st=0B615F9E6BD4BC9A1216239E228F86C7|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", FDR - Futura
+#EXTINF:-1 group-title="📺 ANIME GERAL", FDR - Futura
 https://cdn.mycloudstream.io/hls/live/broadcast/pxf9amx8/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Canal Rural
+#EXTINF:-1 group-title="📺 ANIME GERAL", Canal Rural
 https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", BRSUPER TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", BRSUPER TV
 http://brsupertv.brsuper.com.br:9080/hls/brsupertv.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Cariri TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Cariri TV
 https://video05.logicahost.com.br/cariritv/cariritv/chunklist_w1172451183.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Padre Cicero
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Padre Cicero
 https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RFTV
+#EXTINF:-1 group-title="📺 ANIME GERAL", RFTV
 https://tv03.zas.media:1936/rftv/rftv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", Rede UTV Brasil
+#EXTINF:-1 group-title="📺 ANIME GERAL", Rede UTV Brasil
 https://utvsoultv.acessaradios.com.br/utvsoultv/utvsoultv.stream/chunklist_w955987097.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TVE Bahia
+#EXTINF:-1 group-title="📺 ANIME GERAL", TVE Bahia
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", Rede Brasil
+#EXTINF:-1 group-title="📺 ANIME GERAL", Rede Brasil
 https://video01.logicahost.com.br/redebrasil02/redebrasil02/chunklist_w1476653929.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Camera
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Camera
 https://stream3.camara.gov.br/tv1/manifest.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Canal gov
+#EXTINF:-1 group-title="📺 ANIME GERAL", Canal gov
 https://canalgov-stream.ebc.com.br/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Play TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Play TV
 https://isaocorp.cloudecast.com/playtv/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", SescTV
+#EXTINF:-1 group-title="📺 ANIME GERAL", SescTV
 https://hqf6tcxuhk.singularcdn.net.br/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/playlist.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmlfc3ViIjoiLzAxOTVlZGUxLWMyM2MtNzA3OC04ZjJhLTI1Zjk4MmE5ZmM5MS8iLCJ1aWQiOiIwMTk3YTg1Ni02NGEzLTczODMtYWFjNC04MWJkYzkyMWRhOWYiLCJyYXUiOm51bGwsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsIm5iZiI6MTc1MDg3NTkyMywiaWF0IjoxNzUwODc1OTIzLCJleHAiOjE3ODI0MTE5MjMsImp0aSI6IjAxOTdhODU2LTY0YTMtNzM4My1hYWM0LTgxYmRjOTIxZGE5ZiIsImlzcyI6IlNwYWxsYSJ9.KKL0LO-BSzObn8Kykfu4Q2Xv-MPWWD14fv8LXuuE4rs|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Sonata
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Sonata
 https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Astraltv
+#EXTINF:-1 group-title="📺 ANIME GERAL", Astraltv
 https://isaocorp.cloudecast.com/astraltv/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", CNN Brasil
+#EXTINF:-1 group-title="📺 ANIME GERAL", CNN Brasil
 https://video01.soultv.com.br/cnnbrasil/cnnbrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", CNN Portugal
+#EXTINF:-1 group-title="📺 ANIME GERAL", CNN Portugal
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Jovem Pan News
+#EXTINF:-1 group-title="📺 ANIME GERAL", Jovem Pan News
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", CNBC
+#EXTINF:-1 group-title="📺 ANIME GERAL", CNBC
 https://video01.soultv.com.br/timesbrasil/timesbrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Band News
+#EXTINF:-1 group-title="📺 ANIME GERAL", Band News
 https://super-cdn.link/bandnews/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Record News
+#EXTINF:-1 group-title="📺 ANIME GERAL", Record News
 https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Euronews (PT)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Euronews PT
 https://euronews-euronews-portugues-1-br.samsung.wurl.tv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Evangelizar
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Evangelizar
 https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Rede Vida
+#EXTINF:-1 group-title="📺 ANIME GERAL", Rede Vida
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Aparecida
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Aparecida
 https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Rede Seculo 21
+#EXTINF:-1 group-title="📺 ANIME GERAL", Rede Seculo 21
 https://cdn.jmvstream.com/w/LVW-10024/ngrp:LVW10024_H3QLdAY6kx_all/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Novo Tempo
+#EXTINF:-1 group-title="📺 ANIME GERAL", Novo Tempo
 https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Rede Gospel
+#EXTINF:-1 group-title="📺 ANIME GERAL", Rede Gospel
 https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Pai Eterno
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Pai Eterno
 https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RIT TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", RIT TV
 https://acesso.ecast.site:3648/live/ritlive.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Universidade da Pessoa
+#EXTINF:-1 group-title="📺 ANIME GERAL", Universidade da Pessoa
 http://video01.soultv.com.br/universidadedapessoa/universidadedapessoa/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", Viajando pelo Brasil
+#EXTINF:-1 group-title="📺 ANIME GERAL", Viajando pelo Brasil
 http://video01.soultv.com.br/viajandopelobrasil/viajandopelobrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", XR Health Brasil
+#EXTINF:-1 group-title="📺 ANIME GERAL", XR Health Brasil
 http://video01.soultv.com.br/xrhealth/xrhealth/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Red Bull TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", RS NEWS SPORTS TV
+#EXTINF:-1 group-title="⚽ ESPORTES", RS NEWS SPORTS TV
 https://59f1cbe63db89.streamlock.net:1443/rsnewssports/_definst_/rsnewssports/chunklist_w983559002.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Vila TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Vila TV
 https://streamserver.streamingdevideo.com.br/8072/8072/chunklist_w1861708972.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Comedy Central | Pluto TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Comedy Central  Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f357e91b18f0b00073583d2/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Tela Viva TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Tela Viva TV
 https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1609777683.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", GLN TV
+#EXTINF:-1 group-title="🎬 FILMES / MOVIES", GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Destak
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Destak
 https://video03.logicahost.com.br/pascoal/pascoal/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV Channel Network
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV Channel Network
 https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Bons Tempos TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Bons Tempos TV
 https://stmv1.srvif.com/canal29/canal29/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", AWTV
+#EXTINF:-1 group-title="📺 ANIME GERAL", AWTV
 https://streaming.cloudecast.com/hls/awtv/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Geek e Tech | Pluto TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Geek e Tech  Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/605cc4de7ff3c50007be0f65/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Os Jetsons
+#EXTINF:-1 group-title="📺 ANIME GERAL", Os Jetsons
 https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Retro Cartoon
+#EXTINF:-1 group-title="📺 ANIME GERAL", Retro Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/chunklist_w1906296166.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Gospel Cartoon
+#EXTINF:-1 group-title="📺 ANIME GERAL", Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", TV KIDMAIS
+#EXTINF:-1 group-title="📺 ANIME GERAL", TV KIDMAIS
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/chunklist_w673705300.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Channel 1
+#EXTINF:-1 group-title="🎬 FILMES / MOVIES", Channel 1
 https://stmv1.srvif.com/movies1/movies1/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", DarkFlix
+#EXTINF:-1 group-title="🌑 TERROR / HORROR", DarkFlix
 https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - DUBLADO", Cine Brasil
+#EXTINF:-1 group-title="📺 ANIME GERAL", Cine Brasil
 https://stmv6.voxtvhd.com.br/cinebrasil/cinebrasil/chunklist_w670523199.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Classique TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Classique TV
 https://stmv1.srvif.com/classique/classique/chunklist_w1919154997.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Viva Web TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Viva Web TV
 https://video01.kshost.com.br:4443/cypriano46326/cypriano46326/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", XTreme
+#EXTINF:-1 group-title="📺 ANIME GERAL", XTreme
 https://alanza.iptv2022.com/Xtreme_TV/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", kuriakos Cine
+#EXTINF:-1 group-title="📺 ANIME GERAL", kuriakos Cine
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Soul Cine Clube
+#EXTINF:-1 group-title="📺 ANIME GERAL", Soul Cine Clube
 https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Cine Monde
+#EXTINF:-1 group-title="📺 ANIME GERAL", Cine Monde
 https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Series Classic
+#EXTINF:-1 group-title="📺 ANIME GERAL", Series Classic
 https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w384479859.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RunTime
+#EXTINF:-1 group-title="📺 ANIME GERAL", RunTime
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RunTime Ação
+#EXTINF:-1 group-title="📺 ANIME GERAL", RunTime Ação
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RunTime Comédia
+#EXTINF:-1 group-title="📺 ANIME GERAL", RunTime Comédia
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RunTime Romance
+#EXTINF:-1 group-title="🌸 SHOUJO / ROMANCE", RunTime Romance
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4866|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RunTime CinEspanto
+#EXTINF:-1 group-title="📺 ANIME GERAL", RunTime CinEspanto
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RunTime Crime
+#EXTINF:-1 group-title="📺 ANIME GERAL", RunTime Crime
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Anime TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Anime TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Geekdot
+#EXTINF:-1 group-title="📺 ANIME GERAL", Geekdot
 https://stream.ichibantv.com:3764/hybrid/play.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Loading
+#EXTINF:-1 group-title="📺 ANIME GERAL", Loading
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", clouding
+#EXTINF:-1 group-title="📺 ANIME GERAL", clouding
 https://stmv1.paineltv.net/redeclonetv/redeclonetv/chunklist_w739638910.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", KroneHIT
+#EXTINF:-1 group-title="📺 ANIME GERAL", KroneHIT
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", 1Mus
+#EXTINF:-1 group-title="📺 ANIME GERAL", 1Mus
 http://hz1.teleport.cc/HLS/HD.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", KpopTV Play
+#EXTINF:-1 group-title="📺 ANIME GERAL", KpopTV Play
 https://alanza.iptv2022.com/Kpo_TV_Play/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Cidade Modelo 95.3 FM
-https://ssl1.transmissaodigital.com:20114/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Cultura 104.3 FM
-https://str02.kfmidia.com.br:6672/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Tropical 105.9 FM
-http://stm2.matutos.com.br:10136/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Esperança 850 AM
-https://stm3.srvif.com:7360/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Difusora 920 AM
-http://stm20.srvaudio.com.br:11190/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Picos Gospel
-http://stream.zeno.fm/80ng4xm1r5quv|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - GERAL", Radio Capital do Mel
-https://stream.zeno.fm/m5b9rewcomkuv|User-Agent=Mozilla/5.0&Referer=https://google.com/
-
-#EXTINF:-1 group-title="ANIME - DUBLADO", Branca de neve e sete anoes (1937)
+#EXTINF:-1 group-title="🇧🇷 DUBLADOS", Branca de neve e sete anoes 1937
 https://ia803102.us.archive.org/18/items/brancadeneveeosseteanoes1937dublado_201912/Branca%20de%20Neve%20e%20os%20Sete%20An%C3%B5es%20%281937%29%20Dublado.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 01
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 01
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2001%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 02
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 02
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2002%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 03
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 03
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2003%20HQ(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 04
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 04
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2004%20HQ(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 05
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 05
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2005%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 06
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 06
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2006%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 07
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 07
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2007%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 08
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 08
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2008%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 09
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 09
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2009%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 10
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 10
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2010%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 11
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 11
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2011%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 12
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 12
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2012%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 13
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 13
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2013%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 14
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 14
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2014%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 15
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 15
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2015%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 16
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 16
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2016%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 17
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 17
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2017%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - ADULTO", Semana 18
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 18
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2018%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 19
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 19
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2019%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 20
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 20
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2020%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 21
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 21
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2021%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 22
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 22
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2022%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 23
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 23
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2023%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 24
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 24
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2024%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 25
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 25
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2025%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 26
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 26
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2026%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 27
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 27
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2027%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 28
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 28
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2028%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 29
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 29
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2029%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 30
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 30
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2030%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 31
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 31
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2031%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 32
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 32
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2032%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 33
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 33
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2033%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 34
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 34
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2034%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 35
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 35
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2035%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 36
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 36
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2036%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 37
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 37
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2037%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 38
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 38
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2038%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 39
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 39
 https://github.com/mariosanthos/arquivo2/raw/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2039%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 40
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 40
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2040%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 41
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 41
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2041%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 42
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 42
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2042%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 43
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 43
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2043%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 44
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 44
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2044%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 45
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 45
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2045%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 46
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 46
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2046%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 47
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 47
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2047%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 48
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 48
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2048%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 49
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 49
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2049%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 50
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 50
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2050%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 51
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 51
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2051%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Semana 52
+#EXTINF:-1 group-title="📺 ANIME GERAL", Semana 52
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2052%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Viagem na Eletricidade
+#EXTINF:-1 group-title="📺 ANIME GERAL", Viagem na Eletricidade
 https://t0-videos.cinefy.gg/bcdn_token=uj4UF-zc23AY28Qi0lPMEPYIIdrw9ksh2JTNXnxadxw&expires=1776192953&token_countries=BR&token_path=%2F76b463b6-4491-42ae-9711-79ebc73ea11c/76b463b6-4491-42ae-9711-79ebc73ea11c/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep01
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep01
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona01.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep02
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep02
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona02.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep03
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep03
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona03.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep04
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep04
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona04.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep05
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep05
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona05.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep06
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep06
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona06.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep08
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep08
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona08.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep09
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep09
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona09.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep10
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep10
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona10.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep11
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep11
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona11.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep12
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep12
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona12.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep13
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep13
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona13.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep14
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep14
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona14.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep15
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep15
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona15.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep16
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep16
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona16.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep17
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep17
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona17.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - ADULTO", Assim que funciona ep18
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep18
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona18.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep19
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep19
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona19.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep20
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep20
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona20.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep21
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep21
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona21.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep22
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep22
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona22.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep23
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep23
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona23.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep24
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep24
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona24.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Assim que funciona ep25
+#EXTINF:-1 group-title="📺 ANIME GERAL", Assim que funciona ep25
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona25.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", 3ABN Kids Network
+#EXTINF:-1 group-title="📺 ANIME GERAL", 3ABN Kids Network
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", ADN TV+ (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", ADN TV 720p
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Ani-Blast (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Ani-Blast 720p
 https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Animation+ (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="📺 ANIME GERAL", Animation 1080p [Geo-blocked]
 https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Animax Asia India (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="📺 ANIME GERAL", Animax Asia India 1080p [Geo-blocked]
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Anime Vision (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Anime Vision 1080p
 https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Anime Vision Classics (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Anime Vision Classics 1080p
 https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", ANIME x HIDIVE (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", ANIME x HIDIVE 720p
 https://d3f088nnrrvkwf.cloudfront.net/v1/amc_anime_x_hidive_1/samsungheadend_us/latest/main/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Anime Zone TV (480p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Anime Zone TV 480p
 http://animezonetv.net/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Aniplus Asia (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Aniplus Asia 720p
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Banijay Mr Bean Animé (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Banijay Mr Bean Animé 1080p
 https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", BBC Four/CBeebies (1080p) [Geo-Blocked]
+#EXTINF:-1 group-title="📺 ANIME GERAL", BBC FourCBeebies 1080p [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", BBC Three/CBBC (1080p) [Geo-Blocked]
+#EXTINF:-1 group-title="📺 ANIME GERAL", BBC ThreeCBBC 1080p [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Blues TV
+#EXTINF:-1 group-title="📺 ANIME GERAL", Blues TV
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Disney Channel Latin America (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Disney Channel Latin America 1080p
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32.playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Disney Jr. (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="📺 ANIME GERAL", Disney Jr 1080p [Geo-blocked]
 https://saran-live.ercdn.net/disneyjunior/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Disney Jr. Latin America South
+#EXTINF:-1 group-title="📺 ANIME GERAL", Disney Jr Latin America South
 http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Disney Jr. Latin America South HD (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Disney Jr Latin America South HD 1080p
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-35.playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", DreikoTv (720p) [Not 24/7]
+#EXTINF:-1 group-title="📺 ANIME GERAL", DreikoTv 720p [Not 247]
 https://cloudvideo.servers10.com:8081/8138/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", EnerGeek (720p) [Not 24/7]
+#EXTINF:-1 group-title="📺 ANIME GERAL", EnerGeek 720p [Not 247]
 https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", EnerGeek Fan (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", EnerGeek Fan 1080p
 https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Extrema Kids TV [Not 24/7]
+#EXTINF:-1 group-title="📺 ANIME GERAL", Extrema Kids TV [Not 247]
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", FAN (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", FAN 1080p
 http://31.148.48.15/Fan/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", FilmRise Anime (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", FilmRise Anime 720p
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Gong (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Gong 1080p
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Gooder Nation Channel 32 (720p) [Not 24/7]
+#EXTINF:-1 group-title="📺 ANIME GERAL", Gooder Nation Channel 32 720p [Not 247]
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/channel32/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Japanim TV (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Japanim TV 1080p
 https://foxkidstv.be:3369/stream/play.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Jiangxi Children's Channel
+#EXTINF:-1 group-title="📺 ANIME GERAL", Jiangxi Childrens Channel
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Kanade (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Kanade 1080p
 https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Kuriakos Kids (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Kuriakos Kids 1080p
 https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Magic Kids (486p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Magic Kids 486p
 https://magicstream.ddns.net/magicstream/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", MCN6 Music Channel (1080p) [Not 24/7]
+#EXTINF:-1 group-title="📺 ANIME GERAL", MCN6 Music Channel 1080p [Not 247]
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Movies for Gamers
+#EXTINF:-1 group-title="🎬 FILMES / MOVIES", Movies for Gamers
 https://jmp2.uk/plu-6008ddf24ef92b00079d61cf.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Mr. Bean Animated (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Mr Bean Animated 1080p
 https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Mr. Bean Anime Italy (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Mr Bean Anime Italy 1080p
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Mr. Bean Anime Spain (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Mr Bean Anime Spain 1080p
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Multimania (Latvia) (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Multimania Latvia 576p
 https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Naruto
+#EXTINF:-1 group-title="📺 ANIME GERAL", Naruto
 https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Naruto (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Naruto 720p
 https://jmp2.uk/plu-65d5fc39a25d5e00082895c4.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Naruto (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Naruto 1080p
 https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Naruto
+#EXTINF:-1 group-title="📺 ANIME GERAL", Naruto
 https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Naruto Shippuden
+#EXTINF:-1 group-title="⚔️ SHONEN", Naruto Shippuden
 https://jmp2.uk/plu-64c92fea3c3344000869e8a9.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", NickOnline (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", NickOnline 720p
 https://x1co.com.br/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", One Piece
+#EXTINF:-1 group-title="📺 ANIME GERAL", One Piece
 https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", One Piece
+#EXTINF:-1 group-title="📺 ANIME GERAL", One Piece
 https://jmp2.uk/plu-62e94ec74823db0007277a8f.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", One Piece
+#EXTINF:-1 group-title="📺 ANIME GERAL", One Piece
 https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", One Piece
+#EXTINF:-1 group-title="📺 ANIME GERAL", One Piece
 https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", One Piece
+#EXTINF:-1 group-title="📺 ANIME GERAL", One Piece
 https://jmp2.uk/plu-5f7790b3ed0c88000720b241.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", One Piece
+#EXTINF:-1 group-title="📺 ANIME GERAL", One Piece
 https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pingviin (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pingviin 576p
 https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pluto TV Anime
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pluto TV Anime
 https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pluto TV Anime
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pluto TV Anime
 https://jmp2.uk/plu-608181d420fc8500075f612a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pluto TV Anime
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pluto TV Anime
 https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pluto TV Anime Ação
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pluto TV Anime Ação
 https://jmp2.uk/plu-604b79c558393100078faeef.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pluto TV Anime Movies
+#EXTINF:-1 group-title="🎬 FILMES / MOVIES", Pluto TV Anime Movies
 https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pokémon
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pokémon
 https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pokémon
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pokémon
 https://jmp2.uk/plu-6675c7868768aa0008d7f1c7.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Pro100TV (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Pro100TV 576p
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", RetroCrush (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", RetroCrush 1080p
 https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Sony Yay! (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Sony Yay 576p
 http://116.90.120.151:8000/play/a0hf/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", South Park
+#EXTINF:-1 group-title="📺 ANIME GERAL", South Park
 https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Spacetoon Arabic (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Spacetoon Arabic 1080p
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", SX3 (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="📺 ANIME GERAL", SX3 1080p [Geo-blocked]
 https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Tiguerito TV (720p) [Not 24/7]
+#EXTINF:-1 group-title="📺 ANIME GERAL", Tiguerito TV 720p [Not 247]
 https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Tokusato
+#EXTINF:-1 group-title="📺 ANIME GERAL", Tokusato
 https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Toonami Aftermath East (480p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Toonami Aftermath East 480p
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Yu-Gi-Oh! (1080p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Yu-Gi-Oh 1080p
 https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Мультимания (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Мультимания 576p
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Пингвин (720p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Пингвин 720p
 https://sirius.greenhosting.ru/PingvinRu/video.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", Солнце (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", Солнце 576p
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", 优漫卡通 (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", 优漫卡通 576p
 http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
-#EXTINF:-1 group-title="ANIME - GERAL", 金鹰卡通 (576p)
+#EXTINF:-1 group-title="📺 ANIME GERAL", 金鹰卡通 576p
 http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
