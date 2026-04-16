@@ -12,26 +12,33 @@ SCRIPT_DIR = Path(__file__).parent.absolute()
 OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Providers com maior retorno para estes géneros
 PROVIDERS = [
     {"name": "AnimesHD", "url": "https://animeshd.to/animes", "suffix": "/page/"},
     {"name": "AnimePlayer", "url": "https://animeplayer.com.br/genero/dublado", "suffix": "/page/"},
     {"name": "Anizero", "url": "https://anizero.org/lista-de-animes", "suffix": "?page="}
 ]
 
-def classificar_categoria(titulo, genero_site):
+def classificar_inteligente(titulo, genero_site):
     txt = (titulo + " " + genero_site).lower()
     
-    # Ordem de prioridade para garantir o nicho
-    if any(x in txt for x in ['hentai', '18+', 'adulto', 'uncensored']): return "Hentai"
-    if any(x in txt for x in ['ecchi', 'borderline']): return "Ecchi"
-    if any(x in txt for x in ['seinen', 'adulto-jovem']): return "Seinen"
-    if any(x in txt for x in ['fantasia', 'fantasy', 'isekai', 'magia']): return "Fantasia"
+    # Mapeamento de Categorias Balanceadas
+    regras = {
+        "Hentai": ['hentai', '18+', 'adulto', 'uncensored'],
+        "Ecchi": ['ecchi', 'borderline', 'softcore'],
+        "Seinen": ['seinen', 'adulto-jovem', 'gore'],
+        "Fantasia": ['fantasia', 'fantasy', 'isekai', 'magia', 'adventure', 'aventura'],
+        "Ação": ['ação', 'action', 'shonen', 'luta', 'battle'],
+        "Romance": ['romance', 'shoujo', 'drama', 'love'],
+        "Sci-Fi": ['sci-fi', 'mecha', 'ficção', 'cyberpunk']
+    }
     
-    # Caso não encontre nas prioridades, usa o género do site ou Geral
-    return genero_site.capitalize() if genero_site else "Geral"
+    for cat, termos in regras.items():
+        if any(t in txt for t in termos):
+            return cat
+            
+    return genero_site.capitalize() if genero_site else "Outros"
 
-def extrair_v3(scraper, html, provider_name):
+def extrair_v4(scraper, html, provider_name):
     soup = BeautifulSoup(html, 'html.parser')
     items = []
     cards = soup.select('article, .item, .element, .divCardAnime, .anime-card')
@@ -42,41 +49,41 @@ def extrair_v3(scraper, html, provider_name):
             if not link_tag: continue
             
             raw_title = link_tag.get('title') or card.get_text(" ", strip=True).split('\n')[0]
+            # Limpeza profissional de título
             titulo_limpo = re.sub(r'^\d+\.?\d*\s*|NOVO\s*|\d{4}\s*|Assistir\s*', '', raw_title).strip()
             
-            # Identifica Idioma
             tipo = "Dublado" if "dublado" in raw_title.lower() or "dublado" in link_tag.get('href', '').lower() else "Legendado"
             
-            # Captura género original do site
             gen_tag = card.select_one('.genres, .genero, .category, .ani_it_genre')
             gen_site = gen_tag.get_text(strip=True).split(',')[0] if gen_tag else ""
             
-            # Aplica lógica de classificação prioritária
-            categoria_final = classificar_categoria(titulo_limpo, gen_site)
+            categoria = classificar_inteligente(titulo_limpo, gen_site)
 
             items.append({
                 "Anime": titulo_limpo,
                 "URL": link_tag.get('href'),
                 "Imagem": card.select_one('img').get('src', '') if card.select_one('img') else "",
-                "Genero": categoria_final,
+                "Genero": categoria,
                 "Tipo": tipo
             })
         except: continue
     return items
 
 def main():
-    print(f"🚀 SUGOIAPI V3 - CATEGORIAS PRIORITÁRIAS (SEINEN, ECCHI, HENTAI)")
+    print(f"🚀 SUGOIAPI V4 - EXPANSÃO BALANCEADA (20 PÁGINAS)")
     scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
     todas_listas = []
 
     for p in PROVIDERS:
-        for pg in range(1, 11): 
+        print(f"📡 Minerando {p['name']}...")
+        # Expansão para 20 páginas por provider
+        for pg in range(1, 21): 
             url = f"{p['url']}{p['suffix']}{pg}" if pg > 1 else p['url']
             try:
-                time.sleep(random.uniform(2, 4))
-                res = scraper.get(url, timeout=25)
+                time.sleep(random.uniform(1.5, 3)) # Delay otimizado para velocidade
+                res = scraper.get(url, timeout=20)
                 if res.status_code == 200:
-                    dados = extrair_v3(scraper, res.text, p['name'])
+                    dados = extrair_v4(scraper, res.text, p['name'])
                     if not dados: break
                     todas_listas.extend(dados)
                 else: break
@@ -90,14 +97,12 @@ def main():
         with open(m3u_path, "w", encoding="utf-8") as f:
             f.write('#EXTM3U\n\n')
             for _, row in df.iterrows():
-                # Formato solicitado: Apenas o género no grupo
                 grupo = row['Genero']
                 nome_exibicao = f"{row['Anime']} [{row['Tipo']}]"
-                
                 f.write(f'#EXTINF:-1 tvg-logo="{row["Imagem"]}" group-title="{grupo}", {nome_exibicao}\n')
                 f.write(f"{row['URL']}|User-Agent=Mozilla/5.0\n\n")
         
-        print(f"✅ Lista Premium gerada com sucesso. Categorias garantidas!")
+        print(f"✅ Lista Premium Finalizada. Total de {len(df)} itens em categorias equilibradas.")
 
 if __name__ == "__main__":
     main()
