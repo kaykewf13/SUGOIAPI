@@ -1,737 +1,1457 @@
-#EXTM3U url-tvg="" m3u-type="vod"
+#EXTM3U x-tvg-url="" m3u-type="vod" playlist-type="vod"
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SBT Cidade Verde PI
-https://6836041ea1117.streamlock.net/cverde/cverde/chunklist_w635120748.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="SBT Cidade Verde PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SBT Cidade Verde PI
+https://6836041ea1117.streamlock.net/cverde/cverde/chunklist_w635120748.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SBT Cidade Verde Picos PI
-https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="SBT Cidade Verde Picos PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SBT Cidade Verde Picos PI
+https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SBT Cidade Verde Picos PI
-https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/chunklist_w86221967.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="SBT Cidade Verde Picos PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SBT Cidade Verde Picos PI
+https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/chunklist_w86221967.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Meio PI
-https://isaocorp.cloudecast.com/redemeio/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Meio PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Meio PI
+https://isaocorp.cloudecast.com/redemeio/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Antena 10 PI
-https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Antena 10 PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Antena 10 PI
+https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Tv Assembleia PI
-https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Tv Assembleia PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Tv Assembleia PI
+https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RedeTV O Dia PI
-https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RedeTV O Dia PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RedeTV O Dia PI
+https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Gallo Jaicos PI
-https://5c483b9d1019c.streamlock.net/8202/8202/playlist-480p.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Gallo Jaicos PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Gallo Jaicos PI
+https://5c483b9d1019c.streamlock.net/8202/8202/playlist-480p.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TVL News PI
-https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TVL News PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TVL News PI
+https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Capital PI
-https://stmv2.samcast.com.br/tvcapitalteresina/tvcapitalteresina/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Capital PI" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Capital PI
+https://stmv2.samcast.com.br/tvcapitalteresina/tvcapitalteresina/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SBT MA
-https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="SBT MA" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SBT MA
+https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SBT BA
-https://5a2b083e9f360.streamlock.net/bemtv/bemtv.sdp/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="SBT BA" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SBT BA
+https://5a2b083e9f360.streamlock.net/bemtv/bemtv.sdp/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Record TV MT
-https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Record TV MT" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Record TV MT
+https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Record TV PB
-https://video07.logicahost.com.br/portaldatropical/portaldatropical/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Record TV PB" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Record TV PB
+https://video07.logicahost.com.br/portaldatropical/portaldatropical/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Band RBA TV
-https://aovivo.doozytv.com.br/31025556/10161894/chunks.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Band RBA TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Band RBA TV
+https://aovivo.doozytv.com.br/31025556/10161894/chunks.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Band PA 2
-https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Band PA 2" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Band PA 2
+https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Band PE
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Band PE" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Band PE
+https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RedeTV PR
-https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RedeTV PR" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RedeTV PR
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RedeTV
-https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RedeTV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RedeTV
+https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Cultura
-https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Cultura
+https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Cultura
-https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Cultura
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Gazeta PA
-https://video01.kshost.com.br:4443/moises3834/moises3834/chunklist_w1625878121.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Gazeta PA" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Gazeta PA
+https://video01.kshost.com.br:4443/moises3834/moises3834/chunklist_w1625878121.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Gazeta MA
-https://5ad482a77183d.streamlock.net/financeirotvc21.com.br/financeirotvc21.com.br/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Gazeta MA" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Gazeta MA
+https://5ad482a77183d.streamlock.net/financeirotvc21.com.br/financeirotvc21.com.br/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Terra Viva
-https://www.dailymotion.com/cdn/live/video/x8qceqq.m3u8?sec=9_AIIjp5UcOkDd9eMF0Og3nl9C2KTQBvJcZz3HcTlSQoTZ076xYC30larI-iIUplO3_qbrpcDl7mcB-ibxjOow&dmTs=11772&dmV1st=0B615F9E6BD4BC9A1216239E228F86C7|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Terra Viva" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Terra Viva
+https://www.dailymotion.com/cdn/live/video/x8qceqq.m3u8?sec=9_AIIjp5UcOkDd9eMF0Og3nl9C2KTQBvJcZz3HcTlSQoTZ076xYC30larI-iIUplO3_qbrpcDl7mcB-ibxjOow&dmTs=11772&dmV1st=0B615F9E6BD4BC9A1216239E228F86C7|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", FDR - Futura
-https://cdn.mycloudstream.io/hls/live/broadcast/pxf9amx8/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="FDR - Futura" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", FDR - Futura
+https://cdn.mycloudstream.io/hls/live/broadcast/pxf9amx8/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Canal Rural
-https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Canal Rural" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Canal Rural
+https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", BRSUPER TV
-http://brsupertv.brsuper.com.br:9080/hls/brsupertv.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="BRSUPER TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", BRSUPER TV
+http://brsupertv.brsuper.com.br:9080/hls/brsupertv.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Cariri TV
-https://video05.logicahost.com.br/cariritv/cariritv/chunklist_w1172451183.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Cariri TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Cariri TV
+https://video05.logicahost.com.br/cariritv/cariritv/chunklist_w1172451183.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Padre Cicero
-https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Padre Cicero" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Padre Cicero
+https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RFTV
-https://tv03.zas.media:1936/rftv/rftv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RFTV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RFTV
+https://tv03.zas.media:1936/rftv/rftv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Rede UTV Brasil
-https://utvsoultv.acessaradios.com.br/utvsoultv/utvsoultv.stream/chunklist_w955987097.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Rede UTV Brasil" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Rede UTV Brasil
+https://utvsoultv.acessaradios.com.br/utvsoultv/utvsoultv.stream/chunklist_w955987097.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TVE Bahia
-http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TVE Bahia" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TVE Bahia
+http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Rede Brasil
-https://video01.logicahost.com.br/redebrasil02/redebrasil02/chunklist_w1476653929.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Rede Brasil" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Rede Brasil
+https://video01.logicahost.com.br/redebrasil02/redebrasil02/chunklist_w1476653929.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Camera
-https://stream3.camara.gov.br/tv1/manifest.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Camera" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Camera
+https://stream3.camara.gov.br/tv1/manifest.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Canal gov
-https://canalgov-stream.ebc.com.br/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Canal gov" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Canal gov
+https://canalgov-stream.ebc.com.br/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Play TV
-https://isaocorp.cloudecast.com/playtv/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Play TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Play TV
+https://isaocorp.cloudecast.com/playtv/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SescTV
-https://hqf6tcxuhk.singularcdn.net.br/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/playlist.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmlfc3ViIjoiLzAxOTVlZGUxLWMyM2MtNzA3OC04ZjJhLTI1Zjk4MmE5ZmM5MS8iLCJ1aWQiOiIwMTk3YTg1Ni02NGEzLTczODMtYWFjNC04MWJkYzkyMWRhOWYiLCJyYXUiOm51bGwsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsIm5iZiI6MTc1MDg3NTkyMywiaWF0IjoxNzUwODc1OTIzLCJleHAiOjE3ODI0MTE5MjMsImp0aSI6IjAxOTdhODU2LTY0YTMtNzM4My1hYWM0LTgxYmRjOTIxZGE5ZiIsImlzcyI6IlNwYWxsYSJ9.KKL0LO-BSzObn8Kykfu4Q2Xv-MPWWD14fv8LXuuE4rs|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="SescTV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SescTV
+https://hqf6tcxuhk.singularcdn.net.br/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/playlist.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmlfc3ViIjoiLzAxOTVlZGUxLWMyM2MtNzA3OC04ZjJhLTI1Zjk4MmE5ZmM5MS8iLCJ1aWQiOiIwMTk3YTg1Ni02NGEzLTczODMtYWFjNC04MWJkYzkyMWRhOWYiLCJyYXUiOm51bGwsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsIm5iZiI6MTc1MDg3NTkyMywiaWF0IjoxNzUwODc1OTIzLCJleHAiOjE3ODI0MTE5MjMsImp0aSI6IjAxOTdhODU2LTY0YTMtNzM4My1hYWM0LTgxYmRjOTIxZGE5ZiIsImlzcyI6IlNwYWxsYSJ9.KKL0LO-BSzObn8Kykfu4Q2Xv-MPWWD14fv8LXuuE4rs|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Sonata
-https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Sonata" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Sonata
+https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Astraltv
-https://isaocorp.cloudecast.com/astraltv/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Astraltv" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Astraltv
+https://isaocorp.cloudecast.com/astraltv/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", CNN Brasil
-https://video01.soultv.com.br/cnnbrasil/cnnbrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="CNN Brasil" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", CNN Brasil
+https://video01.soultv.com.br/cnnbrasil/cnnbrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", CNN Portugal
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="CNN Portugal" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", CNN Portugal
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Jovem Pan News
-https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Jovem Pan News" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Jovem Pan News
+https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", CNBC
-https://video01.soultv.com.br/timesbrasil/timesbrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="CNBC" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", CNBC
+https://video01.soultv.com.br/timesbrasil/timesbrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Band News
-https://super-cdn.link/bandnews/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Band News" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Band News
+https://super-cdn.link/bandnews/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Record News
-https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Record News" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Record News
+https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Euronews PT
-https://euronews-euronews-portugues-1-br.samsung.wurl.tv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Euronews PT" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Euronews PT
+https://euronews-euronews-portugues-1-br.samsung.wurl.tv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Evangelizar
-https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Evangelizar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Evangelizar
+https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Rede Vida
-https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Rede Vida" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Rede Vida
+https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Aparecida
-https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Aparecida" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Aparecida
+https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Rede Seculo 21
-https://cdn.jmvstream.com/w/LVW-10024/ngrp:LVW10024_H3QLdAY6kx_all/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Rede Seculo 21" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Rede Seculo 21
+https://cdn.jmvstream.com/w/LVW-10024/ngrp:LVW10024_H3QLdAY6kx_all/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Novo Tempo
-https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Novo Tempo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Novo Tempo
+https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Rede Gospel
-https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Rede Gospel" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Rede Gospel
+https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Pai Eterno
-https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Pai Eterno" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Pai Eterno
+https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RIT TV
-https://acesso.ecast.site:3648/live/ritlive.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RIT TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RIT TV
+https://acesso.ecast.site:3648/live/ritlive.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Universidade da Pessoa
-http://video01.soultv.com.br/universidadedapessoa/universidadedapessoa/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Universidade da Pessoa" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Universidade da Pessoa
+http://video01.soultv.com.br/universidadedapessoa/universidadedapessoa/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Viajando pelo Brasil
-http://video01.soultv.com.br/viajandopelobrasil/viajandopelobrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Viajando pelo Brasil" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Viajando pelo Brasil
+http://video01.soultv.com.br/viajandopelobrasil/viajandopelobrasil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", XR Health Brasil
-http://video01.soultv.com.br/xrhealth/xrhealth/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="XR Health Brasil" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", XR Health Brasil
+http://video01.soultv.com.br/xrhealth/xrhealth/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Red Bull TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RS NEWS SPORTS TV
-https://59f1cbe63db89.streamlock.net:1443/rsnewssports/_definst_/rsnewssports/chunklist_w983559002.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RS NEWS SPORTS TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RS NEWS SPORTS TV
+https://59f1cbe63db89.streamlock.net:1443/rsnewssports/_definst_/rsnewssports/chunklist_w983559002.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Vila TV
-https://streamserver.streamingdevideo.com.br/8072/8072/chunklist_w1861708972.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Vila TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Vila TV
+https://streamserver.streamingdevideo.com.br/8072/8072/chunklist_w1861708972.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Comedy Central  Pluto TV
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f357e91b18f0b00073583d2/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Comedy Central  Pluto TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Comedy Central  Pluto TV
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f357e91b18f0b00073583d2/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Tela Viva TV
-https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1609777683.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Tela Viva TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Tela Viva TV
+https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1609777683.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🎬 FILMES", GLN TV
-https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="GLN TV" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", GLN TV
+https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Destak
-https://video03.logicahost.com.br/pascoal/pascoal/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Destak" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Destak
+https://video03.logicahost.com.br/pascoal/pascoal/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV Channel Network
-https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV Channel Network" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV Channel Network
+https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Bons Tempos TV
-https://stmv1.srvif.com/canal29/canal29/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Bons Tempos TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Bons Tempos TV
+https://stmv1.srvif.com/canal29/canal29/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", AWTV
-https://streaming.cloudecast.com/hls/awtv/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="AWTV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", AWTV
+https://streaming.cloudecast.com/hls/awtv/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Geek e Tech  Pluto TV
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/605cc4de7ff3c50007be0f65/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Geek e Tech  Pluto TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Geek e Tech  Pluto TV
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/605cc4de7ff3c50007be0f65/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Os Jetsons
-https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Os Jetsons" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Os Jetsons
+https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Retro Cartoon
-https://stmv1.srvif.com/retrotv/retrotv/chunklist_w1906296166.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Retro Cartoon" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Retro Cartoon
+https://stmv1.srvif.com/retrotv/retrotv/chunklist_w1906296166.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Gospel Cartoon
-https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Gospel Cartoon" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Gospel Cartoon
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", TV KIDMAIS
-https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/chunklist_w673705300.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="TV KIDMAIS" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", TV KIDMAIS
+https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/chunklist_w673705300.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🎬 FILMES", Channel 1
-https://stmv1.srvif.com/movies1/movies1/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Channel 1" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", Channel 1
+https://stmv1.srvif.com/movies1/movies1/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", DarkFlix
-https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="DarkFlix" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", DarkFlix
+https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Cine Brasil
-https://stmv6.voxtvhd.com.br/cinebrasil/cinebrasil/chunklist_w670523199.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Cine Brasil" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Cine Brasil
+https://stmv6.voxtvhd.com.br/cinebrasil/cinebrasil/chunklist_w670523199.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Classique TV
-https://stmv1.srvif.com/classique/classique/chunklist_w1919154997.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Classique TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Classique TV
+https://stmv1.srvif.com/classique/classique/chunklist_w1919154997.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Viva Web TV
-https://video01.kshost.com.br:4443/cypriano46326/cypriano46326/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Viva Web TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Viva Web TV
+https://video01.kshost.com.br:4443/cypriano46326/cypriano46326/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", XTreme
-https://alanza.iptv2022.com/Xtreme_TV/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="XTreme" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", XTreme
+https://alanza.iptv2022.com/Xtreme_TV/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", kuriakos Cine
-https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="kuriakos Cine" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", kuriakos Cine
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Soul Cine Clube
-https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Soul Cine Clube" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Soul Cine Clube
+https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Cine Monde
-https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Cine Monde" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Cine Monde
+https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Series Classic
-https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w384479859.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Series Classic" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Series Classic
+https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w384479859.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RunTime
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RunTime" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RunTime
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RunTime Ação
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RunTime Ação" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RunTime Ação
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RunTime Comédia
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RunTime Comédia" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RunTime Comédia
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RunTime Romance
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=4866|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RunTime Romance" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RunTime Romance
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4866|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RunTime CinEspanto
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RunTime CinEspanto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RunTime CinEspanto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RunTime Crime
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="RunTime Crime" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RunTime Crime
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Anime TV
-https://stmv1.srvif.com/animetv/animetv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Anime TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Geekdot
-https://stream.ichibantv.com:3764/hybrid/play.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Geekdot" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Geekdot
+https://stream.ichibantv.com:3764/hybrid/play.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Loading
-https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Loading" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Loading
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", clouding
-https://stmv1.paineltv.net/redeclonetv/redeclonetv/chunklist_w739638910.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="clouding" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", clouding
+https://stmv1.paineltv.net/redeclonetv/redeclonetv/chunklist_w739638910.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", KroneHIT
-https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="KroneHIT" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", KroneHIT
+https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", 1Mus
-http://hz1.teleport.cc/HLS/HD.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="1Mus" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", 1Mus
+http://hz1.teleport.cc/HLS/HD.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", KpopTV Play
-https://alanza.iptv2022.com/Kpo_TV_Play/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="KpopTV Play" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", KpopTV Play
+https://alanza.iptv2022.com/Kpo_TV_Play/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇧🇷 DUBLADOS", Branca de neve e sete anoes 1937
-https://ia803102.us.archive.org/18/items/brancadeneveeosseteanoes1937dublado_201912/Branca%20de%20Neve%20e%20os%20Sete%20An%C3%B5es%20%281937%29%20Dublado.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Cidade Verde 935 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Cidade Verde 935 FM
+https://ssl1.transmissaodigital.com:20010/;|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 01
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2001%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Grande 945 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Grande 945 FM
+https://player.srvaudio.com.br/player-ssl/9634|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 02
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2002%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Cidade Modelo 953 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Cidade Modelo 953 FM
+https://ssl1.transmissaodigital.com:20114/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 03
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2003%20HQ(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio BandNews SP 969 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio BandNews SP 969 FM
+https://24273.live.streamtheworld.com/BANDNEWSFM_SPAAC.aac?dist=radios.com.br&1727796028203|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 04
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2004%20HQ(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Guaribas 983 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Guaribas 983 FM
+https://player.srvaudio.com.br/player-ssl/11882|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 05
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2005%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Meio Norte 999 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Meio Norte 999 FM
+https://webradio.amsolution.com.br/radio/8280/meionorte|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 06
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2006%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Cultura 1043 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Cultura 1043 FM
+https://str02.kfmidia.com.br:6672/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 07
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2007%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Tropical 1059 FM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Tropical 1059 FM
+http://stm2.matutos.com.br:10136/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 08
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2008%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Esperança 850 AM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Esperança 850 AM
+https://stm3.srvif.com:7360/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 09
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2009%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Difusora 920 AM" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Difusora 920 AM
+http://stm20.srvaudio.com.br:11190/stream|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 10
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2010%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Picos Gospel" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Picos Gospel
+http://stream.zeno.fm/80ng4xm1r5quv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 11
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2011%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Radio Capital do Mel" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Radio Capital do Mel
+https://stream.zeno.fm/m5b9rewcomkuv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 12
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2012%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="Branca de neve e sete anoes 1937" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Branca de neve e sete anoes 1937
+https://ia803102.us.archive.org/18/items/brancadeneveeosseteanoes1937dublado_201912/Branca%20de%20Neve%20e%20os%20Sete%20An%C3%B5es%20%281937%29%20Dublado.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 13
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2013%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="000_Abertura" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", 000_Abertura
+https://raw.githubusercontent.com/mariosanthos/arquivos/main/Abertura%20A%20Hora%20Warner.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 14
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2014%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP001-Adoro_receber_ordens_de_voce" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP001-Adoro_receber_ordens_de_voce
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP001-Adoro_receber_ordens_de_voce.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 15
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2015%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP002-Agua_por_todos_os_lados" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP002-Agua_por_todos_os_lados
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP002-Agua_por_todos_os_lados.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 16
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2016%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP003-Alimentando_a_cria" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP003-Alimentando_a_cria
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP003-Alimentando_a_cria.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 17
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2017%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP004-Alucinacao_coletiva" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP004-Alucinacao_coletiva
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP004-Alucinacao_coletiva.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 18
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2018%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP005-Amigos_amigos_ratos_a_parte" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP005-Amigos_amigos_ratos_a_parte
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP005-Amigos_amigos_ratos_a_parte.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 19
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2019%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP006-Amor_e_pragas" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP006-Amor_e_pragas
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP006-Amor_e_pragas.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 20
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2020%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP007-As_aparencias_enganam" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP007-As_aparencias_enganam
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP007-As_aparencias_enganam.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 21
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2021%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP008-As_peripecias_de_patolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP008-As_peripecias_de_patolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP008-As_peripecias_de_patolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 22
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2022%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP009-As_suas_ordens_madame" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP009-As_suas_ordens_madame
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP009-As_suas_ordens_madame.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 23
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2023%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP010-Ataque_aereo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP010-Ataque_aereo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP010-Ataque_aereo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 24
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2024%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP011-Ataque_ao_forte_do_patolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP011-Ataque_ao_forte_do_patolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP011-Ataque_ao_forte_do_patolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 25
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2025%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP012-Atras_do_papa_leguas" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP012-Atras_do_papa_leguas
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP012-Atras_do_papa_leguas.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 26
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2026%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP013-Auto_magnetismo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP013-Auto_magnetismo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP013-Auto_magnetismo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 27
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2027%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP014-Azar_de_coiote" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP014-Azar_de_coiote
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP014-Azar_de_coiote.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 28
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2028%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP015-A_eterna_cacada" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP015-A_eterna_cacada
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP015-A_eterna_cacada.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 29
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2029%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP016-A_infancia_do_pernalonga" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP016-A_infancia_do_pernalonga
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP016-A_infancia_do_pernalonga.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 30
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2030%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP017-A_ingenuidade_de_frangolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP017-A_ingenuidade_de_frangolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP017-A_ingenuidade_de_frangolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 31
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2031%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP018-A_message_to_gracias" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP018-A_message_to_gracias
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP018-A_message_to_gracias.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 32
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2032%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP019-A_parada_dos_pinguins" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP019-A_parada_dos_pinguins
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP019-A_parada_dos_pinguins.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 33
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2033%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP020-A_raposa_e_o_pato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP020-A_raposa_e_o_pato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP020-A_raposa_e_o_pato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 34
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2034%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP021-A_vida_atras_das_grades" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP021-A_vida_atras_das_grades
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP021-A_vida_atras_das_grades.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 35
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2035%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP022-Baba_por_um_dia" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP022-Baba_por_um_dia
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP022-Baba_por_um_dia.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 36
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2036%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP023-Bancando_a_isca" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP023-Bancando_a_isca
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP023-Bancando_a_isca.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 37
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2037%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP024-Banho_de_coelho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP024-Banho_de_coelho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP024-Banho_de_coelho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 38
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2038%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP025-Bruxa_shakesperiana" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP025-Bruxa_shakesperiana
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP025-Bruxa_shakesperiana.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 39
-https://github.com/mariosanthos/arquivo2/raw/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2039%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP026-Cacando_o_rato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP026-Cacando_o_rato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP026-Cacando_o_rato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 40
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2040%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP027-Camundongos_travessos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP027-Camundongos_travessos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP027-Camundongos_travessos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 41
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2041%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP028-Cancando_de_apanhar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP028-Cancando_de_apanhar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP028-Cancando_de_apanhar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 42
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2042%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP029-Cangooro_e_frajola_em_papai_sabe_tudo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP029-Cangooro_e_frajola_em_papai_sabe_tudo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP029-Cangooro_e_frajola_em_papai_sabe_tudo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 43
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2043%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP030-Canguroo_em_um_rato_no_farol" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP030-Canguroo_em_um_rato_no_farol
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP030-Canguroo_em_um_rato_no_farol.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 44
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2044%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP031-Carrinho_valente" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP031-Carrinho_valente
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP031-Carrinho_valente.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 45
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2045%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP032-Cavaleiro_pernalonga" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP032-Cavaleiro_pernalonga
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP032-Cavaleiro_pernalonga.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 46
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2046%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP033-Centro_de_rosquinhas_que_buraco" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP033-Centro_de_rosquinhas_que_buraco
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP033-Centro_de_rosquinhas_que_buraco.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 47
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2047%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP034-Chuva_de_verao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP034-Chuva_de_verao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP034-Chuva_de_verao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 48
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2048%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP035-Coelho_18_quilates" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP035-Coelho_18_quilates
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP035-Coelho_18_quilates.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 49
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2049%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP036-Coelho_cacado" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP036-Coelho_cacado
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP036-Coelho_cacado.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 50
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2050%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP037-Coelho_feat" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP037-Coelho_feat
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP037-Coelho_feat.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 51
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2051%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP038-Coelho_heroico" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP038-Coelho_heroico
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP038-Coelho_heroico.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Semana 52
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2052%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP039-Coelho_para_cima" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP039-Coelho_para_cima
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP039-Coelho_para_cima.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Viagem na Eletricidade
-https://t0-videos.cinefy.gg/bcdn_token=uj4UF-zc23AY28Qi0lPMEPYIIdrw9ksh2JTNXnxadxw&expires=1776192953&token_countries=BR&token_path=%2F76b463b6-4491-42ae-9711-79ebc73ea11c/76b463b6-4491-42ae-9711-79ebc73ea11c/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP040-Coelho_selvagem" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP040-Coelho_selvagem
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP040-Coelho_selvagem.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep01
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona01.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP041-Coelho_selvagem_do_velho_oeste" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP041-Coelho_selvagem_do_velho_oeste
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP041-Coelho_selvagem_do_velho_oeste.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep02
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona02.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP042-Coelho_sem_lar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP042-Coelho_sem_lar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP042-Coelho_sem_lar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep03
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona03.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP043-Coiote_em_usando_novos_invento" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP043-Coiote_em_usando_novos_invento
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP043-Coiote_em_usando_novos_invento.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep04
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona04.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP044-Colegio_catnip" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP044-Colegio_catnip
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP044-Colegio_catnip.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep05
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona05.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP045-Como_reconhecer_uma_galinha" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP045-Como_reconhecer_uma_galinha
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP045-Como_reconhecer_uma_galinha.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep06
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona06.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP046-Como_se_casar_com_um_galo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP046-Como_se_casar_com_um_galo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP046-Como_se_casar_com_um_galo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep08
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona08.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP047-Complexo_de_Napoleao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP047-Complexo_de_Napoleao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP047-Complexo_de_Napoleao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep09
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona09.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP048-Compre_veja_e_preste_atencao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP048-Compre_veja_e_preste_atencao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP048-Compre_veja_e_preste_atencao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep10
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona10.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP049-Concerto_sem_do" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP049-Concerto_sem_do
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP049-Concerto_sem_do.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep11
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona11.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP050-Corn_on_the_cop" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP050-Corn_on_the_cop
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP050-Corn_on_the_cop.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep12
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona12.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP051-De_cara_na_parede" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP051-De_cara_na_parede
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP051-De_cara_na_parede.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep13
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona13.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP052-De_pai_para_filhos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP052-De_pai_para_filhos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP052-De_pai_para_filhos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep14
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona14.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP053-Dia_de_cao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP053-Dia_de_cao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP053-Dia_de_cao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep15
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona15.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP054-Diversao_na_neve" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP054-Diversao_na_neve
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP054-Diversao_na_neve.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep16
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona16.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP055-Doce_sioux" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP055-Doce_sioux
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP055-Doce_sioux.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep17
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona17.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP056-Dois_corvos_e_um_gafanhoto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP056-Dois_corvos_e_um_gafanhoto
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP056-Dois_corvos_e_um_gafanhoto.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep18
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona18.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP057-Elmert_o_ingrato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP057-Elmert_o_ingrato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP057-Elmert_o_ingrato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep19
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona19.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP058-Em_busca_de_um_lar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP058-Em_busca_de_um_lar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP058-Em_busca_de_um_lar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep20
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona20.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP059-Encrencas_do_pernalonga" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP059-Encrencas_do_pernalonga
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP059-Encrencas_do_pernalonga.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep21
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona21.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP060-Enganados_por_um_rato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP060-Enganados_por_um_rato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP060-Enganados_por_um_rato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep22
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona22.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP061-Era_filho_de_um_acrobata" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP061-Era_filho_de_um_acrobata
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP061-Era_filho_de_um_acrobata.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep23
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona23.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP062-Escalando_o_pico" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP062-Escalando_o_pico
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP062-Escalando_o_pico.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep24
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona24.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP063-Esporte_dos_campeoes" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP063-Esporte_dos_campeoes
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP063-Esporte_dos_campeoes.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Assim que funciona ep25
-https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona25.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP064-Fabrica_de_bebes" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP064-Fabrica_de_bebes
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP064-Fabrica_de_bebes.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", 3ABN Kids Network
-https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP065-Falando_do_tempo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP065-Falando_do_tempo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP065-Falando_do_tempo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", ADN TV 720p
-https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP066-Ferias_aereas" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP066-Ferias_aereas
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP066-Ferias_aereas.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Ani-Blast 720p
-https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP067-Filho_de_rato_ratinho_e" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP067-Filho_de_rato_ratinho_e
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP067-Filho_de_rato_ratinho_e.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Animation 1080p [Geo-blocked]
-https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP068-Folga_do_sapateiro" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP068-Folga_do_sapateiro
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP068-Folga_do_sapateiro.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Animax Asia India 1080p [Geo-blocked]
-https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP069-Frajola_o_heroi" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP069-Frajola_o_heroi
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP069-Frajola_o_heroi.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Anime Vision 1080p
-https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP070-Frangolino_bom_de_briga" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP070-Frangolino_bom_de_briga
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP070-Frangolino_bom_de_briga.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Anime Vision Classics 1080p
-https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP071-Frangolino_chocando_ovo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP071-Frangolino_chocando_ovo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP071-Frangolino_chocando_ovo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", ANIME x HIDIVE 720p
-https://d3f088nnrrvkwf.cloudfront.net/v1/amc_anime_x_hidive_1/samsungheadend_us/latest/main/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP072-Frangolino_em_aprendendo_a_ser_frango" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP072-Frangolino_em_aprendendo_a_ser_frango
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP072-Frangolino_em_aprendendo_a_ser_frango.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Anime Zone TV 480p
-http://animezonetv.net/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP073-Frangolino_em_raposa_medrosa" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP073-Frangolino_em_raposa_medrosa
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP073-Frangolino_em_raposa_medrosa.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Aniplus Asia 720p
-https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP074-Frangolino_em_sirva-se_fuinha" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP074-Frangolino_em_sirva-se_fuinha
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP074-Frangolino_em_sirva-se_fuinha.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Banijay Mr Bean Animé 1080p
-https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP075-Frangolino_em_uma_fuinha_infernal" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP075-Frangolino_em_uma_fuinha_infernal
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP075-Frangolino_em_uma_fuinha_infernal.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", BBC FourCBeebies 1080p [Geo-Blocked]
-https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP076-Frangolino_tudo_por_um_calor_galinaceo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP076-Frangolino_tudo_por_um_calor_galinaceo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP076-Frangolino_tudo_por_um_calor_galinaceo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", BBC ThreeCBBC 1080p [Geo-Blocked]
-https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP077-Frango_a_moda_sulista" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP077-Frango_a_moda_sulista
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP077-Frango_a_moda_sulista.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Blues TV
-https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP078-Fugindo_do_inferno" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP078-Fugindo_do_inferno
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP078-Fugindo_do_inferno.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Disney Channel Latin America 1080p
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32.playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP079-Gaguinho_em_castelo_dos_doendes" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP079-Gaguinho_em_castelo_dos_doendes
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP079-Gaguinho_em_castelo_dos_doendes.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Disney Jr 1080p [Geo-blocked]
-https://saran-live.ercdn.net/disneyjunior/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP080-Gaguinho_e_Patolino_em_cobertura_total" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP080-Gaguinho_e_Patolino_em_cobertura_total
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP080-Gaguinho_e_Patolino_em_cobertura_total.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Disney Jr Latin America South
-http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP081-Gaguinho_e_patolino_em_descanso_merecido" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP081-Gaguinho_e_patolino_em_descanso_merecido
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP081-Gaguinho_e_patolino_em_descanso_merecido.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Disney Jr Latin America South HD 1080p
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-35.playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP082-Gatos_e_explosivos_nao_se_mistiram" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP082-Gatos_e_explosivos_nao_se_mistiram
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP082-Gatos_e_explosivos_nao_se_mistiram.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", DreikoTv 720p [Not 247]
-https://cloudvideo.servers10.com:8081/8138/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP083-Guerra_e_guerra" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP083-Guerra_e_guerra
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP083-Guerra_e_guerra.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", EnerGeek 720p [Not 247]
-https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP084-Historias_da_mamae_ganso" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP084-Historias_da_mamae_ganso
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP084-Historias_da_mamae_ganso.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", EnerGeek Fan 1080p
-https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP085-Historia_natural" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP085-Historia_natural
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP085-Historia_natural.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Extrema Kids TV [Not 247]
-https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP086-Ideia_de_genio" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP086-Ideia_de_genio
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP086-Ideia_de_genio.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", FAN 1080p
-http://31.148.48.15/Fan/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP087-Kitty_kornered" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP087-Kitty_kornered
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP087-Kitty_kornered.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", FilmRise Anime 720p
-https://dvu7aia8rjlfm.cloudfront.net/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP088-Lagarta_de_sorte" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP088-Lagarta_de_sorte
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP088-Lagarta_de_sorte.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Gong 1080p
-https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP089-Lagrima_de_crocodilos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP089-Lagrima_de_crocodilos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP089-Lagrima_de_crocodilos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Gooder Nation Channel 32 720p [Not 247]
-https://ssh101stream.ssh101.com/akamaissh101/ssh101/channel32/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP090-Ligeirinho_em_prato_mexicano" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP090-Ligeirinho_em_prato_mexicano
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP090-Ligeirinho_em_prato_mexicano.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Japanim TV 1080p
-https://foxkidstv.be:3369/stream/play.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP091-Ligeirinho_salva_a_cidade" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP091-Ligeirinho_salva_a_cidade
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP091-Ligeirinho_salva_a_cidade.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Jiangxi Childrens Channel
-https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP092-Little_red_walking_hood" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP092-Little_red_walking_hood
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP092-Little_red_walking_hood.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Kanade 1080p
-https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP093-Lobo_na_pele_de_ovelha" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP093-Lobo_na_pele_de_ovelha
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP093-Lobo_na_pele_de_ovelha.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Kuriakos Kids 1080p
-https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP094-Louvre_de_volta_a_mim" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP094-Louvre_de_volta_a_mim
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP094-Louvre_de_volta_a_mim.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Magic Kids 486p
-https://magicstream.ddns.net/magicstream/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP095-Mamae_galo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP095-Mamae_galo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP095-Mamae_galo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", MCN6 Music Channel 1080p [Not 247]
-https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP096-Manda_bala" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP096-Manda_bala
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP096-Manda_bala.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🎬 FILMES", Movies for Gamers
-https://jmp2.uk/plu-6008ddf24ef92b00079d61cf.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP097-Marcianos_invadem_a_terra" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP097-Marcianos_invadem_a_terra
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP097-Marcianos_invadem_a_terra.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Mr Bean Animated 1080p
-https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP098-Meu_pato_favorito" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP098-Meu_pato_favorito
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP098-Meu_pato_favorito.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Mr Bean Anime Italy 1080p
-https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP099-Moby_duck_ligeirinho_e_patolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP099-Moby_duck_ligeirinho_e_patolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP099-Moby_duck_ligeirinho_e_patolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Mr Bean Anime Spain 1080p
-https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP100-Mostra_de_caes" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP100-Mostra_de_caes
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP100-Mostra_de_caes.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Multimania Latvia 576p
-https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP101-Mudanca_de_vida" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP101-Mudanca_de_vida
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP101-Mudanca_de_vida.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Naruto
-https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP102-Mudanca_rapida" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP102-Mudanca_rapida
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP102-Mudanca_rapida.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Naruto 720p
-https://jmp2.uk/plu-65d5fc39a25d5e00082895c4.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP103-Muito_trabalho_para_nada" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP103-Muito_trabalho_para_nada
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP103-Muito_trabalho_para_nada.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Naruto 1080p
-https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP104-Mundo_do_futebol" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP104-Mundo_do_futebol
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP104-Mundo_do_futebol.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Naruto
-https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP105-Musica_perambulante" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP105-Musica_perambulante
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP105-Musica_perambulante.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Naruto Shippuden
-https://jmp2.uk/plu-64c92fea3c3344000869e8a9.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP106-Nao_abandone_as_ovelhas" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP106-Nao_abandone_as_ovelhas
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP106-Nao_abandone_as_ovelhas.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", NickOnline 720p
-https://x1co.com.br/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP107-Nao_ha_dinheiro_que_nao_pague" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP107-Nao_ha_dinheiro_que_nao_pague
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP107-Nao_ha_dinheiro_que_nao_pague.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", One Piece
-https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP108-Nasce_uma_estrela" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP108-Nasce_uma_estrela
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP108-Nasce_uma_estrela.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", One Piece
-https://jmp2.uk/plu-62e94ec74823db0007277a8f.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP109-Na_compania_do_patolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP109-Na_compania_do_patolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP109-Na_compania_do_patolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", One Piece
-https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP110-No_caminho_do_progresso" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP110-No_caminho_do_progresso
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP110-No_caminho_do_progresso.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", One Piece
-https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP111-Oeste_selvagem" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP111-Oeste_selvagem
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP111-Oeste_selvagem.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", One Piece
-https://jmp2.uk/plu-5f7790b3ed0c88000720b241.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP112-Operacao_coelho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP112-Operacao_coelho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP112-Operacao_coelho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", One Piece
-https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP113-Os_tres_porquinhos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP113-Os_tres_porquinhos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP113-Os_tres_porquinhos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pingviin 576p
-https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP114-Ouro_de_coelho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP114-Ouro_de_coelho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP114-Ouro_de_coelho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pluto TV Anime
-https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP115-O_abominavel_coelho_das_neves" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP115-O_abominavel_coelho_das_neves
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP115-O_abominavel_coelho_das_neves.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pluto TV Anime
-https://jmp2.uk/plu-608181d420fc8500075f612a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP116-O_alegre_passeio_mexicano" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP116-O_alegre_passeio_mexicano
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP116-O_alegre_passeio_mexicano.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pluto TV Anime
-https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP117-O_aprendiz_de_papa_galinhas" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP117-O_aprendiz_de_papa_galinhas
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP117-O_aprendiz_de_papa_galinhas.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pluto TV Anime Ação
-https://jmp2.uk/plu-604b79c558393100078faeef.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP118-O_aristogato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP118-O_aristogato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP118-O_aristogato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🎬 FILMES", Pluto TV Anime Movies
-https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP119-O_artista_patolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP119-O_artista_patolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP119-O_artista_patolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pokémon
-https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP120-O_cacador_de_coelhos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP120-O_cacador_de_coelhos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP120-O_cacador_de_coelhos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pokémon
-https://jmp2.uk/plu-6675c7868768aa0008d7f1c7.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP121-O_coelho_boxer" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP121-O_coelho_boxer
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP121-O_coelho_boxer.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Pro100TV 576p
-https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP122-O_coelho_de_wackiki" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP122-O_coelho_de_wackiki
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP122-O_coelho_de_wackiki.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", RetroCrush 1080p
-https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP123-O_coelho_do_dia" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP123-O_coelho_do_dia
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP123-O_coelho_do_dia.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Sony Yay 576p
-http://116.90.120.151:8000/play/a0hf/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP124-O_coelho_que_veio_para_jantar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP124-O_coelho_que_veio_para_jantar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP124-O_coelho_que_veio_para_jantar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", South Park
-https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP125-O_dia_da_marmota" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP125-O_dia_da_marmota
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP125-O_dia_da_marmota.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Spacetoon Arabic 1080p
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP126-O_esperto_e_excentrico_pato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP126-O_esperto_e_excentrico_pato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP126-O_esperto_e_excentrico_pato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", SX3 1080p [Geo-blocked]
-https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP127-O_estupido_cupido" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP127-O_estupido_cupido
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP127-O_estupido_cupido.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Tiguerito TV 720p [Not 247]
-https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP128-O_fim_secreto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP128-O_fim_secreto
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP128-O_fim_secreto.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Tokusato
-https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP129-Cada_macaco_no_seu_galho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP129-Cada_macaco_no_seu_galho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP129-Cada_macaco_no_seu_galho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Toonami Aftermath East 480p
-http://api.toonamiaftermath.com:3000/est/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP130-O_galo_atrapalhado" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP130-O_galo_atrapalhado
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP130-O_galo_atrapalhado.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Yu-Gi-Oh 1080p
-https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP131-O_gato_sai_e_os_ratos_fazem_a_festa" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP131-O_gato_sai_e_os_ratos_fazem_a_festa
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP131-O_gato_sai_e_os_ratos_fazem_a_festa.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Мультимания 576p
-https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP132-O_gaviao_exigente" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP132-O_gaviao_exigente
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP132-O_gaviao_exigente.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Пингвин 720p
-https://sirius.greenhosting.ru/PingvinRu/video.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP133-O_hipinotizador_de_gatos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP133-O_hipinotizador_de_gatos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP133-O_hipinotizador_de_gatos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", Солнце 576p
-http://tv.mediacdn.ru/live/solntse/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP134-O_indio_joe" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP134-O_indio_joe
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP134-O_indio_joe.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", 优漫卡通 576p
-http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP135-O_lobo_chocado" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP135-O_lobo_chocado
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP135-O_lobo_chocado.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="📺 SÉRIES ANIME", 金鹰卡通 576p
-http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+#EXTINF:-1 tvg-id="" tvg-name="EP136-O_melhor_amigo_do_cao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP136-O_melhor_amigo_do_cao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP136-O_melhor_amigo_do_cao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP137-O_mundo_e_dos_mais_vivos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP137-O_mundo_e_dos_mais_vivos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP137-O_mundo_e_dos_mais_vivos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP138-O_oscar_vai_para_pernalonga" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP138-O_oscar_vai_para_pernalonga
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP138-O_oscar_vai_para_pernalonga.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP139-O_osso" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP139-O_osso
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP139-O_osso.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP140-O_pequeno_cao_orfao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP140-O_pequeno_cao_orfao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP140-O_pequeno_cao_orfao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP141-O_pica_pau_ouconsciencia" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP141-O_pica_pau_ouconsciencia
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP141-O_pica_pau_ouconsciencia.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP142-O_rato_destruidor" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP142-O_rato_destruidor
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP142-O_rato_destruidor.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP143-O_refugio" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP143-O_refugio
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP143-O_refugio.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP144-O_resfriado" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP144-O_resfriado
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP144-O_resfriado.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP145-O_sonho_de_jack" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP145-O_sonho_de_jack
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP145-O_sonho_de_jack.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP146-O_terror_do_deserto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP146-O_terror_do_deserto
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP146-O_terror_do_deserto.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP147-O_treinador_de_frajola" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP147-O_treinador_de_frajola
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP147-O_treinador_de_frajola.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP148-O_ultimo_gato_faminto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP148-O_ultimo_gato_faminto
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP148-O_ultimo_gato_faminto.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP149-O_ultimo_moicano" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP149-O_ultimo_moicano
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP149-O_ultimo_moicano.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP150-O_vigia_noturno" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP150-O_vigia_noturno
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP150-O_vigia_noturno.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP151-O_vilao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP151-O_vilao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP151-O_vilao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP152-Paixoes_de_rato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP152-Paixoes_de_rato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP152-Paixoes_de_rato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP153-Panchicho_vanila" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP153-Panchicho_vanila
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP153-Panchicho_vanila.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP154-Parabens_voce_e_pai" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP154-Parabens_voce_e_pai
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP154-Parabens_voce_e_pai.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP155-Passeio_pelo_hawaii" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP155-Passeio_pelo_hawaii
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP155-Passeio_pelo_hawaii.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP156-Patolino_detetive" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP156-Patolino_detetive
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP156-Patolino_detetive.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP157-Patolino_em_hollywood" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP157-Patolino_em_hollywood
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP157-Patolino_em_hollywood.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP158-Patolino_em_nao_me_coma" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP158-Patolino_em_nao_me_coma
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP158-Patolino_em_nao_me_coma.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP159-Patolino_em_o_bebe_da_cegonha" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP159-Patolino_em_o_bebe_da_cegonha
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP159-Patolino_em_o_bebe_da_cegonha.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP160-Patolino_e_seus_truques" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP160-Patolino_e_seus_truques
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP160-Patolino_e_seus_truques.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP161-Patolino_no_velho_oeste" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP161-Patolino_no_velho_oeste
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP161-Patolino_no_velho_oeste.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP162-Pato_pasmo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP162-Pato_pasmo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP162-Pato_pasmo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP163-Pato_superior" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP163-Pato_superior
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP163-Pato_superior.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP164-Pepe_le_pew_em_amor_selvagem" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP164-Pepe_le_pew_em_amor_selvagem
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP164-Pepe_le_pew_em_amor_selvagem.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP165-Pepe_le_pew_em_aventura_inesquecivel" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP165-Pepe_le_pew_em_aventura_inesquecivel
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP165-Pepe_le_pew_em_aventura_inesquecivel.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP166-Pepe_le_pew_em_romance_nos_alpes" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP166-Pepe_le_pew_em_romance_nos_alpes
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP166-Pepe_le_pew_em_romance_nos_alpes.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP167-Pepe_le_pew_na_legiao_estrangeira" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP167-Pepe_le_pew_na_legiao_estrangeira
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP167-Pepe_le_pew_na_legiao_estrangeira.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP168-Perdidos_na_ilha" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP168-Perdidos_na_ilha
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP168-Perdidos_na_ilha.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP169-Perdido_e_orfao" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP169-Perdido_e_orfao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP169-Perdido_e_orfao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP170-Pernalonga_a_descoberta_da_america" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP170-Pernalonga_a_descoberta_da_america
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP170-Pernalonga_a_descoberta_da_america.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP171-Pernalonga_em_coelho_do_deserto" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP171-Pernalonga_em_coelho_do_deserto
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP171-Pernalonga_em_coelho_do_deserto.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP172-Pernalonga_em_contatos_imediatos" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP172-Pernalonga_em_contatos_imediatos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP172-Pernalonga_em_contatos_imediatos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP173-Pernalonga_em_frente_e_marche" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP173-Pernalonga_em_frente_e_marche
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP173-Pernalonga_em_frente_e_marche.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP174-Pernalonga_em_gorila_dos_meus_sonhos" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP174-Pernalonga_em_gorila_dos_meus_sonhos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP174-Pernalonga_em_gorila_dos_meus_sonhos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP175-Pernalonga_em_marte" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP175-Pernalonga_em_marte
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP175-Pernalonga_em_marte.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP176-Pernalonga_em_o_coelho_espacial" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP176-Pernalonga_em_o_coelho_espacial
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP176-Pernalonga_em_o_coelho_espacial.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP177-Pernalonga_em_o_ouro_da_cobica" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP177-Pernalonga_em_o_ouro_da_cobica
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP177-Pernalonga_em_o_ouro_da_cobica.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP178-Pernalonga_em_rasgando_o_contrato" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP178-Pernalonga_em_rasgando_o_contrato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP178-Pernalonga_em_rasgando_o_contrato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP180-Pernalonga_e_o_lobo_mau" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP180-Pernalonga_e_o_lobo_mau
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP180-Pernalonga_e_o_lobo_mau.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP181-Pernalonga_e_o_marciano" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP181-Pernalonga_e_o_marciano
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP181-Pernalonga_e_o_marciano.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP182-Pernalonga_e_o_pe_de_feijao" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", EP182-Pernalonga_e_o_pe_de_feijao
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP182-Pernalonga_e_o_pe_de_feijao.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP183-Pesadelo_de_coelho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP183-Pesadelo_de_coelho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP183-Pesadelo_de_coelho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP184-Piu_piu_em_frajola_na_gaiola" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP184-Piu_piu_em_frajola_na_gaiola
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP184-Piu_piu_em_frajola_na_gaiola.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP185-Piu_piu_em_novos_vizinhos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP185-Piu_piu_em_novos_vizinhos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP185-Piu_piu_em_novos_vizinhos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP186-Piu_piu_em_passaro_indigesto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP186-Piu_piu_em_passaro_indigesto
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP186-Piu_piu_em_passaro_indigesto.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP187-Piu_piu_e_frajola_a_historia_de_piu_piu" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP187-Piu_piu_e_frajola_a_historia_de_piu_piu
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP187-Piu_piu_e_frajola_a_historia_de_piu_piu.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP188-Piu_piu_e_frajola_em_visitando_o_zoologico" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP188-Piu_piu_e_frajola_em_visitando_o_zoologico
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP188-Piu_piu_e_frajola_em_visitando_o_zoologico.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP189-Piu_piu_e_frajola_presos_na_nevasca" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP189-Piu_piu_e_frajola_presos_na_nevasca
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP189-Piu_piu_e_frajola_presos_na_nevasca.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP190-Pocos_do_texa" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP190-Pocos_do_texa
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP190-Pocos_do_texa.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP191-Porcos_e_porcos" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP191-Porcos_e_porcos
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP191-Porcos_e_porcos.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP192-Praga_de_rato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP192-Praga_de_rato
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP192-Praga_de_rato.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP193-Quem_ri_por_ultimo_ri_melhor" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP193-Quem_ri_por_ultimo_ri_melhor
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP193-Quem_ri_por_ultimo_ri_melhor.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP194-Que_opera_velhinho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP194-Que_opera_velhinho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP194-Que_opera_velhinho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP195-Que_pedrada" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP195-Que_pedrada
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP195-Que_pedrada.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP196-Rapoza_de_prata" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP196-Rapoza_de_prata
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP196-Rapoza_de_prata.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP197-Ratinhos_brincalhoes" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP197-Ratinhos_brincalhoes
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP197-Ratinhos_brincalhoes.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP198-Rato_quinta_coluna" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP198-Rato_quinta_coluna
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP198-Rato_quinta_coluna.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP199-Rato_tamanho_familia" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP199-Rato_tamanho_familia
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP199-Rato_tamanho_familia.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP200-Razoes_sentimentais" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP200-Razoes_sentimentais
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP200-Razoes_sentimentais.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP201-Rhapsody_in_rivets" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP201-Rhapsody_in_rivets
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP201-Rhapsody_in_rivets.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP202-Roedorzinho_vermelho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP202-Roedorzinho_vermelho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP202-Roedorzinho_vermelho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP203-Romance_no_gelo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP203-Romance_no_gelo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP203-Romance_no_gelo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP204-Romeu_sentimental" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP204-Romeu_sentimental
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP204-Romeu_sentimental.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP205-Sniffles_bells_the_cat" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP205-Sniffles_bells_the_cat
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP205-Sniffles_bells_the_cat.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP206-Sniffles_takes_a_trip" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP206-Sniffles_takes_a_trip
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP206-Sniffles_takes_a_trip.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP207-Sobrevivencia_na_floresta_com_frangolino" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP207-Sobrevivencia_na_floresta_com_frangolino
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP207-Sobrevivencia_na_floresta_com_frangolino.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP208-Sono_espacial" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP208-Sono_espacial
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP208-Sono_espacial.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP209-Sr_e_sra_e_o_nome" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP209-Sr_e_sra_e_o_nome
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP209-Sr_e_sra_e_o_nome.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP210-Super_coelho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP210-Super_coelho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP210-Super_coelho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP211-Swooner_crooner" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP211-Swooner_crooner
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP211-Swooner_crooner.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP212-Tentando_hibernar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP212-Tentando_hibernar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP212-Tentando_hibernar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP213-Tentando_tudo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP213-Tentando_tudo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP213-Tentando_tudo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP214-Toquinho_vai_acampanhar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP214-Toquinho_vai_acampanhar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP214-Toquinho_vai_acampanhar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP215-Uma_cacada_no_cartoon" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP215-Uma_cacada_no_cartoon
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP215-Uma_cacada_no_cartoon.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP216-Uma_festa_em_malibu" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP216-Uma_festa_em_malibu
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP216-Uma_festa_em_malibu.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP217-Uma_noite_com_os_astros" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP217-Uma_noite_com_os_astros
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP217-Uma_noite_com_os_astros.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP218-Um_chapeuzinho_vermelho_diferente" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP218-Um_chapeuzinho_vermelho_diferente
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP218-Um_chapeuzinho_vermelho_diferente.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP219-Um_gato_bem_informado" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP219-Um_gato_bem_informado
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP219-Um_gato_bem_informado.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP220-Um_moco_em_bagda" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP220-Um_moco_em_bagda
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP220-Um_moco_em_bagda.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP221-Uniao_em_perigo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP221-Uniao_em_perigo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP221-Uniao_em_perigo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP222-Valeu_bicho" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP222-Valeu_bicho
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP222-Valeu_bicho.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP223-Vamos_tocar" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP223-Vamos_tocar
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP223-Vamos_tocar.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP224-Vida_de_cachorro" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP224-Vida_de_cachorro
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP224-Vida_de_cachorro.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP225-Vida_de_gato_e_fogo" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP225-Vida_de_gato_e_fogo
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP225-Vida_de_gato_e_fogo.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP226-Vida_selvagem" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP226-Vida_selvagem
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP226-Vida_selvagem.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EP227-Visita_indesejada" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EP227-Visita_indesejada
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP227-Visita_indesejada.mkv|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 01" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 01
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2001%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 02" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 02
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2002%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 03" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 03
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2003%20HQ(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 04" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 04
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2004%20HQ(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 05" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 05
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2005%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 06" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 06
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2006%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 07" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 07
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2007%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 08" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 08
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2008%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 09" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 09
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2009%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 10" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 10
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2010%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 11" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 11
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2011%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 12" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 12
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2012%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 13" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 13
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2013%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 14" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 14
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2014%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 15" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 15
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2015%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 16" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 16
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2016%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 17" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 17
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2017%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 18" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 18
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2018%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 19" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 19
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2019%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 20" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 20
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2020%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 21" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 21
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2021%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 22" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 22
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2022%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 23" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 23
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2023%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 24" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 24
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2024%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 25" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 25
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2025%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 26" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 26
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2026%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 27" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 27
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2027%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 28" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 28
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2028%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 29" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 29
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2029%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 30" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 30
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2030%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 31" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 31
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2031%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 32" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 32
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2032%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 33" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 33
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2033%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 34" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 34
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2034%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 35" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 35
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2035%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 36" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 36
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2036%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 37" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 37
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2037%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 38" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 38
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2038%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 39" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 39
+https://github.com/mariosanthos/arquivo2/raw/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2039%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 40" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 40
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2040%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 41" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 41
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2041%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 42" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 42
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2042%20HD(480P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 43" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 43
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2043%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 44" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 44
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2044%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 45" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 45
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2045%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 46" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 46
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2046%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 47" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 47
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2047%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 48" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 48
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2048%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 49" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 49
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2049%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 50" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 50
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2050%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 51" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 51
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2051%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Semana 52" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Semana 52
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2052%20HD(360P).mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Viagem na Eletricidade" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Viagem na Eletricidade
+https://t0-videos.cinefy.gg/bcdn_token=uj4UF-zc23AY28Qi0lPMEPYIIdrw9ksh2JTNXnxadxw&expires=1776192953&token_countries=BR&token_path=%2F76b463b6-4491-42ae-9711-79ebc73ea11c/76b463b6-4491-42ae-9711-79ebc73ea11c/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep01" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep01
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona01.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep02" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep02
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona02.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep03" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep03
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona03.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep04" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep04
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona04.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep05" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep05
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona05.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep06" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep06
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona06.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep08" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep08
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona08.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep09" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep09
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona09.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep10" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep10
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona10.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep11" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep11
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona11.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep12" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep12
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona12.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep13" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep13
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona13.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep14" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep14
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona14.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep15" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep15
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona15.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep16" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep16
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona16.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep17" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep17
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona17.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep18" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep18
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona18.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep19" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep19
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona19.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep20" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep20
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona20.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep21" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep21
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona21.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep22" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep22
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona22.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep23" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep23
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona23.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep24" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep24
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona24.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep25" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Assim que funciona ep25
+https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona25.mp4|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="3ABN Kids Network" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", 3ABN Kids Network
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="ADN TV 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", ADN TV 720p
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Ani-Blast 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Ani-Blast 720p
+https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Animation 1080p [Geo-blocked]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Animation 1080p [Geo-blocked]
+https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Animax Asia India 1080p [Geo-blocked]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Animax Asia India 1080p [Geo-blocked]
+https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Anime Vision 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Anime Vision 1080p
+https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Anime Vision Classics 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Anime Vision Classics 1080p
+https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="ANIME x HIDIVE 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", ANIME x HIDIVE 720p
+https://d3f088nnrrvkwf.cloudfront.net/v1/amc_anime_x_hidive_1/samsungheadend_us/latest/main/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Anime Zone TV 480p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Anime Zone TV 480p
+http://animezonetv.net/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Aniplus Asia 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Aniplus Asia 720p
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Banijay Mr Bean Animé 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Banijay Mr Bean Animé 1080p
+https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="BBC FourCBeebies 1080p [Geo-Blocked]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", BBC FourCBeebies 1080p [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="BBC ThreeCBBC 1080p [Geo-Blocked]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", BBC ThreeCBBC 1080p [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Blues TV" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Blues TV
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel Latin America 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Disney Channel Latin America 1080p
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32.playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Jr 1080p [Geo-blocked]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Disney Jr 1080p [Geo-blocked]
+https://saran-live.ercdn.net/disneyjunior/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Jr Latin America South" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Disney Jr Latin America South
+http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Jr Latin America South HD 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Disney Jr Latin America South HD 1080p
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-35.playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="DreikoTv 720p [Not 247]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", DreikoTv 720p [Not 247]
+https://cloudvideo.servers10.com:8081/8138/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EnerGeek 720p [Not 247]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EnerGeek 720p [Not 247]
+https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="EnerGeek Fan 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", EnerGeek Fan 1080p
+https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Extrema Kids TV [Not 247]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Extrema Kids TV [Not 247]
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="FAN 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", FAN 1080p
+http://31.148.48.15/Fan/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="FilmRise Anime 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", FilmRise Anime 720p
+https://dvu7aia8rjlfm.cloudfront.net/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Gong 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Gong 1080p
+https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Gooder Nation Channel 32 720p [Not 247]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Gooder Nation Channel 32 720p [Not 247]
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/channel32/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Japanim TV 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Japanim TV 1080p
+https://foxkidstv.be:3369/stream/play.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Jiangxi Childrens Channel" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Jiangxi Childrens Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Kanade 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Kanade 1080p
+https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=ZZDemoIPTVGH|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Kuriakos Kids 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Kuriakos Kids 1080p
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Magic Kids 486p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Magic Kids 486p
+https://magicstream.ddns.net/magicstream/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="MCN6 Music Channel 1080p [Not 247]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", MCN6 Music Channel 1080p [Not 247]
+https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies for Gamers" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", Movies for Gamers
+https://jmp2.uk/plu-6008ddf24ef92b00079d61cf.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Mr Bean Animated 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Mr Bean Animated 1080p
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Mr Bean Anime Italy 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Mr Bean Anime Italy 1080p
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Mr Bean Anime Spain 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Mr Bean Anime Spain 1080p
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Multimania Latvia 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Multimania Latvia 576p
+https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Naruto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Naruto
+https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Naruto 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Naruto 720p
+https://jmp2.uk/plu-65d5fc39a25d5e00082895c4.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Naruto 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Naruto 1080p
+https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Naruto" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Naruto
+https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Naruto Shippuden" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Naruto Shippuden
+https://jmp2.uk/plu-64c92fea3c3344000869e8a9.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Nickelodeon 576p
+http://195.64.140.147:10121/121|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="NickOnline 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", NickOnline 720p
+https://x1co.com.br/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="One Piece" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", One Piece
+https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="One Piece" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", One Piece
+https://jmp2.uk/plu-62e94ec74823db0007277a8f.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="One Piece" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", One Piece
+https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="One Piece" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", One Piece
+https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="One Piece" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", One Piece
+https://jmp2.uk/plu-5f7790b3ed0c88000720b241.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="One Piece" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", One Piece
+https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pingviin 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pingviin 576p
+https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Anime" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pluto TV Anime
+https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Anime" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pluto TV Anime
+https://jmp2.uk/plu-608181d420fc8500075f612a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Anime" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pluto TV Anime
+https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Anime Ação" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pluto TV Anime Ação
+https://jmp2.uk/plu-604b79c558393100078faeef.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Anime Movies" tvg-logo="" tvg-type="movie" group-title="🎬 FILMES ANIME", Pluto TV Anime Movies
+https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pokémon
+https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pokémon
+https://jmp2.uk/plu-6675c7868768aa0008d7f1c7.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Pro100TV 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Pro100TV 576p
+https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="RetroCrush 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", RetroCrush 1080p
+https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Sony Yay 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Sony Yay 576p
+http://116.90.120.151:8000/play/a0hf/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="South Park" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", South Park
+https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Spacetoon Arabic 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Spacetoon Arabic 1080p
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="SX3 1080p [Geo-blocked]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", SX3 1080p [Geo-blocked]
+https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Tiguerito TV 720p [Not 247]" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Tiguerito TV 720p [Not 247]
+https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Tokusato" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Tokusato
+https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Toonami Aftermath East 480p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Toonami Aftermath East 480p
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Yu-Gi-Oh 1080p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Yu-Gi-Oh 1080p
+https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Мультимания 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Мультимания 576p
+https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Пингвин 720p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Пингвин 720p
+https://sirius.greenhosting.ru/PingvinRu/video.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Солнце 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", Солнце 576p
+http://tv.mediacdn.ru/live/solntse/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="优漫卡通 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", 优漫卡通 576p
+http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="金鹰卡通 576p" tvg-logo="" tvg-type="series" group-title="📺 SÉRIES ANIME", 金鹰卡通 576p
+http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4
 
