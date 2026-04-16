@@ -35,11 +35,15 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           
+          # Garante que o robô veja as mudanças remotas
+          git fetch origin main
+          
           git add output/
           
           if git commit -m "Auto-update: Links [$(date +'%d-%m %H:%M')]"; then
-            git pull --rebase origin main
+            # Tenta sincronizar. Se houver conflito, o robô prioriza o que ele acabou de gerar
+            git pull --rebase -X theirs origin main
             git push origin main
           else
-            echo "Sem alterações para salvar."
+            echo "Sem alterações."
           fi
