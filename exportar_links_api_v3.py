@@ -22,18 +22,15 @@ HEADERS_CHROME = {
 }
 
 PROVIDERS = [
-    {"name": "AniZero", "url": "https://anizero.org/animes", "suffix": "?page="},
-    {"name": "AnimesOnlineClub", "url": "https://animesonlineclub.net/lista-de-animes", "suffix": "/page/"},
     {"name": "AnimesHD", "url": "https://animeshd.to/animes", "suffix": "/page/"},
-    {"name": "AnimesComix", "url": "https://animescomix.tv/lista-de-animes", "suffix": "/page/"},
-    {"name": "AnimeFLV", "url": "https://m.animeflv.net/browse", "suffix": "&page="},
-    {"name": "Aniture", "url": "https://aniture-pt.com.br/animes", "suffix": "/page/"},
-    {"name": "TopAnimes", "url": "https://topanimes.net/lista-de-animes", "suffix": "/page/"},
     {"name": "AnimePlayer-Dub", "url": "https://animeplayer.com.br/genero/dublado", "suffix": "/page/"},
-    {"name": "AnimesOnlineCloud", "url": "https://animesonline.cloud/animes", "suffix": "/page/"},
+    {"name": "Anizero", "url": "https://anizero.org/lista-de-animes", "suffix": "?page="}, # Corrigido 404
+    {"name": "AnimesOnlineClub", "url": "https://animesonlineclub.net/animes", "suffix": "/page/"}, # Ajustado
+    {"name": "AnimesComix", "url": "https://animescomix.tv/animes", "suffix": "/page/"},
+    {"name": "AnimeFLV", "url": "https://m.animeflv.net/browse", "suffix": "&page="},
+    {"name": "TopAnimes", "url": "https://topanimes.net/animes", "suffix": "/page/"}, # Corrigido 404
     {"name": "Goyabu", "url": "https://goyabu.com/lista-de-animes", "suffix": "/page/"}
 ]
-
 def extrair_universal(html, provider_name):
     soup = BeautifulSoup(html, 'html.parser')
     items = []
