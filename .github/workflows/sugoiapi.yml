@@ -1,37 +1,50 @@
-import sys
-import logging
-import traceback
-from pathlib import Path
+name: Executar SUGOIAPI VOD
 
-# ... (seus outros imports: requests, pandas, etc)
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
-# 1. Configuração Robusta de Diretórios
-SCRIPT_DIR = Path(__file__).parent.absolute()
-OUTPUT_DIR = SCRIPT_DIR / "output"
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-LOG_FILE = OUTPUT_DIR / "saude_providers.log"
+    steps:
+      - name: 1. Baixar Código do Repositório
+        uses: actions/checkout@v3
 
-logging.basicConfig(
-    filename=str(LOG_FILE),
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    encoding='utf-8'
-)
+      - name: 2. Configurar ambiente Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-# 2. Execução Protegida
-if __name__ == "__main__":
-    try:
-        print("🚀 Iniciando processamento...")
-        # CHAME SUA FUNÇÃO PRINCIPAL AQUI (ex: main())
-        # main() 
-        print("✅ Script finalizado com sucesso.")
-        
-    except Exception as e:
-        print(f"❌ ERRO CRÍTICO ENCONTRADO: {e}")
-        # Isso imprime o rastro do erro no log do GitHub Actions
-        traceback.print_exc() 
-        logging.error(f"Erro fatal: {traceback.format_exc()}")
-        # Encerra com código 1 para o GitHub saber que falhou, 
-        # mas agora com uma mensagem clara no console.
-        sys.exit(1) 
+      - name: 3. INSTALAR BIBLIOTECAS (O ajuste principal)
+        run: |
+          python -m pip install --upgrade pip
+          # Instala tudo o que o seu script precisa
+          pip install pandas openpyxl requests
+
+      - name: 4. Executar Script Python
+        run: python exportar_links_api_v3.py
+
+      - name: 5. Gravar resultados no GitHub (Auto-Commit)
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          # Adiciona os arquivos gerados na pasta output
+          git add **/output/*.csv || echo "Sem CSV"
+          git add **/output/*.xlsx || echo "Sem XLSX"
+          git add **/output/*.m3u || echo "Sem M3U"
+          
+          # Só faz o commit se houver mudanças
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Auto-update: Relatórios [$(date +'%Y-%m-%d %H:%M')]"
+            git push
+          else
+            echo "Nada para atualizar."
+          fi
