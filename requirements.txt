@@ -3,6 +3,8 @@ pandas==2.2.0
 openpyxl==3.1.2
 cloudscraper==1.2.71
 beautifulsoup4==4.12.3
+pyarrow==15.0.0
+
 
 
 
