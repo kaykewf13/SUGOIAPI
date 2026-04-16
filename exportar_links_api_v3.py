@@ -1,19 +1,20 @@
-import subprocess
 import sys
-# Tenta importar o pandas; se falhar, instala automaticamente
-try:
-    import pandas as pd
-except ImportError:
-    print("🛠️ Pandas não encontrado. Instalando dependências...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas", "openpyxl", "requests"])
-    import pandas as pd
+import logging
+import traceback
+import requests
+import pandas as pd
+import os                # Adicionado para garantir compatibilidade
+from pathlib import Path  # IMPORTAÇÃO QUE CORRIGE O SEU ERRO
+from datetime import datetime
 
 # =========================================================
 # 1. CONFIGURAÇÃO DE DIRETÓRIOS E LOGS
 # =========================================================
 # Localiza onde o script está e garante a pasta 'output'
 SCRIPT_DIR = Path(__file__).parent.absolute()
+
 OUTPUT_DIR = SCRIPT_DIR / "output"
+
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 LOG_FILE = OUTPUT_DIR / "saude_providers.log"
