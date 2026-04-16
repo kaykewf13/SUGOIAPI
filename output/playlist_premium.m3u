@@ -1,2 +1,47 @@
-#EXTM3U x-tvg-url=""
+#EXTM3U
+
+#EXTINF:-1 group-title="ANIME GERAL", RedeTV! O Dia (PI)
+https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Anime Vision (1080p)
+https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Anime Vision Classics (1080p)
+https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", ANIME x HIDIVE (720p)
+https://d3f088nnrrvkwf.cloudfront.net/v1/amc_anime_x_hidive_1/samsungheadend_us/latest/main/hls/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Anime Zone TV (480p)
+http://animezonetv.net/hls/stream.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", FilmRise Anime (720p)
+https://dvu7aia8rjlfm.cloudfront.net/master.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Movies for Gamers
+https://jmp2.uk/plu-6008ddf24ef92b00079d61cf.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Mr. Bean Anime Italy (1080p)
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Mr. Bean Anime Spain (1080p)
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Pluto TV Anime
+https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Pluto TV Anime
+https://jmp2.uk/plu-608181d420fc8500075f612a.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Pluto TV Anime
+https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Pluto TV Anime Ação
+https://jmp2.uk/plu-604b79c558393100078faeef.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
+
+#EXTINF:-1 group-title="ANIME GERAL", Pluto TV Anime Movies
+https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8|User-Agent=Mozilla/5.0&Referer=https://google.com/
 
