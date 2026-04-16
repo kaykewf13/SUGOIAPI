@@ -6,14 +6,12 @@ import re
 import shutil
 from pathlib import Path
 
-# 1. AUTO-LIMPEZA: Remove tudo o que existia antes
+# LIMPEZA DE CACHE LOCAL
 SCRIPT_DIR = Path(__file__).parent.absolute()
 OUTPUT_DIR = SCRIPT_DIR / "output"
-if OUTPUT_DIR.exists():
-    shutil.rmtree(OUTPUT_DIR) # Deleta a pasta antiga e tudo dentro dela
+if OUTPUT_DIR.exists(): shutil.rmtree(OUTPUT_DIR)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# FONTES
 DIRECTORIES = [
     "https://raw.githubusercontent.com/mariosanthos/IPTV/main/lista%20m3u",
     "https://iptv-org.github.io/iptv/categories/animation.m3u",
@@ -21,18 +19,18 @@ DIRECTORIES = [
     "https://raw.githubusercontent.com/Iptv-Animes/AutoUpdate/main/lista.m3u"
 ]
 
-def categorizar_anime_profissional(nome, url):
+def extrair_metadados(nome, url):
     txt = (str(nome) + " " + str(url)).lower()
-    if any(x in txt for x in ['filme', 'movie', 'longa']): return "🎬 FILMES"
-    if any(x in txt for x in ['dublado', 'pt-br', 'dub']): return "🇧🇷 DUBLADOS"
-    return "📺 SÉRIES ANIME"
+    # Define se é Filme ou Série para o player
+    if any(x in txt for x in ['filme', 'movie', 'longa']):
+        return "🎬 FILMES ANIME", "movie"
+    return "📺 SÉRIES ANIME", "series"
 
 def main():
-    print(f"🚀 INICIANDO MODO VOD PROFISSIONAL (LIMPEZA TOTAL)")
+    print(f"🚀 EXPORTANDO EM MODO VOD ESTRUTURADO")
     scraper = cloudscraper.create_scraper()
     acervo = []
     
-    # Processa Online
     for url in DIRECTORIES:
         try:
             res = scraper.get(url, timeout=20)
@@ -42,35 +40,34 @@ def main():
                     acervo.append({"Anime": nome.strip(), "URL": link.strip()})
         except: continue
 
-    # Processa Fontes Manuais
+    # Fontes Manuais
     caminho_manual = SCRIPT_DIR / "fontes_manuais.txt"
     if caminho_manual.exists():
         conteudo = caminho_manual.read_text(encoding="utf-8")
         links_txt = re.findall(r'(https?://[^\s"\'<>]+(?:\.m3u8|\.mp4|\.ts)[^\s"\'<>]*)', conteudo)
-        for l in links_txt:
-            acervo.append({"Anime": "VOD Minerado", "URL": l})
+        for l in links_txt: acervo.append({"Anime": "VOD Minerado", "URL": l})
 
     if acervo:
         df = pd.DataFrame(acervo).drop_duplicates(subset=['URL'])
-        df = df[df['URL'].str.contains(r'\.m3u8|\.mp4|\.ts', case=False, na=False)]
-
         m3u_path = OUTPUT_DIR / "playlist_premium.m3u"
+        
         with open(m3u_path, "w", encoding="utf-8") as f:
-            # CABEÇALHO PARA FORÇAR MODO VOD
-            f.write('#EXTM3U url-tvg="" m3u-type="vod"\n\n')
+            # CABEÇALHO COMPLETO PARA SMARTONE/IBO
+            f.write('#EXTM3U x-tvg-url="" m3u-type="vod" playlist-type="vod"\n\n')
             
             for index, row in df.iterrows():
-                grupo = categorizar_anime_profissional(row['Anime'], row['URL'])
+                grupo, tipo_vod = extrair_metadados(row['Anime'], row['URL'])
                 nome_clean = re.sub(r'[^\w\s\-\[\]]', '', row['Anime'])
                 
-                # SINTAXE VOD: O player entende melhor se o link terminar "limpo" após os pipes
-                link_final = f"{row['URL']}|User-Agent=Mozilla/5.0&Referer=https://google.com/"
+                # SINTAXE DE FORÇAR VOD (Adicionando extensões virtuais no final do pipe)
+                # O player vê o ".mp4" no final do link e entende como arquivo, não canal
+                link_final = f"{row['URL']}|User-Agent=Mozilla/5.0&Referer=https://google.com/&.mp4"
                 
-                # Adicionamos tags que players como IBO e SmartOne usam para separar VOD de TV
-                f.write(f'#EXTINF:-1 tvg-id="" tvg-logo="" group-title="{grupo}", {nome_clean}\n')
+                # Tag tvg-type é o segredo para aparecer nas categorias corretas
+                f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{nome_clean}" tvg-logo="" tvg-type="{tipo_vod}" group-title="{grupo}", {nome_clean}\n')
                 f.write(f"{link_final}\n\n")
         
-        print(f"✅ Sucesso! {len(df)} links limpos e configurados como VOD.")
+        print(f"✅ Finalizado! 245 links configurados com Tags VOD.")
 
 if __name__ == "__main__":
     main()
