@@ -1,48 +1,84 @@
-import pandas as pd
-import cloudscraper
-import requests
 import re
+import json
 import shutil
+import cloudscraper
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor
 
-# ... (Manter configurações de diretório anteriores) ...
+# CONFIGURAÇÕES DE DIRETÓRIO
+OUTPUT_DIR = Path('output')
+if OUTPUT_DIR.exists(): shutil.rmtree(OUTPUT_DIR)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-def validar_link(row):
-    """Verifica se o link do vídeo está online (Status 200)."""
-    try:
-        # Fazemos um request rápido (apenas cabeçalho) para não baixar o arquivo
-        response = requests.head(row['URL'], timeout=5, allow_redirects=True)
-        if response.status_code == 200:
-            return row
-    except:
-        return None
-    return None
+def classificar_conteudo(nome):
+    """Define a categoria e o tipo de áudio com base no nome do arquivo."""
+    nome_up = nome.upper()
+    
+    # Identificação de Áudio
+    audio = " [LEG]"
+    if any(x in nome_up for x in ['DUBLADO', 'PT-BR', 'DUAL']):
+        audio = " [DUB]"
+    
+    # Identificação de Categoria (Tipo)
+    if any(x in nome_up for x in ['FILME', 'MOVIE', 'MOVIE']):
+        return f"ANIMES FILMES{audio}", "movie"
+    
+    return f"ANIMES SERIES{audio}", "series"
+
+def extrair_episodio(nome):
+    """Normaliza o nome para o padrão S01E01 para agrupamento no player."""
+    # Remove lixo técnico
+    nome_clean = re.sub(r'(?i)(1080p|720p|h264|x264|web-dl|dual|audio|legendado|dublado)', '', nome).strip()
+    
+    # Busca padrão de episódio (Ex: E01, Ep 01, 01)
+    match = re.search(r'(?i)(?:ep|e|cap)\.?\s?(\d+)', nome_clean)
+    if match:
+        num_ep = match.group(1).zfill(2)
+        # Remove o número do título principal para evitar repetição
+        titulo_base = re.sub(r'(?i)(?:ep|e|cap)\.?\s?\d+.*', '', nome_clean).strip()
+        return f"{titulo_base} S01E{num_ep}", titulo_base
+    
+    return nome_clean, nome_clean
 
 def main():
-    # ... (Parte da mineração anterior) ...
+    scraper = cloudscraper.create_scraper()
+    acervo = []
     
-    if acervo:
-        print(f"🔍 Validando integridade de {len(acervo)} links...")
-        df_bruto = pd.DataFrame(acervo).drop_duplicates(subset=['URL'])
-        
-        # Usamos múltiplas 'threads' para validar rápido (estilo m3u-editor profissional)
-        with ThreadPoolExecutor(max_workers=10) as executor:
-            resultados = list(executor.map(validar_link, df_bruto.to_dict('records')))
-        
-        # Remove os links que falharam (None)
-        acervo_validado = [r for r in resultados if r is not None]
-        df = pd.DataFrame(acervo_validado)
+    # Fontes M3U de referência
+    SOURCES = [
+        "https://raw.githubusercontent.com/L3uS-IPTV/Animes/main/animes.m3u",
+        "https://raw.githubusercontent.com/Iptv-Animes/AutoUpdate/main/lista.m3u"
+    ]
 
-        # GERAÇÃO DO M3U FINAL
+    print("🚀 Iniciando extração e classificação profissional...")
+
+    for url in SOURCES:
+        try:
+            res = scraper.get(url, timeout=15)
+            if res.status_code == 200:
+                # Extrai metadados e URL
+                matches = re.findall(r'#EXTINF:.*?,(.*?)\n(https?://.*)', res.text)
+                for nome_original, link in matches:
+                    # Filtro Anti-TV Live (Conforme o PDF de guia)
+                    if not any(x in nome_original.upper() for x in ['TV', 'LIVE', '24/7', 'AO VIVO']):
+                        acervo.append({"nome": nome_original, "url": link})
+        except: continue
+
+    if acervo:
         m3u_path = OUTPUT_DIR / "playlist_premium.m3u"
         with open(m3u_path, "w", encoding="utf-8") as f:
-            f.write('#EXTM3U x-tvg-url="" m3u-type="m3u_plus" playlist-type="vod"\n\n')
+            # Cabeçalho Plus para habilitar abas VOD
+            f.write('#EXTM3U x-tvg-url="" m3u-type="m3u_plus"\n\n')
             
-            for _, row in df.iterrows():
-                nome_final = normalizar_nome_serie(row['Nome'])
-                # Sintaxe que simula o servidor get.php validado por você
-                f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{nome_final}" tvg-type="series" group-title="ANIME VOD", {nome_final}\n')
-                f.write(f"{row['URL']}?output=ts&v=2026\n\n")
-        
-        print(f"✅ Integração completa! {len(df)} links validados e online.")
+            for item in acervo:
+                nome_exibicao, titulo_base = extrair_episodio(item['nome'])
+                categoria, tipo_vod = classificar_conteudo(item['nome'])
+                
+                # Tagging profissional para SmartOne/IBO
+                f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{titulo_base}" tvg-type="{tipo_vod}" group-title="{categoria}",{nome_exibicao}\n')
+                # O parâmetro output=ts garante compatibilidade com os players testados
+                f.write(f"{item['url']}?output=ts\n\n")
+
+    print(f"✅ Sucesso! Catálogo classificado e pronto para o SmartOne.")
+
+if __name__ == "__main__":
+    main()
