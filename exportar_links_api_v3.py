@@ -32,14 +32,14 @@ PRIORITY = [
 ‘Sports’, ‘Slice of Life’, ‘Drama’, ‘Adventure’, ‘Supernatural’,
 ‘Mecha’, ‘Music’,
 ]
-def load_cache():
-    if not CACHE_FILE.exists():
-        return {}
-    try:
-        content = CACHE_FILE.read_text('utf-8').strip()
-        return json.loads(content) if content else {}
-    except Exception:
-        return {}
+def save_cache(c):
+    CACHE_FILE.write_text(json.dumps(c, ensure_ascii=False, indent=2), 'utf-8')
+
+GQL = 'query($s:String){Media(search:$s,type:ANIME,isAdult:null){genres}}'
+
+def fetch_genres(title):
+    payload = json.dumps({'query': GQL, 'variables': {'s': title}}).encode()
+    req = urllib.request.Request(
 
 def save_cache(c):
 CACHE_FILE.write_text(json.dumps(c, ensure_ascii=False, indent=2), ‘utf-8’)
