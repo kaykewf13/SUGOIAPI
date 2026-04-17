@@ -1,1097 +1,1085 @@
 #EXTM3U x-tvg-url="" m3u-type="m3u_plus"
 
-#EXTINF:-1 tvg-id="" tvg-name="SBT Cidade Verde PI" tvg-type="series" group-title="ANIMES VOD", SBT Cidade Verde PI
+#EXTINF:-1 tvg-id="sbt_cidade_verde__pi_" tvg-name="SBT Cidade Verde (PI)" tvg-logo="" group-title="ANIMES | OUTROS", SBT Cidade Verde (PI)
 https://6836041ea1117.streamlock.net/cverde/cverde/chunklist_w635120748.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SBT Cidade Verde Picos PI" tvg-type="series" group-title="ANIMES VOD", SBT Cidade Verde Picos PI
+#EXTINF:-1 tvg-id="sbt_cidade_verde_picos__pi_" tvg-name="SBT Cidade Verde Picos (PI)" tvg-logo="" group-title="ANIMES | OUTROS", SBT Cidade Verde Picos (PI)
 https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SBT Cidade Verde Picos PI" tvg-type="series" group-title="ANIMES VOD", SBT Cidade Verde Picos PI
+#EXTINF:-1 tvg-id="sbt_cidade_verde_picos__pi_" tvg-name="SBT Cidade Verde Picos (PI)" tvg-logo="" group-title="ANIMES | OUTROS", SBT Cidade Verde Picos (PI)
 https://stmv1.transmissaodigital.com/tvcidadeverde/tvcidadeverde/chunklist_w86221967.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SBT MA" tvg-type="series" group-title="ANIMES VOD", SBT MA
+#EXTINF:-1 tvg-id="sbt__ma_" tvg-name="SBT (MA)" tvg-logo="" group-title="ANIMES | OUTROS", SBT (MA)
 https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SBT BA" tvg-type="series" group-title="ANIMES VOD", SBT BA
+#EXTINF:-1 tvg-id="sbt__ba_" tvg-name="SBT (BA)" tvg-logo="" group-title="ANIMES | OUTROS", SBT (BA)
 https://5a2b083e9f360.streamlock.net/bemtv/bemtv.sdp/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Band PA 2" tvg-type="series" group-title="ANIMES VOD", Band PA 2
+#EXTINF:-1 tvg-id="band__pa__2" tvg-name="Band (PA) 2" tvg-logo="" group-title="ANIMES | OUTROS", Band (PA) 2
 https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Band PE" tvg-type="series" group-title="ANIMES VOD", Band PE
+#EXTINF:-1 tvg-id="band__pe_" tvg-name="Band (PE)" tvg-logo="" group-title="ANIMES | OUTROS", Band (PE)
 https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Terra Viva" tvg-type="series" group-title="ANIMES VOD", Terra Viva
+#EXTINF:-1 tvg-id="terra_viva" tvg-name="Terra Viva" tvg-logo="" group-title="ANIMES | OUTROS", Terra Viva
 https://www.dailymotion.com/cdn/live/video/x8qceqq.m3u8?sec=9_AIIjp5UcOkDd9eMF0Og3nl9C2KTQBvJcZz3HcTlSQoTZ076xYC30larI-iIUplO3_qbrpcDl7mcB-ibxjOow&dmTs=11772&dmV1st=0B615F9E6BD4BC9A1216239E228F86C7?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FDR  Futura" tvg-type="series" group-title="ANIMES VOD", FDR  Futura
+#EXTINF:-1 tvg-id="fdr___futura" tvg-name="FDR - Futura" tvg-logo="" group-title="ANIMES | OUTROS", FDR - Futura
 https://cdn.mycloudstream.io/hls/live/broadcast/pxf9amx8/index.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Canal Rural" tvg-type="series" group-title="ANIMES VOD", Canal Rural
-https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8?output=ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Rede Brasil" tvg-type="series" group-title="ANIMES VOD", Rede Brasil
+#EXTINF:-1 tvg-id="rede_brasil" tvg-name="Rede Brasil" tvg-logo="" group-title="ANIMES | OUTROS", Rede Brasil
 https://video01.logicahost.com.br/redebrasil02/redebrasil02/chunklist_w1476653929.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Canal gov" tvg-type="series" group-title="ANIMES VOD", Canal gov
-https://canalgov-stream.ebc.com.br/index.m3u8?output=ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CNN Brasil" tvg-type="series" group-title="ANIMES VOD", CNN Brasil
+#EXTINF:-1 tvg-id="cnn_brasil" tvg-name="CNN Brasil" tvg-logo="" group-title="ANIMES | OUTROS", CNN Brasil
 https://video01.soultv.com.br/cnnbrasil/cnnbrasil/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="CNN Portugal" tvg-type="series" group-title="ANIMES VOD", CNN Portugal
+#EXTINF:-1 tvg-id="cnn_portugal" tvg-name="CNN Portugal" tvg-logo="" group-title="ANIMES | OUTROS", CNN Portugal
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Jovem Pan News" tvg-type="series" group-title="ANIMES VOD", Jovem Pan News
+#EXTINF:-1 tvg-id="jovem_pan_news" tvg-name="Jovem Pan News" tvg-logo="" group-title="ANIMES | OUTROS", Jovem Pan News
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="CNBC" tvg-type="series" group-title="ANIMES VOD", CNBC
+#EXTINF:-1 tvg-id="cnbc" tvg-name="CNBC" tvg-logo="" group-title="ANIMES | OUTROS", CNBC
 https://video01.soultv.com.br/timesbrasil/timesbrasil/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Band News" tvg-type="series" group-title="ANIMES VOD", Band News
+#EXTINF:-1 tvg-id="band_news" tvg-name="Band News" tvg-logo="" group-title="ANIMES | OUTROS", Band News
 https://super-cdn.link/bandnews/index.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Record News" tvg-type="series" group-title="ANIMES VOD", Record News
+#EXTINF:-1 tvg-id="record_news" tvg-name="Record News" tvg-logo="" group-title="ANIMES | OUTROS", Record News
 https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Euronews PT" tvg-type="series" group-title="ANIMES VOD", Euronews PT
+#EXTINF:-1 tvg-id="euronews__pt_" tvg-name="Euronews (PT)" tvg-logo="" group-title="ANIMES | OUTROS", Euronews (PT)
 https://euronews-euronews-portugues-1-br.samsung.wurl.tv/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rede Vida" tvg-type="series" group-title="ANIMES VOD", Rede Vida
+#EXTINF:-1 tvg-id="rede_vida" tvg-name="Rede Vida" tvg-logo="" group-title="ANIMES | OUTROS", Rede Vida
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rede Seculo 21" tvg-type="series" group-title="ANIMES VOD", Rede Seculo 21
+#EXTINF:-1 tvg-id="rede_seculo_21" tvg-name="Rede Seculo 21" tvg-logo="" group-title="ANIMES | OUTROS", Rede Seculo 21
 https://cdn.jmvstream.com/w/LVW-10024/ngrp:LVW10024_H3QLdAY6kx_all/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Novo Tempo" tvg-type="series" group-title="ANIMES VOD", Novo Tempo
+#EXTINF:-1 tvg-id="novo_tempo" tvg-name="Novo Tempo" tvg-logo="" group-title="ANIMES | OUTROS", Novo Tempo
 https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rede Gospel" tvg-type="series" group-title="ANIMES VOD", Rede Gospel
+#EXTINF:-1 tvg-id="rede_gospel" tvg-name="Rede Gospel" tvg-logo="" group-title="ANIMES | OUTROS", Rede Gospel
 https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Universidade da Pessoa" tvg-type="series" group-title="ANIMES VOD", Universidade da Pessoa
+#EXTINF:-1 tvg-id="universidade_da_pessoa" tvg-name="Universidade da Pessoa" tvg-logo="" group-title="ANIMES | OUTROS", Universidade da Pessoa
 http://video01.soultv.com.br/universidadedapessoa/universidadedapessoa/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Viajando pelo Brasil" tvg-type="series" group-title="ANIMES VOD", Viajando pelo Brasil
+#EXTINF:-1 tvg-id="viajando_pelo_brasil" tvg-name="Viajando pelo Brasil" tvg-logo="" group-title="ANIMES | OUTROS", Viajando pelo Brasil
 http://video01.soultv.com.br/viajandopelobrasil/viajandopelobrasil/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="XR Health Brasil" tvg-type="series" group-title="ANIMES VOD", XR Health Brasil
+#EXTINF:-1 tvg-id="xr_health_brasil" tvg-name="XR Health Brasil" tvg-logo="" group-title="ANIMES | OUTROS", XR Health Brasil
 http://video01.soultv.com.br/xrhealth/xrhealth/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Os Jetsons" tvg-type="series" group-title="ANIMES VOD", Os Jetsons
+#EXTINF:-1 tvg-id="os_jetsons" tvg-name="Os Jetsons" tvg-logo="" group-title="ANIMES | OUTROS", Os Jetsons
 https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Retro Cartoon" tvg-type="series" group-title="ANIMES VOD", Retro Cartoon
+#EXTINF:-1 tvg-id="retro_cartoon" tvg-name="Retro Cartoon" tvg-logo="" group-title="ANIMES | OUTROS", Retro Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/chunklist_w1906296166.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Gospel Cartoon" tvg-type="series" group-title="ANIMES VOD", Gospel Cartoon
+#EXTINF:-1 tvg-id="gospel_cartoon" tvg-name="Gospel Cartoon" tvg-logo="" group-title="ANIMES | OUTROS", Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Channel 1" tvg-type="series" group-title="ANIMES VOD", Channel 1
-https://stmv1.srvif.com/movies1/movies1/playlist.m3u8?output=ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DarkFlix" tvg-type="series" group-title="ANIMES VOD", DarkFlix
+#EXTINF:-1 tvg-id="darkflix" tvg-name="DarkFlix" tvg-logo="" group-title="ANIMES | OUTROS", DarkFlix
 https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Cine Brasil" tvg-type="series" group-title="ANIMES VOD", Cine Brasil
+#EXTINF:-1 tvg-id="cine_brasil" tvg-name="Cine Brasil" tvg-logo="" group-title="ANIMES | OUTROS", Cine Brasil
 https://stmv6.voxtvhd.com.br/cinebrasil/cinebrasil/chunklist_w670523199.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="XTreme" tvg-type="series" group-title="ANIMES VOD", XTreme
+#EXTINF:-1 tvg-id="xtreme" tvg-name="XTreme" tvg-logo="" group-title="ANIMES | OUTROS", XTreme
 https://alanza.iptv2022.com/Xtreme_TV/index.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="kuriakos Cine" tvg-type="series" group-title="ANIMES VOD", kuriakos Cine
+#EXTINF:-1 tvg-id="kuriakos_cine" tvg-name="kuriakos Cine" tvg-logo="" group-title="ANIMES | OUTROS", kuriakos Cine
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Soul Cine Clube" tvg-type="series" group-title="ANIMES VOD", Soul Cine Clube
+#EXTINF:-1 tvg-id="soul_cine_clube" tvg-name="Soul Cine Clube" tvg-logo="" group-title="ANIMES | OUTROS", Soul Cine Clube
 https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Cine Monde" tvg-type="series" group-title="ANIMES VOD", Cine Monde
+#EXTINF:-1 tvg-id="cine_monde" tvg-name="Cine Monde" tvg-logo="" group-title="ANIMES | OUTROS", Cine Monde
 https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Series Classic" tvg-type="series" group-title="ANIMES VOD", Series Classic
+#EXTINF:-1 tvg-id="series_classic" tvg-name="Series Classic" tvg-logo="" group-title="ANIMES | OUTROS", Series Classic
 https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w384479859.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RunTime" tvg-type="series" group-title="ANIMES VOD", RunTime
+#EXTINF:-1 tvg-id="runtime" tvg-name="RunTime" tvg-logo="" group-title="ANIMES | OUTROS", RunTime
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RunTime Ação" tvg-type="series" group-title="ANIMES VOD", RunTime Ação
+#EXTINF:-1 tvg-id="runtime_ação" tvg-name="RunTime Ação" tvg-logo="" group-title="ANIMES | OUTROS", RunTime Ação
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RunTime Comédia" tvg-type="series" group-title="ANIMES VOD", RunTime Comédia
+#EXTINF:-1 tvg-id="runtime_comédia" tvg-name="RunTime Comédia" tvg-logo="" group-title="ANIMES | OUTROS", RunTime Comédia
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RunTime Romance" tvg-type="series" group-title="ANIMES VOD", RunTime Romance
+#EXTINF:-1 tvg-id="runtime_romance" tvg-name="RunTime Romance" tvg-logo="" group-title="ANIMES | OUTROS", RunTime Romance
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4866?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RunTime CinEspanto" tvg-type="series" group-title="ANIMES VOD", RunTime CinEspanto
+#EXTINF:-1 tvg-id="runtime_cinespanto" tvg-name="RunTime CinEspanto" tvg-logo="" group-title="ANIMES | OUTROS", RunTime CinEspanto
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RunTime Crime" tvg-type="series" group-title="ANIMES VOD", RunTime Crime
+#EXTINF:-1 tvg-id="runtime_crime" tvg-name="RunTime Crime" tvg-logo="" group-title="ANIMES | OUTROS", RunTime Crime
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Geekdot" tvg-type="series" group-title="ANIMES VOD", Geekdot
+#EXTINF:-1 tvg-id="geekdot" tvg-name="Geekdot" tvg-logo="" group-title="ANIMES | OUTROS", Geekdot
 https://stream.ichibantv.com:3764/hybrid/play.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Loading" tvg-type="series" group-title="ANIMES VOD", Loading
+#EXTINF:-1 tvg-id="loading" tvg-name="Loading" tvg-logo="" group-title="ANIMES | OUTROS", Loading
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="clouding" tvg-type="series" group-title="ANIMES VOD", clouding
+#EXTINF:-1 tvg-id="clouding" tvg-name="clouding" tvg-logo="" group-title="ANIMES | OUTROS", clouding
 https://stmv1.paineltv.net/redeclonetv/redeclonetv/chunklist_w739638910.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="KroneHIT" tvg-type="series" group-title="ANIMES VOD", KroneHIT
+#EXTINF:-1 tvg-id="kronehit" tvg-name="KroneHIT" tvg-logo="" group-title="ANIMES | OUTROS", KroneHIT
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="1Mus" tvg-type="series" group-title="ANIMES VOD", 1Mus
+#EXTINF:-1 tvg-id="1mus" tvg-name="1Mus" tvg-logo="" group-title="ANIMES | OUTROS", 1Mus
 http://hz1.teleport.cc/HLS/HD.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Cidade Verde 935 FM" tvg-type="series" group-title="ANIMES VOD", Radio Cidade Verde 935 FM
+#EXTINF:-1 tvg-id="radio_cidade_verde_93_5_fm" tvg-name="Radio Cidade Verde 93.5 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Cidade Verde 93.5 FM
 https://ssl1.transmissaodigital.com:20010/;?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Grande 945 FM" tvg-type="series" group-title="ANIMES VOD", Radio Grande 945 FM
+#EXTINF:-1 tvg-id="radio_grande_94_5_fm" tvg-name="Radio Grande 94.5 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Grande 94.5 FM
 https://player.srvaudio.com.br/player-ssl/9634?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Cidade Modelo 953 FM" tvg-type="series" group-title="ANIMES VOD", Radio Cidade Modelo 953 FM
+#EXTINF:-1 tvg-id="radio_cidade_modelo_95_3_fm" tvg-name="Radio Cidade Modelo 95.3 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Cidade Modelo 95.3 FM
 https://ssl1.transmissaodigital.com:20114/stream?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio BandNews SP 969 FM" tvg-type="series" group-title="ANIMES VOD", Radio BandNews SP 969 FM
+#EXTINF:-1 tvg-id="radio_bandnews_sp_96_9_fm" tvg-name="Radio BandNews SP 96.9 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio BandNews SP 96.9 FM
 https://24273.live.streamtheworld.com/BANDNEWSFM_SPAAC.aac?dist=radios.com.br&1727796028203?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Guaribas 983 FM" tvg-type="series" group-title="ANIMES VOD", Radio Guaribas 983 FM
+#EXTINF:-1 tvg-id="radio_guaribas_98_3_fm" tvg-name="Radio Guaribas 98.3 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Guaribas 98.3 FM
 https://player.srvaudio.com.br/player-ssl/11882?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Meio Norte 999 FM" tvg-type="series" group-title="ANIMES VOD", Radio Meio Norte 999 FM
+#EXTINF:-1 tvg-id="radio_meio_norte_99_9_fm" tvg-name="Radio Meio Norte 99.9 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Meio Norte 99.9 FM
 https://webradio.amsolution.com.br/radio/8280/meionorte?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Cultura 1043 FM" tvg-type="series" group-title="ANIMES VOD", Radio Cultura 1043 FM
+#EXTINF:-1 tvg-id="radio_cultura_104_3_fm" tvg-name="Radio Cultura 104.3 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Cultura 104.3 FM
 https://str02.kfmidia.com.br:6672/stream?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Tropical 1059 FM" tvg-type="series" group-title="ANIMES VOD", Radio Tropical 1059 FM
+#EXTINF:-1 tvg-id="radio_tropical_105_9_fm" tvg-name="Radio Tropical 105.9 FM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Tropical 105.9 FM
 http://stm2.matutos.com.br:10136/stream?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Esperança 850 AM" tvg-type="series" group-title="ANIMES VOD", Radio Esperança 850 AM
+#EXTINF:-1 tvg-id="radio_esperança_850_am" tvg-name="Radio Esperança 850 AM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Esperança 850 AM
 https://stm3.srvif.com:7360/stream?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Difusora 920 AM" tvg-type="series" group-title="ANIMES VOD", Radio Difusora 920 AM
+#EXTINF:-1 tvg-id="radio_difusora_920_am" tvg-name="Radio Difusora 920 AM" tvg-logo="" group-title="ANIMES | OUTROS", Radio Difusora 920 AM
 http://stm20.srvaudio.com.br:11190/stream?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Picos Gospel" tvg-type="series" group-title="ANIMES VOD", Radio Picos Gospel
+#EXTINF:-1 tvg-id="radio_picos_gospel" tvg-name="Radio Picos Gospel" tvg-logo="" group-title="ANIMES | OUTROS", Radio Picos Gospel
 http://stream.zeno.fm/80ng4xm1r5quv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Radio Capital do Mel" tvg-type="series" group-title="ANIMES VOD", Radio Capital do Mel
+#EXTINF:-1 tvg-id="radio_capital_do_mel" tvg-name="Radio Capital do Mel" tvg-logo="" group-title="ANIMES | OUTROS", Radio Capital do Mel
 https://stream.zeno.fm/m5b9rewcomkuv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Branca de neve e sete anoes 1937" tvg-type="series" group-title="ANIMES VOD", Branca de neve e sete anoes 1937
-https://ia803102.us.archive.org/18/items/brancadeneveeosseteanoes1937dublado_201912/Branca%20de%20Neve%20e%20os%20Sete%20An%C3%B5es%20%281937%29%20Dublado.mp4?output=ts
-
-#EXTINF:-1 tvg-id="" tvg-name="000_Abertura" tvg-type="series" group-title="ANIMES VOD", 000_Abertura
+#EXTINF:-1 tvg-id="000_abertura" tvg-name="000_Abertura" tvg-logo="" group-title="ANIMES | OUTROS", 000_Abertura
 https://raw.githubusercontent.com/mariosanthos/arquivos/main/Abertura%20A%20Hora%20Warner.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP001Adoro_receber_ordens_de_voce" tvg-type="series" group-title="ANIMES VOD", EP001Adoro_receber_ordens_de_voce
+#EXTINF:-1 tvg-id="ep001_adoro_receber_ordens_de_voce" tvg-name="EP001-Adoro_receber_ordens_de_voce" tvg-logo="" group-title="ANIMES | OUTROS", EP001-Adoro_receber_ordens_de_voce
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP001-Adoro_receber_ordens_de_voce.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP002Agua_por_todos_os_lados" tvg-type="series" group-title="ANIMES VOD", EP002Agua_por_todos_os_lados
+#EXTINF:-1 tvg-id="ep002_agua_por_todos_os_lados" tvg-name="EP002-Agua_por_todos_os_lados" tvg-logo="" group-title="ANIMES | OUTROS", EP002-Agua_por_todos_os_lados
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP002-Agua_por_todos_os_lados.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP003Alimentando_a_cria" tvg-type="series" group-title="ANIMES VOD", EP003Alimentando_a_cria
+#EXTINF:-1 tvg-id="ep003_alimentando_a_cria" tvg-name="EP003-Alimentando_a_cria" tvg-logo="" group-title="ANIMES | OUTROS", EP003-Alimentando_a_cria
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP003-Alimentando_a_cria.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP004Alucinacao_coletiva" tvg-type="series" group-title="ANIMES VOD", EP004Alucinacao_coletiva
+#EXTINF:-1 tvg-id="ep004_alucinacao_coletiva" tvg-name="EP004-Alucinacao_coletiva" tvg-logo="" group-title="ANIMES | OUTROS", EP004-Alucinacao_coletiva
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP004-Alucinacao_coletiva.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP005Amigos_amigos_ratos_a_parte" tvg-type="series" group-title="ANIMES VOD", EP005Amigos_amigos_ratos_a_parte
+#EXTINF:-1 tvg-id="ep005_amigos_amigos_ratos_a_parte" tvg-name="EP005-Amigos_amigos_ratos_a_parte" tvg-logo="" group-title="ANIMES | OUTROS", EP005-Amigos_amigos_ratos_a_parte
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP005-Amigos_amigos_ratos_a_parte.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP006Amor_e_pragas" tvg-type="series" group-title="ANIMES VOD", EP006Amor_e_pragas
+#EXTINF:-1 tvg-id="ep006_amor_e_pragas" tvg-name="EP006-Amor_e_pragas" tvg-logo="" group-title="ANIMES | OUTROS", EP006-Amor_e_pragas
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP006-Amor_e_pragas.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP007As_aparencias_enganam" tvg-type="series" group-title="ANIMES VOD", EP007As_aparencias_enganam
+#EXTINF:-1 tvg-id="ep007_as_aparencias_enganam" tvg-name="EP007-As_aparencias_enganam" tvg-logo="" group-title="ANIMES | OUTROS", EP007-As_aparencias_enganam
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP007-As_aparencias_enganam.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP008As_peripecias_de_patolino" tvg-type="series" group-title="ANIMES VOD", EP008As_peripecias_de_patolino
+#EXTINF:-1 tvg-id="ep008_as_peripecias_de_patolino" tvg-name="EP008-As_peripecias_de_patolino" tvg-logo="" group-title="ANIMES | OUTROS", EP008-As_peripecias_de_patolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP008-As_peripecias_de_patolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP009As_suas_ordens_madame" tvg-type="series" group-title="ANIMES VOD", EP009As_suas_ordens_madame
+#EXTINF:-1 tvg-id="ep009_as_suas_ordens_madame" tvg-name="EP009-As_suas_ordens_madame" tvg-logo="" group-title="ANIMES | OUTROS", EP009-As_suas_ordens_madame
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP009-As_suas_ordens_madame.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP010Ataque_aereo" tvg-type="series" group-title="ANIMES VOD", EP010Ataque_aereo
+#EXTINF:-1 tvg-id="ep010_ataque_aereo" tvg-name="EP010-Ataque_aereo" tvg-logo="" group-title="ANIMES | OUTROS", EP010-Ataque_aereo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP010-Ataque_aereo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP011Ataque_ao_forte_do_patolino" tvg-type="series" group-title="ANIMES VOD", EP011Ataque_ao_forte_do_patolino
+#EXTINF:-1 tvg-id="ep011_ataque_ao_forte_do_patolino" tvg-name="EP011-Ataque_ao_forte_do_patolino" tvg-logo="" group-title="ANIMES | OUTROS", EP011-Ataque_ao_forte_do_patolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP011-Ataque_ao_forte_do_patolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP012Atras_do_papa_leguas" tvg-type="series" group-title="ANIMES VOD", EP012Atras_do_papa_leguas
+#EXTINF:-1 tvg-id="ep012_atras_do_papa_leguas" tvg-name="EP012-Atras_do_papa_leguas" tvg-logo="" group-title="ANIMES | OUTROS", EP012-Atras_do_papa_leguas
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP012-Atras_do_papa_leguas.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP013Auto_magnetismo" tvg-type="series" group-title="ANIMES VOD", EP013Auto_magnetismo
+#EXTINF:-1 tvg-id="ep013_auto_magnetismo" tvg-name="EP013-Auto_magnetismo" tvg-logo="" group-title="ANIMES | OUTROS", EP013-Auto_magnetismo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP013-Auto_magnetismo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP014Azar_de_coiote" tvg-type="series" group-title="ANIMES VOD", EP014Azar_de_coiote
+#EXTINF:-1 tvg-id="ep014_azar_de_coiote" tvg-name="EP014-Azar_de_coiote" tvg-logo="" group-title="ANIMES | OUTROS", EP014-Azar_de_coiote
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP014-Azar_de_coiote.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP015A_eterna_cacada" tvg-type="series" group-title="ANIMES VOD", EP015A_eterna_cacada
+#EXTINF:-1 tvg-id="ep015_a_eterna_cacada" tvg-name="EP015-A_eterna_cacada" tvg-logo="" group-title="ANIMES | OUTROS", EP015-A_eterna_cacada
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP015-A_eterna_cacada.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP016A_infancia_do_pernalonga" tvg-type="series" group-title="ANIMES VOD", EP016A_infancia_do_pernalonga
+#EXTINF:-1 tvg-id="ep016_a_infancia_do_pernalonga" tvg-name="EP016-A_infancia_do_pernalonga" tvg-logo="" group-title="ANIMES | OUTROS", EP016-A_infancia_do_pernalonga
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP016-A_infancia_do_pernalonga.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP017A_ingenuidade_de_frangolino" tvg-type="series" group-title="ANIMES VOD", EP017A_ingenuidade_de_frangolino
+#EXTINF:-1 tvg-id="ep017_a_ingenuidade_de_frangolino" tvg-name="EP017-A_ingenuidade_de_frangolino" tvg-logo="" group-title="ANIMES | OUTROS", EP017-A_ingenuidade_de_frangolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP017-A_ingenuidade_de_frangolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP018A_message_to_gracias" tvg-type="series" group-title="ANIMES VOD", EP018A_message_to_gracias
+#EXTINF:-1 tvg-id="ep018_a_message_to_gracias" tvg-name="EP018-A_message_to_gracias" tvg-logo="" group-title="ANIMES | OUTROS", EP018-A_message_to_gracias
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP018-A_message_to_gracias.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP019A_parada_dos_pinguins" tvg-type="series" group-title="ANIMES VOD", EP019A_parada_dos_pinguins
+#EXTINF:-1 tvg-id="ep019_a_parada_dos_pinguins" tvg-name="EP019-A_parada_dos_pinguins" tvg-logo="" group-title="ANIMES | OUTROS", EP019-A_parada_dos_pinguins
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP019-A_parada_dos_pinguins.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP020A_raposa_e_o_pato" tvg-type="series" group-title="ANIMES VOD", EP020A_raposa_e_o_pato
+#EXTINF:-1 tvg-id="ep020_a_raposa_e_o_pato" tvg-name="EP020-A_raposa_e_o_pato" tvg-logo="" group-title="ANIMES | OUTROS", EP020-A_raposa_e_o_pato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP020-A_raposa_e_o_pato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP021A_vida_atras_das_grades" tvg-type="series" group-title="ANIMES VOD", EP021A_vida_atras_das_grades
+#EXTINF:-1 tvg-id="ep021_a_vida_atras_das_grades" tvg-name="EP021-A_vida_atras_das_grades" tvg-logo="" group-title="ANIMES | OUTROS", EP021-A_vida_atras_das_grades
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP021-A_vida_atras_das_grades.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP022Baba_por_um_dia" tvg-type="series" group-title="ANIMES VOD", EP022Baba_por_um_dia
+#EXTINF:-1 tvg-id="ep022_baba_por_um_dia" tvg-name="EP022-Baba_por_um_dia" tvg-logo="" group-title="ANIMES | OUTROS", EP022-Baba_por_um_dia
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP022-Baba_por_um_dia.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP023Bancando_a_isca" tvg-type="series" group-title="ANIMES VOD", EP023Bancando_a_isca
+#EXTINF:-1 tvg-id="ep023_bancando_a_isca" tvg-name="EP023-Bancando_a_isca" tvg-logo="" group-title="ANIMES | OUTROS", EP023-Bancando_a_isca
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP023-Bancando_a_isca.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP024Banho_de_coelho" tvg-type="series" group-title="ANIMES VOD", EP024Banho_de_coelho
+#EXTINF:-1 tvg-id="ep024_banho_de_coelho" tvg-name="EP024-Banho_de_coelho" tvg-logo="" group-title="ANIMES | OUTROS", EP024-Banho_de_coelho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP024-Banho_de_coelho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP025Bruxa_shakesperiana" tvg-type="series" group-title="ANIMES VOD", EP025Bruxa_shakesperiana
+#EXTINF:-1 tvg-id="ep025_bruxa_shakesperiana" tvg-name="EP025-Bruxa_shakesperiana" tvg-logo="" group-title="ANIMES | OUTROS", EP025-Bruxa_shakesperiana
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP025-Bruxa_shakesperiana.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP026Cacando_o_rato" tvg-type="series" group-title="ANIMES VOD", EP026Cacando_o_rato
+#EXTINF:-1 tvg-id="ep026_cacando_o_rato" tvg-name="EP026-Cacando_o_rato" tvg-logo="" group-title="ANIMES | OUTROS", EP026-Cacando_o_rato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP026-Cacando_o_rato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP027Camundongos_travessos" tvg-type="series" group-title="ANIMES VOD", EP027Camundongos_travessos
+#EXTINF:-1 tvg-id="ep027_camundongos_travessos" tvg-name="EP027-Camundongos_travessos" tvg-logo="" group-title="ANIMES | OUTROS", EP027-Camundongos_travessos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP027-Camundongos_travessos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP028Cancando_de_apanhar" tvg-type="series" group-title="ANIMES VOD", EP028Cancando_de_apanhar
+#EXTINF:-1 tvg-id="ep028_cancando_de_apanhar" tvg-name="EP028-Cancando_de_apanhar" tvg-logo="" group-title="ANIMES | OUTROS", EP028-Cancando_de_apanhar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP028-Cancando_de_apanhar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP029Cangooro_e_frajola_em_papai_sabe_tudo" tvg-type="series" group-title="ANIMES VOD", EP029Cangooro_e_frajola_em_papai_sabe_tudo
+#EXTINF:-1 tvg-id="ep029_cangooro_e_frajola_em_papai_sabe_t" tvg-name="EP029-Cangooro_e_frajola_em_papai_sabe_tudo" tvg-logo="" group-title="ANIMES | OUTROS", EP029-Cangooro_e_frajola_em_papai_sabe_tudo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP029-Cangooro_e_frajola_em_papai_sabe_tudo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP030Canguroo_em_um_rato_no_farol" tvg-type="series" group-title="ANIMES VOD", EP030Canguroo_em_um_rato_no_farol
+#EXTINF:-1 tvg-id="ep030_canguroo_em_um_rato_no_farol" tvg-name="EP030-Canguroo_em_um_rato_no_farol" tvg-logo="" group-title="ANIMES | OUTROS", EP030-Canguroo_em_um_rato_no_farol
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP030-Canguroo_em_um_rato_no_farol.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP031Carrinho_valente" tvg-type="series" group-title="ANIMES VOD", EP031Carrinho_valente
+#EXTINF:-1 tvg-id="ep031_carrinho_valente" tvg-name="EP031-Carrinho_valente" tvg-logo="" group-title="ANIMES | OUTROS", EP031-Carrinho_valente
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP031-Carrinho_valente.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP032Cavaleiro_pernalonga" tvg-type="series" group-title="ANIMES VOD", EP032Cavaleiro_pernalonga
+#EXTINF:-1 tvg-id="ep032_cavaleiro_pernalonga" tvg-name="EP032-Cavaleiro_pernalonga" tvg-logo="" group-title="ANIMES | OUTROS", EP032-Cavaleiro_pernalonga
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP032-Cavaleiro_pernalonga.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP033Centro_de_rosquinhas_que_buraco" tvg-type="series" group-title="ANIMES VOD", EP033Centro_de_rosquinhas_que_buraco
+#EXTINF:-1 tvg-id="ep033_centro_de_rosquinhas_que_buraco" tvg-name="EP033-Centro_de_rosquinhas_que_buraco" tvg-logo="" group-title="ANIMES | OUTROS", EP033-Centro_de_rosquinhas_que_buraco
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP033-Centro_de_rosquinhas_que_buraco.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP034Chuva_de_verao" tvg-type="series" group-title="ANIMES VOD", EP034Chuva_de_verao
+#EXTINF:-1 tvg-id="ep034_chuva_de_verao" tvg-name="EP034-Chuva_de_verao" tvg-logo="" group-title="ANIMES | OUTROS", EP034-Chuva_de_verao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP034-Chuva_de_verao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP035Coelho_18_quilates" tvg-type="series" group-title="ANIMES VOD", EP035Coelho_18_quilates
+#EXTINF:-1 tvg-id="ep035_coelho_18_quilates" tvg-name="EP035-Coelho_18_quilates" tvg-logo="" group-title="ANIMES | OUTROS", EP035-Coelho_18_quilates
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP035-Coelho_18_quilates.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP036Coelho_cacado" tvg-type="series" group-title="ANIMES VOD", EP036Coelho_cacado
+#EXTINF:-1 tvg-id="ep036_coelho_cacado" tvg-name="EP036-Coelho_cacado" tvg-logo="" group-title="ANIMES | OUTROS", EP036-Coelho_cacado
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP036-Coelho_cacado.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP037Coelho_feat" tvg-type="series" group-title="ANIMES VOD", EP037Coelho_feat
+#EXTINF:-1 tvg-id="ep037_coelho_feat" tvg-name="EP037-Coelho_feat" tvg-logo="" group-title="ANIMES | OUTROS", EP037-Coelho_feat
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP037-Coelho_feat.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP038Coelho_heroico" tvg-type="series" group-title="ANIMES VOD", EP038Coelho_heroico
+#EXTINF:-1 tvg-id="ep038_coelho_heroico" tvg-name="EP038-Coelho_heroico" tvg-logo="" group-title="ANIMES | OUTROS", EP038-Coelho_heroico
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP038-Coelho_heroico.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP039Coelho_para_cima" tvg-type="series" group-title="ANIMES VOD", EP039Coelho_para_cima
+#EXTINF:-1 tvg-id="ep039_coelho_para_cima" tvg-name="EP039-Coelho_para_cima" tvg-logo="" group-title="ANIMES | OUTROS", EP039-Coelho_para_cima
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP039-Coelho_para_cima.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP040Coelho_selvagem" tvg-type="series" group-title="ANIMES VOD", EP040Coelho_selvagem
+#EXTINF:-1 tvg-id="ep040_coelho_selvagem" tvg-name="EP040-Coelho_selvagem" tvg-logo="" group-title="ANIMES | OUTROS", EP040-Coelho_selvagem
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP040-Coelho_selvagem.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP041Coelho_selvagem_do_velho_oeste" tvg-type="series" group-title="ANIMES VOD", EP041Coelho_selvagem_do_velho_oeste
+#EXTINF:-1 tvg-id="ep041_coelho_selvagem_do_velho_oeste" tvg-name="EP041-Coelho_selvagem_do_velho_oeste" tvg-logo="" group-title="ANIMES | OUTROS", EP041-Coelho_selvagem_do_velho_oeste
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP041-Coelho_selvagem_do_velho_oeste.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP042Coelho_sem_lar" tvg-type="series" group-title="ANIMES VOD", EP042Coelho_sem_lar
+#EXTINF:-1 tvg-id="ep042_coelho_sem_lar" tvg-name="EP042-Coelho_sem_lar" tvg-logo="" group-title="ANIMES | OUTROS", EP042-Coelho_sem_lar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP042-Coelho_sem_lar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP043Coiote_em_usando_novos_invento" tvg-type="series" group-title="ANIMES VOD", EP043Coiote_em_usando_novos_invento
+#EXTINF:-1 tvg-id="ep043_coiote_em_usando_novos_invento" tvg-name="EP043-Coiote_em_usando_novos_invento" tvg-logo="" group-title="ANIMES | OUTROS", EP043-Coiote_em_usando_novos_invento
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP043-Coiote_em_usando_novos_invento.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP044Colegio_catnip" tvg-type="series" group-title="ANIMES VOD", EP044Colegio_catnip
+#EXTINF:-1 tvg-id="ep044_colegio_catnip" tvg-name="EP044-Colegio_catnip" tvg-logo="" group-title="ANIMES | OUTROS", EP044-Colegio_catnip
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP044-Colegio_catnip.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP045Como_reconhecer_uma_galinha" tvg-type="series" group-title="ANIMES VOD", EP045Como_reconhecer_uma_galinha
+#EXTINF:-1 tvg-id="ep045_como_reconhecer_uma_galinha" tvg-name="EP045-Como_reconhecer_uma_galinha" tvg-logo="" group-title="ANIMES | OUTROS", EP045-Como_reconhecer_uma_galinha
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP045-Como_reconhecer_uma_galinha.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP046Como_se_casar_com_um_galo" tvg-type="series" group-title="ANIMES VOD", EP046Como_se_casar_com_um_galo
+#EXTINF:-1 tvg-id="ep046_como_se_casar_com_um_galo" tvg-name="EP046-Como_se_casar_com_um_galo" tvg-logo="" group-title="ANIMES | OUTROS", EP046-Como_se_casar_com_um_galo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP046-Como_se_casar_com_um_galo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP047Complexo_de_Napoleao" tvg-type="series" group-title="ANIMES VOD", EP047Complexo_de_Napoleao
+#EXTINF:-1 tvg-id="ep047_complexo_de_napoleao" tvg-name="EP047-Complexo_de_Napoleao" tvg-logo="" group-title="ANIMES | OUTROS", EP047-Complexo_de_Napoleao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP047-Complexo_de_Napoleao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP048Compre_veja_e_preste_atencao" tvg-type="series" group-title="ANIMES VOD", EP048Compre_veja_e_preste_atencao
+#EXTINF:-1 tvg-id="ep048_compre_veja_e_preste_atencao" tvg-name="EP048-Compre_veja_e_preste_atencao" tvg-logo="" group-title="ANIMES | OUTROS", EP048-Compre_veja_e_preste_atencao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP048-Compre_veja_e_preste_atencao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP049Concerto_sem_do" tvg-type="series" group-title="ANIMES VOD", EP049Concerto_sem_do
+#EXTINF:-1 tvg-id="ep049_concerto_sem_do" tvg-name="EP049-Concerto_sem_do" tvg-logo="" group-title="ANIMES | OUTROS", EP049-Concerto_sem_do
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP049-Concerto_sem_do.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP050Corn_on_the_cop" tvg-type="series" group-title="ANIMES VOD", EP050Corn_on_the_cop
+#EXTINF:-1 tvg-id="ep050_corn_on_the_cop" tvg-name="EP050-Corn_on_the_cop" tvg-logo="" group-title="ANIMES | OUTROS", EP050-Corn_on_the_cop
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP050-Corn_on_the_cop.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP051De_cara_na_parede" tvg-type="series" group-title="ANIMES VOD", EP051De_cara_na_parede
+#EXTINF:-1 tvg-id="ep051_de_cara_na_parede" tvg-name="EP051-De_cara_na_parede" tvg-logo="" group-title="ANIMES | OUTROS", EP051-De_cara_na_parede
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP051-De_cara_na_parede.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP052De_pai_para_filhos" tvg-type="series" group-title="ANIMES VOD", EP052De_pai_para_filhos
+#EXTINF:-1 tvg-id="ep052_de_pai_para_filhos" tvg-name="EP052-De_pai_para_filhos" tvg-logo="" group-title="ANIMES | OUTROS", EP052-De_pai_para_filhos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP052-De_pai_para_filhos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP053Dia_de_cao" tvg-type="series" group-title="ANIMES VOD", EP053Dia_de_cao
+#EXTINF:-1 tvg-id="ep053_dia_de_cao" tvg-name="EP053-Dia_de_cao" tvg-logo="" group-title="ANIMES | OUTROS", EP053-Dia_de_cao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP053-Dia_de_cao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP054Diversao_na_neve" tvg-type="series" group-title="ANIMES VOD", EP054Diversao_na_neve
+#EXTINF:-1 tvg-id="ep054_diversao_na_neve" tvg-name="EP054-Diversao_na_neve" tvg-logo="" group-title="ANIMES | OUTROS", EP054-Diversao_na_neve
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP054-Diversao_na_neve.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP055Doce_sioux" tvg-type="series" group-title="ANIMES VOD", EP055Doce_sioux
+#EXTINF:-1 tvg-id="ep055_doce_sioux" tvg-name="EP055-Doce_sioux" tvg-logo="" group-title="ANIMES | OUTROS", EP055-Doce_sioux
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP055-Doce_sioux.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP056Dois_corvos_e_um_gafanhoto" tvg-type="series" group-title="ANIMES VOD", EP056Dois_corvos_e_um_gafanhoto
+#EXTINF:-1 tvg-id="ep056_dois_corvos_e_um_gafanhoto" tvg-name="EP056-Dois_corvos_e_um_gafanhoto" tvg-logo="" group-title="ANIMES | OUTROS", EP056-Dois_corvos_e_um_gafanhoto
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP056-Dois_corvos_e_um_gafanhoto.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP057Elmert_o_ingrato" tvg-type="series" group-title="ANIMES VOD", EP057Elmert_o_ingrato
+#EXTINF:-1 tvg-id="ep057_elmert_o_ingrato" tvg-name="EP057-Elmert_o_ingrato" tvg-logo="" group-title="ANIMES | OUTROS", EP057-Elmert_o_ingrato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP057-Elmert_o_ingrato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP058Em_busca_de_um_lar" tvg-type="series" group-title="ANIMES VOD", EP058Em_busca_de_um_lar
+#EXTINF:-1 tvg-id="ep058_em_busca_de_um_lar" tvg-name="EP058-Em_busca_de_um_lar" tvg-logo="" group-title="ANIMES | OUTROS", EP058-Em_busca_de_um_lar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP058-Em_busca_de_um_lar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP059Encrencas_do_pernalonga" tvg-type="series" group-title="ANIMES VOD", EP059Encrencas_do_pernalonga
+#EXTINF:-1 tvg-id="ep059_encrencas_do_pernalonga" tvg-name="EP059-Encrencas_do_pernalonga" tvg-logo="" group-title="ANIMES | OUTROS", EP059-Encrencas_do_pernalonga
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP059-Encrencas_do_pernalonga.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP060Enganados_por_um_rato" tvg-type="series" group-title="ANIMES VOD", EP060Enganados_por_um_rato
+#EXTINF:-1 tvg-id="ep060_enganados_por_um_rato" tvg-name="EP060-Enganados_por_um_rato" tvg-logo="" group-title="ANIMES | OUTROS", EP060-Enganados_por_um_rato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP060-Enganados_por_um_rato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP061Era_filho_de_um_acrobata" tvg-type="series" group-title="ANIMES VOD", EP061Era_filho_de_um_acrobata
+#EXTINF:-1 tvg-id="ep061_era_filho_de_um_acrobata" tvg-name="EP061-Era_filho_de_um_acrobata" tvg-logo="" group-title="ANIMES | OUTROS", EP061-Era_filho_de_um_acrobata
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP061-Era_filho_de_um_acrobata.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP062Escalando_o_pico" tvg-type="series" group-title="ANIMES VOD", EP062Escalando_o_pico
+#EXTINF:-1 tvg-id="ep062_escalando_o_pico" tvg-name="EP062-Escalando_o_pico" tvg-logo="" group-title="ANIMES | OUTROS", EP062-Escalando_o_pico
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP062-Escalando_o_pico.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP063Esporte_dos_campeoes" tvg-type="series" group-title="ANIMES VOD", EP063Esporte_dos_campeoes
+#EXTINF:-1 tvg-id="ep063_esporte_dos_campeoes" tvg-name="EP063-Esporte_dos_campeoes" tvg-logo="" group-title="ANIMES | OUTROS", EP063-Esporte_dos_campeoes
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP063-Esporte_dos_campeoes.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP064Fabrica_de_bebes" tvg-type="series" group-title="ANIMES VOD", EP064Fabrica_de_bebes
+#EXTINF:-1 tvg-id="ep064_fabrica_de_bebes" tvg-name="EP064-Fabrica_de_bebes" tvg-logo="" group-title="ANIMES | OUTROS", EP064-Fabrica_de_bebes
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP064-Fabrica_de_bebes.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP065Falando_do_tempo" tvg-type="series" group-title="ANIMES VOD", EP065Falando_do_tempo
+#EXTINF:-1 tvg-id="ep065_falando_do_tempo" tvg-name="EP065-Falando_do_tempo" tvg-logo="" group-title="ANIMES | OUTROS", EP065-Falando_do_tempo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP065-Falando_do_tempo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP066Ferias_aereas" tvg-type="series" group-title="ANIMES VOD", EP066Ferias_aereas
+#EXTINF:-1 tvg-id="ep066_ferias_aereas" tvg-name="EP066-Ferias_aereas" tvg-logo="" group-title="ANIMES | OUTROS", EP066-Ferias_aereas
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP066-Ferias_aereas.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP067Filho_de_rato_ratinho_e" tvg-type="series" group-title="ANIMES VOD", EP067Filho_de_rato_ratinho_e
+#EXTINF:-1 tvg-id="ep067_filho_de_rato_ratinho_e" tvg-name="EP067-Filho_de_rato_ratinho_e" tvg-logo="" group-title="ANIMES | OUTROS", EP067-Filho_de_rato_ratinho_e
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP067-Filho_de_rato_ratinho_e.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP068Folga_do_sapateiro" tvg-type="series" group-title="ANIMES VOD", EP068Folga_do_sapateiro
+#EXTINF:-1 tvg-id="ep068_folga_do_sapateiro" tvg-name="EP068-Folga_do_sapateiro" tvg-logo="" group-title="ANIMES | OUTROS", EP068-Folga_do_sapateiro
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP068-Folga_do_sapateiro.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP069Frajola_o_heroi" tvg-type="series" group-title="ANIMES VOD", EP069Frajola_o_heroi
+#EXTINF:-1 tvg-id="ep069_frajola_o_heroi" tvg-name="EP069-Frajola_o_heroi" tvg-logo="" group-title="ANIMES | OUTROS", EP069-Frajola_o_heroi
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP069-Frajola_o_heroi.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP070Frangolino_bom_de_briga" tvg-type="series" group-title="ANIMES VOD", EP070Frangolino_bom_de_briga
+#EXTINF:-1 tvg-id="ep070_frangolino_bom_de_briga" tvg-name="EP070-Frangolino_bom_de_briga" tvg-logo="" group-title="ANIMES | OUTROS", EP070-Frangolino_bom_de_briga
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP070-Frangolino_bom_de_briga.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP071Frangolino_chocando_ovo" tvg-type="series" group-title="ANIMES VOD", EP071Frangolino_chocando_ovo
+#EXTINF:-1 tvg-id="ep071_frangolino_chocando_ovo" tvg-name="EP071-Frangolino_chocando_ovo" tvg-logo="" group-title="ANIMES | OUTROS", EP071-Frangolino_chocando_ovo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP071-Frangolino_chocando_ovo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP072Frangolino_em_aprendendo_a_ser_frango" tvg-type="series" group-title="ANIMES VOD", EP072Frangolino_em_aprendendo_a_ser_frango
+#EXTINF:-1 tvg-id="ep072_frangolino_em_aprendendo_a_ser_fra" tvg-name="EP072-Frangolino_em_aprendendo_a_ser_frango" tvg-logo="" group-title="ANIMES | OUTROS", EP072-Frangolino_em_aprendendo_a_ser_frango
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP072-Frangolino_em_aprendendo_a_ser_frango.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP073Frangolino_em_raposa_medrosa" tvg-type="series" group-title="ANIMES VOD", EP073Frangolino_em_raposa_medrosa
+#EXTINF:-1 tvg-id="ep073_frangolino_em_raposa_medrosa" tvg-name="EP073-Frangolino_em_raposa_medrosa" tvg-logo="" group-title="ANIMES | OUTROS", EP073-Frangolino_em_raposa_medrosa
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP073-Frangolino_em_raposa_medrosa.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP074Frangolino_em_sirvase_fuinha" tvg-type="series" group-title="ANIMES VOD", EP074Frangolino_em_sirvase_fuinha
+#EXTINF:-1 tvg-id="ep074_frangolino_em_sirva_se_fuinha" tvg-name="EP074-Frangolino_em_sirva-se_fuinha" tvg-logo="" group-title="ANIMES | OUTROS", EP074-Frangolino_em_sirva-se_fuinha
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP074-Frangolino_em_sirva-se_fuinha.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP075Frangolino_em_uma_fuinha_infernal" tvg-type="series" group-title="ANIMES VOD", EP075Frangolino_em_uma_fuinha_infernal
+#EXTINF:-1 tvg-id="ep075_frangolino_em_uma_fuinha_infernal" tvg-name="EP075-Frangolino_em_uma_fuinha_infernal" tvg-logo="" group-title="ANIMES | OUTROS", EP075-Frangolino_em_uma_fuinha_infernal
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP075-Frangolino_em_uma_fuinha_infernal.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP076Frangolino_tudo_por_um_calor_galinaceo" tvg-type="series" group-title="ANIMES VOD", EP076Frangolino_tudo_por_um_calor_galinaceo
+#EXTINF:-1 tvg-id="ep076_frangolino_tudo_por_um_calor_galin" tvg-name="EP076-Frangolino_tudo_por_um_calor_galinaceo" tvg-logo="" group-title="ANIMES | OUTROS", EP076-Frangolino_tudo_por_um_calor_galinaceo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP076-Frangolino_tudo_por_um_calor_galinaceo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP077Frango_a_moda_sulista" tvg-type="series" group-title="ANIMES VOD", EP077Frango_a_moda_sulista
+#EXTINF:-1 tvg-id="ep077_frango_a_moda_sulista" tvg-name="EP077-Frango_a_moda_sulista" tvg-logo="" group-title="ANIMES | OUTROS", EP077-Frango_a_moda_sulista
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP077-Frango_a_moda_sulista.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP078Fugindo_do_inferno" tvg-type="series" group-title="ANIMES VOD", EP078Fugindo_do_inferno
+#EXTINF:-1 tvg-id="ep078_fugindo_do_inferno" tvg-name="EP078-Fugindo_do_inferno" tvg-logo="" group-title="ANIMES | OUTROS", EP078-Fugindo_do_inferno
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP078-Fugindo_do_inferno.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP079Gaguinho_em_castelo_dos_doendes" tvg-type="series" group-title="ANIMES VOD", EP079Gaguinho_em_castelo_dos_doendes
+#EXTINF:-1 tvg-id="ep079_gaguinho_em_castelo_dos_doendes" tvg-name="EP079-Gaguinho_em_castelo_dos_doendes" tvg-logo="" group-title="ANIMES | OUTROS", EP079-Gaguinho_em_castelo_dos_doendes
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP079-Gaguinho_em_castelo_dos_doendes.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP080Gaguinho_e_Patolino_em_cobertura_total" tvg-type="series" group-title="ANIMES VOD", EP080Gaguinho_e_Patolino_em_cobertura_total
+#EXTINF:-1 tvg-id="ep080_gaguinho_e_patolino_em_cobertura_t" tvg-name="EP080-Gaguinho_e_Patolino_em_cobertura_total" tvg-logo="" group-title="ANIMES | OUTROS", EP080-Gaguinho_e_Patolino_em_cobertura_total
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP080-Gaguinho_e_Patolino_em_cobertura_total.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP081Gaguinho_e_patolino_em_descanso_merecido" tvg-type="series" group-title="ANIMES VOD", EP081Gaguinho_e_patolino_em_descanso_merecido
+#EXTINF:-1 tvg-id="ep081_gaguinho_e_patolino_em_descanso_me" tvg-name="EP081-Gaguinho_e_patolino_em_descanso_merecido" tvg-logo="" group-title="ANIMES | OUTROS", EP081-Gaguinho_e_patolino_em_descanso_merecido
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP081-Gaguinho_e_patolino_em_descanso_merecido.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP082Gatos_e_explosivos_nao_se_mistiram" tvg-type="series" group-title="ANIMES VOD", EP082Gatos_e_explosivos_nao_se_mistiram
+#EXTINF:-1 tvg-id="ep082_gatos_e_explosivos_nao_se_mistiram" tvg-name="EP082-Gatos_e_explosivos_nao_se_mistiram" tvg-logo="" group-title="ANIMES | OUTROS", EP082-Gatos_e_explosivos_nao_se_mistiram
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP082-Gatos_e_explosivos_nao_se_mistiram.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP083Guerra_e_guerra" tvg-type="series" group-title="ANIMES VOD", EP083Guerra_e_guerra
+#EXTINF:-1 tvg-id="ep083_guerra_e_guerra" tvg-name="EP083-Guerra_e_guerra" tvg-logo="" group-title="ANIMES | OUTROS", EP083-Guerra_e_guerra
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP083-Guerra_e_guerra.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP084Historias_da_mamae_ganso" tvg-type="series" group-title="ANIMES VOD", EP084Historias_da_mamae_ganso
+#EXTINF:-1 tvg-id="ep084_historias_da_mamae_ganso" tvg-name="EP084-Historias_da_mamae_ganso" tvg-logo="" group-title="ANIMES | OUTROS", EP084-Historias_da_mamae_ganso
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP084-Historias_da_mamae_ganso.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP085Historia_natural" tvg-type="series" group-title="ANIMES VOD", EP085Historia_natural
+#EXTINF:-1 tvg-id="ep085_historia_natural" tvg-name="EP085-Historia_natural" tvg-logo="" group-title="ANIMES | OUTROS", EP085-Historia_natural
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP085-Historia_natural.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP086Ideia_de_genio" tvg-type="series" group-title="ANIMES VOD", EP086Ideia_de_genio
+#EXTINF:-1 tvg-id="ep086_ideia_de_genio" tvg-name="EP086-Ideia_de_genio" tvg-logo="" group-title="ANIMES | OUTROS", EP086-Ideia_de_genio
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP086-Ideia_de_genio.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP087Kitty_kornered" tvg-type="series" group-title="ANIMES VOD", EP087Kitty_kornered
+#EXTINF:-1 tvg-id="ep087_kitty_kornered" tvg-name="EP087-Kitty_kornered" tvg-logo="" group-title="ANIMES | OUTROS", EP087-Kitty_kornered
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP087-Kitty_kornered.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP088Lagarta_de_sorte" tvg-type="series" group-title="ANIMES VOD", EP088Lagarta_de_sorte
+#EXTINF:-1 tvg-id="ep088_lagarta_de_sorte" tvg-name="EP088-Lagarta_de_sorte" tvg-logo="" group-title="ANIMES | OUTROS", EP088-Lagarta_de_sorte
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP088-Lagarta_de_sorte.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP089Lagrima_de_crocodilos" tvg-type="series" group-title="ANIMES VOD", EP089Lagrima_de_crocodilos
+#EXTINF:-1 tvg-id="ep089_lagrima_de_crocodilos" tvg-name="EP089-Lagrima_de_crocodilos" tvg-logo="" group-title="ANIMES | OUTROS", EP089-Lagrima_de_crocodilos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP089-Lagrima_de_crocodilos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP090Ligeirinho_em_prato_mexicano" tvg-type="series" group-title="ANIMES VOD", EP090Ligeirinho_em_prato_mexicano
+#EXTINF:-1 tvg-id="ep090_ligeirinho_em_prato_mexicano" tvg-name="EP090-Ligeirinho_em_prato_mexicano" tvg-logo="" group-title="ANIMES | OUTROS", EP090-Ligeirinho_em_prato_mexicano
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP090-Ligeirinho_em_prato_mexicano.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP091Ligeirinho_salva_a_cidade" tvg-type="series" group-title="ANIMES VOD", EP091Ligeirinho_salva_a_cidade
+#EXTINF:-1 tvg-id="ep091_ligeirinho_salva_a_cidade" tvg-name="EP091-Ligeirinho_salva_a_cidade" tvg-logo="" group-title="ANIMES | OUTROS", EP091-Ligeirinho_salva_a_cidade
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP091-Ligeirinho_salva_a_cidade.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP092Little_red_walking_hood" tvg-type="series" group-title="ANIMES VOD", EP092Little_red_walking_hood
+#EXTINF:-1 tvg-id="ep092_little_red_walking_hood" tvg-name="EP092-Little_red_walking_hood" tvg-logo="" group-title="ANIMES | OUTROS", EP092-Little_red_walking_hood
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP092-Little_red_walking_hood.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP093Lobo_na_pele_de_ovelha" tvg-type="series" group-title="ANIMES VOD", EP093Lobo_na_pele_de_ovelha
+#EXTINF:-1 tvg-id="ep093_lobo_na_pele_de_ovelha" tvg-name="EP093-Lobo_na_pele_de_ovelha" tvg-logo="" group-title="ANIMES | OUTROS", EP093-Lobo_na_pele_de_ovelha
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP093-Lobo_na_pele_de_ovelha.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP094Louvre_de_volta_a_mim" tvg-type="series" group-title="ANIMES VOD", EP094Louvre_de_volta_a_mim
+#EXTINF:-1 tvg-id="ep094_louvre_de_volta_a_mim" tvg-name="EP094-Louvre_de_volta_a_mim" tvg-logo="" group-title="ANIMES | OUTROS", EP094-Louvre_de_volta_a_mim
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP094-Louvre_de_volta_a_mim.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP095Mamae_galo" tvg-type="series" group-title="ANIMES VOD", EP095Mamae_galo
+#EXTINF:-1 tvg-id="ep095_mamae_galo" tvg-name="EP095-Mamae_galo" tvg-logo="" group-title="ANIMES | OUTROS", EP095-Mamae_galo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP095-Mamae_galo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP096Manda_bala" tvg-type="series" group-title="ANIMES VOD", EP096Manda_bala
+#EXTINF:-1 tvg-id="ep096_manda_bala" tvg-name="EP096-Manda_bala" tvg-logo="" group-title="ANIMES | OUTROS", EP096-Manda_bala
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP096-Manda_bala.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP097Marcianos_invadem_a_terra" tvg-type="series" group-title="ANIMES VOD", EP097Marcianos_invadem_a_terra
+#EXTINF:-1 tvg-id="ep097_marcianos_invadem_a_terra" tvg-name="EP097-Marcianos_invadem_a_terra" tvg-logo="" group-title="ANIMES | OUTROS", EP097-Marcianos_invadem_a_terra
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP097-Marcianos_invadem_a_terra.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP098Meu_pato_favorito" tvg-type="series" group-title="ANIMES VOD", EP098Meu_pato_favorito
+#EXTINF:-1 tvg-id="ep098_meu_pato_favorito" tvg-name="EP098-Meu_pato_favorito" tvg-logo="" group-title="ANIMES | OUTROS", EP098-Meu_pato_favorito
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP098-Meu_pato_favorito.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP099Moby_duck_ligeirinho_e_patolino" tvg-type="series" group-title="ANIMES VOD", EP099Moby_duck_ligeirinho_e_patolino
+#EXTINF:-1 tvg-id="ep099_moby_duck_ligeirinho_e_patolino" tvg-name="EP099-Moby_duck_ligeirinho_e_patolino" tvg-logo="" group-title="ANIMES | OUTROS", EP099-Moby_duck_ligeirinho_e_patolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP099-Moby_duck_ligeirinho_e_patolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP100Mostra_de_caes" tvg-type="series" group-title="ANIMES VOD", EP100Mostra_de_caes
+#EXTINF:-1 tvg-id="ep100_mostra_de_caes" tvg-name="EP100-Mostra_de_caes" tvg-logo="" group-title="ANIMES | OUTROS", EP100-Mostra_de_caes
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP100-Mostra_de_caes.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP101Mudanca_de_vida" tvg-type="series" group-title="ANIMES VOD", EP101Mudanca_de_vida
+#EXTINF:-1 tvg-id="ep101_mudanca_de_vida" tvg-name="EP101-Mudanca_de_vida" tvg-logo="" group-title="ANIMES | OUTROS", EP101-Mudanca_de_vida
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP101-Mudanca_de_vida.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP102Mudanca_rapida" tvg-type="series" group-title="ANIMES VOD", EP102Mudanca_rapida
+#EXTINF:-1 tvg-id="ep102_mudanca_rapida" tvg-name="EP102-Mudanca_rapida" tvg-logo="" group-title="ANIMES | OUTROS", EP102-Mudanca_rapida
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP102-Mudanca_rapida.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP103Muito_trabalho_para_nada" tvg-type="series" group-title="ANIMES VOD", EP103Muito_trabalho_para_nada
+#EXTINF:-1 tvg-id="ep103_muito_trabalho_para_nada" tvg-name="EP103-Muito_trabalho_para_nada" tvg-logo="" group-title="ANIMES | OUTROS", EP103-Muito_trabalho_para_nada
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP103-Muito_trabalho_para_nada.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP104Mundo_do_futebol" tvg-type="series" group-title="ANIMES VOD", EP104Mundo_do_futebol
+#EXTINF:-1 tvg-id="ep104_mundo_do_futebol" tvg-name="EP104-Mundo_do_futebol" tvg-logo="" group-title="ANIMES | OUTROS", EP104-Mundo_do_futebol
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP104-Mundo_do_futebol.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP105Musica_perambulante" tvg-type="series" group-title="ANIMES VOD", EP105Musica_perambulante
+#EXTINF:-1 tvg-id="ep105_musica_perambulante" tvg-name="EP105-Musica_perambulante" tvg-logo="" group-title="ANIMES | OUTROS", EP105-Musica_perambulante
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP105-Musica_perambulante.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP106Nao_abandone_as_ovelhas" tvg-type="series" group-title="ANIMES VOD", EP106Nao_abandone_as_ovelhas
+#EXTINF:-1 tvg-id="ep106_nao_abandone_as_ovelhas" tvg-name="EP106-Nao_abandone_as_ovelhas" tvg-logo="" group-title="ANIMES | OUTROS", EP106-Nao_abandone_as_ovelhas
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP106-Nao_abandone_as_ovelhas.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP107Nao_ha_dinheiro_que_nao_pague" tvg-type="series" group-title="ANIMES VOD", EP107Nao_ha_dinheiro_que_nao_pague
+#EXTINF:-1 tvg-id="ep107_nao_ha_dinheiro_que_nao_pague" tvg-name="EP107-Nao_ha_dinheiro_que_nao_pague" tvg-logo="" group-title="ANIMES | OUTROS", EP107-Nao_ha_dinheiro_que_nao_pague
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP107-Nao_ha_dinheiro_que_nao_pague.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP108Nasce_uma_estrela" tvg-type="series" group-title="ANIMES VOD", EP108Nasce_uma_estrela
+#EXTINF:-1 tvg-id="ep108_nasce_uma_estrela" tvg-name="EP108-Nasce_uma_estrela" tvg-logo="" group-title="ANIMES | OUTROS", EP108-Nasce_uma_estrela
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP108-Nasce_uma_estrela.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP109Na_compania_do_patolino" tvg-type="series" group-title="ANIMES VOD", EP109Na_compania_do_patolino
+#EXTINF:-1 tvg-id="ep109_na_compania_do_patolino" tvg-name="EP109-Na_compania_do_patolino" tvg-logo="" group-title="ANIMES | OUTROS", EP109-Na_compania_do_patolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP109-Na_compania_do_patolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP110No_caminho_do_progresso" tvg-type="series" group-title="ANIMES VOD", EP110No_caminho_do_progresso
+#EXTINF:-1 tvg-id="ep110_no_caminho_do_progresso" tvg-name="EP110-No_caminho_do_progresso" tvg-logo="" group-title="ANIMES | OUTROS", EP110-No_caminho_do_progresso
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP110-No_caminho_do_progresso.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP111Oeste_selvagem" tvg-type="series" group-title="ANIMES VOD", EP111Oeste_selvagem
+#EXTINF:-1 tvg-id="ep111_oeste_selvagem" tvg-name="EP111-Oeste_selvagem" tvg-logo="" group-title="ANIMES | OUTROS", EP111-Oeste_selvagem
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP111-Oeste_selvagem.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP112Operacao_coelho" tvg-type="series" group-title="ANIMES VOD", EP112Operacao_coelho
+#EXTINF:-1 tvg-id="ep112_operacao_coelho" tvg-name="EP112-Operacao_coelho" tvg-logo="" group-title="ANIMES | OUTROS", EP112-Operacao_coelho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP112-Operacao_coelho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP113Os_tres_porquinhos" tvg-type="series" group-title="ANIMES VOD", EP113Os_tres_porquinhos
+#EXTINF:-1 tvg-id="ep113_os_tres_porquinhos" tvg-name="EP113-Os_tres_porquinhos" tvg-logo="" group-title="ANIMES | OUTROS", EP113-Os_tres_porquinhos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP113-Os_tres_porquinhos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP114Ouro_de_coelho" tvg-type="series" group-title="ANIMES VOD", EP114Ouro_de_coelho
+#EXTINF:-1 tvg-id="ep114_ouro_de_coelho" tvg-name="EP114-Ouro_de_coelho" tvg-logo="" group-title="ANIMES | OUTROS", EP114-Ouro_de_coelho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP114-Ouro_de_coelho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP115O_abominavel_coelho_das_neves" tvg-type="series" group-title="ANIMES VOD", EP115O_abominavel_coelho_das_neves
+#EXTINF:-1 tvg-id="ep115_o_abominavel_coelho_das_neves" tvg-name="EP115-O_abominavel_coelho_das_neves" tvg-logo="" group-title="ANIMES | OUTROS", EP115-O_abominavel_coelho_das_neves
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP115-O_abominavel_coelho_das_neves.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP116O_alegre_passeio_mexicano" tvg-type="series" group-title="ANIMES VOD", EP116O_alegre_passeio_mexicano
+#EXTINF:-1 tvg-id="ep116_o_alegre_passeio_mexicano" tvg-name="EP116-O_alegre_passeio_mexicano" tvg-logo="" group-title="ANIMES | OUTROS", EP116-O_alegre_passeio_mexicano
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP116-O_alegre_passeio_mexicano.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP117O_aprendiz_de_papa_galinhas" tvg-type="series" group-title="ANIMES VOD", EP117O_aprendiz_de_papa_galinhas
+#EXTINF:-1 tvg-id="ep117_o_aprendiz_de_papa_galinhas" tvg-name="EP117-O_aprendiz_de_papa_galinhas" tvg-logo="" group-title="ANIMES | OUTROS", EP117-O_aprendiz_de_papa_galinhas
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP117-O_aprendiz_de_papa_galinhas.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP118O_aristogato" tvg-type="series" group-title="ANIMES VOD", EP118O_aristogato
+#EXTINF:-1 tvg-id="ep118_o_aristogato" tvg-name="EP118-O_aristogato" tvg-logo="" group-title="ANIMES | OUTROS", EP118-O_aristogato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP118-O_aristogato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP119O_artista_patolino" tvg-type="series" group-title="ANIMES VOD", EP119O_artista_patolino
+#EXTINF:-1 tvg-id="ep119_o_artista_patolino" tvg-name="EP119-O_artista_patolino" tvg-logo="" group-title="ANIMES | OUTROS", EP119-O_artista_patolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP119-O_artista_patolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP120O_cacador_de_coelhos" tvg-type="series" group-title="ANIMES VOD", EP120O_cacador_de_coelhos
+#EXTINF:-1 tvg-id="ep120_o_cacador_de_coelhos" tvg-name="EP120-O_cacador_de_coelhos" tvg-logo="" group-title="ANIMES | OUTROS", EP120-O_cacador_de_coelhos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP120-O_cacador_de_coelhos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP121O_coelho_boxer" tvg-type="series" group-title="ANIMES VOD", EP121O_coelho_boxer
+#EXTINF:-1 tvg-id="ep121_o_coelho_boxer" tvg-name="EP121-O_coelho_boxer" tvg-logo="" group-title="ANIMES | OUTROS", EP121-O_coelho_boxer
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP121-O_coelho_boxer.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP122O_coelho_de_wackiki" tvg-type="series" group-title="ANIMES VOD", EP122O_coelho_de_wackiki
+#EXTINF:-1 tvg-id="ep122_o_coelho_de_wackiki" tvg-name="EP122-O_coelho_de_wackiki" tvg-logo="" group-title="ANIMES | OUTROS", EP122-O_coelho_de_wackiki
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP122-O_coelho_de_wackiki.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP123O_coelho_do_dia" tvg-type="series" group-title="ANIMES VOD", EP123O_coelho_do_dia
+#EXTINF:-1 tvg-id="ep123_o_coelho_do_dia" tvg-name="EP123-O_coelho_do_dia" tvg-logo="" group-title="ANIMES | OUTROS", EP123-O_coelho_do_dia
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP123-O_coelho_do_dia.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP124O_coelho_que_veio_para_jantar" tvg-type="series" group-title="ANIMES VOD", EP124O_coelho_que_veio_para_jantar
+#EXTINF:-1 tvg-id="ep124_o_coelho_que_veio_para_jantar" tvg-name="EP124-O_coelho_que_veio_para_jantar" tvg-logo="" group-title="ANIMES | OUTROS", EP124-O_coelho_que_veio_para_jantar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP124-O_coelho_que_veio_para_jantar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP125O_dia_da_marmota" tvg-type="series" group-title="ANIMES VOD", EP125O_dia_da_marmota
+#EXTINF:-1 tvg-id="ep125_o_dia_da_marmota" tvg-name="EP125-O_dia_da_marmota" tvg-logo="" group-title="ANIMES | OUTROS", EP125-O_dia_da_marmota
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP125-O_dia_da_marmota.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP126O_esperto_e_excentrico_pato" tvg-type="series" group-title="ANIMES VOD", EP126O_esperto_e_excentrico_pato
+#EXTINF:-1 tvg-id="ep126_o_esperto_e_excentrico_pato" tvg-name="EP126-O_esperto_e_excentrico_pato" tvg-logo="" group-title="ANIMES | OUTROS", EP126-O_esperto_e_excentrico_pato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP126-O_esperto_e_excentrico_pato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP127O_estupido_cupido" tvg-type="series" group-title="ANIMES VOD", EP127O_estupido_cupido
+#EXTINF:-1 tvg-id="ep127_o_estupido_cupido" tvg-name="EP127-O_estupido_cupido" tvg-logo="" group-title="ANIMES | OUTROS", EP127-O_estupido_cupido
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP127-O_estupido_cupido.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP128O_fim_secreto" tvg-type="series" group-title="ANIMES VOD", EP128O_fim_secreto
+#EXTINF:-1 tvg-id="ep128_o_fim_secreto" tvg-name="EP128-O_fim_secreto" tvg-logo="" group-title="ANIMES | OUTROS", EP128-O_fim_secreto
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP128-O_fim_secreto.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP129Cada_macaco_no_seu_galho" tvg-type="series" group-title="ANIMES VOD", EP129Cada_macaco_no_seu_galho
+#EXTINF:-1 tvg-id="ep129_cada_macaco_no_seu_galho" tvg-name="EP129-Cada_macaco_no_seu_galho" tvg-logo="" group-title="ANIMES | OUTROS", EP129-Cada_macaco_no_seu_galho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP129-Cada_macaco_no_seu_galho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP130O_galo_atrapalhado" tvg-type="series" group-title="ANIMES VOD", EP130O_galo_atrapalhado
+#EXTINF:-1 tvg-id="ep130_o_galo_atrapalhado" tvg-name="EP130-O_galo_atrapalhado" tvg-logo="" group-title="ANIMES | OUTROS", EP130-O_galo_atrapalhado
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP130-O_galo_atrapalhado.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP131O_gato_sai_e_os_ratos_fazem_a_festa" tvg-type="series" group-title="ANIMES VOD", EP131O_gato_sai_e_os_ratos_fazem_a_festa
+#EXTINF:-1 tvg-id="ep131_o_gato_sai_e_os_ratos_fazem_a_fest" tvg-name="EP131-O_gato_sai_e_os_ratos_fazem_a_festa" tvg-logo="" group-title="ANIMES | OUTROS", EP131-O_gato_sai_e_os_ratos_fazem_a_festa
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP131-O_gato_sai_e_os_ratos_fazem_a_festa.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP132O_gaviao_exigente" tvg-type="series" group-title="ANIMES VOD", EP132O_gaviao_exigente
+#EXTINF:-1 tvg-id="ep132_o_gaviao_exigente" tvg-name="EP132-O_gaviao_exigente" tvg-logo="" group-title="ANIMES | OUTROS", EP132-O_gaviao_exigente
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP132-O_gaviao_exigente.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP133O_hipinotizador_de_gatos" tvg-type="series" group-title="ANIMES VOD", EP133O_hipinotizador_de_gatos
+#EXTINF:-1 tvg-id="ep133_o_hipinotizador_de_gatos" tvg-name="EP133-O_hipinotizador_de_gatos" tvg-logo="" group-title="ANIMES | OUTROS", EP133-O_hipinotizador_de_gatos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP133-O_hipinotizador_de_gatos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP134O_indio_joe" tvg-type="series" group-title="ANIMES VOD", EP134O_indio_joe
+#EXTINF:-1 tvg-id="ep134_o_indio_joe" tvg-name="EP134-O_indio_joe" tvg-logo="" group-title="ANIMES | OUTROS", EP134-O_indio_joe
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP134-O_indio_joe.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP135O_lobo_chocado" tvg-type="series" group-title="ANIMES VOD", EP135O_lobo_chocado
+#EXTINF:-1 tvg-id="ep135_o_lobo_chocado" tvg-name="EP135-O_lobo_chocado" tvg-logo="" group-title="ANIMES | OUTROS", EP135-O_lobo_chocado
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP135-O_lobo_chocado.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP136O_melhor_amigo_do_cao" tvg-type="series" group-title="ANIMES VOD", EP136O_melhor_amigo_do_cao
+#EXTINF:-1 tvg-id="ep136_o_melhor_amigo_do_cao" tvg-name="EP136-O_melhor_amigo_do_cao" tvg-logo="" group-title="ANIMES | OUTROS", EP136-O_melhor_amigo_do_cao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP136-O_melhor_amigo_do_cao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP137O_mundo_e_dos_mais_vivos" tvg-type="series" group-title="ANIMES VOD", EP137O_mundo_e_dos_mais_vivos
+#EXTINF:-1 tvg-id="ep137_o_mundo_e_dos_mais_vivos" tvg-name="EP137-O_mundo_e_dos_mais_vivos" tvg-logo="" group-title="ANIMES | OUTROS", EP137-O_mundo_e_dos_mais_vivos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP137-O_mundo_e_dos_mais_vivos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP138O_oscar_vai_para_pernalonga" tvg-type="series" group-title="ANIMES VOD", EP138O_oscar_vai_para_pernalonga
+#EXTINF:-1 tvg-id="ep138_o_oscar_vai_para_pernalonga" tvg-name="EP138-O_oscar_vai_para_pernalonga" tvg-logo="" group-title="ANIMES | OUTROS", EP138-O_oscar_vai_para_pernalonga
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP138-O_oscar_vai_para_pernalonga.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP139O_osso" tvg-type="series" group-title="ANIMES VOD", EP139O_osso
+#EXTINF:-1 tvg-id="ep139_o_osso" tvg-name="EP139-O_osso" tvg-logo="" group-title="ANIMES | OUTROS", EP139-O_osso
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP139-O_osso.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP140O_pequeno_cao_orfao" tvg-type="series" group-title="ANIMES VOD", EP140O_pequeno_cao_orfao
+#EXTINF:-1 tvg-id="ep140_o_pequeno_cao_orfao" tvg-name="EP140-O_pequeno_cao_orfao" tvg-logo="" group-title="ANIMES | OUTROS", EP140-O_pequeno_cao_orfao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP140-O_pequeno_cao_orfao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP141O_pica_pau_ouconsciencia" tvg-type="series" group-title="ANIMES VOD", EP141O_pica_pau_ouconsciencia
+#EXTINF:-1 tvg-id="ep141_o_pica_pau_ouconsciencia" tvg-name="EP141-O_pica_pau_ouconsciencia" tvg-logo="" group-title="ANIMES | OUTROS", EP141-O_pica_pau_ouconsciencia
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP141-O_pica_pau_ouconsciencia.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP142O_rato_destruidor" tvg-type="series" group-title="ANIMES VOD", EP142O_rato_destruidor
+#EXTINF:-1 tvg-id="ep142_o_rato_destruidor" tvg-name="EP142-O_rato_destruidor" tvg-logo="" group-title="ANIMES | OUTROS", EP142-O_rato_destruidor
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP142-O_rato_destruidor.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP143O_refugio" tvg-type="series" group-title="ANIMES VOD", EP143O_refugio
+#EXTINF:-1 tvg-id="ep143_o_refugio" tvg-name="EP143-O_refugio" tvg-logo="" group-title="ANIMES | OUTROS", EP143-O_refugio
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP143-O_refugio.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP144O_resfriado" tvg-type="series" group-title="ANIMES VOD", EP144O_resfriado
+#EXTINF:-1 tvg-id="ep144_o_resfriado" tvg-name="EP144-O_resfriado" tvg-logo="" group-title="ANIMES | OUTROS", EP144-O_resfriado
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP144-O_resfriado.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP145O_sonho_de_jack" tvg-type="series" group-title="ANIMES VOD", EP145O_sonho_de_jack
+#EXTINF:-1 tvg-id="ep145_o_sonho_de_jack" tvg-name="EP145-O_sonho_de_jack" tvg-logo="" group-title="ANIMES | OUTROS", EP145-O_sonho_de_jack
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP145-O_sonho_de_jack.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP146O_terror_do_deserto" tvg-type="series" group-title="ANIMES VOD", EP146O_terror_do_deserto
+#EXTINF:-1 tvg-id="ep146_o_terror_do_deserto" tvg-name="EP146-O_terror_do_deserto" tvg-logo="" group-title="ANIMES | OUTROS", EP146-O_terror_do_deserto
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP146-O_terror_do_deserto.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP147O_treinador_de_frajola" tvg-type="series" group-title="ANIMES VOD", EP147O_treinador_de_frajola
+#EXTINF:-1 tvg-id="ep147_o_treinador_de_frajola" tvg-name="EP147-O_treinador_de_frajola" tvg-logo="" group-title="ANIMES | OUTROS", EP147-O_treinador_de_frajola
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP147-O_treinador_de_frajola.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP148O_ultimo_gato_faminto" tvg-type="series" group-title="ANIMES VOD", EP148O_ultimo_gato_faminto
+#EXTINF:-1 tvg-id="ep148_o_ultimo_gato_faminto" tvg-name="EP148-O_ultimo_gato_faminto" tvg-logo="" group-title="ANIMES | OUTROS", EP148-O_ultimo_gato_faminto
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP148-O_ultimo_gato_faminto.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP149O_ultimo_moicano" tvg-type="series" group-title="ANIMES VOD", EP149O_ultimo_moicano
+#EXTINF:-1 tvg-id="ep149_o_ultimo_moicano" tvg-name="EP149-O_ultimo_moicano" tvg-logo="" group-title="ANIMES | OUTROS", EP149-O_ultimo_moicano
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP149-O_ultimo_moicano.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP150O_vigia_noturno" tvg-type="series" group-title="ANIMES VOD", EP150O_vigia_noturno
+#EXTINF:-1 tvg-id="ep150_o_vigia_noturno" tvg-name="EP150-O_vigia_noturno" tvg-logo="" group-title="ANIMES | OUTROS", EP150-O_vigia_noturno
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP150-O_vigia_noturno.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP151O_vilao" tvg-type="series" group-title="ANIMES VOD", EP151O_vilao
+#EXTINF:-1 tvg-id="ep151_o_vilao" tvg-name="EP151-O_vilao" tvg-logo="" group-title="ANIMES | OUTROS", EP151-O_vilao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP151-O_vilao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP152Paixoes_de_rato" tvg-type="series" group-title="ANIMES VOD", EP152Paixoes_de_rato
+#EXTINF:-1 tvg-id="ep152_paixoes_de_rato" tvg-name="EP152-Paixoes_de_rato" tvg-logo="" group-title="ANIMES | OUTROS", EP152-Paixoes_de_rato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP152-Paixoes_de_rato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP153Panchicho_vanila" tvg-type="series" group-title="ANIMES VOD", EP153Panchicho_vanila
+#EXTINF:-1 tvg-id="ep153_panchicho_vanila" tvg-name="EP153-Panchicho_vanila" tvg-logo="" group-title="ANIMES | OUTROS", EP153-Panchicho_vanila
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP153-Panchicho_vanila.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP154Parabens_voce_e_pai" tvg-type="series" group-title="ANIMES VOD", EP154Parabens_voce_e_pai
+#EXTINF:-1 tvg-id="ep154_parabens_voce_e_pai" tvg-name="EP154-Parabens_voce_e_pai" tvg-logo="" group-title="ANIMES | OUTROS", EP154-Parabens_voce_e_pai
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP154-Parabens_voce_e_pai.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP155Passeio_pelo_hawaii" tvg-type="series" group-title="ANIMES VOD", EP155Passeio_pelo_hawaii
+#EXTINF:-1 tvg-id="ep155_passeio_pelo_hawaii" tvg-name="EP155-Passeio_pelo_hawaii" tvg-logo="" group-title="ANIMES | OUTROS", EP155-Passeio_pelo_hawaii
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP155-Passeio_pelo_hawaii.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP156Patolino_detetive" tvg-type="series" group-title="ANIMES VOD", EP156Patolino_detetive
+#EXTINF:-1 tvg-id="ep156_patolino_detetive" tvg-name="EP156-Patolino_detetive" tvg-logo="" group-title="ANIMES | OUTROS", EP156-Patolino_detetive
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP156-Patolino_detetive.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP157Patolino_em_hollywood" tvg-type="series" group-title="ANIMES VOD", EP157Patolino_em_hollywood
+#EXTINF:-1 tvg-id="ep157_patolino_em_hollywood" tvg-name="EP157-Patolino_em_hollywood" tvg-logo="" group-title="ANIMES | OUTROS", EP157-Patolino_em_hollywood
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP157-Patolino_em_hollywood.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP158Patolino_em_nao_me_coma" tvg-type="series" group-title="ANIMES VOD", EP158Patolino_em_nao_me_coma
+#EXTINF:-1 tvg-id="ep158_patolino_em_nao_me_coma" tvg-name="EP158-Patolino_em_nao_me_coma" tvg-logo="" group-title="ANIMES | OUTROS", EP158-Patolino_em_nao_me_coma
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP158-Patolino_em_nao_me_coma.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP159Patolino_em_o_bebe_da_cegonha" tvg-type="series" group-title="ANIMES VOD", EP159Patolino_em_o_bebe_da_cegonha
+#EXTINF:-1 tvg-id="ep159_patolino_em_o_bebe_da_cegonha" tvg-name="EP159-Patolino_em_o_bebe_da_cegonha" tvg-logo="" group-title="ANIMES | OUTROS", EP159-Patolino_em_o_bebe_da_cegonha
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP159-Patolino_em_o_bebe_da_cegonha.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP160Patolino_e_seus_truques" tvg-type="series" group-title="ANIMES VOD", EP160Patolino_e_seus_truques
+#EXTINF:-1 tvg-id="ep160_patolino_e_seus_truques" tvg-name="EP160-Patolino_e_seus_truques" tvg-logo="" group-title="ANIMES | OUTROS", EP160-Patolino_e_seus_truques
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP160-Patolino_e_seus_truques.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP161Patolino_no_velho_oeste" tvg-type="series" group-title="ANIMES VOD", EP161Patolino_no_velho_oeste
+#EXTINF:-1 tvg-id="ep161_patolino_no_velho_oeste" tvg-name="EP161-Patolino_no_velho_oeste" tvg-logo="" group-title="ANIMES | OUTROS", EP161-Patolino_no_velho_oeste
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP161-Patolino_no_velho_oeste.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP162Pato_pasmo" tvg-type="series" group-title="ANIMES VOD", EP162Pato_pasmo
+#EXTINF:-1 tvg-id="ep162_pato_pasmo" tvg-name="EP162-Pato_pasmo" tvg-logo="" group-title="ANIMES | OUTROS", EP162-Pato_pasmo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP162-Pato_pasmo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP163Pato_superior" tvg-type="series" group-title="ANIMES VOD", EP163Pato_superior
+#EXTINF:-1 tvg-id="ep163_pato_superior" tvg-name="EP163-Pato_superior" tvg-logo="" group-title="ANIMES | OUTROS", EP163-Pato_superior
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP163-Pato_superior.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP164Pepe_le_pew_em_amor_selvagem" tvg-type="series" group-title="ANIMES VOD", EP164Pepe_le_pew_em_amor_selvagem
+#EXTINF:-1 tvg-id="ep164_pepe_le_pew_em_amor_selvagem" tvg-name="EP164-Pepe_le_pew_em_amor_selvagem" tvg-logo="" group-title="ANIMES | OUTROS", EP164-Pepe_le_pew_em_amor_selvagem
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP164-Pepe_le_pew_em_amor_selvagem.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP165Pepe_le_pew_em_aventura_inesquecivel" tvg-type="series" group-title="ANIMES VOD", EP165Pepe_le_pew_em_aventura_inesquecivel
+#EXTINF:-1 tvg-id="ep165_pepe_le_pew_em_aventura_inesqueciv" tvg-name="EP165-Pepe_le_pew_em_aventura_inesquecivel" tvg-logo="" group-title="ANIMES | OUTROS", EP165-Pepe_le_pew_em_aventura_inesquecivel
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP165-Pepe_le_pew_em_aventura_inesquecivel.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP166Pepe_le_pew_em_romance_nos_alpes" tvg-type="series" group-title="ANIMES VOD", EP166Pepe_le_pew_em_romance_nos_alpes
+#EXTINF:-1 tvg-id="ep166_pepe_le_pew_em_romance_nos_alpes" tvg-name="EP166-Pepe_le_pew_em_romance_nos_alpes" tvg-logo="" group-title="ANIMES | OUTROS", EP166-Pepe_le_pew_em_romance_nos_alpes
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP166-Pepe_le_pew_em_romance_nos_alpes.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP167Pepe_le_pew_na_legiao_estrangeira" tvg-type="series" group-title="ANIMES VOD", EP167Pepe_le_pew_na_legiao_estrangeira
+#EXTINF:-1 tvg-id="ep167_pepe_le_pew_na_legiao_estrangeira" tvg-name="EP167-Pepe_le_pew_na_legiao_estrangeira" tvg-logo="" group-title="ANIMES | OUTROS", EP167-Pepe_le_pew_na_legiao_estrangeira
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP167-Pepe_le_pew_na_legiao_estrangeira.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP168Perdidos_na_ilha" tvg-type="series" group-title="ANIMES VOD", EP168Perdidos_na_ilha
+#EXTINF:-1 tvg-id="ep168_perdidos_na_ilha" tvg-name="EP168-Perdidos_na_ilha" tvg-logo="" group-title="ANIMES | OUTROS", EP168-Perdidos_na_ilha
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP168-Perdidos_na_ilha.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP169Perdido_e_orfao" tvg-type="series" group-title="ANIMES VOD", EP169Perdido_e_orfao
+#EXTINF:-1 tvg-id="ep169_perdido_e_orfao" tvg-name="EP169-Perdido_e_orfao" tvg-logo="" group-title="ANIMES | OUTROS", EP169-Perdido_e_orfao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP169-Perdido_e_orfao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP170Pernalonga_a_descoberta_da_america" tvg-type="series" group-title="ANIMES VOD", EP170Pernalonga_a_descoberta_da_america
+#EXTINF:-1 tvg-id="ep170_pernalonga_a_descoberta_da_america" tvg-name="EP170-Pernalonga_a_descoberta_da_america" tvg-logo="" group-title="ANIMES | OUTROS", EP170-Pernalonga_a_descoberta_da_america
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP170-Pernalonga_a_descoberta_da_america.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP171Pernalonga_em_coelho_do_deserto" tvg-type="series" group-title="ANIMES VOD", EP171Pernalonga_em_coelho_do_deserto
+#EXTINF:-1 tvg-id="ep171_pernalonga_em_coelho_do_deserto" tvg-name="EP171-Pernalonga_em_coelho_do_deserto" tvg-logo="" group-title="ANIMES | OUTROS", EP171-Pernalonga_em_coelho_do_deserto
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP171-Pernalonga_em_coelho_do_deserto.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP172Pernalonga_em_contatos_imediatos" tvg-type="series" group-title="ANIMES VOD", EP172Pernalonga_em_contatos_imediatos
+#EXTINF:-1 tvg-id="ep172_pernalonga_em_contatos_imediatos" tvg-name="EP172-Pernalonga_em_contatos_imediatos" tvg-logo="" group-title="ANIMES | OUTROS", EP172-Pernalonga_em_contatos_imediatos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP172-Pernalonga_em_contatos_imediatos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP173Pernalonga_em_frente_e_marche" tvg-type="series" group-title="ANIMES VOD", EP173Pernalonga_em_frente_e_marche
+#EXTINF:-1 tvg-id="ep173_pernalonga_em_frente_e_marche" tvg-name="EP173-Pernalonga_em_frente_e_marche" tvg-logo="" group-title="ANIMES | OUTROS", EP173-Pernalonga_em_frente_e_marche
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP173-Pernalonga_em_frente_e_marche.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP174Pernalonga_em_gorila_dos_meus_sonhos" tvg-type="series" group-title="ANIMES VOD", EP174Pernalonga_em_gorila_dos_meus_sonhos
+#EXTINF:-1 tvg-id="ep174_pernalonga_em_gorila_dos_meus_sonh" tvg-name="EP174-Pernalonga_em_gorila_dos_meus_sonhos" tvg-logo="" group-title="ANIMES | OUTROS", EP174-Pernalonga_em_gorila_dos_meus_sonhos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP174-Pernalonga_em_gorila_dos_meus_sonhos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP175Pernalonga_em_marte" tvg-type="series" group-title="ANIMES VOD", EP175Pernalonga_em_marte
+#EXTINF:-1 tvg-id="ep175_pernalonga_em_marte" tvg-name="EP175-Pernalonga_em_marte" tvg-logo="" group-title="ANIMES | OUTROS", EP175-Pernalonga_em_marte
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP175-Pernalonga_em_marte.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP176Pernalonga_em_o_coelho_espacial" tvg-type="series" group-title="ANIMES VOD", EP176Pernalonga_em_o_coelho_espacial
+#EXTINF:-1 tvg-id="ep176_pernalonga_em_o_coelho_espacial" tvg-name="EP176-Pernalonga_em_o_coelho_espacial" tvg-logo="" group-title="ANIMES | OUTROS", EP176-Pernalonga_em_o_coelho_espacial
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP176-Pernalonga_em_o_coelho_espacial.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP177Pernalonga_em_o_ouro_da_cobica" tvg-type="series" group-title="ANIMES VOD", EP177Pernalonga_em_o_ouro_da_cobica
+#EXTINF:-1 tvg-id="ep177_pernalonga_em_o_ouro_da_cobica" tvg-name="EP177-Pernalonga_em_o_ouro_da_cobica" tvg-logo="" group-title="ANIMES | OUTROS", EP177-Pernalonga_em_o_ouro_da_cobica
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP177-Pernalonga_em_o_ouro_da_cobica.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP178Pernalonga_em_rasgando_o_contrato" tvg-type="series" group-title="ANIMES VOD", EP178Pernalonga_em_rasgando_o_contrato
+#EXTINF:-1 tvg-id="ep178_pernalonga_em_rasgando_o_contrato" tvg-name="EP178-Pernalonga_em_rasgando_o_contrato" tvg-logo="" group-title="ANIMES | OUTROS", EP178-Pernalonga_em_rasgando_o_contrato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP178-Pernalonga_em_rasgando_o_contrato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP180Pernalonga_e_o_lobo_mau" tvg-type="series" group-title="ANIMES VOD", EP180Pernalonga_e_o_lobo_mau
+#EXTINF:-1 tvg-id="ep180_pernalonga_e_o_lobo_mau" tvg-name="EP180-Pernalonga_e_o_lobo_mau" tvg-logo="" group-title="ANIMES | OUTROS", EP180-Pernalonga_e_o_lobo_mau
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP180-Pernalonga_e_o_lobo_mau.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP181Pernalonga_e_o_marciano" tvg-type="series" group-title="ANIMES VOD", EP181Pernalonga_e_o_marciano
+#EXTINF:-1 tvg-id="ep181_pernalonga_e_o_marciano" tvg-name="EP181-Pernalonga_e_o_marciano" tvg-logo="" group-title="ANIMES | OUTROS", EP181-Pernalonga_e_o_marciano
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP181-Pernalonga_e_o_marciano.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP182Pernalonga_e_o_pe_de_feijao" tvg-type="series" group-title="ANIMES VOD", EP182Pernalonga_e_o_pe_de_feijao
+#EXTINF:-1 tvg-id="ep182_pernalonga_e_o_pe_de_feijao" tvg-name="EP182-Pernalonga_e_o_pe_de_feijao" tvg-logo="" group-title="ANIMES | OUTROS", EP182-Pernalonga_e_o_pe_de_feijao
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP182-Pernalonga_e_o_pe_de_feijao.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP183Pesadelo_de_coelho" tvg-type="series" group-title="ANIMES VOD", EP183Pesadelo_de_coelho
+#EXTINF:-1 tvg-id="ep183_pesadelo_de_coelho" tvg-name="EP183-Pesadelo_de_coelho" tvg-logo="" group-title="ANIMES | OUTROS", EP183-Pesadelo_de_coelho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP183-Pesadelo_de_coelho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP184Piu_piu_em_frajola_na_gaiola" tvg-type="series" group-title="ANIMES VOD", EP184Piu_piu_em_frajola_na_gaiola
+#EXTINF:-1 tvg-id="ep184_piu_piu_em_frajola_na_gaiola" tvg-name="EP184-Piu_piu_em_frajola_na_gaiola" tvg-logo="" group-title="ANIMES | OUTROS", EP184-Piu_piu_em_frajola_na_gaiola
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP184-Piu_piu_em_frajola_na_gaiola.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP185Piu_piu_em_novos_vizinhos" tvg-type="series" group-title="ANIMES VOD", EP185Piu_piu_em_novos_vizinhos
+#EXTINF:-1 tvg-id="ep185_piu_piu_em_novos_vizinhos" tvg-name="EP185-Piu_piu_em_novos_vizinhos" tvg-logo="" group-title="ANIMES | OUTROS", EP185-Piu_piu_em_novos_vizinhos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP185-Piu_piu_em_novos_vizinhos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP186Piu_piu_em_passaro_indigesto" tvg-type="series" group-title="ANIMES VOD", EP186Piu_piu_em_passaro_indigesto
+#EXTINF:-1 tvg-id="ep186_piu_piu_em_passaro_indigesto" tvg-name="EP186-Piu_piu_em_passaro_indigesto" tvg-logo="" group-title="ANIMES | OUTROS", EP186-Piu_piu_em_passaro_indigesto
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP186-Piu_piu_em_passaro_indigesto.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP187Piu_piu_e_frajola_a_historia_de_piu_piu" tvg-type="series" group-title="ANIMES VOD", EP187Piu_piu_e_frajola_a_historia_de_piu_piu
+#EXTINF:-1 tvg-id="ep187_piu_piu_e_frajola_a_historia_de_pi" tvg-name="EP187-Piu_piu_e_frajola_a_historia_de_piu_piu" tvg-logo="" group-title="ANIMES | OUTROS", EP187-Piu_piu_e_frajola_a_historia_de_piu_piu
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP187-Piu_piu_e_frajola_a_historia_de_piu_piu.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP188Piu_piu_e_frajola_em_visitando_o_zoologico" tvg-type="series" group-title="ANIMES VOD", EP188Piu_piu_e_frajola_em_visitando_o_zoologico
+#EXTINF:-1 tvg-id="ep188_piu_piu_e_frajola_em_visitando_o_z" tvg-name="EP188-Piu_piu_e_frajola_em_visitando_o_zoologico" tvg-logo="" group-title="ANIMES | OUTROS", EP188-Piu_piu_e_frajola_em_visitando_o_zoologico
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP188-Piu_piu_e_frajola_em_visitando_o_zoologico.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP189Piu_piu_e_frajola_presos_na_nevasca" tvg-type="series" group-title="ANIMES VOD", EP189Piu_piu_e_frajola_presos_na_nevasca
+#EXTINF:-1 tvg-id="ep189_piu_piu_e_frajola_presos_na_nevasc" tvg-name="EP189-Piu_piu_e_frajola_presos_na_nevasca" tvg-logo="" group-title="ANIMES | OUTROS", EP189-Piu_piu_e_frajola_presos_na_nevasca
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP189-Piu_piu_e_frajola_presos_na_nevasca.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP190Pocos_do_texa" tvg-type="series" group-title="ANIMES VOD", EP190Pocos_do_texa
+#EXTINF:-1 tvg-id="ep190_pocos_do_texa" tvg-name="EP190-Pocos_do_texa" tvg-logo="" group-title="ANIMES | OUTROS", EP190-Pocos_do_texa
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP190-Pocos_do_texa.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP191Porcos_e_porcos" tvg-type="series" group-title="ANIMES VOD", EP191Porcos_e_porcos
+#EXTINF:-1 tvg-id="ep191_porcos_e_porcos" tvg-name="EP191-Porcos_e_porcos" tvg-logo="" group-title="ANIMES | OUTROS", EP191-Porcos_e_porcos
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP191-Porcos_e_porcos.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP192Praga_de_rato" tvg-type="series" group-title="ANIMES VOD", EP192Praga_de_rato
+#EXTINF:-1 tvg-id="ep192_praga_de_rato" tvg-name="EP192-Praga_de_rato" tvg-logo="" group-title="ANIMES | OUTROS", EP192-Praga_de_rato
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP192-Praga_de_rato.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP193Quem_ri_por_ultimo_ri_melhor" tvg-type="series" group-title="ANIMES VOD", EP193Quem_ri_por_ultimo_ri_melhor
+#EXTINF:-1 tvg-id="ep193_quem_ri_por_ultimo_ri_melhor" tvg-name="EP193-Quem_ri_por_ultimo_ri_melhor" tvg-logo="" group-title="ANIMES | OUTROS", EP193-Quem_ri_por_ultimo_ri_melhor
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP193-Quem_ri_por_ultimo_ri_melhor.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP194Que_opera_velhinho" tvg-type="series" group-title="ANIMES VOD", EP194Que_opera_velhinho
+#EXTINF:-1 tvg-id="ep194_que_opera_velhinho" tvg-name="EP194-Que_opera_velhinho" tvg-logo="" group-title="ANIMES | OUTROS", EP194-Que_opera_velhinho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP194-Que_opera_velhinho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP195Que_pedrada" tvg-type="series" group-title="ANIMES VOD", EP195Que_pedrada
+#EXTINF:-1 tvg-id="ep195_que_pedrada" tvg-name="EP195-Que_pedrada" tvg-logo="" group-title="ANIMES | OUTROS", EP195-Que_pedrada
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP195-Que_pedrada.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP196Rapoza_de_prata" tvg-type="series" group-title="ANIMES VOD", EP196Rapoza_de_prata
+#EXTINF:-1 tvg-id="ep196_rapoza_de_prata" tvg-name="EP196-Rapoza_de_prata" tvg-logo="" group-title="ANIMES | OUTROS", EP196-Rapoza_de_prata
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP196-Rapoza_de_prata.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP197Ratinhos_brincalhoes" tvg-type="series" group-title="ANIMES VOD", EP197Ratinhos_brincalhoes
+#EXTINF:-1 tvg-id="ep197_ratinhos_brincalhoes" tvg-name="EP197-Ratinhos_brincalhoes" tvg-logo="" group-title="ANIMES | OUTROS", EP197-Ratinhos_brincalhoes
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP197-Ratinhos_brincalhoes.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP198Rato_quinta_coluna" tvg-type="series" group-title="ANIMES VOD", EP198Rato_quinta_coluna
+#EXTINF:-1 tvg-id="ep198_rato_quinta_coluna" tvg-name="EP198-Rato_quinta_coluna" tvg-logo="" group-title="ANIMES | OUTROS", EP198-Rato_quinta_coluna
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP198-Rato_quinta_coluna.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP199Rato_tamanho_familia" tvg-type="series" group-title="ANIMES VOD", EP199Rato_tamanho_familia
+#EXTINF:-1 tvg-id="ep199_rato_tamanho_familia" tvg-name="EP199-Rato_tamanho_familia" tvg-logo="" group-title="ANIMES | OUTROS", EP199-Rato_tamanho_familia
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP199-Rato_tamanho_familia.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP200Razoes_sentimentais" tvg-type="series" group-title="ANIMES VOD", EP200Razoes_sentimentais
+#EXTINF:-1 tvg-id="ep200_razoes_sentimentais" tvg-name="EP200-Razoes_sentimentais" tvg-logo="" group-title="ANIMES | OUTROS", EP200-Razoes_sentimentais
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP200-Razoes_sentimentais.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP201Rhapsody_in_rivets" tvg-type="series" group-title="ANIMES VOD", EP201Rhapsody_in_rivets
+#EXTINF:-1 tvg-id="ep201_rhapsody_in_rivets" tvg-name="EP201-Rhapsody_in_rivets" tvg-logo="" group-title="ANIMES | OUTROS", EP201-Rhapsody_in_rivets
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP201-Rhapsody_in_rivets.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP202Roedorzinho_vermelho" tvg-type="series" group-title="ANIMES VOD", EP202Roedorzinho_vermelho
+#EXTINF:-1 tvg-id="ep202_roedorzinho_vermelho" tvg-name="EP202-Roedorzinho_vermelho" tvg-logo="" group-title="ANIMES | OUTROS", EP202-Roedorzinho_vermelho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP202-Roedorzinho_vermelho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP203Romance_no_gelo" tvg-type="series" group-title="ANIMES VOD", EP203Romance_no_gelo
+#EXTINF:-1 tvg-id="ep203_romance_no_gelo" tvg-name="EP203-Romance_no_gelo" tvg-logo="" group-title="ANIMES | OUTROS", EP203-Romance_no_gelo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP203-Romance_no_gelo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP204Romeu_sentimental" tvg-type="series" group-title="ANIMES VOD", EP204Romeu_sentimental
+#EXTINF:-1 tvg-id="ep204_romeu_sentimental" tvg-name="EP204-Romeu_sentimental" tvg-logo="" group-title="ANIMES | OUTROS", EP204-Romeu_sentimental
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP204-Romeu_sentimental.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP205Sniffles_bells_the_cat" tvg-type="series" group-title="ANIMES VOD", EP205Sniffles_bells_the_cat
+#EXTINF:-1 tvg-id="ep205_sniffles_bells_the_cat" tvg-name="EP205-Sniffles_bells_the_cat" tvg-logo="" group-title="ANIMES | OUTROS", EP205-Sniffles_bells_the_cat
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP205-Sniffles_bells_the_cat.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP206Sniffles_takes_a_trip" tvg-type="series" group-title="ANIMES VOD", EP206Sniffles_takes_a_trip
+#EXTINF:-1 tvg-id="ep206_sniffles_takes_a_trip" tvg-name="EP206-Sniffles_takes_a_trip" tvg-logo="" group-title="ANIMES | OUTROS", EP206-Sniffles_takes_a_trip
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP206-Sniffles_takes_a_trip.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP207Sobrevivencia_na_floresta_com_frangolino" tvg-type="series" group-title="ANIMES VOD", EP207Sobrevivencia_na_floresta_com_frangolino
+#EXTINF:-1 tvg-id="ep207_sobrevivencia_na_floresta_com_fran" tvg-name="EP207-Sobrevivencia_na_floresta_com_frangolino" tvg-logo="" group-title="ANIMES | OUTROS", EP207-Sobrevivencia_na_floresta_com_frangolino
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP207-Sobrevivencia_na_floresta_com_frangolino.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP208Sono_espacial" tvg-type="series" group-title="ANIMES VOD", EP208Sono_espacial
+#EXTINF:-1 tvg-id="ep208_sono_espacial" tvg-name="EP208-Sono_espacial" tvg-logo="" group-title="ANIMES | OUTROS", EP208-Sono_espacial
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP208-Sono_espacial.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP209Sr_e_sra_e_o_nome" tvg-type="series" group-title="ANIMES VOD", EP209Sr_e_sra_e_o_nome
+#EXTINF:-1 tvg-id="ep209_sr_e_sra_e_o_nome" tvg-name="EP209-Sr_e_sra_e_o_nome" tvg-logo="" group-title="ANIMES | OUTROS", EP209-Sr_e_sra_e_o_nome
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP209-Sr_e_sra_e_o_nome.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP210Super_coelho" tvg-type="series" group-title="ANIMES VOD", EP210Super_coelho
+#EXTINF:-1 tvg-id="ep210_super_coelho" tvg-name="EP210-Super_coelho" tvg-logo="" group-title="ANIMES | OUTROS", EP210-Super_coelho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP210-Super_coelho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP211Swooner_crooner" tvg-type="series" group-title="ANIMES VOD", EP211Swooner_crooner
+#EXTINF:-1 tvg-id="ep211_swooner_crooner" tvg-name="EP211-Swooner_crooner" tvg-logo="" group-title="ANIMES | OUTROS", EP211-Swooner_crooner
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP211-Swooner_crooner.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP212Tentando_hibernar" tvg-type="series" group-title="ANIMES VOD", EP212Tentando_hibernar
+#EXTINF:-1 tvg-id="ep212_tentando_hibernar" tvg-name="EP212-Tentando_hibernar" tvg-logo="" group-title="ANIMES | OUTROS", EP212-Tentando_hibernar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP212-Tentando_hibernar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP213Tentando_tudo" tvg-type="series" group-title="ANIMES VOD", EP213Tentando_tudo
+#EXTINF:-1 tvg-id="ep213_tentando_tudo" tvg-name="EP213-Tentando_tudo" tvg-logo="" group-title="ANIMES | OUTROS", EP213-Tentando_tudo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP213-Tentando_tudo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP214Toquinho_vai_acampanhar" tvg-type="series" group-title="ANIMES VOD", EP214Toquinho_vai_acampanhar
+#EXTINF:-1 tvg-id="ep214_toquinho_vai_acampanhar" tvg-name="EP214-Toquinho_vai_acampanhar" tvg-logo="" group-title="ANIMES | OUTROS", EP214-Toquinho_vai_acampanhar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP214-Toquinho_vai_acampanhar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP215Uma_cacada_no_cartoon" tvg-type="series" group-title="ANIMES VOD", EP215Uma_cacada_no_cartoon
+#EXTINF:-1 tvg-id="ep215_uma_cacada_no_cartoon" tvg-name="EP215-Uma_cacada_no_cartoon" tvg-logo="" group-title="ANIMES | OUTROS", EP215-Uma_cacada_no_cartoon
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP215-Uma_cacada_no_cartoon.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP216Uma_festa_em_malibu" tvg-type="series" group-title="ANIMES VOD", EP216Uma_festa_em_malibu
+#EXTINF:-1 tvg-id="ep216_uma_festa_em_malibu" tvg-name="EP216-Uma_festa_em_malibu" tvg-logo="" group-title="ANIMES | OUTROS", EP216-Uma_festa_em_malibu
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP216-Uma_festa_em_malibu.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP217Uma_noite_com_os_astros" tvg-type="series" group-title="ANIMES VOD", EP217Uma_noite_com_os_astros
+#EXTINF:-1 tvg-id="ep217_uma_noite_com_os_astros" tvg-name="EP217-Uma_noite_com_os_astros" tvg-logo="" group-title="ANIMES | OUTROS", EP217-Uma_noite_com_os_astros
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP217-Uma_noite_com_os_astros.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP218Um_chapeuzinho_vermelho_diferente" tvg-type="series" group-title="ANIMES VOD", EP218Um_chapeuzinho_vermelho_diferente
+#EXTINF:-1 tvg-id="ep218_um_chapeuzinho_vermelho_diferente" tvg-name="EP218-Um_chapeuzinho_vermelho_diferente" tvg-logo="" group-title="ANIMES | OUTROS", EP218-Um_chapeuzinho_vermelho_diferente
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP218-Um_chapeuzinho_vermelho_diferente.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP219Um_gato_bem_informado" tvg-type="series" group-title="ANIMES VOD", EP219Um_gato_bem_informado
+#EXTINF:-1 tvg-id="ep219_um_gato_bem_informado" tvg-name="EP219-Um_gato_bem_informado" tvg-logo="" group-title="ANIMES | OUTROS", EP219-Um_gato_bem_informado
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP219-Um_gato_bem_informado.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP220Um_moco_em_bagda" tvg-type="series" group-title="ANIMES VOD", EP220Um_moco_em_bagda
+#EXTINF:-1 tvg-id="ep220_um_moco_em_bagda" tvg-name="EP220-Um_moco_em_bagda" tvg-logo="" group-title="ANIMES | OUTROS", EP220-Um_moco_em_bagda
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP220-Um_moco_em_bagda.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP221Uniao_em_perigo" tvg-type="series" group-title="ANIMES VOD", EP221Uniao_em_perigo
+#EXTINF:-1 tvg-id="ep221_uniao_em_perigo" tvg-name="EP221-Uniao_em_perigo" tvg-logo="" group-title="ANIMES | OUTROS", EP221-Uniao_em_perigo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP221-Uniao_em_perigo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP222Valeu_bicho" tvg-type="series" group-title="ANIMES VOD", EP222Valeu_bicho
+#EXTINF:-1 tvg-id="ep222_valeu_bicho" tvg-name="EP222-Valeu_bicho" tvg-logo="" group-title="ANIMES | OUTROS", EP222-Valeu_bicho
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP222-Valeu_bicho.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP223Vamos_tocar" tvg-type="series" group-title="ANIMES VOD", EP223Vamos_tocar
+#EXTINF:-1 tvg-id="ep223_vamos_tocar" tvg-name="EP223-Vamos_tocar" tvg-logo="" group-title="ANIMES | OUTROS", EP223-Vamos_tocar
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP223-Vamos_tocar.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP224Vida_de_cachorro" tvg-type="series" group-title="ANIMES VOD", EP224Vida_de_cachorro
+#EXTINF:-1 tvg-id="ep224_vida_de_cachorro" tvg-name="EP224-Vida_de_cachorro" tvg-logo="" group-title="ANIMES | OUTROS", EP224-Vida_de_cachorro
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP224-Vida_de_cachorro.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP225Vida_de_gato_e_fogo" tvg-type="series" group-title="ANIMES VOD", EP225Vida_de_gato_e_fogo
+#EXTINF:-1 tvg-id="ep225_vida_de_gato_e_fogo" tvg-name="EP225-Vida_de_gato_e_fogo" tvg-logo="" group-title="ANIMES | OUTROS", EP225-Vida_de_gato_e_fogo
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP225-Vida_de_gato_e_fogo.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP226Vida_selvagem" tvg-type="series" group-title="ANIMES VOD", EP226Vida_selvagem
+#EXTINF:-1 tvg-id="ep226_vida_selvagem" tvg-name="EP226-Vida_selvagem" tvg-logo="" group-title="ANIMES | OUTROS", EP226-Vida_selvagem
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP226-Vida_selvagem.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EP227Visita_indesejada" tvg-type="series" group-title="ANIMES VOD", EP227Visita_indesejada
+#EXTINF:-1 tvg-id="ep227_visita_indesejada" tvg-name="EP227-Visita_indesejada" tvg-logo="" group-title="ANIMES | OUTROS", EP227-Visita_indesejada
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/EP227-Visita_indesejada.mkv?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 01" tvg-type="series" group-title="ANIMES VOD", Semana 01
+#EXTINF:-1 tvg-id="semana_01" tvg-name="Semana 01" tvg-logo="" group-title="ANIMES | OUTROS", Semana 01
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2001%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 02" tvg-type="series" group-title="ANIMES VOD", Semana 02
+#EXTINF:-1 tvg-id="semana_02" tvg-name="Semana 02" tvg-logo="" group-title="ANIMES | OUTROS", Semana 02
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2002%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 03" tvg-type="series" group-title="ANIMES VOD", Semana 03
+#EXTINF:-1 tvg-id="semana_03" tvg-name="Semana 03" tvg-logo="" group-title="ANIMES | OUTROS", Semana 03
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2003%20HQ(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 04" tvg-type="series" group-title="ANIMES VOD", Semana 04
+#EXTINF:-1 tvg-id="semana_04" tvg-name="Semana 04" tvg-logo="" group-title="ANIMES | OUTROS", Semana 04
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2004%20HQ(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 05" tvg-type="series" group-title="ANIMES VOD", Semana 05
+#EXTINF:-1 tvg-id="semana_05" tvg-name="Semana 05" tvg-logo="" group-title="ANIMES | OUTROS", Semana 05
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2005%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 06" tvg-type="series" group-title="ANIMES VOD", Semana 06
+#EXTINF:-1 tvg-id="semana_06" tvg-name="Semana 06" tvg-logo="" group-title="ANIMES | OUTROS", Semana 06
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2006%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 07" tvg-type="series" group-title="ANIMES VOD", Semana 07
+#EXTINF:-1 tvg-id="semana_07" tvg-name="Semana 07" tvg-logo="" group-title="ANIMES | OUTROS", Semana 07
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2007%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 08" tvg-type="series" group-title="ANIMES VOD", Semana 08
+#EXTINF:-1 tvg-id="semana_08" tvg-name="Semana 08" tvg-logo="" group-title="ANIMES | OUTROS", Semana 08
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2008%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 09" tvg-type="series" group-title="ANIMES VOD", Semana 09
+#EXTINF:-1 tvg-id="semana_09" tvg-name="Semana 09" tvg-logo="" group-title="ANIMES | OUTROS", Semana 09
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2009%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 10" tvg-type="series" group-title="ANIMES VOD", Semana 10
+#EXTINF:-1 tvg-id="semana_10" tvg-name="Semana 10" tvg-logo="" group-title="ANIMES | OUTROS", Semana 10
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2010%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 11" tvg-type="series" group-title="ANIMES VOD", Semana 11
+#EXTINF:-1 tvg-id="semana_11" tvg-name="Semana 11" tvg-logo="" group-title="ANIMES | OUTROS", Semana 11
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2011%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 12" tvg-type="series" group-title="ANIMES VOD", Semana 12
+#EXTINF:-1 tvg-id="semana_12" tvg-name="Semana 12" tvg-logo="" group-title="ANIMES | OUTROS", Semana 12
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2012%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 13" tvg-type="series" group-title="ANIMES VOD", Semana 13
+#EXTINF:-1 tvg-id="semana_13" tvg-name="Semana 13" tvg-logo="" group-title="ANIMES | OUTROS", Semana 13
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2013%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 14" tvg-type="series" group-title="ANIMES VOD", Semana 14
+#EXTINF:-1 tvg-id="semana_14" tvg-name="Semana 14" tvg-logo="" group-title="ANIMES | OUTROS", Semana 14
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2014%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 15" tvg-type="series" group-title="ANIMES VOD", Semana 15
+#EXTINF:-1 tvg-id="semana_15" tvg-name="Semana 15" tvg-logo="" group-title="ANIMES | OUTROS", Semana 15
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2015%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 16" tvg-type="series" group-title="ANIMES VOD", Semana 16
+#EXTINF:-1 tvg-id="semana_16" tvg-name="Semana 16" tvg-logo="" group-title="ANIMES | OUTROS", Semana 16
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2016%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 17" tvg-type="series" group-title="ANIMES VOD", Semana 17
+#EXTINF:-1 tvg-id="semana_17" tvg-name="Semana 17" tvg-logo="" group-title="ANIMES | OUTROS", Semana 17
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2017%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 18" tvg-type="series" group-title="ANIMES VOD", Semana 18
+#EXTINF:-1 tvg-id="semana_18" tvg-name="Semana 18" tvg-logo="" group-title="ANIMES | OUTROS", Semana 18
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2018%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 19" tvg-type="series" group-title="ANIMES VOD", Semana 19
+#EXTINF:-1 tvg-id="semana_19" tvg-name="Semana 19" tvg-logo="" group-title="ANIMES | OUTROS", Semana 19
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2019%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 20" tvg-type="series" group-title="ANIMES VOD", Semana 20
+#EXTINF:-1 tvg-id="semana_20" tvg-name="Semana 20" tvg-logo="" group-title="ANIMES | OUTROS", Semana 20
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2020%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 21" tvg-type="series" group-title="ANIMES VOD", Semana 21
+#EXTINF:-1 tvg-id="semana_21" tvg-name="Semana 21" tvg-logo="" group-title="ANIMES | OUTROS", Semana 21
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2021%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 22" tvg-type="series" group-title="ANIMES VOD", Semana 22
+#EXTINF:-1 tvg-id="semana_22" tvg-name="Semana 22" tvg-logo="" group-title="ANIMES | OUTROS", Semana 22
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2022%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 23" tvg-type="series" group-title="ANIMES VOD", Semana 23
+#EXTINF:-1 tvg-id="semana_23" tvg-name="Semana 23" tvg-logo="" group-title="ANIMES | OUTROS", Semana 23
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2023%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 24" tvg-type="series" group-title="ANIMES VOD", Semana 24
+#EXTINF:-1 tvg-id="semana_24" tvg-name="Semana 24" tvg-logo="" group-title="ANIMES | OUTROS", Semana 24
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2024%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 25" tvg-type="series" group-title="ANIMES VOD", Semana 25
+#EXTINF:-1 tvg-id="semana_25" tvg-name="Semana 25" tvg-logo="" group-title="ANIMES | OUTROS", Semana 25
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2025%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 26" tvg-type="series" group-title="ANIMES VOD", Semana 26
+#EXTINF:-1 tvg-id="semana_26" tvg-name="Semana 26" tvg-logo="" group-title="ANIMES | OUTROS", Semana 26
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2026%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 27" tvg-type="series" group-title="ANIMES VOD", Semana 27
+#EXTINF:-1 tvg-id="semana_27" tvg-name="Semana 27" tvg-logo="" group-title="ANIMES | OUTROS", Semana 27
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2027%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 28" tvg-type="series" group-title="ANIMES VOD", Semana 28
+#EXTINF:-1 tvg-id="semana_28" tvg-name="Semana 28" tvg-logo="" group-title="ANIMES | OUTROS", Semana 28
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2028%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 29" tvg-type="series" group-title="ANIMES VOD", Semana 29
+#EXTINF:-1 tvg-id="semana_29" tvg-name="Semana 29" tvg-logo="" group-title="ANIMES | OUTROS", Semana 29
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2029%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 30" tvg-type="series" group-title="ANIMES VOD", Semana 30
+#EXTINF:-1 tvg-id="semana_30" tvg-name="Semana 30" tvg-logo="" group-title="ANIMES | OUTROS", Semana 30
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2030%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 31" tvg-type="series" group-title="ANIMES VOD", Semana 31
+#EXTINF:-1 tvg-id="semana_31" tvg-name="Semana 31" tvg-logo="" group-title="ANIMES | OUTROS", Semana 31
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2031%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 32" tvg-type="series" group-title="ANIMES VOD", Semana 32
+#EXTINF:-1 tvg-id="semana_32" tvg-name="Semana 32" tvg-logo="" group-title="ANIMES | OUTROS", Semana 32
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2032%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 33" tvg-type="series" group-title="ANIMES VOD", Semana 33
+#EXTINF:-1 tvg-id="semana_33" tvg-name="Semana 33" tvg-logo="" group-title="ANIMES | OUTROS", Semana 33
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2033%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 34" tvg-type="series" group-title="ANIMES VOD", Semana 34
+#EXTINF:-1 tvg-id="semana_34" tvg-name="Semana 34" tvg-logo="" group-title="ANIMES | OUTROS", Semana 34
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2034%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 35" tvg-type="series" group-title="ANIMES VOD", Semana 35
+#EXTINF:-1 tvg-id="semana_35" tvg-name="Semana 35" tvg-logo="" group-title="ANIMES | OUTROS", Semana 35
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2035%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 36" tvg-type="series" group-title="ANIMES VOD", Semana 36
+#EXTINF:-1 tvg-id="semana_36" tvg-name="Semana 36" tvg-logo="" group-title="ANIMES | OUTROS", Semana 36
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2036%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 37" tvg-type="series" group-title="ANIMES VOD", Semana 37
+#EXTINF:-1 tvg-id="semana_37" tvg-name="Semana 37" tvg-logo="" group-title="ANIMES | OUTROS", Semana 37
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2037%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 38" tvg-type="series" group-title="ANIMES VOD", Semana 38
+#EXTINF:-1 tvg-id="semana_38" tvg-name="Semana 38" tvg-logo="" group-title="ANIMES | OUTROS", Semana 38
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2038%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 39" tvg-type="series" group-title="ANIMES VOD", Semana 39
+#EXTINF:-1 tvg-id="semana_39" tvg-name="Semana 39" tvg-logo="" group-title="ANIMES | OUTROS", Semana 39
 https://github.com/mariosanthos/arquivo2/raw/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2039%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 40" tvg-type="series" group-title="ANIMES VOD", Semana 40
+#EXTINF:-1 tvg-id="semana_40" tvg-name="Semana 40" tvg-logo="" group-title="ANIMES | OUTROS", Semana 40
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2040%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 41" tvg-type="series" group-title="ANIMES VOD", Semana 41
+#EXTINF:-1 tvg-id="semana_41" tvg-name="Semana 41" tvg-logo="" group-title="ANIMES | OUTROS", Semana 41
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2041%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 42" tvg-type="series" group-title="ANIMES VOD", Semana 42
+#EXTINF:-1 tvg-id="semana_42" tvg-name="Semana 42" tvg-logo="" group-title="ANIMES | OUTROS", Semana 42
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2042%20HD(480P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 43" tvg-type="series" group-title="ANIMES VOD", Semana 43
+#EXTINF:-1 tvg-id="semana_43" tvg-name="Semana 43" tvg-logo="" group-title="ANIMES | OUTROS", Semana 43
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2043%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 44" tvg-type="series" group-title="ANIMES VOD", Semana 44
+#EXTINF:-1 tvg-id="semana_44" tvg-name="Semana 44" tvg-logo="" group-title="ANIMES | OUTROS", Semana 44
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2044%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 45" tvg-type="series" group-title="ANIMES VOD", Semana 45
+#EXTINF:-1 tvg-id="semana_45" tvg-name="Semana 45" tvg-logo="" group-title="ANIMES | OUTROS", Semana 45
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2045%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 46" tvg-type="series" group-title="ANIMES VOD", Semana 46
+#EXTINF:-1 tvg-id="semana_46" tvg-name="Semana 46" tvg-logo="" group-title="ANIMES | OUTROS", Semana 46
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2046%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 47" tvg-type="series" group-title="ANIMES VOD", Semana 47
+#EXTINF:-1 tvg-id="semana_47" tvg-name="Semana 47" tvg-logo="" group-title="ANIMES | OUTROS", Semana 47
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2047%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 48" tvg-type="series" group-title="ANIMES VOD", Semana 48
+#EXTINF:-1 tvg-id="semana_48" tvg-name="Semana 48" tvg-logo="" group-title="ANIMES | OUTROS", Semana 48
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2048%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 49" tvg-type="series" group-title="ANIMES VOD", Semana 49
+#EXTINF:-1 tvg-id="semana_49" tvg-name="Semana 49" tvg-logo="" group-title="ANIMES | OUTROS", Semana 49
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2049%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 50" tvg-type="series" group-title="ANIMES VOD", Semana 50
+#EXTINF:-1 tvg-id="semana_50" tvg-name="Semana 50" tvg-logo="" group-title="ANIMES | OUTROS", Semana 50
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2050%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 51" tvg-type="series" group-title="ANIMES VOD", Semana 51
+#EXTINF:-1 tvg-id="semana_51" tvg-name="Semana 51" tvg-logo="" group-title="ANIMES | OUTROS", Semana 51
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2051%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Semana 52" tvg-type="series" group-title="ANIMES VOD", Semana 52
+#EXTINF:-1 tvg-id="semana_52" tvg-name="Semana 52" tvg-logo="" group-title="ANIMES | OUTROS", Semana 52
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/Espa%C3%A7onave%20Terra%20(Tous%20Sur%20Orbite)%20-%20Semana%2052%20HD(360P).mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Viagem na Eletricidade" tvg-type="series" group-title="ANIMES VOD", Viagem na Eletricidade
+#EXTINF:-1 tvg-id="viagem_na_eletricidade" tvg-name="Viagem na Eletricidade" tvg-logo="" group-title="ANIMES | OUTROS", Viagem na Eletricidade
 https://t0-videos.cinefy.gg/bcdn_token=uj4UF-zc23AY28Qi0lPMEPYIIdrw9ksh2JTNXnxadxw&expires=1776192953&token_countries=BR&token_path=%2F76b463b6-4491-42ae-9711-79ebc73ea11c/76b463b6-4491-42ae-9711-79ebc73ea11c/playlist.m3u8?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep01" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep01
+#EXTINF:-1 tvg-id="assim_que_funciona_ep01" tvg-name="Assim que funciona ep01" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep01
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona01.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep02" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep02
+#EXTINF:-1 tvg-id="assim_que_funciona_ep02" tvg-name="Assim que funciona ep02" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep02
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona02.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep03" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep03
+#EXTINF:-1 tvg-id="assim_que_funciona_ep03" tvg-name="Assim que funciona ep03" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep03
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona03.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep04" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep04
+#EXTINF:-1 tvg-id="assim_que_funciona_ep04" tvg-name="Assim que funciona ep04" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep04
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona04.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep05" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep05
+#EXTINF:-1 tvg-id="assim_que_funciona_ep05" tvg-name="Assim que funciona ep05" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep05
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona05.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep06" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep06
+#EXTINF:-1 tvg-id="assim_que_funciona_ep06" tvg-name="Assim que funciona ep06" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep06
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona06.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep08" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep08
+#EXTINF:-1 tvg-id="assim_que_funciona_ep08" tvg-name="Assim que funciona ep08" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep08
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona08.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep09" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep09
+#EXTINF:-1 tvg-id="assim_que_funciona_ep09" tvg-name="Assim que funciona ep09" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep09
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona09.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep10" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep10
+#EXTINF:-1 tvg-id="assim_que_funciona_ep10" tvg-name="Assim que funciona ep10" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep10
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona10.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep11" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep11
+#EXTINF:-1 tvg-id="assim_que_funciona_ep11" tvg-name="Assim que funciona ep11" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep11
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona11.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep12" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep12
+#EXTINF:-1 tvg-id="assim_que_funciona_ep12" tvg-name="Assim que funciona ep12" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep12
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona12.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep13" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep13
+#EXTINF:-1 tvg-id="assim_que_funciona_ep13" tvg-name="Assim que funciona ep13" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep13
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona13.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep14" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep14
+#EXTINF:-1 tvg-id="assim_que_funciona_ep14" tvg-name="Assim que funciona ep14" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep14
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona14.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep15" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep15
+#EXTINF:-1 tvg-id="assim_que_funciona_ep15" tvg-name="Assim que funciona ep15" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep15
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona15.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep16" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep16
+#EXTINF:-1 tvg-id="assim_que_funciona_ep16" tvg-name="Assim que funciona ep16" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep16
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona16.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep17" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep17
+#EXTINF:-1 tvg-id="assim_que_funciona_ep17" tvg-name="Assim que funciona ep17" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep17
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona17.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep18" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep18
+#EXTINF:-1 tvg-id="assim_que_funciona_ep18" tvg-name="Assim que funciona ep18" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep18
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona18.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep19" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep19
+#EXTINF:-1 tvg-id="assim_que_funciona_ep19" tvg-name="Assim que funciona ep19" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep19
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona19.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep20" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep20
+#EXTINF:-1 tvg-id="assim_que_funciona_ep20" tvg-name="Assim que funciona ep20" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep20
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona20.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep21" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep21
+#EXTINF:-1 tvg-id="assim_que_funciona_ep21" tvg-name="Assim que funciona ep21" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep21
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona21.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep22" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep22
+#EXTINF:-1 tvg-id="assim_que_funciona_ep22" tvg-name="Assim que funciona ep22" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep22
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona22.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep23" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep23
+#EXTINF:-1 tvg-id="assim_que_funciona_ep23" tvg-name="Assim que funciona ep23" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep23
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona23.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep24" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep24
+#EXTINF:-1 tvg-id="assim_que_funciona_ep24" tvg-name="Assim que funciona ep24" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep24
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona24.mp4?output=ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Assim que funciona ep25" tvg-type="series" group-title="ANIMES VOD", Assim que funciona ep25
+#EXTINF:-1 tvg-id="assim_que_funciona_ep25" tvg-name="Assim que funciona ep25" tvg-logo="" group-title="ANIMES | OUTROS", Assim que funciona ep25
 https://raw.githubusercontent.com/mariosanthos/arquivo2/main/assimquefunciona25.mp4?output=ts
 
