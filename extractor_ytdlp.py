@@ -31,17 +31,72 @@ SOURCES = [
     {"name": "AnimePlayer", "list_url": "https://animeplayer.com.br/genero/dublado", "suffix": "/page/"},
 ]
 
+STREAM_PATTERNS = [
+    r'["\']([^"\']{10,}\.m3u8[^"\']*)["\']',
+    r'file:\s*["\']([^"\']{10,}\.mp4[^"\']*)["\']',
+    r'"hls":\s*"([^"]+)"',
+    r'"stream_url":\s*"([^"]+)"',
+    r'"videoUrl":\s*"([^"]+)"',
+    r'"contentUrl":\s*"([^"]+)"',
+    r'source\s+src=["\']([^"\']{10,})["\']',
+    r'["\']([^"\']{10,}\.mp4[^"\']*)["\']',
+    r'["\']([^"\']{10,}\.webm[^"\']*)["\']',
+    r'jwplayer\([^)]+\)\.setup\(\s*\{[^}]*file:\s*["\']([^"\']+)["\']',
+]
+
+MAX_RETRIES = 3
+RETRY_BACKOFF = [2, 5, 10]
+SAVE_INTERVAL = 5
+
+
+def fetch_with_retry(url, retries=MAX_RETRIES, **kwargs):
+    kwargs.setdefault('headers', HEADERS)
+    kwargs.setdefault('timeout', 20)
+    last_exc = None
+    for attempt in range(retries):
+        try:
+            resp = requests.get(url, **kwargs)
+            if resp.status_code == 429:
+                wait = RETRY_BACKOFF[min(attempt, len(RETRY_BACKOFF) - 1)] * 2
+                logger.warning(f"Rate limited (429) on {url}, aguardando {wait}s")
+                time.sleep(wait)
+                continue
+            return resp
+        except requests.exceptions.ConnectionError as e:
+            last_exc = e
+            wait = RETRY_BACKOFF[min(attempt, len(RETRY_BACKOFF) - 1)]
+            logger.debug(f"Conexão falhou para {url} (tentativa {attempt+1}/{retries}), aguardando {wait}s")
+            time.sleep(wait)
+        except requests.exceptions.Timeout as e:
+            last_exc = e
+            logger.debug(f"Timeout para {url} (tentativa {attempt+1}/{retries})")
+            time.sleep(RETRY_BACKOFF[min(attempt, len(RETRY_BACKOFF) - 1)])
+        except requests.exceptions.RequestException as e:
+            last_exc = e
+            break
+    if last_exc:
+        raise last_exc
+    return None
+
 
 def run_ytdlp(url):
     try:
         result = subprocess.run(
             ['yt-dlp', '--no-warnings', '--quiet', '--dump-json',
-             '--no-playlist', '--extractor-retries', '2',
-             '--socket-timeout', '20', url],
-            capture_output=True, text=True, timeout=45
+             '--no-playlist', '--extractor-retries', '3',
+             '--socket-timeout', '20', '--retries', '3', url],
+            capture_output=True, text=True, timeout=60
         )
         if result.returncode == 0 and result.stdout.strip():
             return json.loads(result.stdout.strip().split('\n')[0])
+        if result.returncode != 0 and result.stderr:
+            logger.debug(f"yt-dlp stderr for {url}: {result.stderr[:200]}")
+    except subprocess.TimeoutExpired:
+        logger.debug(f"yt-dlp timeout for {url}")
+    except json.JSONDecodeError as e:
+        logger.debug(f"yt-dlp JSON parse error for {url}: {e}")
+    except FileNotFoundError:
+        logger.error("yt-dlp não encontrado. Instale com: pip install yt-dlp")
     except Exception as e:
         logger.debug(f"yt-dlp error for {url}: {e}")
     return None
@@ -52,11 +107,12 @@ def get_best_url(info):
         return None
     if info.get('url') and info['url'].startswith('http'):
         return info['url']
-    for fmt in reversed(info.get('formats', [])):
+    formats = info.get('formats', [])
+    for fmt in reversed(formats):
         url = fmt.get('url', '')
         if url.startswith('http') and ('.m3u8' in url or '.mp4' in url):
             return url
-    for fmt in reversed(info.get('formats', [])):
+    for fmt in reversed(formats):
         if fmt.get('url', '').startswith('http'):
             return fmt['url']
     return None
@@ -68,9 +124,15 @@ def get_anime_list(source, max_pages=3):
         url = f"{source['list_url']}{source['suffix']}{page}"
         logger.info(f"[{source['name']}] Página {page}: {url}")
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=20)
+            resp = fetch_with_retry(url)
+            if resp is None:
+                logger.warning(f"{source['name']}: sem resposta para {url}")
+                break
             if resp.status_code == 403:
                 logger.warning(f"{source['name']} bloqueou acesso (403)")
+                break
+            if resp.status_code == 404:
+                logger.info(f"{source['name']}: página {page} não encontrada (404), parando")
                 break
             if resp.status_code != 200:
                 logger.warning(f"Status {resp.status_code} para {url}")
@@ -89,7 +151,7 @@ def get_anime_list(source, max_pages=3):
                     img_el = item.select_one('img')
                     cover = ''
                     if img_el:
-                        cover = img_el.get('data-src') or img_el.get('src', '')
+                        cover = img_el.get('data-src') or img_el.get('data-lazy-src') or img_el.get('src', '')
                     genres = [g.get_text(strip=True).lower() for g in item.select('.genre, .genres a, .cat')]
                     if title and link and not any(ex in genres for ex in EXCLUDED_GENRES):
                         animes.append({
@@ -105,31 +167,55 @@ def get_anime_list(source, max_pages=3):
             logger.info(f"{source['name']}: {len(animes)} animes até agora")
             time.sleep(2)
         except requests.exceptions.RequestException as e:
-            logger.error(f"Request error: {e}")
+            logger.error(f"Request error para {source['name']}: {e}")
+            break
+        except Exception as e:
+            logger.error(f"Erro inesperado ao coletar {source['name']}: {e}")
             break
     return animes
 
 
 def get_episodes(page_url):
     try:
-        resp = requests.get(page_url, headers=HEADERS, timeout=20)
-        if resp.status_code != 200:
+        resp = fetch_with_retry(page_url)
+        if resp is None or resp.status_code != 200:
             return []
         soup = BeautifulSoup(resp.text, 'html.parser')
         links = []
         for sel in ['a[href*="episodio"]', 'a[href*="episode"]', 'a[href*="/ep"]',
-                    '.ep-item a', '.episodes a', 'ul.episodios li a', '.episode-list a']:
+                    '.ep-item a', '.episodes a', 'ul.episodios li a', '.episode-list a',
+                    'a[href*="ep-"]', 'a[href*="-episodio"]']:
             found = soup.select(sel)
             if found:
-                for l in found:
-                    href = l.get('href', '')
+                for lnk in found:
+                    href = lnk.get('href', '')
                     if href:
                         links.append(urljoin(page_url, href))
                 break
         seen = set()
-        return [l for l in links if not (l in seen or seen.add(l))][:5]
-    except Exception:
+        return [lnk for lnk in links if not (lnk in seen or seen.add(lnk))][:5]
+    except requests.exceptions.RequestException as e:
+        logger.debug(f"Erro ao buscar episódios de {page_url}: {e}")
         return []
+    except Exception as e:
+        logger.debug(f"Erro inesperado ao buscar episódios de {page_url}: {e}")
+        return []
+
+
+def extract_stream_from_html(url):
+    try:
+        resp = fetch_with_retry(url)
+        if resp is None or resp.status_code != 200:
+            return None
+        for pattern in STREAM_PATTERNS:
+            for match in re.findall(pattern, resp.text):
+                if match.startswith('http'):
+                    return match
+    except requests.exceptions.RequestException as e:
+        logger.debug(f"Erro ao buscar stream HTML de {url}: {e}")
+    except Exception as e:
+        logger.debug(f"Erro inesperado ao extrair stream de {url}: {e}")
+    return None
 
 
 def extract_stream(url):
@@ -137,21 +223,11 @@ def extract_stream(url):
     stream_url = get_best_url(info)
     if stream_url:
         return stream_url
-    
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=20)
-        for pattern in [
-            r'["\']([^"\']{10,}\.m3u8[^"\']*)["\']',
-            r'file:\s*["\']([^"\']{10,}\.mp4[^"\']*)["\']',
-            r'"hls":\s*"([^"]+)"',
-            r'"stream_url":\s*"([^"]+)"',
-        ]:
-            for match in re.findall(pattern, resp.text):
-                if match.startswith('http'):
-                    return match
-    except Exception:
-        pass
-    
+
+    stream_url = extract_stream_from_html(url)
+    if stream_url:
+        return stream_url
+
     return None
 
 
@@ -164,10 +240,18 @@ def deduplicate(animes):
     return list(seen.values())
 
 
+def save_progress(results, path='streams.json'):
+    try:
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+    except OSError as e:
+        logger.error(f"Erro ao salvar progresso: {e}")
+
+
 def main():
     all_animes = []
     results = []
-    
+
     for source in SOURCES:
         logger.info(f"\n=== Coletando {source['name']} ===")
         try:
@@ -177,21 +261,20 @@ def main():
         except Exception as e:
             logger.error(f"Erro em {source['name']}: {e}")
         time.sleep(3)
-    
+
     if not all_animes:
         logger.error("Nenhum anime coletado de nenhuma fonte!")
-        with open('streams.json', 'w') as f:
-            json.dump([], f)
+        save_progress([])
         return
-    
+
     unique = deduplicate(all_animes)
     logger.info(f"\nTotal único: {len(unique)} animes")
-    
+
     for i, anime in enumerate(unique):
         logger.info(f"[{i+1}/{len(unique)}] Processando: {anime['title']}")
         try:
             episodes = get_episodes(anime['page_url'])
-            
+
             if not episodes:
                 stream_url = extract_stream(anime['page_url'])
                 if stream_url:
@@ -219,17 +302,14 @@ def main():
                     time.sleep(1.5)
         except Exception as e:
             logger.error(f"  Erro ao processar {anime['title']}: {e}")
-        
+
         time.sleep(2)
-        
-        if (i + 1) % 10 == 0:
-            with open('streams.json', 'w', encoding='utf-8') as f:
-                json.dump(results, f, ensure_ascii=False, indent=2)
+
+        if (i + 1) % SAVE_INTERVAL == 0:
+            save_progress(results)
             logger.info(f"  💾 Progresso salvo: {len(results)} streams")
-    
-    with open('streams.json', 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    
+
+    save_progress(results)
     logger.info(f"\n✅ Extração concluída: {len(results)} streams reais encontrados")
 
 
