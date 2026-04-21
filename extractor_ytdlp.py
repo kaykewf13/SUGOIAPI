@@ -33,7 +33,6 @@ SOURCES = [
 
 
 def run_ytdlp(url):
-    """Executa yt-dlp e retorna info do stream"""
     try:
         result = subprocess.run(
             ['yt-dlp', '--no-warnings', '--quiet', '--dump-json',
@@ -49,7 +48,6 @@ def run_ytdlp(url):
 
 
 def get_best_url(info):
-    """Extrai melhor URL de stream"""
     if not info:
         return None
     if info.get('url') and info['url'].startswith('http'):
@@ -65,7 +63,6 @@ def get_best_url(info):
 
 
 def get_anime_list(source, max_pages=3):
-    """Lista animes de uma fonte"""
     animes = []
     for page in range(1, max_pages + 1):
         url = f"{source['list_url']}{source['suffix']}{page}"
@@ -114,7 +111,6 @@ def get_anime_list(source, max_pages=3):
 
 
 def get_episodes(page_url):
-    """Obtém links de episódios"""
     try:
         resp = requests.get(page_url, headers=HEADERS, timeout=20)
         if resp.status_code != 200:
@@ -137,4 +133,59 @@ def get_episodes(page_url):
 
 
 def extract_stream(url):
-    """Extrai URL
+    info = run_ytdlp(url)
+    stream_url = get_best_url(info)
+    if stream_url:
+        return stream_url
+    
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        for pattern in [
+            r'["\']([^"\']{10,}\.m3u8[^"\']*)["\']',
+            r'file:\s*["\']([^"\']{10,}\.mp4[^"\']*)["\']',
+            r'"hls":\s*"([^"]+)"',
+            r'"stream_url":\s*"([^"]+)"',
+        ]:
+            for match in re.findall(pattern, resp.text):
+                if match.startswith('http'):
+                    return match
+    except Exception:
+        pass
+    
+    return None
+
+
+def deduplicate(animes):
+    seen = {}
+    for a in sorted(animes, key=lambda x: 0 if x.get('dubbed') else 1):
+        key = re.sub(r'\s*(dublado|legendado|dub|leg)\s*', '', a['title'].lower()).strip()
+        if key not in seen or (a.get('dubbed') and not seen[key].get('dubbed')):
+            seen[key] = a
+    return list(seen.values())
+
+
+def main():
+    all_animes = []
+    results = []
+    
+    for source in SOURCES:
+        logger.info(f"\n=== Coletando {source['name']} ===")
+        try:
+            animes = get_anime_list(source, max_pages=3)
+            logger.info(f"{source['name']}: {len(animes)} animes coletados")
+            all_animes.extend(animes)
+        except Exception as e:
+            logger.error(f"Erro em {source['name']}: {e}")
+        time.sleep(3)
+    
+    if not all_animes:
+        logger.error("Nenhum anime coletado de nenhuma fonte!")
+        with open('streams.json', 'w') as f:
+            json.dump([], f)
+        return
+    
+    unique = deduplicate(all_animes)
+    logger.info(f"\nTotal único: {len(unique)} animes")
+    
+    for i, anime in enumerate(unique):
+        logger.info(f"
