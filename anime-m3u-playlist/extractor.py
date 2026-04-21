@@ -1,7 +1,5 @@
-“””
-Anime M3U Extractor - Fontes Brasileiras
-Extrai links de anime dublado/legendado e gera playlist M3U
-“””
+"""Anime M3U Extractor - Fontes Brasileiras
+Extrai links de anime dublado/legendado e gera playlist M3U"""
 
 import requests
 from bs4 import BeautifulSoup
