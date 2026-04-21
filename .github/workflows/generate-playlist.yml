@@ -1,0 +1,85 @@
+name: Gerar Playlist Anime M3U
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  extract-and-generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd anime-m3u-playlist
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run extractor
+        run: |
+          cd anime-m3u-playlist
+          timeout 2700s python extractor.py
+
+      - name: Run M3U generator
+        run: |
+          cd anime-m3u-playlist
+          python generate_m3u.py
+
+      - name: Copy outputs to docs folder
+        run: |
+          mkdir -p docs
+          cp anime-m3u-playlist/playlist.m3u docs/
+          cp anime-m3u-playlist/stats.json docs/
+
+      - name: Create index.html
+        run: |
+          cat > docs/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="pt-BR">
+          <head>
+            <meta charset="UTF-8">
+            <title>Anime M3U Playlist</title>
+            <style>
+              body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; background: #1a1a2e; color: #eee; }
+              h1 { color: #e94560; }
+              .card { background: #16213e; padding: 20px; border-radius: 10px; margin: 20px 0; }
+              a { color: #0f3460; background: #e94560; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; margin: 10px 0; }
+            </style>
+          </head>
+          <body>
+            <h1>🎌 Anime M3U Playlist</h1>
+            <div class="card">
+              <h2>📋 Links da Playlist</h2>
+              <p>M3U URL: <code>https://kaykewf13.github.io/SUGOIAPI/playlist.m3u</code></p>
+              <a href="playlist.m3u">⬇️ Download Playlist</a>
+            </div>
+          </body>
+          </html>
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add docs/
+          git diff --quiet && git diff --staged --quiet || (git commit -m 'Update playlist' && git push)
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Playlist
+          path: |
+            docs/playlist.m3u
+            docs/stats.json
