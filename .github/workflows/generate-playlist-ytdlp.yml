@@ -1,0 +1,21 @@
+name: Generate Playlist
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Triggers every day at midnight UTC
+
+jobs:
+  generate_playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install yt-dlp
+        run: |
+          sudo apt update
+          sudo apt install -y yt-dlp
+
+      - name: Generate Playlist
+        run: |
+          yt-dlp -x --audio-format mp3 -o 'playlist/%(title)s.%(ext)s' <playlist_url_here>
