@@ -1,0 +1,44 @@
+name: Gerar Playlist Anime M3U (yt-dlp)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  extract-and-generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt && yt-dlp --version
+
+      - name: Extrair streams
+        run: python extractor_ytdlp.py
+
+      - name: Gerar playlist
+        run: python generate_m3u_ytdlp.py
+
+      - name: Commit e push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/ streams.json || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Playlist atualizada $(date +'%Y-%m-%d %H:%M')"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: anime-playlist
+          path: docs/
+          retention-days: 7
