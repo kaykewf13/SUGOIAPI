@@ -1,0 +1,113 @@
+name: Gerar Playlist Anime M3U
+
+on:
+  # Execução manual
+  workflow_dispatch:
+  
+  # Atualização diária às 6 AM UTC (3 AM Brasília)
+  schedule:
+    - cron: '0 6 * * *'
+
+# Permissão para publicar no GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  extract-and-generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      
+      - name: Extrair animes das fontes
+        run: python extractor.py
+        timeout-minutes: 45
+        continue-on-error: false
+      
+      - name: Gerar playlist M3U
+        run: python generate_m3u.py
+      
+      - name: Mover arquivos para pasta docs (GitHub Pages)
+        run: |
+          mkdir -p docs
+          cp playlist.m3u docs/playlist.m3u
+          cp stats.json docs/stats.json
+          
+          # Cria index.html com informações
+          cat > docs/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="pt-BR">
+          <head>
+            <meta charset="UTF-8">
+            <title>Anime M3U Playlist</title>
+            <style>
+              body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; background: #1a1a2e; color: #eee; }
+              h1 { color: #e94560; }
+              .card { background: #16213e; padding: 20px; border-radius: 10px; margin: 20px 0; }
+              a { color: #0f3460; background: #e94560; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; margin: 10px 0; }
+              a:hover { background: #c73652; }
+              code { background: #0f3460; padding: 5px 10px; border-radius: 5px; font-size: 14px; word-break: break-all; }
+            </style>
+          </head>
+          <body>
+            <h1>🎌 Anime M3U Playlist</h1>
+            <div class="card">
+              <h2>📋 Links da Playlist</h2>
+              <p><strong>M3U Completa (Dublado + Legendado):</strong></p>
+              <code>https://SEU-USUARIO.github.io/anime-m3u-playlist/playlist.m3u</code>
+              <br><br>
+              <a href="playlist.m3u">⬇️ Download Playlist M3U</a>
+              <a href="stats.json">📊 Ver Estatísticas</a>
+            </div>
+            <div class="card">
+              <h2>⚙️ Como usar no m3u-editor2</h2>
+              <ol>
+                <li>Acesse seu m3u-editor2</li>
+                <li>Playlists → Add Playlist</li>
+                <li>Cole a URL da M3U acima</li>
+                <li>Sync Schedule: Every 24 hours</li>
+                <li>Save</li>
+              </ol>
+            </div>
+            <script>
+              fetch('stats.json').then(r => r.json()).then(stats => {
+                document.querySelector('.card').innerHTML += `
+                  <p>📊 Total: <strong>${stats.total}</strong> animes | 
+                  🎤 Dublados: <strong>${stats.dubbed}</strong> | 
+                  📝 Legendados: <strong>${stats.subbed}</strong></p>
+                  <p>🕐 Atualizado: ${new Date(stats.generated_at).toLocaleString('pt-BR')}</p>
+                `;
+              });
+            </script>
+          </body>
+          </html>
+          EOF
+      
+      - name: Commit e push playlist atualizada
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          git add animes_raw.json stats.json || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "🎌 Playlist atualizada $(date +'%Y-%m-%d %H:%M')"
+          git push
+      
+      - name: Upload playlist como artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: anime-playlist
+          path: |
+            playlist.m3u
+            stats.json
+          retention-days: 7
