@@ -14,7 +14,7 @@ logger = logging.getLogger(**name**)
 
 # Gêneros excluídos
 
-EXCLUDED_GENRES = ['yaoi', 'boys-love’, 'bl']
+EXCLUDED_GENRES = ['yaoi', 'boys-love', 'bl']
 
 # Headers para evitar bloqueio
 
