@@ -188,4 +188,50 @@ def main():
     logger.info(f"\nTotal único: {len(unique)} animes")
     
     for i, anime in enumerate(unique):
-        logger.info(f"
+        logger.info(f"[{i+1}/{len(unique)}] Processando: {anime['title']}")
+        try:
+            episodes = get_episodes(anime['page_url'])
+            
+            if not episodes:
+                stream_url = extract_stream(anime['page_url'])
+                if stream_url:
+                    results.append({
+                        **anime,
+                        'stream_url': stream_url,
+                        'episode': 1,
+                        'type': 'movie'
+                    })
+                    logger.info(f"  ✅ Stream direto encontrado")
+                else:
+                    logger.info(f"  ⚠️ Sem stream para {anime['title']}")
+            else:
+                logger.info(f"  {len(episodes)} episódios encontrados")
+                for ep_num, ep_url in enumerate(episodes, 1):
+                    stream_url = extract_stream(ep_url)
+                    if stream_url:
+                        results.append({
+                            **anime,
+                            'stream_url': stream_url,
+                            'episode': ep_num,
+                            'episode_url': ep_url,
+                            'type': 'series'
+                        })
+                    time.sleep(1.5)
+        except Exception as e:
+            logger.error(f"  Erro ao processar {anime['title']}: {e}")
+        
+        time.sleep(2)
+        
+        if (i + 1) % 10 == 0:
+            with open('streams.json', 'w', encoding='utf-8') as f:
+                json.dump(results, f, ensure_ascii=False, indent=2)
+            logger.info(f"  💾 Progresso salvo: {len(results)} streams")
+    
+    with open('streams.json', 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+    
+    logger.info(f"\n✅ Extração concluída: {len(results)} streams reais encontrados")
+
+
+if __name__ == "__main__":
+    main()
