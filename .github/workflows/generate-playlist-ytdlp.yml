@@ -21,10 +21,21 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install requests beautifulsoup4 lxml yt-dlp && yt-dlp --version
+        run: |
+          pip install requests beautifulsoup4 lxml yt-dlp
+          yt-dlp --version
 
       - name: Extrair streams com yt-dlp
         run: python extractor_ytdlp.py
+        continue-on-error: true
+
+      - name: Verificar streams.json
+        run: |
+          if [ ! -f streams.json ]; then
+            echo "streams.json não encontrado, criando arquivo vazio"
+            echo "[]" > streams.json
+          fi
+          echo "Streams encontrados: $(python -c "import json; data=json.load(open('streams.json')); print(len(data))")"
 
       - name: Gerar playlist M3U
         run: python generate_m3u_ytdlp.py
