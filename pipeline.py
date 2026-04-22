@@ -559,27 +559,26 @@ def gerar_m3u(validos: list[dict]) -> Path:
 # ────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    acervo: list[dict] = []
+    acervo = []
 
-    # 1. Varredura completa do repositório SUGOIAPI (filtro PT)
+    # 1. Varredura SUGOIAPI — sem filtro PT (repo já é focado em anime PT)
     print("📂 Varrendo repositório SUGOIAPI...")
     arquivos = listar_arquivos_repo()
     print(f"   {len(arquivos)} arquivos encontrados")
-
     with ThreadPoolExecutor(max_workers=10) as ex:
-        for r in ex.map(lambda u: extrair_links(u, filtro_pt=True), arquivos):
+        for r in ex.map(lambda u: extrair_links(u), arquivos):
             acervo.extend(r)
-
     print(f"   {len(acervo)} links extraídos do repo")
 
-    # 2. Fontes externas de anime (filtro PT)
+    # 2. Fontes externas de anime — sem filtro PT
+    # (fontes curadas já foram selecionadas por conteúdo relevante)
     print(f"\n🎌 Fontes externas de anime ({len(SOURCES_ANIME)} fontes)...")
     with ThreadPoolExecutor(max_workers=5) as ex:
-        for r in ex.map(lambda u: extrair_links(u, filtro_pt=True), SOURCES_ANIME):
+        for r in ex.map(lambda u: extrair_links(u), SOURCES_ANIME):
             acervo.extend(r)
     print(f"   Total acumulado: {len(acervo)}")
 
-    # 3. Canais Brasil — Free-TV/IPTV (filtro BR, sem filtro PT)
+    # 3. Canais Brasil — Free-TV/IPTV (filtro BR garante origem PT)
     print("\n📺 Canais brasileiros (Free-TV)...")
     canais_br = extrair_links(SOURCE_CANAIS_BR, filtro_br=True)
     acervo.extend(canais_br)
@@ -587,11 +586,11 @@ if __name__ == "__main__":
 
     print(f"\n📦 Total bruto: {len(acervo)} entradas")
 
-    # 4. Validação real em paralelo
+    # 4. Validação real
     print("\n⚡ Validando links reais...")
     validos = validar_em_paralelo(acervo)
     print(f"   {len(validos)} links confirmados vivos")
 
-    # 5. Geração da M3U classificada
+    # 5. Geração
     print("\n📝 Gerando playlist classificada...")
     gerar_m3u(validos)
