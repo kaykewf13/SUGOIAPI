@@ -1,9 +1,9 @@
 """
-SUGOIAPI Pipeline v3.2
-Correções:
-- Exclui output/ da varredura do repo (evita loop de auto-processamento)
-- Filtro de nome robusto (captura livem3u8, resíduos de runs anteriores)
-- Classificação por URL path + group-title da fonte + categoria por nome
+SUGOIAPI Pipeline v3.4
+- Validação separada: canais live validados, VOD (séries/filmes) sem validação
+- Fontes consolidadas e classificadas por tipo
+- Parse completo: SxxExx, EP01, 2nd Season
+- Grupos de canais por tipo + filmes por gênero
 """
 
 import re, requests, shutil, os
@@ -28,149 +28,205 @@ REPO_OWNER = "kaykewf13"
 REPO_NAME  = "SUGOIAPI"
 BRANCH     = "main"
 
-SOURCES_ANIME = [
-    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/DrewLiveVOD.m3u8",
-    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/JapanTV.m3u8",
-    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/PlutoTV.m3u8",
-    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/TubiTV.m3u8",
-    "https://raw.githubusercontent.com/L3uS-IPTV/Animes/main/animes.m3u",
-    "https://raw.githubusercontent.com/Iptv-Animes/AutoUpdate/main/lista.m3u",
-    "https://m3u.ibert.me/jp.m3u",
-]
-
-SOURCE_CANAIS_BR = \
-    "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
-
 EPG_URL = "http://drewlive24.duckdns.org:8081/merged_epg.xml.gz"
 
 # ─────────────────────────────────────────────────────────────────
-# CATEGORIAS DE ANIME POR NOME
+# FONTES — separadas por tipo de conteúdo esperado
+# ─────────────────────────────────────────────────────────────────
+
+# Fontes de CANAIS AO VIVO — serão validados
+SOURCES_LIVE = [
+    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/PlutoTV.m3u8",
+    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/TubiTV.m3u8",
+    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/JapanTV.m3u8",
+    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/DrewLiveVOD.m3u8",
+    "https://m3u.ibert.me/jp.m3u",
+]
+SOURCE_CANAIS_BR = \
+    "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+
+# Fontes de SÉRIES/FILMES VOD — NÃO validados (link estável no CDN)
+SOURCES_VOD = [
+    # group-title = nome do anime, links mp4 via cdn.animeiat.tv
+    "https://raw.githubusercontent.com/alzamer2/iptv/main/Anime.m3u",
+    # animes PT-BR com episódios
+    "https://raw.githubusercontent.com/L3uS-IPTV/Animes/main/animes.m3u",
+    "https://raw.githubusercontent.com/Iptv-Animes/AutoUpdate/main/lista.m3u",
+]
+
+# ─────────────────────────────────────────────────────────────────
+# DETECÇÃO DE TIPO POR URL
+# ─────────────────────────────────────────────────────────────────
+
+def detectar_tipo_por_url(url: str) -> str:
+    u = url.lower()
+    if "/live/"   in u: return "live"
+    if "/series/" in u: return "series"
+    if "/movie/"  in u: return "movie"
+    if "/vod/"    in u: return "movie"
+    if u.endswith(".ts"):   return "live"
+    if u.endswith(".mp4"):  return "vod"
+    if u.endswith(".m3u8"): return "live"
+    return "unknown"
+
+
+def is_vod(url: str) -> bool:
+    t = detectar_tipo_por_url(url)
+    return t in ("vod", "movie", "series")
+
+# ─────────────────────────────────────────────────────────────────
+# CLASSIFICAÇÃO DE CANAIS TV POR TIPO
+# ─────────────────────────────────────────────────────────────────
+
+CANAL_NOTICIAS = [
+    'NEWS','NOTICIAS','NOTÍCIAS','JORNAL',
+    'CNN','BBC NEWS','SKY NEWS','FOX NEWS','GLOBO NEWS',
+    'BAND NEWS','JOVEM PAN NEWS','RECORD NEWS',
+    'AL JAZEERA','EURONEWS','BLOOMBERG','REUTERS',
+    'NBC NEWS','CBS NEWS','ABC NEWS','DW NEWS','FRANCE 24',
+    'NHK WORLD','CGTN','RT NEWS','TRT WORLD',
+]
+CANAL_ESPORTES = [
+    'ESPN','FOX SPORTS','SPORTV','PREMIERE','DAZN',
+    'TNT SPORTS','BT SPORT','EUROSPORT','NFL','NBA','MLB',
+    'NHL','UFC','COMBATE','ELEVEN SPORTS','GOLAZO',
+    'FUTEBOL','FOOTBALL','SOCCER','SPORT TV','F1 CHANNEL',
+]
+CANAL_FILMES = [
+    'MOVIE','MOVIES','CINEMA','FILM','FILMES','CINE ',
+    'MOVIESPHERE','LIONSGATE','PLUTO TV ACTION MOVIES',
+    'PLUTO TV HORROR','PLUTO TV COMEDY MOVIES',
+    'PLUTO TV WESTERNS','PLUTO TV THRILLERS',
+    'CLASSIC MOVIES','HALLMARK MOVIES','LIFETIME',
+]
+CANAL_INFANTIL = [
+    'KIDS','INFANTIL','CARTOON','NICK JR','NICKELODEON',
+    'DISNEY','BOOMERANG','BABY','MINI','ARTHUR','DORA',
+    'PEPPA','LEGO','BARNEY','TELETUBBIES','RYAN',
+    'STRAWBERRY','LITTLE ANGEL','FOREVER KIDS',
+]
+CANAL_ADULTOS = [
+    'ADULTO','ADULT','XXX','EROTIC','HOCHU',
+    'BABES TV','EROX','EXTASY','FAP TV',
+    'BLUE HUSTLER','DORCEL','PENTHOUSE','PLAYBOY',
+]
+CANAL_MUSICA = [
+    'MTV','VEVO','MUSIC','MUSICA','MÚSICA',
+    'VH1','BET','XITE','CMT','TRACE','RADIO',
+]
+CANAL_DOCUMENTARIO = [
+    'DISCOVERY','NATIONAL GEOGRAPHIC','NAT GEO','HISTORY',
+    'SMITHSONIAN','PBS NATURE','DOCUMENTAR','DOC ',
+    'ANIMAL PLANET','SCIENCE','NATURE',
+]
+
+
+def classificar_canal_tv(nome: str, group_title: str) -> str:
+    texto = (nome + " " + group_title).upper()
+    if any(k in texto for k in CANAL_ADULTOS):       return "Adultos"
+    if any(k in texto for k in CANAL_NOTICIAS):      return "Noticias"
+    if any(k in texto for k in CANAL_ESPORTES):      return "Esportes"
+    if any(k in texto for k in CANAL_FILMES):        return "Filmes"
+    if any(k in texto for k in CANAL_INFANTIL):      return "Infantil"
+    if any(k in texto for k in CANAL_MUSICA):        return "Musica"
+    if any(k in texto for k in CANAL_DOCUMENTARIO):  return "Documentario"
+    return "Variados"
+
+# ─────────────────────────────────────────────────────────────────
+# CATEGORIZAÇÃO DE FILMES POR GÊNERO
+# ─────────────────────────────────────────────────────────────────
+
+FILME_ADULTO     = ['HENTAI','[XXX]','XXX','UNCENSORED','OVERFLOW','OPPAI']
+FILME_ACAO       = ['ACTION','ACAO','AÇÃO','BATTLE','PLUTO TV ACTION','FLICKS OF FURY']
+FILME_TERROR     = ['HORROR','TERROR','HAUNTED','GHOST','PARANORMAL','PLUTO TV HORROR']
+FILME_COMEDIA    = ['COMEDY','COMEDIA','COMÉDIA','PLUTO TV COMEDY MOVIES']
+FILME_ROMANCE    = ['ROMANCE','ROMANTIC','AMOR','HALLMARK','ROMANCE 365']
+FILME_FICCAO     = ['SCI-FI','SCIFI','SCIENCE FICTION','SPACE','PLUTO TV SCI-FI']
+FILME_SUSPENSE   = ['THRILLER','MYSTERY','CRIME','SUSPENSE','PLUTO TV THRILLERS']
+FILME_ANIMACAO   = ['ANIMATION','ANIMACAO','ANIME MOVIE','GHIBLI','MIYAZAKI']
+FILME_DOC        = ['DOCUMENTARY','DOCUMENTARIO','DOCUMENTÁRIO']
+FILME_WESTERN    = ['WESTERN','COWBOY','PLUTO TV WESTERNS']
+
+
+def classificar_filme(nome: str, group_title: str) -> str:
+    texto = (nome + " " + group_title).upper()
+    if any(k in texto for k in FILME_ADULTO):   return "Adulto"
+    if any(k in texto for k in FILME_ANIMACAO): return "Animacao"
+    if any(k in texto for k in FILME_TERROR):   return "Terror"
+    if any(k in texto for k in FILME_ACAO):     return "Acao"
+    if any(k in texto for k in FILME_FICCAO):   return "Sci-Fi"
+    if any(k in texto for k in FILME_SUSPENSE): return "Suspense"
+    if any(k in texto for k in FILME_ROMANCE):  return "Romance"
+    if any(k in texto for k in FILME_COMEDIA):  return "Comedia"
+    if any(k in texto for k in FILME_WESTERN):  return "Western"
+    if any(k in texto for k in FILME_DOC):      return "Documentario"
+    return "Geral"
+
+# ─────────────────────────────────────────────────────────────────
+# CATEGORIAS DE ANIME
 # ─────────────────────────────────────────────────────────────────
 
 CATEGORIAS_ANIME = {
-    "Shounen": [
-        'NARUTO','ONE PIECE','DRAGON BALL','BLEACH','FAIRY TAIL',
-        'DEMON SLAYER','KIMETSU','ATTACK ON TITAN','SHINGEKI',
-        'HUNTER X HUNTER','FULLMETAL','MY HERO ACADEMIA','BOKU NO HERO',
-        'JUJUTSU KAISEN','BLACK CLOVER','FIRE FORCE','SOUL EATER',
-        'BLUE EXORCIST','INUYASHA','HAIKYUU','KUROKO','SLAM DUNK',
-        'EYESHIELD','CAPTAIN TSUBASA','BEYBLADE','YU GI OH','YU-GI-OH',
-        'DIGIMON','POKEMON','ZATCH BELL','SHAMAN KING','KATEKYO','REBORN',
-        'TORIKO','D.GRAY','MAR','RAVE MASTER','MEDABOTS',
-    ],
-    "Shoujo": [
-        'SAILOR MOON','CARDCAPTOR','FRUITS BASKET','OURAN','CLANNAD',
-        'KAMISAMA','SKIP BEAT','VAMPIRE KNIGHT','KAICHOU WA MAID',
-        'NANA','FULL MOON','TOKYO MEW MEW','SHUGO CHARA','MAGIC KNIGHT',
-        'RAYEARTH','WEDDING PEACH','MERMAID MELODY','SPECIAL A',
-        'LOVELY COMPLEX','BOKURA GA ITA','PARADISE KISS','PEACH GIRL',
-    ],
-    "Seinen": [
-        'BERSERK','DEATH NOTE','TOKYO GHOUL','GANTZ','VINLAND SAGA',
-        'MONSTER','VAGABOND','GHOST IN THE SHELL','COWBOY BEBOP',
-        'TRIGUN','HELLSING','BLACK LAGOON','MADE IN ABYSS','DOROHEDORO',
-        'GOLDEN KAMUY','DUNGEON MESHI','MUSHISHI','ERGO PROXY','AKIRA',
-        'PLANETES','ELFEN LIED','HOMUNCULUS','BLAME',
-    ],
-    "Josei": [
-        'CHIHAYAFURU','NODAME','HONEY AND CLOVER','WOTAKOI',
-        'GEKKAN SHOUJO','PRINCESS JELLYFISH','ANTIQUE BAKERY',
-    ],
-    "Isekai": [
-        'SWORD ART ONLINE','SAO','RE:ZERO','REZERO','OVERLORD',
-        'TENSURA','SLIME','LOG HORIZON','NO GAME NO LIFE','KONOSUBA',
-        'SHIELD HERO','MUSHOKU TENSEI','DANMACHI','TATE NO YUUSHA',
-        'ARIFURETA','ISEKAI','TENSEI','JOBLESS','SKELETON KNIGHT',
-        'VILLAINESS','REALIST HERO','WORLD TEACHER',
-    ],
-    "Mecha": [
-        'GUNDAM','EVANGELION','NEON GENESIS','CODE GEASS',
-        'GURREN LAGANN','TENGEN TOPPA','MACROSS','VOLTRON','RAHXEPHON',
-        'EUREKA SEVEN','ALDNOAH ZERO','DARLING IN THE FRANXX',
-        'FULL METAL PANIC','ESCAFLOWNE','MAZINGER','GETTER ROBO',
-    ],
-    "Terror e Suspense": [
-        'HIGURASHI','WHEN THEY CRY','SHIKI','ANOTHER','PARASYTE',
-        'KISEIJUU','PROMISED NEVERLAND','MIRAI NIKKI','FUTURE DIARY',
-        'DEADMAN WONDERLAND','HELL GIRL','JIGOKU SHOUJO','GHOST HUNT',
-        'JUNJI ITO','BLOOD-C','UMINEKO',
-    ],
-    "Psicologico": [
-        'SERIAL EXPERIMENTS','STEINS GATE','PARANOIA AGENT',
-        'WELCOME TO NHK','KAKEGURUI','CLASSROOM OF THE ELITE',
-        'TALENTLESS NANA','ID INVADED',
-    ],
-    "Romance": [
-        'TORADORA','ANGEL BEATS','ANOHANA','YOUR LIE IN APRIL',
-        'SHIGATSU','OREGAIRU','GOLDEN TIME','NISEKOI','KAGUYA SAMA',
-        'HORIMIYA','QUINTESSENTIAL','5-TOUBUN','RENT A GIRLFRIEND',
-        'YOUR NAME','KIMI NO NA WA','AO HARU RIDE','PLASTIC MEMORIES',
-        'ITAZURA NA KISS','WHITE ALBUM',
-    ],
-    "Slice of Life": [
-        'BARAKAMON','SILVER SPOON','ARIA','LAID BACK CAMP','YURU CAMP',
-        'NON NON BIYORI','K-ON','LUCKY STAR','AZUMANGA','NICHIJOU',
-        'HIDAMARI SKETCH','YOTSUBA','FLYING WITCH',
-    ],
-    "Acao e Aventura": [
-        'RUROUNI KENSHIN','SAMURAI X','FATE','STAY NIGHT','FATE ZERO',
-        'FATE APOCRYPHA','JOJO','BIZARRE ADVENTURE','TOWER OF GOD',
-        'NANATSU NO TAIZAI','SEVEN DEADLY SINS','RECORD OF RAGNAROK',
-        'CLAYMORE','DRIFTERS',
-    ],
-    "Esportes": [
-        'FREE','YURI ON ICE','PING PONG','MAJOR','CROSS GAME',
-        'EYESHIELD 21','PRINCE OF TENNIS','HAJIME NO IPPO',
-        'BLUE LOCK','SK8','WIND BREAKER',
-    ],
-    "Fantasia": [
-        'FRIEREN','ANCIENT MAGUS','LITTLE WITCH ACADEMIA',
-        'SLAYERS','LODOSS WAR','GOBLIN SLAYER','GRIMGAR',
-    ],
-    "Sci-Fi": [
-        'PSYCHO PASS','SPACE DANDY','BEATLESS','VIVY',
-        'DIMENSION W','KNIGHT OF SIDONIA',
-    ],
-    "Sobrenatural": [
-        'YU YU HAKUSHO','NORAGAMI','KEKKAI SENSEN','TOILET BOUND',
-        'HANAKO KUN','NATSUME','XXXHOLIC','MUSHISHI','USHIO AND TORA',
-    ],
-    "Historico": [
-        'VAGABOND','DORORO','HAKUOUKI','SENGOKU BASARA',
-        'ALTAIR','ARSLAN','ANGOLMOIS',
-    ],
-    "Musica e Idols": [
-        'LOVE LIVE','IDOLMASTER','AKB0048','BOCCHI THE ROCK','GIVEN',
-        'OSHI NO KO','SHOW BY ROCK','REVUE STARLIGHT','BANG DREAM',
-        'CAROLE AND TUESDAY',
-    ],
-    "Comedia": [
-        'GINTAMA','KONOSUBA','LUCKY STAR','PRISON SCHOOL',
-        'GRAND BLUE','SAIKI KUSUO','ONE PUNCH MAN','HINAMATSURI',
-        'CAUTIOUS HERO','DOCTOR STONE','ASOBI ASOBASE','CROMARTIE',
-    ],
-    "Clasicos": [
-        'DRAGON BALL Z','DRAGON BALL GT','CAVALEIROS DO ZODIACO',
-        'SAINT SEIYA','SAILOR MOON','CITY HUNTER','CANDY CANDY',
-        'RANMA','URUSEI YATSURA','DORAEMON','LUPIN III','LUPIN 3',
-        'COBRA','MAZINGER','GATCHAMAN','DEVILMAN','CAPTAIN HARLOCK',
-        'GALAXY EXPRESS','SPEED RACER','ASTRO BOY','VOLTRON',
-    ],
-    "Ecchi e Harem": [
-        'HIGHSCHOOL DXD','MONSTER MUSUME','TO LOVE RU',
-        'ROSARIO VAMPIRE','SEKIREI','FREEZING','QUEENS BLADE',
-        'SHIMONETA','SHINMAI MAOU','VALKYRIE DRIVE',
-        'INFINITE STRATOS','YURAGI-SOU','DAKARA BOKU',
-    ],
-    "Hentai": [
-        'HENTAI','[XXX]','UNCENSORED','OVERFLOW','BOIN',
-        'OPPAI','FUTANARI',
-    ],
-    "Dublado":  ['DUBLADO', 'DUB', 'PT-BR'],
-    "Legendado": ['LEGENDADO', 'LEG', 'PT-PT'],
+    "Shounen": ['NARUTO','ONE PIECE','DRAGON BALL','BLEACH','FAIRY TAIL',
+                'DEMON SLAYER','KIMETSU','ATTACK ON TITAN','SHINGEKI',
+                'HUNTER X HUNTER','FULLMETAL','MY HERO ACADEMIA','BOKU NO HERO',
+                'JUJUTSU KAISEN','BLACK CLOVER','FIRE FORCE','SOUL EATER',
+                'BLUE EXORCIST','INUYASHA','HAIKYUU','KUROKO','SLAM DUNK',
+                'EYESHIELD','CAPTAIN TSUBASA','BEYBLADE','YU GI OH',
+                'DIGIMON','POKEMON','SHAMAN KING','TORIKO'],
+    "Shoujo":  ['SAILOR MOON','CARDCAPTOR','FRUITS BASKET','OURAN','CLANNAD',
+                'KAMISAMA','SKIP BEAT','VAMPIRE KNIGHT','KAICHOU WA MAID',
+                'NANA','FULL MOON','TOKYO MEW MEW','SHUGO CHARA'],
+    "Seinen":  ['BERSERK','DEATH NOTE','TOKYO GHOUL','GANTZ','VINLAND SAGA',
+                'MONSTER','VAGABOND','GHOST IN THE SHELL','COWBOY BEBOP',
+                'TRIGUN','HELLSING','BLACK LAGOON','MADE IN ABYSS','DOROHEDORO',
+                'GOLDEN KAMUY','DUNGEON MESHI','MUSHISHI','ERGO PROXY','AKIRA'],
+    "Josei":   ['CHIHAYAFURU','NODAME','HONEY AND CLOVER','WOTAKOI'],
+    "Isekai":  ['SWORD ART ONLINE','SAO','RE:ZERO','REZERO','OVERLORD',
+                'TENSURA','SLIME','LOG HORIZON','NO GAME NO LIFE','KONOSUBA',
+                'SHIELD HERO','MUSHOKU TENSEI','DANMACHI','ISEKAI','TENSEI'],
+    "Mecha":   ['GUNDAM','EVANGELION','NEON GENESIS','CODE GEASS',
+                'GURREN LAGANN','MACROSS','EUREKA SEVEN','ALDNOAH',
+                'DARLING IN THE FRANXX','FULL METAL PANIC','MAZINGER'],
+    "Terror e Suspense": ['HIGURASHI','SHIKI','ANOTHER','PARASYTE',
+                          'PROMISED NEVERLAND','MIRAI NIKKI','DEADMAN',
+                          'HELL GIRL','GHOST HUNT','JUNJI ITO','BLOOD-C'],
+    "Psicologico": ['SERIAL EXPERIMENTS','STEINS GATE','PARANOIA AGENT',
+                    'WELCOME TO NHK','KAKEGURUI','CLASSROOM OF THE ELITE'],
+    "Romance": ['TORADORA','ANGEL BEATS','ANOHANA','YOUR LIE IN APRIL',
+                'SHIGATSU','OREGAIRU','GOLDEN TIME','NISEKOI','KAGUYA SAMA',
+                'HORIMIYA','QUINTESSENTIAL','5-TOUBUN','RENT A GIRLFRIEND',
+                'YOUR NAME','KIMI NO NA WA','AO HARU RIDE'],
+    "Slice of Life": ['BARAKAMON','SILVER SPOON','LAID BACK CAMP','YURU CAMP',
+                      'NON NON BIYORI','K-ON','LUCKY STAR','AZUMANGA','NICHIJOU',
+                      'HIMOUTO','UMARU'],
+    "Acao e Aventura": ['RUROUNI KENSHIN','SAMURAI X','FATE','STAY NIGHT',
+                        'JOJO','BIZARRE ADVENTURE','TOWER OF GOD',
+                        'NANATSU NO TAIZAI','SEVEN DEADLY SINS','CLAYMORE'],
+    "Esportes": ['FREE','YURI ON ICE','PING PONG','MAJOR',
+                 'HAJIME NO IPPO','BLUE LOCK','SK8'],
+    "Fantasia": ['FRIEREN','ANCIENT MAGUS','LITTLE WITCH ACADEMIA',
+                 'SLAYERS','GOBLIN SLAYER','GRIMGAR'],
+    "Sci-Fi":   ['PSYCHO PASS','SPACE DANDY','BEATLESS','VIVY','DIMENSION W'],
+    "Sobrenatural": ['YU YU HAKUSHO','NORAGAMI','KEKKAI SENSEN',
+                     'TOILET BOUND','NATSUME','USHIO AND TORA'],
+    "Historico": ['DORORO','HAKUOUKI','SENGOKU BASARA','ALTAIR','ANGOLMOIS'],
+    "Musica e Idols": ['LOVE LIVE','IDOLMASTER','BOCCHI THE ROCK','GIVEN',
+                       'OSHI NO KO','SHOW BY ROCK','REVUE STARLIGHT'],
+    "Comedia":  ['GINTAMA','KONOSUBA','PRISON SCHOOL','GRAND BLUE',
+                 'SAIKI KUSUO','ONE PUNCH MAN','HINAMATSURI','DOCTOR STONE'],
+    "Clasicos": ['DRAGON BALL Z','DRAGON BALL GT','CAVALEIROS DO ZODIACO',
+                 'SAINT SEIYA','CITY HUNTER','CANDY CANDY','RANMA',
+                 'DORAEMON','LUPIN III','LUPIN 3','COBRA','MAZINGER',
+                 'DEVILMAN','CAPTAIN HARLOCK','SPEED RACER'],
+    "Ecchi e Harem": ['HIGHSCHOOL DXD','MONSTER MUSUME','TO LOVE RU',
+                      'ROSARIO VAMPIRE','SEKIREI','QUEENS BLADE',
+                      'VALKYRIE DRIVE','INFINITE STRATOS'],
+    "Hentai":   ['HENTAI','[XXX]','UNCENSORED','OVERFLOW','BOIN','OPPAI'],
+    "Dublado":  ['DUBLADO','DUB','PT-BR'],
+    "Legendado": ['LEGENDADO','LEG','PT-PT'],
 }
 
-# Group-titles genéricos sem informação útil de categoria
 GT_GENERICOS = {
     'animes vod','anime','animes','vod','series','séries',
     'filmes','movies','geral','others','outros','general',
@@ -185,168 +241,144 @@ def detectar_categoria_anime(nome: str) -> str:
             return cat
     return "Geral"
 
-
 # ─────────────────────────────────────────────────────────────────
-# CLASSIFICAÇÃO
+# CLASSIFICAÇÃO GERAL
 # ─────────────────────────────────────────────────────────────────
-
-def detectar_tipo_por_url(url: str) -> str:
-    u = url.lower()
-    if "/live/"   in u: return "live"
-    if "/series/" in u: return "series"
-    if "/movie/"  in u: return "movie"
-    if "/vod/"    in u: return "movie"
-    if u.endswith(".ts"):   return "live"
-    if u.endswith(".mp4"):  return "movie"
-    if u.endswith(".m3u8"): return "live"
-    return "unknown"
-
 
 def classificar_item(nome: str, url: str, group_title: str) -> dict:
     tipo = detectar_tipo_por_url(url)
     gt   = group_title.strip()
 
-    # Extrai subcategoria do group-title
     sub = gt
-    for prefix in ["Series |", "Séries |", "Canais |", "Filmes |",
-                   "Movies |", "VOD |"]:
+    for prefix in ["Series |","Séries |","Canais |","Filmes |","Movies |","VOD |"]:
         if sub.lower().startswith(prefix.lower()):
             sub = sub[len(prefix):].strip()
             break
 
-    # Se group-title genérico, detecta categoria pelo nome do anime
     if sub.lower() in GT_GENERICOS:
         sub = detectar_categoria_anime(nome)
 
     if tipo == "live":
-        return {"grupo": "Canais", "categoria": sub or "Geral", "tipo": "live"}
-    if tipo in ("movie", "vod"):
-        return {"grupo": "Filmes", "categoria": sub or "Geral", "tipo": "movie"}
+        return {"grupo": "Canais",  "categoria": classificar_canal_tv(nome, gt), "tipo": "live"}
+    if tipo in ("vod","movie"):
+        return {"grupo": "Filmes",  "categoria": classificar_filme(nome, gt),    "tipo": "movie"}
     if tipo == "series":
-        return {"grupo": "Series", "categoria": sub or "Geral", "tipo": "series"}
+        return {"grupo": "Series",  "categoria": sub or "Geral",                 "tipo": "series"}
 
-    # Fallback: deduz pelo group-title original
+    # Fallback por group-title
     gt_up = gt.upper()
     if any(k in gt_up for k in ["CANAL","LIVE","TV ","CHANNEL","AO VIVO"]):
-        return {"grupo": "Canais", "categoria": sub or "Geral", "tipo": "live"}
-    if any(k in gt_up for k in ["MOVIE","FILME","FILM","CINEMA","HENTAI","[XXX]","XXX"]):
-        return {"grupo": "Filmes", "categoria": sub or "Geral", "tipo": "movie"}
+        return {"grupo": "Canais", "categoria": classificar_canal_tv(nome, gt), "tipo": "live"}
+    if any(k in gt_up for k in ["MOVIE","FILME","FILM","CINEMA","HENTAI","XXX"]):
+        return {"grupo": "Filmes", "categoria": classificar_filme(nome, gt),    "tipo": "movie"}
 
     return {"grupo": "Series", "categoria": sub or "Geral", "tipo": "series"}
-
 
 # ─────────────────────────────────────────────────────────────────
 # PARSE DE SÉRIE
 # ─────────────────────────────────────────────────────────────────
 
-def parse_serie(nome: str) -> dict:
-    # Remove sufixos de idioma
+def extrair_temporada_do_titulo(titulo: str) -> tuple:
+    m = re.search(r'\s+(\d+)(?:st|nd|rd|th)\s+season', titulo, re.IGNORECASE)
+    if m:
+        return titulo[:m.start()].strip(), f"Temporada {int(m.group(1)):02d}"
+    m2 = re.search(r'\s+(?:season|temporada)\s+(\d+)', titulo, re.IGNORECASE)
+    if m2:
+        return titulo[:m2.start()].strip(), f"Temporada {int(m2.group(1)):02d}"
+    return titulo, "Temporada 01"
+
+
+def parse_serie(nome: str, group_title: str = "") -> dict:
     nome_clean = re.sub(
         r'\s*[\(\[]?\s*(dublado|legendado|dub|leg|pt-br|pt-pt)\s*[\)\]]?\s*$',
         '', nome, flags=re.IGNORECASE
     ).strip()
 
-    # Formato SxxExx
+    # 1. SxxExx
     m = re.search(r'[Ss](\d{1,2})[Ee](\d{1,3})', nome_clean)
     if m:
         titulo    = nome_clean[:m.start()].strip(" -_|")
         temporada = f"Temporada {int(m.group(1)):02d}"
         episodio  = f"E{int(m.group(2)):02d}"
-        return {
-            "titulo"   : titulo or nome_clean,
-            "temporada": temporada,
-            "episodio" : episodio,
-            "ep_label" : f"{titulo or nome_clean} {episodio}",
-        }
+        titulo, _ = extrair_temporada_do_titulo(titulo)
+        return {"titulo": titulo or nome_clean, "temporada": temporada,
+                "episodio": episodio, "ep_label": f"{titulo or nome_clean} {episodio}"}
 
-    # Formato por extenso
+    # 2. "Anime - EP01"
+    m_ep = re.search(r'\s*-?\s*EP\.?\s*(\d+)', nome_clean, re.IGNORECASE)
+    if m_ep:
+        titulo   = nome_clean[:m_ep.start()].strip(" -_|")
+        ep_n     = int(m_ep.group(1))
+        episodio = f"E{ep_n:02d}"
+        titulo_base, temporada = extrair_temporada_do_titulo(titulo or nome_clean)
+        if titulo_base != (titulo or nome_clean):
+            titulo = titulo_base
+        if temporada == "Temporada 01" and group_title:
+            _, t_gt = extrair_temporada_do_titulo(group_title)
+            if t_gt != "Temporada 01":
+                temporada = t_gt
+                titulo, _ = extrair_temporada_do_titulo(titulo)
+        return {"titulo": titulo or nome_clean, "temporada": temporada,
+                "episodio": episodio, "ep_label": f"{titulo or nome_clean} {episodio}"}
+
+    # 3. Extenso: "Temporada X Episodio Y"
     m2 = re.search(r'(?:Temporada|Season|T\.?)\s*(\d+)', nome_clean, re.IGNORECASE)
     m3 = re.search(r'(?:Epis[oó]dio|Episode|Ep\.?|E\.?)\s*(\d+)', nome_clean, re.IGNORECASE)
     if m2 or m3:
-        temp_n    = int(m2.group(1)) if m2 else 1
-        ep_n      = int(m3.group(1)) if m3 else 1
-        temporada = f"Temporada {temp_n:02d}"
-        episodio  = f"E{ep_n:02d}"
-        corte     = min(
-            m2.start() if m2 else len(nome_clean),
-            m3.start() if m3 else len(nome_clean)
-        )
-        titulo = nome_clean[:corte].strip(" -_|") or nome_clean
-        return {
-            "titulo"   : titulo,
-            "temporada": temporada,
-            "episodio" : episodio,
-            "ep_label" : f"{titulo} {episodio}",
-        }
+        temp_n   = int(m2.group(1)) if m2 else 1
+        ep_n     = int(m3.group(1)) if m3 else 1
+        corte    = min(m2.start() if m2 else len(nome_clean),
+                       m3.start() if m3 else len(nome_clean))
+        titulo   = nome_clean[:corte].strip(" -_|") or nome_clean
+        return {"titulo": titulo, "temporada": f"Temporada {temp_n:02d}",
+                "episodio": f"E{ep_n:02d}", "ep_label": f"{titulo} E{ep_n:02d}"}
 
-    return {
-        "titulo"   : nome_clean,
-        "temporada": "Temporada 01",
-        "episodio" : "E01",
-        "ep_label" : nome_clean,
-    }
-
+    # 4. Fallback — usa group_title como referência de título/temporada
+    titulo_final    = nome_clean
+    temporada_final = "Temporada 01"
+    if group_title and group_title.lower() not in GT_GENERICOS:
+        titulo_base, temporada_base = extrair_temporada_do_titulo(group_title)
+        titulo_final    = titulo_base
+        temporada_final = temporada_base
+    return {"titulo": titulo_final, "temporada": temporada_final,
+            "episodio": "E01", "ep_label": nome_clean}
 
 # ─────────────────────────────────────────────────────────────────
 # FILTRO CANAIS BRASIL
 # ─────────────────────────────────────────────────────────────────
 
-BR_COUNTRYTAGS = ['BR', 'BRA', 'BRAZIL', 'BRASIL']
-BR_NOMES = [
-    'GLOBO','SBT','BAND','RECORD','REDETV','TV BRASIL','TV CULTURA',
-    'GLOBO NEWS','BAND NEWS','CNN BRASIL','JOVEM PAN','TV ESCOLA',
-    'CANAL GOV','SENADO','CÂMARA','FUTURA','MULTISHOW','SPORTV',
-    'PREMIERE','REDE BRASIL','TV APARECIDA','REDE VIDA','ISTV',
-]
+BR_NOMES = ['GLOBO','SBT','BAND','RECORD','REDETV','TV BRASIL','TV CULTURA',
+            'GLOBO NEWS','BAND NEWS','CNN BRASIL','JOVEM PAN','TV ESCOLA',
+            'CANAL GOV','SENADO','CÂMARA','FUTURA','MULTISHOW','SPORTV',
+            'PREMIERE','REDE BRASIL','TV APARECIDA','REDE VIDA']
 
 
 def is_canal_brasileiro(nome: str, url: str, extinf: str) -> bool:
     n = nome.upper()
     e = extinf.upper()
     country = re.search(r'TVG-COUNTRY="([^"]*)"', e)
-    if country and any(br in country.group(1) for br in BR_COUNTRYTAGS):
-        return True
-    tvgid = re.search(r'tvg-id="([^"]*)"', extinf, re.IGNORECASE)
-    if tvgid and any(br in tvgid.group(1).lower()
-                     for br in ['globo','sbt','band','record','redetv',
-                                'tvcultura','tvbrasil','camara','senado']):
+    if country and any(br in country.group(1) for br in ['BR','BRA','BRAZIL','BRASIL']):
         return True
     if any(br in n for br in BR_NOMES):
         return True
-    if any(d in url.lower() for d in ['.com.br','.gov.br','.org.br',
-                                       'logicahost.com.br',
-                                       'streamingdevideo.com.br']):
+    if any(d in url.lower() for d in ['.com.br','.gov.br','.org.br']):
         return True
     return False
 
-
 # ─────────────────────────────────────────────────────────────────
-# VALIDAÇÃO DE NOME — evita lixo e resíduos de runs anteriores
+# VALIDAÇÃO DE NOME
 # ─────────────────────────────────────────────────────────────────
 
-# Padrões de nomes inválidos
-_NOME_INVALIDO = re.compile(
-    r'^[\w\-]+(\.m3u8?|\.ts|\.mp4|\.mkv)?$',  # filenames com ou sem extensão
-    re.IGNORECASE
-)
-
-_RESIDUO_ANTERIOR = re.compile(
-    r'(episodio\s*\d+|temporada\s*\d+|\bE\d{2}\b)',
-    re.IGNORECASE
-)
+_NOME_INVALIDO   = re.compile(r'^[\w\-]+(\.m3u8?|\.ts|\.mp4|\.mkv)?$', re.IGNORECASE)
+_RESIDUO_ANTERIOR = re.compile(r'(episodio\s*\d+|temporada\s*\d+|\bE\d{2}\b)', re.IGNORECASE)
 
 
 def nome_valido(nome: str) -> bool:
-    """Retorna False se o nome é lixo ou resíduo de run anterior."""
     n = nome.strip()
-    if len(n) < 3:
-        return False
-    if _NOME_INVALIDO.match(n):
-        return False
-    if _RESIDUO_ANTERIOR.search(n):
-        return False
+    if len(n) < 3:              return False
+    if _NOME_INVALIDO.match(n): return False
+    if _RESIDUO_ANTERIOR.search(n): return False
     return True
-
 
 # ─────────────────────────────────────────────────────────────────
 # ETAPA 1 — Varredura do repositório (exclui output/)
@@ -358,15 +390,13 @@ def listar_arquivos_repo() -> list:
     res = requests.get(url, timeout=15)
     tree = res.json().get("tree", [])
     return [
-        f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}"
-        f"/{BRANCH}/{i['path']}"
+        f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/{i['path']}"
         for i in tree
         if i["type"] == "blob"
-        and not i["path"].startswith("output/")      # ← não reler output gerado
+        and not i["path"].startswith("output/")
         and not i["path"].endswith(".m3u")
         and not i["path"].endswith(".m3u8")
     ]
-
 
 # ─────────────────────────────────────────────────────────────────
 # ETAPA 2 — Extração de links
@@ -385,51 +415,38 @@ def extrair_links(raw_url: str, filtro_br: bool = False) -> list:
         for i, line in enumerate(lines):
             if not line.startswith('#EXTINF'):
                 continue
-
             url_linha = lines[i + 1].strip() if i + 1 < len(lines) else ""
             if not url_linha.startswith('http'):
                 continue
 
-            # tvg-name
             nome_m = re.search(r'tvg-name="([^"]*)"', line)
             nome   = nome_m.group(1).strip() if nome_m else ""
-
-            # Fallback: texto após última vírgula da linha EXTINF
             if not nome:
                 nome_m2 = re.search(r',([^,]+)$', line)
                 nome = nome_m2.group(1).strip() if nome_m2 else ""
 
-            # Valida nome
             if not nome_valido(nome):
                 continue
 
-            # group-title
             gt_m = re.search(r'group-title="([^"]*)"', line)
             gt   = gt_m.group(1).strip() if gt_m else ""
 
-            # tvg-logo
             logo_m = re.search(r'tvg-logo="([^"]*)"', line)
             logo   = logo_m.group(1).strip() if logo_m else ""
 
             if filtro_br and not is_canal_brasileiro(nome, url_linha, line):
                 continue
 
-            encontrados.append({
-                "Nome"       : nome,
-                "URL"        : url_linha,
-                "group_title": gt,
-                "logo"       : logo,
-            })
-
+            encontrados.append({"Nome": nome, "URL": url_linha,
+                                 "group_title": gt, "logo": logo})
         return encontrados
 
     except Exception as e:
         print(f"  ⚠️  {raw_url[:70]}: {e}")
         return []
 
-
 # ─────────────────────────────────────────────────────────────────
-# ETAPA 3 — Validação real
+# ETAPA 3 — Validação APENAS para canais ao vivo
 # ─────────────────────────────────────────────────────────────────
 
 def link_esta_vivo(url: str, timeout: int = 8) -> bool:
@@ -443,56 +460,60 @@ def link_esta_vivo(url: str, timeout: int = 8) -> bool:
         return False
 
 
-def validar_em_paralelo(acervo: list, workers: int = 40) -> list:
-    validos = []
-    with ThreadPoolExecutor(max_workers=workers) as ex:
-        futuros = {ex.submit(link_esta_vivo, item["URL"]): item
-                   for item in acervo}
+def separar_e_validar(acervo: list) -> list:
+    """
+    Separa live de VOD.
+    Live → valida link antes de incluir.
+    VOD  → inclui direto (link estável no CDN).
+    """
+    live, vod = [], []
+    for item in acervo:
+        if is_vod(item["URL"]):
+            vod.append(item)
+        else:
+            live.append(item)
+
+    print(f"\n⚡ Validando {len(live)} canais ao vivo...")
+    live_validos = []
+    with ThreadPoolExecutor(max_workers=40) as ex:
+        futuros = {ex.submit(link_esta_vivo, item["URL"]): item for item in live}
         for f in as_completed(futuros):
             if f.result():
-                validos.append(futuros[f])
-    return validos
+                live_validos.append(futuros[f])
 
+    print(f"   ✅ {len(live_validos)} canais live ativos  ({len(live) - len(live_validos)} offline descartados)")
+    print(f"   📼 {len(vod)} entradas VOD incluídas direto (séries/filmes — sem validação)")
+
+    return live_validos + vod
 
 # ─────────────────────────────────────────────────────────────────
 # ETAPA 4 — Geração da M3U
 # ─────────────────────────────────────────────────────────────────
 
+ORDEM_CANAIS = ["Noticias","Esportes","Filmes","Documentario","Musica","Infantil","Variados","Adultos"]
+ORDEM_FILMES = ["Acao","Terror","Suspense","Sci-Fi","Romance","Comedia","Western","Animacao","Documentario","Adulto","Geral"]
+
+
 def gerar_m3u(validos: list):
-    # Deduplica por URL
     vistos, unicos = set(), []
     for item in validos:
         if item["URL"] not in vistos:
             vistos.add(item["URL"])
             unicos.append(item)
 
-    # Classifica
     for item in unicos:
-        item.update(classificar_item(
-            item["Nome"], item["URL"], item.get("group_title", "")
-        ))
+        item.update(classificar_item(item["Nome"], item["URL"], item.get("group_title","")))
 
-    # Separa grupos
-    canais = sorted(
-        [i for i in unicos if i["grupo"] == "Canais"],
-        key=lambda x: (x["categoria"].upper(), x["Nome"].upper())
-    )
-    filmes = sorted(
-        [i for i in unicos if i["grupo"] == "Filmes"],
-        key=lambda x: (x["categoria"].upper(), x["Nome"].upper())
-    )
+    canais = sorted([i for i in unicos if i["grupo"] == "Canais"],
+                    key=lambda x: (x["categoria"], x["Nome"].upper()))
+    filmes = sorted([i for i in unicos if i["grupo"] == "Filmes"],
+                    key=lambda x: (x["categoria"], x["Nome"].upper()))
+
     series_raw = [i for i in unicos if i["grupo"] == "Series"]
     for s in series_raw:
-        s.update(parse_serie(s["Nome"]))
-    series = sorted(
-        series_raw,
-        key=lambda x: (
-            x["categoria"].upper(),
-            x["titulo"].upper(),
-            x["temporada"],
-            x["episodio"],
-        )
-    )
+        s.update(parse_serie(s["Nome"], s.get("group_title","")))
+    series = sorted(series_raw, key=lambda x: (
+        x["categoria"].upper(), x["titulo"].upper(), x["temporada"], x["episodio"]))
 
     m3u_path = OUTPUT_DIR / "playlist_validada.m3u"
 
@@ -500,86 +521,78 @@ def gerar_m3u(validos: list):
         f.write(f'#EXTM3U x-tvg-url="{EPG_URL}" m3u-type="m3u_plus"\n\n')
 
         # ── CANAIS ────────────────────────────────────────────────
-        # group-title="Canais | <categoria>"
         f.write(f"### ══════════ CANAIS ({len(canais)}) ══════════\n\n")
+        canais_por_tipo = {}
         for item in canais:
-            nome = item["Nome"]
-            cat  = item["categoria"]
-            logo = item.get("logo", "")
-            f.write(
-                f'#EXTINF:-1 tvg-name="{nome}" tvg-logo="{logo}" '
-                f'tvg-type="live" '
-                f'group-title="Canais | {cat}", {nome}\n'
-            )
-            f.write(f'{item["URL"]}\n\n')
+            canais_por_tipo.setdefault(item["categoria"], []).append(item)
+
+        for tipo in ORDEM_CANAIS:
+            grupo = canais_por_tipo.pop(tipo, [])
+            if not grupo: continue
+            f.write(f"\n## ── {tipo} ({len(grupo)}) ──\n\n")
+            for item in grupo:
+                f.write(f'#EXTINF:-1 tvg-name="{item["Nome"]}" tvg-logo="{item.get("logo","")}" '
+                        f'tvg-type="live" group-title="Canais | {tipo}", {item["Nome"]}\n'
+                        f'{item["URL"]}\n\n')
+        for tipo, grupo in canais_por_tipo.items():
+            f.write(f"\n## ── {tipo} ({len(grupo)}) ──\n\n")
+            for item in grupo:
+                f.write(f'#EXTINF:-1 tvg-name="{item["Nome"]}" tvg-logo="{item.get("logo","")}" '
+                        f'tvg-type="live" group-title="Canais | {tipo}", {item["Nome"]}\n'
+                        f'{item["URL"]}\n\n')
 
         # ── SÉRIES ────────────────────────────────────────────────
-        # group-title="Series | <categoria> | <título> | <temporada>"
-        # label = título + episódio  ex: "Naruto E01"
         f.write(f"\n### ══════════ SÉRIES ({len(series)}) ══════════\n\n")
-        cat_atual    = None
-        titulo_atual = None
-        temp_atual   = None
-
+        cat_atual = titulo_atual = temp_atual = None
         for item in series:
-            cat      = item["categoria"]
-            titulo   = item["titulo"]
-            temporada= item["temporada"]
-            episodio = item["episodio"]
+            cat, titulo = item["categoria"], item["titulo"]
+            temporada, episodio = item["temporada"], item["episodio"]
             ep_label = item["ep_label"]
-            logo     = item.get("logo", "")
-
             if cat != cat_atual:
-                cat_atual    = cat
-                titulo_atual = None
-                temp_atual   = None
+                cat_atual = cat; titulo_atual = temp_atual = None
                 f.write(f"\n## ── {cat} ──\n\n")
-
-            if titulo != titulo_atual:
-                titulo_atual = titulo
-                temp_atual   = None
-
-            if temporada != temp_atual:
-                temp_atual = temporada
-
+            if titulo != titulo_atual: titulo_atual = titulo; temp_atual = None
+            if temporada != temp_atual: temp_atual = temporada
             group = f"Series | {cat} | {titulo} | {temporada}"
-
-            f.write(
-                f'#EXTINF:-1 tvg-name="{ep_label}" tvg-logo="{logo}" '
-                f'tvg-type="series" '
-                f'group-title="{group}", {ep_label}\n'
-            )
-            f.write(f'{item["URL"]}\n\n')
+            f.write(f'#EXTINF:-1 tvg-name="{ep_label}" tvg-logo="{item.get("logo","")}" '
+                    f'tvg-type="series" group-title="{group}", {ep_label}\n'
+                    f'{item["URL"]}\n\n')
 
         # ── FILMES ────────────────────────────────────────────────
-        # group-title="Filmes | <categoria>"
         f.write(f"\n### ══════════ FILMES ({len(filmes)}) ══════════\n\n")
-        cat_atual = None
+        filmes_por_genero = {}
         for item in filmes:
-            cat  = item["categoria"]
-            nome = item["Nome"]
-            logo = item.get("logo", "")
+            filmes_por_genero.setdefault(item["categoria"], []).append(item)
 
-            if cat != cat_atual:
-                cat_atual = cat
-                f.write(f"\n## ── {cat} ──\n\n")
+        for genero in ORDEM_FILMES:
+            grupo = filmes_por_genero.pop(genero, [])
+            if not grupo: continue
+            f.write(f"\n## ── {genero} ({len(grupo)}) ──\n\n")
+            for item in grupo:
+                f.write(f'#EXTINF:-1 tvg-name="{item["Nome"]}" tvg-logo="{item.get("logo","")}" '
+                        f'tvg-type="movie" group-title="Filmes | {genero}", {item["Nome"]}\n'
+                        f'{item["URL"]}\n\n')
+        for genero, grupo in filmes_por_genero.items():
+            f.write(f"\n## ── {genero} ({len(grupo)}) ──\n\n")
+            for item in grupo:
+                f.write(f'#EXTINF:-1 tvg-name="{item["Nome"]}" tvg-logo="{item.get("logo","")}" '
+                        f'tvg-type="movie" group-title="Filmes | {genero}", {item["Nome"]}\n'
+                        f'{item["URL"]}\n\n')
 
-            f.write(
-                f'#EXTINF:-1 tvg-name="{nome}" tvg-logo="{logo}" '
-                f'tvg-type="movie" '
-                f'group-title="Filmes | {cat}", {nome}\n'
-            )
-            f.write(f'{item["URL"]}\n\n')
-
-    print(f"\n{'─'*42}")
-    print(f"  Canais  → {len(canais):>5}")
-    print(f"  Séries  → {len(series):>5}")
-    print(f"  Filmes  → {len(filmes):>5}")
-    print(f"  Total   → {len(unicos):>5} links reais validados")
-    print(f"{'─'*42}")
-    print(f"  M3U  → {m3u_path}")
-    print(f"{'─'*42}\n")
-
+    # Resumo
+    print(f"\n{'─'*48}")
+    print(f"  CANAIS  → {len(canais):>5}")
+    for tipo in ORDEM_CANAIS:
+        n = sum(1 for c in canais if c["categoria"] == tipo)
+        if n: print(f"    {tipo:<15} {n:>4}")
+    print(f"  SÉRIES  → {len(series):>5}")
+    print(f"  FILMES  → {len(filmes):>5}")
+    for genero in ORDEM_FILMES:
+        n = sum(1 for fi in filmes if fi["categoria"] == genero)
+        if n: print(f"    {genero:<15} {n:>4}")
+    print(f"  TOTAL   → {len(unicos):>5} entradas")
+    print(f"{'─'*48}\n")
+    print(f"  M3U → {m3u_path}\n")
 
 # ─────────────────────────────────────────────────────────────────
 # MAIN
@@ -588,35 +601,38 @@ def gerar_m3u(validos: list):
 if __name__ == "__main__":
     acervo = []
 
-    # 1. Varredura repositório SUGOIAPI (sem output/)
+    # 1. Repositório SUGOIAPI (exclui output/)
     print("📂 Varrendo repositório SUGOIAPI...")
     arquivos = listar_arquivos_repo()
-    print(f"   {len(arquivos)} arquivos encontrados (output/ excluído)")
+    print(f"   {len(arquivos)} arquivos encontrados")
     with ThreadPoolExecutor(max_workers=10) as ex:
         for r in ex.map(extrair_links, arquivos):
             acervo.extend(r)
-    print(f"   {len(acervo)} links extraídos do repo")
 
-    # 2. Fontes externas de anime
-    print(f"\n🎌 Fontes externas ({len(SOURCES_ANIME)} fontes)...")
+    # 2. Fontes VOD — séries e filmes (sem validação posterior)
+    print(f"\n🎌 Fontes VOD ({len(SOURCES_VOD)} fontes) — séries e filmes...")
     with ThreadPoolExecutor(max_workers=5) as ex:
-        for r in ex.map(extrair_links, SOURCES_ANIME):
+        for r in ex.map(extrair_links, SOURCES_VOD):
             acervo.extend(r)
-    print(f"   Total acumulado: {len(acervo)}")
+    print(f"   {sum(1 for i in acervo if is_vod(i['URL']))} entradas VOD extraídas")
 
-    # 3. Canais Brasil
+    # 3. Fontes ao vivo
+    print(f"\n📡 Fontes ao vivo ({len(SOURCES_LIVE)} fontes)...")
+    with ThreadPoolExecutor(max_workers=5) as ex:
+        for r in ex.map(extrair_links, SOURCES_LIVE):
+            acervo.extend(r)
+
+    # 4. Canais Brasil
     print("\n📺 Canais brasileiros (Free-TV)...")
     canais_br = extrair_links(SOURCE_CANAIS_BR, filtro_br=True)
     acervo.extend(canais_br)
-    print(f"   {len(canais_br)} canais BR encontrados")
+    print(f"   {len(canais_br)} canais BR")
 
     print(f"\n📦 Total bruto: {len(acervo)} entradas")
 
-    # 4. Validação
-    print("\n⚡ Validando links reais...")
-    validos = validar_em_paralelo(acervo)
-    print(f"   {len(validos)} links confirmados vivos")
+    # 5. Validação separada por tipo
+    validos = separar_e_validar(acervo)
 
-    # 5. Geração
+    # 6. Geração
     print("\n📝 Gerando playlist classificada...")
     gerar_m3u(validos)
