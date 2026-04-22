@@ -1,8 +1,8 @@
-“””
+"""
 SUGOIAPI Pipeline v2
 Varredura + Validação + Classificação + Geração M3U
 Correções: sem URLs soltas, classificação por URL, filtro PT restrito
-“””
+"""
 
 import re, requests, shutil, os
 from pathlib import Path
