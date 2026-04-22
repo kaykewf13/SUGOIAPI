@@ -1,0 +1,51 @@
+services:
+
+  # ── Pipeline: geração da M3U ──────────────────────────────────
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile.pipeline
+    container_name: sugoiapi-pipeline
+    volumes:
+      - playlist_data:/app/output
+    environment:
+      - REPO_OWNER=kaykewf13
+      - REPO_NAME=SUGOIAPI
+      - BRANCH=main
+      - PROXY_URL=http://m3u-proxy:8085
+      - PROXY_API_TOKEN=${PROXY_API_TOKEN:-}
+      - SENTRY_DSN=${SENTRY_DSN:-}
+    depends_on:
+      m3u-proxy:
+        condition: service_healthy
+    restart: "no"
+
+  # ── m3u-proxy: entrega com failover ──────────────────────────
+  m3u-proxy:
+    image: sparkison/m3u-proxy:latest
+    container_name: sugoiapi-proxy
+    ports:
+      - "8085:8085"
+    volumes:
+      - playlist_data:/playlist:ro
+    environment:
+      - M3U_PROXY_HOST=0.0.0.0
+      - M3U_PROXY_PORT=8085
+      - ROOT_PATH=
+      - API_TOKEN=${PROXY_API_TOKEN:-}
+      - CLIENT_TIMEOUT=300
+      - CLEANUP_INTERVAL=60
+      - STREAM_RETRY_ATTEMPTS=3
+      - STREAM_RETRY_DELAY=1.0
+      - STREAM_TOTAL_TIMEOUT=60.0
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8085/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  playlist_data:
