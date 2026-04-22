@@ -1,6 +1,9 @@
 """
-SUGOIAPI Pipeline v3.1
-Classificação por URL path + group-title da fonte + categoria por nome do anime
+SUGOIAPI Pipeline v3.2
+Correções:
+- Exclui output/ da varredura do repo (evita loop de auto-processamento)
+- Filtro de nome robusto (captura livem3u8, resíduos de runs anteriores)
+- Classificação por URL path + group-title da fonte + categoria por nome
 """
 
 import re, requests, shutil, os
@@ -59,131 +62,119 @@ CATEGORIAS_ANIME = {
         'SAILOR MOON','CARDCAPTOR','FRUITS BASKET','OURAN','CLANNAD',
         'KAMISAMA','SKIP BEAT','VAMPIRE KNIGHT','KAICHOU WA MAID',
         'NANA','FULL MOON','TOKYO MEW MEW','SHUGO CHARA','MAGIC KNIGHT',
-        'RAYEARTH','WEDDING PEACH','ULTRA MANIAC','MERMAID MELODY',
-        'SPECIAL A','LOVELY COMPLEX','BOKURA GA ITA','PARADISE KISS',
-        'PEACH GIRL',
+        'RAYEARTH','WEDDING PEACH','MERMAID MELODY','SPECIAL A',
+        'LOVELY COMPLEX','BOKURA GA ITA','PARADISE KISS','PEACH GIRL',
     ],
     "Seinen": [
         'BERSERK','DEATH NOTE','TOKYO GHOUL','GANTZ','VINLAND SAGA',
         'MONSTER','VAGABOND','GHOST IN THE SHELL','COWBOY BEBOP',
         'TRIGUN','HELLSING','BLACK LAGOON','MADE IN ABYSS','DOROHEDORO',
         'GOLDEN KAMUY','DUNGEON MESHI','MUSHISHI','ERGO PROXY','AKIRA',
-        'PLANETES','ELFEN LIED','TEXHNOLYZE','SERIAL EXPERIMENTS LAIN',
-        'HOMUNCULUS','BLAME','SANCTUARY','HOLYLAND',
+        'PLANETES','ELFEN LIED','HOMUNCULUS','BLAME',
     ],
     "Josei": [
         'CHIHAYAFURU','NODAME','HONEY AND CLOVER','WOTAKOI',
-        'GEKKAN SHOUJO','PRINCESS JELLYFISH','ANTIQUE BAKERY','LOVELESS',
+        'GEKKAN SHOUJO','PRINCESS JELLYFISH','ANTIQUE BAKERY',
     ],
     "Isekai": [
         'SWORD ART ONLINE','SAO','RE:ZERO','REZERO','OVERLORD',
         'TENSURA','SLIME','LOG HORIZON','NO GAME NO LIFE','KONOSUBA',
         'SHIELD HERO','MUSHOKU TENSEI','DANMACHI','TATE NO YUUSHA',
         'ARIFURETA','ISEKAI','TENSEI','JOBLESS','SKELETON KNIGHT',
-        'VILLAINESS','REALIST HERO','WORLD TEACHER','TRAPPED IN A DATING',
+        'VILLAINESS','REALIST HERO','WORLD TEACHER',
     ],
     "Mecha": [
         'GUNDAM','EVANGELION','NEON GENESIS','CODE GEASS',
         'GURREN LAGANN','TENGEN TOPPA','MACROSS','VOLTRON','RAHXEPHON',
-        'EUREKA SEVEN','ALDNOAH ZERO','DARLING IN THE FRANXX','FRANXX',
-        'FULL METAL PANIC','ESCAFLOWNE','MAZINGER','GETTER ROBO','PATLABOR',
+        'EUREKA SEVEN','ALDNOAH ZERO','DARLING IN THE FRANXX',
+        'FULL METAL PANIC','ESCAFLOWNE','MAZINGER','GETTER ROBO',
     ],
     "Terror e Suspense": [
-        'HIGURASHI','WHEN THEY CRY','SHIKI','ANOTHER','PARASYTE','KISEIJUU',
-        'PROMISED NEVERLAND','MIRAI NIKKI','FUTURE DIARY','DEADMAN WONDERLAND',
-        'HELL GIRL','JIGOKU SHOUJO','GHOST HUNT','BOOGIEPOP','JUNJI ITO',
-        'BLOOD-C','UMINEKO','CORPSE PARTY',
+        'HIGURASHI','WHEN THEY CRY','SHIKI','ANOTHER','PARASYTE',
+        'KISEIJUU','PROMISED NEVERLAND','MIRAI NIKKI','FUTURE DIARY',
+        'DEADMAN WONDERLAND','HELL GIRL','JIGOKU SHOUJO','GHOST HUNT',
+        'JUNJI ITO','BLOOD-C','UMINEKO',
     ],
     "Psicologico": [
         'SERIAL EXPERIMENTS','STEINS GATE','PARANOIA AGENT',
         'WELCOME TO NHK','KAKEGURUI','CLASSROOM OF THE ELITE',
-        'TALENTLESS NANA','ID INVADED','MORIARTY THE PATRIOT',
+        'TALENTLESS NANA','ID INVADED',
     ],
     "Romance": [
         'TORADORA','ANGEL BEATS','ANOHANA','YOUR LIE IN APRIL',
         'SHIGATSU','OREGAIRU','GOLDEN TIME','NISEKOI','KAGUYA SAMA',
         'HORIMIYA','QUINTESSENTIAL','5-TOUBUN','RENT A GIRLFRIEND',
-        'YOUR NAME','KIMI NO NA WA','AO HARU RIDE','SAY I LOVE YOU',
-        'PLASTIC MEMORIES','TRUE TEARS','SHUFFLE','AMAGAMI',
+        'YOUR NAME','KIMI NO NA WA','AO HARU RIDE','PLASTIC MEMORIES',
         'ITAZURA NA KISS','WHITE ALBUM',
     ],
     "Slice of Life": [
         'BARAKAMON','SILVER SPOON','ARIA','LAID BACK CAMP','YURU CAMP',
         'NON NON BIYORI','K-ON','LUCKY STAR','AZUMANGA','NICHIJOU',
-        'HIDAMARI SKETCH','YOTSUBA','ENCOURAGEMENT OF CLIMB',
-        'FLYING WITCH','POCO UDON','SCHOOL RUMBLE',
+        'HIDAMARI SKETCH','YOTSUBA','FLYING WITCH',
     ],
     "Acao e Aventura": [
         'RUROUNI KENSHIN','SAMURAI X','FATE','STAY NIGHT','FATE ZERO',
         'FATE APOCRYPHA','JOJO','BIZARRE ADVENTURE','TOWER OF GOD',
         'NANATSU NO TAIZAI','SEVEN DEADLY SINS','RECORD OF RAGNAROK',
-        'CLAYMORE','DRIFTERS','BLADE OF THE IMMORTAL',
+        'CLAYMORE','DRIFTERS',
     ],
     "Esportes": [
         'FREE','YURI ON ICE','PING PONG','MAJOR','CROSS GAME',
-        'EYESHIELD 21','PRINCE OF TENNIS','HAJIME NO IPPO','BLUE LOCK',
-        'SK8','WIND BREAKER','HARUKANA RECEIVE','BATTERY','DAYS',
+        'EYESHIELD 21','PRINCE OF TENNIS','HAJIME NO IPPO',
+        'BLUE LOCK','SK8','WIND BREAKER',
     ],
     "Fantasia": [
         'FRIEREN','ANCIENT MAGUS','LITTLE WITCH ACADEMIA',
         'SLAYERS','LODOSS WAR','GOBLIN SLAYER','GRIMGAR',
-        'RECORD OF GRANCREST','SCRAPPED PRINCESS','DELTORA QUEST',
     ],
     "Sci-Fi": [
         'PSYCHO PASS','SPACE DANDY','BEATLESS','VIVY',
-        'DIMENSION W','QUALIDEA CODE','HEROIC AGE','TOWARD THE TERRA',
-        'KNIGHT OF SIDONIA',
+        'DIMENSION W','KNIGHT OF SIDONIA',
     ],
     "Sobrenatural": [
         'YU YU HAKUSHO','NORAGAMI','KEKKAI SENSEN','TOILET BOUND',
         'HANAKO KUN','NATSUME','XXXHOLIC','MUSHISHI','USHIO AND TORA',
-        'NURARIHYON','NURA','TACTICS',
     ],
     "Historico": [
-        'VAGABOND','DORORO','HAKUOUKI','ANGOLMOIS',
-        'SWORD OF THE STRANGER','SENGOKU BASARA','NOBUNAGA',
-        'ALTAIR','THE HEROIC LEGEND OF ARSLAN',
+        'VAGABOND','DORORO','HAKUOUKI','SENGOKU BASARA',
+        'ALTAIR','ARSLAN','ANGOLMOIS',
     ],
     "Musica e Idols": [
         'LOVE LIVE','IDOLMASTER','AKB0048','BOCCHI THE ROCK','GIVEN',
         'OSHI NO KO','SHOW BY ROCK','REVUE STARLIGHT','BANG DREAM',
-        'CAROLE AND TUESDAY','PROMARE',
+        'CAROLE AND TUESDAY',
     ],
     "Comedia": [
         'GINTAMA','KONOSUBA','LUCKY STAR','PRISON SCHOOL',
         'GRAND BLUE','SAIKI KUSUO','ONE PUNCH MAN','HINAMATSURI',
         'CAUTIOUS HERO','DOCTOR STONE','ASOBI ASOBASE','CROMARTIE',
-        'DAILY LIVES',
     ],
     "Clasicos": [
         'DRAGON BALL Z','DRAGON BALL GT','CAVALEIROS DO ZODIACO',
         'SAINT SEIYA','SAILOR MOON','CITY HUNTER','CANDY CANDY',
-        'RANMA','URUSEI YATSURA','MAISON IKKOKU','DORAEMON',
-        'LUPIN III','LUPIN 3','COBRA','MAZINGER','GETTER ROBO',
-        'GATCHAMAN','CASSHERN','DEVILMAN','CUTEY HONEY',
-        'CAPTAIN HARLOCK','GALAXY EXPRESS','SPEED RACER','ASTRO BOY',
-        'VOLTRON',
+        'RANMA','URUSEI YATSURA','DORAEMON','LUPIN III','LUPIN 3',
+        'COBRA','MAZINGER','GATCHAMAN','DEVILMAN','CAPTAIN HARLOCK',
+        'GALAXY EXPRESS','SPEED RACER','ASTRO BOY','VOLTRON',
     ],
     "Ecchi e Harem": [
-        'HIGHSCHOOL DXD','MONSTER MUSUME','TO LOVE RU','ROSARIO VAMPIRE',
-        'SEKIREI','FREEZING','IKKITOUSEN','QUEENS BLADE','SHIMONETA',
-        'SHINMAI MAOU','MAKEN KI','VALKYRIE DRIVE','INFINITE STRATOS',
-        'YURAGI-SOU','DAKARA BOKU','HYBRID X HEART','HUNDRED',
-        'MASOU GAKUEN',
+        'HIGHSCHOOL DXD','MONSTER MUSUME','TO LOVE RU',
+        'ROSARIO VAMPIRE','SEKIREI','FREEZING','QUEENS BLADE',
+        'SHIMONETA','SHINMAI MAOU','VALKYRIE DRIVE',
+        'INFINITE STRATOS','YURAGI-SOU','DAKARA BOKU',
     ],
     "Hentai": [
-        'HENTAI','[XXX]','UNCENSORED','BOIN','OVERFLOW',
-        'OPPAI','FUTANARI','NIGHT SHIFT NURSES','EROGE',
+        'HENTAI','[XXX]','UNCENSORED','OVERFLOW','BOIN',
+        'OPPAI','FUTANARI',
     ],
-    "Dublado": ['DUBLADO','DUB','PT-BR'],
-    "Legendado": ['LEGENDADO','LEG','PT-PT'],
+    "Dublado":  ['DUBLADO', 'DUB', 'PT-BR'],
+    "Legendado": ['LEGENDADO', 'LEG', 'PT-PT'],
 }
 
-# Group-titles genéricos que não têm informação de categoria útil
+# Group-titles genéricos sem informação útil de categoria
 GT_GENERICOS = {
-    'animes vod', 'anime', 'animes', 'vod', 'series', 'séries',
-    'filmes', 'movies', 'geral', 'others', 'outros', 'general',
-    'misc', 'uncategorized', '',
+    'animes vod','anime','animes','vod','series','séries',
+    'filmes','movies','geral','others','outros','general',
+    'misc','uncategorized','',
 }
 
 
@@ -215,7 +206,7 @@ def classificar_item(nome: str, url: str, group_title: str) -> dict:
     tipo = detectar_tipo_por_url(url)
     gt   = group_title.strip()
 
-    # Extrai subcategoria do group-title da fonte
+    # Extrai subcategoria do group-title
     sub = gt
     for prefix in ["Series |", "Séries |", "Canais |", "Filmes |",
                    "Movies |", "VOD |"]:
@@ -223,11 +214,10 @@ def classificar_item(nome: str, url: str, group_title: str) -> dict:
             sub = sub[len(prefix):].strip()
             break
 
-    # Se o group-title é genérico, detecta categoria pelo nome do anime
+    # Se group-title genérico, detecta categoria pelo nome do anime
     if sub.lower() in GT_GENERICOS:
         sub = detectar_categoria_anime(nome)
 
-    # Classificação por URL path (mais confiável)
     if tipo == "live":
         return {"grupo": "Canais", "categoria": sub or "Geral", "tipo": "live"}
     if tipo in ("movie", "vod"):
@@ -242,7 +232,6 @@ def classificar_item(nome: str, url: str, group_title: str) -> dict:
     if any(k in gt_up for k in ["MOVIE","FILME","FILM","CINEMA","HENTAI","[XXX]","XXX"]):
         return {"grupo": "Filmes", "categoria": sub or "Geral", "tipo": "movie"}
 
-    # Padrão: série
     return {"grupo": "Series", "categoria": sub or "Geral", "tipo": "series"}
 
 
@@ -251,7 +240,7 @@ def classificar_item(nome: str, url: str, group_title: str) -> dict:
 # ─────────────────────────────────────────────────────────────────
 
 def parse_serie(nome: str) -> dict:
-    # Remove sufixos de idioma antes de parsear
+    # Remove sufixos de idioma
     nome_clean = re.sub(
         r'\s*[\(\[]?\s*(dublado|legendado|dub|leg|pt-br|pt-pt)\s*[\)\]]?\s*$',
         '', nome, flags=re.IGNORECASE
@@ -270,7 +259,7 @@ def parse_serie(nome: str) -> dict:
             "ep_label" : f"{titulo or nome_clean} {episodio}",
         }
 
-    # Formato por extenso: Temporada X Episodio Y
+    # Formato por extenso
     m2 = re.search(r'(?:Temporada|Season|T\.?)\s*(\d+)', nome_clean, re.IGNORECASE)
     m3 = re.search(r'(?:Epis[oó]dio|Episode|Ep\.?|E\.?)\s*(\d+)', nome_clean, re.IGNORECASE)
     if m2 or m3:
@@ -290,7 +279,6 @@ def parse_serie(nome: str) -> dict:
             "ep_label" : f"{titulo} {episodio}",
         }
 
-    # Sem indicador de episódio
     return {
         "titulo"   : nome_clean,
         "temporada": "Temporada 01",
@@ -333,7 +321,35 @@ def is_canal_brasileiro(nome: str, url: str, extinf: str) -> bool:
 
 
 # ─────────────────────────────────────────────────────────────────
-# ETAPA 1 — Varredura do repositório
+# VALIDAÇÃO DE NOME — evita lixo e resíduos de runs anteriores
+# ─────────────────────────────────────────────────────────────────
+
+# Padrões de nomes inválidos
+_NOME_INVALIDO = re.compile(
+    r'^[\w\-]+(\.m3u8?|\.ts|\.mp4|\.mkv)?$',  # filenames com ou sem extensão
+    re.IGNORECASE
+)
+
+_RESIDUO_ANTERIOR = re.compile(
+    r'(episodio\s*\d+|temporada\s*\d+|\bE\d{2}\b)',
+    re.IGNORECASE
+)
+
+
+def nome_valido(nome: str) -> bool:
+    """Retorna False se o nome é lixo ou resíduo de run anterior."""
+    n = nome.strip()
+    if len(n) < 3:
+        return False
+    if _NOME_INVALIDO.match(n):
+        return False
+    if _RESIDUO_ANTERIOR.search(n):
+        return False
+    return True
+
+
+# ─────────────────────────────────────────────────────────────────
+# ETAPA 1 — Varredura do repositório (exclui output/)
 # ─────────────────────────────────────────────────────────────────
 
 def listar_arquivos_repo() -> list:
@@ -344,7 +360,11 @@ def listar_arquivos_repo() -> list:
     return [
         f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}"
         f"/{BRANCH}/{i['path']}"
-        for i in tree if i["type"] == "blob"
+        for i in tree
+        if i["type"] == "blob"
+        and not i["path"].startswith("output/")      # ← não reler output gerado
+        and not i["path"].endswith(".m3u")
+        and not i["path"].endswith(".m3u8")
     ]
 
 
@@ -373,15 +393,14 @@ def extrair_links(raw_url: str, filtro_br: bool = False) -> list:
             # tvg-name
             nome_m = re.search(r'tvg-name="([^"]*)"', line)
             nome   = nome_m.group(1).strip() if nome_m else ""
+
+            # Fallback: texto após última vírgula da linha EXTINF
             if not nome:
                 nome_m2 = re.search(r',([^,]+)$', line)
                 nome = nome_m2.group(1).strip() if nome_m2 else ""
 
-            if not nome or len(nome) < 2:
-                continue
-
-            # Descarta entradas cujo nome é apenas filename
-            if re.match(r'^[\w\-\.]+\.(m3u8?|ts|mp4|mkv)$', nome.lower()):
+            # Valida nome
+            if not nome_valido(nome):
                 continue
 
             # group-title
@@ -462,7 +481,6 @@ def gerar_m3u(validos: list):
         [i for i in unicos if i["grupo"] == "Filmes"],
         key=lambda x: (x["categoria"].upper(), x["Nome"].upper())
     )
-
     series_raw = [i for i in unicos if i["grupo"] == "Series"]
     for s in series_raw:
         s.update(parse_serie(s["Nome"]))
@@ -483,7 +501,6 @@ def gerar_m3u(validos: list):
 
         # ── CANAIS ────────────────────────────────────────────────
         # group-title="Canais | <categoria>"
-        # label = nome do canal
         f.write(f"### ══════════ CANAIS ({len(canais)}) ══════════\n\n")
         for item in canais:
             nome = item["Nome"]
@@ -500,7 +517,6 @@ def gerar_m3u(validos: list):
         # group-title="Series | <categoria> | <título> | <temporada>"
         # label = título + episódio  ex: "Naruto E01"
         f.write(f"\n### ══════════ SÉRIES ({len(series)}) ══════════\n\n")
-
         cat_atual    = None
         titulo_atual = None
         temp_atual   = None
@@ -537,7 +553,6 @@ def gerar_m3u(validos: list):
 
         # ── FILMES ────────────────────────────────────────────────
         # group-title="Filmes | <categoria>"
-        # label = nome do filme
         f.write(f"\n### ══════════ FILMES ({len(filmes)}) ══════════\n\n")
         cat_atual = None
         for item in filmes:
@@ -556,7 +571,6 @@ def gerar_m3u(validos: list):
             )
             f.write(f'{item["URL"]}\n\n')
 
-    # Resumo
     print(f"\n{'─'*42}")
     print(f"  Canais  → {len(canais):>5}")
     print(f"  Séries  → {len(series):>5}")
@@ -574,10 +588,10 @@ def gerar_m3u(validos: list):
 if __name__ == "__main__":
     acervo = []
 
-    # 1. Varredura repositório SUGOIAPI
+    # 1. Varredura repositório SUGOIAPI (sem output/)
     print("📂 Varrendo repositório SUGOIAPI...")
     arquivos = listar_arquivos_repo()
-    print(f"   {len(arquivos)} arquivos encontrados")
+    print(f"   {len(arquivos)} arquivos encontrados (output/ excluído)")
     with ThreadPoolExecutor(max_workers=10) as ex:
         for r in ex.map(extrair_links, arquivos):
             acervo.extend(r)
