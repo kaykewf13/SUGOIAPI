@@ -1,12 +1,11 @@
-"""
-SUGOIAPI Pipeline v3.5
-- Validação separada: canais live validados, VOD sem validação
-- Fontes consolidadas por tipo (SOURCES_LIVE / SOURCES_VOD)
-- Parse completo: SxxExx, EP01, 2nd Season, Temporada N
-- Grupos de canais por tipo + filmes por gênero
-- CATEGORIAS_ANIME v2.0: 1079 keywords em 23 categorias
-- Detecção com word-boundary (sem falsos positivos por substring)
-"""
+# SUGOIAPI Pipeline v3.5
+# - Validação separada: canais live validados, VOD sem validação
+# - Fontes consolidadas por tipo (SOURCES_LIVE / SOURCES_VOD)
+# - Parse completo: SxxExx, EP01, 2nd Season, Temporada N
+# - Grupos de canais por tipo + filmes por gênero
+# - CATEGORIAS_ANIME v2.0: 1079 keywords em 23 categorias
+# - Detecção com word-boundary (sem falsos positivos por substring)
+
 
 import re, requests, shutil, os
 from pathlib import Path
