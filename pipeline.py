@@ -55,6 +55,9 @@ SOURCES_VOD = [
     # animes PT-BR com episódios
     "https://raw.githubusercontent.com/L3uS-IPTV/Animes/main/animes.m3u",
     "https://raw.githubusercontent.com/Iptv-Animes/AutoUpdate/main/lista.m3u",
+    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/JapanTV.m3u8",
+    "https://raw.githubusercontent.com/konanda-sg/DrewLive-1/main/DrewLiveVOD.m3u8",
+    "https://m3u.ibert.me/jp.m3u",
 ]
 
 # ─────────────────────────────────────────────────────────────────
