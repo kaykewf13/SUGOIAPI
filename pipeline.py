@@ -1,4 +1,4 @@
-
+"""
 SUGOIAPI Pipeline v3.5
 - Validação separada: canais live validados, VOD sem validação
 - Fontes consolidadas por tipo (SOURCES_LIVE / SOURCES_VOD)
