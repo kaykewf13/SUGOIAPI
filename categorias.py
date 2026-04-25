@@ -1,1 +1,578 @@
-tesye--/
+"""
+SUGOIAPI — categorias.py
+Categorias de anime, group-titles genéricos e função de detecção.
+Importado pelo pipeline.py.
+"""
+
+import re
+
+CATEGORIAS_ANIME = {
+
+    # ── SHOUNEN ──────────────────────────────────────────────────
+    # Alta cobertura — mantém e expande com títulos recentes
+    "Shounen": [
+        # Big Three clássico
+        'NARUTO','BORUTO','ONE PIECE','DRAGON BALL','BLEACH',
+        # Nova geração
+        'DEMON SLAYER','KIMETSU','JUJUTSU KAISEN','MY HERO ACADEMIA',
+        'BOKU NO HERO','ATTACK ON TITAN','SHINGEKI','BLACK CLOVER',
+        'FAIRY TAIL','HUNTER X HUNTER','FULLMETAL','FIRE FORCE',
+        'SOUL EATER','BLUE EXORCIST','INUYASHA','HAIKYUU',
+        'KUROKO','SLAM DUNK','EYESHIELD','CAPTAIN TSUBASA',
+        'BEYBLADE','YU GI OH','DIGIMON','POKEMON',
+        'SHAMAN KING','TORIKO','D.GRAY','MAR','RAVE MASTER',
+        'MEDABOTS','KATEKYO','REBORN','ZATCH BELL',
+        # 2020+
+        'CHAINSAW MAN','SPY X FAMILY','DR STONE','DOCTOR STONE',
+        'TOILET BOUND','HANAKO KUN','WIND BREAKER',
+        'MASHLE','DANDADAN','UNDEAD UNLUCK','WITCH WATCH',
+        'AYASHIMON','AKANE BANASHI','WITCH HAT',
+    ],
+
+    # ── SHOUJO ───────────────────────────────────────────────────
+    "Shoujo": [
+        'SAILOR MOON','CARDCAPTOR','FRUITS BASKET','OURAN',
+        'CLANNAD','KAMISAMA','SKIP BEAT','VAMPIRE KNIGHT',
+        'KAICHOU WA MAID','NANA','FULL MOON','TOKYO MEW MEW',
+        'SHUGO CHARA','MAGIC KNIGHT','RAYEARTH','WEDDING PEACH',
+        'MERMAID MELODY','SPECIAL A','LOVELY COMPLEX',
+        'BOKURA GA ITA','PARADISE KISS','PEACH GIRL',
+        # Expandido
+        'YONA OF THE DAWN','AKATSUKI NO YONA','FUSHIGI YUGI',
+        'KAMIKAZE KAITOU JEANNE','ULTRA MANIAC','GAKUEN ALICE',
+        'ABSOLUTE BOYFRIEND','ABSOLUTE BOY FRIEND',
+        'ITAZURA NA KISS','BOYS OVER FLOWERS','HANA YORI DANGO',
+        'BOKURA GA ITA','HIGH SCHOOL DEBUT','ZETTAI KARESHI',
+        'SUGAR SUGAR RUNE','PRETEAR','FULL MOON',
+        'ORE MONOGATARI','MY LOVE STORY','WOLF GIRL',
+        'HIRUNAKA NO RYUUSEI','DAYTIME SHOOTING STAR',
+    ],
+
+    # ── SEINEN ───────────────────────────────────────────────────
+    "Seinen": [
+        'BERSERK','DEATH NOTE','TOKYO GHOUL','GANTZ','VINLAND SAGA',
+        'MONSTER','VAGABOND','GHOST IN THE SHELL','COWBOY BEBOP',
+        'TRIGUN','HELLSING','BLACK LAGOON','MADE IN ABYSS','DOROHEDORO',
+        'GOLDEN KAMUY','DUNGEON MESHI','MUSHISHI','ERGO PROXY','AKIRA',
+        'PLANETES','ELFEN LIED','HOMUNCULUS','BLAME',
+        # Expandido
+        'ODD TAXI','DEVILMAN CRYBABY','CYBER CITY','TEXHNOLYZE',
+        'LAND OF THE LUSTROUS','HOUSEKI NO KUNI','PUNPUN',
+        'SHIGURUI','BIOMEGA','NIHEI','GHOST HOUND',
+        'KOUKYOUSHIHEN EUREKA SEVEN','TERROR IN RESONANCE',
+        'ZANKYOU NO TERROR','JIN ROH','DRAGON HEAD',
+        'PRISON SCHOOL','GRAND BLUE'
+        'SHIMONETA','RAINBOW','RAINBOW NISHA',
+        'WAVE LISTEN TO ME','NAMI YO KIITEKURE',
+        'BARTENDER','OISHINBO','DROPS OF GOD',
+        'MUSHOKU TENSEI','DUNGEON MESHI','DELICIOUS IN DUNGEON',
+    ],
+
+    # ── JOSEI ────────────────────────────────────────────────────
+    # Categoria fraca — expansão agressiva
+    "Josei": [
+        'CHIHAYAFURU','NODAME','HONEY AND CLOVER','WOTAKOI',
+        'GEKKAN SHOUJO','PRINCESS JELLYFISH','ANTIQUE BAKERY',
+        # Expandido
+        'USAGI DROP','BUNNY DROP','KIMI WA PET','TRAMPS LIKE US',
+        'LOVELESS','SKIP BEAT','PARADISE KISS',
+        'NANA','OOKU THE INNER CHAMBERS','BASARA',
+        'JOSEI','RISTORANTE PARADISO','BUTTERFLIES FLOWERS',
+        'MIDNIGHT SECRETARY','VOICE OR NOISE',
+        'HATARAKI MAN','WORKING WOMAN','SUPPLI',
+        'SWEET REIN','SETONA MIZUSHIRO',
+        'PURE TRANCE','OTOMEN',
+    ],
+
+    # ── ISEKAI ───────────────────────────────────────────────────
+    "Isekai": [
+        'SWORD ART ONLINE','SAO','RE:ZERO','REZERO','OVERLORD',
+        'TENSURA','SLIME','LOG HORIZON','NO GAME NO LIFE','KONOSUBA',
+        'SHIELD HERO','MUSHOKU TENSEI','DANMACHI','TATE NO YUUSHA',
+        'ARIFURETA','ISEKAI','TENSEI','JOBLESS',
+        'SKELETON KNIGHT','VILLAINESS','REALIST HERO',
+        # Expandido
+        'ASCENDANCE OF A BOOKWORM','HONZUKI NO GEKOKUJOU',
+        'THAT TIME I GOT REINCARNATED','SLIME DIARIES',
+        'BY THE GRACE OF THE GODS','KAMIATA DE ISEKAI',
+        'IN ANOTHER WORLD WITH MY SMARTPHONE','ISEKAI WA',
+        'DEATH MARCH','SWORD ART ONLINE ALICIZATION',
+        'RISING OF THE SHIELD HERO',
+        'OTOME GAME NO HAMETSU FLAG','BAKARINA',
+        'MY NEXT LIFE AS A VILLAINESS',
+        'TRAPPED IN A DATING SIM','ISEKAI OJISAN',
+        'UNCLE FROM ANOTHER WORLD',
+        'THE GREATEST DEMON LORD IS REBORN',
+        'SEIREI GENSOUKI','SPIRIT CHRONICLES',
+        'LONER LIFE IN ANOTHER WORLD',
+        'MAKE MY ABILITIES AVERAGE',
+        'DIDN T I SAY TO MAKE MY ABILITIES AVERAGE',
+        'REINCARNATED AS A SWORD','TENSAI OUJI',
+        'THE GENIUS PRINCE',
+        'FARMING LIFE IN ANOTHER WORLD',
+        'CAMPFIRE COOKING IN ANOTHER WORLD',
+        'BANISHED FROM THE HERO S PARTY',
+        'I VE BEEN KILLING SLIMES',
+    ],
+
+    # ── MECHA ────────────────────────────────────────────────────
+    "Mecha": [
+        'GUNDAM','EVANGELION','NEON GENESIS','CODE GEASS',
+        'GURREN LAGANN','TENGEN TOPPA','MACROSS','VOLTRON',
+        'EUREKA SEVEN','ALDNOAH','DARLING IN THE FRANXX',
+        'FULL METAL PANIC','MAZINGER','GETTER ROBO',
+        # Expandido
+        'ESCAFLOWNE','VISION OF ESCAFLOWNE','RAHXEPHON',
+        'BRAIN POWERD','PATLABOR','GHOST IN THE SHELL',
+        'ARMORED TROOPER VOTOMS','VOTOMS',
+        'HEAVY METAL L-GAIM','ZETA GUNDAM','ZZ GUNDAM',
+        'CHAR S COUNTERATTACK','UNICORN GUNDAM','IRON BLOODED',
+        'TEKKETSU NO ORPHANS','RECONGUISTA','BUILD FIGHTERS',
+        'WING GUNDAM','GUNDAM SEED','DESTINY',
+        'KNIGHT OF SIDONIA','SIDONIA NO KISHI',
+        'CAPTAIN EARTH','STAR DRIVER','AQUARION',
+        'INFINITE RYVIUS','VANDREAD','NADESICO',
+        'INFINITE STRATOS','CROSS ANGE',
+    ],
+
+    # ── TERROR E SUSPENSE ────────────────────────────────────────
+    "Terror e Suspense": [
+        'HIGURASHI','WHEN THEY CRY','SHIKI','ANOTHER','PARASYTE',
+        'KISEIJUU','PROMISED NEVERLAND','MIRAI NIKKI','FUTURE DIARY',
+        'DEADMAN WONDERLAND','HELL GIRL','JIGOKU SHOUJO','GHOST HUNT',
+        'JUNJI ITO','BLOOD-C','UMINEKO',
+        # Expandido
+        'DEVILMAN CRYBABY','BLOOD THE LAST VAMPIRE',
+        'BOOGIEPOP','BOOGIEPOP PHANTOM',
+        'CORPSE PARTY','TERRA FORMARS',
+        'SCHOOL LIVE','GAKKOU GURASHI',
+        'SCHOOL-LIVE','HAPPY SUGAR LIFE',
+        'MAGICAL GIRL SITE','MAHOU SHOUJO SITE',
+        'MAGICAL GIRL RAISING PROJECT',
+        'MAGICAL GIRL SPEC-OPS ASUKA',
+        'BTOOOM','BTOOM','DARWIN S GAME','DARWIN NO GAME',
+        'EVIL OR LIVE','ANIME DE WAKARU',
+        'PUPA','YAMISHIBAI','JAPANESE GHOST STORIES',
+        'PETSHOP OF HORRORS','REQUIEM FROM THE DARKNESS',
+        'SHIGURUI DEATH FRENZY',
+        'GENOCIDAL ORGAN',
+    ],
+
+    # ── PSICOLÓGICO ──────────────────────────────────────────────
+    # Categoria fraca — expansão forte
+    "Psicologico": [
+        'SERIAL EXPERIMENTS','STEINS GATE','PARANOIA AGENT',
+        'WELCOME TO NHK','KAKEGURUI','CLASSROOM OF THE ELITE',
+        'TALENTLESS NANA','ID INVADED',
+        # Expandido
+        'PERFECT BLUE','LAIN','SERIAL EXPERIMENTS LAIN',
+        'TATAMI GALAXY','YOJOUHAN SHINWA TAIKEI','YOJOUHAN',
+        'PENGUINDRUM','MAWARU PENGUINDRUM',
+        'WONDER EGG PRIORITY','SONNY BOY',
+        'ODD TAXI','TEXHNOLYZE',
+        'FLOWERS OF EVIL','AKU NO HANA',
+        'BOOGIEPOP','ASTRA LOST IN SPACE',
+        'LINK CLICK','SHIGUANG DAILIREN',
+        'THE PROMISED NEVERLAND','YAKUSOKU NO NEVERLAND',
+        'MORIARTY THE PATRIOT','YUUKOKU NO MORIARTY',
+        'VANITAS NO CARTE','CASE STUDY OF VANITAS',
+        'NO LONGER HUMAN','NINGEN SHIKKAKU',
+        'BEAUTIFUL BONES','SAKURAKO SAN',
+        'RAMPO KITAN','RANPO KITAN GAME OF LAPLACE',
+        'NOBLESSE','KUBIKIRI CYCLE',
+    ],
+
+    # ── ROMANCE ──────────────────────────────────────────────────
+    "Romance": [
+        'TORADORA','ANGEL BEATS','ANOHANA','YOUR LIE IN APRIL',
+        'SHIGATSU','OREGAIRU','GOLDEN TIME','NISEKOI','KAGUYA SAMA',
+        'HORIMIYA','QUINTESSENTIAL','5-TOUBUN','RENT A GIRLFRIEND',
+        'YOUR NAME','KIMI NO NA WA','AO HARU RIDE','PLASTIC MEMORIES',
+        'ITAZURA NA KISS','WHITE ALBUM',
+        # Expandido
+        'CLANNAD','CLANNAD AFTER STORY','KANON','AIR',
+        'LITTLE BUSTERS','CHARLOTTE','ANGEL BEATS',
+        'MYSELF YOURSELF','TRUE TEARS','EF A TALE OF',
+        'SPICE AND WOLF','OOKAMI TO KOUSHINRYOU',
+        'NAGI NO ASUKARA','A LULL IN THE SEA',
+        'KOKORO CONNECT','TSUKI GA KIREI',
+        'JUST BECAUSE','YAGATE KIMI NI NARU',
+        'BLOOM INTO YOU','CITRUS','YURU YURI',
+        'TAKAGI-SAN','KARAKAI JOUZU','TEASING MASTER',
+        'MY DRESS UP DARLING','SONO BISQUE DOLL',
+        'MORE THAN A MARRIED COUPLE',
+        'AHAREN-SAN','DO YOU LOVE YOUR MOM',
+        'RASCAL DOES NOT DREAM','BUNNY GIRL SENPAI',
+        'SEISHUN BUTA YAROU','MASAMUNE-KUN',
+        'ORESHURA','RAKUDAI KISHI','GAMERS',
+        'DATE A LIVE','HIGHSCHOOL DXD',
+        'SWORD ART ONLINE','SAO',
+        'FRUITS BASKET','VAMPIRE KNIGHT',
+    ],
+
+    # ── SLICE OF LIFE ────────────────────────────────────────────
+    "Slice of Life": [
+        'BARAKAMON','SILVER SPOON','ARIA','LAID BACK CAMP','YURU CAMP',
+        'NON NON BIYORI','K-ON','LUCKY STAR','AZUMANGA','NICHIJOU',
+        'HIDAMARI SKETCH','FLYING WITCH','HIMOUTO',        # Expandido
+        'A-CHANNEL','TAMAKO MARKET','TAMAKO LOVE STORY',
+        'GEKKAN SHOUJO NOZAKI','MONTHLY GIRLS NOZAKI',
+        'NEW GAME','SHIROBAKO','SAKURA QUEST',
+        'WORKING','WAGNARIA','SERVANT X SERVICE',
+        'HANAYAMATA','KINIRO MOSAIC','GOLDEN MOSAIC',
+        'YUYUSHIKI','GOCHUUMON WA USAGI','GOCHUUMON',
+        'IS THE ORDER A RABBIT','GOCHIUSA',
+        'YAMA NO SUSUME','ENCOURAGEMENT OF CLIMB',
+        'YURUCAMP','IMOUTO SHO','TONIKAKU KAWAII',
+        'KAWAII DAKE JA NAI','SHIKIMORI',
+        'SLOW LOOP','TAISHOU OTOME','TAISHO OTOME',
+        'AQUATOPE','HEIKE MONOGATARI',
+        'KAGEKI SHOUJO','REVUE STARLIGHT',
+        'SABIKUI BISCO','PARIPI KOUMEI','YA BOY KONGMING',
+        'KOMI CAN T COMMUNICATE',
+        'KOMI-SAN','SOREDEMO AYUMU','EVEN THOUGH',
+        'AKEBI SAILOR UNIFORM','AKEBI-CHAN',
+    ],
+
+    # ── AÇÃO E AVENTURA ──────────────────────────────────────────
+    "Acao e Aventura": [
+        'RUROUNI KENSHIN','SAMURAI X','FATE','STAY NIGHT','FATE ZERO',
+        'FATE APOCRYPHA','JOJO','BIZARRE ADVENTURE','TOWER OF GOD',
+        'NANATSU NO TAIZAI','SEVEN DEADLY SINS','RECORD OF RAGNAROK',
+        'CLAYMORE','DRIFTERS',
+        # Expandido
+        'ARSLAN SENKI','HEROIC LEGEND OF ARSLAN',
+        'MAGI THE LABYRINTH','MAGI THE KINGDOM',
+        'AKAME GA KILL','OWARI NO SERAPH','SERAPH OF THE END',
+        'GOD EATER','KABANERI OF THE IRON FORTRESS',
+        'KOUTETSUJOU NO KABANERI','RADIANT',
+        'WORLD TRIGGER','MUGEN NO JUUNIN','BLADE OF THE IMMORTAL',
+        'DORORO','SWORD OF THE STRANGER','BASILISK',
+        'NINJA SCROLL','GARO','HAKUOKI',
+        'CHROME SHELLED REGIOS','FREEZING',
+        'INFINITE STRATOS','ASTERISK WAR','ASTERISK',
+        'RAKUDAI KISHI','CHIVALRY OF A FAILED KNIGHT',
+        'CAMPIONE','SEIKEN TSUKAI NO WORLD BREAK',
+        'ABSOLUTE DUO','ANTIMAGIC ACADEMY',
+        'BLACK BULLET','BRYNHILDR IN THE DARKNESS',
+        'LOST SONG','MAHOU SHOUJO IKUSEI',
+        'SELECTOR INFECTED WIXOSS','WIXOSS',
+        'YUKI YUNA IS A HERO','YUUKI YUUNA',
+        'REWRITE','CHAOS DRAGON','CHAOS HEAD',
+        'OCCULTIC NINE','PUNCH LINE',
+    ],
+
+    # ── ESPORTES ─────────────────────────────────────────────────
+    # Categoria fraca — expansão necessária
+    "Esportes": [
+        'FREE','YURI ON ICE','PING PONG','MAJOR','CROSS GAME',
+        'EYESHIELD 21','PRINCE OF TENNIS','HAJIME NO IPPO',
+        'BLUE LOCK','SK8','WIND BREAKER',
+        # Expandido
+        'ACE OF DIAMOND','DIAMOND NO ACE','DAIYA NO ACE',
+        'DAYS','TSURUNE','AHIRU NO SORA','BABY STEPS',
+        'CHEER BOYS','HIT THE ICE','BAMBOO BLADE',
+        'BREAKER','HANEBADO','OVERTAKE','DRIVE HEAD',
+        'SHAKUNETSU NO TAKKYUU MUSUME','SHAKUNETSU',
+        'INAZUMA ELEVEN','GIANT KILLING','AREA NO KISHI',
+        'AOKANA FOUR RHYTHM','AOKANA',
+        'TEPPU','KEIJO','HARUKANA RECEIVE',
+        'ATTACKER YOU','VOLLEYBALL','HINOMARU SUMO',
+        'MEGALO BOX','MEGALOBOX','ASHITA NO JOE',
+        'HAJIME NO IPPO','FIGHTING SPIRIT',
+        'ALL OUT','RUGBY','BURNING KABADDI',
+        'BAKUTEN','SHAO YAO','NUMBER24',
+        'SKATE LEADING STARS','PLAYERS',
+        'ORIENT','KUROKO NO BASUKE','KUROKO NO BASKET',
+        'SLAM DUNK','CAPETA','F1 RACE',
+    ],
+
+    # ── FANTASIA ─────────────────────────────────────────────────
+    # Categoria fraca — expansão forte
+    "Fantasia": [
+        'FRIEREN','ANCIENT MAGUS','LITTLE WITCH ACADEMIA',
+        'SLAYERS','LODOSS WAR','GOBLIN SLAYER','GRIMGAR',
+        # Expandido
+        'MAGI','THE LABYRINTH OF MAGIC',
+        'RECORD OF LODOSS WAR','OUTLAW STAR',
+        'SPICE AND WOLF','GRIMGAR OF FANTASY AND ASH',
+        'CHAIKA THE COFFIN PRINCESS','CHAIKA',
+        'LOG HORIZON','MAHOUKA KOUKOU','IRREGULAR AT MAGIC',
+        'ROKKA NO YUUSHA','BRAVES OF THE SIX FLOWERS',
+        'AKASHIC RECORDS','ROKUDENASHI',
+        'ZERO NO TSUKAIMA','FAMILIAR OF ZERO',
+        'MONDAIJI','PROBLEM CHILDREN','MONDAIJI-TACHI',
+        'THE DEVIL IS A PART-TIMER','HATARAKU MAOU-SAMA',
+        'DRAGON QUEST','DRAGON QUEST DAI',
+        'ENDRO','SLEEPY PRINCESS','MAOUSAMA RETRY',
+        'DEMON KING RETRY','MAOU GAKUIN','MISFIT OF DEMON KING',
+        'BY THE GRACE OF THE GODS','KUMA KUMA KUMA BEAR',
+        'KUMA BEAR','DIDN T I SAY MAKE MY ABILITIES',
+        'HONZUKI NO GEKOKUJOU',
+        'SOMALI AND THE FOREST SPIRIT','SOMALI',
+        'RADIANT','MAOUJOU DE OYASUMI','SLEEPY PRINCESS IN THE DEMON CASTLE',
+        'OTHERSIDE PICNIC','URASEKAI PICNIC',
+        'WITCH HAT ATELIER','MAHOUTSUKAI NO YOME',
+        'ANCIENT MAGUS BRIDE',
+    ],
+
+    # ── SCI-FI ───────────────────────────────────────────────────
+    # Categoria fraca — expansão forte
+    "Sci-Fi": [
+        'PSYCHO PASS','PSYCHO-PASS','COWBOY BEBOP','SPACE DANDY','BEATLESS',
+        'VIVY','DIMENSION W','KNIGHT OF SIDONIA',
+        # Expandido
+        'SERIAL EXPERIMENTS LAIN','GHOST IN THE SHELL',
+        'TEXHNOLYZE','ERGO PROXY','TRIGUN',
+        'OUTLAW STAR','GURREN LAGANN',
+        'KILL LA KILL','LITTLE WITCH ACADEMIA',
+        'ALDNOAH ZERO','SIDONIA NO KISHI',
+        'CAPTAIN EARTH','CAPTAIN HARLOCK','GALAXY EXPRESS',
+        'SPACE BATTLESHIP YAMATO','YAMATO','UCHUU SENKAN',
+        'PLANETES','MOONLIGHT MILE',
+        'TERRA FORMARS','BLAME','BIOMEGA',
+        'EXPELLED FROM PARADISE','EXPELLED',
+        'GENOCIDAL ORGAN','HARMONY',
+        'FROM THE NEW WORLD','SHINSEKAI YORI',
+        'DARLING IN THE FRANXX',
+        'ANOHANA','EDEN OF THE EAST',
+        'CHAOS CHILD','OCCULTIC NINE',
+        'ISLAND','HIMOTE HOUSE',
+        'ASTRA LOST IN SPACE','KANATA NO ASTRA',
+        'INFINITE RYVIUS','RAHXEPHON',
+        'NOW AND THEN HERE AND THERE',
+        'ARIA THE SCARLET AMMO','HIDAN NO ARIA',
+        'GUILTY CROWN','EUREKA SEVEN','AO',
+        'RINNE NO LAGRANGE','VIVIDRED OPERATION',
+        'MAJESTIC PRINCE','GARGANTIA','SUISEI NO GARGANTIA',
+        'VALVRAVE THE LIBERATOR',
+    ],
+
+    # ── SOBRENATURAL ─────────────────────────────────────────────
+    "Sobrenatural": [
+        'YU YU HAKUSHO','YUYU HAKUSHO','YU-YU HAKUSHO','NORAGAMI','KEKKAI SENSEN','TOILET BOUND',
+        'HANAKO KUN','NATSUME','XXXHOLIC','MUSHISHI','USHIO AND TORA',
+        # Expandido
+        'GHOST HUNT','PETSHOP OF HORRORS','XXXHOLIC',
+        'VAMPIRE KNIGHT','ROSARIO VAMPIRE',
+        'BLOOD LUST','BLOOD+','BLOOD C',
+        'BLUE EXORCIST','AO NO EXORCIST',
+        'NORAGAMI','STRAY GODS',
+        'INUYASHA','HALF-DEMON PRINCESS',
+        'YASHAHIME','RIN-NE','KYOUKAI NO RINNE',
+        'SOUL EATER','SOUL EATER NOT',
+        'D GRAY MAN','PANDORA HEARTS',
+        'ANGEL BEATS','ANOHANA',
+        'AYAKASHI','REQUIEM FROM THE DARKNESS',
+        'BEYOND THE BOUNDARY','KYOUKAI NO KANATA',
+        'KEKKAI SENSEN','BLOOD BLOCKADE BATTLEFRONT',
+        'OWARI NO SERAPH','SERAPH OF THE END',
+        'ROKKA NO YUUSHA','SERAPH',
+        'INTERVAL OF EVIL','YURAGI-SOU',
+        'KONOHANA KITAN','KAKURIYO',
+        'INU X BOKU SS','INU X BOKU',
+        'SERVAMP','FUKIGEN NA MONONOKEAN',
+        'MOROSE MONONOKEAN',
+        'MONONOKE','SPIRITED AWAY','SEN TO CHIHIRO',
+        'PRINCESS MONONOKE','MONONOKE HIME','NAUSICAA',
+        'HOWL S MOVING CASTLE','CASTLE IN THE SKY',
+        'MY NEIGHBOR TOTORO',
+    ],
+
+    # ── HISTÓRICO ────────────────────────────────────────────────
+    # Categoria fraca — expansão forte
+    "Historico": [
+        'DORORO','HAKUOUKI','SENGOKU BASARA',
+        'ALTAIR','ARSLAN','ANGOLMOIS',
+        # Expandido
+        'RUROUNI KENSHIN','SAMURAI X','GINTAMA',
+        'THERMAE ROMAE','VINLAND SAGA',
+        'GOLDEN KAMUY','KATANAGATARI',
+        'SHIGURUI','PEACEMAKER KUROGANE','PEACEMAKER',
+        'SEIREI NO MORIBITO','MORIBITO','GUARDIAN',
+        'PRINCESS PRINCIPAL','JOKER GAME',
+        'IZETTA THE LAST WITCH','IZETTA',
+        'MORIARTY THE PATRIOT','YUUKOKU NO MORIARTY',
+        'THE ROSE OF VERSAILLES','VERSAILLES NO BARA',
+        'LADY OSCAR','BAREFOOT GEN',
+        'GRAVE OF THE FIREFLIES','HOTARU NO HAKA',
+        'PUMPKIN SCISSORS','HORO MUSUKO',
+        'KINGDOM','HEIKE MONOGATARI',
+        'TOEI OTOGI MANGA CALENDAR',
+        'SAMURAI CHAMPLOO','SWORD OF THE STRANGER',
+        'NINJA SCROLL','BASILISK','SHURA NO TOKI',
+        'MUSHIBUGYO','BRAVE 10',
+        'LAS LINDAS','OOKU',
+        'WHEN SUPERNATURAL BATTLES','INUSHINDE',
+    ],
+
+    # ── MÚSICA E IDOLS ───────────────────────────────────────────
+    # Categoria fraca — expansão forte
+    "Musica e Idols": [
+        'LOVE LIVE','IDOLMASTER','AKB0048','BOCCHI THE ROCK','GIVEN',
+        'OSHI NO KO','SHOW BY ROCK','REVUE STARLIGHT','BANG DREAM',
+        'CAROLE AND TUESDAY',
+        # Expandido
+        'HIBIKE EUPHONIUM','SOUND EUPHONIUM','SOUND! EUPHONIUM',
+        'PIANO NO MORI','FOREST OF PIANO',
+        'CLASSICALOID','CLASSIC LOID',
+        'NANA','BECK','BECK MONGOLIAN CHOP SQUAD',
+        'WHITE ALBUM','FUUKA',
+        'PARIPI KOUMEI','YA BOY KONGMING',
+        'ZOMBIE LAND SAGA','ZOMBIE LAND SAGA REVENGE',
+        'D4DJ','D4 DJ FIRST MIX',
+        'MACROSS','MACROSS FRONTIER','MACROSS DELTA',
+        'MACROSS 7','FIRE BOMBER',
+        'SHE AND HER CAT','KIMIIRO FOCUS',
+        'LISTENERS','VIVY','FLUORITE EYES SONG',
+        'POP TEAM EPIC','BLEND S',
+        'DEEMO THE MOVIE','KENSHIN SINGING',
+        'AIKATSU','PRETTY RHYTHM','PRIPARA','PRIPRI CHII CHAN',
+        'FUTURE CARD BUDDYFIGHT',
+        'STAR TWINKLE PRECURE','PRECURE',
+        'SYMPHOGEAR','SENKI ZESSHOU SYMPHOGEAR',
+        'MACROSS PLUS','DYRL',
+        'KARAOKE','OSHI',
+    ],
+
+    # ── COMÉDIA ──────────────────────────────────────────────────
+    "Comedia": [
+        'GINTAMA','KONOSUBA','LUCKY STAR','PRISON SCHOOL',
+        'GRAND BLUE','SAIKI KUSUO','ONE PUNCH MAN','HINAMATSURI',
+        'CAUTIOUS HERO','DOCTOR STONE','ASOBI ASOBASE','CROMARTIE',
+        # Expandido
+        'DAILY LIVES OF HIGH SCHOOL BOYS','NICHIBROS',
+        'DANSHI KOUKOUSEI','BAKA AND TEST','BAKA TO TEST',
+        'SKET DANCE','OURAN','OURAN HIGH SCHOOL',
+        'GEKKAN SHOUJO NOZAKI','MONTHLY GIRLS NOZAKI KUN',
+        'GABRIEL DROPOUT',
+        'TOHRU','DRAGON MAID','KOBAYASHI SAN',
+        'MISS KOBAYASHI','INTERVIEW WITH MONSTER GIRLS',
+        'DEMI-CHAN','INTERVIEWS WITH MONSTER GIRLS',
+        'SERVANT X SERVICE','WORKING','WAGNARIA',
+        'THE DEVIL IS A PART TIMER','HATARAKU MAOU',
+        'ISEKAI IZAKAYA','ISEKAI SHOKUDOU','RESTAURANT TO ANOTHER',
+        'SPACE PATROL LULUCO','INFERNO COP',
+        'NICHIJOU','MY ORDINARY LIFE',
+        'AZUMANGA DAIOH','SCHOOL RUMBLE',
+        'KERORO GUNSO','SGT FROG','PANI PONI DASH',
+        'HAIYORE NYARUKO','NYARUKO SAN',
+        'EBITEN','DANNA GA NANI','MY HUSBAND WON T FIT',
+        'B GATA H KEI','YAMADA S FIRST TIME',
+        'SEITOKAI YAKUINDOMO','STUDENT COUNCIL',
+        'SABAGEBU','SURVIVAL GAME CLUB',
+        'ASOBI NI IKUYO','CAT PLANET CUTIES',
+        'NOUCOME','MY MENTAL CHOICES',
+        'NAZO NO KANOJO X','MYSTERIOUS GIRLFRIEND X',
+    ],
+
+    # ── CLÁSSICOS ────────────────────────────────────────────────
+    "Clasicos": [
+        'DRAGON BALL Z','DRAGON BALL GT','CAVALEIROS DO ZODIACO',
+        'SAINT SEIYA','SAILOR MOON','CITY HUNTER','CANDY CANDY',
+        'RANMA','URUSEI YATSURA','DORAEMON','LUPIN III','LUPIN 3',
+        'COBRA','MAZINGER','GATCHAMAN','DEVILMAN','CAPTAIN HARLOCK',
+        'GALAXY EXPRESS','SPEED RACER','ASTRO BOY','VOLTRON',
+        # Expandido
+        'SPACE ADVENTURE COBRA','DR SLUMP','ARALE',
+        'CAT S EYE','TOUCH','MAISON IKKOKU',
+        'KIMAGURE ORANGE ROAD','ORANGE ROAD',
+        'MAGICAL ANGEL CREAMY MAMI','CREAMY MAMI',
+        'MAGICAL STAR MAGICAL EMI',
+        'GEGEGE NO KITARO','KITARO',
+        'HAKABA KITARO','YOKAI WATCH',
+        'NAUSICAA','FUTURE BOY CONAN',
+        'HEIDI GIRL OF THE ALPS','HEIDI',
+        'MARCO','3000 LEAGUES IN SEARCH OF MOTHER',
+        'ANNE OF GREEN GABLES','REMI NOBODY S BOY',
+        'NOBODY S GIRL REMI','TREASURE ISLAND',
+        'TOM SAWYER','DOG OF FLANDERS',
+        'PRINCESS KNIGHT','RIBBON NO KISHI',
+        'CYBORG 009','DEVILMAN LADY',
+        'CUTEY HONEY','HURRICANE POLYMAR',
+        'CASSHAN','CASSHERN','SCIENCE NINJA TEAM',
+        'GETTER ROBO','GREAT MAZINGER','COMBATTLER V',
+        'VOLTES V','DALTANIOUS','ZANBOT 3',
+        'IDEON','DOUGRAM','MOSPEADA',
+        'ORGUSS','SOUTHERN CROSS',
+    ],
+
+    # ── ECCHI E HAREM ────────────────────────────────────────────
+    "Ecchi e Harem": [
+        'HIGHSCHOOL DXD','MONSTER MUSUME','TO LOVE RU',
+        'ROSARIO VAMPIRE','SEKIREI','FREEZING','QUEENS BLADE',
+        'SHIMONETA','SHINMAI MAOU','VALKYRIE DRIVE',
+        'INFINITE STRATOS','YURAGI-SOU','DAKARA BOKU',
+        # Expandido
+        'TESTAMENT OF SISTER DEVIL','SHINMAI MAOU NO TESTAMENT',
+        'RAKUDAI KISHI','CHIVALRY OF A FAILED KNIGHT',
+        'ASTERISK WAR','GAKUSEN TOSHI ASTERISK',
+        'ABSOLUTE DUO','ANTIMAGIC ACADEMY',
+        'WORLD S END HAREM','SHUUMATSU NO HAREM',
+        'INTERSPECIES REVIEWERS','ISHUZOKU REVIEWERS',
+        'PETER GRILL','PETER GRILL TO KENJA NO JIKAN',
+        'HOW NOT TO SUMMON A DEMON LORD','ISEKAI MAOU',
+        'MASTER OF RAGNAROK','MASTER OF RAGNAROK BLESSER OF EINHERJAR',
+        'PLUNDERER','HYAKUREN NO HAOU',
+        'ARIFURETA','TRAPPED IN A DATING SIM',
+        'MY WIFE IS THE STUDENT COUNCIL PRESIDENT',
+        'NAKAIMO','MY LITTLE SISTER IS AMONG THEM',
+        'OniAI','ONII-CHAN DAKEDO AI SA EE',
+        'KISS X SIS','YOSUGA NO SORA',
+        'OKUSAMA GA SEITOKAICHOU','WIFE IS STUDENT COUNCIL',
+        'MAKEN-KI','STRIKE THE BLOOD',
+        'DATE A LIVE','UNLIMITED FAFNIR',
+        'DRAGONAR ACADEMY','WIND X BLADE X',
+    ],
+
+    # ── HENTAI ───────────────────────────────────────────────────
+    "Hentai": [
+        'HENTAI','[XXX]','UNCENSORED','OVERFLOW','BOIN',
+        'OPPAI','FUTANARI','18+','ADULT ANIME',
+        'BIBLE BLACK','DISCIPLINE','STRINGENDO',
+        'STRINGENDO AND ACCELERANDO','BEAT ANGEL ESCALAYER',
+        'GOLDEN BOY','RESORT BOIN',
+    ],
+
+    # ── DUBLADO / LEGENDADO ──────────────────────────────────────
+    "Dublado":   ['DUBLADO','DUB','PT-BR','PORTUGUESE DUB',
+                  'BRAZILIAN DUB','DUBBED','AUDIO PT'],
+    "Legendado": ['LEGENDADO','LEG','PT-PT','SUBTITLED',
+                  'LEGENDAS','LEGENDA','SUB PT','SUB PORTUGUES'],
+}
+
+# ─────────────────────────────────────────────────────────────────
+# Group-titles genéricos (sem info útil de categoria)
+# ─────────────────────────────────────────────────────────────────
+
+GT_GENERICOS = {
+    'animes vod','anime','animes','vod','series','séries',
+    'filmes','movies','geral','others','outros','general',
+    'misc','uncategorized','all','todo','todos','',
+}
+
+def detectar_categoria_anime(nome: str, group_title: str = "") -> str:
+    """
+    Detecta a categoria do anime pelo nome e/ou group-title.
+    Usa word-boundary para evitar falsos positivos por substring.
+    Ex: 'MAR' não captura 'uMARu'; 'MONONOKE' não captura títulos errados.
+    """
+    if group_title and group_title.strip().lower() not in GT_GENERICOS:
+        texto = (group_title + " " + nome).upper()
+    else:
+        texto = nome.upper()
+
+    # Normaliza hífens/underlines → espaço; padding para word-boundary
+    texto = re.sub(r'[-_]', ' ', texto)
+    texto = f" {texto} "
+
+    for cat, keywords in CATEGORIAS_ANIME.items():
+        for kw in keywords:
+            kw_norm = re.sub(r'[-_]', ' ', kw)
+            if re.search(r'(?<!\w)' + re.escape(kw_norm) + r'(?!\w)', texto):
+                return cat
+    return "Geral"
+
+# ─────────────────────────────────────────────────────────────────
+# CLASSIFICAÇÃO GERAL
+# ─────────────────────────────────────────────────────────────────
