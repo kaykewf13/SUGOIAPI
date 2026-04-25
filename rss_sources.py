@@ -27,10 +27,10 @@ SOURCES = {
 }
 
 # Resolução preferida para SubsPlease (480, 720, 1080)
-RESOLUCAO = "1080"
+RESOLUCAO = "720"
 
 # Número máximo de entradas por fonte (0 = sem limite)
-LIMITE_POR_FONTE = 50
+LIMITE_POR_FONTE = 100
 
 # group-title padrão para séries
 GROUP_TITLE_SERIES = "Anime | Series"
