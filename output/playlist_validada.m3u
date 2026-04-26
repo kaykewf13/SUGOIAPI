@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (577) ══════════
+### ══════════ CANAIS (578) ══════════
 
 
 ## ── Noticias (55) ──
@@ -71,11 +71,11 @@ https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
 #EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
-#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
-https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
-
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
+
+#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
+https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
@@ -507,7 +507,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (415) ──
+## ── Variados (416) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -592,6 +592,9 @@ https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8
 
 #EXTINF:-1 tvg-name="Bar Rescue" tvg-logo="https://images.pluto.tv/channels/655f2ee6c0fc88000877d26c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Bar Rescue
 https://jmp2.uk/plu-655f2ee6c0fc88000877d26c.m3u8
+
+#EXTINF:-1 tvg-name="Bar Rescue" tvg-logo="https://images.pluto.tv/channels/60a3d889a5b3690008dc7fe8/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Bar Rescue
+https://jmp2.uk/plu-60a3d889a5b3690008dc7fe8.m3u8
 
 #EXTINF:-1 tvg-name="BBC Earth" tvg-logo="https://images.pluto.tv/channels/656535fc2c46f30008870fae/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", BBC Earth
 https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8
@@ -1760,11 +1763,11 @@ https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 ## ── Brazil ──
 
-#EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
-https://www.youtube.com/watch?v=ABVQXgr2LW4
-
 #EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
+
+#EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
+https://www.youtube.com/watch?v=ABVQXgr2LW4
 
 
 ### ══════════ FILMES (317) ══════════
