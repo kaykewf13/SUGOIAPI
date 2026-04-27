@@ -56,12 +56,32 @@ _MAGNET_INLINE_RE = re.compile(
 _INFOHASH_RE = re.compile(r'\b([A-Fa-f0-9]{40}|[A-Za-z2-7]{32})\b')
 
 
+def _sanitize_dn(title: str, max_len: int = 120) -> str:
+    """
+    Limpa o display name pra um magnet URI:
+      - Remove caracteres de controle e quebras de linha
+      - Remove sequências problemáticas que confundem o parser do Put.io
+      - Trunca pra evitar URIs absurdamente longas
+    """
+    if not title:
+        return "untitled"
+    # Remove controls/newlines/tabs
+    clean = re.sub(r'[\x00-\x1f\x7f]', '', title)
+    # Remove caracteres reservados que costumam causar 400 quando não-encoded
+    # mesmo com quote() — testes empíricos mostram que '*' e '?' literais
+    # no dn às vezes são rejeitados pelo Put.io.
+    clean = re.sub(r'[\*\?\\<>|"]', '', clean)
+    clean = clean.strip()
+    return clean[:max_len] or "untitled"
+
+
 def _build_magnet(info_hash: str, title: str) -> str:
     """Monta um magnet URI completo a partir de um info_hash."""
+    safe_title = _sanitize_dn(title)
     trackers = "&".join(f"tr={quote(t, safe='')}" for t in DEFAULT_TRACKERS)
     return (
         f"magnet:?xt=urn:btih:{info_hash.lower()}"
-        f"&dn={quote(title)}"
+        f"&dn={quote(safe_title, safe='')}"
         f"&{trackers}"
     )
 
