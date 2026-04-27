@@ -6,7 +6,7 @@
       "status": "pending",
       "title": "Tokyo Ghoul 1080p BD Dual Audio 10bit x265",
       "transfer_id": 105081294,
-      "updated_at": "2026-04-27T04:03:44.090410+00:00"
+      "updated_at": "2026-04-27T04:25:38.874660+00:00"
     },
     "05689006d0fde4cbcf8be2efd7d16801e1566658": {
       "category": "Series | Anime",
@@ -14,7 +14,7 @@
       "status": "pending",
       "title": "Black Lagoon 720p Dual-Audio HEVC",
       "transfer_id": 105081259,
-      "updated_at": "2026-04-27T04:03:44.194565+00:00"
+      "updated_at": "2026-04-27T04:25:38.986085+00:00"
     },
     "05db9c1ba37223a4fc445efee4a8a5d53ec604d4": {
       "category": "Series | Anime",
@@ -22,7 +22,7 @@
       "status": "pending",
       "title": "The Garden of Words 1080p BD Eng Sub",
       "transfer_id": 105081300,
-      "updated_at": "2026-04-27T04:03:44.300421+00:00"
+      "updated_at": "2026-04-27T04:25:39.094642+00:00"
     },
     "09def295412c231160ad61ee548202e3c65a6f95": {
       "category": "Series | Anime",
@@ -31,7 +31,7 @@
       "status": "pending",
       "title": "Clannad 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081310,
-      "updated_at": "2026-04-27T04:03:44.406675+00:00"
+      "updated_at": "2026-04-27T04:25:39.208512+00:00"
     },
     "0bba0c4ccce2ec967ab876097fc8aa00e73627d4": {
       "category": "Series | Anime",
@@ -39,7 +39,7 @@
       "status": "pending",
       "title": "Flavors of Youth - EP2018",
       "transfer_id": 105081263,
-      "updated_at": "2026-04-27T04:03:44.510038+00:00"
+      "updated_at": "2026-04-27T04:25:39.317685+00:00"
     },
     "128bcb029d864d53cdacb0acd9a083f9f5fb0ced": {
       "category": "Series | Anime",
@@ -47,7 +47,7 @@
       "status": "pending",
       "title": "A Piece of Phantasmagoria",
       "transfer_id": 105081298,
-      "updated_at": "2026-04-27T04:03:44.612989+00:00"
+      "updated_at": "2026-04-27T04:25:39.426421+00:00"
     },
     "15e54ca66bcd7e4d7297424e283ee9ddc19baacf": {
       "category": "Series | Anime",
@@ -55,7 +55,7 @@
       "status": "pending",
       "title": "Toaru Majutsu no Index II 1080p Dual Audio",
       "transfer_id": 105081275,
-      "updated_at": "2026-04-27T04:03:44.717413+00:00"
+      "updated_at": "2026-04-27T04:25:39.535823+00:00"
     },
     "1bb7dbe38e9d7a97304fa21e4dd0d632e3ef0b5e": {
       "category": "Series | Anime",
@@ -63,7 +63,7 @@
       "status": "pending",
       "title": "Shouwa Genroku Rakugo Shinjuu S2 720p Eng Sub",
       "transfer_id": 105081281,
-      "updated_at": "2026-04-27T04:03:44.820540+00:00"
+      "updated_at": "2026-04-27T04:25:39.645529+00:00"
     },
     "1fc8376fba3abbd8f45f2bf9c2d5c5b0bfe6b727": {
       "category": "Series | Anime",
@@ -71,7 +71,7 @@
       "status": "pending",
       "title": "ERASED 720p BD Dual Audio",
       "transfer_id": 105081247,
-      "updated_at": "2026-04-27T04:03:44.925521+00:00"
+      "updated_at": "2026-04-27T04:25:39.758265+00:00"
     },
     "217f3638cb1df619fca29847dc9de1bad93e1238": {
       "category": "Series | Anime",
@@ -79,15 +79,15 @@
       "status": "pending",
       "title": "Shouwa Genroku Rakugo Shinjuu 720p Eng Sub",
       "transfer_id": 105081280,
-      "updated_at": "2026-04-27T04:03:45.028634+00:00"
+      "updated_at": "2026-04-27T04:25:39.867080+00:00"
     },
     "27d2uh3ggdzsb7kv47kzbtpcmgiiklth": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.605213+00:00",
       "status": "error",
       "title": "Kuroneko to Majo no Kyoushitsu - EP03",
-      "updated_at": "2026-04-27T04:03:39.605229+00:00"
+      "updated_at": "2026-04-27T04:25:33.680449+00:00"
     },
     "28c8aa9786f37fc647ae9945b31504d5bf189db4": {
       "category": "Series | Anime",
@@ -95,16 +95,16 @@
       "status": "pending",
       "title": "Tokyo Ghoul √A 720p 10bit BD Dual Audio",
       "transfer_id": 105081246,
-      "updated_at": "2026-04-27T04:03:45.135483+00:00"
+      "updated_at": "2026-04-27T04:25:39.975229+00:00"
     },
     "294ebc3e437ce6250f7cc47ddade8b38cbaedabf": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:44.232889+00:00",
-      "percent": 25,
+      "percent": 94,
       "status": "pending",
       "title": "Heavy Object 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081309,
-      "updated_at": "2026-04-27T04:03:45.303065+00:00"
+      "updated_at": "2026-04-27T04:25:40.085678+00:00"
     },
     "2c51d2d9c7b97c425aca04283ea1c07303071428": {
       "category": "Series | Anime",
@@ -123,15 +123,15 @@
       "status": "pending",
       "title": "Parasyte The Maxim 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081245,
-      "updated_at": "2026-04-27T04:03:45.767135+00:00"
+      "updated_at": "2026-04-27T04:25:40.193149+00:00"
     },
     "2rmgx2kjo6v37mxxrk76nbbjrz7exjlx": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.818791+00:00",
       "status": "error",
       "title": "Maid-san wa Taberu Dake - EP05",
-      "updated_at": "2026-04-27T04:03:39.818806+00:00"
+      "updated_at": "2026-04-27T04:25:33.906596+00:00"
     },
     "30984d17acfb9f7f525fbd320de5ae59d7394b56": {
       "category": "Series | Anime",
@@ -140,7 +140,7 @@
       "status": "pending",
       "title": "Gate:Thus the JSDF Fought There! Fire Dragon Arc 2nd Season   | Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
       "transfer_id": 105081316,
-      "updated_at": "2026-04-27T04:03:45.873074+00:00"
+      "updated_at": "2026-04-27T04:25:40.302310+00:00"
     },
     "3277ec5cf8ef258cd92041c4c587fdd80f6501d7": {
       "category": "Series | Anime",
@@ -148,7 +148,7 @@
       "status": "pending",
       "title": "The Empire of Corpses - EP2015",
       "transfer_id": 105081301,
-      "updated_at": "2026-04-27T04:03:45.975924+00:00"
+      "updated_at": "2026-04-27T04:25:40.415579+00:00"
     },
     "3348c52db9298930a3ab0a2dd00f5e8058e16b44": {
       "category": "Series | Anime",
@@ -156,7 +156,7 @@
       "status": "pending",
       "title": "Busou Shoujo Machiavellianism",
       "transfer_id": 105081306,
-      "updated_at": "2026-04-27T04:03:46.079812+00:00"
+      "updated_at": "2026-04-27T04:25:40.525109+00:00"
     },
     "34f6958c89be4cc1146b4808988d1074782120ab": {
       "category": "Series | Anime",
@@ -175,7 +175,7 @@
       "status": "pending",
       "title": "Tokyo Ghoul Season 1 720p BD Dual Audio",
       "transfer_id": 105081248,
-      "updated_at": "2026-04-27T04:03:46.589933+00:00"
+      "updated_at": "2026-04-27T04:25:40.633467+00:00"
     },
     "39acc3f50d351645b95b291f6cdf31a158320552": {
       "category": "Series | Anime",
@@ -183,15 +183,15 @@
       "status": "pending",
       "title": "Aldnoah Zero S02 1080p Dual Audio x265 HEVC",
       "transfer_id": 105081270,
-      "updated_at": "2026-04-27T04:03:46.692771+00:00"
+      "updated_at": "2026-04-27T04:25:40.751206+00:00"
     },
     "3awwlzxaouemhjmswf2frourpdtwnqrs": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.834728+00:00",
       "status": "error",
       "title": "One Piece - EP1159",
-      "updated_at": "2026-04-27T04:03:38.834744+00:00"
+      "updated_at": "2026-04-27T04:25:32.855804+00:00"
     },
     "3bb8cb54fdc34d10035e26269f731bbb2b9e27f0": {
       "category": "Series | Anime",
@@ -199,7 +199,7 @@
       "status": "pending",
       "title": "My Hero Academia (x265 - EP10",
       "transfer_id": 105081284,
-      "updated_at": "2026-04-27T04:03:46.797044+00:00"
+      "updated_at": "2026-04-27T04:25:40.861543+00:00"
     },
     "3dfe9b0ff37ea36f2a4e32f18cfbe9e118ff1eaa": {
       "category": "Series | Anime",
@@ -207,7 +207,7 @@
       "status": "pending",
       "title": "Tenchi Muyo! - Movie 3 - In Love 2 (x265 - EP10",
       "transfer_id": 105081292,
-      "updated_at": "2026-04-27T04:03:46.901283+00:00"
+      "updated_at": "2026-04-27T04:25:40.995440+00:00"
     },
     "3f080212c7489227a381d3f83ccf314f1a0593f8": {
       "category": "Series | Anime",
@@ -215,15 +215,15 @@
       "status": "pending",
       "title": "The Promised Neverland",
       "transfer_id": 105081243,
-      "updated_at": "2026-04-27T04:03:47.013992+00:00"
+      "updated_at": "2026-04-27T04:25:41.132156+00:00"
     },
     "3ui5v54d3appdi7jfhu35tqfgv3u5a7s": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.088154+00:00",
       "status": "error",
       "title": "Yuusha no Kuzu - EP15",
-      "updated_at": "2026-04-27T04:03:42.088166+00:00"
+      "updated_at": "2026-04-27T04:25:36.745386+00:00"
     },
     "40d81a2c77e50a87be5c55fbc04c7b47838c86eb": {
       "category": "Series | Anime",
@@ -231,7 +231,7 @@
       "status": "pending",
       "title": "Accel World 1080p x265 HEVC BD Dual Audio",
       "transfer_id": 105081274,
-      "updated_at": "2026-04-27T04:03:47.117305+00:00"
+      "updated_at": "2026-04-27T04:25:41.241885+00:00"
     },
     "4110a37343f6eeb2e711e0e930b19fab25851fb8": {
       "category": "Series | Anime",
@@ -239,7 +239,7 @@
       "status": "pending",
       "title": "Fate Zero 1080p BD Dual Audio",
       "transfer_id": 105081253,
-      "updated_at": "2026-04-27T04:03:47.221668+00:00"
+      "updated_at": "2026-04-27T04:25:41.350092+00:00"
     },
     "44da23a4b24547ae681fd059b48461130ee0ed63": {
       "category": "Series | Anime",
@@ -248,7 +248,7 @@
       "status": "pending",
       "title": "Kizumonogatari Complete 1 - EP03",
       "transfer_id": 105081304,
-      "updated_at": "2026-04-27T04:03:47.329331+00:00"
+      "updated_at": "2026-04-27T04:25:41.461283+00:00"
     },
     "496f6b104fe17d210afd697bb1023aa12d6fca20": {
       "category": "Series | Anime",
@@ -256,7 +256,7 @@
       "status": "pending",
       "title": "Yona of the Dawn (x265 - EP10",
       "transfer_id": 105081295,
-      "updated_at": "2026-04-27T04:03:47.434683+00:00"
+      "updated_at": "2026-04-27T04:25:41.594026+00:00"
     },
     "4ae1a460c72d427f4b3b7f092892b0365da6a515": {
       "category": "Series | Anime",
@@ -264,7 +264,7 @@
       "status": "pending",
       "title": "One Punch Man Season 1 720p 10bit x265 HEVC Dual Audio",
       "transfer_id": 105081244,
-      "updated_at": "2026-04-27T04:03:47.542100+00:00"
+      "updated_at": "2026-04-27T04:25:41.703195+00:00"
     },
     "4bf1059940954f26029085bdd5e7fd64baca3c1f": {
       "category": "Series | Anime",
@@ -272,7 +272,7 @@
       "status": "pending",
       "title": "Tenchi Muyo! - Movie 1 - In Love (x265 - EP10",
       "transfer_id": 105081291,
-      "updated_at": "2026-04-27T04:03:47.648402+00:00"
+      "updated_at": "2026-04-27T04:25:41.810809+00:00"
     },
     "4d71dbf4a2181fc592158e5f20b8e683b62d24cc": {
       "category": "Series | Anime",
@@ -280,7 +280,7 @@
       "status": "pending",
       "title": "Shokugeki no Souma  720p BD Eng Sub",
       "transfer_id": 105081279,
-      "updated_at": "2026-04-27T04:03:47.753137+00:00"
+      "updated_at": "2026-04-27T04:25:41.919219+00:00"
     },
     "4f246a6910854d3fe378f9dbe9d410ec11a536b1": {
       "category": "Series | Anime",
@@ -288,15 +288,15 @@
       "status": "pending",
       "title": "Mahoutsukai no Yome a.k.a The Ancient Magus' Bride S01 1080p BD Dual Audio x265 - Animekaizoku",
       "transfer_id": 105081257,
-      "updated_at": "2026-04-27T04:03:47.857144+00:00"
+      "updated_at": "2026-04-27T04:25:42.030056+00:00"
     },
     "4hzq5ps572urotmd2tjiksbi4s7r5ybk": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:43.282332+00:00",
       "status": "error",
       "title": "Kanan-sama wa Akumade Choroi - EP04",
-      "updated_at": "2026-04-27T04:03:43.282340+00:00"
+      "updated_at": "2026-04-27T04:25:38.015911+00:00"
     },
     "5bf65de3e70e383500617b2ea2f1991bcd1b2f4e": {
       "category": "Series | Anime",
@@ -304,7 +304,7 @@
       "status": "pending",
       "title": "Aldnoah Zero S01 1080p Dual Audio HEVC x265",
       "transfer_id": 105081271,
-      "updated_at": "2026-04-27T04:03:47.962927+00:00"
+      "updated_at": "2026-04-27T04:25:42.148606+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
@@ -312,23 +312,23 @@
       "status": "pending",
       "title": "TERRA FORMARS + OVAs (x265 - EP10",
       "transfer_id": 105081293,
-      "updated_at": "2026-04-27T04:03:48.065218+00:00"
+      "updated_at": "2026-04-27T04:25:42.258015+00:00"
     },
     "5jiy7wktivkfdsjhj2latkarh7fd424l": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.153008+00:00",
       "status": "error",
       "title": "Digimon Beatbreak - 28v2.mkv",
-      "updated_at": "2026-04-27T04:03:40.153024+00:00"
+      "updated_at": "2026-04-27T04:25:34.251292+00:00"
     },
     "5v2fpdbjszbiepuhllcm5wks5yorer6g": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.194213+00:00",
       "status": "error",
       "title": "NEEDY GIRL OVERDOSE - EP04",
-      "updated_at": "2026-04-27T04:03:42.194220+00:00"
+      "updated_at": "2026-04-27T04:25:36.859279+00:00"
     },
     "60f36c01f2d1bfca39f92b15f28748364c4de11f": {
       "category": "Series | Anime",
@@ -336,7 +336,7 @@
       "status": "pending",
       "title": "Your Lie in April 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081314,
-      "updated_at": "2026-04-27T04:03:48.169533+00:00"
+      "updated_at": "2026-04-27T04:25:42.371523+00:00"
     },
     "642efd3990645a7fa6afac6f12d50e96203fe905": {
       "category": "Series | Anime",
@@ -344,7 +344,7 @@
       "status": "pending",
       "title": "Ghost in the Shell - 720p HEVC",
       "transfer_id": 105081260,
-      "updated_at": "2026-04-27T04:03:48.273156+00:00"
+      "updated_at": "2026-04-27T04:25:42.479460+00:00"
     },
     "67ca6070f9532ee5aa9899518cb0f2676553042f": {
       "category": "Series | Anime",
@@ -352,7 +352,7 @@
       "status": "pending",
       "title": "One Piece Season 1 - EP07",
       "transfer_id": 105081262,
-      "updated_at": "2026-04-27T04:03:48.376019+00:00"
+      "updated_at": "2026-04-27T04:25:42.587216+00:00"
     },
     "6e9338a784333e98f87aa19163472aed1bfe43cd": {
       "category": "Series | Anime",
@@ -360,7 +360,7 @@
       "status": "pending",
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081268,
-      "updated_at": "2026-04-27T04:03:48.486065+00:00"
+      "updated_at": "2026-04-27T04:25:42.696142+00:00"
     },
     "6ea84ec8cf1c5063a1da563bc0f55bcc2ce59a23": {
       "category": "Series | Anime",
@@ -368,15 +368,15 @@
       "status": "pending",
       "title": "Chivalry of a Failed Knight 720p BD Dual Audio",
       "transfer_id": 105081252,
-      "updated_at": "2026-04-27T04:03:48.589637+00:00"
+      "updated_at": "2026-04-27T04:25:42.804763+00:00"
     },
     "6t5dsn7m764ypgkxfkm3h6r7n7ntdw44": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:43.175669+00:00",
       "status": "error",
       "title": "Kanan-sama wa Akumade Choroi - EP04",
-      "updated_at": "2026-04-27T04:03:43.175681+00:00"
+      "updated_at": "2026-04-27T04:25:37.903231+00:00"
     },
     "73d9794e87599bfd74a0c14efabc7f3a6a197899": {
       "category": "Series | Anime",
@@ -384,31 +384,31 @@
       "status": "pending",
       "title": "Kimetsu no Yaiba -",
       "transfer_id": 105081258,
-      "updated_at": "2026-04-27T04:03:48.693067+00:00"
+      "updated_at": "2026-04-27T04:25:42.916613+00:00"
     },
     "74m3anjocyg3xvpq55u6nrtzscxpbfav": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.723846+00:00",
       "status": "error",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
-      "updated_at": "2026-04-27T04:03:38.723860+00:00"
+      "updated_at": "2026-04-27T04:25:32.737741+00:00"
     },
     "7advog37k4rp7yirzasbprviiw5tfcfm": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.279426+00:00",
       "status": "error",
       "title": "Ghost Concert - missing Songs - EP04",
-      "updated_at": "2026-04-27T04:03:39.279441+00:00"
+      "updated_at": "2026-04-27T04:25:33.338345+00:00"
     },
     "7bpgf3wqbwhkprffnnq47tuctvnrikjg": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.745727+00:00",
       "status": "error",
       "title": "Kami no Niwatsuki Kusunoki-tei - EP04",
-      "updated_at": "2026-04-27T04:03:42.745736+00:00"
+      "updated_at": "2026-04-27T04:25:37.446780+00:00"
     },
     "7f3aeda5d00e1c3d8c28d817853fa604ed108967": {
       "category": "Series | Anime",
@@ -417,7 +417,7 @@
       "status": "pending",
       "title": "Fate Stay Night Unlimited Blade Works 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081312,
-      "updated_at": "2026-04-27T04:03:48.798901+00:00"
+      "updated_at": "2026-04-27T04:25:43.027046+00:00"
     },
     "80c7275386f479c9bce612881a2b97e3f8400283": {
       "category": "Series | Anime",
@@ -425,7 +425,7 @@
       "status": "pending",
       "title": "Accel World Movie-Infinite Burst",
       "transfer_id": 105081273,
-      "updated_at": "2026-04-27T04:03:48.902947+00:00"
+      "updated_at": "2026-04-27T04:25:43.140008+00:00"
     },
     "81472ab6c963d66b045d342d9a60e0a8c7deae27": {
       "category": "Series | Anime",
@@ -433,7 +433,7 @@
       "status": "pending",
       "title": "Overlord 480p BD Dual Audio",
       "transfer_id": 105081254,
-      "updated_at": "2026-04-27T04:03:49.006732+00:00"
+      "updated_at": "2026-04-27T04:25:43.248698+00:00"
     },
     "887dcb4e21fd286265e7be9a3c1136c05574e485": {
       "category": "Series | Anime",
@@ -441,7 +441,7 @@
       "status": "pending",
       "title": "Natsume Yuujinchou Roku 720p Eng Sub",
       "transfer_id": 105081285,
-      "updated_at": "2026-04-27T04:03:49.109962+00:00"
+      "updated_at": "2026-04-27T04:25:43.362364+00:00"
     },
     "8b92d88c61ed657a95b22834ce9eb4aa99e728fe": {
       "category": "Series | Anime",
@@ -449,7 +449,7 @@
       "status": "pending",
       "title": "Space Patrol Luluco {x265-720p-Sub-GoodJobMedia}",
       "transfer_id": 105081282,
-      "updated_at": "2026-04-27T04:03:49.213072+00:00"
+      "updated_at": "2026-04-27T04:25:43.504293+00:00"
     },
     "92057086d18a211f0c24c2735582e8a180347c0b": {
       "category": "Series | Anime",
@@ -457,7 +457,7 @@
       "status": "pending",
       "title": "Clockwork Planet",
       "transfer_id": 105081305,
-      "updated_at": "2026-04-27T04:03:49.321153+00:00"
+      "updated_at": "2026-04-27T04:25:43.612612+00:00"
     },
     "9778b2e0af26548f30ade24ed85f484bc5cf1cc5": {
       "category": "Series | Anime",
@@ -465,7 +465,7 @@
       "status": "pending",
       "title": "Strike Witches 2 720p x264 BD Dual Audio",
       "transfer_id": 105081288,
-      "updated_at": "2026-04-27T04:03:49.426533+00:00"
+      "updated_at": "2026-04-27T04:25:43.720749+00:00"
     },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
@@ -473,7 +473,7 @@
       "status": "pending",
       "title": "Tanaka-kun wa Itsumo Kedaruge {x265-720p-Sub-GoodJobMedia}",
       "transfer_id": 105081290,
-      "updated_at": "2026-04-27T04:03:49.529974+00:00"
+      "updated_at": "2026-04-27T04:25:43.830089+00:00"
     },
     "9e38e391e8c4d441623ed27f9ce2b2a5aae99c36": {
       "category": "Series | Anime",
@@ -482,7 +482,7 @@
       "status": "pending",
       "title": "Clannad After Story 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081313,
-      "updated_at": "2026-04-27T04:03:49.678570+00:00"
+      "updated_at": "2026-04-27T04:25:43.949616+00:00"
     },
     "a36bf81b1f7f4f2b6015829b8ee23ef1f6e83d2f": {
       "category": "Series | Anime",
@@ -490,7 +490,7 @@
       "status": "pending",
       "title": "Steins;Gate - Fuka Ryōiki no Déjà vu",
       "transfer_id": 105081286,
-      "updated_at": "2026-04-27T04:03:49.784407+00:00"
+      "updated_at": "2026-04-27T04:25:44.082136+00:00"
     },
     "a7006f7223c0d224c6b03005164de3d8106689bd": {
       "category": "Series | Anime",
@@ -498,7 +498,7 @@
       "status": "pending",
       "title": "Mayo Chiki! 1080p Dual Audio",
       "transfer_id": 105081303,
-      "updated_at": "2026-04-27T04:03:49.886856+00:00"
+      "updated_at": "2026-04-27T04:25:44.192776+00:00"
     },
     "a7f03fb1212eb2f7711767e949d92489a5a79665": {
       "category": "Series | Anime",
@@ -506,7 +506,7 @@
       "status": "pending",
       "title": "Sound! Euphonium 2 1080p BD x265 10bit",
       "transfer_id": 105081249,
-      "updated_at": "2026-04-27T04:03:50.518467+00:00"
+      "updated_at": "2026-04-27T04:25:44.301766+00:00"
     },
     "aa7e182b9a216c0a844e13244daadb5aef5c6e45": {
       "category": "Series | Anime",
@@ -514,23 +514,23 @@
       "status": "pending",
       "title": "Fireworks, Should We See It from the Side or the Bottom? - EP2017",
       "transfer_id": 105081276,
-      "updated_at": "2026-04-27T04:03:50.622461+00:00"
+      "updated_at": "2026-04-27T04:25:44.410395+00:00"
     },
     "abbbphkc4zuj3zraysl4il7r2ps652eg": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.412113+00:00",
       "status": "error",
       "title": "NEEDY GIRL OVERDOSE - EP04",
-      "updated_at": "2026-04-27T04:03:42.412122+00:00"
+      "updated_at": "2026-04-27T04:25:37.096446+00:00"
     },
     "abmuls7s3jezjuronkx3kmt7p4s3oci2": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.942321+00:00",
       "status": "error",
       "title": "One Piece - EP1159",
-      "updated_at": "2026-04-27T04:03:38.942337+00:00"
+      "updated_at": "2026-04-27T04:25:32.970316+00:00"
     },
     "acb6765c382f80f1c6628ad0dc6206a24ae7c4e4": {
       "category": "Series | Anime",
@@ -538,7 +538,7 @@
       "status": "pending",
       "title": "The Ancient Magus' Bride S01 1080p BD Dual Audio Animekaizoku",
       "transfer_id": 105081256,
-      "updated_at": "2026-04-27T04:03:50.725512+00:00"
+      "updated_at": "2026-04-27T04:25:44.520291+00:00"
     },
     "ad14d1957f2184392e9ef0c195e725c17f5f5e22": {
       "category": "Series | Anime",
@@ -546,7 +546,7 @@
       "status": "pending",
       "title": "The Rolling Girls Season 1 720p Dual Audio",
       "transfer_id": 105081299,
-      "updated_at": "2026-04-27T04:03:50.830771+00:00"
+      "updated_at": "2026-04-27T04:25:44.635935+00:00"
     },
     "afb726c0e76740922a011d610b7f17b9b7c8cbaa": {
       "category": "Series | Anime",
@@ -555,7 +555,7 @@
       "status": "pending",
       "title": "Kuusen Madoushi Kouhosei No Kyoukan + OVA 720p x264 BD Dual Audio v3",
       "transfer_id": 105081315,
-      "updated_at": "2026-04-27T04:03:50.937423+00:00"
+      "updated_at": "2026-04-27T04:25:44.744760+00:00"
     },
     "b3cf36cde902cd1cc0deb22a5d0b1c1e11ffffc6": {
       "category": "Series | Anime",
@@ -564,23 +564,23 @@
       "status": "pending",
       "title": "Angel Beats 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081311,
-      "updated_at": "2026-04-27T04:03:51.051562+00:00"
+      "updated_at": "2026-04-27T04:25:44.857360+00:00"
     },
     "b6knrggeye4qak75hnk44ufens6sihtd": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.594273+00:00",
       "status": "error",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
-      "updated_at": "2026-04-27T04:03:38.594290+00:00"
+      "updated_at": "2026-04-27T04:25:32.623700+00:00"
     },
     "bdsnllz65mwnezy2ed7rujvb7c23vu2n": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:43.613711+00:00",
       "status": "error",
       "title": "Yomi no Tsugai - EP04",
-      "updated_at": "2026-04-27T04:03:43.613719+00:00"
+      "updated_at": "2026-04-27T04:25:38.357404+00:00"
     },
     "c76694ec3c5242d6cd67e9c1db39608290249b99": {
       "category": "Series | Anime",
@@ -588,7 +588,7 @@
       "status": "pending",
       "title": "Strike Witches 720p x264 BD Dual Audio",
       "transfer_id": 105081289,
-      "updated_at": "2026-04-27T04:03:51.155585+00:00"
+      "updated_at": "2026-04-27T04:25:44.966442+00:00"
     },
     "ca87ad986f3a91ce25f50303db20d03458096dc5": {
       "category": "Series | Anime",
@@ -596,23 +596,23 @@
       "status": "pending",
       "title": "Demon Slayer - Kimetsu no Yaiba - Mugen Train",
       "transfer_id": 105081242,
-      "updated_at": "2026-04-27T04:03:51.274248+00:00"
+      "updated_at": "2026-04-27T04:25:45.078827+00:00"
     },
     "cakfjgezs25vdosdw6gd4aaru3nun6nh": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.478124+00:00",
       "status": "error",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
-      "updated_at": "2026-04-27T04:03:38.478140+00:00"
+      "updated_at": "2026-04-27T04:25:32.505680+00:00"
     },
     "ce5wszdl2dnjtsac4zvfumg4x6qcloee": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.960252+00:00",
       "status": "error",
       "title": "NEEDY GIRL OVERDOSE - EP04",
-      "updated_at": "2026-04-27T04:03:41.960264+00:00"
+      "updated_at": "2026-04-27T04:25:36.628448+00:00"
     },
     "cefb57407c8e6e2b8ee89de6bde7e18de4b44e48": {
       "category": "Series | Anime",
@@ -620,7 +620,7 @@
       "status": "pending",
       "title": "Akame Ga Kill! 1080p BD Dual Audio HEVC x265",
       "transfer_id": 105081272,
-      "updated_at": "2026-04-27T04:03:51.377963+00:00"
+      "updated_at": "2026-04-27T04:25:45.206789+00:00"
     },
     "d2742986780c6dba6a956b147a2b0ec26e1f9b72": {
       "category": "Series | Anime",
@@ -639,7 +639,7 @@
       "status": "pending",
       "title": "Ao no Exorcist - Kyoto Fujouou-hen Season 2_Rokey",
       "transfer_id": 105081278,
-      "updated_at": "2026-04-27T04:03:51.906682+00:00"
+      "updated_at": "2026-04-27T04:25:45.318338+00:00"
     },
     "dde44c581cf93309560a5d5a3d2981ecdc97045a": {
       "category": "Series | Anime",
@@ -647,7 +647,7 @@
       "status": "pending",
       "title": "Flavors of Youth - EP2018",
       "transfer_id": 105081264,
-      "updated_at": "2026-04-27T04:03:52.010223+00:00"
+      "updated_at": "2026-04-27T04:25:45.428716+00:00"
     },
     "de741a58371f314018d7cbe95ead34924d7b0c3b": {
       "category": "Series | Anime",
@@ -655,7 +655,7 @@
       "status": "pending",
       "title": "KonoSuba - Legend of the Crimson - EP2019",
       "transfer_id": 105081255,
-      "updated_at": "2026-04-27T04:03:52.112803+00:00"
+      "updated_at": "2026-04-27T04:25:45.536678+00:00"
     },
     "e145dde0769d5e0c646a71f33e4b7e904b75d193": {
       "category": "Series | Anime",
@@ -663,7 +663,7 @@
       "status": "pending",
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081267,
-      "updated_at": "2026-04-27T04:03:52.223562+00:00"
+      "updated_at": "2026-04-27T04:25:45.646102+00:00"
     },
     "e53c0bb85d31069c0cfd466502e8786be4340bf9": {
       "category": "Series | Anime",
@@ -671,7 +671,7 @@
       "status": "pending",
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081266,
-      "updated_at": "2026-04-27T04:03:52.339340+00:00"
+      "updated_at": "2026-04-27T04:25:45.754698+00:00"
     },
     "e5830d7f83ed2f0a4d347148a943511d05c7c670": {
       "category": "Series | Anime",
@@ -679,7 +679,7 @@
       "status": "pending",
       "title": "Oushitsu Kyoushi Haine",
       "transfer_id": 105081302,
-      "updated_at": "2026-04-27T04:03:52.444533+00:00"
+      "updated_at": "2026-04-27T04:25:45.863853+00:00"
     },
     "e773621f08b13bdb7584ab5b64440fd7183de0bd": {
       "category": "Series | Anime",
@@ -687,7 +687,7 @@
       "status": "pending",
       "title": "Fuuka_Rokey",
       "transfer_id": 105081277,
-      "updated_at": "2026-04-27T04:03:52.548644+00:00"
+      "updated_at": "2026-04-27T04:25:45.975350+00:00"
     },
     "ec338460551f2a687c17eb59911164eb95ebfe85": {
       "category": "Series | Anime",
@@ -695,7 +695,7 @@
       "status": "pending",
       "title": "Mushishi Zoku Shou 720p Eng Sub",
       "transfer_id": 105081283,
-      "updated_at": "2026-04-27T04:03:52.651900+00:00"
+      "updated_at": "2026-04-27T04:25:46.087321+00:00"
     },
     "ec344405385aa25304b2fdf80bc97b25dfb24f0b": {
       "category": "Series | Anime",
@@ -703,7 +703,7 @@
       "status": "pending",
       "title": "Dimension W 720p BD Dual Audio",
       "transfer_id": 105081261,
-      "updated_at": "2026-04-27T04:03:52.755441+00:00"
+      "updated_at": "2026-04-27T04:25:46.197797+00:00"
     },
     "f50419b08c4426f392bc54eb82cb02131dad6bea": {
       "category": "Series | Anime",
@@ -712,7 +712,7 @@
       "status": "pending",
       "title": "Aoharu x Kikanjuu",
       "transfer_id": 105081307,
-      "updated_at": "2026-04-27T04:03:52.860206+00:00"
+      "updated_at": "2026-04-27T04:25:46.308623+00:00"
     },
     "f88aaee04b1b5a0177b89a4c8d8773635ee5e0df": {
       "category": "Series | Anime",
@@ -720,7 +720,7 @@
       "status": "pending",
       "title": "Youjo Senki 720p BD Dual Audio",
       "transfer_id": 105081296,
-      "updated_at": "2026-04-27T04:03:52.964011+00:00"
+      "updated_at": "2026-04-27T04:25:46.416723+00:00"
     },
     "fb92a89a774f7867b510171441891c0b2f9f8176": {
       "category": "Series | Anime",
@@ -728,7 +728,7 @@
       "status": "pending",
       "title": "Working!! S1-S3 720p BD x265 10bit",
       "transfer_id": 105081251,
-      "updated_at": "2026-04-27T04:03:53.066613+00:00"
+      "updated_at": "2026-04-27T04:25:46.561928+00:00"
     },
     "fd0a08dbddead98f40c8dccf05186161322e8295": {
       "category": "Series | Anime",
@@ -736,7 +736,7 @@
       "status": "pending",
       "title": "Sound! Euphonium 1080p BD x265 10bit",
       "transfer_id": 105081250,
-      "updated_at": "2026-04-27T04:03:53.170814+00:00"
+      "updated_at": "2026-04-27T04:25:46.675130+00:00"
     },
     "fdaecb25c6d2ab010c2b1801c716288a428ebff6": {
       "category": "Series | Anime",
@@ -744,7 +744,7 @@
       "status": "pending",
       "title": "Steins;Gate OVA - Egoistic Poriomania",
       "transfer_id": 105081287,
-      "updated_at": "2026-04-27T04:03:53.275581+00:00"
+      "updated_at": "2026-04-27T04:25:46.786430+00:00"
     },
     "fe53a3f37422bbca066724d4f5f394790704fabc": {
       "category": "Series | Anime",
@@ -752,271 +752,271 @@
       "status": "pending",
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081265,
-      "updated_at": "2026-04-27T04:03:53.469508+00:00"
+      "updated_at": "2026-04-27T04:25:46.895850+00:00"
     },
     "grxo3l27qjzcu3csjwgsvikikshg6k3j": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.145295+00:00",
       "status": "error",
       "title": "Ikoku Nikki (01 - EP13",
-      "updated_at": "2026-04-27T04:03:38.145317+00:00"
+      "updated_at": "2026-04-27T04:25:32.159228+00:00"
     },
     "gyt4ilgbgeo6qj477dd7nr3wfu44f6qi": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.369511+00:00",
       "status": "error",
       "title": "Ikoku Nikki (01 - EP13",
-      "updated_at": "2026-04-27T04:03:38.369527+00:00"
+      "updated_at": "2026-04-27T04:25:32.389213+00:00"
     },
     "h5iadbpbum7kvec3pwtcuult52bjfide": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.929433+00:00",
       "status": "error",
       "title": "Maid-san wa Taberu Dake - EP05",
-      "updated_at": "2026-04-27T04:03:39.929448+00:00"
+      "updated_at": "2026-04-27T04:25:34.023733+00:00"
     },
     "hn3afw77v5slzvlg3wqyocxb5jykhrgh": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.849703+00:00",
       "status": "error",
       "title": "Yuusha no Kuzu - EP15",
-      "updated_at": "2026-04-27T04:03:41.849716+00:00"
+      "updated_at": "2026-04-27T04:25:35.996309+00:00"
     },
     "ikakruwas3werqiro2wnwxwmj2v6nikr": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.262408+00:00",
       "status": "error",
       "title": "Digimon Beatbreak - 28v2.mkv",
-      "updated_at": "2026-04-27T04:03:40.262424+00:00"
+      "updated_at": "2026-04-27T04:25:34.368688+00:00"
     },
     "isloxf65wzja3sd77syrvht3jifxlzhh": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.302979+00:00",
       "status": "error",
       "title": "Yuusha no Kuzu - EP15",
-      "updated_at": "2026-04-27T04:03:42.302987+00:00"
+      "updated_at": "2026-04-27T04:25:36.981874+00:00"
     },
     "iuo4jyranejm3cbizi4sjy4qyd2q5cl6": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.496709+00:00",
       "status": "error",
       "title": "Meitantei Precure! - 13v2.mkv",
-      "updated_at": "2026-04-27T04:03:40.496726+00:00"
+      "updated_at": "2026-04-27T04:25:34.598536+00:00"
     },
     "jgl4ogy4jhxa7dnvmm5e3kezboa3kydu": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:43.391684+00:00",
       "status": "error",
       "title": "Kanan-sama wa Akumade Choroi - EP04",
-      "updated_at": "2026-04-27T04:03:43.391690+00:00"
+      "updated_at": "2026-04-27T04:25:38.129891+00:00"
     },
     "jqkjj22kvkcieb32emsqms2utadg3w2n": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.043806+00:00",
       "status": "error",
       "title": "Maid-san wa Taberu Dake - EP05",
-      "updated_at": "2026-04-27T04:03:40.043822+00:00"
+      "updated_at": "2026-04-27T04:25:34.136224+00:00"
     },
     "jx7qg5nccjm5ymtfl726hzv4skrdrlyk": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.713360+00:00",
       "status": "error",
       "title": "Meitantei Precure! - 13v2.mkv",
-      "updated_at": "2026-04-27T04:03:40.713378+00:00"
+      "updated_at": "2026-04-27T04:25:34.827070+00:00"
     },
     "k3vgqxh2jym3n5asa6rylqnwncmtokev": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.172340+00:00",
       "status": "error",
       "title": "Ghost Concert - missing Songs - EP04",
-      "updated_at": "2026-04-27T04:03:39.172356+00:00"
+      "updated_at": "2026-04-27T04:25:33.221491+00:00"
     },
     "k4fdp6qtzlrewgtpplrbyqhkvqap6sfn": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.712323+00:00",
       "status": "error",
       "title": "Kuroneko to Majo no Kyoushitsu - EP03",
-      "updated_at": "2026-04-27T04:03:39.712338+00:00"
+      "updated_at": "2026-04-27T04:25:33.792724+00:00"
     },
     "kzllmde6fkoime4uijpoty5hxcd5a4yd": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.962360+00:00",
       "status": "error",
       "title": "Shunkashuutou Daikousha - Haru no Mai - EP05",
-      "updated_at": "2026-04-27T04:03:42.962380+00:00"
+      "updated_at": "2026-04-27T04:25:37.677356+00:00"
     },
     "lbkuevkri2mj76rddovqchyxql6npjnd": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:38.259300+00:00",
       "status": "error",
       "title": "Ikoku Nikki (01 - EP13",
-      "updated_at": "2026-04-27T04:03:38.259315+00:00"
+      "updated_at": "2026-04-27T04:25:32.272496+00:00"
     },
     "lv3lb74qro77ovu3e4zcuixsz4uvqnms": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.413054+00:00",
       "status": "error",
       "title": "Ace of Diamond Act II S2 - EP04",
-      "updated_at": "2026-04-27T04:03:41.413070+00:00"
+      "updated_at": "2026-04-27T04:25:35.529155+00:00"
     },
     "n2swdijncumiapbepe4qbndpq2lxaak7": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:43.501788+00:00",
       "status": "error",
       "title": "Yomi no Tsugai - EP04",
-      "updated_at": "2026-04-27T04:03:43.501796+00:00"
+      "updated_at": "2026-04-27T04:25:38.244505+00:00"
     },
     "ocld3iq7cibjdwrr656wjsee3a26a7dy": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.495387+00:00",
       "status": "error",
       "title": "Kuroneko to Majo no Kyoushitsu - EP03",
-      "updated_at": "2026-04-27T04:03:39.495401+00:00"
+      "updated_at": "2026-04-27T04:25:33.565902+00:00"
     },
     "or2ltod3p3etthq62x7433kq5vghn2f5": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.303993+00:00",
       "status": "error",
       "title": "Ace of Diamond Act II S2 - EP04",
-      "updated_at": "2026-04-27T04:03:41.304008+00:00"
+      "updated_at": "2026-04-27T04:25:35.414676+00:00"
     },
     "plom3nh7ee3dg2lnddscyexilk76echh": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.975640+00:00",
       "status": "error",
       "title": "Tsue to Tsurugi no Wistoria S2 - EP03",
-      "updated_at": "2026-04-27T04:03:40.975656+00:00"
+      "updated_at": "2026-04-27T04:25:35.058423+00:00"
     },
     "pvijeowsx7hgwqnt6wngkybt5g6n7jxy": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.742083+00:00",
       "status": "error",
       "title": "Niwatori Fighter - EP07",
-      "updated_at": "2026-04-27T04:03:41.742097+00:00"
+      "updated_at": "2026-04-27T04:25:35.878929+00:00"
     },
     "rh7ow5ahxf7th7rcdbezojji422fmyyz": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:43.067549+00:00",
       "status": "error",
       "title": "Shunkashuutou Daikousha - Haru no Mai - EP05",
-      "updated_at": "2026-04-27T04:03:43.067557+00:00"
+      "updated_at": "2026-04-27T04:25:37.790123+00:00"
     },
     "sgvs4d2mufwmywuk62zphb4eahdbynye": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.853956+00:00",
       "status": "error",
       "title": "Shunkashuutou Daikousha - Haru no Mai - EP05",
-      "updated_at": "2026-04-27T04:03:42.853962+00:00"
+      "updated_at": "2026-04-27T04:25:37.562690+00:00"
     },
     "tdfy2e7kzuvmziovlqljsdsb4g5qcaub": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.196429+00:00",
       "status": "error",
       "title": "Ace of Diamond Act II S2 - EP04",
-      "updated_at": "2026-04-27T04:03:41.196443+00:00"
+      "updated_at": "2026-04-27T04:25:35.295990+00:00"
     },
     "ttmsjwt5dimm2bd7rkcmfy5ota4ffij7": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.604475+00:00",
       "status": "error",
       "title": "Meitantei Precure! - 13v2.mkv",
-      "updated_at": "2026-04-27T04:03:40.604491+00:00"
+      "updated_at": "2026-04-27T04:25:34.713031+00:00"
     },
     "uagpdhckxqdppac2ipagzmj2brptrra5": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.089095+00:00",
       "status": "error",
       "title": "Tsue to Tsurugi no Wistoria S2 - EP03",
-      "updated_at": "2026-04-27T04:03:41.089110+00:00"
+      "updated_at": "2026-04-27T04:25:35.180051+00:00"
     },
     "ulzl2jqt3rsssijeixpxrnhsqwczkivn": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.632000+00:00",
       "status": "error",
       "title": "Niwatori Fighter - EP07",
-      "updated_at": "2026-04-27T04:03:41.632013+00:00"
+      "updated_at": "2026-04-27T04:25:35.765680+00:00"
     },
     "vskb5y4gnzyxgdieh4ntimm4uvfgkukb": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.628274+00:00",
       "status": "error",
       "title": "Kami no Niwatsuki Kusunoki-tei - EP04",
-      "updated_at": "2026-04-27T04:03:42.628283+00:00"
+      "updated_at": "2026-04-27T04:25:37.323799+00:00"
     },
     "w7srp4a6msbnxuaifwdahuyzr5dnhfmx": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:42.520055+00:00",
       "status": "error",
       "title": "Kami no Niwatsuki Kusunoki-tei - EP04",
-      "updated_at": "2026-04-27T04:03:42.520064+00:00"
+      "updated_at": "2026-04-27T04:25:37.210871+00:00"
     },
     "wn4qduzdjgxk6odkxopnnp5x7utwrbia": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.387316+00:00",
       "status": "error",
       "title": "Digimon Beatbreak - 28v2.mkv",
-      "updated_at": "2026-04-27T04:03:40.387331+00:00"
+      "updated_at": "2026-04-27T04:25:34.482267+00:00"
     },
     "xkprduse3rpparsafdqv5kzh5aw3wflc": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.387622+00:00",
       "status": "error",
       "title": "Ghost Concert - missing Songs - EP04",
-      "updated_at": "2026-04-27T04:03:39.387637+00:00"
+      "updated_at": "2026-04-27T04:25:33.452424+00:00"
     },
     "xqzf2a5z63hfkjqel5jqrx5ym7fmrkvr": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:40.866682+00:00",
       "status": "error",
       "title": "Tsue to Tsurugi no Wistoria S2 - EP03",
-      "updated_at": "2026-04-27T04:03:40.866697+00:00"
+      "updated_at": "2026-04-27T04:25:34.945404+00:00"
     },
     "zntrvxqwzoc7hegtf7b4gmimsf5culxi": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:41.523215+00:00",
       "status": "error",
       "title": "Niwatori Fighter - EP07",
-      "updated_at": "2026-04-27T04:03:41.523230+00:00"
+      "updated_at": "2026-04-27T04:25:35.643055+00:00"
     },
     "zyds2rguc73osfm335nfbmpmrbfa63ba": {
       "category": "Series | Anime",
-      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "error": "add_magnet HTTP ?: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
       "first_seen": "2026-04-27T04:03:39.050729+00:00",
       "status": "error",
       "title": "One Piece - EP1159",
-      "updated_at": "2026-04-27T04:03:39.050745+00:00"
+      "updated_at": "2026-04-27T04:25:33.084296+00:00"
     }
   }
 }

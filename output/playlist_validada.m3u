@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (577) ══════════
+### ══════════ CANAIS (579) ══════════
 
 
 ## ── Noticias (55) ──
@@ -59,11 +59,11 @@ https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-name="CBS News Detroit" tvg-logo="https://images.pluto.tv/channels/634f2610d5023700078f7dee/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Detroit
 https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 
-#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
-https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
-
 #EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
 https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
+
+#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
+https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Miami" tvg-logo="https://images.pluto.tv/channels/60fb299b79498900070b29e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Miami
 https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
@@ -71,11 +71,11 @@ https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
 #EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
-#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
-https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
-
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
+
+#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
+https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
@@ -171,13 +171,16 @@ https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
 https://jmp2.uk/plu-65790feacbd0d60008fac87a.m3u8
 
 
-## ── Esportes (9) ──
+## ── Esportes (10) ──
 
 #EXTINF:-1 tvg-name="Cine Premiere" tvg-logo="https://images.pluto.tv/channels/5cf968040ab7d8f181e6a68b/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", Cine Premiere
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 #EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/65b14aae0cb1a100087a216e/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
 https://jmp2.uk/plu-65b14aae0cb1a100087a216e.m3u8
+
+#EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/649b6898f2ec0000081a9460/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
+https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8
 
 #EXTINF:-1 tvg-name="DAZN TV" tvg-logo="https://images.pluto.tv/channels/647f07e74cfc2c0008a2e557/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN TV
 https://jmp2.uk/plu-647f07e74cfc2c0008a2e557.m3u8
@@ -507,7 +510,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (415) ──
+## ── Variados (416) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -1247,6 +1250,9 @@ https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Competition" tvg-logo="https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV Competition
 https://jmp2.uk/plu-603fde9026ecbf0007752c2c.m3u8
 
+#EXTINF:-1 tvg-name="Pluto TV Conspiracy" tvg-logo="https://images.pluto.tv/channels/5d4ae94ef1a1bbb350ca41bb/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV Conspiracy
+https://jmp2.uk/plu-5d4ae94ef1a1bbb350ca41bb.m3u8
+
 #EXTINF:-1 tvg-name="Pluto TV Crime" tvg-logo="https://images.pluto.tv/channels/5d767790d0438aceb41d03ae/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV Crime
 https://jmp2.uk/plu-5d767790d0438aceb41d03ae.m3u8
 
@@ -1760,11 +1766,11 @@ https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 ## ── Brazil ──
 
-#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
-https://www.youtube.com/watch?v=oUdd3CsxYaE
-
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+
+#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
+https://www.youtube.com/watch?v=oUdd3CsxYaE
 
 
 ## ── Geral ──
