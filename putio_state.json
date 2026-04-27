@@ -7,7 +7,7 @@
       "status": "pending",
       "title": "Tokyo Ghoul 1080p BD Dual Audio 10bit x265",
       "transfer_id": 105081294,
-      "updated_at": "2026-04-27T09:20:21.690443+00:00"
+      "updated_at": "2026-04-27T15:55:32.741280+00:00"
     },
     "05689006d0fde4cbcf8be2efd7d16801e1566658": {
       "category": "Series | Anime",
@@ -15,7 +15,7 @@
       "status": "pending",
       "title": "Black Lagoon 720p Dual-Audio HEVC",
       "transfer_id": 105081259,
-      "updated_at": "2026-04-27T09:20:21.851792+00:00"
+      "updated_at": "2026-04-27T15:55:32.864690+00:00"
     },
     "05db9c1ba37223a4fc445efee4a8a5d53ec604d4": {
       "category": "Series | Anime",
@@ -23,7 +23,7 @@
       "status": "pending",
       "title": "The Garden of Words 1080p BD Eng Sub",
       "transfer_id": 105081300,
-      "updated_at": "2026-04-27T09:20:22.019586+00:00"
+      "updated_at": "2026-04-27T15:55:32.988842+00:00"
     },
     "09def295412c231160ad61ee548202e3c65a6f95": {
       "category": "Series | Anime",
@@ -32,7 +32,7 @@
       "status": "pending",
       "title": "Clannad 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081310,
-      "updated_at": "2026-04-27T09:20:22.174103+00:00"
+      "updated_at": "2026-04-27T15:55:33.113074+00:00"
     },
     "0bba0c4ccce2ec967ab876097fc8aa00e73627d4": {
       "category": "Series | Anime",
@@ -40,7 +40,7 @@
       "status": "pending",
       "title": "Flavors of Youth - EP2018",
       "transfer_id": 105081263,
-      "updated_at": "2026-04-27T09:20:22.327966+00:00"
+      "updated_at": "2026-04-27T15:55:33.236266+00:00"
     },
     "128bcb029d864d53cdacb0acd9a083f9f5fb0ced": {
       "category": "Series | Anime",
@@ -48,7 +48,7 @@
       "status": "pending",
       "title": "A Piece of Phantasmagoria",
       "transfer_id": 105081298,
-      "updated_at": "2026-04-27T09:20:22.479596+00:00"
+      "updated_at": "2026-04-27T15:55:33.377098+00:00"
     },
     "15e54ca66bcd7e4d7297424e283ee9ddc19baacf": {
       "category": "Series | Anime",
@@ -56,7 +56,7 @@
       "status": "pending",
       "title": "Toaru Majutsu no Index II 1080p Dual Audio",
       "transfer_id": 105081275,
-      "updated_at": "2026-04-27T09:20:22.633332+00:00"
+      "updated_at": "2026-04-27T15:55:33.498111+00:00"
     },
     "1bb7dbe38e9d7a97304fa21e4dd0d632e3ef0b5e": {
       "category": "Series | Anime",
@@ -64,15 +64,16 @@
       "status": "pending",
       "title": "Shouwa Genroku Rakugo Shinjuu S2 720p Eng Sub",
       "transfer_id": 105081281,
-      "updated_at": "2026-04-27T09:20:22.791470+00:00"
+      "updated_at": "2026-04-27T15:55:33.619730+00:00"
     },
     "1fc8376fba3abbd8f45f2bf9c2d5c5b0bfe6b727": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081247",
       "first_seen": "2026-04-27T03:43:35.894675+00:00",
       "status": "pending",
       "title": "ERASED 720p BD Dual Audio",
       "transfer_id": 105081247,
-      "updated_at": "2026-04-27T09:20:22.945473+00:00"
+      "updated_at": "2026-04-27T15:55:33.741354+00:00"
     },
     "217f3638cb1df619fca29847dc9de1bad93e1238": {
       "category": "Series | Anime",
@@ -80,7 +81,7 @@
       "status": "pending",
       "title": "Shouwa Genroku Rakugo Shinjuu 720p Eng Sub",
       "transfer_id": 105081280,
-      "updated_at": "2026-04-27T09:20:23.098765+00:00"
+      "updated_at": "2026-04-27T15:55:33.871068+00:00"
     },
     "27d2uh3ggdzsb7kv47kzbtpcmgiiklth": {
       "category": "Series | Anime",
@@ -92,11 +93,12 @@
     },
     "28c8aa9786f37fc647ae9945b31504d5bf189db4": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081246",
       "first_seen": "2026-04-27T03:43:35.673428+00:00",
       "status": "pending",
       "title": "Tokyo Ghoul √A 720p 10bit BD Dual Audio",
       "transfer_id": 105081246,
-      "updated_at": "2026-04-27T09:20:23.251154+00:00"
+      "updated_at": "2026-04-27T15:55:33.993112+00:00"
     },
     "294ebc3e437ce6250f7cc47ddade8b38cbaedabf": {
       "category": "Series | Anime",
@@ -122,11 +124,12 @@
     },
     "2e595d8bf231fbec51db3463c3ca2df2315598b7": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081245",
       "first_seen": "2026-04-27T03:43:35.351040+00:00",
       "status": "pending",
       "title": "Parasyte The Maxim 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081245,
-      "updated_at": "2026-04-27T09:20:24.026778+00:00"
+      "updated_at": "2026-04-27T15:55:34.113677+00:00"
     },
     "2rmgx2kjo6v37mxxrk76nbbjrz7exjlx": {
       "category": "Series | Anime",
@@ -136,6 +139,14 @@
       "title": "Maid-san wa Taberu Dake - EP05",
       "updated_at": "2026-04-27T09:20:10.291854+00:00"
     },
+    "2robbvd5kdd7j2sklmlpgnlucaufr65j": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:32.207846+00:00",
+      "status": "error",
+      "title": "Tongari Boushi no Atelier - EP05",
+      "updated_at": "2026-04-27T15:55:32.207859+00:00"
+    },
     "30984d17acfb9f7f525fbd320de5ae59d7394b56": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:45.133986+00:00",
@@ -143,7 +154,7 @@
       "status": "pending",
       "title": "Gate:Thus the JSDF Fought There! Fire Dragon Arc 2nd Season   | Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
       "transfer_id": 105081316,
-      "updated_at": "2026-04-27T09:20:24.248197+00:00"
+      "updated_at": "2026-04-27T15:55:34.236402+00:00"
     },
     "3277ec5cf8ef258cd92041c4c587fdd80f6501d7": {
       "category": "Series | Anime",
@@ -151,7 +162,7 @@
       "status": "pending",
       "title": "The Empire of Corpses - EP2015",
       "transfer_id": 105081301,
-      "updated_at": "2026-04-27T09:20:24.400420+00:00"
+      "updated_at": "2026-04-27T15:55:34.362782+00:00"
     },
     "3348c52db9298930a3ab0a2dd00f5e8058e16b44": {
       "category": "Series | Anime",
@@ -159,7 +170,7 @@
       "status": "pending",
       "title": "Busou Shoujo Machiavellianism",
       "transfer_id": 105081306,
-      "updated_at": "2026-04-27T09:20:24.553915+00:00"
+      "updated_at": "2026-04-27T15:55:34.490010+00:00"
     },
     "34f6958c89be4cc1146b4808988d1074782120ab": {
       "category": "Series | Anime",
@@ -174,11 +185,12 @@
     },
     "37085bb01e48eb17e5b383c51e38aee44cf74059": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081248",
       "first_seen": "2026-04-27T03:43:36.016739+00:00",
       "status": "pending",
       "title": "Tokyo Ghoul Season 1 720p BD Dual Audio",
       "transfer_id": 105081248,
-      "updated_at": "2026-04-27T09:20:24.705612+00:00"
+      "updated_at": "2026-04-27T15:55:34.613095+00:00"
     },
     "39acc3f50d351645b95b291f6cdf31a158320552": {
       "category": "Series | Anime",
@@ -186,7 +198,7 @@
       "status": "pending",
       "title": "Aldnoah Zero S02 1080p Dual Audio x265 HEVC",
       "transfer_id": 105081270,
-      "updated_at": "2026-04-27T09:20:24.859072+00:00"
+      "updated_at": "2026-04-27T15:55:34.736517+00:00"
     },
     "3awwlzxaouemhjmswf2frourpdtwnqrs": {
       "category": "Series | Anime",
@@ -203,7 +215,7 @@
       "status": "pending",
       "title": "My Hero Academia (x265 - EP10",
       "transfer_id": 105081284,
-      "updated_at": "2026-04-27T09:20:25.011551+00:00"
+      "updated_at": "2026-04-27T15:55:34.857058+00:00"
     },
     "3dfe9b0ff37ea36f2a4e32f18cfbe9e118ff1eaa": {
       "category": "Series | Anime",
@@ -212,16 +224,17 @@
       "status": "pending",
       "title": "Tenchi Muyo! - Movie 3 - In Love 2 (x265 - EP10",
       "transfer_id": 105081292,
-      "updated_at": "2026-04-27T09:20:25.168627+00:00"
+      "updated_at": "2026-04-27T15:55:34.987143+00:00"
     },
     "3f080212c7489227a381d3f83ccf314f1a0593f8": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081243",
       "first_seen": "2026-04-27T03:43:35.084330+00:00",
       "percent": 0,
       "status": "pending",
       "title": "The Promised Neverland",
       "transfer_id": 105081243,
-      "updated_at": "2026-04-27T09:20:25.328570+00:00"
+      "updated_at": "2026-04-27T15:55:35.110138+00:00"
     },
     "3ui5v54d3appdi7jfhu35tqfgv3u5a7s": {
       "category": "Series | Anime",
@@ -238,7 +251,7 @@
       "status": "pending",
       "title": "Accel World 1080p x265 HEVC BD Dual Audio",
       "transfer_id": 105081274,
-      "updated_at": "2026-04-27T09:20:25.483904+00:00"
+      "updated_at": "2026-04-27T15:55:35.232109+00:00"
     },
     "4110a37343f6eeb2e711e0e930b19fab25851fb8": {
       "category": "Series | Anime",
@@ -247,7 +260,7 @@
       "status": "pending",
       "title": "Fate Zero 1080p BD Dual Audio",
       "transfer_id": 105081253,
-      "updated_at": "2026-04-27T09:20:25.637101+00:00"
+      "updated_at": "2026-04-27T15:55:35.355145+00:00"
     },
     "44da23a4b24547ae681fd059b48461130ee0ed63": {
       "category": "Series | Anime",
@@ -257,7 +270,7 @@
       "status": "pending",
       "title": "Kizumonogatari Complete 1 - EP03",
       "transfer_id": 105081304,
-      "updated_at": "2026-04-27T09:20:25.789922+00:00"
+      "updated_at": "2026-04-27T15:55:35.477366+00:00"
     },
     "496f6b104fe17d210afd697bb1023aa12d6fca20": {
       "category": "Series | Anime",
@@ -265,15 +278,16 @@
       "status": "pending",
       "title": "Yona of the Dawn (x265 - EP10",
       "transfer_id": 105081295,
-      "updated_at": "2026-04-27T09:20:25.942337+00:00"
+      "updated_at": "2026-04-27T15:55:35.600019+00:00"
     },
     "4ae1a460c72d427f4b3b7f092892b0365da6a515": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081244",
       "first_seen": "2026-04-27T03:43:35.208035+00:00",
       "status": "pending",
       "title": "One Punch Man Season 1 720p 10bit x265 HEVC Dual Audio",
       "transfer_id": 105081244,
-      "updated_at": "2026-04-27T09:20:26.094945+00:00"
+      "updated_at": "2026-04-27T15:55:35.720711+00:00"
     },
     "4bf1059940954f26029085bdd5e7fd64baca3c1f": {
       "category": "Series | Anime",
@@ -282,7 +296,7 @@
       "status": "pending",
       "title": "Tenchi Muyo! - Movie 1 - In Love (x265 - EP10",
       "transfer_id": 105081291,
-      "updated_at": "2026-04-27T09:20:26.247287+00:00"
+      "updated_at": "2026-04-27T15:55:35.842702+00:00"
     },
     "4d71dbf4a2181fc592158e5f20b8e683b62d24cc": {
       "category": "Series | Anime",
@@ -291,7 +305,7 @@
       "status": "pending",
       "title": "Shokugeki no Souma  720p BD Eng Sub",
       "transfer_id": 105081279,
-      "updated_at": "2026-04-27T09:20:26.400661+00:00"
+      "updated_at": "2026-04-27T15:55:35.967745+00:00"
     },
     "4f246a6910854d3fe378f9dbe9d410ec11a536b1": {
       "category": "Series | Anime",
@@ -299,7 +313,7 @@
       "status": "pending",
       "title": "Mahoutsukai no Yome a.k.a The Ancient Magus' Bride S01 1080p BD Dual Audio x265 - Animekaizoku",
       "transfer_id": 105081257,
-      "updated_at": "2026-04-27T09:20:26.552568+00:00"
+      "updated_at": "2026-04-27T15:55:36.089161+00:00"
     },
     "4hzq5ps572urotmd2tjiksbi4s7r5ybk": {
       "category": "Series | Anime",
@@ -309,13 +323,21 @@
       "title": "Kanan-sama wa Akumade Choroi - EP04",
       "updated_at": "2026-04-27T09:20:20.129558+00:00"
     },
+    "4px5txmjrstg7pvvtwennqevro5ggm2c": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.832704+00:00",
+      "status": "error",
+      "title": "Isekai Nonbiri Nouka S2 - EP04",
+      "updated_at": "2026-04-27T15:55:31.832715+00:00"
+    },
     "5bf65de3e70e383500617b2ea2f1991bcd1b2f4e": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:39.221756+00:00",
       "status": "pending",
       "title": "Aldnoah Zero S01 1080p Dual Audio HEVC x265",
       "transfer_id": 105081271,
-      "updated_at": "2026-04-27T09:20:26.705724+00:00"
+      "updated_at": "2026-04-27T15:55:36.209936+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
@@ -324,7 +346,7 @@
       "status": "pending",
       "title": "TERRA FORMARS + OVAs (x265 - EP10",
       "transfer_id": 105081293,
-      "updated_at": "2026-04-27T09:20:26.859187+00:00"
+      "updated_at": "2026-04-27T15:55:36.331094+00:00"
     },
     "5jiy7wktivkfdsjhj2latkarh7fd424l": {
       "category": "Series | Anime",
@@ -348,7 +370,7 @@
       "status": "pending",
       "title": "Your Lie in April 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081314,
-      "updated_at": "2026-04-27T09:20:27.017618+00:00"
+      "updated_at": "2026-04-27T15:55:36.451372+00:00"
     },
     "642efd3990645a7fa6afac6f12d50e96203fe905": {
       "category": "Series | Anime",
@@ -357,7 +379,7 @@
       "status": "pending",
       "title": "Ghost in the Shell - 720p HEVC",
       "transfer_id": 105081260,
-      "updated_at": "2026-04-27T09:20:27.176829+00:00"
+      "updated_at": "2026-04-27T15:55:36.573393+00:00"
     },
     "67ca6070f9532ee5aa9899518cb0f2676553042f": {
       "category": "Series | Anime",
@@ -366,7 +388,7 @@
       "status": "pending",
       "title": "One Piece Season 1 - EP07",
       "transfer_id": 105081262,
-      "updated_at": "2026-04-27T09:20:27.329020+00:00"
+      "updated_at": "2026-04-27T15:55:36.700540+00:00"
     },
     "6e9338a784333e98f87aa19163472aed1bfe43cd": {
       "category": "Series | Anime",
@@ -375,15 +397,16 @@
       "status": "pending",
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081268,
-      "updated_at": "2026-04-27T09:20:27.482846+00:00"
+      "updated_at": "2026-04-27T15:55:36.823499+00:00"
     },
     "6ea84ec8cf1c5063a1da563bc0f55bcc2ce59a23": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:36.628678+00:00",
+      "percent": 0,
       "status": "pending",
       "title": "Chivalry of a Failed Knight 720p BD Dual Audio",
       "transfer_id": 105081252,
-      "updated_at": "2026-04-27T09:20:27.636911+00:00"
+      "updated_at": "2026-04-27T15:55:36.945410+00:00"
     },
     "6t5dsn7m764ypgkxfkm3h6r7n7ntdw44": {
       "category": "Series | Anime",
@@ -399,7 +422,7 @@
       "status": "pending",
       "title": "Kimetsu no Yaiba -",
       "transfer_id": 105081258,
-      "updated_at": "2026-04-27T09:20:27.796080+00:00"
+      "updated_at": "2026-04-27T15:55:37.067110+00:00"
     },
     "74m3anjocyg3xvpq55u6nrtzscxpbfav": {
       "category": "Series | Anime",
@@ -433,7 +456,7 @@
       "status": "pending",
       "title": "Fate Stay Night Unlimited Blade Works 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081312,
-      "updated_at": "2026-04-27T09:20:27.947926+00:00"
+      "updated_at": "2026-04-27T15:55:37.188697+00:00"
     },
     "80c7275386f479c9bce612881a2b97e3f8400283": {
       "category": "Series | Anime",
@@ -442,15 +465,16 @@
       "status": "pending",
       "title": "Accel World Movie-Infinite Burst",
       "transfer_id": 105081273,
-      "updated_at": "2026-04-27T09:20:28.100058+00:00"
+      "updated_at": "2026-04-27T15:55:37.310980+00:00"
     },
     "81472ab6c963d66b045d342d9a60e0a8c7deae27": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:36.884544+00:00",
+      "percent": 0,
       "status": "pending",
       "title": "Overlord 480p BD Dual Audio",
       "transfer_id": 105081254,
-      "updated_at": "2026-04-27T09:20:28.255949+00:00"
+      "updated_at": "2026-04-27T15:55:37.434670+00:00"
     },
     "887dcb4e21fd286265e7be9a3c1136c05574e485": {
       "category": "Series | Anime",
@@ -458,7 +482,7 @@
       "status": "pending",
       "title": "Natsume Yuujinchou Roku 720p Eng Sub",
       "transfer_id": 105081285,
-      "updated_at": "2026-04-27T09:20:28.408526+00:00"
+      "updated_at": "2026-04-27T15:55:37.555806+00:00"
     },
     "8b92d88c61ed657a95b22834ce9eb4aa99e728fe": {
       "category": "Series | Anime",
@@ -466,7 +490,7 @@
       "status": "pending",
       "title": "Space Patrol Luluco {x265-720p-Sub-GoodJobMedia}",
       "transfer_id": 105081282,
-      "updated_at": "2026-04-27T09:20:28.561084+00:00"
+      "updated_at": "2026-04-27T15:55:37.678520+00:00"
     },
     "92057086d18a211f0c24c2735582e8a180347c0b": {
       "category": "Series | Anime",
@@ -474,7 +498,7 @@
       "status": "pending",
       "title": "Clockwork Planet",
       "transfer_id": 105081305,
-      "updated_at": "2026-04-27T09:20:28.714424+00:00"
+      "updated_at": "2026-04-27T15:55:37.804356+00:00"
     },
     "9778b2e0af26548f30ade24ed85f484bc5cf1cc5": {
       "category": "Series | Anime",
@@ -482,7 +506,7 @@
       "status": "pending",
       "title": "Strike Witches 2 720p x264 BD Dual Audio",
       "transfer_id": 105081288,
-      "updated_at": "2026-04-27T09:20:28.869684+00:00"
+      "updated_at": "2026-04-27T15:55:37.925519+00:00"
     },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
@@ -491,7 +515,7 @@
       "status": "pending",
       "title": "Tanaka-kun wa Itsumo Kedaruge {x265-720p-Sub-GoodJobMedia}",
       "transfer_id": 105081290,
-      "updated_at": "2026-04-27T09:20:29.024622+00:00"
+      "updated_at": "2026-04-27T15:55:38.046729+00:00"
     },
     "9e38e391e8c4d441623ed27f9ce2b2a5aae99c36": {
       "category": "Series | Anime",
@@ -511,7 +535,7 @@
       "status": "pending",
       "title": "Steins;Gate - Fuka Ryōiki no Déjà vu",
       "transfer_id": 105081286,
-      "updated_at": "2026-04-27T09:20:29.746796+00:00"
+      "updated_at": "2026-04-27T15:55:38.169527+00:00"
     },
     "a7006f7223c0d224c6b03005164de3d8106689bd": {
       "category": "Series | Anime",
@@ -519,7 +543,15 @@
       "status": "pending",
       "title": "Mayo Chiki! 1080p Dual Audio",
       "transfer_id": 105081303,
-      "updated_at": "2026-04-27T09:20:29.900681+00:00"
+      "updated_at": "2026-04-27T15:55:38.289781+00:00"
+    },
+    "a75i75oht35q2kcexkzavauea3bomze7": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.702608+00:00",
+      "status": "error",
+      "title": "Isekai Nonbiri Nouka S2 - EP04",
+      "updated_at": "2026-04-27T15:55:31.702622+00:00"
     },
     "a7f03fb1212eb2f7711767e949d92489a5a79665": {
       "category": "Series | Anime",
@@ -528,7 +560,7 @@
       "status": "pending",
       "title": "Sound! Euphonium 2 1080p BD x265 10bit",
       "transfer_id": 105081249,
-      "updated_at": "2026-04-27T09:20:30.051975+00:00"
+      "updated_at": "2026-04-27T15:55:38.411138+00:00"
     },
     "aa7e182b9a216c0a844e13244daadb5aef5c6e45": {
       "category": "Series | Anime",
@@ -536,7 +568,7 @@
       "status": "pending",
       "title": "Fireworks, Should We See It from the Side or the Bottom? - EP2017",
       "transfer_id": 105081276,
-      "updated_at": "2026-04-27T09:20:30.207596+00:00"
+      "updated_at": "2026-04-27T15:55:38.533736+00:00"
     },
     "abbbphkc4zuj3zraysl4il7r2ps652eg": {
       "category": "Series | Anime",
@@ -560,7 +592,7 @@
       "status": "pending",
       "title": "The Ancient Magus' Bride S01 1080p BD Dual Audio Animekaizoku",
       "transfer_id": 105081256,
-      "updated_at": "2026-04-27T09:20:30.360891+00:00"
+      "updated_at": "2026-04-27T15:55:38.657368+00:00"
     },
     "ad14d1957f2184392e9ef0c195e725c17f5f5e22": {
       "category": "Series | Anime",
@@ -568,7 +600,7 @@
       "status": "pending",
       "title": "The Rolling Girls Season 1 720p Dual Audio",
       "transfer_id": 105081299,
-      "updated_at": "2026-04-27T09:20:30.513715+00:00"
+      "updated_at": "2026-04-27T15:55:38.779764+00:00"
     },
     "afb726c0e76740922a011d610b7f17b9b7c8cbaa": {
       "category": "Series | Anime",
@@ -577,7 +609,15 @@
       "status": "pending",
       "title": "Kuusen Madoushi Kouhosei No Kyoukan + OVA 720p x264 BD Dual Audio v3",
       "transfer_id": 105081315,
-      "updated_at": "2026-04-27T09:20:30.667810+00:00"
+      "updated_at": "2026-04-27T15:55:38.911793+00:00"
+    },
+    "alsr2zwv7i4kk7ysmon5f2ifqxpoxgjb": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.324041+00:00",
+      "status": "error",
+      "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
+      "updated_at": "2026-04-27T15:55:31.324055+00:00"
     },
     "b3cf36cde902cd1cc0deb22a5d0b1c1e11ffffc6": {
       "category": "Series | Anime",
@@ -586,7 +626,7 @@
       "status": "pending",
       "title": "Angel Beats 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081311,
-      "updated_at": "2026-04-27T09:20:30.820808+00:00"
+      "updated_at": "2026-04-27T15:55:39.036490+00:00"
     },
     "b6knrggeye4qak75hnk44ufens6sihtd": {
       "category": "Series | Anime",
@@ -610,16 +650,17 @@
       "status": "pending",
       "title": "Strike Witches 720p x264 BD Dual Audio",
       "transfer_id": 105081289,
-      "updated_at": "2026-04-27T09:20:30.975932+00:00"
+      "updated_at": "2026-04-27T15:55:39.157349+00:00"
     },
     "ca87ad986f3a91ce25f50303db20d03458096dc5": {
       "category": "Series | Anime",
+      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081242",
       "first_seen": "2026-04-27T03:43:34.954414+00:00",
       "percent": 8,
       "status": "pending",
       "title": "Demon Slayer - Kimetsu no Yaiba - Mugen Train",
       "transfer_id": 105081242,
-      "updated_at": "2026-04-27T09:20:31.135423+00:00"
+      "updated_at": "2026-04-27T15:55:39.278657+00:00"
     },
     "cakfjgezs25vdosdw6gd4aaru3nun6nh": {
       "category": "Series | Anime",
@@ -644,7 +685,7 @@
       "status": "pending",
       "title": "Akame Ga Kill! 1080p BD Dual Audio HEVC x265",
       "transfer_id": 105081272,
-      "updated_at": "2026-04-27T09:20:31.287181+00:00"
+      "updated_at": "2026-04-27T15:55:39.400770+00:00"
     },
     "d2742986780c6dba6a956b147a2b0ec26e1f9b72": {
       "category": "Series | Anime",
@@ -663,7 +704,7 @@
       "status": "pending",
       "title": "Ao no Exorcist - Kyoto Fujouou-hen Season 2_Rokey",
       "transfer_id": 105081278,
-      "updated_at": "2026-04-27T09:20:31.442925+00:00"
+      "updated_at": "2026-04-27T15:55:39.521955+00:00"
     },
     "dde44c581cf93309560a5d5a3d2981ecdc97045a": {
       "category": "Series | Anime",
@@ -671,15 +712,16 @@
       "status": "pending",
       "title": "Flavors of Youth - EP2018",
       "transfer_id": 105081264,
-      "updated_at": "2026-04-27T09:20:31.594921+00:00"
+      "updated_at": "2026-04-27T15:55:39.643024+00:00"
     },
     "de741a58371f314018d7cbe95ead34924d7b0c3b": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:37.013691+00:00",
+      "percent": 0,
       "status": "pending",
       "title": "KonoSuba - Legend of the Crimson - EP2019",
       "transfer_id": 105081255,
-      "updated_at": "2026-04-27T09:20:31.752743+00:00"
+      "updated_at": "2026-04-27T15:55:39.766959+00:00"
     },
     "e145dde0769d5e0c646a71f33e4b7e904b75d193": {
       "category": "Series | Anime",
@@ -688,7 +730,7 @@
       "status": "pending",
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081267,
-      "updated_at": "2026-04-27T09:20:31.904540+00:00"
+      "updated_at": "2026-04-27T15:55:39.890038+00:00"
     },
     "e53c0bb85d31069c0cfd466502e8786be4340bf9": {
       "category": "Series | Anime",
@@ -697,7 +739,7 @@
       "status": "pending",
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081266,
-      "updated_at": "2026-04-27T09:20:32.061096+00:00"
+      "updated_at": "2026-04-27T15:55:40.010435+00:00"
     },
     "e5830d7f83ed2f0a4d347148a943511d05c7c670": {
       "category": "Series | Anime",
@@ -705,7 +747,7 @@
       "status": "pending",
       "title": "Oushitsu Kyoushi Haine",
       "transfer_id": 105081302,
-      "updated_at": "2026-04-27T09:20:32.219994+00:00"
+      "updated_at": "2026-04-27T15:55:40.132334+00:00"
     },
     "e773621f08b13bdb7584ab5b64440fd7183de0bd": {
       "category": "Series | Anime",
@@ -713,7 +755,7 @@
       "status": "pending",
       "title": "Fuuka_Rokey",
       "transfer_id": 105081277,
-      "updated_at": "2026-04-27T09:20:32.373201+00:00"
+      "updated_at": "2026-04-27T15:55:40.258453+00:00"
     },
     "ec338460551f2a687c17eb59911164eb95ebfe85": {
       "category": "Series | Anime",
@@ -721,7 +763,7 @@
       "status": "pending",
       "title": "Mushishi Zoku Shou 720p Eng Sub",
       "transfer_id": 105081283,
-      "updated_at": "2026-04-27T09:20:32.526554+00:00"
+      "updated_at": "2026-04-27T15:55:40.380505+00:00"
     },
     "ec344405385aa25304b2fdf80bc97b25dfb24f0b": {
       "category": "Series | Anime",
@@ -729,7 +771,7 @@
       "status": "pending",
       "title": "Dimension W 720p BD Dual Audio",
       "transfer_id": 105081261,
-      "updated_at": "2026-04-27T09:20:32.683223+00:00"
+      "updated_at": "2026-04-27T15:55:40.502339+00:00"
     },
     "f50419b08c4426f392bc54eb82cb02131dad6bea": {
       "category": "Series | Anime",
@@ -738,7 +780,7 @@
       "status": "pending",
       "title": "Aoharu x Kikanjuu",
       "transfer_id": 105081307,
-      "updated_at": "2026-04-27T09:20:32.843192+00:00"
+      "updated_at": "2026-04-27T15:55:40.626600+00:00"
     },
     "f88aaee04b1b5a0177b89a4c8d8773635ee5e0df": {
       "category": "Series | Anime",
@@ -746,15 +788,16 @@
       "status": "pending",
       "title": "Youjo Senki 720p BD Dual Audio",
       "transfer_id": 105081296,
-      "updated_at": "2026-04-27T09:20:32.996030+00:00"
+      "updated_at": "2026-04-27T15:55:40.753617+00:00"
     },
     "fb92a89a774f7867b510171441891c0b2f9f8176": {
       "category": "Series | Anime",
       "first_seen": "2026-04-27T03:43:36.493899+00:00",
+      "percent": 0,
       "status": "pending",
       "title": "Working!! S1-S3 720p BD x265 10bit",
       "transfer_id": 105081251,
-      "updated_at": "2026-04-27T09:20:33.151655+00:00"
+      "updated_at": "2026-04-27T15:55:40.877474+00:00"
     },
     "fd0a08dbddead98f40c8dccf05186161322e8295": {
       "category": "Series | Anime",
@@ -763,7 +806,7 @@
       "status": "pending",
       "title": "Sound! Euphonium 1080p BD x265 10bit",
       "transfer_id": 105081250,
-      "updated_at": "2026-04-27T09:20:33.306529+00:00"
+      "updated_at": "2026-04-27T15:55:40.998004+00:00"
     },
     "fdaecb25c6d2ab010c2b1801c716288a428ebff6": {
       "category": "Series | Anime",
@@ -772,7 +815,7 @@
       "status": "pending",
       "title": "Steins;Gate OVA - Egoistic Poriomania",
       "transfer_id": 105081287,
-      "updated_at": "2026-04-27T09:20:33.458609+00:00"
+      "updated_at": "2026-04-27T15:55:41.125362+00:00"
     },
     "fe53a3f37422bbca066724d4f5f394790704fabc": {
       "category": "Series | Anime",
@@ -781,7 +824,7 @@
       "status": "pending",
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081265,
-      "updated_at": "2026-04-27T09:20:33.610381+00:00"
+      "updated_at": "2026-04-27T15:55:41.246534+00:00"
     },
     "grxo3l27qjzcu3csjwgsvikikshg6k3j": {
       "category": "Series | Anime",
@@ -871,6 +914,14 @@
       "title": "Ghost Concert - missing Songs - EP04",
       "updated_at": "2026-04-27T09:20:08.334829+00:00"
     },
+    "k4cfq2becju75z36qwd5qnvdrecfbnb3": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.451337+00:00",
+      "status": "error",
+      "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
+      "updated_at": "2026-04-27T15:55:31.451347+00:00"
+    },
     "k4fdp6qtzlrewgtpplrbyqhkvqap6sfn": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 400 BAD REQUEST — body={'error_id': None, 'error_message': 'Invalid magnet link', 'error_type': 'BadRequest', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 400}",
@@ -895,6 +946,14 @@
       "title": "Ikoku Nikki (01 - EP13",
       "updated_at": "2026-04-27T09:20:05.803931+00:00"
     },
+    "lmkgv3s74f6ozyjnwvn2vc337awcrf2f": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.198520+00:00",
+      "status": "error",
+      "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
+      "updated_at": "2026-04-27T15:55:31.198537+00:00"
+    },
     "lv3lb74qro77ovu3e4zcuixsz4uvqnms": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 400 BAD REQUEST — body={'error_id': None, 'error_message': 'Invalid magnet link', 'error_type': 'BadRequest', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 400}",
@@ -910,6 +969,14 @@
       "status": "error",
       "title": "Yomi no Tsugai - EP04",
       "updated_at": "2026-04-27T09:20:20.759165+00:00"
+    },
+    "ngsvqcjo7epeyu5rbrzhibg2vlekftxp": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.959627+00:00",
+      "status": "error",
+      "title": "Tongari Boushi no Atelier - EP05",
+      "updated_at": "2026-04-27T15:55:31.959638+00:00"
     },
     "ocld3iq7cibjdwrr656wjsee3a26a7dy": {
       "category": "Series | Anime",
@@ -983,6 +1050,14 @@
       "title": "Tsue to Tsurugi no Wistoria S2 - EP03",
       "updated_at": "2026-04-27T09:20:13.814180+00:00"
     },
+    "uitmv37b672rfphgjvnmpju55qqo7wpu": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:31.575959+00:00",
+      "status": "error",
+      "title": "Isekai Nonbiri Nouka S2 - EP04",
+      "updated_at": "2026-04-27T15:55:31.575972+00:00"
+    },
     "ulzl2jqt3rsssijeixpxrnhsqwczkivn": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 400 BAD REQUEST — body={'error_id': None, 'error_message': 'Invalid magnet link', 'error_type': 'BadRequest', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 400}",
@@ -998,6 +1073,14 @@
       "status": "error",
       "title": "Kami no Niwatsuki Kusunoki-tei - EP04",
       "updated_at": "2026-04-27T09:20:18.237779+00:00"
+    },
+    "w5iqpruusqd6p4xgh23h6dfii4qvuk33": {
+      "category": "Series | Anime",
+      "error": "add_magnet: 400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add",
+      "first_seen": "2026-04-27T15:55:32.084765+00:00",
+      "status": "error",
+      "title": "Tongari Boushi no Atelier - EP05",
+      "updated_at": "2026-04-27T15:55:32.084776+00:00"
     },
     "w7srp4a6msbnxuaifwdahuyzr5dnhfmx": {
       "category": "Series | Anime",
