@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (578) ══════════
+### ══════════ CANAIS (577) ══════════
 
 
 ## ── Noticias (55) ──
@@ -59,11 +59,11 @@ https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-name="CBS News Detroit" tvg-logo="https://images.pluto.tv/channels/634f2610d5023700078f7dee/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Detroit
 https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 
-#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
-https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
-
 #EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
 https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
+
+#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
+https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Miami" tvg-logo="https://images.pluto.tv/channels/60fb299b79498900070b29e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Miami
 https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
@@ -71,11 +71,11 @@ https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
 #EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
-#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
-https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
-
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
+
+#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
+https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
@@ -507,7 +507,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (416) ──
+## ── Variados (415) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -1196,9 +1196,6 @@ https://jmp2.uk/plu-66d885aef0f17500084b6750.m3u8
 #EXTINF:-1 tvg-name="PGA TOUR" tvg-logo="https://images.pluto.tv/channels/5de94dacb394a300099fa22a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", PGA TOUR
 https://jmp2.uk/plu-5de94dacb394a300099fa22a.m3u8
 
-#EXTINF:-1 tvg-name="Pickers & Pawn" tvg-logo="https://images.pluto.tv/channels/6565413e4261ca0008215320/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pickers & Pawn
-https://jmp2.uk/plu-6565413e4261ca0008215320.m3u8
-
 #EXTINF:-1 tvg-name="Pluto TV 80's Action" tvg-logo="https://images.pluto.tv/channels/66d717c6abec540008ba7eb5/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV 80's Action
 https://jmp2.uk/plu-66d717c6abec540008ba7eb5.m3u8
 
@@ -1758,7 +1755,7 @@ https://jmp2.uk/plu-6319ee0cf78bb10007ee5e6b.m3u8
 https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 
-### ══════════ SÉRIES (16) ══════════
+### ══════════ SÉRIES (20) ══════════
 
 
 ## ── Brazil ──
@@ -1772,8 +1769,17 @@ https://www.youtube.com/watch?v=ABVQXgr2LW4
 
 ## ── Geral ──
 
+#EXTINF:-1 tvg-name="Ghost Concert - missing Songs E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | Ghost Concert - missing Songs | Temporada 01", Ghost Concert - missing Songs E04
+https://s92-cdn77.put.io/download/1584085255?u=8wGjrI4tgDXZOfwOClMRSNK8L9gkL2JS1dJ24-jiuDq7uj2-6a9_TrZI4OUE4sZeZAppcjIHsWnV5YNq6e1W8Q%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
+
 #EXTINF:-1 tvg-name="Heavy Objec E01" tvg-logo="" tvg-type="series" group-title="Series | Geral | Heavy Objec | Temporada 720", Heavy Objec E01
 https://s62-cdn77.put.io/download/1583908244?u=AceZ48ZcuS3Ap_N2FK5WJaJARUSob0cEQKhGIZR_dckXFWIA4MFLDIgyCUzthWvgSob3Igya1GYYyL4sXIaDOA%3D%3D&oauth_token=H2BXB3GMKP5UZBE3KYKG
+
+#EXTINF:-1 tvg-name="Ikoku Nikki (01 E13" tvg-logo="" tvg-type="series" group-title="Series | Geral | Ikoku Nikki (01 | Temporada 01", Ikoku Nikki (01 E13
+https://s103-cdn77.put.io/download/1584085260?u=06kMNoH03Uz8H-Svnkp4u6s8CPAL-g2KNjRcxO75HRt19v6kILHKjpeY5d8TjahNJjAL36pvFHMENu9FkC_oJw%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
+
+#EXTINF:-1 tvg-name="Kuroneko to Majo no Kyoushitsu E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Kuroneko to Majo no Kyoushitsu | Temporada 01", Kuroneko to Majo no Kyoushitsu E03
+https://s96-cdn77.put.io/download/1584085256?u=fx7hyPLziMFZYfYlpF31yQ4hF3XnD4o8h7iWnXn8d3mJPVGlNhfkggj6g9-r0Mt87ygUvz51hyBUqNwiUobWqg%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
 
 #EXTINF:-1 tvg-name="LIAR GAME E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | LIAR GAME | Temporada 01", LIAR GAME E04
 https://s92-cdn77.put.io/download/1584084030?u=wtwme8IE3zpEELTrizuXRqX9U3JEIe-FenPt0JzKa9cQaftBkhE95HsK2Sp1YNZmTweAPdRDglievDgvoXd6DA%3D%3D&oauth_token=QF32NHMO6B2DSGZMD5KL
@@ -1822,6 +1828,12 @@ https://s102-cdn77.put.io/download/1584084933?u=KwuIEkKkBRhkg6j860gXPBmUpWsMAG46
 
 #EXTINF:-1 tvg-name="Clannad After Story 720p BD x265 10bit Dual Audio" tvg-logo="" tvg-type="series" group-title="Series | Shoujo | Series | Anime | Temporada 01", Clannad After Story 720p BD x265 10bit Dual Audio
 https://s67-cdn77.put.io/download/1583936493?u=_JTZPeMfXzM8zAwRot0boyGFxa30fuWr-YnrGtXTkHdo5P5K3BUdPP6SbPhz8sk9bTG1FKLCNy0ZLEuWDZxSYg%3D%3D&oauth_token=H2BXB3GMKP5UZBE3KYKG
+
+
+## ── Shounen ──
+
+#EXTINF:-1 tvg-name="One Piece E1159" tvg-logo="" tvg-type="series" group-title="Series | Shounen | One Piece | Temporada 01", One Piece E1159
+https://s86-cdn77.put.io/download/1584085254?u=NllZASl3Rf5VBZevYYW2pXExKYuoCD74jRtT6m04GnRcb1v5NJoCKor2eVgkPuNK00-4tdErER0OggGtcd3v3Q%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
 
 
 ### ══════════ FILMES (317) ══════════

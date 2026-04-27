@@ -68,6 +68,15 @@
       "transfer_id": 105081263,
       "updated_at": "2026-04-27T21:15:18.261444+00:00"
     },
+    "101454989996bb51ba43b78c3e0011a6db46f9a7": {
+      "category": "Series | Anime",
+      "first_seen": "2026-04-27T21:56:26.768283+00:00",
+      "percent": 100,
+      "status": "pending",
+      "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
+      "transfer_id": 105096549,
+      "updated_at": "2026-04-27T21:56:28.310845+00:00"
+    },
     "128bcb029d864d53cdacb0acd9a083f9f5fb0ced": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -204,6 +213,17 @@
       "title": "Busou Shoujo Machiavellianism",
       "transfer_id": 105081306,
       "updated_at": "2026-04-27T21:15:19.360157+00:00"
+    },
+    "346eedaf5f82722a6c524d8d2aa148548e6f2b69": {
+      "category": "Series | Anime",
+      "file_id": 1584085257,
+      "first_seen": "2026-04-27T21:56:26.606660+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s103-cdn77.put.io/download/1584085260?u=06kMNoH03Uz8H-Svnkp4u6s8CPAL-g2KNjRcxO75HRt19v6kILHKjpeY5d8TjahNJjAL36pvFHMENu9FkC_oJw%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP",
+      "title": "Ikoku Nikki (01 - EP13",
+      "transfer_id": 105096548,
+      "updated_at": "2026-04-27T21:56:28.750278+00:00"
     },
     "34f6958c89be4cc1146b4808988d1074782120ab": {
       "category": "Series | Anime",
@@ -367,6 +387,17 @@
       "title": "Isekai Nonbiri Nouka S2 - EP04",
       "updated_at": "2026-04-27T15:55:31.832715+00:00"
     },
+    "56ea685cfa4e19b6f41207a385c1b66899372895": {
+      "category": "Series | Anime",
+      "file_id": 1584085255,
+      "first_seen": "2026-04-27T21:56:27.092202+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s92-cdn77.put.io/download/1584085255?u=8wGjrI4tgDXZOfwOClMRSNK8L9gkL2JS1dJ24-jiuDq7uj2-6a9_TrZI4OUE4sZeZAppcjIHsWnV5YNq6e1W8Q%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP",
+      "title": "Ghost Concert - missing Songs - EP04",
+      "transfer_id": 105096551,
+      "updated_at": "2026-04-27T21:56:29.235152+00:00"
+    },
     "57045868241269fee77e8587d836a3890450b43b": {
       "category": "Series | Anime",
       "file_id": 1584084930,
@@ -497,6 +528,17 @@
       "status": "error",
       "title": "Kanan-sama wa Akumade Choroi - EP04",
       "updated_at": "2026-04-27T09:20:19.815596+00:00"
+    },
+    "70963da21f120291da31f77d64c884d835e07c78": {
+      "category": "Series | Anime",
+      "file_id": 1584085256,
+      "first_seen": "2026-04-27T21:56:27.249444+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s96-cdn77.put.io/download/1584085256?u=fx7hyPLziMFZYfYlpF31yQ4hF3XnD4o8h7iWnXn8d3mJPVGlNhfkggj6g9-r0Mt87ygUvz51hyBUqNwiUobWqg%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP",
+      "title": "Kuroneko to Majo no Kyoushitsu - EP03",
+      "transfer_id": 105096552,
+      "updated_at": "2026-04-27T21:56:29.623186+00:00"
     },
     "73d9794e87599bfd74a0c14efabc7f3a6a197899": {
       "category": "Series | Anime",
@@ -826,6 +868,17 @@
       "title": "Studio Ghibli Movies Collection 1984 - EP2014",
       "transfer_id": 105081308,
       "updated_at": "2026-04-27T04:03:51.803713+00:00"
+    },
+    "d82d65e6e07508c3a592b17458ba9178e766c232": {
+      "category": "Series | Anime",
+      "file_id": 1584085254,
+      "first_seen": "2026-04-27T21:56:26.936124+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s86-cdn77.put.io/download/1584085254?u=NllZASl3Rf5VBZevYYW2pXExKYuoCD74jRtT6m04GnRcb1v5NJoCKor2eVgkPuNK00-4tdErER0OggGtcd3v3Q%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP",
+      "title": "One Piece - EP1159",
+      "transfer_id": 105096550,
+      "updated_at": "2026-04-27T21:56:29.980178+00:00"
     },
     "d8c5c48e822ce8fa3c0b787b6f7ee251e477b788": {
       "category": "Series | Anime",
