@@ -23,6 +23,7 @@ Uso programático:
 
 from __future__ import annotations
 
+import random
 import re
 import xml.etree.ElementTree as ET
 from urllib.parse import quote
@@ -34,6 +35,61 @@ from rss_sources import (
     _extrair_titulo_episodio,
 )
 from putio_integration import PutioOrchestrator
+from categorias import detectar_categoria_anime
+
+
+# ─── Política de conteúdo ─────────────────────────────────────────────────
+#
+# BLOCKED_KEYWORDS: descartam o item se aparecerem no título (word-boundary,
+# case-insensitive). Útil pra tags que não viraram categoria própria no
+# categorias.py mas costumam aparecer no nome do release.
+#
+# PRIORITY_CATEGORIES: ordem de preferência. Categoria que aparece mais
+# cedo na lista ganha mais peso no score final. Categorias não-listadas
+# ainda passam (não são bloqueadas), só ficam atrás na fila.
+
+BLOCKED_KEYWORDS = [
+    "yaoi",
+    "futanari",
+]
+
+PRIORITY_CATEGORIES = [
+    "Hentai",          # mais prioritário
+    "Ecchi e Harem",   # segundo
+]
+
+# Compila o regex uma vez pra evitar overhead.
+_BLOCKED_RE = re.compile(
+    r"\b(" + "|".join(re.escape(k) for k in BLOCKED_KEYWORDS) + r")\b",
+    re.IGNORECASE,
+)
+
+
+def _is_blocked(titulo: str) -> str | None:
+    """Retorna a keyword bloqueada se o título contém uma; None caso contrário."""
+    if not BLOCKED_KEYWORDS:
+        return None
+    m = _BLOCKED_RE.search(titulo or "")
+    return m.group(1).lower() if m else None
+
+
+def _category_score(categoria: str) -> int:
+    """
+    Bônus de score pra categorias prioritárias. Quanto mais cedo na lista,
+    maior o bônus. Categoria fora da lista recebe 0.
+
+    Os incrementos são pequenos (1, 2, 3...) pra que a qualidade
+    (480p=100, 720p=50) continue sendo o critério primário, e a categoria
+    só desempate ou priorize entre itens da mesma qualidade.
+
+    Exemplo: 480p Romance (score 100+0=100) > 720p Hentai (score 50+2=52)
+             480p Hentai (102) > 480p Romance (100) → prioriza Hentai
+    """
+    if categoria in PRIORITY_CATEGORIES:
+        # Primeiro da lista ganha bônus maior
+        bonus = len(PRIORITY_CATEGORIES) - PRIORITY_CATEGORIES.index(categoria)
+        return bonus
+    return 0
 
 
 # Trackers públicos usados quando construímos o magnet a partir do info_hash
@@ -227,10 +283,12 @@ def coletar_itens_rss() -> list[dict]:
     candidatos: list[dict] = []
     estatisticas_fonte: dict[str, dict] = {}
     descartados_resolucao_total: int = 0
+    bloqueados_total: dict[str, int] = {}  # keyword → count
 
     for fonte, url in SOURCES.items():
         estatisticas_fonte[fonte] = {
-            "total": 0, "com_magnet": 0, "rejeitados_qualidade": 0
+            "total": 0, "com_magnet": 0,
+            "rejeitados_qualidade": 0, "bloqueados": 0,
         }
         root = _fetch_rss(url)
         if root is None:
@@ -246,6 +304,13 @@ def coletar_itens_rss() -> list[dict]:
             if not titulo_raw:
                 continue
 
+            # Política de conteúdo: bloqueia keywords (yaoi, futanari, etc).
+            blocked_kw = _is_blocked(titulo_raw)
+            if blocked_kw:
+                estatisticas_fonte[fonte]["bloqueados"] += 1
+                bloqueados_total[blocked_kw] = bloqueados_total.get(blocked_kw, 0) + 1
+                continue
+
             nome_serie, ep = _extrair_titulo_episodio(titulo_raw)
             if ep:
                 titulo_norm = f"{nome_serie} - EP{int(ep):02d}"
@@ -256,15 +321,25 @@ def coletar_itens_rss() -> list[dict]:
             if not magnet:
                 continue
 
-            score, qual_label = _quality_score(titulo_raw)
+            quality_score, qual_label = _quality_score(titulo_raw)
 
             # Filtra resoluções fora da política (só 480p e 720p passam).
             # Score 0 = título sem resolução marcada OU resolução não aceita
             # (1080p, 2160p, etc).
-            if score == 0:
+            if quality_score == 0:
                 estatisticas_fonte[fonte]["rejeitados_qualidade"] += 1
                 descartados_resolucao_total += 1
                 continue
+
+            # Classifica antecipadamente pra computar bônus de prioridade.
+            # Aproveitamos o detectar_categoria_anime do categorias.py
+            # (mesmo que pipeline.py usa depois) — evita inconsistência.
+            categoria = detectar_categoria_anime(nome_serie or titulo_raw)
+            cat_bonus = _category_score(categoria)
+
+            # Score final = qualidade (peso forte) + bônus de categoria.
+            # Mantém quality como critério dominante, categoria desempata.
+            score = quality_score + cat_bonus
 
             key = _canonical_key(nome_serie, ep)
 
@@ -277,6 +352,8 @@ def coletar_itens_rss() -> list[dict]:
                 "key": key,
                 "score": score,
                 "quality": qual_label or "?",
+                "categoria_anime": categoria,
+                "cat_bonus": cat_bonus,
             })
             estatisticas_fonte[fonte]["com_magnet"] += 1
 
@@ -311,9 +388,27 @@ def coletar_itens_rss() -> list[dict]:
                       f"{atual['fonte']}/{atual['quality']}")
             )
 
-    # Fase 3: monta o output final, removendo metadados internos
+    # Fase 3: monta o output final.
+    # Política de ordem:
+    #   1. Itens com cat_bonus > 0 (categorias prioritárias) ficam no
+    #      topo, ordenados por score decrescente. Garante que Hentai/Ecchi
+    #      sejam consumidos primeiro pelo rate-limiter.
+    #   2. Itens não-priorizados são embaralhados aleatoriamente. Sem
+    #      isso, o RSS estável + dict determinístico fariam o "primeiro
+    #      lote" ser sempre o mesmo conjunto, e séries no fim da fila
+    #      nunca seriam baixadas. O random varia o que entra a cada run.
+    todos = list(melhor_por_chave.values()) + sem_chave
+
+    priorizados = [c for c in todos if c.get("cat_bonus", 0) > 0]
+    nao_priorizados = [c for c in todos if c.get("cat_bonus", 0) == 0]
+
+    priorizados.sort(key=lambda c: c.get("score", 0), reverse=True)
+    random.shuffle(nao_priorizados)
+
+    finalistas = priorizados + nao_priorizados
+
     out: list[dict] = []
-    for cand in list(melhor_por_chave.values()) + sem_chave:
+    for cand in finalistas:
         out.append({
             "magnet": cand["magnet"],
             "title": cand["title"],
@@ -324,9 +419,15 @@ def coletar_itens_rss() -> list[dict]:
     # ─── Logs ──────────────────────────────────────────────────────────
     for fonte, st in estatisticas_fonte.items():
         rejeitados = st.get("rejeitados_qualidade", 0)
+        bloqueados = st.get("bloqueados", 0)
         msg = f"  {fonte}: {st['com_magnet']}/{st['total']} aceitos"
+        extras = []
         if rejeitados:
-            msg += f" ({rejeitados} rejeitados por resolução não-permitida)"
+            extras.append(f"{rejeitados} fora da resolução")
+        if bloqueados:
+            extras.append(f"{bloqueados} bloqueados por keyword")
+        if extras:
+            msg += " (" + ", ".join(extras) + ")"
         msg += "."
         print(msg)
 
@@ -335,6 +436,10 @@ def coletar_itens_rss() -> list[dict]:
         print(f"\n  📐 Política de resolução: aceita apenas [{aceitas}].")
         print(f"     {descartados_resolucao_total} itens descartados por estarem fora.")
 
+    if bloqueados_total:
+        bloq_str = ", ".join(f"{kw}={n}" for kw, n in bloqueados_total.items())
+        print(f"\n  🚫 Política de conteúdo: bloqueadas keywords [{bloq_str}].")
+
     if duplicados_descartados:
         print(f"\n  🧹 Dedup: {len(duplicados_descartados)} duplicatas resolvidas.")
         # Mostra até 5 exemplos pra debug
@@ -342,6 +447,18 @@ def coletar_itens_rss() -> list[dict]:
             print(f"     • {key}: descartado {perdedor} (mantido {vencedor})")
         if len(duplicados_descartados) > 5:
             print(f"     ... e mais {len(duplicados_descartados) - 5}.")
+
+    # Mostra top 5 prioritários pra ficar visível no log (debug útil)
+    prioritarios = [c for c in finalistas if c.get("cat_bonus", 0) > 0]
+    if prioritarios:
+        print(f"\n  ⭐ Top categorias prioritárias na fila:")
+        for c in prioritarios[:5]:
+            print(
+                f"     • [{c['categoria_anime']}] {c['title'][:50]} "
+                f"({c['quality']}, score={c['score']})"
+            )
+        if len(prioritarios) > 5:
+            print(f"     ... e mais {len(prioritarios) - 5}.")
 
     return out
 
