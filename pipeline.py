@@ -71,6 +71,10 @@ SOURCES_VOD = [
 
 def detectar_tipo_por_url(url: str) -> str:
     u = url.lower()
+    # Put.io download URLs (s##-cdn##.put.io/download/ID) → tratamos como
+    # série de anime, já que vêm exclusivamente do bridge RSS → Put.io.
+    if "put.io/download/" in u or "putio.com/download/" in u:
+        return "series"
     if "/live/"   in u: return "live"
     if "/series/" in u: return "series"
     if "/movie/"  in u: return "movie"
