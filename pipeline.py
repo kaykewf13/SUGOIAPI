@@ -1,6 +1,8 @@
 """
-SUGOIAPI Pipeline v3.5
-categorias.py separado — importa CATEGORIAS_ANIME, GT_GENERICOS, detectar_categoria_anime
+SUGOIAPI Pipeline v3.6
+- Integração Put.io: importa transfers concluídos como entradas do acervo,
+  classificadas pelo mesmo fluxo do pipeline (categorias.py).
+- categorias.py separado — importa CATEGORIAS_ANIME, GT_GENERICOS, detectar_categoria_anime
 - Validação separada: canais live validados, VOD sem validação
 - Fontes consolidadas por tipo (SOURCES_LIVE / SOURCES_VOD)
 - Parse completo: SxxExx, EP01, 2nd Season, Temporada N
@@ -32,6 +34,9 @@ REPO_NAME  = "SUGOIAPI"
 BRANCH     = "main"
 
 EPG_URL = "http://drewlive24.duckdns.org:8081/merged_epg.xml.gz"
+
+# Caminho do state Put.io (na raiz do repo, fora de output/)
+PUTIO_STATE_PATH = SCRIPT_DIR / "putio_state.json"
 
 # ─────────────────────────────────────────────────────────────────
 # FONTES — separadas por tipo de conteúdo esperado
@@ -169,12 +174,14 @@ def classificar_filme(nome: str, group_title: str) -> str:
     return "Geral"
 
 # ─────────────────────────────────────────────────────────────────
-# CATEGORIAS DE ANIME
-# ─────────────────────────────────────────────────────────────────
 # CATEGORIAS DE ANIME — importado de categorias.py
 # ─────────────────────────────────────────────────────────────────
 
 from categorias import CATEGORIAS_ANIME, GT_GENERICOS, detectar_categoria_anime
+
+# Integração Put.io — leitura do state (sem precisar de PUTIO_TOKEN aqui)
+from putio_integration import PutioState
+
 
 def classificar_item(nome: str, url: str, group_title: str) -> dict:
     tipo = detectar_tipo_por_url(url)
@@ -377,6 +384,34 @@ def extrair_links(raw_url: str, filtro_br: bool = False) -> list:
         return []
 
 # ─────────────────────────────────────────────────────────────────
+# ETAPA 2.5 — Importação Put.io (transfers concluídos via state)
+# ─────────────────────────────────────────────────────────────────
+
+def carregar_itens_putio(state_path: Path = PUTIO_STATE_PATH) -> list:
+    """
+    Lê putio_state.json e retorna entradas no formato do acervo
+    ({Nome, URL, group_title, logo}). Idempotente — não toca a API
+    do Put.io, apenas consome o state já populado por harvest_putio.py.
+    Se o state não existir ainda (primeira execução), retorna lista vazia.
+    """
+    if not Path(state_path).exists():
+        return []
+
+    state = PutioState(state_path)
+    itens = []
+    for _info_hash, rec in state.all_done():
+        url = rec.get("stream_url")
+        if not url:
+            continue
+        itens.append({
+            "Nome":        rec.get("title", "Unknown"),
+            "URL":         url,
+            "group_title": rec.get("category") or "Series | Anime",
+            "logo":        "",
+        })
+    return itens
+
+# ─────────────────────────────────────────────────────────────────
 # ETAPA 3 — Validação APENAS para canais ao vivo
 # ─────────────────────────────────────────────────────────────────
 
@@ -559,11 +594,17 @@ if __name__ == "__main__":
     acervo.extend(canais_br)
     print(f"   {len(canais_br)} canais BR")
 
+    # 5. Put.io — transfers concluídos via RSS → cloud
+    print("\n☁️  Importando entradas Put.io concluídas...")
+    putio_items = carregar_itens_putio()
+    acervo.extend(putio_items)
+    print(f"   {len(putio_items)} entradas Put.io importadas")
+
     print(f"\n📦 Total bruto: {len(acervo)} entradas")
 
-    # 5. Validação separada por tipo
+    # 6. Validação separada por tipo
     validos = separar_e_validar(acervo)
 
-    # 6. Geração
+    # 7. Geração
     print("\n📝 Gerando playlist classificada...")
     gerar_m3u(validos)
