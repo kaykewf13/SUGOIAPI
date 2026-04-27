@@ -34,19 +34,48 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
+import base64
+
 import requests
 
 PUTIO_API = "https://api.put.io/v2"
 
 _MAGNET_HASH_RE = re.compile(
-    r"xt=urn:btih:([A-Fa-f0-9]{40}|[A-Za-z2-7]{32})"
+    r"xt=urn:btih:([A-Za-z0-9]{32,40})"
 )
 
 
 def info_hash_from_magnet(magnet: str) -> str | None:
-    """Extrai o info_hash de um magnet link, normalizado em lowercase."""
+    """
+    Extrai o info_hash de um magnet link, sempre normalizado em hex lowercase
+    (40 caracteres). Aceita as duas codificações que aparecem em magnets:
+      • Hex 40 chars (formato canônico)
+      • Base32 32 chars (usado por SubsPlease e alguns outros) — convertido
+        para hex antes de retornar.
+
+    Put.io rejeita magnets com info_hash em base32 com erro 400 'Invalid
+    magnet link', então a conversão é obrigatória.
+    """
     m = _MAGNET_HASH_RE.search(magnet or "")
-    return m.group(1).lower() if m else None
+    if not m:
+        return None
+    raw = m.group(1)
+
+    if len(raw) == 40:
+        # Já é hex — só normaliza pra lowercase.
+        if all(c in "0123456789abcdefABCDEF" for c in raw):
+            return raw.lower()
+        return None  # 40 chars mas não-hex: malformado
+
+    if len(raw) == 32:
+        # Base32 → hex. base64.b32decode exige uppercase.
+        try:
+            decoded = base64.b32decode(raw.upper())
+            return decoded.hex()
+        except Exception:
+            return None
+
+    return None
 
 
 # --------------------------------------------------------------------------- #
@@ -67,12 +96,28 @@ class PutioClient:
     # transfers ----------------------------------------------------------- #
 
     def add_magnet(self, magnet: str, parent_id: int = 0) -> dict:
+        # Put.io só quer save_parent_id no payload se for diferente de 0.
+        # Em algumas contas, enviar 0 explicitamente causa 400 BAD REQUEST.
+        payload = {"url": magnet}
+        if parent_id and parent_id > 0:
+            payload["save_parent_id"] = parent_id
+
         r = self.session.post(
             f"{PUTIO_API}/transfers/add",
-            data={"url": magnet, "save_parent_id": parent_id},
+            data=payload,
             timeout=self.timeout,
         )
-        r.raise_for_status()
+        if not r.ok:
+            # Anexa o body da resposta no erro pra debug ficar visível.
+            try:
+                body = r.json()
+            except Exception:
+                body = r.text[:200]
+            err = requests.HTTPError(
+                f"{r.status_code} {r.reason} — body={body}",
+                response=r,
+            )
+            raise err
         return r.json()["transfer"]
 
     def get_transfer(self, transfer_id: int) -> dict:
@@ -216,31 +261,145 @@ class PutioOrchestrator:
         state_path: str | Path = "putio_state.json",
         client: PutioClient | None = None,
         parent_folder_id: int = 0,
+        max_enqueue_per_run: int = 5,
+        max_pending_total: int = 10,
     ):
         self.client = client or PutioClient()
         self.state = PutioState(state_path)
         self.parent_folder_id = parent_folder_id
+        # Rate-limiting: evita saturar a fila do Put.io. Com 5/run a cada
+        # 2h, ~60 transfers/dia. Plano básico costuma ter ~10 slots
+        # concorrentes, então max_pending_total=10 mantém saudável.
+        self.max_enqueue_per_run = max_enqueue_per_run
+        self.max_pending_total = max_pending_total
 
     # ----- Fase A ----- #
+
+    def _normalize_magnet_to_hex(self, magnet: str) -> str:
+        """
+        Reescreve o info_hash do magnet em hex (40 chars). Put.io rejeita
+        info_hashes em base32 (32 chars) com 'Invalid magnet link', mesmo
+        sendo formato válido pelo padrão BEP-9.
+
+        Exemplo:
+          magnet:?xt=urn:btih:GRXO3L27QJZC...     →  base32 32 chars
+          magnet:?xt=urn:btih:34ee...lowercase     →  hex 40 chars (Put.io OK)
+        """
+        ih = info_hash_from_magnet(magnet)
+        if not ih:
+            return magnet  # não conseguiu extrair — devolve como veio
+        # Substitui a primeira ocorrência do hash original pela versão hex.
+        return _MAGNET_HASH_RE.sub(
+            lambda m: f"xt=urn:btih:{ih}",
+            magnet,
+            count=1,
+        )
+
+    def _try_add_magnet(self, magnet: str) -> dict:
+        """
+        Tenta enviar o magnet ao Put.io. Se receber 400, refaz a requisição
+        com versão minimalista do magnet (apenas xt=urn:btih:HASH, sem dn
+        nem trackers) — Put.io adiciona trackers via DHT/PEX automaticamente.
+
+        Antes de enviar, normaliza o info_hash pra hex se vier em base32.
+        """
+        normalized = self._normalize_magnet_to_hex(magnet)
+        try:
+            return self.client.add_magnet(
+                normalized, parent_id=self.parent_folder_id
+            )
+        except requests.HTTPError as e:
+            # Apenas 400 (BAD REQUEST) costuma ser por conteúdo do magnet.
+            # 401/403/429 não fazem sentido tentar de novo.
+            if not (e.response is not None and e.response.status_code == 400):
+                raise
+            ih = info_hash_from_magnet(normalized)
+            if not ih:
+                raise
+            minimal = f"magnet:?xt=urn:btih:{ih}"
+            print(f"  ↻ retry minimal magnet para {ih[:12]}...")
+            return self.client.add_magnet(
+                minimal, parent_id=self.parent_folder_id
+            )
 
     def enqueue(self, items: Iterable[dict]) -> int:
         """
         items: iter de {magnet, title, category}.
-        Idempotente: ignora info_hash já presente no state.
+        Idempotente: ignora info_hash já em state com status pending/done.
+        Itens com status 'error' são RETENTADOS (Put.io pode ter recuperado
+        de erros temporários — rate-limit, lentidão, manutenção).
+
+        Rate-limiting:
+          • Para de enfileirar se já há max_pending_total transfers pendentes.
+          • Limita a max_enqueue_per_run novos transfers por execução.
+        Isso evita saturar a fila do Put.io quando o RSS traz muitos itens
+        de uma vez (ex: primeira sincronização ou release dump).
+
         Retorna a quantidade de novos transfers enviados.
         """
         added = 0
+        retried = 0
+        skipped_errors = 0
+
+        # Conta pendentes globais ANTES de enfileirar — se já estourou o
+        # limite, sai cedo e deixa a fila do Put.io escoar antes do próximo run.
+        pending_count = sum(
+            1 for _ih, rec in self.state._data["transfers"].items()
+            if rec.get("status") == "pending"
+        )
+
+        if pending_count >= self.max_pending_total:
+            print(
+                f"  ⏸  Fila do Put.io saturada ({pending_count} pendentes ≥ "
+                f"limite {self.max_pending_total}). Aguardando download "
+                f"completar antes de adicionar novos."
+            )
+            return 0
+
+        slots_disponiveis = min(
+            self.max_enqueue_per_run,
+            self.max_pending_total - pending_count,
+        )
+        print(
+            f"  📊 Pendentes atuais: {pending_count} | "
+            f"Slots disponíveis neste run: {slots_disponiveis}"
+        )
+
         for it in items:
+            if added >= slots_disponiveis:
+                break
+
             magnet = it.get("magnet")
             ih = info_hash_from_magnet(magnet) if magnet else None
-            if not ih or self.state.has(ih):
+            if not ih:
                 continue
 
+            existing = self.state.get(ih)
+            if existing:
+                # Não retenta o que já é pending ou done — só recuperáveis.
+                if existing.get("status") in ("pending", "done"):
+                    continue
+                # status == 'error' → vai retentar abaixo
+                retried += 1
+
             try:
-                t = self.client.add_magnet(
-                    magnet, parent_id=self.parent_folder_id
-                )
+                t = self._try_add_magnet(magnet)
             except requests.HTTPError as e:
+                # Loga visivelmente para diagnóstico; antes era silencioso.
+                err_msg = f"add_magnet HTTP {e.response.status_code if e.response else '?'}: {e}"
+                print(f"  ⚠️  enqueue erro [{it.get('title','?')[:50]}]: {err_msg}")
+                skipped_errors += 1
+                self.state.upsert(
+                    ih,
+                    status="error",
+                    error=err_msg,
+                    title=it.get("title"),
+                    category=it.get("category"),
+                )
+                continue
+            except Exception as e:
+                print(f"  ⚠️  enqueue exceção [{it.get('title','?')[:50]}]: {e}")
+                skipped_errors += 1
                 self.state.upsert(
                     ih,
                     status="error",
@@ -255,10 +414,16 @@ class PutioOrchestrator:
                 transfer_id=t["id"],
                 file_id=t.get("file_id"),
                 status="pending",
+                error=None,  # limpa erro anterior se houver
                 title=it.get("title"),
                 category=it.get("category"),
             )
             added += 1
+
+        if retried:
+            print(f"  ↻ {retried} entradas em erro retentadas neste run.")
+        if skipped_errors:
+            print(f"  ⚠️  {skipped_errors} erros durante enqueue (ver detalhes acima).")
 
         self.state.save()
         return added
