@@ -263,6 +263,11 @@ class PutioOrchestrator:
         parent_folder_id: int = 0,
         max_enqueue_per_run: int = 5,
         max_pending_total: int = 10,
+        # ── Cleanup automático de transfers travados ────────────────────
+        cleanup_min_age_hours: float = 6.0,
+        cleanup_max_availability: float = 50.0,
+        cleanup_max_percent: float = 20.0,
+        cleanup_enabled: bool = True,
     ):
         self.client = client or PutioClient()
         self.state = PutioState(state_path)
@@ -272,6 +277,15 @@ class PutioOrchestrator:
         # concorrentes, então max_pending_total=10 mantém saudável.
         self.max_enqueue_per_run = max_enqueue_per_run
         self.max_pending_total = max_pending_total
+        # Cleanup: cancela transfers travados pra liberar slots da fila.
+        # Critérios cumulativos (item precisa atender TODOS):
+        #   age >= cleanup_min_age_hours        → deu tempo de baixar
+        #   availability < cleanup_max_avail.   → swarm sem peers o bastante
+        #   percent < cleanup_max_percent       → pouco progresso real
+        self.cleanup_min_age_hours = cleanup_min_age_hours
+        self.cleanup_max_availability = cleanup_max_availability
+        self.cleanup_max_percent = cleanup_max_percent
+        self.cleanup_enabled = cleanup_enabled
 
     # ----- Fase A ----- #
 
@@ -430,11 +444,108 @@ class PutioOrchestrator:
 
     # ----- Fase B ----- #
 
+    def _is_stuck(self, transfer: dict, rec: dict) -> tuple[bool, str]:
+        """
+        Avalia se um transfer está travado e deve ser cancelado.
+        Retorna (is_stuck, motivo) — motivo é string descritiva.
+
+        Critérios cumulativos:
+          1. Idade no state ≥ cleanup_min_age_hours
+          2. Availability < cleanup_max_availability (% do swarm)
+          3. Percent done < cleanup_max_percent
+        """
+        # 1) Idade
+        first_seen = rec.get("first_seen")
+        if not first_seen:
+            return False, "sem first_seen"
+        try:
+            seen_dt = datetime.fromisoformat(first_seen)
+        except ValueError:
+            return False, "first_seen inválido"
+        age_hours = (
+            datetime.now(timezone.utc) - seen_dt
+        ).total_seconds() / 3600
+        if age_hours < self.cleanup_min_age_hours:
+            return False, f"jovem ({age_hours:.1f}h)"
+
+        # 2) Availability — Put.io expõe como float (0-100+).
+        # Pode vir None em transfers recém-criados.
+        avail = transfer.get("availability")
+        if avail is None:
+            return False, "availability desconhecida"
+        if avail >= self.cleanup_max_availability:
+            return False, f"availability ok ({avail:.0f}%)"
+
+        # 3) Percent done
+        percent = transfer.get("percent_done") or 0
+        if percent >= self.cleanup_max_percent:
+            return False, f"progresso ok ({percent:.0f}%)"
+
+        return True, (
+            f"idade {age_hours:.1f}h, "
+            f"availability {avail:.0f}%, "
+            f"progresso {percent:.0f}%"
+        )
+
+    def _cleanup_stuck_transfers(self) -> int:
+        """
+        Itera pendentes e cancela os que atendem critérios de 'stuck'.
+        Retorna a quantidade cancelada.
+        """
+        if not self.cleanup_enabled:
+            return 0
+
+        cancelled = 0
+        for ih, rec in self.state.all_pending():
+            tid = rec.get("transfer_id")
+            if not tid:
+                continue
+
+            try:
+                t = self.client.get_transfer(tid)
+            except requests.HTTPError as e:
+                # Transfer não existe mais no Put.io (404) → marca como erro
+                # local e libera o slot. Pode ter sido apagado manualmente.
+                if e.response is not None and e.response.status_code == 404:
+                    self.state.upsert(
+                        ih, status="error", error="transfer não existe no Put.io"
+                    )
+                    cancelled += 1
+                continue
+
+            stuck, motivo = self._is_stuck(t, rec)
+            if not stuck:
+                continue
+
+            title = rec.get("title", "?")[:50]
+            print(f"  🗑  Cancelando travado [{title}]: {motivo}")
+            try:
+                self.client.cancel_transfer(tid)
+            except requests.HTTPError as e:
+                print(f"     ⚠️  falha ao cancelar: {e}")
+                continue
+
+            # Marca local como erro pra liberar o slot e não reenviar.
+            self.state.upsert(
+                ih,
+                status="error",
+                error=f"cancelado por travamento ({motivo})",
+            )
+            cancelled += 1
+
+        if cancelled:
+            print(f"  🗑  {cancelled} transfers travados cancelados.")
+        return cancelled
+
     def harvest(self) -> list[dict]:
         """
-        Atualiza pendentes; para os que concluíram, resolve URL de streaming.
+        1. Cleanup: cancela transfers travados (libera slots da fila).
+        2. Atualiza pendentes; para os que concluíram, resolve URL de streaming.
         Retorna lista de entradas recém-prontas: {title, category, stream_url}.
         """
+        # Fase 0 — limpa lixo antes de processar pendentes
+        self._cleanup_stuck_transfers()
+
         new_done: list[dict] = []
 
         for ih, rec in self.state.all_pending():
