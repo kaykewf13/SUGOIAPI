@@ -71,11 +71,11 @@ https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
 #EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
-#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
-https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
-
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
+
+#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
+https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
@@ -1761,7 +1761,7 @@ https://jmp2.uk/plu-6319ee0cf78bb10007ee5e6b.m3u8
 https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 
-### ══════════ SÉRIES (25) ══════════
+### ══════════ SÉRIES (28) ══════════
 
 
 ## ── Brazil ──
@@ -1802,6 +1802,12 @@ https://s73-cdn77.put.io/download/1584084055?u=mWVJrP9Z1D7_M140QQgZPHOkxza-X8cNq
 #EXTINF:-1 tvg-name="Maid-san wa Taberu Dake E05" tvg-logo="" tvg-type="series" group-title="Series | Geral | Maid-san wa Taberu Dake | Temporada 01", Maid-san wa Taberu Dake E05
 https://s77-cdn77.put.io/download/1584093721?u=7BmB1qQzwg5yaauNoMOTJtz38b06Gv-hHTW_f11VmTmF3tie1DZaKvma3L4j9yprhuzLJYOZQDs-16rpNeCm8g%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
+#EXTINF:-1 tvg-name="NEEDY GIRL OVERDOSE E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | NEEDY GIRL OVERDOSE | Temporada 01", NEEDY GIRL OVERDOSE E04
+https://s101-cdn77.put.io/download/1584099446?u=U1jy-TAj6MpdIPYkPYF33W896TdKFVp27sPjjTim35z76oV7RtAdR6ATrvhL_4hz3XMk1J-52LPNQ383rQOkHA%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF
+
+#EXTINF:-1 tvg-name="Niwatori Fighter E07" tvg-logo="" tvg-type="series" group-title="Series | Geral | Niwatori Fighter | Temporada 01", Niwatori Fighter E07
+https://s95-cdn77.put.io/download/1584099444?u=WFt2T_uzd32p165mYj83XR4hskerPbYpSOYcYOCFY8GSIC9BLsQaPUf91A_pHxGInIM8bZ5jhV0IWb8620n7ZA%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF
+
 #EXTINF:-1 tvg-name="Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi | Temporada 01", Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi E04
 https://s88-cdn77.put.io/download/1584084276?u=t1g8ePzwWnW1_kkkU8JRN-cK84BEJs9CQPpXzusjuHb-t_AS3UHLSCWWbxdaWqjxfDz_pNvKzZZSeT8v70xV5Q%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB
 
@@ -1822,6 +1828,9 @@ https://s69-cdn77.put.io/download/1584084934?u=ZhUOPxRm1ZdkDuhFX0RiYMQTP7MI2bUT-
 
 #EXTINF:-1 tvg-name="Tsue to Tsurugi no Wistoria S2 E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Tsue to Tsurugi no Wistoria S2 | Temporada 01", Tsue to Tsurugi no Wistoria S2 E03
 https://s70-cdn77.put.io/download/1584093725?u=KLGe8FRG4S_DjgbaajeEF6ttniIgmveWDbuiWBU7SklcPpN4cTa1_WRaX5AYk8IjkbBIryN49amCCFmi6d0DRQ%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
+
+#EXTINF:-1 tvg-name="Yuusha no Kuzu E15" tvg-logo="" tvg-type="series" group-title="Series | Geral | Yuusha no Kuzu | Temporada 01", Yuusha no Kuzu E15
+https://s66-cdn77.put.io/download/1584099445?u=yfsTZt93LmpDi3Augr0Tam9EqXYgrktGknqYEkeFAYGwDGpESkA22O2o1_3mDuRJ8S-PE1PLg9yGgt-DPuZ3hw%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF
 
 
 ## ── Historico ──

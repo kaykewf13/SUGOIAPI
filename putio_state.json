@@ -73,10 +73,21 @@
       "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T21:56:26.768283+00:00",
       "percent": 100,
-      "status": "error",
+      "status": "pending",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
-      "transfer_id": 105096549,
-      "updated_at": "2026-04-27T22:39:05.820719+00:00"
+      "transfer_id": 105097502,
+      "updated_at": "2026-04-27T23:10:36.607357+00:00"
+    },
+    "113b69646bd0da99c802e66a5a30dcbfa025b884": {
+      "category": "Series | Anime",
+      "file_id": 1584099446,
+      "first_seen": "2026-04-27T23:10:35.762331+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s101-cdn77.put.io/download/1584099446?u=U1jy-TAj6MpdIPYkPYF33W896TdKFVp27sPjjTim35z76oV7RtAdR6ATrvhL_4hz3XMk1J-52LPNQ383rQOkHA%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF",
+      "title": "NEEDY GIRL OVERDOSE - EP04",
+      "transfer_id": 105097505,
+      "updated_at": "2026-04-27T23:10:36.935065+00:00"
     },
     "128bcb029d864d53cdacb0acd9a083f9f5fb0ced": {
       "category": "Series | Anime",
@@ -262,6 +273,17 @@
       "status": "error",
       "title": "One Piece - EP1159",
       "updated_at": "2026-04-27T09:20:07.393186+00:00"
+    },
+    "3b7602dbffaf64bcd566dda1870ae1ea70a3c4c7": {
+      "category": "Series | Anime",
+      "file_id": 1584099445,
+      "first_seen": "2026-04-27T23:10:35.633147+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s66-cdn77.put.io/download/1584099445?u=yfsTZt93LmpDi3Augr0Tam9EqXYgrktGknqYEkeFAYGwDGpESkA22O2o1_3mDuRJ8S-PE1PLg9yGgt-DPuZ3hw%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF",
+      "title": "Yuusha no Kuzu - EP15",
+      "transfer_id": 105097504,
+      "updated_at": "2026-04-27T23:10:37.225825+00:00"
     },
     "3bb8cb54fdc34d10035e26269f731bbb2b9e27f0": {
       "category": "Series | Anime",
@@ -874,6 +896,17 @@
       "status": "error",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
       "updated_at": "2026-04-27T09:20:06.434579+00:00"
+    },
+    "cb671ade16cb85f390d32fc3c3310c917a2a2ee8": {
+      "category": "Series | Anime",
+      "file_id": 1584099444,
+      "first_seen": "2026-04-27T23:10:35.447956+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s95-cdn77.put.io/download/1584099444?u=WFt2T_uzd32p165mYj83XR4hskerPbYpSOYcYOCFY8GSIC9BLsQaPUf91A_pHxGInIM8bZ5jhV0IWb8620n7ZA%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF",
+      "title": "Niwatori Fighter - EP07",
+      "transfer_id": 105097503,
+      "updated_at": "2026-04-27T23:10:37.519298+00:00"
     },
     "ce5wszdl2dnjtsac4zvfumg4x6qcloee": {
       "category": "Series | Anime",
