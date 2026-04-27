@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (578) ══════════
+### ══════════ CANAIS (577) ══════════
 
 
 ## ── Noticias (55) ──
@@ -71,11 +71,11 @@ https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
 #EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
-#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
-https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
-
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
+
+#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
+https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
@@ -507,7 +507,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (416) ──
+## ── Variados (415) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -1247,9 +1247,6 @@ https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Competition" tvg-logo="https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV Competition
 https://jmp2.uk/plu-603fde9026ecbf0007752c2c.m3u8
 
-#EXTINF:-1 tvg-name="Pluto TV Conspiracy" tvg-logo="https://images.pluto.tv/channels/5d4ae94ef1a1bbb350ca41bb/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV Conspiracy
-https://jmp2.uk/plu-5d4ae94ef1a1bbb350ca41bb.m3u8
-
 #EXTINF:-1 tvg-name="Pluto TV Crime" tvg-logo="https://images.pluto.tv/channels/5d767790d0438aceb41d03ae/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV Crime
 https://jmp2.uk/plu-5d767790d0438aceb41d03ae.m3u8
 
@@ -1758,16 +1755,31 @@ https://jmp2.uk/plu-6319ee0cf78bb10007ee5e6b.m3u8
 https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 
-### ══════════ SÉRIES (2) ══════════
+### ══════════ SÉRIES (5) ══════════
 
 
 ## ── Brazil ──
 
+#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
+https://www.youtube.com/watch?v=oUdd3CsxYaE
+
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
 
-#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
-https://www.youtube.com/watch?v=oUdd3CsxYaE
+
+## ── Geral ──
+
+#EXTINF:-1 tvg-name="Ani*Kuri15 1080p x265 HEVC Eng Sub" tvg-logo="" tvg-type="series" group-title="Series | Geral | Series | Anime | Temporada 01", Ani*Kuri15 1080p x265 HEVC Eng Sub
+https://s97-cdn77.put.io/download/1583903615?u=cHPfg7bI7oLiUXr3o-8VTqalnbxo-9MKgqI7HzL8yPSy9OlrJhkv-u6mAH-TWE8AtoiawJaW97P2q6gFDnOCAQ%3D%3D&oauth_token=VTRIS2SNFDZJFRII5HKO
+
+#EXTINF:-1 tvg-name="Studio Ghibli Movies Collection 1984 E2014" tvg-logo="" tvg-type="series" group-title="Series | Geral | Studio Ghibli Movies Collection 1984 | Temporada 01", Studio Ghibli Movies Collection 1984 E2014
+https://s102-cdn77.put.io/download/1583903793?u=xqiOxR6u-7gSK6-wpPvytf90UvWNMGlzUrQyFxvmrKfhPjMYSgqvxOVyJvmY4RLaxDXq_LPalFQKvN-NT0ArRA%3D%3D&oauth_token=VTRIS2SNFDZJFRII5HKO
+
+
+## ── Historico ──
+
+#EXTINF:-1 tvg-name="Gintama 2015 720p Eng" tvg-logo="" tvg-type="series" group-title="Series | Historico | Series | Anime | Temporada 01", Gintama 2015 720p Eng
+https://s66-cdn77.put.io/download/1583903746?u=Yol-QFFHil-aXHw96ym1cplNCH8Ha4Z3gvG-rEnvhoWNjdwfkEcvpazrROpfcfWRZxwnshGbNjld91k1iQEF-g%3D%3D&oauth_token=VTRIS2SNFDZJFRII5HKO
 
 
 ### ══════════ FILMES (317) ══════════
