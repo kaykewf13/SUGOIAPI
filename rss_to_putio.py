@@ -173,23 +173,65 @@ def _canonical_key(nome_serie: str, episodio: str | int | None) -> str:
     return f"{nome}|{ep_norm}" if ep_norm else nome
 
 
+# ─── Priorização por qualidade ────────────────────────────────────────────
+#
+# Política: PREFERIR 480p (mais barato em storage), aceitar 720p como
+# fallback quando 480p não existe pra aquele episódio. Resoluções maiores
+# (1080p, 2160p) e formatos sem resolução marcada são REJEITADOS.
+#
+# Comportamento:
+#   • Score 0 (ou ausente em ALLOWED) = item descartado antes do dedup
+#   • Maior score vence em duplicata
+#   • 480p (score 100) > 720p (score 50) → 480 sempre ganha quando coexiste
+#   • Se só 720p existe pra um episódio, ele é mantido
+#
+# Para alterar prioridade, edita os scores. Para aceitar 1080p como
+# último recurso, adiciona "1080p": 10 a QUALITY_SCORES.
+
+QUALITY_SCORES = {
+    "480p":  100,   # PREFERIDO — economia máxima de storage
+    "720p":   50,   # fallback aceitável quando 480p não existe
+}
+
+# Regex que captura tokens de resolução em qualquer parte do título.
+_RESOLUTION_RE = re.compile(r"\b(360|480|540|720|1080|1440|2160)\s*p\b", re.IGNORECASE)
+
+
+def _quality_score(titulo: str) -> tuple[int, str]:
+    """
+    Extrai a resolução do título e retorna (score, label).
+    Score == 0 significa que a resolução não está nas aceitas (será descartado).
+    """
+    m = _RESOLUTION_RE.search(titulo or "")
+    if not m:
+        return 0, ""
+    label = f"{m.group(1)}p".lower()
+    return QUALITY_SCORES.get(label, 0), label
+
+
 def coletar_itens_rss() -> list[dict]:
     """
     Varre todos os SOURCES e retorna lista de dicts no formato esperado
     por PutioOrchestrator.enqueue:
         {"magnet": str, "title": str, "category": str}
 
-    Deduplicação: o mesmo episódio aparecendo em fontes/qualidades
-    diferentes (ex: SubsPlease 720p vs 1080p, ou SubsPlease vs Erai-raws)
-    é detectado por chave canônica (nome+episódio normalizados) e o
-    primeiro item vence — política first-come, first-served, garantindo
-    consistência da ordem de iteração de SOURCES.
+    Política de resolução: aceita apenas 480p (preferida) e 720p (fallback).
+    Outras resoluções (1080p, 2160p, sem marca) são descartadas no filtro.
+
+    Deduplicação inteligente: o mesmo episódio em múltiplas resoluções/fontes
+    é detectado por chave canônica (nome+episódio normalizados). Em caso de
+    duplicata, GANHA o item com maior `_quality_score` — que com a política
+    atual significa: 480p sempre vence 720p quando coexistem.
     """
-    out: list[dict] = []
-    seen_keys: dict[str, str] = {}  # key → fonte que ganhou (pra log)
-    duplicados = 0
+    # Fase 1: coletar TODOS os candidatos (sem filtrar duplicata ainda)
+    candidatos: list[dict] = []
+    estatisticas_fonte: dict[str, dict] = {}
+    descartados_resolucao_total: int = 0
 
     for fonte, url in SOURCES.items():
+        estatisticas_fonte[fonte] = {
+            "total": 0, "com_magnet": 0, "rejeitados_qualidade": 0
+        }
         root = _fetch_rss(url)
         if root is None:
             continue
@@ -197,56 +239,109 @@ def coletar_itens_rss() -> list[dict]:
         rss_items = root.findall(".//item")
         limite = LIMITE_POR_FONTE or len(rss_items)
         recortados = rss_items[:limite]
+        estatisticas_fonte[fonte]["total"] = len(recortados)
 
-        ok = 0
-        dup_aqui = 0
         for it in recortados:
             titulo_raw = (it.findtext("title") or "").strip()
             if not titulo_raw:
                 continue
 
-            # Normaliza para formato "Nome - EP01" — o que parse_serie em
-            # pipeline.py reconhece via regex \s*-?\s*EP\.?\s*(\d+).
-            # Sem essa normalização, todo episódio vira "Temporada 01 / E01".
             nome_serie, ep = _extrair_titulo_episodio(titulo_raw)
             if ep:
                 titulo_norm = f"{nome_serie} - EP{int(ep):02d}"
             else:
                 titulo_norm = nome_serie or titulo_raw
 
-            # Deduplicação por chave canônica.
-            key = _canonical_key(nome_serie, ep)
-            if key and key in seen_keys:
-                dup_aqui += 1
-                duplicados += 1
-                continue
-            if key:
-                seen_keys[key] = fonte
-
             magnet = _magnet_from_item(it, titulo_raw)
             if not magnet:
                 continue
 
-            # group_title no formato esperado pelo pipeline.py:
-            # "Series | <subcat>" — subcat genérica (Anime) força
-            # detectar_categoria_anime(nome) a rodar e categorizar
-            # pela keyword presente no título.
-            out.append({
+            score, qual_label = _quality_score(titulo_raw)
+
+            # Filtra resoluções fora da política (só 480p e 720p passam).
+            # Score 0 = título sem resolução marcada OU resolução não aceita
+            # (1080p, 2160p, etc).
+            if score == 0:
+                estatisticas_fonte[fonte]["rejeitados_qualidade"] += 1
+                descartados_resolucao_total += 1
+                continue
+
+            key = _canonical_key(nome_serie, ep)
+
+            candidatos.append({
                 "magnet": magnet,
                 "title": titulo_norm,
+                "title_raw": titulo_raw,
                 "category": "Series | Anime",
-                "fonte": fonte,  # metadado, não vira group_title
+                "fonte": fonte,
+                "key": key,
+                "score": score,
+                "quality": qual_label or "?",
             })
-            ok += 1
+            estatisticas_fonte[fonte]["com_magnet"] += 1
 
-        msg = f"  {fonte}: {ok}/{len(recortados)} itens com magnet utilizável"
-        if dup_aqui:
-            msg += f" ({dup_aqui} duplicados ignorados)"
+    # Fase 2: deduplicar por chave canônica, mantendo o de maior score.
+    # Itens sem chave (sem episódio detectado) entram todos — não dedup.
+    melhor_por_chave: dict[str, dict] = {}
+    sem_chave: list[dict] = []
+    duplicados_descartados: list[tuple[str, str, str]] = []  # (key, perdedor, vencedor)
+
+    for cand in candidatos:
+        key = cand.get("key")
+        if not key:
+            sem_chave.append(cand)
+            continue
+
+        atual = melhor_por_chave.get(key)
+        if atual is None:
+            melhor_por_chave[key] = cand
+            continue
+
+        if cand["score"] > atual["score"]:
+            # Novo candidato é melhor → substitui
+            duplicados_descartados.append(
+                (key, f"{atual['fonte']}/{atual['quality']}",
+                      f"{cand['fonte']}/{cand['quality']}")
+            )
+            melhor_por_chave[key] = cand
+        else:
+            # Atual permanece, novo é descartado
+            duplicados_descartados.append(
+                (key, f"{cand['fonte']}/{cand['quality']}",
+                      f"{atual['fonte']}/{atual['quality']}")
+            )
+
+    # Fase 3: monta o output final, removendo metadados internos
+    out: list[dict] = []
+    for cand in list(melhor_por_chave.values()) + sem_chave:
+        out.append({
+            "magnet": cand["magnet"],
+            "title": cand["title"],
+            "category": cand["category"],
+            "fonte": cand["fonte"],
+        })
+
+    # ─── Logs ──────────────────────────────────────────────────────────
+    for fonte, st in estatisticas_fonte.items():
+        rejeitados = st.get("rejeitados_qualidade", 0)
+        msg = f"  {fonte}: {st['com_magnet']}/{st['total']} aceitos"
+        if rejeitados:
+            msg += f" ({rejeitados} rejeitados por resolução não-permitida)"
         msg += "."
         print(msg)
 
-    if duplicados:
-        print(f"\n  🧹 Dedup total: {duplicados} duplicatas ignoradas entre fontes.")
+    if descartados_resolucao_total:
+        aceitas = ", ".join(QUALITY_SCORES.keys())
+        print(f"\n  📐 Política de resolução: aceita apenas [{aceitas}].")
+        print(f"     {descartados_resolucao_total} itens descartados por estarem fora.")
+
+    if duplicados_descartados:
+        print(f"\n  🧹 Dedup: {len(duplicados_descartados)} duplicatas resolvidas.")
+        # Mostra até 5 exemplos pra debug
+        for key, perdedor, vencedor in duplicados_descartados[:5]:
+            print(f"     • {key}: descartado {perdedor} (mantido {vencedor})")
+        if len(duplicados_descartados) > 5:
+            print(f"     ... e mais {len(duplicados_descartados) - 5}.")
 
     return out
 
