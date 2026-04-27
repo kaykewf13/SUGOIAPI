@@ -1,0 +1,53 @@
+# .github/workflows/sugoiapi.yml
+# Atualização do workflow existente para incluir integração Put.io.
+# Adicione o secret PUTIO_TOKEN em: Settings → Secrets and variables → Actions.
+
+name: SUGOIAPI
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # a cada 2h — ajuste conforme necessidade
+  workflow_dispatch:
+
+permissions:
+  contents: write           # necessário pro commit do state e da playlist
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    env:
+      PUTIO_TOKEN: ${{ secrets.PUTIO_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      # --- Fase A: parse Nyaa RSS + enqueue no Put.io --------------------- #
+      - name: Build catalog & enqueue Put.io
+        run: python exportar_links_api_v3.py
+        # exportar_links_api_v3.py deve, ao final, instanciar
+        # PutioOrchestrator e chamar .enqueue(items_do_nyaa).
+
+      # --- Fase B: harvest URLs prontas ----------------------------------- #
+      - name: Harvest Put.io stream URLs
+        run: python harvest_putio.py
+
+      # --- Commit dos artefatos ------------------------------------------- #
+      - name: Commit & push updates
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add putio_state.json putio_entries.m3u playlist_premium.m3u || true
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+          else
+            git commit -m "auto: putio sync $(date -u +%FT%TZ)"
+            git push
+          fi
