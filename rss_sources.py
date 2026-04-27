@@ -20,9 +20,7 @@ from urllib.error import URLError
 
 SOURCES = {
     # SubsPlease — RSS oficial, episódios legendados em inglês (1080p)
-   SOURCES = {
     "SubsPlease": "https://subsplease.org/rss/?t=1080",
-    # "AnimeKaizoku": desabilitado — torrents antigos com availability baixa
 }
 
 # Resolução preferida para SubsPlease (480, 720, 1080)
