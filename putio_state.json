@@ -70,12 +70,13 @@
     },
     "101454989996bb51ba43b78c3e0011a6db46f9a7": {
       "category": "Series | Anime",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T21:56:26.768283+00:00",
       "percent": 100,
-      "status": "pending",
+      "status": "error",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
       "transfer_id": 105096549,
-      "updated_at": "2026-04-27T21:56:28.310845+00:00"
+      "updated_at": "2026-04-27T22:39:05.820719+00:00"
     },
     "128bcb029d864d53cdacb0acd9a083f9f5fb0ced": {
       "category": "Series | Anime",
@@ -325,6 +326,17 @@
       "title": "Kizumonogatari Complete 1 - EP03",
       "transfer_id": 105081304,
       "updated_at": "2026-04-27T21:15:20.292057+00:00"
+    },
+    "451dc4e2206912cd8828ca3924e390c0f50e897e": {
+      "category": "Series | Anime",
+      "file_id": 1584093723,
+      "first_seen": "2026-04-27T22:39:04.782242+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s105-cdn77.put.io/download/1584093723?u=nAd-vqoH7qdntvliYU8Y3XBu0llYzfpkmvwAk5YzSL2zZBB2R961HcCwlrVlVGGmD5Jh6elGmgcPLWf8ohhbEw%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC",
+      "title": "Meitantei Precure! - 13v2.mkv",
+      "transfer_id": 105097060,
+      "updated_at": "2026-04-27T22:39:07.107931+00:00"
     },
     "496f6b104fe17d210afd697bb1023aa12d6fca20": {
       "category": "Series | Anime",
@@ -649,6 +661,17 @@
       "transfer_id": 105081288,
       "updated_at": "2026-04-27T21:15:22.540064+00:00"
     },
+    "98cb8d13eacd2acca1d55c16990e41e1bb010281": {
+      "category": "Series | Anime",
+      "file_id": 1584093726,
+      "first_seen": "2026-04-27T22:39:05.207579+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s106-cdn77.put.io/download/1584093726?u=vme8B3r-rjCV2p_11Jsa209osUgqtmg9rQj6p2m2_lJZLqzmCZTLCdNOXIKyKNFfW6mBMAfxG4QGvlJvBgSIkA%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC",
+      "title": "Ace of Diamond Act II S2 - EP04",
+      "transfer_id": 105097062,
+      "updated_at": "2026-04-27T22:39:07.865956+00:00"
+    },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -806,6 +829,17 @@
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
       "updated_at": "2026-04-27T09:20:06.761486+00:00"
     },
+    "bc325d03b9f6ce5526045f5308dfb867cac8aab1": {
+      "category": "Series | Anime",
+      "file_id": 1584093725,
+      "first_seen": "2026-04-27T22:39:04.973523+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s70-cdn77.put.io/download/1584093725?u=KLGe8FRG4S_DjgbaajeEF6ttniIgmveWDbuiWBU7SklcPpN4cTa1_WRaX5AYk8IjkbBIryN49amCCFmi6d0DRQ%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC",
+      "title": "Tsue to Tsurugi no Wistoria S2 - EP03",
+      "transfer_id": 105097061,
+      "updated_at": "2026-04-27T22:39:08.389385+00:00"
+    },
     "bdsnllz65mwnezy2ed7rujvb7c23vu2n": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 400 BAD REQUEST — body={'error_id': None, 'error_message': 'Invalid magnet link', 'error_type': 'BadRequest', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 400}",
@@ -868,6 +902,17 @@
       "title": "Studio Ghibli Movies Collection 1984 - EP2014",
       "transfer_id": 105081308,
       "updated_at": "2026-04-27T04:03:51.803713+00:00"
+    },
+    "d4586be94977abbfb2f78abfe684298e7e4ba577": {
+      "category": "Series | Anime",
+      "file_id": 1584093721,
+      "first_seen": "2026-04-27T22:39:04.390538+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s77-cdn77.put.io/download/1584093721?u=7BmB1qQzwg5yaauNoMOTJtz38b06Gv-hHTW_f11VmTmF3tie1DZaKvma3L4j9yprhuzLJYOZQDs-16rpNeCm8g%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC",
+      "title": "Maid-san wa Taberu Dake - EP05",
+      "transfer_id": 105097058,
+      "updated_at": "2026-04-27T22:39:08.873139+00:00"
     },
     "d82d65e6e07508c3a592b17458ba9178e766c232": {
       "category": "Series | Anime",
@@ -954,6 +999,17 @@
       "title": "Fuuka_Rokey",
       "transfer_id": 105081277,
       "updated_at": "2026-04-27T21:15:24.627005+00:00"
+    },
+    "ea518fd953455451c9274e9609a8113fca3e6b8b": {
+      "category": "Series | Anime",
+      "file_id": 1584093722,
+      "first_seen": "2026-04-27T22:39:04.586368+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s63-cdn77.put.io/download/1584093722?u=CNbiZq2jK8ixG-eKJnj9XO2O7O8kViHG7_Sc2kSQ2SljF0RJPRctQ_KwFUzBWDZIawgTyhma_M2_QQ4ttzIT0w%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC",
+      "title": "Digimon Beatbreak - 28v2.mkv",
+      "transfer_id": 105097059,
+      "updated_at": "2026-04-27T22:39:09.373214+00:00"
     },
     "ec338460551f2a687c17eb59911164eb95ebfe85": {
       "category": "Series | Anime",

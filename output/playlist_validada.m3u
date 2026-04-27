@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (577) ══════════
+### ══════════ CANAIS (579) ══════════
 
 
 ## ── Noticias (55) ──
@@ -171,13 +171,16 @@ https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
 https://jmp2.uk/plu-65790feacbd0d60008fac87a.m3u8
 
 
-## ── Esportes (9) ──
+## ── Esportes (10) ──
 
 #EXTINF:-1 tvg-name="Cine Premiere" tvg-logo="https://images.pluto.tv/channels/5cf968040ab7d8f181e6a68b/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", Cine Premiere
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 #EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/65b14aae0cb1a100087a216e/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
 https://jmp2.uk/plu-65b14aae0cb1a100087a216e.m3u8
+
+#EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/649b6898f2ec0000081a9460/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
+https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8
 
 #EXTINF:-1 tvg-name="DAZN TV" tvg-logo="https://images.pluto.tv/channels/647f07e74cfc2c0008a2e557/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN TV
 https://jmp2.uk/plu-647f07e74cfc2c0008a2e557.m3u8
@@ -507,7 +510,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (415) ──
+## ── Variados (416) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -1196,6 +1199,9 @@ https://jmp2.uk/plu-66d885aef0f17500084b6750.m3u8
 #EXTINF:-1 tvg-name="PGA TOUR" tvg-logo="https://images.pluto.tv/channels/5de94dacb394a300099fa22a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", PGA TOUR
 https://jmp2.uk/plu-5de94dacb394a300099fa22a.m3u8
 
+#EXTINF:-1 tvg-name="Pickers & Pawn" tvg-logo="https://images.pluto.tv/channels/6565413e4261ca0008215320/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pickers & Pawn
+https://jmp2.uk/plu-6565413e4261ca0008215320.m3u8
+
 #EXTINF:-1 tvg-name="Pluto TV 80's Action" tvg-logo="https://images.pluto.tv/channels/66d717c6abec540008ba7eb5/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Pluto TV 80's Action
 https://jmp2.uk/plu-66d717c6abec540008ba7eb5.m3u8
 
@@ -1755,7 +1761,7 @@ https://jmp2.uk/plu-6319ee0cf78bb10007ee5e6b.m3u8
 https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 
-### ══════════ SÉRIES (20) ══════════
+### ══════════ SÉRIES (25) ══════════
 
 
 ## ── Brazil ──
@@ -1765,6 +1771,12 @@ https://www.youtube.com/watch?v=oUdd3CsxYaE
 
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+
+
+## ── Esportes ──
+
+#EXTINF:-1 tvg-name="Ace of Diamond Act II S2 E04" tvg-logo="" tvg-type="series" group-title="Series | Esportes | Ace of Diamond Act II S2 | Temporada 01", Ace of Diamond Act II S2 E04
+https://s106-cdn77.put.io/download/1584093726?u=vme8B3r-rjCV2p_11Jsa209osUgqtmg9rQj6p2m2_lJZLqzmCZTLCdNOXIKyKNFfW6mBMAfxG4QGvlJvBgSIkA%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
 
 ## ── Geral ──
@@ -1787,6 +1799,9 @@ https://s92-cdn77.put.io/download/1584084030?u=wtwme8IE3zpEELTrizuXRqX9U3JEIe-Fe
 #EXTINF:-1 tvg-name="LIAR GAME E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | LIAR GAME | Temporada 01", LIAR GAME E04
 https://s73-cdn77.put.io/download/1584084055?u=mWVJrP9Z1D7_M140QQgZPHOkxza-X8cNqxvsGgl4MN-S0HUy0UZjOvJGjl_0aG0dDng0ZPkUvVDOqN_mgqLplA%3D%3D&oauth_token=QF32NHMO6B2DSGZMD5KL
 
+#EXTINF:-1 tvg-name="Maid-san wa Taberu Dake E05" tvg-logo="" tvg-type="series" group-title="Series | Geral | Maid-san wa Taberu Dake | Temporada 01", Maid-san wa Taberu Dake E05
+https://s77-cdn77.put.io/download/1584093721?u=7BmB1qQzwg5yaauNoMOTJtz38b06Gv-hHTW_f11VmTmF3tie1DZaKvma3L4j9yprhuzLJYOZQDs-16rpNeCm8g%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
+
 #EXTINF:-1 tvg-name="Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi | Temporada 01", Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi E04
 https://s88-cdn77.put.io/download/1584084276?u=t1g8ePzwWnW1_kkkU8JRN-cK84BEJs9CQPpXzusjuHb-t_AS3UHLSCWWbxdaWqjxfDz_pNvKzZZSeT8v70xV5Q%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB
 
@@ -1804,6 +1819,9 @@ https://s102-cdn77.put.io/download/1583903793?u=xqiOxR6u-7gSK6-wpPvytf90UvWNMGlz
 
 #EXTINF:-1 tvg-name="Tongari Boushi no Atelier E05" tvg-logo="" tvg-type="series" group-title="Series | Geral | Tongari Boushi no Atelier | Temporada 01", Tongari Boushi no Atelier E05
 https://s69-cdn77.put.io/download/1584084934?u=ZhUOPxRm1ZdkDuhFX0RiYMQTP7MI2bUT-qVJ-bx-8P0vfI5mTcydzsBJ8Wpp5ZSMLLgRM-zvIscUKB6Wfbnhbg%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB
+
+#EXTINF:-1 tvg-name="Tsue to Tsurugi no Wistoria S2 E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Tsue to Tsurugi no Wistoria S2 | Temporada 01", Tsue to Tsurugi no Wistoria S2 E03
+https://s70-cdn77.put.io/download/1584093725?u=KLGe8FRG4S_DjgbaajeEF6ttniIgmveWDbuiWBU7SklcPpN4cTa1_WRaX5AYk8IjkbBIryN49amCCFmi6d0DRQ%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
 
 ## ── Historico ──
@@ -1824,6 +1842,12 @@ https://s104-cdn77.put.io/download/1584084931?u=cu3rtu3YyYj8Uzp4nzKulQ5eSTj-WZ0Z
 https://s102-cdn77.put.io/download/1584084933?u=KwuIEkKkBRhkg6j860gXPBmUpWsMAG46XWBfgGJB2UAFNktzIpFciH-JFBLCThVli4FoWTCESHtRqIm19DYMRQ%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB
 
 
+## ── Musica e Idols ──
+
+#EXTINF:-1 tvg-name="Meitantei Precure! - 13v2.mkv" tvg-logo="" tvg-type="series" group-title="Series | Musica e Idols | Series | Anime | Temporada 01", Meitantei Precure! - 13v2.mkv
+https://s105-cdn77.put.io/download/1584093723?u=nAd-vqoH7qdntvliYU8Y3XBu0llYzfpkmvwAk5YzSL2zZBB2R961HcCwlrVlVGGmD5Jh6elGmgcPLWf8ohhbEw%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
+
+
 ## ── Shoujo ──
 
 #EXTINF:-1 tvg-name="Clannad After Story 720p BD x265 10bit Dual Audio" tvg-logo="" tvg-type="series" group-title="Series | Shoujo | Series | Anime | Temporada 01", Clannad After Story 720p BD x265 10bit Dual Audio
@@ -1834,6 +1858,9 @@ https://s67-cdn77.put.io/download/1583936493?u=_JTZPeMfXzM8zAwRot0boyGFxa30fuWr-
 
 #EXTINF:-1 tvg-name="One Piece E1159" tvg-logo="" tvg-type="series" group-title="Series | Shounen | One Piece | Temporada 01", One Piece E1159
 https://s86-cdn77.put.io/download/1584085254?u=NllZASl3Rf5VBZevYYW2pXExKYuoCD74jRtT6m04GnRcb1v5NJoCKor2eVgkPuNK00-4tdErER0OggGtcd3v3Q%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
+
+#EXTINF:-1 tvg-name="Digimon Beatbreak - 28v2.mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Series | Anime | Temporada 01", Digimon Beatbreak - 28v2.mkv
+https://s63-cdn77.put.io/download/1584093722?u=CNbiZq2jK8ixG-eKJnj9XO2O7O8kViHG7_Sc2kSQ2SljF0RJPRctQ_KwFUzBWDZIawgTyhma_M2_QQ4ttzIT0w%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
 
 ### ══════════ FILMES (317) ══════════
