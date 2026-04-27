@@ -52,19 +52,52 @@ jobs:
       - name: Pipeline (gera playlist_validada.m3u)
         run: python pipeline.py
 
-      # ── Commit dos artefatos persistentes ──────────────────────────────
-      - name: Commit & push updates
+      # ── Commit dos artefatos persistentes (com retry anti-race) ────────
+      - name: Commit playlist atualizada
         run: |
+          set -e
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Adiciona apenas o que faz sentido versionar:
-          # - putio_state.json: idempotência entre runs
-          # - putio_entries.m3u: fragmento Put.io (debug)
-          # - output/playlist_validada.m3u: playlist final
-          git add putio_state.json putio_entries.m3u output/playlist_validada.m3u 2>/dev/null || true
+
+          # Adiciona apenas o que faz sentido versionar
+          git add output/ putio_state.json putio_entries.m3u 2>/dev/null || true
+
           if git diff --cached --quiet; then
             echo "Sem mudanças para commitar."
-          else
-            git commit -m "auto: pipeline run $(date -u +%FT%TZ)"
-            git push
+            exit 0
           fi
+
+          git commit -m "🎬 Playlist atualizada — $(date -u +%F)"
+
+          # Retry com rebase: lida com race condition quando o remote
+          # avançou enquanto o pipeline rodava (ex: commit manual paralelo).
+          for tentativa in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push concluído na tentativa $tentativa."
+              exit 0
+            fi
+            echo "Tentativa $tentativa falhou — retry em 5s..."
+            sleep 5
+          done
+
+          echo "❌ Push falhou após 5 tentativas."
+          exit 1
+
+      # ── Notificação opcional ao Sentry ─────────────────────────────────
+      - name: Notificar falha no Sentry
+        if: failure() && env.SENTRY_DSN != ''
+        run: |
+          python - <<'EOF'
+          import os
+          dsn = os.environ.get("SENTRY_DSN", "")
+          if not dsn:
+              print("SENTRY_DSN não configurado — pulando notificação.")
+              raise SystemExit(0)
+          try:
+              import sentry_sdk
+              sentry_sdk.init(dsn=dsn)
+              sentry_sdk.capture_message("SUGOIAPI Pipeline falhou", level="error")
+              print("Falha notificada ao Sentry.")
+          except Exception as e:
+              print(f"Erro ao notificar Sentry: {e}")
+          EOF
