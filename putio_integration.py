@@ -67,12 +67,28 @@ class PutioClient:
     # transfers ----------------------------------------------------------- #
 
     def add_magnet(self, magnet: str, parent_id: int = 0) -> dict:
+        # Put.io só quer save_parent_id no payload se for diferente de 0.
+        # Em algumas contas, enviar 0 explicitamente causa 400 BAD REQUEST.
+        payload = {"url": magnet}
+        if parent_id and parent_id > 0:
+            payload["save_parent_id"] = parent_id
+
         r = self.session.post(
             f"{PUTIO_API}/transfers/add",
-            data={"url": magnet, "save_parent_id": parent_id},
+            data=payload,
             timeout=self.timeout,
         )
-        r.raise_for_status()
+        if not r.ok:
+            # Anexa o body da resposta no erro pra debug ficar visível.
+            try:
+                body = r.json()
+            except Exception:
+                body = r.text[:200]
+            err = requests.HTTPError(
+                f"{r.status_code} {r.reason} — body={body}",
+                response=r,
+            )
+            raise err
         return r.json()["transfer"]
 
     def get_transfer(self, transfer_id: int) -> dict:
@@ -223,6 +239,30 @@ class PutioOrchestrator:
 
     # ----- Fase A ----- #
 
+    def _try_add_magnet(self, magnet: str) -> dict:
+        """
+        Tenta enviar o magnet ao Put.io. Se receber 400, refaz a requisição
+        com versão minimalista do magnet (apenas xt=urn:btih:HASH, sem dn
+        nem trackers) — Put.io adiciona trackers via DHT/PEX automaticamente.
+        """
+        try:
+            return self.client.add_magnet(
+                magnet, parent_id=self.parent_folder_id
+            )
+        except requests.HTTPError as e:
+            # Apenas 400 (BAD REQUEST) costuma ser por conteúdo do magnet.
+            # 401/403/429 não fazem sentido tentar de novo.
+            if not (e.response is not None and e.response.status_code == 400):
+                raise
+            ih = info_hash_from_magnet(magnet)
+            if not ih:
+                raise
+            minimal = f"magnet:?xt=urn:btih:{ih}"
+            print(f"  ↻ retry minimal magnet para {ih[:12]}...")
+            return self.client.add_magnet(
+                minimal, parent_id=self.parent_folder_id
+            )
+
     def enqueue(self, items: Iterable[dict]) -> int:
         """
         items: iter de {magnet, title, category}.
@@ -250,9 +290,7 @@ class PutioOrchestrator:
                 retried += 1
 
             try:
-                t = self.client.add_magnet(
-                    magnet, parent_id=self.parent_folder_id
-                )
+                t = self._try_add_magnet(magnet)
             except requests.HTTPError as e:
                 # Loga visivelmente para diagnóstico; antes era silencioso.
                 err_msg = f"add_magnet HTTP {e.response.status_code if e.response else '?'}: {e}"
