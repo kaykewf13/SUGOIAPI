@@ -11,11 +11,14 @@
     },
     "02e51d66d5fa38a57f12639bd2e90585deeb9921": {
       "category": "Series | Anime",
+      "file_id": 1584084276,
       "first_seen": "2026-04-27T21:37:46.352707+00:00",
-      "status": "pending",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s88-cdn77.put.io/download/1584084276?u=t1g8ePzwWnW1_kkkU8JRN-cK84BEJs9CQPpXzusjuHb-t_AS3UHLSCWWbxdaWqjxfDz_pNvKzZZSeT8v70xV5Q%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB",
       "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
       "transfer_id": 105096383,
-      "updated_at": "2026-04-27T21:37:47.798063+00:00"
+      "updated_at": "2026-04-27T21:51:33.327340+00:00"
     },
     "05689006d0fde4cbcf8be2efd7d16801e1566658": {
       "category": "Series | Anime",
@@ -34,6 +37,17 @@
       "title": "The Garden of Words 1080p BD Eng Sub",
       "transfer_id": 105081300,
       "updated_at": "2026-04-27T21:15:18.045843+00:00"
+    },
+    "07fa8ff5c79efb0d2844bab20a828406c2e6649f": {
+      "category": "Series | Anime",
+      "file_id": 1584084932,
+      "first_seen": "2026-04-27T21:51:31.282020+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s98-cdn77.put.io/download/1584084932?u=qIPrETwoIQTzK4imVvBICruruuUV63fYQVpDjlM5FpDjeAGkKAFug0ty2g6DlSka8Ow-gctV7u7kds76m-q8Gw%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB",
+      "title": "Isekai Nonbiri Nouka S2 - EP04",
+      "transfer_id": 105096503,
+      "updated_at": "2026-04-27T21:51:33.746143+00:00"
     },
     "09def295412c231160ad61ee548202e3c65a6f95": {
       "category": "Series | Anime",
@@ -353,6 +367,17 @@
       "title": "Isekai Nonbiri Nouka S2 - EP04",
       "updated_at": "2026-04-27T15:55:31.832715+00:00"
     },
+    "57045868241269fee77e8587d836a3890450b43b": {
+      "category": "Series | Anime",
+      "file_id": 1584084930,
+      "first_seen": "2026-04-27T21:51:30.956739+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s79-cdn77.put.io/download/1584084930?u=qUm4OXANiDBzgSOn4jPHbRGr-99xW7fMJ61HOW9i413zsQWM-WBmbfov3gMH2KwtwnrhFgh_3WUFFcTKYp90qw%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB",
+      "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
+      "transfer_id": 105096501,
+      "updated_at": "2026-04-27T21:51:34.165387+00:00"
+    },
     "5b146aee5fe17cece12db55baa8b7bf82c289745": {
       "category": "Series | Anime",
       "file_id": 1584084071,
@@ -384,12 +409,13 @@
     },
     "5f3cae25f0cd07cc6e2747a111f93309a71a0f91": {
       "category": "Series | Anime",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T21:37:45.730345+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "LIAR GAME - EP04",
       "transfer_id": 105096380,
-      "updated_at": "2026-04-27T21:37:48.308230+00:00"
+      "updated_at": "2026-04-27T21:51:32.527784+00:00"
     },
     "5jiy7wktivkfdsjhj2latkarh7fd424l": {
       "category": "Series | Anime",
@@ -433,6 +459,17 @@
       "title": "One Piece Season 1 - EP07",
       "transfer_id": 105081262,
       "updated_at": "2026-04-27T21:15:21.386570+00:00"
+    },
+    "69a558092ef91e4c53b10c727404daaac8a2ceef": {
+      "category": "Series | Anime",
+      "file_id": 1584084934,
+      "first_seen": "2026-04-27T21:51:31.609856+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s69-cdn77.put.io/download/1584084934?u=ZhUOPxRm1ZdkDuhFX0RiYMQTP7MI2bUT-qVJ-bx-8P0vfI5mTcydzsBJ8Wpp5ZSMLLgRM-zvIscUKB6Wfbnhbg%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB",
+      "title": "Tongari Boushi no Atelier - EP05",
+      "transfer_id": 105096505,
+      "updated_at": "2026-04-27T21:51:34.582703+00:00"
     },
     "6e9338a784333e98f87aa19163472aed1bfe43cd": {
       "category": "Series | Anime",
@@ -589,6 +626,17 @@
       "title": "Clannad After Story 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081313,
       "updated_at": "2026-04-27T09:20:29.595061+00:00"
+    },
+    "a226caefe1f7f512bce64d5ac7a69dec20efd9f4": {
+      "category": "Series | Anime",
+      "file_id": 1584084931,
+      "first_seen": "2026-04-27T21:51:31.117396+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s104-cdn77.put.io/download/1584084931?u=cu3rtu3YyYj8Uzp4nzKulQ5eSTj-WZ0ZL7LOIIFyYSxa4VaoUpGOWOx5hPmm2ka-7_CtdleIlxILOFXEFy5ubQ%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB",
+      "title": "Isekai Nonbiri Nouka S2 - EP04",
+      "transfer_id": 105096502,
+      "updated_at": "2026-04-27T21:51:34.981971+00:00"
     },
     "a2ad80d1d34bb7d1d6d572ce35e1122064f20922": {
       "category": "Series | Anime",
@@ -815,6 +863,17 @@
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081267,
       "updated_at": "2026-04-27T21:15:24.300126+00:00"
+    },
+    "e3efd9dd898ca66fbeb59d88d6c0958bba633342": {
+      "category": "Series | Anime",
+      "file_id": 1584084933,
+      "first_seen": "2026-04-27T21:51:31.443268+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s102-cdn77.put.io/download/1584084933?u=KwuIEkKkBRhkg6j860gXPBmUpWsMAG46XWBfgGJB2UAFNktzIpFciH-JFBLCThVli4FoWTCESHtRqIm19DYMRQ%3D%3D&oauth_token=D4LCYUJIJPWVMILJ2YAB",
+      "title": "Isekai Nonbiri Nouka S2 - EP04",
+      "transfer_id": 105096504,
+      "updated_at": "2026-04-27T21:51:35.382054+00:00"
     },
     "e53c0bb85d31069c0cfd466502e8786be4340bf9": {
       "category": "Series | Anime",
