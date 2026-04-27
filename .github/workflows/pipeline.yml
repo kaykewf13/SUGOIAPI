@@ -1,53 +1,70 @@
-# .github/workflows/sugoiapi.yml
-# Atualização do workflow existente para incluir integração Put.io.
-# Adicione o secret PUTIO_TOKEN em: Settings → Secrets and variables → Actions.
-
-name: SUGOIAPI
+name: SUGOIAPI Pipeline
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # a cada 2h — ajuste conforme necessidade
+    # A cada 2 horas. Ajuste se quiser mais/menos frequente.
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write           # necessário pro commit do state e da playlist
+  contents: write   # necessário para commit do state e da playlist
+
+concurrency:
+  group: sugoiapi-pipeline
+  cancel-in-progress: false
 
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     env:
       PUTIO_TOKEN: ${{ secrets.PUTIO_TOKEN }}
+      SENTRY_DSN:  ${{ secrets.SENTRY_DSN }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Install deps
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # --- Fase A: parse Nyaa RSS + enqueue no Put.io --------------------- #
-      - name: Build catalog & enqueue Put.io
-        run: python exportar_links_api_v3.py
-        # exportar_links_api_v3.py deve, ao final, instanciar
-        # PutioOrchestrator e chamar .enqueue(items_do_nyaa).
+      # ── Fase A — RSS → Put.io (envia magnets novos) ────────────────────
+      - name: Enqueue magnets no Put.io
+        if: env.PUTIO_TOKEN != ''
+        run: python rss_to_putio.py
 
-      # --- Fase B: harvest URLs prontas ----------------------------------- #
-      - name: Harvest Put.io stream URLs
+      # ── Fase B — Put.io → state (resolve URLs prontas) ─────────────────
+      - name: Harvest stream URLs do Put.io
+        if: env.PUTIO_TOKEN != ''
         run: python harvest_putio.py
 
-      # --- Commit dos artefatos ------------------------------------------- #
+      # ── Pipeline principal — consome state + gera playlist ─────────────
+      - name: Pipeline (gera playlist_validada.m3u)
+        run: python pipeline.py
+
+      # ── Commit dos artefatos persistentes ──────────────────────────────
       - name: Commit & push updates
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add putio_state.json putio_entries.m3u playlist_premium.m3u || true
+          # Adiciona apenas o que faz sentido versionar:
+          # - putio_state.json: idempotência entre runs
+          # - putio_entries.m3u: fragmento Put.io (debug)
+          # - output/playlist_validada.m3u: playlist final
+          git add putio_state.json putio_entries.m3u output/playlist_validada.m3u 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "Sem mudanças."
+            echo "Sem mudanças para commitar."
           else
-            git commit -m "auto: putio sync $(date -u +%FT%TZ)"
+            git commit -m "auto: pipeline run $(date -u +%FT%TZ)"
             git push
           fi
