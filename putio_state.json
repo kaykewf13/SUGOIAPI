@@ -73,10 +73,10 @@
       "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T21:56:26.768283+00:00",
       "percent": 100,
-      "status": "pending",
+      "status": "error",
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
       "transfer_id": 105097502,
-      "updated_at": "2026-04-27T23:10:36.607357+00:00"
+      "updated_at": "2026-04-27T23:20:10.232552+00:00"
     },
     "113b69646bd0da99c802e66a5a30dcbfa025b884": {
       "category": "Series | Anime",
@@ -247,6 +247,15 @@
       "title": "Gintama 2015 720p Eng Dub",
       "transfer_id": 105081297,
       "updated_at": "2026-04-27T04:03:46.478483+00:00"
+    },
+    "3627c42cc1311de8279ff8c7f6c7762d39c2fa08": {
+      "category": "Series | Anime",
+      "first_seen": "2026-04-27T23:20:09.345682+00:00",
+      "percent": 100,
+      "status": "pending",
+      "title": "Ikoku Nikki (01 - EP13",
+      "transfer_id": 105097578,
+      "updated_at": "2026-04-27T23:20:10.791802+00:00"
     },
     "37085bb01e48eb17e5b383c51e38aee44cf74059": {
       "category": "Series | Anime",
@@ -851,6 +860,17 @@
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
       "updated_at": "2026-04-27T09:20:06.761486+00:00"
     },
+    "ba9f11d244dc5ef0464028e15eab27e82dbb1562": {
+      "category": "Series | Anime",
+      "file_id": 1584101425,
+      "first_seen": "2026-04-27T23:20:09.762450+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s102-cdn77.put.io/download/1584101425?u=3NpuqjVCcTtLykWqsCYc9yDbZkSv2DsfNh7r6ZTbHTU63F589UroCLCyLr18qePBhkkFDjv94mPeGiAsWKaBLg%3D%3D&oauth_token=ZUTNODZCT3VNEYG3ZNPY",
+      "title": "Ghost Concert - missing Songs - EP04",
+      "transfer_id": 105097581,
+      "updated_at": "2026-04-27T23:20:11.126701+00:00"
+    },
     "bc325d03b9f6ce5526045f5308dfb867cac8aab1": {
       "category": "Series | Anime",
       "file_id": 1584093725,
@@ -908,6 +928,17 @@
       "transfer_id": 105097503,
       "updated_at": "2026-04-27T23:10:37.519298+00:00"
     },
+    "ce072d44d417f6e9159bdf5a50b1ec884a0f6c20": {
+      "category": "Series | Anime",
+      "file_id": 1584101424,
+      "first_seen": "2026-04-27T23:20:09.612821+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s109-cdn77.put.io/download/1584101424?u=a_7yzZqtq0XPIhR1aT1gi-gW42og_g0Tt4_gf4zrGOuuo4jCbb5MYVq1zWWn0sBmJ6GVOu9qOgZ_xgZMKy6J4w%3D%3D&oauth_token=ZUTNODZCT3VNEYG3ZNPY",
+      "title": "One Piece - EP1159",
+      "transfer_id": 105097580,
+      "updated_at": "2026-04-27T23:20:11.454615+00:00"
+    },
     "ce5wszdl2dnjtsac4zvfumg4x6qcloee": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 400 BAD REQUEST — body={'error_id': None, 'error_message': 'Invalid magnet link', 'error_type': 'BadRequest', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 400}",
@@ -946,6 +977,17 @@
       "title": "Maid-san wa Taberu Dake - EP05",
       "transfer_id": 105097058,
       "updated_at": "2026-04-27T22:39:08.873139+00:00"
+    },
+    "d45c10d47d50c7f4ea4a5b16f33574102858fba9": {
+      "category": "Series | Anime",
+      "file_id": 1584101423,
+      "first_seen": "2026-04-27T23:20:09.216214+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s112-cdn77.put.io/download/1584101423?u=Im4oQO6fnD0mC9Uw97-qDsZ7h30MPUtAPLYNp0gxkY0ApMQFJL39jGoHyeQt5TR1xognNWOJauxMTJPVnybFaw%3D%3D&oauth_token=ZUTNODZCT3VNEYG3ZNPY",
+      "title": "Tongari Boushi no Atelier - EP05",
+      "transfer_id": 105097577,
+      "updated_at": "2026-04-27T23:20:11.761207+00:00"
     },
     "d82d65e6e07508c3a592b17458ba9178e766c232": {
       "category": "Series | Anime",
@@ -1117,6 +1159,17 @@
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081265,
       "updated_at": "2026-04-27T21:15:25.530470+00:00"
+    },
+    "ff19b0352e160dbbd5f0ef69e6c67990aef09415": {
+      "category": "Series | Anime",
+      "file_id": 1584101426,
+      "first_seen": "2026-04-27T23:20:09.482400+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s65-cdn77.put.io/download/1584101439?u=fBF7Sc6zBKJRFrNIFoPz6vpZfxDe7yyz2pYHOnGuYtYASETJef_KuOCN44UQ1jtUQGLMWOU4ZaondIQ9BzbnWQ%3D%3D&oauth_token=ZUTNODZCT3VNEYG3ZNPY",
+      "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
+      "transfer_id": 105097579,
+      "updated_at": "2026-04-27T23:20:12.093810+00:00"
     },
     "grxo3l27qjzcu3csjwgsvikikshg6k3j": {
       "category": "Series | Anime",
