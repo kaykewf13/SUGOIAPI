@@ -1763,11 +1763,11 @@ https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 ## ── Brazil ──
 
-#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
-https://www.youtube.com/watch?v=oUdd3CsxYaE
-
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+
+#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
+https://www.youtube.com/watch?v=oUdd3CsxYaE
 
 
 ## ── Geral ──
