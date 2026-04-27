@@ -226,21 +226,49 @@ class PutioOrchestrator:
     def enqueue(self, items: Iterable[dict]) -> int:
         """
         items: iter de {magnet, title, category}.
-        Idempotente: ignora info_hash já presente no state.
+        Idempotente: ignora info_hash já em state com status pending/done.
+        Itens com status 'error' são RETENTADOS (Put.io pode ter recuperado
+        de erros temporários — rate-limit, lentidão, manutenção).
         Retorna a quantidade de novos transfers enviados.
         """
         added = 0
+        retried = 0
+        skipped_errors = 0
+
         for it in items:
             magnet = it.get("magnet")
             ih = info_hash_from_magnet(magnet) if magnet else None
-            if not ih or self.state.has(ih):
+            if not ih:
                 continue
+
+            existing = self.state.get(ih)
+            if existing:
+                # Não retenta o que já é pending ou done — só recuperáveis.
+                if existing.get("status") in ("pending", "done"):
+                    continue
+                # status == 'error' → vai retentar abaixo
+                retried += 1
 
             try:
                 t = self.client.add_magnet(
                     magnet, parent_id=self.parent_folder_id
                 )
             except requests.HTTPError as e:
+                # Loga visivelmente para diagnóstico; antes era silencioso.
+                err_msg = f"add_magnet HTTP {e.response.status_code if e.response else '?'}: {e}"
+                print(f"  ⚠️  enqueue erro [{it.get('title','?')[:50]}]: {err_msg}")
+                skipped_errors += 1
+                self.state.upsert(
+                    ih,
+                    status="error",
+                    error=err_msg,
+                    title=it.get("title"),
+                    category=it.get("category"),
+                )
+                continue
+            except Exception as e:
+                print(f"  ⚠️  enqueue exceção [{it.get('title','?')[:50]}]: {e}")
+                skipped_errors += 1
                 self.state.upsert(
                     ih,
                     status="error",
@@ -255,10 +283,16 @@ class PutioOrchestrator:
                 transfer_id=t["id"],
                 file_id=t.get("file_id"),
                 status="pending",
+                error=None,  # limpa erro anterior se houver
                 title=it.get("title"),
                 category=it.get("category"),
             )
             added += 1
+
+        if retried:
+            print(f"  ↻ {retried} entradas em erro retentadas neste run.")
+        if skipped_errors:
+            print(f"  ⚠️  {skipped_errors} erros durante enqueue (ver detalhes acima).")
 
         self.state.save()
         return added
