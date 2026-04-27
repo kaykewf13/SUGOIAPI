@@ -2,94 +2,94 @@
   "transfers": {
     "0102f9d5ce98b64ca0d626e76aba0dd0b30250d4": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081294",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.309244+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Tokyo Ghoul 1080p BD Dual Audio 10bit x265",
       "transfer_id": 105081294,
-      "updated_at": "2026-04-27T21:03:49.552667+00:00"
+      "updated_at": "2026-04-27T21:15:17.822184+00:00"
     },
     "05689006d0fde4cbcf8be2efd7d16801e1566658": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081259",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.560004+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Black Lagoon 720p Dual-Audio HEVC",
       "transfer_id": 105081259,
-      "updated_at": "2026-04-27T21:03:49.638389+00:00"
+      "updated_at": "2026-04-27T21:15:17.935708+00:00"
     },
     "05db9c1ba37223a4fc445efee4a8a5d53ec604d4": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081300",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.080142+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "The Garden of Words 1080p BD Eng Sub",
       "transfer_id": 105081300,
-      "updated_at": "2026-04-27T21:03:49.734827+00:00"
+      "updated_at": "2026-04-27T21:15:18.045843+00:00"
     },
     "09def295412c231160ad61ee548202e3c65a6f95": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081310",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:44.357136+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Clannad 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081310,
-      "updated_at": "2026-04-27T21:03:49.817187+00:00"
+      "updated_at": "2026-04-27T21:15:18.153087+00:00"
     },
     "0bba0c4ccce2ec967ab876097fc8aa00e73627d4": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081263",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:38.088437+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Flavors of Youth - EP2018",
       "transfer_id": 105081263,
-      "updated_at": "2026-04-27T21:03:49.899204+00:00"
+      "updated_at": "2026-04-27T21:15:18.261444+00:00"
     },
     "128bcb029d864d53cdacb0acd9a083f9f5fb0ced": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081298",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.820597+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "A Piece of Phantasmagoria",
       "transfer_id": 105081298,
-      "updated_at": "2026-04-27T21:03:49.981466+00:00"
+      "updated_at": "2026-04-27T21:15:18.370249+00:00"
     },
     "15e54ca66bcd7e4d7297424e283ee9ddc19baacf": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081275",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.768752+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Toaru Majutsu no Index II 1080p Dual Audio",
       "transfer_id": 105081275,
-      "updated_at": "2026-04-27T21:03:50.064644+00:00"
+      "updated_at": "2026-04-27T21:15:18.479060+00:00"
     },
     "1bb7dbe38e9d7a97304fa21e4dd0d632e3ef0b5e": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081281",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.576714+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Shouwa Genroku Rakugo Shinjuu S2 720p Eng Sub",
       "transfer_id": 105081281,
-      "updated_at": "2026-04-27T21:03:50.148458+00:00"
+      "updated_at": "2026-04-27T21:15:18.589614+00:00"
     },
     "1fc8376fba3abbd8f45f2bf9c2d5c5b0bfe6b727": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081247",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:35.894675+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "ERASED 720p BD Dual Audio",
       "transfer_id": 105081247,
-      "updated_at": "2026-04-27T21:03:50.230123+00:00"
+      "updated_at": "2026-04-27T21:15:18.700433+00:00"
     },
     "217f3638cb1df619fca29847dc9de1bad93e1238": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081280",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.419890+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Shouwa Genroku Rakugo Shinjuu 720p Eng Sub",
       "transfer_id": 105081280,
-      "updated_at": "2026-04-27T21:03:50.311899+00:00"
+      "updated_at": "2026-04-27T21:15:18.808571+00:00"
     },
     "27d2uh3ggdzsb7kv47kzbtpcmgiiklth": {
       "category": "Series | Anime",
@@ -101,12 +101,12 @@
     },
     "28c8aa9786f37fc647ae9945b31504d5bf189db4": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081246",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:35.673428+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Tokyo Ghoul √A 720p 10bit BD Dual Audio",
       "transfer_id": 105081246,
-      "updated_at": "2026-04-27T21:03:50.398385+00:00"
+      "updated_at": "2026-04-27T21:15:18.920141+00:00"
     },
     "294ebc3e437ce6250f7cc47ddade8b38cbaedabf": {
       "category": "Series | Anime",
@@ -132,12 +132,12 @@
     },
     "2e595d8bf231fbec51db3463c3ca2df2315598b7": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081245",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:35.351040+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Parasyte The Maxim 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081245,
-      "updated_at": "2026-04-27T21:03:50.518754+00:00"
+      "updated_at": "2026-04-27T21:15:19.030262+00:00"
     },
     "2rmgx2kjo6v37mxxrk76nbbjrz7exjlx": {
       "category": "Series | Anime",
@@ -157,30 +157,31 @@
     },
     "30984d17acfb9f7f525fbd320de5ae59d7394b56": {
       "category": "Series | Anime",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:45.133986+00:00",
       "percent": 1,
-      "status": "pending",
+      "status": "error",
       "title": "Gate:Thus the JSDF Fought There! Fire Dragon Arc 2nd Season   | Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
       "transfer_id": 105081316,
-      "updated_at": "2026-04-27T21:03:50.607564+00:00"
+      "updated_at": "2026-04-27T21:15:19.137769+00:00"
     },
     "3277ec5cf8ef258cd92041c4c587fdd80f6501d7": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081301",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.204600+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "The Empire of Corpses - EP2015",
       "transfer_id": 105081301,
-      "updated_at": "2026-04-27T21:03:50.694209+00:00"
+      "updated_at": "2026-04-27T21:15:19.251290+00:00"
     },
     "3348c52db9298930a3ab0a2dd00f5e8058e16b44": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081306",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.846928+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Busou Shoujo Machiavellianism",
       "transfer_id": 105081306,
-      "updated_at": "2026-04-27T21:03:50.823174+00:00"
+      "updated_at": "2026-04-27T21:15:19.360157+00:00"
     },
     "34f6958c89be4cc1146b4808988d1074782120ab": {
       "category": "Series | Anime",
@@ -195,21 +196,21 @@
     },
     "37085bb01e48eb17e5b383c51e38aee44cf74059": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081248",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.016739+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Tokyo Ghoul Season 1 720p BD Dual Audio",
       "transfer_id": 105081248,
-      "updated_at": "2026-04-27T21:03:50.938756+00:00"
+      "updated_at": "2026-04-27T21:15:19.469012+00:00"
     },
     "39acc3f50d351645b95b291f6cdf31a158320552": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081270",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.050492+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Aldnoah Zero S02 1080p Dual Audio x265 HEVC",
       "transfer_id": 105081270,
-      "updated_at": "2026-04-27T21:03:51.056239+00:00"
+      "updated_at": "2026-04-27T21:15:19.578325+00:00"
     },
     "3awwlzxaouemhjmswf2frourpdtwnqrs": {
       "category": "Series | Anime",
@@ -221,31 +222,31 @@
     },
     "3bb8cb54fdc34d10035e26269f731bbb2b9e27f0": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081284",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.956718+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "My Hero Academia (x265 - EP10",
       "transfer_id": 105081284,
-      "updated_at": "2026-04-27T21:03:51.142873+00:00"
+      "updated_at": "2026-04-27T21:15:19.690131+00:00"
     },
     "3dfe9b0ff37ea36f2a4e32f18cfbe9e118ff1eaa": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081292",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.027600+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Tenchi Muyo! - Movie 3 - In Love 2 (x265 - EP10",
       "transfer_id": 105081292,
-      "updated_at": "2026-04-27T21:03:51.225688+00:00"
+      "updated_at": "2026-04-27T21:15:19.802361+00:00"
     },
     "3f080212c7489227a381d3f83ccf314f1a0593f8": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081243",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:35.084330+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "The Promised Neverland",
       "transfer_id": 105081243,
-      "updated_at": "2026-04-27T21:03:51.308883+00:00"
+      "updated_at": "2026-04-27T21:15:19.913023+00:00"
     },
     "3ui5v54d3appdi7jfhu35tqfgv3u5a7s": {
       "category": "Series | Anime",
@@ -257,76 +258,76 @@
     },
     "40d81a2c77e50a87be5c55fbc04c7b47838c86eb": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081274",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.622895+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Accel World 1080p x265 HEVC BD Dual Audio",
       "transfer_id": 105081274,
-      "updated_at": "2026-04-27T21:03:51.391551+00:00"
+      "updated_at": "2026-04-27T21:15:20.025666+00:00"
     },
     "4110a37343f6eeb2e711e0e930b19fab25851fb8": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081253",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.756992+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Fate Zero 1080p BD Dual Audio",
       "transfer_id": 105081253,
-      "updated_at": "2026-04-27T21:03:51.476906+00:00"
+      "updated_at": "2026-04-27T21:15:20.134095+00:00"
     },
     "44da23a4b24547ae681fd059b48461130ee0ed63": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081304",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.596064+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Kizumonogatari Complete 1 - EP03",
       "transfer_id": 105081304,
-      "updated_at": "2026-04-27T21:03:51.563970+00:00"
+      "updated_at": "2026-04-27T21:15:20.292057+00:00"
     },
     "496f6b104fe17d210afd697bb1023aa12d6fca20": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081295",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.436393+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Yona of the Dawn (x265 - EP10",
       "transfer_id": 105081295,
-      "updated_at": "2026-04-27T21:03:51.647812+00:00"
+      "updated_at": "2026-04-27T21:15:20.399425+00:00"
     },
     "4ae1a460c72d427f4b3b7f092892b0365da6a515": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081244",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:35.208035+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "One Punch Man Season 1 720p 10bit x265 HEVC Dual Audio",
       "transfer_id": 105081244,
-      "updated_at": "2026-04-27T21:03:51.729802+00:00"
+      "updated_at": "2026-04-27T21:15:20.507566+00:00"
     },
     "4bf1059940954f26029085bdd5e7fd64baca3c1f": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081291",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.893063+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Tenchi Muyo! - Movie 1 - In Love (x265 - EP10",
       "transfer_id": 105081291,
-      "updated_at": "2026-04-27T21:03:51.812130+00:00"
+      "updated_at": "2026-04-27T21:15:20.618513+00:00"
     },
     "4d71dbf4a2181fc592158e5f20b8e683b62d24cc": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081279",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.273921+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Shokugeki no Souma  720p BD Eng Sub",
       "transfer_id": 105081279,
-      "updated_at": "2026-04-27T21:03:51.895365+00:00"
+      "updated_at": "2026-04-27T21:15:20.727141+00:00"
     },
     "4f246a6910854d3fe378f9dbe9d410ec11a536b1": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081257",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.282125+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Mahoutsukai no Yome a.k.a The Ancient Magus' Bride S01 1080p BD Dual Audio x265 - Animekaizoku",
       "transfer_id": 105081257,
-      "updated_at": "2026-04-27T21:03:51.979336+00:00"
+      "updated_at": "2026-04-27T21:15:20.835769+00:00"
     },
     "4hzq5ps572urotmd2tjiksbi4s7r5ybk": {
       "category": "Series | Anime",
@@ -346,21 +347,21 @@
     },
     "5bf65de3e70e383500617b2ea2f1991bcd1b2f4e": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081271",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.221756+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Aldnoah Zero S01 1080p Dual Audio HEVC x265",
       "transfer_id": 105081271,
-      "updated_at": "2026-04-27T21:03:52.060191+00:00"
+      "updated_at": "2026-04-27T21:15:20.943743+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081293",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.161462+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "TERRA FORMARS + OVAs (x265 - EP10",
       "transfer_id": 105081293,
-      "updated_at": "2026-04-27T21:03:52.148334+00:00"
+      "updated_at": "2026-04-27T21:15:21.052086+00:00"
     },
     "5jiy7wktivkfdsjhj2latkarh7fd424l": {
       "category": "Series | Anime",
@@ -380,49 +381,49 @@
     },
     "60f36c01f2d1bfca39f92b15f28748364c4de11f": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081314",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:44.883604+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Your Lie in April 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081314,
-      "updated_at": "2026-04-27T21:03:52.230770+00:00"
+      "updated_at": "2026-04-27T21:15:21.167232+00:00"
     },
     "642efd3990645a7fa6afac6f12d50e96203fe905": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081260",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.704730+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Ghost in the Shell - 720p HEVC",
       "transfer_id": 105081260,
-      "updated_at": "2026-04-27T21:03:52.312762+00:00"
+      "updated_at": "2026-04-27T21:15:21.276221+00:00"
     },
     "67ca6070f9532ee5aa9899518cb0f2676553042f": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081262",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.956104+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "One Piece Season 1 - EP07",
       "transfer_id": 105081262,
-      "updated_at": "2026-04-27T21:03:52.399167+00:00"
+      "updated_at": "2026-04-27T21:15:21.386570+00:00"
     },
     "6e9338a784333e98f87aa19163472aed1bfe43cd": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081268",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:38.731005+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081268,
-      "updated_at": "2026-04-27T21:03:52.481669+00:00"
+      "updated_at": "2026-04-27T21:15:21.551608+00:00"
     },
     "6ea84ec8cf1c5063a1da563bc0f55bcc2ce59a23": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081252",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.628678+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Chivalry of a Failed Knight 720p BD Dual Audio",
       "transfer_id": 105081252,
-      "updated_at": "2026-04-27T21:03:52.567791+00:00"
+      "updated_at": "2026-04-27T21:15:21.663043+00:00"
     },
     "6t5dsn7m764ypgkxfkm3h6r7n7ntdw44": {
       "category": "Series | Anime",
@@ -434,12 +435,12 @@
     },
     "73d9794e87599bfd74a0c14efabc7f3a6a197899": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081258",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.422398+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Kimetsu no Yaiba -",
       "transfer_id": 105081258,
-      "updated_at": "2026-04-27T21:03:52.650719+00:00"
+      "updated_at": "2026-04-27T21:15:21.772146+00:00"
     },
     "74m3anjocyg3xvpq55u6nrtzscxpbfav": {
       "category": "Series | Anime",
@@ -467,77 +468,77 @@
     },
     "7f3aeda5d00e1c3d8c28d817853fa604ed108967": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081312",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:44.615495+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Fate Stay Night Unlimited Blade Works 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081312,
-      "updated_at": "2026-04-27T21:03:52.774008+00:00"
+      "updated_at": "2026-04-27T21:15:21.882298+00:00"
     },
     "80c7275386f479c9bce612881a2b97e3f8400283": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081273",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.482614+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Accel World Movie-Infinite Burst",
       "transfer_id": 105081273,
-      "updated_at": "2026-04-27T21:03:52.856772+00:00"
+      "updated_at": "2026-04-27T21:15:21.991142+00:00"
     },
     "81472ab6c963d66b045d342d9a60e0a8c7deae27": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081254",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.884544+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Overlord 480p BD Dual Audio",
       "transfer_id": 105081254,
-      "updated_at": "2026-04-27T21:03:52.939661+00:00"
+      "updated_at": "2026-04-27T21:15:22.100171+00:00"
     },
     "887dcb4e21fd286265e7be9a3c1136c05574e485": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081285",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.083774+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Natsume Yuujinchou Roku 720p Eng Sub",
       "transfer_id": 105081285,
-      "updated_at": "2026-04-27T21:03:53.021365+00:00"
+      "updated_at": "2026-04-27T21:15:22.209765+00:00"
     },
     "8b92d88c61ed657a95b22834ce9eb4aa99e728fe": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081282",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.702068+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Space Patrol Luluco {x265-720p-Sub-GoodJobMedia}",
       "transfer_id": 105081282,
-      "updated_at": "2026-04-27T21:03:53.105218+00:00"
+      "updated_at": "2026-04-27T21:15:22.318629+00:00"
     },
     "92057086d18a211f0c24c2735582e8a180347c0b": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081305",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.724451+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Clockwork Planet",
       "transfer_id": 105081305,
-      "updated_at": "2026-04-27T21:03:53.188089+00:00"
+      "updated_at": "2026-04-27T21:15:22.428121+00:00"
     },
     "9778b2e0af26548f30ade24ed85f484bc5cf1cc5": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081288",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.505495+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Strike Witches 2 720p x264 BD Dual Audio",
       "transfer_id": 105081288,
-      "updated_at": "2026-04-27T21:03:53.277982+00:00"
+      "updated_at": "2026-04-27T21:15:22.540064+00:00"
     },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081290",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.754968+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Tanaka-kun wa Itsumo Kedaruge {x265-720p-Sub-GoodJobMedia}",
       "transfer_id": 105081290,
-      "updated_at": "2026-04-27T21:03:53.360576+00:00"
+      "updated_at": "2026-04-27T21:15:22.648785+00:00"
     },
     "9e38e391e8c4d441623ed27f9ce2b2a5aae99c36": {
       "category": "Series | Anime",
@@ -552,21 +553,21 @@
     },
     "a36bf81b1f7f4f2b6015829b8ee23ef1f6e83d2f": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081286",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.212805+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Steins;Gate - Fuka Ryōiki no Déjà vu",
       "transfer_id": 105081286,
-      "updated_at": "2026-04-27T21:03:53.442554+00:00"
+      "updated_at": "2026-04-27T21:15:22.758700+00:00"
     },
     "a7006f7223c0d224c6b03005164de3d8106689bd": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081303",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.460007+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Mayo Chiki! 1080p Dual Audio",
       "transfer_id": 105081303,
-      "updated_at": "2026-04-27T21:03:53.525429+00:00"
+      "updated_at": "2026-04-27T21:15:22.881970+00:00"
     },
     "a75i75oht35q2kcexkzavauea3bomze7": {
       "category": "Series | Anime",
@@ -578,21 +579,21 @@
     },
     "a7f03fb1212eb2f7711767e949d92489a5a79665": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081249",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.202148+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Sound! Euphonium 2 1080p BD x265 10bit",
       "transfer_id": 105081249,
-      "updated_at": "2026-04-27T21:03:53.612465+00:00"
+      "updated_at": "2026-04-27T21:15:22.989483+00:00"
     },
     "aa7e182b9a216c0a844e13244daadb5aef5c6e45": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081276",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.897007+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Fireworks, Should We See It from the Side or the Bottom? - EP2017",
       "transfer_id": 105081276,
-      "updated_at": "2026-04-27T21:03:53.695518+00:00"
+      "updated_at": "2026-04-27T21:15:23.099300+00:00"
     },
     "abbbphkc4zuj3zraysl4il7r2ps652eg": {
       "category": "Series | Anime",
@@ -612,32 +613,32 @@
     },
     "acb6765c382f80f1c6628ad0dc6206a24ae7c4e4": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081256",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.149284+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "The Ancient Magus' Bride S01 1080p BD Dual Audio Animekaizoku",
       "transfer_id": 105081256,
-      "updated_at": "2026-04-27T21:03:53.779730+00:00"
+      "updated_at": "2026-04-27T21:15:23.212023+00:00"
     },
     "ad14d1957f2184392e9ef0c195e725c17f5f5e22": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081299",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.953473+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "The Rolling Girls Season 1 720p Dual Audio",
       "transfer_id": 105081299,
-      "updated_at": "2026-04-27T21:03:53.862940+00:00"
+      "updated_at": "2026-04-27T21:15:23.320101+00:00"
     },
     "afb726c0e76740922a011d610b7f17b9b7c8cbaa": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081315",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:45.009831+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Kuusen Madoushi Kouhosei No Kyoukan + OVA 720p x264 BD Dual Audio v3",
       "transfer_id": 105081315,
-      "updated_at": "2026-04-27T21:03:53.948456+00:00"
+      "updated_at": "2026-04-27T21:15:23.430267+00:00"
     },
     "alsr2zwv7i4kk7ysmon5f2ifqxpoxgjb": {
       "category": "Series | Anime",
@@ -649,13 +650,13 @@
     },
     "b3cf36cde902cd1cc0deb22a5d0b1c1e11ffffc6": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081311",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:44.489804+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Angel Beats 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081311,
-      "updated_at": "2026-04-27T21:03:54.031607+00:00"
+      "updated_at": "2026-04-27T21:15:23.539167+00:00"
     },
     "b6knrggeye4qak75hnk44ufens6sihtd": {
       "category": "Series | Anime",
@@ -675,22 +676,22 @@
     },
     "c76694ec3c5242d6cd67e9c1db39608290249b99": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081289",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.629521+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Strike Witches 720p x264 BD Dual Audio",
       "transfer_id": 105081289,
-      "updated_at": "2026-04-27T21:03:54.115249+00:00"
+      "updated_at": "2026-04-27T21:15:23.648952+00:00"
     },
     "ca87ad986f3a91ce25f50303db20d03458096dc5": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081242",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:34.954414+00:00",
       "percent": 8,
-      "status": "pending",
+      "status": "error",
       "title": "Demon Slayer - Kimetsu no Yaiba - Mugen Train",
       "transfer_id": 105081242,
-      "updated_at": "2026-04-27T21:03:54.198635+00:00"
+      "updated_at": "2026-04-27T21:15:23.756829+00:00"
     },
     "cakfjgezs25vdosdw6gd4aaru3nun6nh": {
       "category": "Series | Anime",
@@ -710,12 +711,12 @@
     },
     "cefb57407c8e6e2b8ee89de6bde7e18de4b44e48": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081272",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:39.347435+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Akame Ga Kill! 1080p BD Dual Audio HEVC x265",
       "transfer_id": 105081272,
-      "updated_at": "2026-04-27T21:03:54.283762+00:00"
+      "updated_at": "2026-04-27T21:15:23.866041+00:00"
     },
     "d2742986780c6dba6a956b147a2b0ec26e1f9b72": {
       "category": "Series | Anime",
@@ -730,141 +731,141 @@
     },
     "d8c5c48e822ce8fa3c0b787b6f7ee251e477b788": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081278",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.150061+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Ao no Exorcist - Kyoto Fujouou-hen Season 2_Rokey",
       "transfer_id": 105081278,
-      "updated_at": "2026-04-27T21:03:54.366114+00:00"
+      "updated_at": "2026-04-27T21:15:23.973898+00:00"
     },
     "dde44c581cf93309560a5d5a3d2981ecdc97045a": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081264",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:38.220906+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Flavors of Youth - EP2018",
       "transfer_id": 105081264,
-      "updated_at": "2026-04-27T21:03:54.450283+00:00"
+      "updated_at": "2026-04-27T21:15:24.081715+00:00"
     },
     "de741a58371f314018d7cbe95ead34924d7b0c3b": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081255",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.013691+00:00",
       "percent": 96,
-      "status": "pending",
+      "status": "error",
       "title": "KonoSuba - Legend of the Crimson - EP2019",
       "transfer_id": 105081255,
-      "updated_at": "2026-04-27T21:03:54.535800+00:00"
+      "updated_at": "2026-04-27T21:15:24.189713+00:00"
     },
     "e145dde0769d5e0c646a71f33e4b7e904b75d193": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081267",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:38.604635+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Godzilla: City on the Edge of Battle - EP2018",
       "transfer_id": 105081267,
-      "updated_at": "2026-04-27T21:03:54.619173+00:00"
+      "updated_at": "2026-04-27T21:15:24.300126+00:00"
     },
     "e53c0bb85d31069c0cfd466502e8786be4340bf9": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081266",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:38.479061+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081266,
-      "updated_at": "2026-04-27T21:03:54.702593+00:00"
+      "updated_at": "2026-04-27T21:15:24.408935+00:00"
     },
     "e5830d7f83ed2f0a4d347148a943511d05c7c670": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081302",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.332780+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Oushitsu Kyoushi Haine",
       "transfer_id": 105081302,
-      "updated_at": "2026-04-27T21:03:54.785780+00:00"
+      "updated_at": "2026-04-27T21:15:24.518622+00:00"
     },
     "e773621f08b13bdb7584ab5b64440fd7183de0bd": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081277",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.021237+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Fuuka_Rokey",
       "transfer_id": 105081277,
-      "updated_at": "2026-04-27T21:03:54.868705+00:00"
+      "updated_at": "2026-04-27T21:15:24.627005+00:00"
     },
     "ec338460551f2a687c17eb59911164eb95ebfe85": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081283",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:40.830616+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Mushishi Zoku Shou 720p Eng Sub",
       "transfer_id": 105081283,
-      "updated_at": "2026-04-27T21:03:54.950366+00:00"
+      "updated_at": "2026-04-27T21:15:24.737616+00:00"
     },
     "ec344405385aa25304b2fdf80bc97b25dfb24f0b": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081261",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:37.826983+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Dimension W 720p BD Dual Audio",
       "transfer_id": 105081261,
-      "updated_at": "2026-04-27T21:03:55.034571+00:00"
+      "updated_at": "2026-04-27T21:15:24.847806+00:00"
     },
     "f50419b08c4426f392bc54eb82cb02131dad6bea": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081307",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:43.969282+00:00",
       "percent": 7,
-      "status": "pending",
+      "status": "error",
       "title": "Aoharu x Kikanjuu",
       "transfer_id": 105081307,
-      "updated_at": "2026-04-27T21:03:55.124722+00:00"
+      "updated_at": "2026-04-27T21:15:24.956968+00:00"
     },
     "f88aaee04b1b5a0177b89a4c8d8773635ee5e0df": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081296",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:42.569797+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Youjo Senki 720p BD Dual Audio",
       "transfer_id": 105081296,
-      "updated_at": "2026-04-27T21:03:55.215601+00:00"
+      "updated_at": "2026-04-27T21:15:25.088979+00:00"
     },
     "fb92a89a774f7867b510171441891c0b2f9f8176": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081251",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.493899+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "Working!! S1-S3 720p BD x265 10bit",
       "transfer_id": 105081251,
-      "updated_at": "2026-04-27T21:03:55.304162+00:00"
+      "updated_at": "2026-04-27T21:15:25.199348+00:00"
     },
     "fd0a08dbddead98f40c8dccf05186161322e8295": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081250",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:36.353124+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Sound! Euphonium 1080p BD x265 10bit",
       "transfer_id": 105081250,
-      "updated_at": "2026-04-27T21:03:55.385915+00:00"
+      "updated_at": "2026-04-27T21:15:25.309484+00:00"
     },
     "fdaecb25c6d2ab010c2b1801c716288a428ebff6": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081287",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:41.344551+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Steins;Gate OVA - Egoistic Poriomania",
       "transfer_id": 105081287,
-      "updated_at": "2026-04-27T21:03:55.471027+00:00"
+      "updated_at": "2026-04-27T21:15:25.421506+00:00"
     },
     "fe53a3f37422bbca066724d4f5f394790704fabc": {
       "category": "Series | Anime",
-      "error": "get_transfer: 404 Client Error: NOT FOUND for url: https://api.put.io/v2/transfers/105081265",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T03:43:38.350745+00:00",
-      "status": "pending",
+      "status": "error",
       "title": "Big Fish & Begonia - EP2016",
       "transfer_id": 105081265,
-      "updated_at": "2026-04-27T21:03:55.554768+00:00"
+      "updated_at": "2026-04-27T21:15:25.530470+00:00"
     },
     "grxo3l27qjzcu3csjwgsvikikshg6k3j": {
       "category": "Series | Anime",
