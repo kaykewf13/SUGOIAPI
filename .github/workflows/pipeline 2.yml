@@ -1,0 +1,111 @@
+name: SUGOIAPI Pipeline
+
+on:
+  schedule:
+    # A cada 2 horas. Ajuste se quiser mais/menos frequente.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # necessário para commit do state e da playlist
+
+concurrency:
+  group: sugoiapi-pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PUTIO_TOKEN: ${{ secrets.PUTIO_TOKEN }}
+      SENTRY_DSN:  ${{ secrets.SENTRY_DSN }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── Fase A — RSS → Put.io (envia magnets novos) ────────────────────
+      - name: Enqueue magnets no Put.io
+        if: env.PUTIO_TOKEN != ''
+        run: python rss_to_putio.py
+
+      # ── Fase B — Put.io → state (resolve URLs prontas) ─────────────────
+      - name: Harvest stream URLs do Put.io
+        if: env.PUTIO_TOKEN != ''
+        run: python harvest_putio.py
+
+      # ── Pipeline principal — consome state + gera playlist ─────────────
+      - name: Pipeline (gera playlist_validada.m3u)
+        run: python pipeline.py
+
+      # ── Commit dos artefatos persistentes (com retry anti-race) ────────
+      - name: Commit playlist atualizada
+        run: |
+          set -e
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Adiciona apenas o que faz sentido versionar
+          git add output/ putio_state.json putio_entries.m3u 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "Sem mudanças para commitar."
+            exit 0
+          fi
+
+          git commit -m "🎬 Playlist atualizada — $(date -u +%F)"
+
+          # Retry com rebase: lida com race condition quando o remote
+          # avançou enquanto o pipeline rodava.
+          # Estratégia: em conflito de conteúdo (json/m3u que foram regenerados
+          # dos dois lados), nossa versão local é a verdade — usamos -X ours.
+          for tentativa in 1 2 3 4 5; do
+            # Limpa qualquer rebase pendente de tentativa anterior
+            git rebase --abort 2>/dev/null || true
+
+            if git pull --rebase -X ours --autostash origin main && git push; then
+              echo "Push concluído na tentativa $tentativa."
+              exit 0
+            fi
+
+            echo "Tentativa $tentativa falhou — retry em 5s..."
+            sleep 5
+          done
+
+          echo "❌ Push falhou após 5 tentativas."
+          # Limpa estado pendente pra não corromper o cache do runner
+          git rebase --abort 2>/dev/null || true
+          exit 1
+
+      # ── Notificação opcional ao Sentry ─────────────────────────────────
+      - name: Notificar falha no Sentry
+        if: failure() && env.SENTRY_DSN != ''
+        run: |
+          python - <<'EOF'
+          import os
+          dsn = os.environ.get("SENTRY_DSN", "")
+          if not dsn:
+              print("SENTRY_DSN não configurado — pulando notificação.")
+              raise SystemExit(0)
+          try:
+              import sentry_sdk
+              sentry_sdk.init(dsn=dsn)
+              sentry_sdk.capture_message("SUGOIAPI Pipeline falhou", level="error")
+              print("Falha notificada ao Sentry.")
+          except Exception as e:
+              print(f"Erro ao notificar Sentry: {e}")
+          EOF
