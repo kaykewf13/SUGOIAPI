@@ -6,9 +6,12 @@ Bridge: feeds RSS (rss_sources.py) → Put.io (putio_integration.py).
 Reaproveita SOURCES e o fetcher de rss_sources.py, extrai magnets dos
 itens RSS e envia ao PutioOrchestrator.enqueue.
 
-Suporta duas formas de magnet no RSS:
-  • <link>magnet:?...</link>                      → SubsPlease
-  • <nyaa:infoHash>HASH</nyaa:infoHash>           → Nyaa.si (AnimeKaizoku)
+Suporta múltiplas formas de magnet no RSS (em ordem de preferência):
+  • <link>magnet:?...</link>
+  • <guid>magnet:?...</guid>                       (SubsPlease)
+  • <enclosure url="magnet:?..."/>
+  • magnet embebido no <description>               (alguns feeds)
+  • <nyaa:infoHash>HASH</nyaa:infoHash>            (Nyaa.si — AnimeKaizoku)
 
 Uso standalone (no GitHub Actions):
     python rss_to_putio.py
@@ -20,6 +23,7 @@ Uso programático:
 
 from __future__ import annotations
 
+import re
 import xml.etree.ElementTree as ET
 from urllib.parse import quote
 
@@ -42,20 +46,55 @@ DEFAULT_TRACKERS = [
     "udp://tracker.torrent.eu.org:451/announce",
 ]
 
+# Regex para encontrar magnet links embedded em texto (description, etc.)
+_MAGNET_INLINE_RE = re.compile(
+    r'magnet:\?xt=urn:btih:[A-Za-z0-9]+(?:&[^\s"<>]+)*',
+    re.IGNORECASE,
+)
+
+# Regex para extrair info_hash isolado (40 hex chars ou 32 base32 chars)
+_INFOHASH_RE = re.compile(r'\b([A-Fa-f0-9]{40}|[A-Za-z2-7]{32})\b')
+
+
+def _build_magnet(info_hash: str, title: str) -> str:
+    """Monta um magnet URI completo a partir de um info_hash."""
+    trackers = "&".join(f"tr={quote(t, safe='')}" for t in DEFAULT_TRACKERS)
+    return (
+        f"magnet:?xt=urn:btih:{info_hash.lower()}"
+        f"&dn={quote(title)}"
+        f"&{trackers}"
+    )
+
 
 def _magnet_from_item(item: ET.Element, fallback_title: str) -> str | None:
     """
-    Tenta extrair um magnet URI de um <item> de RSS, em ordem:
-      1. <link> que já comece com 'magnet:'  (SubsPlease)
-      2. <nyaa:infoHash> + título            (Nyaa.si)
-    Retorna None se nenhum dos dois estiver presente.
+    Tenta extrair (ou construir) um magnet URI de um <item> de RSS.
+    Retorna None se nenhuma estratégia funcionar.
     """
-    # 1) link direto
+    # 1) <link> direto
     link = (item.findtext("link") or "").strip()
     if link.startswith("magnet:"):
         return link
 
-    # 2) info_hash via tag <nyaa:infoHash> (namespace pode vir prefixado)
+    # 2) <guid> — SubsPlease coloca o magnet aqui
+    guid = (item.findtext("guid") or "").strip()
+    if guid.startswith("magnet:"):
+        return guid
+
+    # 3) <enclosure url="magnet:..."/>
+    enc = item.find("enclosure")
+    if enc is not None:
+        enc_url = (enc.get("url") or "").strip()
+        if enc_url.startswith("magnet:"):
+            return enc_url
+
+    # 4) magnet embebido no <description>
+    desc = item.findtext("description") or ""
+    m = _MAGNET_INLINE_RE.search(desc)
+    if m:
+        return m.group(0)
+
+    # 5) <nyaa:infoHash> (namespace pode vir prefixado em ElementTree)
     info_hash = None
     for child in item:
         tag = child.tag.split("}")[-1]  # remove '{namespace}'
@@ -63,15 +102,16 @@ def _magnet_from_item(item: ET.Element, fallback_title: str) -> str | None:
             info_hash = child.text.strip().lower()
             break
 
-    if not info_hash:
-        return None
+    # 6) Último recurso: info_hash bruto no guid (alguns feeds)
+    if not info_hash and guid:
+        h = _INFOHASH_RE.search(guid)
+        if h:
+            info_hash = h.group(1).lower()
 
-    trackers = "&".join(f"tr={quote(t, safe='')}" for t in DEFAULT_TRACKERS)
-    return (
-        f"magnet:?xt=urn:btih:{info_hash}"
-        f"&dn={quote(fallback_title)}"
-        f"&{trackers}"
-    )
+    if info_hash:
+        return _build_magnet(info_hash, fallback_title)
+
+    return None
 
 
 def coletar_itens_rss() -> list[dict]:
