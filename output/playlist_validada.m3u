@@ -59,11 +59,11 @@ https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-name="CBS News Detroit" tvg-logo="https://images.pluto.tv/channels/634f2610d5023700078f7dee/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Detroit
 https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 
-#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
-https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
-
 #EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
 https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
+
+#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
+https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Miami" tvg-logo="https://images.pluto.tv/channels/60fb299b79498900070b29e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Miami
 https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
@@ -1758,7 +1758,7 @@ https://jmp2.uk/plu-6319ee0cf78bb10007ee5e6b.m3u8
 https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 
-### ══════════ SÉRIES (32) ══════════
+### ══════════ SÉRIES (37) ══════════
 
 
 ## ── Brazil ──
@@ -1792,6 +1792,12 @@ https://s62-cdn77.put.io/download/1583908244?u=AceZ48ZcuS3Ap_N2FK5WJaJARUSob0cEQ
 
 #EXTINF:-1 tvg-name="Ikoku Nikki (01 E13" tvg-logo="" tvg-type="series" group-title="Series | Geral | Ikoku Nikki (01 | Temporada 01", Ikoku Nikki (01 E13
 https://s103-cdn77.put.io/download/1584085260?u=06kMNoH03Uz8H-Svnkp4u6s8CPAL-g2KNjRcxO75HRt19v6kILHKjpeY5d8TjahNJjAL36pvFHMENu9FkC_oJw%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
+
+#EXTINF:-1 tvg-name="Ikoku Nikki (01 E13" tvg-logo="" tvg-type="series" group-title="Series | Geral | Ikoku Nikki (01 | Temporada 01", Ikoku Nikki (01 E13
+https://s70-cdn77.put.io/download/1584101442?u=SMGTV90NTjY9rpVlbFcf7VCqfatICDjBvCmpZRsJI4fOgMcb8M3zW4_1uP6dWGh1jd4tC-dT6j_-ouKpihcgZQ%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U
+
+#EXTINF:-1 tvg-name="Kuroneko to Majo no Kyoushitsu E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Kuroneko to Majo no Kyoushitsu | Temporada 01", Kuroneko to Majo no Kyoushitsu E03
+https://s87-cdn77.put.io/download/1584104486?u=dVEhRetnEpLxm7qKIAsJuDrkQQtys9jFO9AOl5dSUso39xsMUpGsCf6uvNzlXE43ad-ETn2EehSNHl9zOrY1Aw%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U
 
 #EXTINF:-1 tvg-name="Kuroneko to Majo no Kyoushitsu E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Kuroneko to Majo no Kyoushitsu | Temporada 01", Kuroneko to Majo no Kyoushitsu E03
 https://s96-cdn77.put.io/download/1584085256?u=fx7hyPLziMFZYfYlpF31yQ4hF3XnD4o8h7iWnXn8d3mJPVGlNhfkggj6g9-r0Mt87ygUvz51hyBUqNwiUobWqg%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
@@ -1833,6 +1839,9 @@ https://s69-cdn77.put.io/download/1584084934?u=ZhUOPxRm1ZdkDuhFX0RiYMQTP7MI2bUT-
 https://s112-cdn77.put.io/download/1584101423?u=Im4oQO6fnD0mC9Uw97-qDsZ7h30MPUtAPLYNp0gxkY0ApMQFJL39jGoHyeQt5TR1xognNWOJauxMTJPVnybFaw%3D%3D&oauth_token=ZUTNODZCT3VNEYG3ZNPY
 
 #EXTINF:-1 tvg-name="Tsue to Tsurugi no Wistoria S2 E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Tsue to Tsurugi no Wistoria S2 | Temporada 01", Tsue to Tsurugi no Wistoria S2 E03
+https://s112-cdn77.put.io/download/1584104487?u=ChKh7upU3CP2s8SrE4l5nnPqHzXi8iFVIg83el4dndrw7nb7Fx81yFBg6eyIUd1c-0co85sp4m0Wn8SiKNKnpg%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U
+
+#EXTINF:-1 tvg-name="Tsue to Tsurugi no Wistoria S2 E03" tvg-logo="" tvg-type="series" group-title="Series | Geral | Tsue to Tsurugi no Wistoria S2 | Temporada 01", Tsue to Tsurugi no Wistoria S2 E03
 https://s70-cdn77.put.io/download/1584093725?u=KLGe8FRG4S_DjgbaajeEF6ttniIgmveWDbuiWBU7SklcPpN4cTa1_WRaX5AYk8IjkbBIryN49amCCFmi6d0DRQ%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
 #EXTINF:-1 tvg-name="Yuusha no Kuzu E15" tvg-logo="" tvg-type="series" group-title="Series | Geral | Yuusha no Kuzu | Temporada 01", Yuusha no Kuzu E15
@@ -1862,6 +1871,9 @@ https://s102-cdn77.put.io/download/1584084933?u=KwuIEkKkBRhkg6j860gXPBmUpWsMAG46
 #EXTINF:-1 tvg-name="Meitantei Precure! - 13v2.mkv" tvg-logo="" tvg-type="series" group-title="Series | Musica e Idols | Series | Anime | Temporada 01", Meitantei Precure! - 13v2.mkv
 https://s105-cdn77.put.io/download/1584093723?u=nAd-vqoH7qdntvliYU8Y3XBu0llYzfpkmvwAk5YzSL2zZBB2R961HcCwlrVlVGGmD5Jh6elGmgcPLWf8ohhbEw%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
+#EXTINF:-1 tvg-name="Meitantei Precure! - 13v2.mkv" tvg-logo="" tvg-type="series" group-title="Series | Musica e Idols | Series | Anime | Temporada 01", Meitantei Precure! - 13v2.mkv
+https://s91-cdn77.put.io/download/1584104488?u=kb8V28HYSVgKyeDTclWGiY0SZvkrLZYzfdAHH1pG_CV32gqUKLNCEMrDm_hqf8lMQcIy7_8gLg96YfW5-1rsjA%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U
+
 
 ## ── Shoujo ──
 
@@ -1876,6 +1888,9 @@ https://s109-cdn77.put.io/download/1584101424?u=a_7yzZqtq0XPIhR1aT1gi-gW42og_g0T
 
 #EXTINF:-1 tvg-name="One Piece E1159" tvg-logo="" tvg-type="series" group-title="Series | Shounen | One Piece | Temporada 01", One Piece E1159
 https://s86-cdn77.put.io/download/1584085254?u=NllZASl3Rf5VBZevYYW2pXExKYuoCD74jRtT6m04GnRcb1v5NJoCKor2eVgkPuNK00-4tdErER0OggGtcd3v3Q%3D%3D&oauth_token=57VWB7POBNVYLFF7YMWP
+
+#EXTINF:-1 tvg-name="Digimon Beatbreak - 28v2.mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Series | Anime | Temporada 01", Digimon Beatbreak - 28v2.mkv
+https://s84-cdn77.put.io/download/1584104485?u=Xzh32b5nm3tkE6BTR6co3UmBOlDmVctVwQHJFJuuC1oRN6i5PkvMhq3js0lDQ-zas6T7CdLjrrsjzPBloZfLtA%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U
 
 #EXTINF:-1 tvg-name="Digimon Beatbreak - 28v2.mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Series | Anime | Temporada 01", Digimon Beatbreak - 28v2.mkv
 https://s63-cdn77.put.io/download/1584093722?u=CNbiZq2jK8ixG-eKJnj9XO2O7O8kViHG7_Sc2kSQ2SljF0RJPRctQ_KwFUzBWDZIawgTyhma_M2_QQ4ttzIT0w%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC

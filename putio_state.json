@@ -250,12 +250,14 @@
     },
     "3627c42cc1311de8279ff8c7f6c7762d39c2fa08": {
       "category": "Series | Anime",
+      "file_id": 1584101436,
       "first_seen": "2026-04-27T23:20:09.345682+00:00",
-      "percent": 100,
-      "status": "pending",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s70-cdn77.put.io/download/1584101442?u=SMGTV90NTjY9rpVlbFcf7VCqfatICDjBvCmpZRsJI4fOgMcb8M3zW4_1uP6dWGh1jd4tC-dT6j_-ouKpihcgZQ%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U",
       "title": "Ikoku Nikki (01 - EP13",
       "transfer_id": 105097578,
-      "updated_at": "2026-04-27T23:20:10.791802+00:00"
+      "updated_at": "2026-04-27T23:36:52.116049+00:00"
     },
     "37085bb01e48eb17e5b383c51e38aee44cf74059": {
       "category": "Series | Anime",
@@ -405,6 +407,17 @@
       "transfer_id": 105081279,
       "updated_at": "2026-04-27T21:15:20.727141+00:00"
     },
+    "4dff0375a21259dc32655ff5e3e6bc92a238af0a": {
+      "category": "Series | Anime",
+      "file_id": 1584104488,
+      "first_seen": "2026-04-27T23:36:50.525609+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s91-cdn77.put.io/download/1584104488?u=kb8V28HYSVgKyeDTclWGiY0SZvkrLZYzfdAHH1pG_CV32gqUKLNCEMrDm_hqf8lMQcIy7_8gLg96YfW5-1rsjA%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U",
+      "title": "Meitantei Precure! - 13v2.mkv",
+      "transfer_id": 105097701,
+      "updated_at": "2026-04-27T23:36:52.563611+00:00"
+    },
     "4f246a6910854d3fe378f9dbe9d410ec11a536b1": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -451,6 +464,17 @@
       "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
       "transfer_id": 105096501,
       "updated_at": "2026-04-27T21:51:34.165387+00:00"
+    },
+    "570a37fa13cae24b1a6f7ae21c40eaac00ff48ad": {
+      "category": "Series | Anime",
+      "file_id": 1584104486,
+      "first_seen": "2026-04-27T23:36:50.182754+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s87-cdn77.put.io/download/1584104486?u=dVEhRetnEpLxm7qKIAsJuDrkQQtys9jFO9AOl5dSUso39xsMUpGsCf6uvNzlXE43ad-ETn2EehSNHl9zOrY1Aw%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U",
+      "title": "Kuroneko to Majo no Kyoushitsu - EP03",
+      "transfer_id": 105097699,
+      "updated_at": "2026-04-27T23:36:53.034487+00:00"
     },
     "5b146aee5fe17cece12db55baa8b7bf82c289745": {
       "category": "Series | Anime",
@@ -723,6 +747,17 @@
       "transfer_id": 105081313,
       "updated_at": "2026-04-27T09:20:29.595061+00:00"
     },
+    "a00cf19c4abc06f7805a43c06cb13a0c5f38c41d": {
+      "category": "Series | Anime",
+      "file_id": 1584104487,
+      "first_seen": "2026-04-27T23:36:50.339555+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s112-cdn77.put.io/download/1584104487?u=ChKh7upU3CP2s8SrE4l5nnPqHzXi8iFVIg83el4dndrw7nb7Fx81yFBg6eyIUd1c-0co85sp4m0Wn8SiKNKnpg%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U",
+      "title": "Tsue to Tsurugi no Wistoria S2 - EP03",
+      "transfer_id": 105097700,
+      "updated_at": "2026-04-27T23:36:53.448383+00:00"
+    },
     "a226caefe1f7f512bce64d5ac7a69dec20efd9f4": {
       "category": "Series | Anime",
       "file_id": 1584084931,
@@ -841,6 +876,17 @@
       "status": "error",
       "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi - EP04",
       "updated_at": "2026-04-27T15:55:31.324055+00:00"
+    },
+    "b37901d32349aeaf386abb9ed6bfb7fd27688500": {
+      "category": "Series | Anime",
+      "file_id": 1584104485,
+      "first_seen": "2026-04-27T23:36:49.857343+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s84-cdn77.put.io/download/1584104485?u=Xzh32b5nm3tkE6BTR6co3UmBOlDmVctVwQHJFJuuC1oRN6i5PkvMhq3js0lDQ-zas6T7CdLjrrsjzPBloZfLtA%3D%3D&oauth_token=45BTRRGAIRE23K4NDI6U",
+      "title": "Digimon Beatbreak - 28v2.mkv",
+      "transfer_id": 105097697,
+      "updated_at": "2026-04-27T23:36:53.841355+00:00"
     },
     "b3cf36cde902cd1cc0deb22a5d0b1c1e11ffffc6": {
       "category": "Series | Anime",
@@ -1103,6 +1149,15 @@
       "title": "Dimension W 720p BD Dual Audio",
       "transfer_id": 105081261,
       "updated_at": "2026-04-27T21:15:24.847806+00:00"
+    },
+    "ed74578c299642823e875ac4ced952ee1d1247c6": {
+      "category": "Series | Anime",
+      "first_seen": "2026-04-27T23:36:50.026273+00:00",
+      "percent": 0,
+      "status": "pending",
+      "title": "NEEDY GIRL OVERDOSE - EP04",
+      "transfer_id": 105097698,
+      "updated_at": "2026-04-27T23:36:53.967457+00:00"
     },
     "f50419b08c4426f392bc54eb82cb02131dad6bea": {
       "category": "Series | Anime",
