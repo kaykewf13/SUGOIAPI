@@ -350,6 +350,17 @@
       "transfer_id": 105081253,
       "updated_at": "2026-04-27T21:15:20.134095+00:00"
     },
+    "4496eb97ddb6520dc87ffcb11a9e7b4a0b75e4e7": {
+      "category": "Series | Anime",
+      "file_id": 1584107438,
+      "first_seen": "2026-04-27T23:58:52.637828+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s66-cdn77.put.io/download/1584107438?u=oCAUo1i4vcURpdhtj0u93M5YwdL1n1lw0LCkRjMks-KZ_V098yYMkq47VBUCgfX_2lx75tgtvqYowjbdYCIAiA%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH",
+      "title": "Yuusha no Kuzu - EP15",
+      "transfer_id": 105097973,
+      "updated_at": "2026-04-27T23:58:54.441794+00:00"
+    },
     "44da23a4b24547ae681fd059b48461130ee0ed63": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -397,6 +408,17 @@
       "title": "Tenchi Muyo! - Movie 1 - In Love (x265 - EP10",
       "transfer_id": 105081291,
       "updated_at": "2026-04-27T21:15:20.618513+00:00"
+    },
+    "4c1494eb4aaa8482077a2325064b5498066ddb4d": {
+      "category": "Series | Anime",
+      "file_id": 1584107441,
+      "first_seen": "2026-04-27T23:58:53.097216+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s86-cdn77.put.io/download/1584107441?u=YqXOik4dseR8aecNBbku73jQQLP7a_5iaf2KIAG3cPUAtdszq2MA06zzQBRZuJqLZAlZtuC4uGG33ub5SwMbyg%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH",
+      "title": "Maid-san wa Taberu Dake - EP05",
+      "transfer_id": 105097976,
+      "updated_at": "2026-04-27T23:58:54.824320+00:00"
     },
     "4d71dbf4a2181fc592158e5f20b8e683b62d24cc": {
       "category": "Series | Anime",
@@ -495,6 +517,17 @@
       "title": "Aldnoah Zero S01 1080p Dual Audio HEVC x265",
       "transfer_id": 105081271,
       "updated_at": "2026-04-27T21:15:20.943743+00:00"
+    },
+    "5d76b0ff908bbff7569b27322a22f2cf29583592": {
+      "category": "Series | Anime",
+      "file_id": 1584107440,
+      "first_seen": "2026-04-27T23:58:52.940238+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s101-cdn77.put.io/download/1584107440?u=eYnuEAkILKwEq4PMpikUOB-PDXqIREOpupf9bD058G1XFuGoJT-ykqmUFEoQtomAFiFfksJ7c6BPjITO1fKS-w%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH",
+      "title": "Ace of Diamond Act II S2 - EP04",
+      "transfer_id": 105097975,
+      "updated_at": "2026-04-27T23:58:55.211331+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
@@ -639,6 +672,17 @@
       "status": "error",
       "title": "Kami no Niwatsuki Kusunoki-tei - EP04",
       "updated_at": "2026-04-27T09:20:18.551287+00:00"
+    },
+    "7d50923ad2bfce6b41b3f59a656033e9bcdfa6f8": {
+      "category": "Series | Anime",
+      "file_id": 1584107439,
+      "first_seen": "2026-04-27T23:58:52.786626+00:00",
+      "percent": 100.0,
+      "status": "done",
+      "stream_url": "https://s79-cdn77.put.io/download/1584107439?u=ZBOQVbvxUExGpxt-ovWsbfwzv5qMBaAX9HHyzUe0x-WJr5h2U758p4AXINSxg0x7OKDjBcAC4YQbeoQMRqXmFw%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH",
+      "title": "Niwatori Fighter - EP07",
+      "transfer_id": 105097974,
+      "updated_at": "2026-04-27T23:58:55.602946+00:00"
     },
     "7f3aeda5d00e1c3d8c28d817853fa604ed108967": {
       "category": "Series | Anime",
@@ -1152,12 +1196,13 @@
     },
     "ed74578c299642823e875ac4ced952ee1d1247c6": {
       "category": "Series | Anime",
+      "error": "transfer não existe no Put.io",
       "first_seen": "2026-04-27T23:36:50.026273+00:00",
       "percent": 0,
-      "status": "pending",
+      "status": "error",
       "title": "NEEDY GIRL OVERDOSE - EP04",
       "transfer_id": 105097698,
-      "updated_at": "2026-04-27T23:36:53.967457+00:00"
+      "updated_at": "2026-04-27T23:58:54.057803+00:00"
     },
     "f50419b08c4426f392bc54eb82cb02131dad6bea": {
       "category": "Series | Anime",

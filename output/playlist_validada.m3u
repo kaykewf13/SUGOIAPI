@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (578) ══════════
+### ══════════ CANAIS (579) ══════════
 
 
 ## ── Noticias (55) ──
@@ -59,11 +59,11 @@ https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-name="CBS News Detroit" tvg-logo="https://images.pluto.tv/channels/634f2610d5023700078f7dee/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Detroit
 https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 
-#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
-https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
-
 #EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
 https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
+
+#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
+https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Miami" tvg-logo="https://images.pluto.tv/channels/60fb299b79498900070b29e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Miami
 https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
@@ -171,13 +171,16 @@ https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
 https://jmp2.uk/plu-65790feacbd0d60008fac87a.m3u8
 
 
-## ── Esportes (9) ──
+## ── Esportes (10) ──
 
 #EXTINF:-1 tvg-name="Cine Premiere" tvg-logo="https://images.pluto.tv/channels/5cf968040ab7d8f181e6a68b/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", Cine Premiere
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 #EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/65b14aae0cb1a100087a216e/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
 https://jmp2.uk/plu-65b14aae0cb1a100087a216e.m3u8
+
+#EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/649b6898f2ec0000081a9460/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
+https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8
 
 #EXTINF:-1 tvg-name="DAZN TV" tvg-logo="https://images.pluto.tv/channels/647f07e74cfc2c0008a2e557/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN TV
 https://jmp2.uk/plu-647f07e74cfc2c0008a2e557.m3u8
@@ -1758,19 +1761,22 @@ https://jmp2.uk/plu-6319ee0cf78bb10007ee5e6b.m3u8
 https://jmp2.uk/plu-5f4ec10ed9636f00089b8c89.m3u8
 
 
-### ══════════ SÉRIES (37) ══════════
+### ══════════ SÉRIES (41) ══════════
 
 
 ## ── Brazil ──
 
-#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
-https://www.youtube.com/watch?v=oUdd3CsxYaE
-
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
 
+#EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="series" group-title="Series | Brazil | Brazil | Temporada 01", RBC Ⓨ
+https://www.youtube.com/watch?v=oUdd3CsxYaE
+
 
 ## ── Esportes ──
+
+#EXTINF:-1 tvg-name="Ace of Diamond Act II S2 E04" tvg-logo="" tvg-type="series" group-title="Series | Esportes | Ace of Diamond Act II S2 | Temporada 01", Ace of Diamond Act II S2 E04
+https://s101-cdn77.put.io/download/1584107440?u=eYnuEAkILKwEq4PMpikUOB-PDXqIREOpupf9bD058G1XFuGoJT-ykqmUFEoQtomAFiFfksJ7c6BPjITO1fKS-w%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH
 
 #EXTINF:-1 tvg-name="Ace of Diamond Act II S2 E04" tvg-logo="" tvg-type="series" group-title="Series | Esportes | Ace of Diamond Act II S2 | Temporada 01", Ace of Diamond Act II S2 E04
 https://s106-cdn77.put.io/download/1584093726?u=vme8B3r-rjCV2p_11Jsa209osUgqtmg9rQj6p2m2_lJZLqzmCZTLCdNOXIKyKNFfW6mBMAfxG4QGvlJvBgSIkA%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
@@ -1809,10 +1815,16 @@ https://s92-cdn77.put.io/download/1584084030?u=wtwme8IE3zpEELTrizuXRqX9U3JEIe-Fe
 https://s73-cdn77.put.io/download/1584084055?u=mWVJrP9Z1D7_M140QQgZPHOkxza-X8cNqxvsGgl4MN-S0HUy0UZjOvJGjl_0aG0dDng0ZPkUvVDOqN_mgqLplA%3D%3D&oauth_token=QF32NHMO6B2DSGZMD5KL
 
 #EXTINF:-1 tvg-name="Maid-san wa Taberu Dake E05" tvg-logo="" tvg-type="series" group-title="Series | Geral | Maid-san wa Taberu Dake | Temporada 01", Maid-san wa Taberu Dake E05
+https://s86-cdn77.put.io/download/1584107441?u=YqXOik4dseR8aecNBbku73jQQLP7a_5iaf2KIAG3cPUAtdszq2MA06zzQBRZuJqLZAlZtuC4uGG33ub5SwMbyg%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH
+
+#EXTINF:-1 tvg-name="Maid-san wa Taberu Dake E05" tvg-logo="" tvg-type="series" group-title="Series | Geral | Maid-san wa Taberu Dake | Temporada 01", Maid-san wa Taberu Dake E05
 https://s77-cdn77.put.io/download/1584093721?u=7BmB1qQzwg5yaauNoMOTJtz38b06Gv-hHTW_f11VmTmF3tie1DZaKvma3L4j9yprhuzLJYOZQDs-16rpNeCm8g%3D%3D&oauth_token=LAB2ZNKTBPYHH665ABYC
 
 #EXTINF:-1 tvg-name="NEEDY GIRL OVERDOSE E04" tvg-logo="" tvg-type="series" group-title="Series | Geral | NEEDY GIRL OVERDOSE | Temporada 01", NEEDY GIRL OVERDOSE E04
 https://s101-cdn77.put.io/download/1584099446?u=U1jy-TAj6MpdIPYkPYF33W896TdKFVp27sPjjTim35z76oV7RtAdR6ATrvhL_4hz3XMk1J-52LPNQ383rQOkHA%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF
+
+#EXTINF:-1 tvg-name="Niwatori Fighter E07" tvg-logo="" tvg-type="series" group-title="Series | Geral | Niwatori Fighter | Temporada 01", Niwatori Fighter E07
+https://s79-cdn77.put.io/download/1584107439?u=ZBOQVbvxUExGpxt-ovWsbfwzv5qMBaAX9HHyzUe0x-WJr5h2U758p4AXINSxg0x7OKDjBcAC4YQbeoQMRqXmFw%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH
 
 #EXTINF:-1 tvg-name="Niwatori Fighter E07" tvg-logo="" tvg-type="series" group-title="Series | Geral | Niwatori Fighter | Temporada 01", Niwatori Fighter E07
 https://s95-cdn77.put.io/download/1584099444?u=WFt2T_uzd32p165mYj83XR4hskerPbYpSOYcYOCFY8GSIC9BLsQaPUf91A_pHxGInIM8bZ5jhV0IWb8620n7ZA%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF
@@ -1846,6 +1858,9 @@ https://s70-cdn77.put.io/download/1584093725?u=KLGe8FRG4S_DjgbaajeEF6ttniIgmveWD
 
 #EXTINF:-1 tvg-name="Yuusha no Kuzu E15" tvg-logo="" tvg-type="series" group-title="Series | Geral | Yuusha no Kuzu | Temporada 01", Yuusha no Kuzu E15
 https://s66-cdn77.put.io/download/1584099445?u=yfsTZt93LmpDi3Augr0Tam9EqXYgrktGknqYEkeFAYGwDGpESkA22O2o1_3mDuRJ8S-PE1PLg9yGgt-DPuZ3hw%3D%3D&oauth_token=EOB6QKC2HUGSZMWEEVSF
+
+#EXTINF:-1 tvg-name="Yuusha no Kuzu E15" tvg-logo="" tvg-type="series" group-title="Series | Geral | Yuusha no Kuzu | Temporada 01", Yuusha no Kuzu E15
+https://s66-cdn77.put.io/download/1584107438?u=oCAUo1i4vcURpdhtj0u93M5YwdL1n1lw0LCkRjMks-KZ_V098yYMkq47VBUCgfX_2lx75tgtvqYowjbdYCIAiA%3D%3D&oauth_token=EXV674ETZDCM2ACXPVKH
 
 
 ## ── Historico ──
