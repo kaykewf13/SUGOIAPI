@@ -1196,13 +1196,13 @@
     },
     "ed74578c299642823e875ac4ced952ee1d1247c6": {
       "category": "Series | Anime",
-      "error": "transfer não existe no Put.io",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
       "first_seen": "2026-04-27T23:36:50.026273+00:00",
       "percent": 0,
       "status": "error",
       "title": "NEEDY GIRL OVERDOSE - EP04",
       "transfer_id": 105097698,
-      "updated_at": "2026-04-27T23:58:54.057803+00:00"
+      "updated_at": "2026-04-28T07:40:29.074871+00:00"
     },
     "f50419b08c4426f392bc54eb82cb02131dad6bea": {
       "category": "Series | Anime",
