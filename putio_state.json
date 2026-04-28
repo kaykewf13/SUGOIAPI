@@ -65,7 +65,7 @@
       "first_seen": "2026-04-28T16:19:15.088449+00:00",
       "status": "error",
       "title": "Aishiteru Game wo Owarasetai - EP03",
-      "updated_at": "2026-04-28T16:19:15.088463+00:00"
+      "updated_at": "2026-04-28T21:40:55.723090+00:00"
     },
     "0bba0c4ccce2ec967ab876097fc8aa00e73627d4": {
       "category": "Series | Anime",
@@ -514,6 +514,14 @@
       "transfer_id": 105097699,
       "updated_at": "2026-04-27T23:36:53.034487+00:00"
     },
+    "5ae9b12a98d009eebfedb76c52245af65b39bf26": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-28T21:40:56.108151+00:00",
+      "status": "error",
+      "title": "Tadaima, Ojamasaremasu! - EP04",
+      "updated_at": "2026-04-28T21:40:56.108166+00:00"
+    },
     "5b146aee5fe17cece12db55baa8b7bf82c289745": {
       "category": "Series | Anime",
       "file_id": 1584084071,
@@ -551,7 +559,7 @@
       "first_seen": "2026-04-28T16:19:14.769437+00:00",
       "status": "error",
       "title": "MARRIAGETOXIN - EP04",
-      "updated_at": "2026-04-28T16:19:14.769451+00:00"
+      "updated_at": "2026-04-28T21:40:56.191985+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
@@ -681,6 +689,14 @@
       "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru (01 - EP12",
       "updated_at": "2026-04-27T09:20:07.079645+00:00"
     },
+    "786be64f55b13dbafcedbb69568d2eca7335673e": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-28T21:40:55.936715+00:00",
+      "status": "error",
+      "title": "Yuusha no Rokkotsu de - EP04",
+      "updated_at": "2026-04-28T21:40:55.936728+00:00"
+    },
     "7advog37k4rp7yirzasbprviiw5tfcfm": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 400 BAD REQUEST — body={'error_id': None, 'error_message': 'Invalid magnet link', 'error_type': 'BadRequest', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 400}",
@@ -781,7 +797,7 @@
       "first_seen": "2026-04-28T16:19:14.690085+00:00",
       "status": "error",
       "title": "LasTame S2 - EP04",
-      "updated_at": "2026-04-28T16:19:14.690100+00:00"
+      "updated_at": "2026-04-28T21:40:55.639094+00:00"
     },
     "9778b2e0af26548f30ade24ed85f484bc5cf1cc5": {
       "category": "Series | Anime",
@@ -809,7 +825,7 @@
       "first_seen": "2026-04-28T16:19:14.928950+00:00",
       "status": "error",
       "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta - EP04",
-      "updated_at": "2026-04-28T16:19:14.928961+00:00"
+      "updated_at": "2026-04-28T21:40:56.022036+00:00"
     },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
@@ -905,7 +921,7 @@
       "first_seen": "2026-04-28T16:19:14.848934+00:00",
       "status": "error",
       "title": "Replica datte, Koi wo Suru. - EP04",
-      "updated_at": "2026-04-28T16:19:14.848948+00:00"
+      "updated_at": "2026-04-28T21:40:56.370957+00:00"
     },
     "aa7e182b9a216c0a844e13244daadb5aef5c6e45": {
       "category": "Series | Anime",
@@ -1127,6 +1143,14 @@
       "transfer_id": 105097577,
       "updated_at": "2026-04-27T23:20:11.761207+00:00"
     },
+    "d7c7aa1f6630f320fd55e7d590cde26190852e67": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-28T21:40:55.851213+00:00",
+      "status": "error",
+      "title": "Kuroneko to Majo no Kyoushitsu - EP03",
+      "updated_at": "2026-04-28T21:40:55.851227+00:00"
+    },
     "d82d65e6e07508c3a592b17458ba9178e766c232": {
       "category": "Series | Anime",
       "file_id": 1584085254,
@@ -1210,7 +1234,7 @@
       "first_seen": "2026-04-28T16:19:15.007958+00:00",
       "status": "error",
       "title": "Hidarikiki no Eren - EP04",
-      "updated_at": "2026-04-28T16:19:15.007971+00:00"
+      "updated_at": "2026-04-28T21:40:56.286457+00:00"
     },
     "e773621f08b13bdb7584ab5b64440fd7183de0bd": {
       "category": "Series | Anime",
