@@ -187,6 +187,190 @@ from categorias import CATEGORIAS_ANIME, GT_GENERICOS, detectar_categoria_anime
 from putio_integration import PutioState
 
 
+# ─────────────────────────────────────────────────────────────────
+# PADRONIZAÇÃO DE NOMES
+# ─────────────────────────────────────────────────────────────────
+
+# Release groups conhecidos a remover do início do nome (entre [] ou ())
+_RELEASE_GROUPS = {
+    "AnimeKaizoku", "HorribleSubs", "SubsPlease", "Erai-raws", "EraiRaws",
+    "HcLs", "Anime Time", "AnimeTime", "Judas", "Cleo", "DemonAlpha",
+    "Scientist", "Rokey", "oliKiller", "ASW", "Nep_Blanc", "ToonsHub",
+    "Reaktor", "DKB", "URY", "Coalgirls", "Vivid", "EMBER", "Akihito",
+    "DesertPet", "Tenrai-Sensei", "MTBB", "Commie", "GHS",
+}
+
+# Tags de qualidade/codec/origem a remover
+_QUALITY_TAGS = [
+    r"\b(?:480|720|1080|2160)p\b",
+    r"\bWEB[\s.\-]?(?:DL|RIP)?\b",
+    r"\bBlu[\s.\-]?Ray\b",
+    r"\bBD\b",
+    r"\bBR[\s.\-]?Rip\b",
+    r"\bHDR(?:10\+?)?\b",
+    r"\bHDTV\b",
+    r"\bDVDRip\b",
+    r"\bH\.?26[45]\b",
+    r"\bx26[45]\b",
+    r"\bHEVC\b",
+    r"\bAVC\b",
+    r"\bAAC(?:5\.1)?\b",
+    r"\bAC3\b",
+    r"\bDTS(?:[\-.]?HD)?\b",
+    r"\bDual[\s.\-]?Audio\b",
+    r"\bMulti[\s.\-]?Sub\b",
+    r"\bEng[\s.\-]?Sub\b",
+    r"\bEng\b",
+    r"\bSub\b",
+    r"\bDub\b",
+    r"\bRAW\b",
+    r"\bUNRATED\b",
+    r"\bEXTENDED\b",
+    r"\bREMASTERED\b",
+    r"\bPROPER\b",
+    r"\bDirectors[\s.\-]?Cut\b",
+    r"\bTheatrical\b",
+    r"\b10\s?bit\b",
+    r"\bRARBG\b",
+    r"\bYIFY\b",
+    r"\bYTS(?:\.\w+)?\b",
+    r"\banoXmous_?\b",
+    r"\bBOKUTOX\b",
+    r"\bLAMA\b",
+    r"\bRBG\b",
+    r"\bAM\b",
+    r"\bAG\b",
+    r"\bMX\b",
+    r"\bLT\b",
+]
+
+
+def _corrigir_mojibake(texto: str) -> str:
+    """
+    Corrige strings que sofreram dupla decodificação. Tenta dois caminhos:
+      1. latin-1 → utf-8 (mojibake clássico: 'Ã©' em vez de 'é')
+      2. cp1252 → utf-8 (versões com aspas curvas: 'â€™' em vez de ''')
+    Se nenhuma reconstrução for válida, devolve o original.
+    """
+    marcadores = ('Ã©', 'Ã¡', 'Ã³', 'Ã­', 'Ãº', 'Ã±', 'Ã§', 'Ã¢', 'Ãª', 'Ãô',
+                  'Ãc', 'Ãt', 'Ã ', 'Ã"', 'Ãˆ',
+                  'â€™', 'â€“', 'â€"', 'â€¢', 'Â¡', 'Â¿')
+    if not any(m in texto for m in marcadores):
+        return texto
+    for codec in ('latin-1', 'cp1252'):
+        try:
+            return texto.encode(codec).decode('utf-8')
+        except (UnicodeDecodeError, UnicodeEncodeError):
+            continue
+    # Última tentativa: substituições pontuais para casos comuns que
+    # falham as conversões binárias acima.
+    substituicoes = {
+        'â€™': '\u2019',  # right single quote
+        'â€˜': '\u2018',  # left single quote
+        'â€“': '\u2013',  # en dash
+        'â€"': '\u2014',  # em dash
+        'â€¢': '\u2022',  # bullet
+        'Â¡': '¡',
+        'Â¿': '¿',
+    }
+    for k, v in substituicoes.items():
+        texto = texto.replace(k, v)
+    return texto
+
+
+def _normalizar_episodio(titulo: str) -> str:
+    """
+    Normaliza notação de episódio para SxxExx:
+      'EP01'         → 'S01E01'
+      'E01'          → 'S01E01'  (assume temporada 1 se ausente)
+      'S1E3'         → 'S01E03'
+      'S01E03'       → 'S01E03'  (preservado)
+      'Episode 5'    → 'S01E05'
+      ' - 12 '       → ' - S01E12 ' (separado por dashes)
+    """
+    # Caso 1: já tem SxxExx ou SxExx — só padroniza zero-padding
+    def _fmt_se(m):
+        s = int(m.group(1))
+        e = int(m.group(2))
+        return f"S{s:02d}E{e:02d}"
+    titulo = re.sub(r'\bS(\d{1,2})\s*E(\d{1,3})\b', _fmt_se, titulo, flags=re.IGNORECASE)
+
+    # Caso 2: 'EPxx' isolado (sem 'S' antes) → S01Exx
+    titulo = re.sub(
+        r'(?<![A-Z])EP\.?\s*(\d{1,3})\b',
+        lambda m: f"S01E{int(m.group(1)):02d}",
+        titulo, flags=re.IGNORECASE,
+    )
+
+    # Caso 2b: 'Exx' no FINAL do título ou seguido de espaço/dash, sem
+    #          'S' antes. Ex: 'Heavy Objec E01' → 'Heavy Objec S01E01'.
+    #          Cuidado: precedido por espaço (não por letra), pra não
+    #          quebrar nomes que terminem em 'E' como 'STORE 01'.
+    titulo = re.sub(
+        r'(?<=\s)E(\d{1,3})\b(?!\d)',
+        lambda m: f"S01E{int(m.group(1)):02d}",
+        titulo,
+    )
+
+    # Caso 3: 'Episode N' → S01ENN
+    titulo = re.sub(
+        r'\bEpisode\s+(\d{1,3})\b',
+        lambda m: f"S01E{int(m.group(1)):02d}",
+        titulo, flags=re.IGNORECASE,
+    )
+
+    return titulo
+
+
+def padronizar_nome(nome: str) -> str:
+    """
+    Limpa e padroniza um nome de filme ou série, na ordem:
+      1. Conserta mojibake (UTF-8 mal decodificado)
+      2. Troca pontos/underscores por espaço (separadores de release)
+      3. Remove tags [GroupName] e (GroupName) de release groups conhecidos
+      4. Remove tags de qualidade/codec/origem (720p, BluRay, x265, etc.)
+      5. Normaliza notação de episódio (EPxx → S01Exx)
+      6. Compacta múltiplos espaços e tira lixo de borda
+
+    Retorna o nome limpo, ou o original se ficar vazio após limpeza.
+    """
+    original = nome
+    if not nome:
+        return nome
+
+    # 1) Mojibake
+    nome = _corrigir_mojibake(nome)
+
+    # 2) Pontos/underscores como separadores (mas só se houver indícios
+    #    de scene-release: 3+ pontos no nome). Não toca em "S.H.I.E.L.D."
+    if nome.count('.') >= 3 and not re.search(r'\b[A-Z]\.[A-Z]\.[A-Z]', nome):
+        nome = nome.replace('.', ' ').replace('_', ' ')
+
+    # 3) Release groups em [] ou () no início ou fim
+    for grupo in _RELEASE_GROUPS:
+        # com colchetes/parenteses
+        nome = re.sub(rf'[\[\(]{re.escape(grupo)}[\]\)]', '', nome, flags=re.IGNORECASE)
+    # tag genérica [Algo] no início (curta, sem espaço dentro)
+    nome = re.sub(r'^\s*\[[^\]\s]{1,20}\]\s*', '', nome)
+
+    # 4) Tags de qualidade/codec
+    for pat in _QUALITY_TAGS:
+        nome = re.sub(pat, '', nome, flags=re.IGNORECASE)
+
+    # Remove restos comuns: "[]", "()", " - - ", e similares
+    nome = re.sub(r'\[\s*\]|\(\s*\)', '', nome)
+    nome = re.sub(r'\s*-\s*-\s*', ' - ', nome)
+
+    # 5) Normaliza episódio
+    nome = _normalizar_episodio(nome)
+
+    # 6) Compacta espaços e tira lixo de borda
+    nome = re.sub(r'\s+', ' ', nome).strip(' -.,_[](){}')
+
+    # Se a limpeza zerou o nome, devolve o original
+    return nome if nome else original
+
+
 def classificar_item(nome: str, url: str, group_title: str) -> dict:
     tipo = detectar_tipo_por_url(url)
     gt   = group_title.strip()
@@ -289,22 +473,83 @@ def parse_serie(nome: str, group_title: str = "") -> dict:
 # FILTRO CANAIS BRASIL
 # ─────────────────────────────────────────────────────────────────
 
-BR_NOMES = ['GLOBO','SBT','BAND','RECORD','REDETV','TV BRASIL','TV CULTURA',
-            'GLOBO NEWS','BAND NEWS','CNN BRASIL','JOVEM PAN','TV ESCOLA',
-            'CANAL GOV','SENADO','CÂMARA','FUTURA','MULTISHOW','SPORTV',
-            'PREMIERE','REDE BRASIL','TV APARECIDA','REDE VIDA']
+# ─────────────────────────────────────────────────────────────────
+# FILTRO CANAIS BRASIL — modo restrito (somente BR/PT-BR)
+# ─────────────────────────────────────────────────────────────────
+
+# Lista expandida de identificadores de canais brasileiros.
+# Inclui broadcasters, redes, canais por assinatura nacionais, regionais
+# e governamentais. Match é por substring case-insensitive no nome do canal.
+BR_NOMES = [
+    # ── Abertos ──
+    'GLOBO', 'SBT', 'BAND', 'RECORD', 'REDETV', 'REDE TV',
+    'TV BRASIL', 'TV CULTURA', 'TV ESCOLA', 'TV APARECIDA', 'REDE VIDA',
+    'CNT', 'GAZETA', 'REDE BRASIL', 'REDE GLOBO',
+    # ── Notícias BR ──
+    'GLOBO NEWS', 'GLOBONEWS', 'BAND NEWS', 'BANDNEWS',
+    'CNN BRASIL', 'JOVEM PAN', 'JP NEWS', 'RECORD NEWS',
+    # ── Esportes BR ──
+    'SPORTV', 'PREMIERE', 'COMBATE', 'ESPN BRASIL', 'BAND SPORTS',
+    'TNT SPORTS BRASIL', 'CAZÉ TV',
+    # ── Variedades / cultura ──
+    'MULTISHOW', 'GNT', 'VIVA', 'CANAL BRASIL', 'BIS', 'OFF',
+    'GLOOB', 'GLOOBINHO', 'TELECINE',
+    'FUTURA', 'ARTE 1', 'CURTA', 'PREMIERE FC',
+    # ── Infantis BR ──
+    'TV RA TIM BUM', 'TV RATIMBUM', 'CARTOON BR', 'NICK BRASIL',
+    'DISCOVERY KIDS BRASIL',
+    # ── Filmes BR ──
+    'TELECINE PREMIUM', 'TELECINE ACTION', 'TELECINE TOUCH',
+    'TELECINE FUN', 'TELECINE PIPOCA', 'TELECINE CULT',
+    # ── Adulto BR / PT-BR ──
+    'SEXY HOT', 'SEXTREME', 'PLAYBOY TV BRASIL', 'VENUS',
+    # ── Governamentais ──
+    'CANAL GOV', 'SENADO', 'CÂMARA', 'CAMARA', 'TV JUSTIÇA', 'TV JUSTICA',
+    'NBR', 'TV NBR',
+    # ── Religiosos BR ──
+    'TV CANÇÃO NOVA', 'CANCAO NOVA', 'TV SÉCULO 21', 'BOAS NOVAS',
+    'REDE GÊNESIS', 'REDE GENESIS', 'TV PAI ETERNO',
+    # ── Regionais frequentes ──
+    'TV CIDADE', 'TV BRASÍLIA', 'TV BRASILIA', 'BAND CAMPINAS',
+    'TV TEM', 'TV TRIBUNA', 'EPTV', 'TV CABO BRANCO',
+]
+
+# Sufixos / sinais de idioma PT-BR no nome ou metadata
+PT_BR_HINTS = [
+    '[BR]', '[PT-BR]', '(BR)', '(PT-BR)', 'DUBLADO', 'PT-BR', 'PT BR',
+    'BRASIL', 'BRAZIL', 'BRAZILIAN', 'PORTUGUÊS BRASIL', 'PORTUGUES BRASIL',
+]
 
 
 def is_canal_brasileiro(nome: str, url: str, extinf: str) -> bool:
+    """
+    Detecta canal BR/PT-BR via 4 estratégias (qualquer match → True):
+      1. tag tvg-country no EXTINF aponta pra BR/Brasil
+      2. nome contém marcador de PT-BR (ex: '[BR]', 'DUBLADO')
+      3. nome contém substring conhecida em BR_NOMES
+      4. URL aponta pra TLD .br ou domínio brasileiro
+    """
     n = nome.upper()
     e = extinf.upper()
+    u = url.lower()
+
+    # 1) tag explícita tvg-country
     country = re.search(r'TVG-COUNTRY="([^"]*)"', e)
-    if country and any(br in country.group(1) for br in ['BR','BRA','BRAZIL','BRASIL']):
+    if country and any(br in country.group(1).upper() for br in ['BR', 'BRA', 'BRAZIL', 'BRASIL']):
         return True
+
+    # 2) marcador de idioma PT-BR no nome
+    if any(hint in n for hint in PT_BR_HINTS):
+        return True
+
+    # 3) lista expandida de nomes de canais BR
     if any(br in n for br in BR_NOMES):
         return True
-    if any(d in url.lower() for d in ['.com.br','.gov.br','.org.br']):
+
+    # 4) TLD .br ou subdomínios brasileiros
+    if any(d in u for d in ['.com.br', '.gov.br', '.org.br', '.tv.br', '.net.br']):
         return True
+
     return False
 
 # ─────────────────────────────────────────────────────────────────
@@ -463,6 +708,38 @@ def separar_e_validar(acervo: list) -> list:
 ORDEM_CANAIS = ["Noticias","Esportes","Filmes","Documentario","Musica","Infantil","Variados","Adultos"]
 ORDEM_FILMES = ["Acao","Terror","Suspense","Sci-Fi","Romance","Comedia","Western","Animacao","Documentario","Adulto","Geral"]
 
+# Liga/desliga o filtro de canais BR-only globalmente.
+# True = só mantém canais identificados como BR/PT-BR (descarta os internacionais).
+# False = mantém todos (comportamento legado).
+CANAIS_APENAS_BR = True
+
+
+def _consolidar_series_por_titulo(series: list) -> list:
+    """
+    Agrupa entradas de série pelo (titulo, temporada, episodio) canônico.
+    Quando há duplicatas vindas de múltiplas fontes, mantém a primeira —
+    que é a de maior prioridade dado a ordem em que o acervo é construído
+    (Repo SUGOIAPI → VOD → Live → Free-TV → Put.io).
+
+    Esta consolidação não toca em filmes nem canais — só séries, onde a
+    duplicação por fonte/qualidade é mais frequente.
+    """
+    vistos: dict[tuple, dict] = {}
+    duplicatas = 0
+    for s in series:
+        chave = (
+            s.get("titulo", "").strip().upper(),
+            s.get("temporada", ""),
+            s.get("episodio", ""),
+        )
+        if chave in vistos:
+            duplicatas += 1
+            continue
+        vistos[chave] = s
+    if duplicatas:
+        print(f"   🔗 Séries consolidadas: {duplicatas} duplicatas removidas (mesmo título+ep).")
+    return list(vistos.values())
+
 
 def gerar_m3u(validos: list):
     vistos, unicos = set(), []
@@ -471,17 +748,51 @@ def gerar_m3u(validos: list):
             vistos.add(item["URL"])
             unicos.append(item)
 
+    # ── Padronização de nomes ANTES de classificar ──
+    # Limpa mojibake, release groups, tags de qualidade e normaliza
+    # notação de episódio. Toda a pipeline downstream (classificação,
+    # parse de série, consolidação) opera sobre nomes já normalizados.
+    renomeados = 0
+    for item in unicos:
+        original = item["Nome"]
+        limpo = padronizar_nome(original)
+        if limpo != original:
+            item["Nome"] = limpo
+            renomeados += 1
+    if renomeados:
+        print(f"   ✨ Padronização de nomes: {renomeados} títulos limpos.")
+
     for item in unicos:
         item.update(classificar_item(item["Nome"], item["URL"], item.get("group_title","")))
 
-    canais = sorted([i for i in unicos if i["grupo"] == "Canais"],
-                    key=lambda x: (x["categoria"], x["Nome"].upper()))
+    # ── Filtro global BR-only para canais ──
+    canais_brutos = [i for i in unicos if i["grupo"] == "Canais"]
+    if CANAIS_APENAS_BR:
+        canais = []
+        descartados_intl = 0
+        for i in canais_brutos:
+            # Reconstruir uma linha EXTINF aproximada pra reaproveitar a função.
+            extinf_synth = f'#EXTINF:-1 tvg-name="{i["Nome"]}" group-title="{i.get("group_title","")}",{i["Nome"]}'
+            if is_canal_brasileiro(i["Nome"], i["URL"], extinf_synth):
+                canais.append(i)
+            else:
+                descartados_intl += 1
+        if descartados_intl:
+            print(f"   🇧🇷 Canais BR-only ativo: {descartados_intl} canais internacionais descartados.")
+    else:
+        canais = canais_brutos
+    canais.sort(key=lambda x: (x["categoria"], x["Nome"].upper()))
+
     filmes = sorted([i for i in unicos if i["grupo"] == "Filmes"],
                     key=lambda x: (x["categoria"], x["Nome"].upper()))
 
     series_raw = [i for i in unicos if i["grupo"] == "Series"]
     for s in series_raw:
         s.update(parse_serie(s["Nome"], s.get("group_title","")))
+
+    # Consolidação de séries duplicadas por (titulo, temporada, episodio)
+    series_raw = _consolidar_series_por_titulo(series_raw)
+
     series = sorted(series_raw, key=lambda x: (
         x["categoria"].upper(), x["titulo"].upper(), x["temporada"], x["episodio"]))
 
