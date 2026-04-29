@@ -1,5 +1,13 @@
 {
   "transfers": {
+    "005945cbf2da4994d22e6aafb5327f7f25b7091a": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T06:42:44.256422+00:00",
+      "status": "error",
+      "title": "One Piece - EP1159",
+      "updated_at": "2026-04-29T06:42:44.256442+00:00"
+    },
     "0102f9d5ce98b64ca0d626e76aba0dd0b30250d4": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -65,7 +73,7 @@
       "first_seen": "2026-04-28T16:19:15.088449+00:00",
       "status": "error",
       "title": "Aishiteru Game wo Owarasetai - EP03",
-      "updated_at": "2026-04-28T21:40:55.723090+00:00"
+      "updated_at": "2026-04-29T06:42:44.375337+00:00"
     },
     "0bba0c4ccce2ec967ab876097fc8aa00e73627d4": {
       "category": "Series | Anime",
@@ -340,6 +348,14 @@
       "title": "Yuusha no Kuzu - EP15",
       "updated_at": "2026-04-27T09:20:16.663910+00:00"
     },
+    "4045c5cb73ffaa4aaac1ad77a28f3622122d2d9f": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T06:42:44.492559+00:00",
+      "status": "error",
+      "title": "Seihantai na Kimi to Boku (01 - EP12",
+      "updated_at": "2026-04-29T06:42:44.492575+00:00"
+    },
     "40d81a2c77e50a87be5c55fbc04c7b47838c86eb": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -514,13 +530,21 @@
       "transfer_id": 105097699,
       "updated_at": "2026-04-27T23:36:53.034487+00:00"
     },
+    "583c49d6c6cce9323a7e4887258b59ed3700713b": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T06:42:44.843252+00:00",
+      "status": "error",
+      "title": "Hikuidori - Ushuu Boro Tobi-gumi (01 - EP12",
+      "updated_at": "2026-04-29T06:42:44.843268+00:00"
+    },
     "5ae9b12a98d009eebfedb76c52245af65b39bf26": {
       "category": "Series | Anime",
       "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
       "first_seen": "2026-04-28T21:40:56.108151+00:00",
       "status": "error",
       "title": "Tadaima, Ojamasaremasu! - EP04",
-      "updated_at": "2026-04-28T21:40:56.108166+00:00"
+      "updated_at": "2026-04-29T06:42:45.432367+00:00"
     },
     "5b146aee5fe17cece12db55baa8b7bf82c289745": {
       "category": "Series | Anime",
@@ -559,7 +583,7 @@
       "first_seen": "2026-04-28T16:19:14.769437+00:00",
       "status": "error",
       "title": "MARRIAGETOXIN - EP04",
-      "updated_at": "2026-04-28T21:40:56.191985+00:00"
+      "updated_at": "2026-04-29T06:42:45.198240+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
@@ -695,7 +719,7 @@
       "first_seen": "2026-04-28T21:40:55.936715+00:00",
       "status": "error",
       "title": "Yuusha no Rokkotsu de - EP04",
-      "updated_at": "2026-04-28T21:40:55.936728+00:00"
+      "updated_at": "2026-04-29T06:42:44.725361+00:00"
     },
     "7advog37k4rp7yirzasbprviiw5tfcfm": {
       "category": "Series | Anime",
@@ -797,7 +821,7 @@
       "first_seen": "2026-04-28T16:19:14.690085+00:00",
       "status": "error",
       "title": "LasTame S2 - EP04",
-      "updated_at": "2026-04-28T21:40:55.639094+00:00"
+      "updated_at": "2026-04-29T06:42:45.315807+00:00"
     },
     "9778b2e0af26548f30ade24ed85f484bc5cf1cc5": {
       "category": "Series | Anime",
@@ -825,7 +849,7 @@
       "first_seen": "2026-04-28T16:19:14.928950+00:00",
       "status": "error",
       "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta - EP04",
-      "updated_at": "2026-04-28T21:40:56.022036+00:00"
+      "updated_at": "2026-04-29T06:42:45.080185+00:00"
     },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
@@ -921,7 +945,7 @@
       "first_seen": "2026-04-28T16:19:14.848934+00:00",
       "status": "error",
       "title": "Replica datte, Koi wo Suru. - EP04",
-      "updated_at": "2026-04-28T21:40:56.370957+00:00"
+      "updated_at": "2026-04-29T06:42:44.608757+00:00"
     },
     "aa7e182b9a216c0a844e13244daadb5aef5c6e45": {
       "category": "Series | Anime",
@@ -1234,7 +1258,7 @@
       "first_seen": "2026-04-28T16:19:15.007958+00:00",
       "status": "error",
       "title": "Hidarikiki no Eren - EP04",
-      "updated_at": "2026-04-28T21:40:56.286457+00:00"
+      "updated_at": "2026-04-29T06:42:44.961727+00:00"
     },
     "e773621f08b13bdb7584ab5b64440fd7183de0bd": {
       "category": "Series | Anime",
