@@ -1,0 +1,102 @@
+name: SUGOIAPI — Daily Pipeline
+
+on:
+  schedule:
+    # Roda todo dia às 03:00 UTC (00:00 BRT)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # Permite executar manualmente pelo GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # 3h — margem para catálogo grande
+
+    steps:
+
+      # ── 1. Checkout ─────────────────────────────────────────────
+      - name: Checkout SUGOIAPI
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── 2. Setup Go ─────────────────────────────────────────────
+      - name: Setup Go 1.21
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+          cache: true
+
+      # ── 3. Instala dependências Go ───────────────────────────────
+      - name: Download Go dependencies
+        run: go mod download
+
+      # ── 4. Executa scraper GoAnime ───────────────────────────────
+      - name: Run GoAnime scraper (full catalog + link validation)
+        run: go run goanime_scraper.go
+        timeout-minutes: 120
+        env:
+          GOANIME_LOG_LEVEL: warn
+
+      # ── 5. Log do scraper ────────────────────────────────────────
+      - name: Scraper summary
+        run: |
+          if [ -f sources/anime_fire.m3u ]; then
+            TOTAL=$(grep -c "^#EXTINF" sources/anime_fire.m3u || true)
+            echo "✅ anime_fire.m3u gerado com $TOTAL entradas"
+          else
+            echo "⚠️  anime_fire.m3u não encontrado — pipeline continua com fontes externas"
+          fi
+
+      # ── 6. Setup Python ─────────────────────────────────────────
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # ── 7. Instala dependências Python ───────────────────────────
+      - name: Install Python dependencies
+        run: pip install requests cloudscraper
+
+      # ── 8. Executa pipeline Python ───────────────────────────────
+      - name: Run pipeline.py (classify + generate M3U)
+        run: python pipeline.py
+        timeout-minutes: 45
+        env:
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+
+      # ── 9. Log do pipeline ───────────────────────────────────────
+      - name: Pipeline summary
+        run: |
+          if [ -f output/playlist_validada.m3u ]; then
+            TOTAL=$(grep -c "^#EXTINF" output/playlist_validada.m3u || true)
+            echo "✅ playlist_validada.m3u gerado com $TOTAL entradas"
+            echo ""
+            echo "Breakdown por grupo:"
+            grep "group-title=" output/playlist_validada.m3u | \
+              grep -oP 'group-title="\K[^"]+' | \
+              cut -d'|' -f1 | sort | uniq -c | sort -rn | head -20
+          else
+            echo "❌ playlist_validada.m3u não gerado"
+            exit 1
+          fi
+
+      # ── 10. Commit e push do output ──────────────────────────────
+      - name: Commit and push output
+        run: |
+          git config user.name  "SUGOIAPI Bot"
+          git config user.email "bot@sugoiapi"
+          git add output/playlist_validada.m3u
+          [ -f sources/anime_fire.m3u ] && git add sources/anime_fire.m3u
+          if git diff --staged --quiet; then
+            echo "Sem mudanças — nenhum commit necessário"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            TOTAL=$(grep -c "^#EXTINF" output/playlist_validada.m3u || echo 0)
+            git commit -m "playlist: $TOTAL entradas — $TIMESTAMP"
+            git push
+            echo "✅ Output publicado"
+          fi
