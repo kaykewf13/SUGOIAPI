@@ -5,6 +5,21 @@ classificação por categoria e entrega via proxy com failover.
 
 ---
 
+## Índice
+
+1. [Estrutura](#estrutura)
+2. [Fontes](#fontes)
+3. [Classificação](#classificação)
+4. [Pré-requisitos](#pré-requisitos)
+5. [Como Instalar?](#como-instalar)
+6. [Endpoints após deploy](#endpoints-após-deploy)
+7. [Variáveis de ambiente](#variáveis-de-ambiente)
+8. [GitHub Actions Secrets](#github-actions-secrets)
+9. [Fluxo](#fluxo)
+10. [Disclaimer](#disclaimer)
+
+---
+
 ## Estrutura
 
 ```
@@ -66,38 +81,97 @@ Filmes
 
 ---
 
-## Deploy rápido
+## Pré-requisitos
 
-```bash
-# 1. Clone
-git clone https://github.com/kaykewf13/SUGOIAPI.git
-cd SUGOIAPI
+Antes de instalar, certifique-se de ter as seguintes dependências:
 
-# 2. Configure variáveis
-cp .env.example .env
-nano .env
-
-# 3. Deploy completo
-bash deploy.sh
-```
+- [Git](https://git-scm.com/)
+- [Docker](https://docs.docker.com/get-docker/) + [Docker Compose](https://docs.docker.com/compose/)
+- [Python 3.10+](https://www.python.org/downloads/)
+- `pip` (geralmente incluso com o Python)
 
 ---
 
-## Deploy manual
+## Como Instalar?
+
+### Deploy rápido (recomendado)
 
 ```bash
-# Dependências
+# 1. Clone o repositório
+git clone https://github.com/kaykewf13/SUGOIAPI.git
+cd SUGOIAPI
+
+# 2. Configure as variáveis de ambiente
+cp example.env .env
+nano .env          # preencha SENTRY_DSN, PROXY_API_TOKEN etc.
+
+# 3. Execute o deploy
+bash deploy.sh
+```
+
+O script `deploy.sh` automaticamente:
+- Verifica os pré-requisitos
+- Instala as dependências Python
+- Sobe o `m3u-proxy` via Docker
+- Executa o pipeline e registra os streams
+
+---
+
+### Deploy manual (passo a passo)
+
+<details>
+<summary><b>Linux / macOS</b></summary>
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/kaykewf13/SUGOIAPI.git
+cd SUGOIAPI
+
+# 2. Configure as variáveis de ambiente
+cp example.env .env
+nano .env
+
+# 3. Instale as dependências Python
 pip install -r requirements.txt
 
-# Proxy
+# 4. Suba o proxy
 docker compose up -d m3u-proxy
 
-# Pipeline
+# 5. Execute o pipeline
 python pipeline.py
 
-# Integração
+# 6. Registre os streams
 python register_streams.py
 ```
+
+</details>
+
+<details>
+<summary><b>Windows (PowerShell)</b></summary>
+
+```powershell
+# 1. Clone o repositório
+git clone https://github.com/kaykewf13/SUGOIAPI.git
+cd SUGOIAPI
+
+# 2. Configure as variáveis de ambiente
+Copy-Item example.env .env
+notepad .env
+
+# 3. Instale as dependências Python
+pip install -r requirements.txt
+
+# 4. Suba o proxy
+docker compose up -d m3u-proxy
+
+# 5. Execute o pipeline
+python pipeline.py
+
+# 6. Registre os streams
+python register_streams.py
+```
+
+</details>
 
 ---
 
