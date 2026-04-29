@@ -34,10 +34,10 @@ jobs:
       - name: Download Go dependencies
         run: go mod download
 
-       - name: Test animescomix referer
-         run: |
-         curl -I "https://p1.animescomix.com/stream/animes/a/aika/01.mp4" \
-       -H "Referer: https://centraldeanimes.xyz"
+      - name: Test animescomix referer
+        run: |
+          curl -I "https://p1.animescomix.com/stream/animes/a/aika/01.mp4" \
+            -H "Referer: https://centraldeanimes.xyz"
 
       # ── 4. Executa scraper GoAnime ───────────────────────────────
       - name: Run GoAnime scraper (full catalog + link validation)
