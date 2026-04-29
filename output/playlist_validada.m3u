@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (5) ══════════
+### ══════════ CANAIS (4) ══════════
 
 
 ## ── Esportes (1) ──
@@ -9,13 +9,10 @@
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 
-## ── Variados (4) ──
+## ── Variados (3) ──
 
 #EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-type="live" group-title="Canais | Variados", COM Brasil
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-type="live" group-title="Canais | Variados", Rede Brasil
-https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" tvg-type="live" group-title="Canais | Variados", TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8

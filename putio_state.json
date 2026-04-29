@@ -132,6 +132,22 @@
       "transfer_id": 105081281,
       "updated_at": "2026-04-27T21:15:18.589614+00:00"
     },
+    "1bf3b5f8f9d2ab60a4f721c19b7e0b907bf35ad5": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:52.924294+00:00",
+      "status": "error",
+      "title": "Replica datte, Koi wo Suru. - EP04",
+      "updated_at": "2026-04-29T18:59:52.924308+00:00"
+    },
+    "1c3fbc17367a3bf035b7d9f5c631b2d160cd58d5": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:52.278997+00:00",
+      "status": "error",
+      "title": "Ganbare! Nakamura-kun!! - EP06",
+      "updated_at": "2026-04-29T18:59:52.279011+00:00"
+    },
     "1fc8376fba3abbd8f45f2bf9c2d5c5b0bfe6b727": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -147,7 +163,7 @@
       "first_seen": "2026-04-29T13:12:00.512222+00:00",
       "status": "error",
       "title": "Kanojo, Okarishimasu - EP52",
-      "updated_at": "2026-04-29T13:12:00.512231+00:00"
+      "updated_at": "2026-04-29T18:59:51.845472+00:00"
     },
     "217f3638cb1df619fca29847dc9de1bad93e1238": {
       "category": "Series | Anime",
@@ -362,7 +378,7 @@
       "first_seen": "2026-04-29T06:42:44.492559+00:00",
       "status": "error",
       "title": "Seihantai na Kimi to Boku (01 - EP12",
-      "updated_at": "2026-04-29T13:12:00.179549+00:00"
+      "updated_at": "2026-04-29T18:59:51.701688+00:00"
     },
     "40d81a2c77e50a87be5c55fbc04c7b47838c86eb": {
       "category": "Series | Anime",
@@ -437,7 +453,7 @@
       "first_seen": "2026-04-29T13:11:59.998064+00:00",
       "status": "error",
       "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e S4 - EP08",
-      "updated_at": "2026-04-29T13:11:59.998071+00:00"
+      "updated_at": "2026-04-29T18:59:53.502694+00:00"
     },
     "4ae1a460c72d427f4b3b7f092892b0365da6a515": {
       "category": "Series | Anime",
@@ -552,7 +568,7 @@
       "first_seen": "2026-04-29T06:42:44.843252+00:00",
       "status": "error",
       "title": "Hikuidori - Ushuu Boro Tobi-gumi (01 - EP12",
-      "updated_at": "2026-04-29T13:11:59.682792+00:00"
+      "updated_at": "2026-04-29T18:59:52.570154+00:00"
     },
     "585542555146989ffa231bab011f1782fcd7a5a3": {
       "category": "Series | Anime",
@@ -568,7 +584,7 @@
       "first_seen": "2026-04-28T21:40:56.108151+00:00",
       "status": "error",
       "title": "Tadaima, Ojamasaremasu! - EP04",
-      "updated_at": "2026-04-29T13:11:59.367666+00:00"
+      "updated_at": "2026-04-29T18:59:52.426135+00:00"
     },
     "5b146aee5fe17cece12db55baa8b7bf82c289745": {
       "category": "Series | Anime",
@@ -607,7 +623,7 @@
       "first_seen": "2026-04-28T16:19:14.769437+00:00",
       "status": "error",
       "title": "MARRIAGETOXIN - EP04",
-      "updated_at": "2026-04-29T13:11:59.263456+00:00"
+      "updated_at": "2026-04-29T18:59:51.990462+00:00"
     },
     "5e97805c864198d80d8a3afc8340b7e0c0aeb0c3": {
       "category": "Series | Anime",
@@ -652,6 +668,14 @@
       "title": "Your Lie in April 720p BD x265 10bit Dual Audio",
       "transfer_id": 105081314,
       "updated_at": "2026-04-27T21:15:21.167232+00:00"
+    },
+    "6379ff09776325a91afc4e39bea8d0299430b05f": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:53.355024+00:00",
+      "status": "error",
+      "title": "Re Zero kara Hajimeru Isekai Seikatsu - EP70",
+      "updated_at": "2026-04-29T18:59:53.355038+00:00"
     },
     "642efd3990645a7fa6afac6f12d50e96203fe905": {
       "category": "Series | Anime",
@@ -709,6 +733,14 @@
       "title": "Kanan-sama wa Akumade Choroi - EP04",
       "updated_at": "2026-04-27T09:20:19.815596+00:00"
     },
+    "708513aae5baed735b83fbca2e534de54350528e": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:53.934441+00:00",
+      "status": "error",
+      "title": "The Beginning After the End S2 - EP05",
+      "updated_at": "2026-04-29T18:59:53.934454+00:00"
+    },
     "70963da21f120291da31f77d64c884d835e07c78": {
       "category": "Series | Anime",
       "file_id": 1584085256,
@@ -743,7 +775,7 @@
       "first_seen": "2026-04-28T21:40:55.936715+00:00",
       "status": "error",
       "title": "Yuusha no Rokkotsu de - EP04",
-      "updated_at": "2026-04-29T13:11:59.893441+00:00"
+      "updated_at": "2026-04-29T18:59:53.791092+00:00"
     },
     "7advog37k4rp7yirzasbprviiw5tfcfm": {
       "category": "Series | Anime",
@@ -812,6 +844,14 @@
       "transfer_id": 105096378,
       "updated_at": "2026-04-27T21:37:48.672239+00:00"
     },
+    "86cbc3e596639c87c7f91e12ab3dc7a8113c39fe": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:53.212000+00:00",
+      "status": "error",
+      "title": "Otaku ni Yasashii Gal wa Inai - EP04",
+      "updated_at": "2026-04-29T18:59:53.212012+00:00"
+    },
     "887dcb4e21fd286265e7be9a3c1136c05574e485": {
       "category": "Series | Anime",
       "error": "transfer não existe no Put.io",
@@ -820,6 +860,14 @@
       "title": "Natsume Yuujinchou Roku 720p Eng Sub",
       "transfer_id": 105081285,
       "updated_at": "2026-04-27T21:15:22.209765+00:00"
+    },
+    "8a15074dec3536453d6fdadd8b4bff8d81a4ee99": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:53.067402+00:00",
+      "status": "error",
+      "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou S3 - EP05",
+      "updated_at": "2026-04-29T18:59:53.067415+00:00"
     },
     "8b92d88c61ed657a95b22834ce9eb4aa99e728fe": {
       "category": "Series | Anime",
@@ -873,7 +921,7 @@
       "first_seen": "2026-04-28T16:19:14.928950+00:00",
       "status": "error",
       "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta - EP04",
-      "updated_at": "2026-04-29T13:12:00.288730+00:00"
+      "updated_at": "2026-04-29T18:59:52.778670+00:00"
     },
     "9b1191443a57c1aa8505c416161934806336c138": {
       "category": "Series | Anime",
@@ -970,6 +1018,14 @@
       "status": "error",
       "title": "Replica datte, Koi wo Suru. - EP04",
       "updated_at": "2026-04-29T13:12:00.404638+00:00"
+    },
+    "a9022b9a1c02c78ea5e07a9b6981cce62e1b7c21": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:52.134538+00:00",
+      "status": "error",
+      "title": "Nigetsuri - EP05",
+      "updated_at": "2026-04-29T18:59:52.134552+00:00"
     },
     "aa7e182b9a216c0a844e13244daadb5aef5c6e45": {
       "category": "Series | Anime",
@@ -1282,7 +1338,7 @@
       "first_seen": "2026-04-28T16:19:15.007958+00:00",
       "status": "error",
       "title": "Hidarikiki no Eren - EP04",
-      "updated_at": "2026-04-29T13:11:59.472708+00:00"
+      "updated_at": "2026-04-29T18:59:53.647679+00:00"
     },
     "e773621f08b13bdb7584ab5b64440fd7183de0bd": {
       "category": "Series | Anime",
@@ -1321,6 +1377,14 @@
       "title": "Dimension W 720p BD Dual Audio",
       "transfer_id": 105081261,
       "updated_at": "2026-04-27T21:15:24.847806+00:00"
+    },
+    "ec6ed4c51f0bba4c8c103b1de4e16091675193b7": {
+      "category": "Series | Anime",
+      "error": "add_magnet HTTP ?: 402 PAYMENT REQUIRED — body={'error_id': None, 'error_message': 'Please buy a plan to make it work', 'error_type': 'PaymentRequired', 'error_uri': 'http://api.put.io/v2/docs', 'extra': {}, 'status': 'ERROR', 'status_code': 402}",
+      "first_seen": "2026-04-29T18:59:51.558857+00:00",
+      "status": "error",
+      "title": "Dorohedoro S2 - EP07",
+      "updated_at": "2026-04-29T18:59:51.558875+00:00"
     },
     "ed74578c299642823e875ac4ced952ee1d1247c6": {
       "category": "Series | Anime",
