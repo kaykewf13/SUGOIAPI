@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (577) ══════════
+### ══════════ CANAIS (576) ══════════
 
 
 ## ── Noticias (55) ──
@@ -504,7 +504,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (416) ──
+## ── Variados (415) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -1414,9 +1414,6 @@ https://jmp2.uk/plu-66ba53cda4ee2700083fac09.m3u8
 
 #EXTINF:-1 tvg-name="Sensing Murder" tvg-logo="https://images.pluto.tv/channels/5e9ed47c26ebb000074af566/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Sensing Murder
 https://jmp2.uk/plu-5e9ed47c26ebb000074af566.m3u8
-
-#EXTINF:-1 tvg-name="Shades of Black" tvg-logo="https://images.pluto.tv/channels/63920159db0dea0007dd9932/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Shades of Black
-https://jmp2.uk/plu-63920159db0dea0007dd9932.m3u8
 
 #EXTINF:-1 tvg-name="Sister, Sister" tvg-logo="https://images.pluto.tv/channels/6695294632e25300084bb61b/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Sister, Sister
 https://jmp2.uk/plu-6695294632e25300084bb61b.m3u8
