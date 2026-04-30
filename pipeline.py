@@ -85,6 +85,28 @@ def is_vod(url: str) -> bool:
     t = detectar_tipo_por_url(url)
     return t in ("vod", "movie", "series")
 
+
+# Padrões que indicam episódio de série (não filme)
+_EP_PATTERNS = re.compile(
+    r'[Ss]\d{1,2}[Ee]\d{1,3}'
+    r'|(?<!\w)EP\.?\s*\d+'
+    r'|[Ee]pis[o\u00f3]dio\s*\d+'
+    r'|[Ee]pisode\s*\d+'
+    r'|(?<!\w)[Ee]\d{2,3}(?!\w)'
+    r'|[Tt]emporada\s*\d+'
+    r'|[Ss]eason\s*\d+'
+    r'|\d+\s*(?:[Ss]t|[Nn]d|[Rr]d|[Tt]h)\s+[Ss]eason'
+)
+
+
+def is_episode(nome: str, group_title: str = "") -> bool:
+    """
+    Retorna True se o nome ou group-title indicam episódio de série.
+    Evita que .mp4 de episódios seja classificado como Filme.
+    """
+    texto = nome + " " + group_title
+    return bool(_EP_PATTERNS.search(texto))
+
 # ─────────────────────────────────────────────────────────────────
 # CLASSIFICAÇÃO DE CANAIS TV POR TIPO
 # ─────────────────────────────────────────────────────────────────
@@ -197,6 +219,9 @@ def classificar_item(nome: str, url: str, group_title: str) -> dict:
     if tipo == "live":
         return {"grupo": "Canais",  "categoria": classificar_canal_tv(nome, gt), "tipo": "live"}
     if tipo in ("vod","movie"):
+        # Episódios de série com extensão .mp4 não devem ir para Filmes
+        if is_episode(nome, gt):
+            return {"grupo": "Series", "categoria": detectar_categoria_anime(nome, gt), "tipo": "series"}
         return {"grupo": "Filmes",  "categoria": classificar_filme(nome, gt),    "tipo": "movie"}
     if tipo == "series":
         return {"grupo": "Series",  "categoria": sub or "Geral",                 "tipo": "series"}
@@ -206,9 +231,11 @@ def classificar_item(nome: str, url: str, group_title: str) -> dict:
     if any(k in gt_up for k in ["CANAL","LIVE","TV ","CHANNEL","AO VIVO"]):
         return {"grupo": "Canais", "categoria": classificar_canal_tv(nome, gt), "tipo": "live"}
     if any(k in gt_up for k in ["MOVIE","FILME","FILM","CINEMA","HENTAI","XXX"]):
+        if is_episode(nome, gt):
+            return {"grupo": "Series", "categoria": detectar_categoria_anime(nome, gt), "tipo": "series"}
         return {"grupo": "Filmes", "categoria": classificar_filme(nome, gt),    "tipo": "movie"}
 
-    return {"grupo": "Series", "categoria": sub or "Geral", "tipo": "series"}
+    return {"grupo": "Series", "categoria": detectar_categoria_anime(nome, gt) if sub.lower() in GT_GENERICOS else sub, "tipo": "series"}
 
 # ─────────────────────────────────────────────────────────────────
 # PARSE DE SÉRIE
