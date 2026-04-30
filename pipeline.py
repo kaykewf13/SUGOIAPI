@@ -53,9 +53,9 @@ SOURCE_CANAIS_BR = \
 # Fontes de SÉRIES/FILMES VOD — NÃO validados pelo pipeline
 # (links do GoAnime scraper são validados na geração; cdn.animeiat.tv são estáveis)
 SOURCES_VOD = [
-    # ── GoAnime scraper — gerado diariamente pelo GitHub Actions ──
-    # Catálogo completo do AnimeFire PT-BR com URLs HLS validadas
-    "sources/anime_fire.m3u",   # arquivo local gerado pelo goanime_scraper.go
+    # ── Scrapers locais — gerados diariamente pelo GitHub Actions ──
+    "sources/central_animes.m3u",  # centraldeanimes.xyz (HLS, Referer validado)
+    "sources/anime_fire.m3u",      # AnimeFire PT-BR via GoAnime
 
     # ── Fontes externas estáticas ──────────────────────────────────
     # group-title = nome do anime, links mp4 via cdn.animeiat.tv
