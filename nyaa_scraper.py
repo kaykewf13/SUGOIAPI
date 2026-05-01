@@ -1,62 +1,49 @@
 """
-SUGOIAPI — nyaa_scraper.py
-Lê o RSS do Nyaa.si filtrando por uploaders confiáveis e qualidade,
-classifica cada anime usando categorias.py e retorna lista de magnets
-prontos para enviar ao Put.io.
+SUGOIAPI — nyaa_scraper.py v2
 
-Filtros aplicados:
-- Trusted uploaders apenas (categoria 1_2 — Anime English-translated)
-- Filtro Trusted (filter=2)
-- Qualidade preferida 1080p (configurável)
-
-Uso:
-    from nyaa_scraper import buscar_animes_nyaa
-    items = buscar_animes_nyaa(termos=["frieren", "naruto"])
-    # items: [{magnet, title, category, info_hash}, ...]
+Coleta magnets do Nyaa.si (SFW) e Sukebei (adulto) classificando por categoria.
+A classificação vem da lista curada em termos_categorias.py — cada anime tem
+sua categoria pré-definida (Shounen, Isekai, Hentai, etc.).
 """
 
-import re
 import time
 import requests
 from urllib.parse import quote_plus
 from xml.etree import ElementTree as ET
 
-from categorias import detectar_categoria_anime
+from termos_categorias import termos_sfw_com_uploader, termos_adult
 
-NYAA_RSS = "https://nyaa.si/?page=rss"
+NYAA_BASE   = "https://nyaa.si"
+SUKEBEI_BASE = "https://sukebei.nyaa.si"
 
-# Configurações de filtro
+QUALIDADES_PREFERIDAS = ["1080p", "720p"]
+
 TRUSTED_UPLOADERS = [
     "subsplease", "erai-raws", "judas", "asw",
-    "subsplease.org", "[subsplease]"
+    "[subsplease]", "[erai-raws]", "[judas]", "[asw]",
 ]
-
-QUALITIES_PREFERIDAS = ["1080p", "720p"]
 
 
 def _user_agent():
-    return {"User-Agent": "Mozilla/5.0 (compatible; SUGOIAPI/1.0)"}
+    return {"User-Agent": "Mozilla/5.0 (compatible; SUGOIAPI/2.0)"}
 
 
-def fetch_rss(query: str, filter_trusted: bool = True) -> list[dict]:
-    """
-    Busca no RSS do Nyaa por uma query.
-    Retorna lista de items com {title, magnet, size, seeders, info_hash}.
-    """
-    params = {
-        "page" : "rss",
-        "q"    : query,
-        "c"    : "1_2",     # Anime - English-translated
-        "f"    : "2" if filter_trusted else "0",  # Trusted only
-    }
+def fetch_rss(query: str, base: str = NYAA_BASE, trusted: bool = True) -> list[dict]:
+    params = {"page": "rss", "q": query}
+    if base == NYAA_BASE:
+        params["c"] = "1_2"
+        params["f"] = "2" if trusted else "0"
+    else:
+        params["c"] = "1_1"
+
     qs = "&".join(f"{k}={quote_plus(v)}" for k, v in params.items())
-    url = f"https://nyaa.si/?{qs}"
+    url = f"{base}/?{qs}"
 
     try:
         r = requests.get(url, headers=_user_agent(), timeout=20)
         r.raise_for_status()
     except requests.RequestException as e:
-        print(f"  ⚠️  Nyaa RSS erro: {e}")
+        print(f"  ⚠️  RSS erro: {e}")
         return []
 
     items = []
@@ -65,48 +52,44 @@ def fetch_rss(query: str, filter_trusted: bool = True) -> list[dict]:
         ns   = {"nyaa": "https://nyaa.si/xmlns/nyaa"}
 
         for item in root.findall(".//item"):
-            title = item.findtext("title", "").strip()
-            link  = item.findtext("link", "").strip()  # arquivo .torrent
-            guid  = item.findtext("guid", "").strip()
+            title    = item.findtext("title", "").strip()
+            seeders  = int(item.findtext("nyaa:seeders", "0", ns) or 0)
+            ihash    = item.findtext("nyaa:infoHash", "", ns).lower()
+            trusted_flag = item.findtext("nyaa:trusted", "No", ns) == "Yes"
 
-            seeders   = int(item.findtext("nyaa:seeders", "0", ns) or 0)
-            size      = item.findtext("nyaa:size", "", ns)
-            info_hash = item.findtext("nyaa:infoHash", "", ns).lower()
-            trusted   = item.findtext("nyaa:trusted", "No", ns) == "Yes"
-
-            # Monta magnet a partir do info_hash
-            if info_hash:
-                magnet = (
-                    f"magnet:?xt=urn:btih:{info_hash}"
-                    f"&dn={quote_plus(title)}"
-                    f"&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80"
-                    f"&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
-                )
-            else:
+            if not ihash:
                 continue
 
-            items.append({
-                "title"    : title,
-                "magnet"   : magnet,
-                "info_hash": info_hash,
-                "size"     : size,
-                "seeders"  : seeders,
-                "trusted"  : trusted,
-            })
+            magnet = (
+                f"magnet:?xt=urn:btih:{ihash}"
+                f"&dn={quote_plus(title)}"
+                f"&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80"
+                f"&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+            )
 
+            items.append({
+                "title"   : title,
+                "magnet"  : magnet,
+                "info_hash": ihash,
+                "seeders" : seeders,
+                "trusted" : trusted_flag,
+            })
     except ET.ParseError as e:
-        print(f"  ⚠️  Erro ao parsear RSS: {e}")
+        print(f"  ⚠️  Erro parse RSS: {e}")
 
     return items
 
 
-def filtrar_qualidade(items: list[dict], qualidade: str = "1080p") -> list[dict]:
-    """Filtra apenas itens com a qualidade desejada no título."""
-    return [i for i in items if qualidade in i["title"].lower()]
+def filtrar_qualidade(items: list[dict], qualidades: list[str]) -> list[dict]:
+    out = []
+    for item in items:
+        title_lower = item["title"].lower()
+        if any(q in title_lower for q in qualidades):
+            out.append(item)
+    return out
 
 
-def filtrar_uploader_trusted(items: list[dict]) -> list[dict]:
-    """Mantém apenas itens de uploaders confiáveis ou marcados como trusted."""
+def filtrar_uploader_confiavel(items: list[dict]) -> list[dict]:
     out = []
     for item in items:
         title_lower = item["title"].lower()
@@ -118,51 +101,31 @@ def filtrar_uploader_trusted(items: list[dict]) -> list[dict]:
     return out
 
 
-def extrair_titulo_anime(nome_torrent: str) -> str:
-    """
-    Extrai o nome do anime do título do torrent.
-    Ex: '[SubsPlease] Frieren - 01 (1080p)' → 'Frieren'
-    """
-    nome = re.sub(r'^\s*\[[^\]]+\]\s*', '', nome_torrent)  # remove [SubsPlease]
-    nome = re.sub(r'\s*-\s*\d+.*$', '', nome)              # remove - 01 (...)
-    nome = re.sub(r'\s*\(\d+p.*$', '', nome)               # remove (1080p)
-    nome = re.sub(r'\s*\[.+?\].*$', '', nome)              # remove [...]
-    return nome.strip() or nome_torrent
+def buscar_categoria_sfw(uploader: str = "subsplease",
+                          max_por_termo: int = 10,
+                          qualidades: list[str] = None) -> list[dict]:
+    if qualidades is None:
+        qualidades = QUALIDADES_PREFERIDAS
 
+    termos = termos_sfw_com_uploader(uploader)
+    print(f"\n🎌 SFW: {len(termos)} termos (uploader={uploader})")
 
-def buscar_animes_nyaa(
-    termos: list[str],
-    qualidade: str = "1080p",
-    max_por_termo: int = 30,
-) -> list[dict]:
-    """
-    Para cada termo de busca, coleta magnets do Nyaa.
-    Retorna lista pronta para PutioOrchestrator.enqueue().
-
-    items: [{magnet, title, category, logo, info_hash, seeders}]
-    """
     all_items = []
-    seen_hashes = set()
+    seen = set()
 
-    for termo in termos:
-        print(f"\n🔍 Buscando: {termo}")
-        items = fetch_rss(termo, filter_trusted=True)
-        items = filtrar_uploader_trusted(items)
-        items = filtrar_qualidade(items, qualidade)
-
-        # Ordena por seeders (mais ativos primeiro)
+    for query, categoria in termos:
+        items = fetch_rss(query, base=NYAA_BASE, trusted=True)
+        items = filtrar_uploader_confiavel(items)
+        items = filtrar_qualidade(items, qualidades)
         items.sort(key=lambda x: x.get("seeders", 0), reverse=True)
         items = items[:max_por_termo]
 
+        novos = 0
         for item in items:
-            ih = item.get("info_hash")
-            if not ih or ih in seen_hashes:
+            ih = item["info_hash"]
+            if ih in seen:
                 continue
-            seen_hashes.add(ih)
-
-            titulo_anime = extrair_titulo_anime(item["title"])
-            categoria    = detectar_categoria_anime(titulo_anime)
-
+            seen.add(ih)
             all_items.append({
                 "magnet"   : item["magnet"],
                 "title"    : item["title"],
@@ -171,43 +134,76 @@ def buscar_animes_nyaa(
                 "info_hash": ih,
                 "seeders"  : item.get("seeders", 0),
             })
+            novos += 1
 
-        print(f"   {len(items)} torrents válidos para '{termo}'")
-        time.sleep(1)  # rate limit suave
+        if novos > 0:
+            print(f"   [{categoria:<22}] {query[:40]:<42} → +{novos}")
+        time.sleep(0.5)
 
-    print(f"\n📦 Total: {len(all_items)} magnets únicos coletados")
     return all_items
 
 
-# ──────────────────────────────────────────────────────────────────────────
-# Lista de termos de busca padrão
-# ──────────────────────────────────────────────────────────────────────────
+def buscar_categoria_adult(max_por_termo: int = 5,
+                            qualidades: list[str] = None) -> list[dict]:
+    if qualidades is None:
+        qualidades = QUALIDADES_PREFERIDAS
 
-# Animes populares para alimentar o pipeline.
-# Adicione/remova conforme interesse.
-TERMOS_PADRAO = [
-    "subsplease frieren",
-    "subsplease one piece",
-    "subsplease jujutsu kaisen",
-    "subsplease demon slayer",
-    "subsplease attack on titan",
-    "subsplease my hero academia",
-    "subsplease chainsaw man",
-    "subsplease spy x family",
-    "subsplease bleach",
-    "subsplease dr stone",
-    "subsplease blue lock",
-    "subsplease oshi no ko",
-    "subsplease bocchi the rock",
-    "subsplease dandadan",
-    "subsplease kaguya",
-    "erai-raws naruto",
-    "erai-raws dragon ball",
-    "erai-raws bleach",
-    "judas batch",
-]
+    termos = termos_adult()
+    print(f"\n🔞 Adult: {len(termos)} termos (sukebei.nyaa.si)")
+
+    all_items = []
+    seen = set()
+
+    for query, categoria in termos:
+        items = fetch_rss(query, base=SUKEBEI_BASE, trusted=False)
+        items = filtrar_qualidade(items, qualidades)
+        items.sort(key=lambda x: x.get("seeders", 0), reverse=True)
+        items = items[:max_por_termo]
+
+        novos = 0
+        for item in items:
+            ih = item["info_hash"]
+            if ih in seen:
+                continue
+            seen.add(ih)
+            all_items.append({
+                "magnet"   : item["magnet"],
+                "title"    : item["title"],
+                "category" : categoria,
+                "logo"     : "",
+                "info_hash": ih,
+                "seeders"  : item.get("seeders", 0),
+            })
+            novos += 1
+
+        if novos > 0:
+            print(f"   [{categoria:<22}] {query[:40]:<42} → +{novos}")
+        time.sleep(0.5)
+
+    return all_items
+
+
+def buscar_animes_por_categoria(incluir_adulto: bool = True,
+                                  max_sfw: int = 10,
+                                  max_adult: int = 5) -> list[dict]:
+    items_sfw   = buscar_categoria_sfw(max_por_termo=max_sfw)
+    items_adult = buscar_categoria_adult(max_por_termo=max_adult) if incluir_adulto else []
+
+    print(f"\n{'─'*48}")
+    print(f"  SFW   coletados : {len(items_sfw):>5}")
+    print(f"  Adult coletados : {len(items_adult):>5}")
+    print(f"  Total           : {len(items_sfw) + len(items_adult):>5}")
+    print(f"{'─'*48}\n")
+
+    return items_sfw + items_adult
 
 
 if __name__ == "__main__":
-    items = buscar_animes_nyaa(TERMOS_PADRAO)
-    print(f"\n✅ {len(items)} items prontos para enqueue no Put.io")
+    items = buscar_animes_por_categoria()
+    print(f"\n✅ {len(items)} magnets prontos para enqueue\n")
+
+    from collections import Counter
+    cats = Counter(item["category"] for item in items)
+    print("📊 Distribuição por categoria:")
+    for cat, n in cats.most_common():
+        print(f"   {cat:<22} {n:>4}")
