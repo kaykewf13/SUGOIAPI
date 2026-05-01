@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (576) ══════════
+### ══════════ CANAIS (573) ══════════
 
 
-## ── Noticias (55) ──
+## ── Noticias (54) ──
 
 #EXTINF:-1 tvg-name="ABC News Live" tvg-logo="https://images.pluto.tv/channels/6508be683a0d700008c534e4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", ABC News Live
 https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
@@ -59,17 +59,14 @@ https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-name="CBS News Detroit" tvg-logo="https://images.pluto.tv/channels/634f2610d5023700078f7dee/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Detroit
 https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 
-#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
-https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
-
 #EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
 https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
 
+#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
+https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
+
 #EXTINF:-1 tvg-name="CBS News Miami" tvg-logo="https://images.pluto.tv/channels/60fb299b79498900070b29e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Miami
 https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
-
-#EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
-https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
@@ -504,7 +501,7 @@ https://jmp2.uk/plu-5fb584b7613a31000789de5a.m3u8
 https://jmp2.uk/plu-667f393836a2f90008fd17c0.m3u8
 
 
-## ── Variados (415) ──
+## ── Variados (413) ──
 
 #EXTINF:-1 tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", 00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -872,9 +869,6 @@ https://jmp2.uk/plu-5bb1af6a268cae539bcedb0a.m3u8
 #EXTINF:-1 tvg-name="FOX 11 Los Angeles" tvg-logo="https://images.pluto.tv/channels/667f2c7b22acab0008b7072b/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", FOX 11 Los Angeles
 https://jmp2.uk/plu-667f2c7b22acab0008b7072b.m3u8
 
-#EXTINF:-1 tvg-name="FOX Deportes" tvg-logo="https://images.pluto.tv/channels/63d0269d60bc8f000890facc/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", FOX Deportes
-https://jmp2.uk/plu-63d0269d60bc8f000890facc.m3u8
-
 #EXTINF:-1 tvg-name="FOX Weather" tvg-logo="https://images.pluto.tv/channels/640a68880e884c0009979cc2/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", FOX Weather
 https://jmp2.uk/plu-640a68880e884c0009979cc2.m3u8
 
@@ -907,9 +901,6 @@ https://jmp2.uk/plu-5f27bbe4779de70007a6d1c1.m3u8
 
 #EXTINF:-1 tvg-name="Ghost Hunters" tvg-logo="https://images.pluto.tv/channels/64e561a4354251000823a0e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Ghost Hunters
 https://jmp2.uk/plu-64e561a4354251000823a0e0.m3u8
-
-#EXTINF:-1 tvg-name="GLORY Kickboxing" tvg-logo="https://images.pluto.tv/channels/5417a212ff9fba68282fbf5e/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", GLORY Kickboxing
-https://jmp2.uk/plu-5417a212ff9fba68282fbf5e.m3u8
 
 #EXTINF:-1 tvg-name="Go Go Gadget!" tvg-logo="https://images.pluto.tv/channels/667f3852efa2a10008e1e514/colorLogoPNG.png" tvg-type="live" group-title="Canais | Variados", Go Go Gadget!
 https://jmp2.uk/plu-667f3852efa2a10008e1e514.m3u8
