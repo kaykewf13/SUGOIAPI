@@ -16,7 +16,9 @@ from termos_categorias import termos_sfw_com_uploader, termos_adult
 NYAA_BASE   = "https://nyaa.si"
 SUKEBEI_BASE = "https://sukebei.nyaa.si"
 
-QUALIDADES_PREFERIDAS = ["1080p", "720p"]
+# Qualidade única — fallback para 1080p só se não houver 720p
+QUALIDADE_PRIMARIA  = "720p"
+QUALIDADE_FALLBACK  = "1080p"
 
 TRUSTED_UPLOADERS = [
     "subsplease", "erai-raws", "judas", "asw",
@@ -80,13 +82,18 @@ def fetch_rss(query: str, base: str = NYAA_BASE, trusted: bool = True) -> list[d
     return items
 
 
-def filtrar_qualidade(items: list[dict], qualidades: list[str]) -> list[dict]:
-    out = []
-    for item in items:
-        title_lower = item["title"].lower()
-        if any(q in title_lower for q in qualidades):
-            out.append(item)
-    return out
+def filtrar_qualidade(items: list[dict],
+                       qualidade_primaria: str = QUALIDADE_PRIMARIA,
+                       qualidade_fallback: str = QUALIDADE_FALLBACK) -> list[dict]:
+    """
+    Prioriza qualidade primaria. Só usa fallback se nenhum item tiver primaria.
+    Garante 1 qualidade por busca — não mistura 720p e 1080p.
+    """
+    primarios = [i for i in items if qualidade_primaria in i["title"].lower()]
+    if primarios:
+        return primarios
+    fallback = [i for i in items if qualidade_fallback in i["title"].lower()]
+    return fallback
 
 
 def filtrar_uploader_confiavel(items: list[dict]) -> list[dict]:
@@ -102,13 +109,9 @@ def filtrar_uploader_confiavel(items: list[dict]) -> list[dict]:
 
 
 def buscar_categoria_sfw(uploader: str = "subsplease",
-                          max_por_termo: int = 10,
-                          qualidades: list[str] = None) -> list[dict]:
-    if qualidades is None:
-        qualidades = QUALIDADES_PREFERIDAS
-
+                          max_por_termo: int = 10) -> list[dict]:
     termos = termos_sfw_com_uploader(uploader)
-    print(f"\n🎌 SFW: {len(termos)} termos (uploader={uploader})")
+    print(f"\n🎌 SFW: {len(termos)} termos (uploader={uploader}) — qualidade {QUALIDADE_PRIMARIA}")
 
     all_items = []
     seen = set()
@@ -116,7 +119,7 @@ def buscar_categoria_sfw(uploader: str = "subsplease",
     for query, categoria in termos:
         items = fetch_rss(query, base=NYAA_BASE, trusted=True)
         items = filtrar_uploader_confiavel(items)
-        items = filtrar_qualidade(items, qualidades)
+        items = filtrar_qualidade(items)
         items.sort(key=lambda x: x.get("seeders", 0), reverse=True)
         items = items[:max_por_termo]
 
@@ -143,20 +146,16 @@ def buscar_categoria_sfw(uploader: str = "subsplease",
     return all_items
 
 
-def buscar_categoria_adult(max_por_termo: int = 5,
-                            qualidades: list[str] = None) -> list[dict]:
-    if qualidades is None:
-        qualidades = QUALIDADES_PREFERIDAS
-
+def buscar_categoria_adult(max_por_termo: int = 5) -> list[dict]:
     termos = termos_adult()
-    print(f"\n🔞 Adult: {len(termos)} termos (sukebei.nyaa.si)")
+    print(f"\n🔞 Adult: {len(termos)} termos (sukebei.nyaa.si) — qualidade {QUALIDADE_PRIMARIA}")
 
     all_items = []
     seen = set()
 
     for query, categoria in termos:
         items = fetch_rss(query, base=SUKEBEI_BASE, trusted=False)
-        items = filtrar_qualidade(items, qualidades)
+        items = filtrar_qualidade(items)
         items.sort(key=lambda x: x.get("seeders", 0), reverse=True)
         items = items[:max_por_termo]
 
