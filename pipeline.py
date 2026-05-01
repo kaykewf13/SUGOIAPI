@@ -54,6 +54,7 @@ SOURCE_CANAIS_BR = \
 # (links do GoAnime scraper são validados na geração; cdn.animeiat.tv são estáveis)
 SOURCES_VOD = [
     # ── Scrapers locais — gerados diariamente pelo GitHub Actions ──
+    "sources/putio_entries.m3u",   # Put.io (URLs permanentes, sem Referer)
     "sources/central_animes.m3u",  # centraldeanimes.xyz (HLS, Referer validado)
     "sources/anime_fire.m3u",      # AnimeFire PT-BR via GoAnime
 
