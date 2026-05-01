@@ -1,48 +1,44 @@
-#!/usr/bin/env python3
 """
-harvest_putio.py — Fase B do pipeline SUGOIAPI ↔ Put.io.
+SUGOIAPI — harvest_putio.py
+Fase B do pipeline Put.io.
 
-Roda no GitHub Actions após exportar_links_api_v3.py ter feito o enqueue.
-Atualiza putio_state.json com os transfers concluídos e gera/atualiza
-um arquivo de playlist com as entradas Put.io.
+Verifica todos os transfers pendentes, identifica os que completaram,
+gera URLs de streaming e exporta sources/putio_entries.m3u.
 
-Saída:
-  - putio_state.json (atualizado in place)
-  - putio_entries.m3u (playlist parcial só com entradas Put.io)
-
-O arquivo putio_entries.m3u é um *fragmento* — você decide se mescla
-com playlist_premium.m3u no script principal ou consome separadamente.
+Roda como step do GitHub Actions, separado da fase de enqueue.
 """
-
-from __future__ import annotations
-
-import sys
-from pathlib import Path
 
 from putio_integration import PutioOrchestrator
 
 
-STATE_PATH = "putio_state.json"
-M3U_FRAGMENT_PATH = "putio_entries.m3u"
+def main():
+    print("╔═══════════════════════════════════════╗")
+    print("║  SUGOIAPI — Put.io Harvester          ║")
+    print("╚═══════════════════════════════════════╝\n")
 
+    orch = PutioOrchestrator()
 
-def main() -> int:
-    orch = PutioOrchestrator(state_path=STATE_PATH)
+    # Status atual
+    items = orch.state.get("items", {})
+    pending = sum(1 for i in items.values() if i.get("status") == "pending")
+    ready   = sum(1 for i in items.values() if i.get("status") == "ready")
+    error   = sum(1 for i in items.values() if i.get("status") == "error")
 
-    novos = orch.harvest()
-    print(f"[harvest] novos transfers concluídos: {len(novos)}")
-    for n in novos:
-        print(f"  + {n['title']}  →  {n['stream_url'][:60]}...")
+    print(f"📊 Estado atual:")
+    print(f"   Pending : {pending}")
+    print(f"   Ready   : {ready}")
+    print(f"   Error   : {error}\n")
 
-    lines = orch.export_m3u_lines()
-    header = "#EXTM3U"
-    Path(M3U_FRAGMENT_PATH).write_text(
-        "\n".join([header, *lines]) + "\n",
-        encoding="utf-8",
-    )
-    print(f"[harvest] {len(lines) // 2} entradas escritas em {M3U_FRAGMENT_PATH}")
-    return 0
+    if pending == 0:
+        print("ℹ️  Nenhum transfer pendente para verificar.")
+    else:
+        print(f"⚡ Verificando {pending} transfers no Put.io...\n")
+        novos = orch.harvest()
+        print(f"\n   {len(novos)} novos transfers prontos\n")
+
+    # Sempre regenera M3U com todos os ready
+    orch.export_m3u()
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
