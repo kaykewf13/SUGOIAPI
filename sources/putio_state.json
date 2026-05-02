@@ -8125,7 +8125,47 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-02T07:07:43.219227+00:00"
+    },
+    "4b2b712b3b75a7514d0e9950009e6135fa800f74": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 05 (720p) [6F1AAAD2].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105169825,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:56:17.577132+00:00"
+    },
+    "1c08d8ec4ee0b109153dc7efb0256af4fbde031d": {
+      "title": "[SubsPlease] Dragon Ball Daima - 04 (720p) [2A393862].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "e6a95f3aef44d6ecc46ee29c42db64c4ed05551b": {
+      "title": "[SubsPlease] Dragon Ball Daima - 20 (720p) [6472C43C].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169827,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:56:18.299672+00:00"
+    },
+    "8527a30a73f605bd3e74e0c33daf03295572ee2c": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 10 (720p) [9333CBEB].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "76a023a40e2daf7fba897ac2d0eed534a01d4c09": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 07 (720p) [7C7F156D].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169829,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:56:19.082894+00:00"
     }
   },
-  "last_run": "2026-05-02T07:07:44.332748+00:00"
+  "last_run": "2026-05-02T07:56:20.070288+00:00"
 }
