@@ -183,18 +183,35 @@ def buscar_categoria_adult(max_por_termo: int = 5) -> list[dict]:
 
 
 def buscar_animes_por_categoria(incluir_adulto: bool = True,
-                                  max_sfw: int = 10,
-                                  max_adult: int = 5) -> list[dict]:
-    items_sfw   = buscar_categoria_sfw(max_por_termo=max_sfw)
+                                  max_sfw: int = 5,
+                                  max_adult: int = 15) -> list[dict]:
+    """
+    PRIORIDADE: adulto primeiro, com orçamento maior.
+    - Adult (Hentai, Milf, Netorare): max 15 torrents/termo
+    - SFW (Shounen, Isekai, etc.): max 5 torrents/termo
+
+    Adult vai PRIMEIRO no Put.io — fila de download começa por ele.
+    """
     items_adult = buscar_categoria_adult(max_por_termo=max_adult) if incluir_adulto else []
+    items_sfw   = buscar_categoria_sfw(max_por_termo=max_sfw)
+
+    # Categoria Ecchi e Harem — também SFW mas com prioridade alta
+    # (já está em CATEGORIAS_SFW; aplicamos boost via reordenação abaixo)
+
+    # Reordena: Adult → Ecchi/Harem → resto
+    sfw_priority = [i for i in items_sfw if i["category"] in ("Ecchi e Harem",)]
+    sfw_outros   = [i for i in items_sfw if i["category"] not in ("Ecchi e Harem",)]
+
+    todos = items_adult + sfw_priority + sfw_outros
 
     print(f"\n{'─'*48}")
-    print(f"  SFW   coletados : {len(items_sfw):>5}")
-    print(f"  Adult coletados : {len(items_adult):>5}")
-    print(f"  Total           : {len(items_sfw) + len(items_adult):>5}")
+    print(f"  Adult coletados   : {len(items_adult):>5}  (prioridade 1)")
+    print(f"  Ecchi/Harem       : {len(sfw_priority):>5}  (prioridade 2)")
+    print(f"  Outros SFW        : {len(sfw_outros):>5}  (prioridade 3)")
+    print(f"  Total             : {len(todos):>5}")
     print(f"{'─'*48}\n")
 
-    return items_sfw + items_adult
+    return todos
 
 
 if __name__ == "__main__":
