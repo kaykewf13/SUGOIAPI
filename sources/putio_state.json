@@ -8065,7 +8065,67 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-02T06:38:21.464640+00:00"
+    },
+    "0235f812f4b063d8f1a3baa3d84a63a26f2a44f4": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 03 (720p) [47D1D8DB].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169362,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:07:39.970288+00:00"
+    },
+    "3d3b19e886182412871d1a87c34ba12a65b98f5b": {
+      "title": "[SubsPlease] Wind Breaker - 11 (720p) [DF41395B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169363,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:07:40.616104+00:00"
+    },
+    "ef74528463b6e0f669f0e165202693de4e7dc5c5": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Gou - 20 (720p) [1008A1B1].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105169364,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:07:41.266710+00:00"
+    },
+    "f8a8a42a5d2de287e224e472bf5ee91e9839650f": {
+      "title": "[SubsPlease] 86 - Eighty Six - 18.5 (720p) [F130EFB6].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105169365,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:07:41.907599+00:00"
+    },
+    "3a07f368747ea5d2852fe05f392d41ee336c4216": {
+      "title": "[SubsPlease] 86 - Eighty Six - 17.5 (720p) [650901BA].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105169366,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:07:42.559958+00:00"
+    },
+    "8a124d53235c4519b780e8b3f2382f8381b54b26": {
+      "title": "[SubsPlease] Grand Blue S2 - 06 (720p) [AFCA3648].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105169367,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T07:07:43.219227+00:00"
     }
   },
-  "last_run": "2026-05-02T06:38:22.409169+00:00"
+  "last_run": "2026-05-02T07:07:44.332748+00:00"
 }
