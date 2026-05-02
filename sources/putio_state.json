@@ -7955,7 +7955,117 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-02T06:08:09.110223+00:00"
+    },
+    "938d8b425649d9bab012f2bcadb49125eea490eb": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 288 (720p) [FE4070F0].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169052,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:15.091352+00:00"
+    },
+    "32d35e0ec710ba79ec299af6b3d591b433c70871": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 286 (720p) [9698619A].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169053,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:15.719454+00:00"
+    },
+    "a071fa12e4d07c99667d832cbf627d0650adb9ac": {
+      "title": "[SubsPlease] Vigilante - Boku no Hero Academia Illegals S2 - 06 (720p) [BC4600F5].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169054,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:16.351744+00:00"
+    },
+    "46ea7f6f1d1d58e0fc8502beaeff3e03f06b8ffd": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 11 (720p) [651892D2].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169055,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:16.978297+00:00"
+    },
+    "edaf780856a6c450f82d9639429373b63dcaf787": {
+      "title": "[SubsPlease] Rurouni Kenshin (2023) - 44 (720p) [705826B3].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169056,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:17.613486+00:00"
+    },
+    "cbabd808c54efee5de91d92d58ae12105aa07fa2": {
+      "title": "[SubsPlease] Wind Breaker - 04 (720p) [4C3E589F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105169057,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:18.259521+00:00"
+    },
+    "2f50ba41651b0922bcb1ec2f9964c6b502935583": {
+      "title": "[SubsPlease] Kawaii dake ja Nai Shikimori-san - SP1 (720p) [210FF578].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105169058,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:18.903118+00:00"
+    },
+    "d96c59a302adf3988c0252fa87f42cb6c367aa94": {
+      "title": "[SubsPlease] Nomad - Megalo Box 2 - 02 (720p) [DCE89B48].mkv",
+      "category": "Luta",
+      "logo": "",
+      "transfer_id": 105169059,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:19.533062+00:00"
+    },
+    "9961e05483536c2a11b9e05983a1cf1300a5c1f9": {
+      "title": "[SubsPlease] 86 - Eighty Six - 04 (720p) [A72E2C62].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105169060,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:20.181829+00:00"
+    },
+    "aad0003a5429fef765a369d497ab9a5caba18209": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 05 (720p) [8B610C3B].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105169061,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:20.835493+00:00"
+    },
+    "0de9152e41316d2fc95a42efccd8cd9156adc353": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 06 (720p) [212E5DE1].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105169062,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:38:21.464640+00:00"
     }
   },
-  "last_run": "2026-05-02T06:08:10.152644+00:00"
+  "last_run": "2026-05-02T06:38:22.409169+00:00"
 }
