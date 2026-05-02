@@ -8207,7 +8207,78 @@
       "status": "ready",
       "created_at": "2026-05-02T08:20:08.296272+00:00",
       "ready_at": "2026-05-02T08:20:09.587308+00:00"
+    },
+    "38631dea95c97c7397aa429919c6c4f6ac1d5709": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 52 (720p) [DFE38A90].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105171028,
+      "file_id": 1584908195,
+      "stream_url": "https://api.put.io/v2/files/1584908195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T09:44:43.587655+00:00",
+      "ready_at": "2026-05-02T09:44:48.612573+00:00"
+    },
+    "ebe87521dede12abfbbf6acc4074861c3a8517c5": {
+      "title": "[SubsPlease] Boku no Hero Academia - 170 (720p) [0C002126].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105171029,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T09:44:44.237031+00:00"
+    },
+    "1150598f222dfd74e37bbabed44f65d3dedf4003": {
+      "title": "[SubsPlease] Boku no Hero Academia - 169 (720p) [B2FC2AAF].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105171030,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T09:44:44.892589+00:00"
+    },
+    "9e47a2fc2fcc452cc17359e5b43fd18c26ed6e17": {
+      "title": "[SubsPlease] Kawaii dake ja Nai Shikimori-san - 04 (720p) [E421B9CF].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105171031,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T09:44:45.552985+00:00"
+    },
+    "58aef9d342fe9404a8e01349bff59b8f93bd2816": {
+      "title": "[SubsPlease] Kawaii dake ja Nai Shikimori-san - 03 (720p) [4685EF71].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105171032,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T09:44:46.200800+00:00"
+    },
+    "609eec8e1356614cbf60ec6c5c71ac6d36c14792": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 06 (720p) [6F4F4EDE].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105171033,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T09:44:46.848674+00:00"
+    },
+    "54b4abaf47687e2156e808a5e96807402cfd10bf": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 05 (720p) [6422EEF0].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105171034,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T09:44:47.505452+00:00"
     }
   },
-  "last_run": "2026-05-02T08:20:09.587319+00:00"
+  "last_run": "2026-05-02T09:44:48.612609+00:00"
 }
