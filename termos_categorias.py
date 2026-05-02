@@ -1,16 +1,16 @@
 """
-SUGOIAPI — termos_categorias.py
+SUGOIAPI - termos_categorias.py
 Listas curadas de animes por categoria para busca no Nyaa.si
 
-Cada categoria tem seus títulos conhecidos. O scraper busca cada um,
+Cada categoria tem seus titulos conhecidos. O scraper busca cada um,
 coleta o magnet e classifica pela categoria de origem.
 
-Para conteúdo adulto, usa o sukebei.nyaa.si (mirror adulto).
+Para conteudo adulto, usa o sukebei.nyaa.si (mirror adulto).
 """
 
-# ──────────────────────────────────────────────────────────────────
-# Categorias SFW — buscadas em nyaa.si
-# ──────────────────────────────────────────────────────────────────
+# ----------------------------------------------------------------
+# Categorias SFW - buscadas em nyaa.si
+# ----------------------------------------------------------------
 
 CATEGORIAS_SFW = {
 
@@ -52,17 +52,15 @@ CATEGORIAS_SFW = {
         "okusama ga seitokaichou",
         "peter grill",
         "redo of healer", "kaifuku jutsushi",
-        "nudist beach", "valkyrie drive",
+        "valkyrie drive",
         "kanokon", "ladies versus butlers",
         "manyuu hikenchou", "sin nanatsu no taizai",
         "qwaser of stigmata", "seikon no qwaser",
         "tsugumomo", "ane naru mono",
         "harem in the labyrinth", "isekai meikyuu",
-        "the rising of shield hero",
         "campione", "demon king daimao",
         "maou-sama retry", "demon lord retry",
         "my wife is the student council president",
-        "okusama ga seitokaichou",
         "ladies vs butlers",
         "majikoi", "maji de watashi ni koishinasai",
         "love hina",
@@ -81,7 +79,7 @@ CATEGORIAS_SFW = {
         "moriarty the patriot", "yuukoku no moriarty",
         "babylon", "boogiepop",
         "terror in resonance", "zankyou no terror",
-        "darwin's game", "btoom",
+        "darwins game", "btoom",
     ],
 
     "Luta": [
@@ -94,7 +92,7 @@ CATEGORIAS_SFW = {
         "sword of the stranger",
         "shigurui",
         "tenjho tenge", "ikki tousen",
-        "history's strongest disciple",
+        "historys strongest disciple",
         "record of ragnarok",
         "fire force", "garo",
         "berserk",
@@ -136,7 +134,7 @@ CATEGORIAS_SFW = {
         "isekai cheat magician",
         "death march to the parallel world",
         "uncle from another world", "isekai ojisan",
-        "i ve been killing slimes",
+        "ive been killing slimes",
         "skeleton knight in another world",
         "reincarnated as a sword", "tensei shitara ken",
     ],
@@ -162,9 +160,9 @@ CATEGORIAS_SFW = {
     ],
 }
 
-# ──────────────────────────────────────────────────────────────────
-# Categorias adultas — buscadas em sukebei.nyaa.si
-# ──────────────────────────────────────────────────────────────────
+# ----------------------------------------------------------------
+# Categorias adultas - buscadas em sukebei.nyaa.si
+# ----------------------------------------------------------------
 
 CATEGORIAS_ADULT = {
 
@@ -256,11 +254,11 @@ CATEGORIAS_ADULT = {
 }
 
 
-# ──────────────────────────────────────────────────────────────────
+# ----------------------------------------------------------------
 # Helpers
-# ──────────────────────────────────────────────────────────────────
+# ----------------------------------------------------------------
 
-def termos_sfw_com_uploader(uploader: str = "subsplease") -> list[tuple]:
+def termos_sfw_com_uploader(uploader: str = "subsplease") -> list:
     """
     Retorna lista de tuplas (query, categoria) para busca no nyaa.si.
     Ex: [("subsplease naruto", "Shounen"), ...]
@@ -272,7 +270,7 @@ def termos_sfw_com_uploader(uploader: str = "subsplease") -> list[tuple]:
     return out
 
 
-def termos_adult() -> list[tuple]:
+def termos_adult() -> list:
     """
     Retorna lista de tuplas (query, categoria) para sukebei.nyaa.si.
     """
@@ -295,9 +293,9 @@ def total_termos() -> dict:
 
 if __name__ == "__main__":
     counts = total_termos()
-    print("📊 Cobertura por categoria:\n")
+    print("Cobertura por categoria:\n")
     total = 0
     for cat, n in counts.items():
         total += n
         print(f"   {cat:<22} {n:>4} termos")
-    print(f"\n   TOTAL    
+    print(f"\n   TOTAL                 {total:>4} termos")
