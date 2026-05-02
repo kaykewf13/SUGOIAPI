@@ -7024,7 +7024,305 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-01T22:45:13.085428+00:00"
+    },
+    "2cd6183c6557c73fff571e7596495794b05dcd78": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 80 (720p) [06359571].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167441,
+      "file_id": 1584874810,
+      "stream_url": "https://api.put.io/v2/files/1584874810/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:19.474085+00:00",
+      "ready_at": "2026-05-02T03:53:38.788602+00:00"
+    },
+    "4ae1ebefada9dfc343fb9962b3501f9b65db5a06": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 79 (720p) [3E1AB9E5].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167442,
+      "file_id": 1584874811,
+      "stream_url": "https://api.put.io/v2/files/1584874811/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:20.120077+00:00",
+      "ready_at": "2026-05-02T03:53:38.892167+00:00"
+    },
+    "2265b906f474918ade4d4e161a794b048dda2830": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 18 (720p) [807C2419].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167443,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:20.760617+00:00"
+    },
+    "261085557d0817a58d6823e50b2e49b17f9f9c74": {
+      "title": "[SubsPlease] Rurouni Kenshin (2023) - 38 (720p) [87261DA0].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167444,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:21.406471+00:00"
+    },
+    "7880e0088569fdb8d5e342552e799129b220ff38": {
+      "title": "[SubsPlease] Spy x Family - 46 (720p) [4D5318C9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167445,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:22.085182+00:00"
+    },
+    "30aed4a57d3e379226d261b77cc61bff7771eaa9": {
+      "title": "[SubsPlease] Mashle - 07 (720p) [0AC3335F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167446,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:22.732324+00:00"
+    },
+    "49a94b3973e75b368b478dd9f411555230463c0c": {
+      "title": "[SubsPlease] Dandadan - 15 (720p) [A82EEED9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167447,
+      "file_id": 1584874812,
+      "stream_url": "https://api.put.io/v2/files/1584874812/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:23.404547+00:00",
+      "ready_at": "2026-05-02T03:53:38.995267+00:00"
+    },
+    "82766668cd5dcba56ddddf542c688479d594ef11": {
+      "title": "[SubsPlease] Blue Lock - 30 (720p) [FCCADCF0].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105167448,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:24.046584+00:00"
+    },
+    "bfa7778c6857967acde9f47ef6b61b16f0d2519d": {
+      "title": "[SubsPlease] Date a Live IV (01-12) (720p) [Batch]",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105167449,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:24.687761+00:00"
+    },
+    "ddf07da284d267347f94edcc1029b20375ac90c0": {
+      "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 14 (720p) [C3FE3E0B].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105167450,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:25.334137+00:00"
+    },
+    "1573e197c4f640eacc408b6671351fd77356de36": {
+      "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 10 (720p) [5C19CF6C].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105167451,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:25.981631+00:00"
+    },
+    "2870f6b64e7e79b3202ba6c01602bf24035882ae": {
+      "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 04 (720p) [A8A03DD4].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105167452,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:26.627605+00:00"
+    },
+    "8dd30c1a06e19d4848bfcd468becef20005d5948": {
+      "title": "[SubsPlease] Yakusoku no Neverland S2 - 05.5 (720p) [21DFE4E3].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105167453,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:27.275892+00:00"
+    },
+    "07b9e961967be75f0fa6ba94cf4917b265de8c58": {
+      "title": "[SubsPlease] Vinland Saga S2 - 12 (720p) [D270A0FD].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105167454,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:27.930126+00:00"
+    },
+    "8d02a977fadf028c4708687574bac51311746a23": {
+      "title": "[SubsPlease] Vinland Saga S2 - 08 (720p) [71D758B6].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105167455,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:28.580856+00:00"
+    },
+    "b34c5ede697553f0b7abc18396d64044be5b6554": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 24 (720p) [28B0FD5D].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105167456,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:29.229287+00:00"
+    },
+    "ddd0dc40e952c603dba61e22cc410a5fe6352f25": {
+      "title": "[SubsPlease] Kingdom S6 - 01 (720p) [E5D78A47].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105167457,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:29.868652+00:00"
+    },
+    "c3f2a76ed3f692ddc1f8048d9d187c7ca2879ad5": {
+      "title": "[SubsPlease] Kingdom S5 (01-13) (720p) [Batch]",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105167458,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:30.517541+00:00"
+    },
+    "a21d01ac0166806c15e13a21a1a148ea05adb818": {
+      "title": "[SubsPlease] Sword Art Online Alternative - Gun Gale Online S2 - 12 (720p) [2E2E5200].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167460,
+      "file_id": 1584874816,
+      "stream_url": "https://api.put.io/v2/files/1584874816/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:31.169007+00:00",
+      "ready_at": "2026-05-02T03:53:39.098961+00:00"
+    },
+    "d8cf640b6c063392c4020578c31240073d201d07": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 60 (720p) [BF3BCD69].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167461,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:31.816274+00:00"
+    },
+    "3336d3be89d0a4b7e2ce55e000d8ab0a5f318f2b": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 58 (720p) [1BD3D95A].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167462,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:32.461309+00:00"
+    },
+    "c196455d82f617e1127f31ab3b84a20564e1c4b8": {
+      "title": "[SubsPlease] Overlord IV - 12 (720p) [D3EC912A].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167463,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:33.107435+00:00"
+    },
+    "9c05f4c67180ceeb1015104d2fd6ddea3abd26d1": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 53 (720p) [6EC320B3].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167464,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:33.750528+00:00"
+    },
+    "68d1964f7254aa9a1ff1c3945e0b26ff147e211c": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 12 (720p) [31C085C3].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167466,
+      "file_id": 1584874819,
+      "stream_url": "https://api.put.io/v2/files/1584874819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:34.436179+00:00",
+      "ready_at": "2026-05-02T03:53:39.203095+00:00"
+    },
+    "c8a5475566857e78a6b23be0dc9442dcc2a05072": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 16 (720p) [CF0E47F0].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167468,
+      "file_id": 1584874820,
+      "stream_url": "https://api.put.io/v2/files/1584874820/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:35.082612+00:00",
+      "ready_at": "2026-05-02T03:53:39.307724+00:00"
+    },
+    "c3aa3250ba1f3dcc69e94935f0d2359215a9d6a6": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 13 (720p) [6D9004BD].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105167469,
+      "file_id": 1584874821,
+      "stream_url": "https://api.put.io/v2/files/1584874821/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:35.727898+00:00",
+      "ready_at": "2026-05-02T03:53:39.411024+00:00"
+    },
+    "a8a2bcf3332f626d8487d1d3b2305eb902327aa3": {
+      "title": "[SubsPlease] One-Punch Man S3 - 06 (720p) [CC144195].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105167470,
+      "file_id": 1584874822,
+      "stream_url": "https://api.put.io/v2/files/1584874822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T03:53:36.401402+00:00",
+      "ready_at": "2026-05-02T03:53:39.513677+00:00"
+    },
+    "c227f4c437aee3d9092eedab95eb7095c7c4ddd1": {
+      "title": "[SubsPlease] 29-sai Dokushin Chuuken Boukensha no Nichijou - 10v2 (720p) [B7351599].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105167471,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:37.039832+00:00"
+    },
+    "5006880b44bed7ca44b9c5a50e5f9b3f38669316": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 08 (720p) [0DA99272].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105167472,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T03:53:37.684949+00:00"
     }
   },
-  "last_run": "2026-05-01T22:45:14.484426+00:00"
+  "last_run": "2026-05-02T03:53:39.513694+00:00"
 }
