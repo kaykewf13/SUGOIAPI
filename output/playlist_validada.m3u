@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
 
-### ══════════ CANAIS (574) ══════════
+### ══════════ CANAIS (575) ══════════
 
 
 ## ── Noticias (55) ──
@@ -59,11 +59,11 @@ https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-name="CBS News Detroit" tvg-logo="https://images.pluto.tv/channels/634f2610d5023700078f7dee/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Detroit
 https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 
-#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
-https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
-
 #EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc9b875e280c80009a8a44a/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
 https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8
+
+#EXTINF:-1 tvg-name="CBS News Los Angeles" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Los Angeles
+https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Miami" tvg-logo="https://images.pluto.tv/channels/60fb299b79498900070b29e0/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Miami
 https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
@@ -71,11 +71,11 @@ https://jmp2.uk/plu-60fb299b79498900070b29e0.m3u8
 #EXTINF:-1 tvg-name="CBS News Minnesota" tvg-logo="https://images.pluto.tv/channels/5eb1b0bf2240d8000732a09c/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 
-#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
-https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
-
 #EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc48170e280c80009a861ab/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
 https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
+
+#EXTINF:-1 tvg-name="CBS News New York" tvg-logo="https://images.pluto.tv/channels/5dc9b8223687ff000936ed79/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News New York
+https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
 
 #EXTINF:-1 tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" tvg-type="live" group-title="Canais | Noticias", CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
@@ -171,13 +171,16 @@ https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
 https://jmp2.uk/plu-65790feacbd0d60008fac87a.m3u8
 
 
-## ── Esportes (8) ──
+## ── Esportes (9) ──
 
 #EXTINF:-1 tvg-name="Cine Premiere" tvg-logo="https://images.pluto.tv/channels/5cf968040ab7d8f181e6a68b/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", Cine Premiere
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 #EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/65b14aae0cb1a100087a216e/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
 https://jmp2.uk/plu-65b14aae0cb1a100087a216e.m3u8
+
+#EXTINF:-1 tvg-name="DAZN Ringside" tvg-logo="https://images.pluto.tv/channels/649b6898f2ec0000081a9460/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN Ringside
+https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8
 
 #EXTINF:-1 tvg-name="DAZN TV" tvg-logo="https://images.pluto.tv/channels/647f07e74cfc2c0008a2e557/colorLogoPNG.png" tvg-type="live" group-title="Canais | Esportes", DAZN TV
 https://jmp2.uk/plu-647f07e74cfc2c0008a2e557.m3u8
@@ -1769,11 +1772,11 @@ https://api.put.io/v2/files/1584874822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 ## ── Isekai ──
 
-#EXTINF:-1 tvg-name="[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 12 (720p) [31C085C3].mkv" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Isekai | Temporada 01", [SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 12 (720p) [31C085C3].mkv
-https://api.put.io/v2/files/1584874819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] Tensei Shitara Slime Datta Ken - 62 (720p) [71518B58].mkv" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Isekai | Temporada 01", [SubsPlease] Tensei Shitara Slime Datta Ken - 62 (720p) [71518B58].mkv
 https://api.put.io/v2/files/1584880358/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 12 (720p) [31C085C3].mkv" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Isekai | Temporada 01", [SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 12 (720p) [31C085C3].mkv
+https://api.put.io/v2/files/1584874819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 13 (720p) [6D9004BD].mkv" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Isekai | Temporada 01", [SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 13 (720p) [6D9004BD].mkv
 https://api.put.io/v2/files/1584874821/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
@@ -1940,68 +1943,89 @@ http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Net
 #EXTINF:-1 tvg-name="Dragon Ball Z E25" tvg-logo="https://static.wikia.nocookie.net/dragonball/images/2/27/Z_ep_24.jpg/revision/latest?cb=20110509001329" tvg-type="series" group-title="Series | Shounen | Dragon Ball Z | Temporada 01", Dragon Ball Z E25
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Dragon%20Ball%20Z/Season%201/Dragon%20Ball%20Z%20-%20S01E25%20-%20Stop%20Vegeta%20Now!.mp4
 
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1151 (1080p) [AA7FED6F].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1151 (1080p) [AA7FED6F].mkv
+https://api.put.io/v2/files/1584820766/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 162 (1080p) [177BD9A3].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 162 (1080p) [177BD9A3].mkv
+https://api.put.io/v2/files/1584820789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv
+https://api.put.io/v2/files/1584820758/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1159 (720p) [29014630].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1159 (720p) [29014630].mkv
+https://api.put.io/v2/files/1584820762/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 53 (1080p) [4790B4CD].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 53 (1080p) [4790B4CD].mkv
+https://api.put.io/v2/files/1584820780/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 56 (1080p) [0F106B43].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 56 (1080p) [0F106B43].mkv
+https://api.put.io/v2/files/1584820774/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1154 (1080p) [7BF761AB].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1154 (1080p) [7BF761AB].mkv
+https://api.put.io/v2/files/1584820764/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 165 (1080p) [6A825D6D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 165 (1080p) [6A825D6D].mkv
+https://api.put.io/v2/files/1584820786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Boruto - Naruto Next Generations - 293 (720p) [629F9F37].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boruto - Naruto Next Generations - 293 (720p) [629F9F37].mkv
+https://api.put.io/v2/files/1584820757/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1149 (1080p) [EC4BD324].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1149 (1080p) [EC4BD324].mkv
+https://api.put.io/v2/files/1584820767/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 166 (1080p) [3842701F].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 166 (1080p) [3842701F].mkv
+https://api.put.io/v2/files/1584820791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 50 (1080p) [F12C66EE].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 50 (1080p) [F12C66EE].mkv
+https://api.put.io/v2/files/1584820777/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 06 (1080p) [2FF03924].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 06 (1080p) [2FF03924].mkv
+https://api.put.io/v2/files/1584820771/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 07 (1080p) [BCB63AA2].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 07 (1080p) [BCB63AA2].mkv
+https://api.put.io/v2/files/1584820770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1156 (1080p) [662D886D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1156 (1080p) [662D886D].mkv
 https://api.put.io/v2/files/1584820761/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 52 (1080p) [70834558].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 52 (1080p) [70834558].mkv
 https://api.put.io/v2/files/1584820781/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 165 (1080p) [6A825D6D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 165 (1080p) [6A825D6D].mkv
-https://api.put.io/v2/files/1584820786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1154 (1080p) [7BF761AB].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1154 (1080p) [7BF761AB].mkv
-https://api.put.io/v2/files/1584820764/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 166 (1080p) [3842701F].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 166 (1080p) [3842701F].mkv
-https://api.put.io/v2/files/1584820791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Boruto - Naruto Next Generations - 293 (720p) [629F9F37].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boruto - Naruto Next Generations - 293 (720p) [629F9F37].mkv
-https://api.put.io/v2/files/1584820757/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 51 (1080p) [84C776B4].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 51 (1080p) [84C776B4].mkv
-https://api.put.io/v2/files/1584820779/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1158 (1080p) [0F7B48DA].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1158 (1080p) [0F7B48DA].mkv
-https://api.put.io/v2/files/1584820759/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 169 (1080p) [A50B66F9].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 169 (1080p) [A50B66F9].mkv
+https://api.put.io/v2/files/1584820784/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1155 (1080p) [83EB3203].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1155 (1080p) [83EB3203].mkv
 https://api.put.io/v2/files/1584820763/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1159 (720p) [29014630].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1159 (720p) [29014630].mkv
-https://api.put.io/v2/files/1584820762/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 70 (1080p) [78C16694].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 70 (1080p) [78C16694].mkv
 https://api.put.io/v2/files/1584820797/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 74 (1080p) [D7A0031E].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 74 (1080p) [D7A0031E].mkv
-https://api.put.io/v2/files/1584820795/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1152 (1080p) [56B3FCB6].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1152 (1080p) [56B3FCB6].mkv
+https://api.put.io/v2/files/1584820765/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 71 (1080p) [9726827E].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 71 (1080p) [9726827E].mkv
-https://api.put.io/v2/files/1584820796/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1158 (1080p) [0F7B48DA].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1158 (1080p) [0F7B48DA].mkv
+https://api.put.io/v2/files/1584820759/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1157 (1080p) [6DDEC68A].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1157 (1080p) [6DDEC68A].mkv
 https://api.put.io/v2/files/1584820760/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1149 (1080p) [EC4BD324].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1149 (1080p) [EC4BD324].mkv
-https://api.put.io/v2/files/1584820767/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 07 (1080p) [BCB63AA2].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 07 (1080p) [BCB63AA2].mkv
-https://api.put.io/v2/files/1584820770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 06 (1080p) [A994EC11].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 06 (1080p) [A994EC11].mkv
 https://api.put.io/v2/files/1584820769/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 74 (1080p) [D7A0031E].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 74 (1080p) [D7A0031E].mkv
+https://api.put.io/v2/files/1584820795/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 168 (1080p) [68B2000A].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 168 (1080p) [68B2000A].mkv
+https://api.put.io/v2/files/1584820785/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 69 (1080p) [9C86A831].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 69 (1080p) [9C86A831].mkv
 https://api.put.io/v2/files/1584820800/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 162 (1080p) [177BD9A3].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 162 (1080p) [177BD9A3].mkv
-https://api.put.io/v2/files/1584820789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 51 (1080p) [84C776B4].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 51 (1080p) [84C776B4].mkv
+https://api.put.io/v2/files/1584820779/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 53 (1080p) [4790B4CD].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 53 (1080p) [4790B4CD].mkv
-https://api.put.io/v2/files/1584820780/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 05 (1080p) [C09018C7].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 05 (1080p) [C09018C7].mkv
-https://api.put.io/v2/files/1584820768/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 71 (1080p) [9726827E].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 71 (1080p) [9726827E].mkv
+https://api.put.io/v2/files/1584820796/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 57 (1080p) [7B487F1E].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 57 (1080p) [7B487F1E].mkv
 https://api.put.io/v2/files/1584820775/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
@@ -2009,38 +2033,17 @@ https://api.put.io/v2/files/1584820775/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 59 (1080p) [EC8F1EBF].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 59 (1080p) [EC8F1EBF].mkv
 https://api.put.io/v2/files/1584820772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv
-https://api.put.io/v2/files/1584820758/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 05 (1080p) [C09018C7].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Hashira Geiko-hen - 05 (1080p) [C09018C7].mkv
+https://api.put.io/v2/files/1584820768/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1152 (1080p) [56B3FCB6].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1152 (1080p) [56B3FCB6].mkv
-https://api.put.io/v2/files/1584820765/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 169 (1080p) [A50B66F9].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 169 (1080p) [A50B66F9].mkv
-https://api.put.io/v2/files/1584820784/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Boku no Hero Academia - 168 (1080p) [68B2000A].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Boku no Hero Academia - 168 (1080p) [68B2000A].mkv
-https://api.put.io/v2/files/1584820785/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 56 (1080p) [0F106B43].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 56 (1080p) [0F106B43].mkv
-https://api.put.io/v2/files/1584820774/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1151 (1080p) [AA7FED6F].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1151 (1080p) [AA7FED6F].mkv
-https://api.put.io/v2/files/1584820766/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 06 (1080p) [2FF03924].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 06 (1080p) [2FF03924].mkv
-https://api.put.io/v2/files/1584820771/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 50 (1080p) [F12C66EE].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 50 (1080p) [F12C66EE].mkv
-https://api.put.io/v2/files/1584820777/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Fairy Tail - 100 Years Quest - 18 (1080p) [0B6EFBD6].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Fairy Tail - 100 Years Quest - 18 (1080p) [0B6EFBD6].mkv
-https://api.put.io/v2/files/1584829089/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 43 (1080p) [19020196].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 43 (1080p) [19020196].mkv
+https://api.put.io/v2/files/1584829088/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 46 (1080p) [DD2477BC].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 46 (1080p) [DD2477BC].mkv
 https://api.put.io/v2/files/1584829076/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 43 (1080p) [19020196].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 43 (1080p) [19020196].mkv
-https://api.put.io/v2/files/1584829088/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Fairy Tail - 100 Years Quest - 18 (1080p) [0B6EFBD6].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Fairy Tail - 100 Years Quest - 18 (1080p) [0B6EFBD6].mkv
+https://api.put.io/v2/files/1584829089/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 45 (1080p) [FC77B5AE].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 45 (1080p) [FC77B5AE].mkv
 https://api.put.io/v2/files/1584829085/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
@@ -2048,8 +2051,14 @@ https://api.put.io/v2/files/1584829085/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 44 (1080p) [3FD5A0BF].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 44 (1080p) [3FD5A0BF].mkv
 https://api.put.io/v2/files/1584829084/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Chainsaw Man - 02 (1080p) [CAEC8DA3].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Chainsaw Man - 02 (1080p) [CAEC8DA3].mkv
-https://api.put.io/v2/files/1584829394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Chainsaw Man - 10 (1080p) [97953FA7].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Chainsaw Man - 10 (1080p) [97953FA7].mkv
+https://api.put.io/v2/files/1584829393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 30 (1080p) [11EFB1F0].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 30 (1080p) [11EFB1F0].mkv
+https://api.put.io/v2/files/1584829123/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1140 (720p) [D7882881].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1140 (720p) [D7882881].mkv
+https://api.put.io/v2/files/1584830170/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 42 (1080p) [6A14D2B7].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 42 (1080p) [6A14D2B7].mkv
 https://api.put.io/v2/files/1584829359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
@@ -2057,59 +2066,53 @@ https://api.put.io/v2/files/1584829359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] Chainsaw Man - 04 (1080p) [A3C88136].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Chainsaw Man - 04 (1080p) [A3C88136].mkv
 https://api.put.io/v2/files/1584829392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Rurouni Kenshin (2023) - 30 (1080p) [11EFB1F0].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Rurouni Kenshin (2023) - 30 (1080p) [11EFB1F0].mkv
-https://api.put.io/v2/files/1584829123/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 49 (720p) [5B3F837D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 49 (720p) [5B3F837D].mkv
+https://api.put.io/v2/files/1584830216/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Chainsaw Man - 10 (1080p) [97953FA7].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Chainsaw Man - 10 (1080p) [97953FA7].mkv
-https://api.put.io/v2/files/1584829393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1140 (720p) [D7882881].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1140 (720p) [D7882881].mkv
-https://api.put.io/v2/files/1584830170/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1154 (720p) [87729D6F].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1154 (720p) [87729D6F].mkv
-https://api.put.io/v2/files/1584830174/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Chainsaw Man - 02 (1080p) [CAEC8DA3].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Chainsaw Man - 02 (1080p) [CAEC8DA3].mkv
+https://api.put.io/v2/files/1584829394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 78 (720p) [F29BC4AE].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 78 (720p) [F29BC4AE].mkv
 https://api.put.io/v2/files/1584830235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv
-https://api.put.io/v2/files/1584830168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 11 (720p) [6DB90EBB].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 11 (720p) [6DB90EBB].mkv
-https://api.put.io/v2/files/1584830186/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 59 (720p) [D00F097D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 59 (720p) [D00F097D].mkv
-https://api.put.io/v2/files/1584830209/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 82 (720p) [2F35D968].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 82 (720p) [2F35D968].mkv
-https://api.put.io/v2/files/1584830233/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 55 (720p) [757BF6C9].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 55 (720p) [757BF6C9].mkv
-https://api.put.io/v2/files/1584830214/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 54 (720p) [5197286D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 54 (720p) [5197286D].mkv
 https://api.put.io/v2/files/1584830213/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 56 (720p) [03592613].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 56 (720p) [03592613].mkv
-https://api.put.io/v2/files/1584830210/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 86 (720p) [0CC1F82C].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 86 (720p) [0CC1F82C].mkv
-https://api.put.io/v2/files/1584830237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 51 (720p) [255FFD64].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 51 (720p) [255FFD64].mkv
-https://api.put.io/v2/files/1584830215/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 49 (720p) [5B3F837D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 49 (720p) [5B3F837D].mkv
-https://api.put.io/v2/files/1584830216/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 58 (720p) [844324D5].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 58 (720p) [844324D5].mkv
-https://api.put.io/v2/files/1584830212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1158 (720p) [863239CB].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1158 (720p) [863239CB].mkv
+https://api.put.io/v2/files/1584830156/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 57 (720p) [41FD2D78].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 57 (720p) [41FD2D78].mkv
 https://api.put.io/v2/files/1584830211/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1158 (720p) [863239CB].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1158 (720p) [863239CB].mkv
-https://api.put.io/v2/files/1584830156/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 11 (720p) [6DB90EBB].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 11 (720p) [6DB90EBB].mkv
+https://api.put.io/v2/files/1584830186/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv
+https://api.put.io/v2/files/1584830168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 86 (720p) [0CC1F82C].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 86 (720p) [0CC1F82C].mkv
+https://api.put.io/v2/files/1584830237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 59 (720p) [D00F097D].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 59 (720p) [D00F097D].mkv
+https://api.put.io/v2/files/1584830209/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 56 (720p) [03592613].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 56 (720p) [03592613].mkv
+https://api.put.io/v2/files/1584830210/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 51 (720p) [255FFD64].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 51 (720p) [255FFD64].mkv
+https://api.put.io/v2/files/1584830215/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1154 (720p) [87729D6F].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] One Piece - 1154 (720p) [87729D6F].mkv
+https://api.put.io/v2/files/1584830174/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 82 (720p) [2F35D968].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 82 (720p) [2F35D968].mkv
+https://api.put.io/v2/files/1584830233/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 50 (720p) [A02B4377].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 50 (720p) [A02B4377].mkv
+https://api.put.io/v2/files/1584830217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 58 (720p) [844324D5].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 58 (720p) [844324D5].mkv
+https://api.put.io/v2/files/1584830212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 53 (720p) [0A9F3FF8].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 53 (720p) [0A9F3FF8].mkv
 https://api.put.io/v2/files/1584830218/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
@@ -2117,17 +2120,17 @@ https://api.put.io/v2/files/1584830218/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] Dandadan - 20 (720p) [269FACDF].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Dandadan - 20 (720p) [269FACDF].mkv
 https://api.put.io/v2/files/1584838196/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 50 (720p) [A02B4377].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 50 (720p) [A02B4377].mkv
-https://api.put.io/v2/files/1584830217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 48 (720p) [8BC8D419].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 48 (720p) [8BC8D419].mkv
+https://api.put.io/v2/files/1584838178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 55 (720p) [757BF6C9].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 55 (720p) [757BF6C9].mkv
+https://api.put.io/v2/files/1584830214/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Dandadan - 01 (720p) [2ECB2F39].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Dandadan - 01 (720p) [2ECB2F39].mkv
 https://api.put.io/v2/files/1584838195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Shingeki no Kyojin (The Final Season) - 80 (720p) [06359571].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Shingeki no Kyojin (The Final Season) - 80 (720p) [06359571].mkv
 https://api.put.io/v2/files/1584874810/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 48 (720p) [8BC8D419].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Jujutsu Kaisen - 48 (720p) [8BC8D419].mkv
-https://api.put.io/v2/files/1584838178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
 #EXTINF:-1 tvg-name="[SubsPlease] Dandadan - 15 (720p) [A82EEED9].mkv" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shounen | Temporada 01", [SubsPlease] Dandadan - 15 (720p) [A82EEED9].mkv
 https://api.put.io/v2/files/1584874812/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
