@@ -8165,7 +8165,49 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-02T07:56:19.082894+00:00"
+    },
+    "9ee3c62250d56b3ba2cb8c10da08c8cafbfcecc8": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 81 (720p) [68460D70].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105170106,
+      "file_id": 1584901441,
+      "stream_url": "https://api.put.io/v2/files/1584901441/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T08:20:06.302463+00:00",
+      "ready_at": "2026-05-02T08:20:09.465851+00:00"
+    },
+    "4a7585d3f5a85da3f887d2329a634f7f3d80ad9e": {
+      "title": "[SubsPlease] Kingdom S6 - 03 (720p) [5CE5A1C8].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105170107,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T08:20:06.976658+00:00"
+    },
+    "2491e181f8135de84f850d871fc2befb108ea0f9": {
+      "title": "[SubsPlease] Log Horizon S3 - 03 (720p) [F78F5C31].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105170108,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T08:20:07.635844+00:00"
+    },
+    "0f48417fd852d86a2ee8e08a595ffa2ec10492dd": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 11 (720p) [A1ECA73C].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105170109,
+      "file_id": 1584901442,
+      "stream_url": "https://api.put.io/v2/files/1584901442/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T08:20:08.296272+00:00",
+      "ready_at": "2026-05-02T08:20:09.587308+00:00"
     }
   },
-  "last_run": "2026-05-02T07:56:20.070288+00:00"
+  "last_run": "2026-05-02T08:20:09.587319+00:00"
 }
