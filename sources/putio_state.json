@@ -7524,7 +7524,438 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-02T04:52:39.551513+00:00"
+    },
+    "d5545416e97dfa7525e81dd22c6215c1c159d282": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi (Redo Ver.) (01-12) (720p) [Batch]",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168776,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:42.320402+00:00"
+    },
+    "2c78a40d7f411d07a3e61dcec015cc71c057e49b": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 08 (720p) [8B497F3C].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168777,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:42.956564+00:00"
+    },
+    "aad7c9550741b9457412cfa60c0b35f10cb35891": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 07 (720p) [5F3E51C8].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168778,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:43.591503+00:00"
+    },
+    "3a47cf184240b03ad846569fa5b215b73909ebba": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 11 (720p) [24ED0DED].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168779,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:44.219303+00:00"
+    },
+    "91f3fcbadae8d64c98ac4697a052988d6ce5f2a5": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 06 (720p) [DDB5337C].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168780,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:44.843777+00:00"
+    },
+    "d86104bb0521d64a4a7cd9d3047d4f2e78bf5934": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 01 (720p) [D8338E50].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168781,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:45.470608+00:00"
+    },
+    "d6b489250ae035a518fe4b8e181fd6ff98f825e6": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 12 (720p) [80371667].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168782,
+      "file_id": 1584885285,
+      "stream_url": "https://api.put.io/v2/files/1584885285/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-02T06:07:46.095108+00:00",
+      "ready_at": "2026-05-02T06:08:10.152596+00:00"
+    },
+    "a81ffe5a64c9ccdb07fee8628c06952ae32e2a27": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 10 (720p) [F30269A2].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168783,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:46.731035+00:00"
+    },
+    "2a906652430c25ec672ac7f97af6599cb1d9db5f": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 09 (720p) [8286EEC2].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168784,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:47.364928+00:00"
+    },
+    "6a40d5f689f0718677a42c4c7866cae0428111f1": {
+      "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 05 (720p) [882EB767].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168785,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:48.065292+00:00"
+    },
+    "239d58d35b0e0edb5acebdc3111225a74faba2e0": {
+      "title": "[SubsPlease] Tsugumomo S2 OVA - 01 (720p) [DA20C694].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168786,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:48.695345+00:00"
+    },
+    "9557656a024edad1f2739bd8a793a3f224874eec": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo (01-12) (720p) [Batch]",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168787,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:49.336677+00:00"
+    },
+    "13628d138288c753d51593ac7ffa00b5c7ed3589": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 01 (720p) [E42E1D48].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168788,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:49.956093+00:00"
+    },
+    "9b4d4975843e897665b760c44abfc82a58ab8f7f": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 09 (720p) [8BE67C65].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168789,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:50.591644+00:00"
+    },
+    "66ea9b2ceb0dd37eda259060ab7a2e18e7d5f773": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 12v2 (720p) [8E017290].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168790,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:51.225410+00:00"
+    },
+    "c201aaa43a2fff98af59290d142c87738b649b4e": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 11 (720p) [5FC8548F].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168791,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:51.856281+00:00"
+    },
+    "a9b4046fa5fb0ef4fb1d38704ed024a09cb64446": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 10 (720p) [AB7B8206].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168792,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:52.492444+00:00"
+    },
+    "d5281eb816870385c03b971c6318be07ef3e3523": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 08 (720p) [3EB7C89B].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168793,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:53.155704+00:00"
+    },
+    "d7e44e36e38d0eaa4b2db2818b46c9df492e008b": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 02 (720p) [645DD33E].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168794,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:53.787758+00:00"
+    },
+    "a57c805f3bf44688fdddc6892bfcabd88be16611": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 07 (720p) [940A30E4].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168795,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:54.418342+00:00"
+    },
+    "ab24b85853cec126edd7c3763a1cb553efff5f01": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 06 (720p) [AE2E5114].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168796,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:55.044546+00:00"
+    },
+    "3944c2e1634835494cf91633be9fdf4da6579063": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 01 (720p) [7A5A6A48].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168797,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:55.679141+00:00"
+    },
+    "a45ea4bf9fbc36610270698cbdfff1d7816cbedd": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 12 (720p) [00D30F52].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168798,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:56.300081+00:00"
+    },
+    "d19397df96aee648b7bd5e8a0a3c2aa5d160a2a5": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 06 (720p) [DF6ECD7A].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168799,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:56.933726+00:00"
+    },
+    "a5b33caa7bb87871e4552516235bd1ba70e7ba2f": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 02 (720p) [4A563D15].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168800,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:57.568934+00:00"
+    },
+    "9dc4343aff14186ceb9a1ec62a288990cc2fa08b": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 11 (720p) [D6E1B2BB].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168801,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:58.196889+00:00"
+    },
+    "450157120abaa68f014d768183771d1b5ab93821": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 04 (720p) [5CE8B46F].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168802,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:58.825423+00:00"
+    },
+    "78bba6fbcaba553c2ed92fa83149856b8f8b28d4": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 10 (720p) [D8762134].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168803,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:07:59.460917+00:00"
+    },
+    "a674e14ec972bd7e7404d108bc9ef8e357dfc9ea": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 07 (720p) [A777D216].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168804,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:00.224849+00:00"
+    },
+    "4b17edd7a70817f11b1191b9e4afafefa09cb3bb": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 03 (720p) [78FF5B83].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168805,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:00.852346+00:00"
+    },
+    "f05d1355fd4f32d7ddc2037fdeae3d149e1cd934": {
+      "title": "[SubsPlease] Maou-sama, Retry! R - 08 (720p) [350D06A7].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105168806,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:01.482509+00:00"
+    },
+    "7e03fd9254c81123e83b6815b5275739e81574f1": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 278 (720p) [7CF2CE25].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168808,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:02.116059+00:00"
+    },
+    "77608c6e91d0c8454f40fe9014187b4292e7f84d": {
+      "title": "[SubsPlease] Vigilante - Boku no Hero Academia Illegals S2 - 03 (720p) [3E902619].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168809,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:02.756482+00:00"
+    },
+    "bada9c32671b02a1f80def575e4f8310915121f7": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 23 (720p) [6200CA53].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168810,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:03.427921+00:00"
+    },
+    "b0112f2555998351f5303138a1cce2523ee0b513": {
+      "title": "[SubsPlease] Rurouni Kenshin (2023) - 37 (720p) [26EF57C0].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168811,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:04.068252+00:00"
+    },
+    "16c66e0dd5435b0b88954923a050327b6cf87b8f": {
+      "title": "[SubsPlease] Wind Breaker - 15 (720p) [D9BFDE40].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168812,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:04.702736+00:00"
+    },
+    "492fb2cb83dbbd137fa26ac4dfb45e2cfdb5588c": {
+      "title": "[SubsPlease] Wind Breaker - 06 (720p) [95142772].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168813,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:05.331646+00:00"
+    },
+    "48302dbff2f7dd2858f29346a8823615084a1336": {
+      "title": "[SubsPlease] Blue Lock - 34 (720p) [4453771C].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105168814,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:05.965949+00:00"
+    },
+    "a1c9016a0b1989f274d8177dd6ed8adc32e1026c": {
+      "title": "[SubsPlease] 86 - Eighty Six - 14 (720p) [CA6CB8DC].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105168815,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:06.609366+00:00"
+    },
+    "9f8252ae79440bc28da12fc71ae30bcc220fba13": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 07 (720p) [7023A111].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105168816,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:07.233684+00:00"
+    },
+    "5ff2aee99c33e4f6943dbf42af7368330bac2d46": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 15 (720p) [9D5153EC].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105168817,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:07.862524+00:00"
+    },
+    "5593f5dc764528437e10c33d6b05a141041793f9": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S3 - 05 (720p) [DA47804F].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105168818,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:08.485913+00:00"
+    },
+    "ce712a961781fad150bebd9f4d0f0d361e7d5029": {
+      "title": "[SubsPlease] Gintama - 3-nen Z-gumi Ginpachi-sensei - 07 (720p) [9562FE9B].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105168819,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-02T06:08:09.110223+00:00"
     }
   },
-  "last_run": "2026-05-02T05:27:57.297671+00:00"
+  "last_run": "2026-05-02T06:08:10.152644+00:00"
 }
