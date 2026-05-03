@@ -1,5 +1,5 @@
 """
-SUGOIAPI - pipeline.py v3.7.0
+SUGOIAPI - pipeline.py v3.7.1
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
@@ -78,36 +78,55 @@ class Item:
         """
 
         if self.kind == "series":
-            # Hierarquia separada para players Xtream-style:
-            # group-title = "Series | <Categoria>" (so 2 niveis - categoria pai)
-            # tvg-name    = "<Anime>" (nome puro da serie)
-            # display     = "<Anime>, S<NN>, Episodio <NN>" (separa cada nivel por virgula)
-            tvg_name_value = self.serie_name
-            display_after_comma = (
-                f"{self.serie_name}, "
-                f"S{self.temporada}, "
-                f"Episodio {self.episodio}"
-            )
+            # Formato compativel com IPTV Editor / Xtream parsers:
+            # tvg-name = "Naruto S01 E15" (nome + episodio com espacos)
+            # group-title = "Series | <Categoria>" (sem nome da serie no group)
+            # CUID com hash unico para reconhecimento como serie
+            episode_label  = f"S{self.temporada} E{self.episodio}"
+            tvg_name_value = f"{self.serie_name} {episode_label}"
+            display_after_comma = tvg_name_value
             group_title = f"Series | {self.category}"
+
+            # CUID estavel baseado em hash do nome+ep
+            import hashlib
+            cuid = hashlib.md5(tvg_name_value.encode()).hexdigest()[:8]
+
+            extinf = (
+                f'#EXTINF:0 CUID="{cuid}" '
+                f'tvg-name="{tvg_name_value}" '
+                f'tvg-logo="{self.logo}" '
+                f'group-title="{group_title}",{display_after_comma}\n'
+                f'{self.url}'
+            )
+            return extinf
 
         elif self.kind == "movie":
             tvg_name_value = self.name
             display_after_comma = self.name
             group_title = f"Filmes | {self.category}"
 
+            extinf = (
+                f'#EXTINF:-1 tvg-id="" '
+                f'tvg-name="{tvg_name_value}" '
+                f'tvg-logo="{self.logo}" '
+                f'group-title="{group_title}",{display_after_comma}\n'
+                f'{self.url}'
+            )
+            return extinf
+
         else:  # live
             tvg_name_value = self.name
             display_after_comma = self.name
             group_title = f"Canais | {self.category}"
 
-        extinf = (
-            f'#EXTINF:-1 tvg-id="" '
-            f'tvg-name="{tvg_name_value}" '
-            f'tvg-logo="{self.logo}" '
-            f'group-title="{group_title}",{display_after_comma}\n'
-            f'{self.url}'
-        )
-        return extinf
+            extinf = (
+                f'#EXTINF:-1 tvg-id="" '
+                f'tvg-name="{tvg_name_value}" '
+                f'tvg-logo="{self.logo}" '
+                f'group-title="{group_title}",{display_after_comma}\n'
+                f'{self.url}'
+            )
+            return extinf
 
 
 # ================================================================
@@ -331,7 +350,7 @@ def fetch_url(url):
 
 def main():
     print("=" * 50)
-    print("  SUGOIAPI - Pipeline v3.7.0")
+    print("  SUGOIAPI - Pipeline v3.7.1")
     print("=" * 50 + "\n")
 
     todos = []
