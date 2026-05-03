@@ -1,403 +1,263 @@
-#EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz" m3u-type="m3u_plus"
-
-### CANAIS (27)
-
+#EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz"
 #EXTINF:-1 tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-type="live" group-title="Canais | Brazil", COM Brasil
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-type="live" group-title="Canais | Brazil", Rede Brasil
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" tvg-type="live" group-title="Canais | Brazil", TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-
 #EXTINF:-1 tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-type="live" group-title="Canais | Geral", RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
-
 #EXTINF:-1 tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" tvg-type="live" group-title="Canais | Geral", SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
-
 #EXTINF:-1 tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" tvg-type="live" group-title="Canais | Geral", TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8
-
 #EXTINF:-1 tvg-name="[SubsPlease] Boruto - Naruto Next Generations - 279v2 (720p) [DE002154].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] Boruto - Naruto Next Generations - 279v2 (720p) [DE002154].mkv
 https://api.put.io/v2/files/1584830155/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1140 (720p) [D7882881].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1140 (720p) [D7882881].mkv
 https://api.put.io/v2/files/1584830170/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv
 https://api.put.io/v2/files/1584830168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1146 (720p) [7D5CEE71].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1146 (720p) [7D5CEE71].mkv
 https://api.put.io/v2/files/1584830171/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1149 (1080p) [EC4BD324].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1149 (1080p) [EC4BD324].mkv
 https://api.put.io/v2/files/1584820767/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1151 (1080p) [AA7FED6F].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1151 (1080p) [AA7FED6F].mkv
 https://api.put.io/v2/files/1584820766/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1152 (1080p) [56B3FCB6].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1152 (1080p) [56B3FCB6].mkv
 https://api.put.io/v2/files/1584820765/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1152 (720p) [25E02BDA].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1152 (720p) [25E02BDA].mkv
 https://api.put.io/v2/files/1584830175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1153 (720p) [3F6AF5D2].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1153 (720p) [3F6AF5D2].mkv
 https://api.put.io/v2/files/1584953586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1154 (1080p) [7BF761AB].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1154 (1080p) [7BF761AB].mkv
 https://api.put.io/v2/files/1584820764/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1154 (720p) [87729D6F].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1154 (720p) [87729D6F].mkv
 https://api.put.io/v2/files/1584830174/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1155 (1080p) [83EB3203].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1155 (1080p) [83EB3203].mkv
 https://api.put.io/v2/files/1584820763/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1155 (720p) [D1230E45].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1155 (720p) [D1230E45].mkv
 https://api.put.io/v2/files/1584830172/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1156 (1080p) [662D886D].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1156 (1080p) [662D886D].mkv
 https://api.put.io/v2/files/1584820761/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1156 (720p) [51E209AA].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1156 (720p) [51E209AA].mkv
 https://api.put.io/v2/files/1584830158/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1157 (1080p) [6DDEC68A].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1157 (1080p) [6DDEC68A].mkv
 https://api.put.io/v2/files/1584820760/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1157 (720p) [41EF9AE6].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1157 (720p) [41EF9AE6].mkv
 https://api.put.io/v2/files/1584830157/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1158 (1080p) [0F7B48DA].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1158 (1080p) [0F7B48DA].mkv
 https://api.put.io/v2/files/1584820759/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1158 (720p) [863239CB].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1158 (720p) [863239CB].mkv
 https://api.put.io/v2/files/1584830156/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv
 https://api.put.io/v2/files/1584820758/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1159 (720p) [29014630].mkv" tvg-logo="" tvg-type="live" group-title="Canais | Geral", [SubsPlease] One Piece - 1159 (720p) [29014630].mkv
 https://api.put.io/v2/files/1584820762/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
-
-### FILMES (0)
-
-
-### SERIES (104)
-
 #EXTINF:-1 tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01E11" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Arifureta Shokugyou de Sekai Saikyou S3", Arifureta Shokugyou de Sekai Saikyou S3 S01E11
 https://api.put.io/v2/files/1584901442/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01E12" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Arifureta Shokugyou de Sekai Saikyou S3", Arifureta Shokugyou de Sekai Saikyou S3 S01E12
 https://api.put.io/v2/files/1584874819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01E13" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Arifureta Shokugyou de Sekai Saikyou S3", Arifureta Shokugyou de Sekai Saikyou S3 S01E13
 https://api.put.io/v2/files/1584874821/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01E16" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Arifureta Shokugyou de Sekai Saikyou S3", Arifureta Shokugyou de Sekai Saikyou S3 S01E16
 https://api.put.io/v2/files/1584874820/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E160" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E160
 https://api.put.io/v2/files/1584820788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E161" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E161
 https://api.put.io/v2/files/1584820787/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E162" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E162
 https://api.put.io/v2/files/1584820789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E163" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E163
 https://api.put.io/v2/files/1584820790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E165" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E165
 https://api.put.io/v2/files/1584820786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E166" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E166
 https://api.put.io/v2/files/1584820791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E168" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E168
 https://api.put.io/v2/files/1584820785/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E169" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E169
 https://api.put.io/v2/files/1584820784/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boku no Hero Academia S01E170" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boku no Hero Academia", Boku no Hero Academia S01E170
 https://api.put.io/v2/files/1584820783/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Boruto - Naruto Next Generations S01E293" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Boruto - Naruto Next Generations", Boruto - Naruto Next Generations S01E293
 https://api.put.io/v2/files/1584820757/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Chainsaw Man S01E02" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Chainsaw Man", Chainsaw Man S01E02
 https://api.put.io/v2/files/1584829394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Chainsaw Man S01E04" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Chainsaw Man", Chainsaw Man S01E04
 https://api.put.io/v2/files/1584829392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Chainsaw Man S01E10" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Chainsaw Man", Chainsaw Man S01E10
 https://api.put.io/v2/files/1584829393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Dandadan S01E01" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Dandadan", Dandadan S01E01
 https://api.put.io/v2/files/1584838195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Dandadan S01E15" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Dandadan", Dandadan S01E15
 https://api.put.io/v2/files/1584874812/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Dandadan S01E20" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Dandadan", Dandadan S01E20
 https://api.put.io/v2/files/1584838196/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Dr. Stone S4 S01E28" tvg-logo="" tvg-type="series" group-title="Series | Geral | Dr. Stone S4", Dr. Stone S4 S01E28
 https://api.put.io/v2/files/1584829390/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Fairy Tail - 100 Years Quest S01E17" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Fairy Tail - 100 Years Quest", Fairy Tail - 100 Years Quest S01E17
 https://api.put.io/v2/files/1584829400/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Fairy Tail - 100 Years Quest S01E18" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Fairy Tail - 100 Years Quest", Fairy Tail - 100 Years Quest S01E18
 https://api.put.io/v2/files/1584829089/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Haikyuu!! To The Top S01E19" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Haikyuu!! To The Top", Haikyuu!! To The Top S01E19
 https://api.put.io/v2/files/1584829185/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28323/frZ8L2JimRc0AF1v85.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E01
 https://cdn.animeiat.tv/files/28323/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP01%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28336/tvIv9tFc0vwI57kg85.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E01
 https://cdn.animeiat.tv/files/28336/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP01%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E02" tvg-logo="https://api.animeiat.co/storage/thumbnails/28316/OJO76ot88bJ29p4L65.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E02
 https://cdn.animeiat.tv/files/28316/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP02%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E02" tvg-logo="https://api.animeiat.co/storage/thumbnails/28329/GULuJpbbkWaPlNbX65.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E02
 https://cdn.animeiat.tv/files/28329/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP02%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E03" tvg-logo="https://api.animeiat.co/storage/thumbnails/28317/eGgDp98zCROHndRX65.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E03
 https://cdn.animeiat.tv/files/28317/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP03%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E03" tvg-logo="https://api.animeiat.co/storage/thumbnails/28335/uLcln1v5kqZQZZgL30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E03
 https://cdn.animeiat.tv/files/28335/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP03%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E04" tvg-logo="https://api.animeiat.co/storage/thumbnails/28324/NOXTQyRXhBEeWH3o10.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E04
 https://cdn.animeiat.tv/files/28324/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP04%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E04" tvg-logo="https://api.animeiat.co/storage/thumbnails/28330/6M0aWG08MjbBO2Ex30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E04
 https://cdn.animeiat.tv/files/28330/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP04%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E05" tvg-logo="https://api.animeiat.co/storage/thumbnails/28315/LNMd9bm1QgSJdkIq10.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E05
 https://cdn.animeiat.tv/files/28315/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP05%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E05" tvg-logo="https://api.animeiat.co/storage/thumbnails/28327/fi8EqE7Tfj59vlxh30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E05
 https://cdn.animeiat.tv/files/28327/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP05%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E06" tvg-logo="https://api.animeiat.co/storage/thumbnails/28313/bFLKzXwNyKuGnHPQ85.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E06
 https://cdn.animeiat.tv/files/28313/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP06%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E06" tvg-logo="https://api.animeiat.co/storage/thumbnails/28333/pVMrmepaeh6eGSLG30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E06
 https://cdn.animeiat.tv/files/28333/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP06%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E07" tvg-logo="https://api.animeiat.co/storage/thumbnails/28320/TsFP6vyKSDcML1GA30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E07
 https://cdn.animeiat.tv/files/28320/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP07%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E07" tvg-logo="https://api.animeiat.co/storage/thumbnails/28332/q6mlU8GQHJd38ikT45.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E07
 https://cdn.animeiat.tv/files/28332/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP07%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E08" tvg-logo="https://api.animeiat.co/storage/thumbnails/28318/9f6QcpxABoodx0rz65.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E08
 https://cdn.animeiat.tv/files/28318/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP08%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E08" tvg-logo="https://api.animeiat.co/storage/thumbnails/28328/xSTU99T5huOeGWbU10.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E08
 https://cdn.animeiat.tv/files/28328/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP08%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E09" tvg-logo="https://api.animeiat.co/storage/thumbnails/28322/WmVNU43eNvhWEtpH30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E09
 https://cdn.animeiat.tv/files/28322/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP09%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E09" tvg-logo="https://api.animeiat.co/storage/thumbnails/28325/khyzdzIRZ1TZHvbW65.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E09
 https://cdn.animeiat.tv/files/28325/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP09%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E10" tvg-logo="https://api.animeiat.co/storage/thumbnails/28319/dvNePQ8e27xRYKdT10.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E10
 https://cdn.animeiat.tv/files/28319/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP10%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E10" tvg-logo="https://api.animeiat.co/storage/thumbnails/28331/CKXxYo5guETyGXcP85.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E10
 https://cdn.animeiat.tv/files/28331/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP10%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E11" tvg-logo="https://api.animeiat.co/storage/thumbnails/28321/ZmVZnxG0gdirDq0010.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E11
 https://cdn.animeiat.tv/files/28321/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP11%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E11" tvg-logo="https://api.animeiat.co/storage/thumbnails/28326/An9dxu3i1BGgWR9465.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E11
 https://cdn.animeiat.tv/files/28326/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP11%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E12" tvg-logo="https://api.animeiat.co/storage/thumbnails/28314/bTKbFitF5inaEYcd45.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E12
 https://cdn.animeiat.tv/files/28314/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP12%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Himouto! Umaru-chan S01E12" tvg-logo="https://api.animeiat.co/storage/thumbnails/28334/OjoP0eSEQgPTEdOh30.jpg" tvg-type="series" group-title="Series | Slice of Life | Himouto! Umaru-chan", Himouto! Umaru-chan S01E12
 https://cdn.animeiat.tv/files/28334/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP12%5B720p%5D.mp4
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E48" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E48
 https://api.put.io/v2/files/1584838178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E49" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E49
 https://api.put.io/v2/files/1584830216/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E50" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E50
 https://api.put.io/v2/files/1584820777/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E50" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E50
 https://api.put.io/v2/files/1584830217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E51" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E51
 https://api.put.io/v2/files/1584820779/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E51" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E51
 https://api.put.io/v2/files/1584830215/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E52" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E52
 https://api.put.io/v2/files/1584820781/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E52" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E52
 https://api.put.io/v2/files/1584908195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E53" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E53
 https://api.put.io/v2/files/1584820780/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E53" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E53
 https://api.put.io/v2/files/1584830218/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E54" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E54
 https://api.put.io/v2/files/1584820778/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E54" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E54
 https://api.put.io/v2/files/1584830213/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E55" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E55
 https://api.put.io/v2/files/1584820776/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E55" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E55
 https://api.put.io/v2/files/1584830214/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E56" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E56
 https://api.put.io/v2/files/1584820774/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E56" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E56
 https://api.put.io/v2/files/1584830210/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E57" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E57
 https://api.put.io/v2/files/1584820775/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E57" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E57
 https://api.put.io/v2/files/1584830211/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E58" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E58
 https://api.put.io/v2/files/1584820773/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E58" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E58
 https://api.put.io/v2/files/1584830212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E59" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E59
 https://api.put.io/v2/files/1584820772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Jujutsu Kaisen S01E59" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Jujutsu Kaisen", Jujutsu Kaisen S01E59
 https://api.put.io/v2/files/1584830209/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Kaifuku Jutsushi no Yarinaoshi S01E12" tvg-logo="" tvg-type="series" group-title="Series | Geral | Kaifuku Jutsushi no Yarinaoshi", Kaifuku Jutsushi no Yarinaoshi S01E12
 https://api.put.io/v2/files/1584885285/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01E05" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Kimetsu no Yaiba - Hashira Geiko-hen", Kimetsu no Yaiba - Hashira Geiko-hen S01E05
 https://api.put.io/v2/files/1584820768/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01E06" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Kimetsu no Yaiba - Hashira Geiko-hen", Kimetsu no Yaiba - Hashira Geiko-hen S01E06
 https://api.put.io/v2/files/1584820769/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01E07" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Kimetsu no Yaiba - Hashira Geiko-hen", Kimetsu no Yaiba - Hashira Geiko-hen S01E07
 https://api.put.io/v2/files/1584820770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01E06" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Kimetsu no Yaiba - Katanakaji no Sato-hen", Kimetsu no Yaiba - Katanakaji no Sato-hen S01E06
 https://api.put.io/v2/files/1584820771/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01E11" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Kimetsu no Yaiba - Katanakaji no Sato-hen", Kimetsu no Yaiba - Katanakaji no Sato-hen S01E11
 https://api.put.io/v2/files/1584830186/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Mashle S01E14" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Mashle", Mashle S01E14
 https://api.put.io/v2/files/1584829440/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="One-Punch Man S3 S01E06" tvg-logo="" tvg-type="series" group-title="Series | Comedia | One-Punch Man S3", One-Punch Man S3 S01E06
 https://api.put.io/v2/files/1584874822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="One-Punch Man S3 S01E08" tvg-logo="" tvg-type="series" group-title="Series | Comedia | One-Punch Man S3", One-Punch Man S3 S01E08
 https://api.put.io/v2/files/1584880359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Rurouni Kenshin S01E30" tvg-logo="" tvg-type="series" group-title="Series | Acao e Aventura | Rurouni Kenshin", Rurouni Kenshin S01E30
 https://api.put.io/v2/files/1584829123/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Rurouni Kenshin S01E42" tvg-logo="" tvg-type="series" group-title="Series | Acao e Aventura | Rurouni Kenshin", Rurouni Kenshin S01E42
 https://api.put.io/v2/files/1584829359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Rurouni Kenshin S01E43" tvg-logo="" tvg-type="series" group-title="Series | Acao e Aventura | Rurouni Kenshin", Rurouni Kenshin S01E43
 https://api.put.io/v2/files/1584829088/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Rurouni Kenshin S01E44" tvg-logo="" tvg-type="series" group-title="Series | Acao e Aventura | Rurouni Kenshin", Rurouni Kenshin S01E44
 https://api.put.io/v2/files/1584829084/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Rurouni Kenshin S01E45" tvg-logo="" tvg-type="series" group-title="Series | Acao e Aventura | Rurouni Kenshin", Rurouni Kenshin S01E45
 https://api.put.io/v2/files/1584829085/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Rurouni Kenshin S01E46" tvg-logo="" tvg-type="series" group-title="Series | Acao e Aventura | Rurouni Kenshin", Rurouni Kenshin S01E46
 https://api.put.io/v2/files/1584829076/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E69" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E69
 https://api.put.io/v2/files/1584820800/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E70" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E70
 https://api.put.io/v2/files/1584820797/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E71" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E71
 https://api.put.io/v2/files/1584820796/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E74" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E74
 https://api.put.io/v2/files/1584820795/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E75" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E75
 https://api.put.io/v2/files/1584820794/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E78" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E78
 https://api.put.io/v2/files/1584830235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E79" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E79
 https://api.put.io/v2/files/1584874811/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E80" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E80
 https://api.put.io/v2/files/1584874810/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E81" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E81
 https://api.put.io/v2/files/1584901441/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E82" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E82
 https://api.put.io/v2/files/1584830233/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E83" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E83
 https://api.put.io/v2/files/1584830239/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E84" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E84
 https://api.put.io/v2/files/1584830234/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E85" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E85
 https://api.put.io/v2/files/1584830238/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E86" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E86
 https://api.put.io/v2/files/1584830237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin S01E87" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin", Shingeki no Kyojin S01E87
 https://api.put.io/v2/files/1584830236/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Shingeki no Kyojin - The Final Season Part 3 S01E01" tvg-logo="" tvg-type="series" group-title="Series | Shounen | Shingeki no Kyojin - The Final Season Part 3", Shingeki no Kyojin - The Final Season Part 3 S01E01
 https://api.put.io/v2/files/1584820793/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Sword Art Online Alternative - Gun Gale Online S2 S01E12" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Sword Art Online Alternative - Gun Gale Online S2", Sword Art Online Alternative - Gun Gale Online S2 S01E12
 https://api.put.io/v2/files/1584874816/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Tensei Shitara Slime Datta Ken S01E56" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Tensei Shitara Slime Datta Ken", Tensei Shitara Slime Datta Ken S01E56
 https://api.put.io/v2/files/1585025580/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-
 #EXTINF:-1 tvg-name="Tensei Shitara Slime Datta Ken S01E62" tvg-logo="" tvg-type="series" group-title="Series | Isekai | Tensei Shitara Slime Datta Ken", Tensei Shitara Slime Datta Ken S01E62
 https://api.put.io/v2/files/1584880358/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-

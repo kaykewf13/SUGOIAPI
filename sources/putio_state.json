@@ -8720,7 +8720,17 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T06:44:14.962237+00:00"
+    },
+    "048b1d48f18497f450efb4843d8264be796de9bf": {
+      "title": "[SubsPlease] Shikizakura (01-12) (720p) [Batch]",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105186837,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T08:20:12.197943+00:00"
     }
   },
-  "last_run": "2026-05-03T06:44:15.913797+00:00"
+  "last_run": "2026-05-03T08:20:13.268921+00:00"
 }
