@@ -8569,7 +8569,107 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T00:22:49.349230+00:00"
+    },
+    "26bda32060995f5ecaefb88c377e7baa6466c5a3": {
+      "title": "[SubsPlease] 16bit Sensation - Another Layer - 05 (720p) [3AB5650B].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105183191,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:31.085355+00:00"
+    },
+    "f5dd6a1984442d7689d1166cb97c00cc5efc158f": {
+      "title": "[SubsPlease] 16bit Sensation - Another Layer - 04 (720p) [8CA725BF].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105183193,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:31.712293+00:00"
+    },
+    "ae60ae8ac78b31e04a5b800fdd81c4c3dae68a30": {
+      "title": "[SubsPlease] Kawaii dake ja Nai Shikimori-san - SP2 (720p) [B1B70A28].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105183194,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:32.338740+00:00"
+    },
+    "9738b38a25a062d24e84f0be80397a19e23b320c": {
+      "title": "[SubsPlease] Boushoku no Berserk - 05 (720p) [253C6143].mkv",
+      "category": "Luta",
+      "logo": "",
+      "transfer_id": 105183196,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:32.962043+00:00"
+    },
+    "f66d44696576cb8aae87da8c56785cef2e5be402": {
+      "title": "[SubsPlease] Vinland Saga S2 - 14 (720p) [1958A794].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105183197,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:33.584166+00:00"
+    },
+    "c682a59c8c7b2e78c710d38157e515f0a49e4aed": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 07 (720p) [9CF4D87C].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105183198,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:34.205674+00:00"
+    },
+    "5353c846f27dd8f6e0d36d523329a637af6a0c7d": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 22 (720p) [D5620322].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105183199,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:34.839311+00:00"
+    },
+    "b730fd4f22fa6dde3c5e75b2526b8e8f4705803f": {
+      "title": "[SubsPlease] Kingdom S6 - 11 (720p) [565290D8].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105183201,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:35.461535+00:00"
+    },
+    "50b991c127fde8f0515283a9aee017b8e72a613e": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 61 (720p) [53BD78F9].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105183203,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:36.088672+00:00"
+    },
+    "15509bfa2bfc00741fb343eea5e54fd0384e5ba3": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 57 (720p) [85603DAB].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105183204,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T02:19:36.707393+00:00"
     }
   },
-  "last_run": "2026-05-03T00:22:50.329923+00:00"
+  "last_run": "2026-05-03T02:19:37.652736+00:00"
 }
