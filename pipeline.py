@@ -1,5 +1,5 @@
 """
-SUGOIAPI - pipeline.py v3.6.1
+SUGOIAPI - pipeline.py v3.6.2
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
@@ -72,28 +72,30 @@ class Item:
         self.episodio  = ""
 
     def to_extinf(self):
-        """Gera linha #EXTINF + URL para a playlist final."""
+        """
+        Gera linha #EXTINF + URL no formato IPTV padrao.
+        Sem atributos nao-padrao (tvg-type) que quebram Smarters/IBO/Smart One.
+        """
 
         if self.kind == "series":
             display_name = f"{self.serie_name} S{self.temporada}E{self.episodio}"
             group_title  = f"Series | {self.category} | {self.serie_name}"
-            tvg_type     = "series"
 
         elif self.kind == "movie":
             display_name = self.name
             group_title  = f"Filmes | {self.category}"
-            tvg_type     = "vod"
 
         else:
             display_name = self.name
             group_title  = f"Canais | {self.category}"
-            tvg_type     = "live"
 
+        # Formato IPTV padrao: tvg-id, tvg-name, tvg-logo, group-title
+        # Apos virgula, sem espaco antes do nome (compatibilidade maxima)
         extinf = (
-            f'#EXTINF:-1 tvg-name="{display_name}" '
+            f'#EXTINF:-1 tvg-id="" '
+            f'tvg-name="{display_name}" '
             f'tvg-logo="{self.logo}" '
-            f'tvg-type="{tvg_type}" '
-            f'group-title="{group_title}", {display_name}\n'
+            f'group-title="{group_title}",{display_name}\n'
             f'{self.url}'
         )
         return extinf
@@ -320,7 +322,7 @@ def fetch_url(url):
 
 def main():
     print("=" * 50)
-    print("  SUGOIAPI - Pipeline v3.6.1")
+    print("  SUGOIAPI - Pipeline v3.6.2")
     print("=" * 50 + "\n")
 
     todos = []
