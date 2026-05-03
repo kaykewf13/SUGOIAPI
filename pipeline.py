@@ -1,5 +1,5 @@
 """
-SUGOIAPI - pipeline.py v3.6.2
+SUGOIAPI - pipeline.py v3.7.0
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
@@ -78,24 +78,33 @@ class Item:
         """
 
         if self.kind == "series":
-            display_name = f"{self.serie_name} S{self.temporada}E{self.episodio}"
-            group_title  = f"Series | {self.category} | {self.serie_name}"
+            # Hierarquia separada para players Xtream-style:
+            # group-title = "Series | <Categoria>" (so 2 niveis - categoria pai)
+            # tvg-name    = "<Anime>" (nome puro da serie)
+            # display     = "<Anime>, S<NN>, Episodio <NN>" (separa cada nivel por virgula)
+            tvg_name_value = self.serie_name
+            display_after_comma = (
+                f"{self.serie_name}, "
+                f"S{self.temporada}, "
+                f"Episodio {self.episodio}"
+            )
+            group_title = f"Series | {self.category}"
 
         elif self.kind == "movie":
-            display_name = self.name
-            group_title  = f"Filmes | {self.category}"
+            tvg_name_value = self.name
+            display_after_comma = self.name
+            group_title = f"Filmes | {self.category}"
 
-        else:
-            display_name = self.name
-            group_title  = f"Canais | {self.category}"
+        else:  # live
+            tvg_name_value = self.name
+            display_after_comma = self.name
+            group_title = f"Canais | {self.category}"
 
-        # Formato IPTV padrao: tvg-id, tvg-name, tvg-logo, group-title
-        # Apos virgula, sem espaco antes do nome (compatibilidade maxima)
         extinf = (
             f'#EXTINF:-1 tvg-id="" '
-            f'tvg-name="{display_name}" '
+            f'tvg-name="{tvg_name_value}" '
             f'tvg-logo="{self.logo}" '
-            f'group-title="{group_title}",{display_name}\n'
+            f'group-title="{group_title}",{display_after_comma}\n'
             f'{self.url}'
         )
         return extinf
@@ -322,7 +331,7 @@ def fetch_url(url):
 
 def main():
     print("=" * 50)
-    print("  SUGOIAPI - Pipeline v3.6.2")
+    print("  SUGOIAPI - Pipeline v3.7.0")
     print("=" * 50 + "\n")
 
     todos = []
