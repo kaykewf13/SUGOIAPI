@@ -11,9 +11,9 @@ from putio_integration import PutioOrchestrator
 
 
 def main():
-    print("╔═══════════════════════════════════════════╗")
-    print("║  SUGOIAPI — Nyaa → Put.io Enqueuer        ║")
-    print("╚═══════════════════════════════════════════╝\n")
+    print("==================================================")
+    print("  SUGOIAPI - Nyaa to Put.io Enqueuer")
+    print("==================================================\n")
 
     # 1. Buscar magnets classificados por categoria
     items = buscar_animes_por_categoria(
@@ -23,19 +23,19 @@ def main():
     )
 
     if not items:
-        print("⚠️  Nenhum magnet coletado — abortando")
+        print("WARN  Nenhum magnet coletado — abortando")
         return
 
     # 2. Enviar para Put.io
-    print("\n📡 Enviando para Put.io...\n")
+    print("\n Enviando para Put.io...\n")
     orch = PutioOrchestrator()
     novos = orch.enqueue(items)
 
-    print(f"\n{'─'*48}")
+    print(f"\n{'-'*48}")
     print(f"  Coletados do Nyaa : {len(items)}")
     print(f"  Novos no Put.io   : {novos}")
     print(f"  Já existentes     : {len(items) - novos}")
-    print(f"{'─'*48}\n")
+    print(f"{'-'*48}\n")
 
 
 if __name__ == "__main__":
