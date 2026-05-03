@@ -9052,7 +9052,27 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T18:53:10.393127+00:00"
+    },
+    "95529b9eeb4245c81614092e6b9fa00682f31b12": {
+      "title": "[SubsPlease] Dr. Stone S4 - 15 (720p) [68C7DC33].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105199312,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T19:59:54.471657+00:00"
+    },
+    "54388680f227d192ca2b41b1aa34800544fd6cbf": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 03 (720p) [88987FDF].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105199313,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T19:59:55.451456+00:00"
     }
   },
-  "last_run": "2026-05-03T18:53:11.423327+00:00"
+  "last_run": "2026-05-03T19:59:56.525887+00:00"
 }
