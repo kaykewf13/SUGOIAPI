@@ -1,5 +1,5 @@
 """
-SUGOIAPI - pipeline.py v3.6
+SUGOIAPI - pipeline.py v3.6.1
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
@@ -320,7 +320,7 @@ def fetch_url(url):
 
 def main():
     print("=" * 50)
-    print("  SUGOIAPI - Pipeline v3.6")
+    print("  SUGOIAPI - Pipeline v3.6.1")
     print("=" * 50 + "\n")
 
     todos = []
@@ -394,19 +394,16 @@ def main():
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(f'#EXTM3U x-tvg-url="{EPG_URL}" m3u-type="m3u_plus"\n\n')
+        # Header simples - sem comentarios (alguns players nao aceitam)
+        f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
 
-        f.write(f"### CANAIS ({len(by_kind['live'])})\n\n")
+        # Escreve em ordem: Live, Filmes, Series (sem separadores em comentarios)
         for item in by_kind["live"]:
-            f.write(item.to_extinf() + "\n\n")
-
-        f.write(f"\n### FILMES ({len(by_kind['movie'])})\n\n")
+            f.write(item.to_extinf() + "\n")
         for item in by_kind["movie"]:
-            f.write(item.to_extinf() + "\n\n")
-
-        f.write(f"\n### SERIES ({len(by_kind['series'])})\n\n")
+            f.write(item.to_extinf() + "\n")
         for item in by_kind["series"]:
-            f.write(item.to_extinf() + "\n\n")
+            f.write(item.to_extinf() + "\n")
 
     print("\n" + "-" * 50)
     print(f"  Total final     : {len(final):>5}")
