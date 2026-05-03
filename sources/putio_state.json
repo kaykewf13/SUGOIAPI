@@ -8911,7 +8911,68 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T10:28:21.431365+00:00"
+    },
+    "3398fc5aabfe2d2af62f4d3c30480b8fdc1bd40e": {
+      "title": "[SubsPlease] Isekai Maou to Shoukan Shoujo no Dorei Majutsu S2 - 01 (720p) [7791920F].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105194225,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T16:27:34.306503+00:00"
+    },
+    "8a815085bcd43d702cdec3836ff5220be172cf95": {
+      "title": "[SubsPlease] One Piece - 1160 (720p) [A823C6B9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105194228,
+      "file_id": 1585190282,
+      "stream_url": "https://api.put.io/v2/files/1585190282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-03T16:27:34.949231+00:00",
+      "ready_at": "2026-05-03T16:27:38.709832+00:00"
+    },
+    "ebaa10d8fba78461ad18e621048686bf89c643a1": {
+      "title": "[SubsPlease] Rurouni Kenshin (2023) - 27 (720p) [B7568D9F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105194231,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T16:27:35.602512+00:00"
+    },
+    "126ec029b074ecd1c686a27e871ba8c18c683dae": {
+      "title": "[SubsPlease] Chainsaw Man - 04 (720p) [E415B2A1].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105194233,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T16:27:36.255657+00:00"
+    },
+    "638fc4547135a2e95887c57a543fe92483fbaef6": {
+      "title": "[SubsPlease] Kaguya-sama wa Kokurasetai S3 - 13 (720p) [4C66D401].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105194235,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T16:27:36.935858+00:00"
+    },
+    "6ee5b9f3f542b95954e4f3a0d9ae63942306fe91": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2 (720p) [5A57046C].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105194238,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T16:27:37.587921+00:00"
     }
   },
-  "last_run": "2026-05-03T10:28:22.350966+00:00"
+  "last_run": "2026-05-03T16:27:38.709864+00:00"
 }
