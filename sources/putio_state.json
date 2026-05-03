@@ -9142,7 +9142,38 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T22:24:04.990538+00:00"
+    },
+    "0da9c9af7d7d759067a4e180b18bfaaac4e901ac": {
+      "title": "[SubsPlease] Dandadan - 04 (720p) [BD8DAA52].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105201934,
+      "file_id": 1585242586,
+      "stream_url": "https://api.put.io/v2/files/1585242586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-03T23:30:36.783757+00:00",
+      "ready_at": "2026-05-03T23:30:39.357501+00:00"
+    },
+    "331f4584cc70fd97a7bacae456356fd1a6354a87": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 03 (720p) [D6121626].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105201935,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T23:30:37.466942+00:00"
+    },
+    "62ab3d8fb30b86e91742537c2812b4e87e8a371c": {
+      "title": "[SubsPlease] Horimiya - 13 (720p) [B000A536].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105201936,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T23:30:38.148539+00:00"
     }
   },
-  "last_run": "2026-05-03T22:24:05.972601+00:00"
+  "last_run": "2026-05-03T23:30:39.357534+00:00"
 }

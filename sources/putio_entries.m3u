@@ -309,3 +309,6 @@ https://api.put.io/v2/files/1585073820/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1160 (720p) [A823C6B9].mkv" tvg-logo="" group-title="Shounen",[SubsPlease] One Piece - 1160 (720p) [A823C6B9].mkv
 https://api.put.io/v2/files/1585190282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
+#EXTINF:-1 tvg-name="[SubsPlease] Dandadan - 04 (720p) [BD8DAA52].mkv" tvg-logo="" group-title="Shounen",[SubsPlease] Dandadan - 04 (720p) [BD8DAA52].mkv
+https://api.put.io/v2/files/1585242586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+

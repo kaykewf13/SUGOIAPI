@@ -93,6 +93,8 @@ https://api.put.io/v2/files/1584829392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584829393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0001bed7" tvg-name="Dandadan S01 E01" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E01
 https://api.put.io/v2/files/1584838195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cf9f8475" tvg-name="Dandadan S01 E04" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E04
+https://api.put.io/v2/files/1585242586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9fc44fed" tvg-name="Dandadan S01 E15" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E15
 https://api.put.io/v2/files/1584874812/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="040c6dc5" tvg-name="Dandadan S01 E20" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E20
