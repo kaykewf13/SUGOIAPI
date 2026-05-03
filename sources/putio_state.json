@@ -8669,7 +8669,18 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T02:19:36.707393+00:00"
+    },
+    "06da7bde0ce3eb2ae7903e12317f315c5d513e03": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 56 (720p) [979911F2].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105183320,
+      "file_id": 1585025580,
+      "stream_url": "https://api.put.io/v2/files/1585025580/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "status": "ready",
+      "created_at": "2026-05-03T02:32:09.274380+00:00",
+      "ready_at": "2026-05-03T02:32:10.393810+00:00"
     }
   },
-  "last_run": "2026-05-03T02:19:37.652736+00:00"
+  "last_run": "2026-05-03T02:32:10.393842+00:00"
 }

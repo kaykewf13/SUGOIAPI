@@ -300,3 +300,6 @@ https://api.put.io/v2/files/1584908195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] One Piece - 1153 (720p) [3F6AF5D2].mkv" tvg-logo="" group-title="Shounen",[SubsPlease] One Piece - 1153 (720p) [3F6AF5D2].mkv
 https://api.put.io/v2/files/1584953586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
+#EXTINF:-1 tvg-name="[SubsPlease] Tensei Shitara Slime Datta Ken - 56 (720p) [979911F2].mkv" tvg-logo="" group-title="Isekai",[SubsPlease] Tensei Shitara Slime Datta Ken - 56 (720p) [979911F2].mkv
+https://api.put.io/v2/files/1585025580/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
