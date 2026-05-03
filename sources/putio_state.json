@@ -8730,7 +8730,27 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T08:20:12.197943+00:00"
+    },
+    "fac5adaa952622a5a3fd466dc561cd942fec82b6": {
+      "title": "[SubsPlease] Mobile Suit Gundam - Cucuruz Doan's Island (720p) [87226885].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105187032,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T08:39:26.574035+00:00"
+    },
+    "1f8e5659fee5b9fa049462ef9e549018ed03b9a2": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 56 (720p) [41C4FF59].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105187033,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T08:39:27.263292+00:00"
     }
   },
-  "last_run": "2026-05-03T08:20:13.268921+00:00"
+  "last_run": "2026-05-03T08:39:28.357150+00:00"
 }
