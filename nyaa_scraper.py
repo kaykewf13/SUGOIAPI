@@ -54,9 +54,11 @@ def fetch_rss(query: str, base: str = NYAA_BASE, trusted: bool = True) -> list[d
         ns   = {"nyaa": "https://nyaa.si/xmlns/nyaa"}
 
         for item in root.findall(".//item"):
-            title    = item.findtext("title", "").strip()
-            seeders  = int(item.findtext("nyaa:seeders", "0", ns) or 0)
-            ihash    = item.findtext("nyaa:infoHash", "", ns).lower()
+            title     = item.findtext("title", "").strip()
+            seeders   = int(item.findtext("nyaa:seeders", "0", ns) or 0)
+            leechers  = int(item.findtext("nyaa:leechers", "0", ns) or 0)
+            completed = int(item.findtext("nyaa:downloads", "0", ns) or 0)
+            ihash     = item.findtext("nyaa:infoHash", "", ns).lower()
             trusted_flag = item.findtext("nyaa:trusted", "No", ns) == "Yes"
 
             if not ihash:
@@ -69,12 +71,18 @@ def fetch_rss(query: str, base: str = NYAA_BASE, trusted: bool = True) -> list[d
                 f"&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
             )
 
+            # Score composto: seeders*2 + leechers*1 + completed*0.1
+            peer_score = (seeders * 2) + leechers + (completed * 0.1)
+
             items.append({
-                "title"   : title,
-                "magnet"  : magnet,
-                "info_hash": ihash,
-                "seeders" : seeders,
-                "trusted" : trusted_flag,
+                "title"     : title,
+                "magnet"    : magnet,
+                "info_hash" : ihash,
+                "seeders"   : seeders,
+                "leechers"  : leechers,
+                "completed" : completed,
+                "peer_score": peer_score,
+                "trusted"   : trusted_flag,
             })
     except ET.ParseError as e:
         print(f"  ⚠️  Erro parse RSS: {e}")
