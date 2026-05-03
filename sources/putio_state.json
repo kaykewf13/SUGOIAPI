@@ -9173,7 +9173,17 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T23:30:38.148539+00:00"
+    },
+    "4f4471b00f28d54bc9e8e7375dbc9759da411027": {
+      "title": "[SubsPlease] Chainsaw Man - 01 (720p) [88C94187].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105202130,
+      "file_id": null,
+      "stream_url": null,
+      "status": "pending",
+      "created_at": "2026-05-03T23:49:15.524769+00:00"
     }
   },
-  "last_run": "2026-05-03T23:30:39.357534+00:00"
+  "last_run": "2026-05-03T23:49:16.449167+00:00"
 }
