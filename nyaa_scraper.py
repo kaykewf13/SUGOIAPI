@@ -42,10 +42,10 @@ def fetch_rss(query: str, base: str = NYAA_BASE, trusted: bool = True) -> list[d
     url = f"{base}/?{qs}"
 
     try:
-        r = requests.get(url, headers=_user_agent(), timeout=20)
+        r = requests.get(url, headers=_user_agent(), timeout=8)
         r.raise_for_status()
     except requests.RequestException as e:
-        print(f"  ⚠️  RSS erro: {e}")
+        print(f"  WARN  RSS erro: {e}")
         return []
 
     items = []
@@ -85,7 +85,7 @@ def fetch_rss(query: str, base: str = NYAA_BASE, trusted: bool = True) -> list[d
                 "trusted"   : trusted_flag,
             })
     except ET.ParseError as e:
-        print(f"  ⚠️  Erro parse RSS: {e}")
+        print(f"  WARN  Erro parse RSS: {e}")
 
     return items
 
@@ -119,7 +119,7 @@ def filtrar_uploader_confiavel(items: list[dict]) -> list[dict]:
 def buscar_categoria_sfw(uploader: str = "subsplease",
                           max_por_termo: int = 10) -> list[dict]:
     termos = termos_sfw_com_uploader(uploader)
-    print(f"\n🎌 SFW: {len(termos)} termos (uploader={uploader}) — qualidade {QUALIDADE_PRIMARIA}")
+    print(f"\n SFW: {len(termos)} termos (uploader={uploader}) — qualidade {QUALIDADE_PRIMARIA}")
 
     all_items = []
     seen = set()
@@ -154,9 +154,24 @@ def buscar_categoria_sfw(uploader: str = "subsplease",
     return all_items
 
 
+def _sukebei_disponivel() -> bool:
+    """Testa conectividade do Sukebei UMA vez antes de tentar 95 termos."""
+    try:
+        r = requests.get(SUKEBEI_BASE, headers=_user_agent(), timeout=8)
+        return r.status_code < 500
+    except Exception as e:
+        print(f"   X Sukebei indisponivel: {type(e).__name__}")
+        return False
+
+
 def buscar_categoria_adult(max_por_termo: int = 5) -> list[dict]:
     termos = termos_adult()
-    print(f"\n🔞 Adult: {len(termos)} termos (sukebei.nyaa.si) — qualidade {QUALIDADE_PRIMARIA}")
+    print(f"\nAdult: {len(termos)} termos (sukebei.nyaa.si) - qualidade {QUALIDADE_PRIMARIA}")
+
+    # Circuit breaker: testa conectividade ANTES de iterar 95 termos
+    if not _sukebei_disponivel():
+        print("   Sukebei inacessivel - pulando categoria adult inteira")
+        return []
 
     all_items = []
     seen = set()
