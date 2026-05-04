@@ -276,3 +276,67 @@ class PutioOrchestrator:
 
         print(f"  M3U gerada: {output_path} ({total} entradas de {len(items)} torrents)")
         return output_path
+
+    # ── Modo full scan: varre TODOS os arquivos do Put.io ────────────────
+    def full_scan_export(self, output_path: str = "sources/putio_entries.m3u",
+                         root_id: int = 0):
+        """
+        Varre recursivamente TODA a estrutura de arquivos do Put.io
+        e gera M3U com todos os videos encontrados.
+
+        Diferente de export_m3u(), nao depende do state. Funciona para
+        arquivos baixados fora do pipeline ou apos perda de state.
+
+        root_id=0 = pasta raiz do Put.io
+        """
+        print(f"  Full scan iniciando em pasta {root_id}...")
+        videos = self._scan_recursivo(root_id)
+        print(f"  Encontrados {len(videos)} videos no Put.io")
+
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n\n")
+            for video in videos:
+                title = video["name"]
+                url   = self.client.stream_url(video["id"])
+                # Sem categoria - pipeline.py classifica depois
+                f.write(
+                    f'#EXTINF:-1 tvg-name="{title}" tvg-logo="" '
+                    f'group-title="Put.io",{title}\n'
+                    f'{url}\n\n'
+                )
+
+        print(f"  M3U full scan: {output_path} ({len(videos)} entradas)")
+        return output_path
+
+    def _scan_recursivo(self, parent_id: int, depth: int = 0, max_depth: int = 5) -> list[dict]:
+        """
+        Lista recursivamente todos os videos a partir de parent_id.
+        max_depth previne recursao infinita.
+        """
+        if depth > max_depth:
+            return []
+
+        try:
+            children = self.client.list_folder(parent_id)
+        except requests.HTTPError as e:
+            print(f"    WARN erro listando pasta {parent_id}: {e}")
+            return []
+
+        videos = []
+        for child in children:
+            ftype = child.get("file_type")
+            name  = child.get("name", "")
+
+            if ftype == "VIDEO" and is_video_file(name):
+                videos.append({
+                    "id"  : child["id"],
+                    "name": name,
+                    "size": child.get("size", 0),
+                })
+            elif ftype == "FOLDER":
+                # Recurse na sub-pasta
+                videos.extend(self._scan_recursivo(child["id"], depth + 1, max_depth))
+
+        return videos
