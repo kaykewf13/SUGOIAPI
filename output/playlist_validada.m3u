@@ -5,16 +5,214 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="01. Flashing Before My Eyes.mkv" tvg-logo="" group-title="Canais | Geral",01. Flashing Before My Eyes.mkv
+https://api.put.io/v2/files/1583962542/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="02. Palm of the Hand.mkv" tvg-logo="" group-title="Canais | Geral",02. Palm of the Hand.mkv
+https://api.put.io/v2/files/1583962543/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="03. Birthmark.mkv" tvg-logo="" group-title="Canais | Geral",03. Birthmark.mkv
+https://api.put.io/v2/files/1583962544/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="04. Accomplishment.mkv" tvg-logo="" group-title="Canais | Geral",04. Accomplishment.mkv
+https://api.put.io/v2/files/1583962545/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="05. Getaway.mkv" tvg-logo="" group-title="Canais | Geral",05. Getaway.mkv
+https://api.put.io/v2/files/1583962546/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="06. Grim Reaper.mkv" tvg-logo="" group-title="Canais | Geral",06. Grim Reaper.mkv
+https://api.put.io/v2/files/1583962547/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="07. Out of Control.mkv" tvg-logo="" group-title="Canais | Geral",07. Out of Control.mkv
+https://api.put.io/v2/files/1583962548/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="08. Spiral.mkv" tvg-logo="" group-title="Canais | Geral",08. Spiral.mkv
+https://api.put.io/v2/files/1583962549/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="09. Closure.mkv" tvg-logo="" group-title="Canais | Geral",09. Closure.mkv
+https://api.put.io/v2/files/1583962550/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="10. Joy.mkv" tvg-logo="" group-title="Canais | Geral",10. Joy.mkv
+https://api.put.io/v2/files/1583962551/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="11. Future.mkv" tvg-logo="" group-title="Canais | Geral",11. Future.mkv
+https://api.put.io/v2/files/1583962552/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="12. Treasure.mkv" tvg-logo="" group-title="Canais | Geral",12. Treasure.mkv
+https://api.put.io/v2/files/1583962553/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
 https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KonoSuba - Legend of the Crimson (2019) 1080p BD Eng Sub.mkv" tvg-logo="" group-title="Canais | Geral",KonoSuba - Legend of the Crimson (2019) 1080p BD Eng Sub.mkv
+https://api.put.io/v2/files/1584025418/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
 #EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 01 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 01 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903709/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 02 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 02 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903710/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 03 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 03 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903711/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 04 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 04 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903712/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 05 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 05 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903713/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 06 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 06 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903714/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 07 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 07 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903715/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 08 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 08 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903716/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 09 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 09 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903717/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 10 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 10 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903718/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 11 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 11 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903719/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 12 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 12 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903720/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 13 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 13 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903721/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 14 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 14 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903722/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 15 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 15 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903723/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 16 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 16 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903724/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 17 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 17 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903725/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 18 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 18 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903726/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 19 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 19 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903727/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 20 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 20 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903728/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 21 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 21 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903729/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 22 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 22 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903730/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 23 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 23 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903731/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 24 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 24 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903732/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 25 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 25 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 26 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 26 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903734/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 27 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 27 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903735/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 28 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 28 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903736/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 29 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 29 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903737/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 30 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 30 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903738/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 31 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 31 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903739/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 32 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 32 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903740/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 33 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 33 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903741/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 34 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 34 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903742/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 35 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 35 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903743/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 36 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 36 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903744/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 37 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 37 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903745/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 38 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 38 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903746/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 39 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 39 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903747/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 40 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 40 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903748/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 41 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 41 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903749/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 42 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 42 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903750/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 43 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 43 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903751/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 44 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 44 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903752/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 45 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 45 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903753/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 46 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 46 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903754/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 47 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 47 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903755/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 48 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 48 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903756/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 49 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 49 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903757/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 50 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 50 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903758/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeKaizoku] Gintama - 51 720p Eng Dub.mkv" tvg-logo="" group-title="Canais | Geral",[AnimeKaizoku] Gintama - 51 720p Eng Dub.mkv
+https://api.put.io/v2/files/1583903759/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 01 Uncensored [720p][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot] (1).mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 01 Uncensored [720p][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot] (1).mkv
+https://api.put.io/v2/files/1585196669/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 01 Uncensored [720p][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 01 Uncensored [720p][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194253/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 02 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 02 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194842/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 03 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot] (1).mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 03 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot] (1).mkv
+https://api.put.io/v2/files/1585196672/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 03 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 03 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 04 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 04 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194823/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 05 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 05 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194830/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 06 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 06 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 07 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 07 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194850/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 08 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 08 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194847/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 09 Uncensored [720p][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 09 Uncensored [720p][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194828/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 10 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 10 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194719/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 11 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 11 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194798/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[AnimeOut] Peter Grill To Kenja No Jikan - 12 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv" tvg-logo="" group-title="Canais | Geral",[AnimeOut] Peter Grill To Kenja No Jikan - 12 Uncensored [720pp][HEVC 10bit x265][AAC][Eng Sub][Anime Time][RapidBot].mkv
+https://api.put.io/v2/files/1585194849/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] 29-sai Dokushin Chuuken Boukensha no Nichijou - 10v2 (720p) [B7351599].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] 29-sai Dokushin Chuuken Boukensha no Nichijou - 10v2 (720p) [B7351599].mkv
+https://api.put.io/v2/files/1584875010/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Boruto - Naruto Next Generations - 279v2 (720p) [DE002154].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Boruto - Naruto Next Generations - 279v2 (720p) [DE002154].mkv
 https://api.put.io/v2/files/1584830155/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Chainsaw Man Movie - Reze-hen (1080p) [0066A2DD].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Chainsaw Man Movie - Reze-hen (1080p) [0066A2DD].mkv
+https://api.put.io/v2/files/1584821443/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Chainsaw Man Movie - Reze-hen (720p) [30CD15AB].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Chainsaw Man Movie - Reze-hen (720p) [30CD15AB].mkv
+https://api.put.io/v2/files/1584821446/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Digimon Beatbreak - 28v2 (480p) [68B54318].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Digimon Beatbreak - 28v2 (480p) [68B54318].mkv
+https://api.put.io/v2/files/1584104485/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Gintama - 3-nen Z-gumi Ginpachi-sensei - 03v2 (720p) [C7C4EA54].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Gintama - 3-nen Z-gumi Ginpachi-sensei - 03v2 (720p) [C7C4EA54].mkv
+https://api.put.io/v2/files/1584838873/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 01v2 (720p) [074DEE68].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 01v2 (720p) [074DEE68].mkv
+https://api.put.io/v2/files/1584886392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 02v2 (720p) [3BC9D4BD].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 02v2 (720p) [3BC9D4BD].mkv
+https://api.put.io/v2/files/1584886393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 03v2 (720p) [A28B2869].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 03v2 (720p) [A28B2869].mkv
+https://api.put.io/v2/files/1584886394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 04v2 (720p) [4E3C3B21].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 04v2 (720p) [4E3C3B21].mkv
+https://api.put.io/v2/files/1584886395/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 05v2 (720p) [4A012D48].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 05v2 (720p) [4A012D48].mkv
+https://api.put.io/v2/files/1584886396/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 06v2 (720p) [C1B505EB].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 06v2 (720p) [C1B505EB].mkv
+https://api.put.io/v2/files/1584886397/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 07v2 (720p) [0EB8FA6B].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 07v2 (720p) [0EB8FA6B].mkv
+https://api.put.io/v2/files/1584886398/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 08v2 (720p) [D67AC069].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 08v2 (720p) [D67AC069].mkv
+https://api.put.io/v2/files/1584886399/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 09v2 (720p) [F4F17034].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 09v2 (720p) [F4F17034].mkv
+https://api.put.io/v2/files/1584886400/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 10v2 (720p) [84514E4E].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 10v2 (720p) [84514E4E].mkv
+https://api.put.io/v2/files/1584886401/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 11v2 (720p) [3CE50C50].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 11v2 (720p) [3CE50C50].mkv
+https://api.put.io/v2/files/1584886402/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Isekai Meikyuu de Harem wo - 12v3 (720p) [EE3E16E7].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Isekai Meikyuu de Harem wo - 12v3 (720p) [EE3E16E7].mkv
+https://api.put.io/v2/files/1584886403/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Kawaii dake ja Nai Shikimori-san - SP1 (720p) [210FF578].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Kawaii dake ja Nai Shikimori-san - SP1 (720p) [210FF578].mkv
+https://api.put.io/v2/files/1584890920/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2 (720p) [5A57046C].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2 (720p) [5A57046C].mkv
+https://api.put.io/v2/files/1585191887/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Meitantei Precure! - 13v2 (480p) [5B31DDC0].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Meitantei Precure! - 13v2 (480p) [5B31DDC0].mkv
+https://api.put.io/v2/files/1584104488/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Mobile Suit Gundam - Cucuruz Doan's Island (720p) [87226885].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Mobile Suit Gundam - Cucuruz Doan's Island (720p) [87226885].mkv
+https://api.put.io/v2/files/1585073972/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1140 (720p) [D7882881].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1140 (720p) [D7882881].mkv
 https://api.put.io/v2/files/1584830170/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1144 (720p) [27BEEBCE].mkv
@@ -51,62 +249,490 @@ https://api.put.io/v2/files/1584830157/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584820759/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1158 (720p) [863239CB].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1158 (720p) [863239CB].mkv
 https://api.put.io/v2/files/1584830156/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1159 (1080p) [ECC80704] oTgZcImH.mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1159 (1080p) [ECC80704] oTgZcImH.mkv
 https://api.put.io/v2/files/1584820758/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1159 (1080p) [ECC80704].mkv
+https://api.put.io/v2/files/1584085254/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1159 (480p) [51DC7D6E].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1159 (480p) [51DC7D6E].mkv
+https://api.put.io/v2/files/1584101424/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1159 (720p) [29014630].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1159 (720p) [29014630].mkv
 https://api.put.io/v2/files/1584820762/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] One Piece - 1160 (720p) [A823C6B9].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] One Piece - 1160 (720p) [A823C6B9].mkv
 https://api.put.io/v2/files/1585190282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 01v2 (720p) [D69DA236].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 01v2 (720p) [D69DA236].mkv
+https://api.put.io/v2/files/1585105812/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 02v2 (720p) [2E442FE1].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 02v2 (720p) [2E442FE1].mkv
+https://api.put.io/v2/files/1585105813/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 03v2 (720p) [12458451].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 03v2 (720p) [12458451].mkv
+https://api.put.io/v2/files/1585105814/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 04v2 (720p) [085ED0B6].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 04v2 (720p) [085ED0B6].mkv
+https://api.put.io/v2/files/1585105815/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 05v2 (720p) [0AF84262].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 05v2 (720p) [0AF84262].mkv
+https://api.put.io/v2/files/1585105816/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 06v2 (720p) [216271FF].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 06v2 (720p) [216271FF].mkv
+https://api.put.io/v2/files/1585105817/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 07v2 (720p) [3F83D371].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 07v2 (720p) [3F83D371].mkv
+https://api.put.io/v2/files/1585105818/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 08v2 (720p) [87A1C8C7].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 08v2 (720p) [87A1C8C7].mkv
+https://api.put.io/v2/files/1585105819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 09v2 (720p) [F2202ECB].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 09v2 (720p) [F2202ECB].mkv
+https://api.put.io/v2/files/1585105820/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 10v2 (720p) [D0A8FBD5].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 10v2 (720p) [D0A8FBD5].mkv
+https://api.put.io/v2/files/1585105821/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 11v2 (720p) [A8F54F8B].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 11v2 (720p) [A8F54F8B].mkv
+https://api.put.io/v2/files/1585105822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shikizakura - 12v2 (720p) [608CDB3A].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shikizakura - 12v2 (720p) [608CDB3A].mkv
+https://api.put.io/v2/files/1585105823/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shingeki no Kyojin Movie - The Last Attack (1080p) [40DD2396].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shingeki no Kyojin Movie - The Last Attack (1080p) [40DD2396].mkv
+https://api.put.io/v2/files/1584827053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Shingeki no Kyojin Movie - The Last Attack (720p) [FCC184BF].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Shingeki no Kyojin Movie - The Last Attack (720p) [FCC184BF].mkv
+https://api.put.io/v2/files/1584835636/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="[SubsPlease] Spy x Family - 47v2 (720p) [902CF269].mkv" tvg-logo="" group-title="Canais | Geral",[SubsPlease] Spy x Family - 47v2 (720p) [902CF269].mkv
+https://api.put.io/v2/files/1584838477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bde07000" tvg-name="16bit Sensation - Another Layer S01 E04" tvg-logo="" group-title="Series | Terror e Suspense",16bit Sensation - Another Layer S01 E04
+https://api.put.io/v2/files/1585024119/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2b297093" tvg-name="16bit Sensation - Another Layer S01 E05" tvg-logo="" group-title="Series | Terror e Suspense",16bit Sensation - Another Layer S01 E05
+https://api.put.io/v2/files/1585024153/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="db02a162" tvg-name="29-sai Dokushin Chuuken Boukensha no Nichijou S01 E04" tvg-logo="" group-title="Series | Slice of Life",29-sai Dokushin Chuuken Boukensha no Nichijou S01 E04
+https://api.put.io/v2/files/1584838515/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fac977f8" tvg-name="86 - Eighty Six S01 E09" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E09
+https://api.put.io/v2/files/1584880900/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0ebabbd2" tvg-name="86 - Eighty Six S01 E15" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E15
+https://api.put.io/v2/files/1584880839/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f0a8ee17" tvg-name="86 - Eighty Six S01 E16" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E16
+https://api.put.io/v2/files/1584880771/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8c599825" tvg-name="86 - Eighty Six S01 E17" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E17
+https://api.put.io/v2/files/1584954221/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a4f2d109" tvg-name="86 - Eighty Six - 17.5 S01 E17" tvg-logo="" group-title="Series | Geral",86 - Eighty Six - 17.5 S01 E17
+https://api.put.io/v2/files/1584893084/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0574c4f0" tvg-name="86 - Eighty Six - 18.5 S01 E18" tvg-logo="" group-title="Series | Geral",86 - Eighty Six - 18.5 S01 E18
+https://api.put.io/v2/files/1584892980/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c0f44756" tvg-name="Ace of Diamond Act II S2 S01 E04" tvg-logo="" group-title="Series | Esportes",Ace of Diamond Act II S2 S01 E04
+https://api.put.io/v2/files/1584093726/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c0f44756" tvg-name="Ace of Diamond Act II S2 S01 E04" tvg-logo="" group-title="Series | Esportes",Ace of Diamond Act II S2 S01 E04
+https://api.put.io/v2/files/1584107440/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c19e0e47" tvg-name="Another Journey to the West S01 E01" tvg-logo="" group-title="Series | Terror e Suspense",Another Journey to the West S01 E01
+https://api.put.io/v2/files/1584839284/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1d969439" tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01 E05" tvg-logo="" group-title="Series | Isekai",Arifureta Shokugyou de Sekai Saikyou S3 S01 E05
+https://api.put.io/v2/files/1584885387/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="fc1fa51d" tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01 E11" tvg-logo="" group-title="Series | Isekai",Arifureta Shokugyou de Sekai Saikyou S3 S01 E11
 https://api.put.io/v2/files/1584901442/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="43292598" tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01 E12" tvg-logo="" group-title="Series | Isekai",Arifureta Shokugyou de Sekai Saikyou S3 S01 E12
 https://api.put.io/v2/files/1584874819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5f886f67" tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01 E13" tvg-logo="" group-title="Series | Isekai",Arifureta Shokugyou de Sekai Saikyou S3 S01 E13
 https://api.put.io/v2/files/1584874821/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="841bfa0e" tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01 E15" tvg-logo="" group-title="Series | Isekai",Arifureta Shokugyou de Sekai Saikyou S3 S01 E15
+https://api.put.io/v2/files/1584885386/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="da858194" tvg-name="Arifureta Shokugyou de Sekai Saikyou S3 S01 E16" tvg-logo="" group-title="Series | Isekai",Arifureta Shokugyou de Sekai Saikyou S3 S01 E16
 https://api.put.io/v2/files/1584874820/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c524f894" tvg-name="Black Clover S01 E147" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E147
+https://api.put.io/v2/files/1584829790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b703e3dd" tvg-name="Black Clover S01 E150" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E150
+https://api.put.io/v2/files/1584829720/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="846e2f5d" tvg-name="Black Clover S01 E155" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E155
+https://api.put.io/v2/files/1584829719/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e969e346" tvg-name="Black Clover S01 E157" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E157
+https://api.put.io/v2/files/1584829729/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5053e2af" tvg-name="Black Clover S01 E158" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E158
+https://api.put.io/v2/files/1584824754/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e6af4c9c" tvg-name="Black Clover S01 E160" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E160
+https://api.put.io/v2/files/1584829682/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9fc8ea87" tvg-name="Black Clover S01 E167" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E167
+https://api.put.io/v2/files/1584826728/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b848af5e" tvg-name="Black Clover S01 E170" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E170
+https://api.put.io/v2/files/1584824795/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="db8a20cd" tvg-name="Blue Lock S01 E27" tvg-logo="" group-title="Series | Esportes",Blue Lock S01 E27
+https://api.put.io/v2/files/1584880507/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3fab8f35" tvg-name="Blue Lock S01 E30" tvg-logo="" group-title="Series | Esportes",Blue Lock S01 E30
+https://api.put.io/v2/files/1584876036/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="861524c5" tvg-name="Blue Lock S01 E32" tvg-logo="" group-title="Series | Esportes",Blue Lock S01 E32
+https://api.put.io/v2/files/1584838667/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5d15282d" tvg-name="Blue Lock S01 E34" tvg-logo="" group-title="Series | Esportes",Blue Lock S01 E34
+https://api.put.io/v2/files/1584885470/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="13673fba" tvg-name="Boku no Hero Academia S01 E160" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E160
 https://api.put.io/v2/files/1584820788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="13673fba" tvg-name="Boku no Hero Academia S01 E160" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E160
+https://api.put.io/v2/files/1585101178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0b2ddfc8" tvg-name="Boku no Hero Academia S01 E161" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E161
 https://api.put.io/v2/files/1584820787/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0b2ddfc8" tvg-name="Boku no Hero Academia S01 E161" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E161
+https://api.put.io/v2/files/1585102956/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7c2ab3c" tvg-name="Boku no Hero Academia S01 E162" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E162
 https://api.put.io/v2/files/1584820789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3079e9e7" tvg-name="Boku no Hero Academia S01 E163" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E163
 https://api.put.io/v2/files/1584820790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3079e9e7" tvg-name="Boku no Hero Academia S01 E163" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E163
+https://api.put.io/v2/files/1585101204/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a8670fa8" tvg-name="Boku no Hero Academia S01 E165" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E165
 https://api.put.io/v2/files/1584820786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="562335b5" tvg-name="Boku no Hero Academia S01 E166" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E166
 https://api.put.io/v2/files/1584820791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="544efd24" tvg-name="Boku no Hero Academia S01 E168" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E168
 https://api.put.io/v2/files/1584820785/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="544efd24" tvg-name="Boku no Hero Academia S01 E168" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E168
+https://api.put.io/v2/files/1584953631/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c2bb4206" tvg-name="Boku no Hero Academia S01 E169" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E169
 https://api.put.io/v2/files/1584820784/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c2bb4206" tvg-name="Boku no Hero Academia S01 E169" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E169
+https://api.put.io/v2/files/1584908292/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5b548a09" tvg-name="Boku no Hero Academia S01 E170" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E170
 https://api.put.io/v2/files/1584820783/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5b548a09" tvg-name="Boku no Hero Academia S01 E170" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E170
+https://api.put.io/v2/files/1584908252/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b580eaee" tvg-name="Boku no Hero Academia S01 E171" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E171
+https://api.put.io/v2/files/1584953700/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d34a297d" tvg-name="Boruto - Naruto Next Generations S01 E269" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E269
+https://api.put.io/v2/files/1584824757/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bec33b4b" tvg-name="Boruto - Naruto Next Generations S01 E281" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E281
+https://api.put.io/v2/files/1584831607/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="939f9c19" tvg-name="Boruto - Naruto Next Generations S01 E282" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E282
+https://api.put.io/v2/files/1584835039/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2fd1ab24" tvg-name="Boruto - Naruto Next Generations S01 E283" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E283
+https://api.put.io/v2/files/1584827386/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dca2a70e" tvg-name="Boruto - Naruto Next Generations S01 E284" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E284
+https://api.put.io/v2/files/1584829184/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8b34e1f4" tvg-name="Boruto - Naruto Next Generations S01 E287" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E287
+https://api.put.io/v2/files/1584827218/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8b34e1f4" tvg-name="Boruto - Naruto Next Generations S01 E287" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E287
+https://api.put.io/v2/files/1584831379/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="303201cd" tvg-name="Boruto - Naruto Next Generations S01 E289" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E289
+https://api.put.io/v2/files/1584824753/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="303201cd" tvg-name="Boruto - Naruto Next Generations S01 E289" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E289
+https://api.put.io/v2/files/1584831112/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="78e97b3b" tvg-name="Boruto - Naruto Next Generations S01 E290" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E290
+https://api.put.io/v2/files/1584831374/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="78e97b3b" tvg-name="Boruto - Naruto Next Generations S01 E290" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E290
+https://api.put.io/v2/files/1584832707/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b1e17def" tvg-name="Boruto - Naruto Next Generations S01 E291" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E291
+https://api.put.io/v2/files/1584831068/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b1e17def" tvg-name="Boruto - Naruto Next Generations S01 E291" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E291
+https://api.put.io/v2/files/1584831343/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d125d28b" tvg-name="Boruto - Naruto Next Generations S01 E292" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E292
+https://api.put.io/v2/files/1584827105/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="25bc1ba5" tvg-name="Boruto - Naruto Next Generations S01 E293" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E293
 https://api.put.io/v2/files/1584820757/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="25bc1ba5" tvg-name="Boruto - Naruto Next Generations S01 E293" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E293
+https://api.put.io/v2/files/1584822794/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a95fc175" tvg-name="Boushoku no Berserk S01 E03" tvg-logo="" group-title="Series | Seinen",Boushoku no Berserk S01 E03
+https://api.put.io/v2/files/1584839281/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="46ceec98" tvg-name="Boushoku no Berserk S01 E05" tvg-logo="" group-title="Series | Seinen",Boushoku no Berserk S01 E05
+https://api.put.io/v2/files/1585024440/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="98c79b9f" tvg-name="Chainsaw Man S01 E01" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E01
+https://api.put.io/v2/files/1585244024/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="031cf81f" tvg-name="Chainsaw Man S01 E02" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E02
 https://api.put.io/v2/files/1584829394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9b026a2e" tvg-name="Chainsaw Man S01 E04" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E04
 https://api.put.io/v2/files/1584829392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9b026a2e" tvg-name="Chainsaw Man S01 E04" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E04
+https://api.put.io/v2/files/1585191488/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="49dec429" tvg-name="Chainsaw Man S01 E10" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E10
 https://api.put.io/v2/files/1584829393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e8b22d2a" tvg-name="Chainsaw Man S01 E11" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E11
+https://api.put.io/v2/files/1584829436/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="49ed1d5c" tvg-name="Chainsaw Man S01 E12" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E12
+https://api.put.io/v2/files/1584821587/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="459a80c8" tvg-name="Chainsaw Man - The Compilation S01 E01" tvg-logo="" group-title="Series | Shounen",Chainsaw Man - The Compilation S01 E01
+https://api.put.io/v2/files/1584821484/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="459a80c8" tvg-name="Chainsaw Man - The Compilation S01 E01" tvg-logo="" group-title="Series | Shounen",Chainsaw Man - The Compilation S01 E01
+https://api.put.io/v2/files/1584832628/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fd522a02" tvg-name="Chainsaw Man - The Compilation S01 E02" tvg-logo="" group-title="Series | Shounen",Chainsaw Man - The Compilation S01 E02
+https://api.put.io/v2/files/1584830330/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fd522a02" tvg-name="Chainsaw Man - The Compilation S01 E02" tvg-logo="" group-title="Series | Shounen",Chainsaw Man - The Compilation S01 E02
+https://api.put.io/v2/files/1584831608/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a800f34c" tvg-name="Clannad ~AS~ S01 E01" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E01
+https://api.put.io/v2/files/1583936472/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d7b86f57" tvg-name="Clannad ~AS~ S01 E02" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E02
+https://api.put.io/v2/files/1583936473/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="51697b28" tvg-name="Clannad ~AS~ S01 E03" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E03
+https://api.put.io/v2/files/1583936474/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e5cbc4f5" tvg-name="Clannad ~AS~ S01 E04" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E04
+https://api.put.io/v2/files/1583936475/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cca4c91a" tvg-name="Clannad ~AS~ S01 E05" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E05
+https://api.put.io/v2/files/1583936476/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="21a337df" tvg-name="Clannad ~AS~ S01 E06" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E06
+https://api.put.io/v2/files/1583936477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c1249910" tvg-name="Clannad ~AS~ S01 E07" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E07
+https://api.put.io/v2/files/1583936478/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e1df5a4e" tvg-name="Clannad ~AS~ S01 E08" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E08
+https://api.put.io/v2/files/1583936479/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d1d5e5ad" tvg-name="Clannad ~AS~ S01 E09" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E09
+https://api.put.io/v2/files/1583936480/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1d5a4a62" tvg-name="Clannad ~AS~ S01 E10" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E10
+https://api.put.io/v2/files/1583936481/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="89594a3d" tvg-name="Clannad ~AS~ S01 E11" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E11
+https://api.put.io/v2/files/1583936482/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bb495c23" tvg-name="Clannad ~AS~ S01 E12" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E12
+https://api.put.io/v2/files/1583936483/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c75927d8" tvg-name="Clannad ~AS~ S01 E13" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E13
+https://api.put.io/v2/files/1583936484/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b900a67e" tvg-name="Clannad ~AS~ S01 E14" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E14
+https://api.put.io/v2/files/1583936485/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a5486d7a" tvg-name="Clannad ~AS~ S01 E15" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E15
+https://api.put.io/v2/files/1583936486/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="74dd67af" tvg-name="Clannad ~AS~ S01 E16" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E16
+https://api.put.io/v2/files/1583936487/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2b9855eb" tvg-name="Clannad ~AS~ S01 E17" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E17
+https://api.put.io/v2/files/1583936488/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="40d5db7a" tvg-name="Clannad ~AS~ S01 E18" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E18
+https://api.put.io/v2/files/1583936489/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="db8673ec" tvg-name="Clannad ~AS~ S01 E19" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E19
+https://api.put.io/v2/files/1583936490/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f807e7d1" tvg-name="Clannad ~AS~ S01 E20" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E20
+https://api.put.io/v2/files/1583936491/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9f91668e" tvg-name="Clannad ~AS~ S01 E21" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E21
+https://api.put.io/v2/files/1583936492/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cd14e0e7" tvg-name="Clannad ~AS~ S01 E22" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E22
+https://api.put.io/v2/files/1583936493/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ef9b6f18" tvg-name="Clannad ~AS~ S01 E23" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E23
+https://api.put.io/v2/files/1583936494/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9055e25f" tvg-name="Clannad ~AS~ S01 E24" tvg-logo="" group-title="Series | Shoujo",Clannad ~AS~ S01 E24
+https://api.put.io/v2/files/1583936495/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0001bed7" tvg-name="Dandadan S01 E01" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E01
 https://api.put.io/v2/files/1584838195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="cf9f8475" tvg-name="Dandadan S01 E04" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E04
 https://api.put.io/v2/files/1585242586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3d612c87" tvg-name="Dandadan S01 E13" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E13
+https://api.put.io/v2/files/1584822154/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bf635a85" tvg-name="Dandadan S01 E14" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E14
+https://api.put.io/v2/files/1584822152/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9fc44fed" tvg-name="Dandadan S01 E15" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E15
+https://api.put.io/v2/files/1584822163/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9fc44fed" tvg-name="Dandadan S01 E15" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E15
 https://api.put.io/v2/files/1584874812/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5132628b" tvg-name="Dandadan S01 E18" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E18
+https://api.put.io/v2/files/1584822144/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6ff48b40" tvg-name="Dandadan S01 E19" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E19
+https://api.put.io/v2/files/1584822160/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="040c6dc5" tvg-name="Dandadan S01 E20" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E20
+https://api.put.io/v2/files/1584822136/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="040c6dc5" tvg-name="Dandadan S01 E20" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E20
 https://api.put.io/v2/files/1584838196/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="27313afc" tvg-name="Dandadan S01 E21" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E21
+https://api.put.io/v2/files/1584822146/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="85e5c864" tvg-name="Dandadan S01 E22" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E22
+https://api.put.io/v2/files/1584822139/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="72b9ba25" tvg-name="Dandadan S01 E23" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E23
+https://api.put.io/v2/files/1584822132/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dd7d99fd" tvg-name="Dandadan S01 E24" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E24
+https://api.put.io/v2/files/1584822128/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e224e2d6" tvg-name="Date a Live IV S01 E01" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E01
+https://api.put.io/v2/files/1584876058/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="306c74d7" tvg-name="Date a Live IV S01 E02" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E02
+https://api.put.io/v2/files/1584876059/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e8568c43" tvg-name="Date a Live IV S01 E03" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E03
+https://api.put.io/v2/files/1584876060/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cd3932d0" tvg-name="Date a Live IV S01 E04" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E04
+https://api.put.io/v2/files/1584876061/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8eaca43d" tvg-name="Date a Live IV S01 E05" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E05
+https://api.put.io/v2/files/1584876062/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3e42a935" tvg-name="Date a Live IV S01 E06" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E06
+https://api.put.io/v2/files/1584876063/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e1b85f5f" tvg-name="Date a Live IV S01 E07" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E07
+https://api.put.io/v2/files/1584876064/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8e196c3b" tvg-name="Date a Live IV S01 E08" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E08
+https://api.put.io/v2/files/1584876065/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1cc1b85a" tvg-name="Date a Live IV S01 E09" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E09
+https://api.put.io/v2/files/1584876066/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7fbd4445" tvg-name="Date a Live IV S01 E10" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E10
+https://api.put.io/v2/files/1584876067/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d6434b8e" tvg-name="Date a Live IV S01 E11" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E11
+https://api.put.io/v2/files/1584876068/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="79bfca14" tvg-name="Date a Live IV S01 E12" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E12
+https://api.put.io/v2/files/1584876069/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="668bf1cc" tvg-name="Date a Live V S01 E03" tvg-logo="" group-title="Series | Romance",Date a Live V S01 E03
+https://api.put.io/v2/files/1585204701/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2d86e0f4" tvg-name="Date a Live V S01 E04" tvg-logo="" group-title="Series | Romance",Date a Live V S01 E04
+https://api.put.io/v2/files/1585010052/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b4a93643" tvg-name="Dr. Stone S4 S01 E12" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E12
+https://api.put.io/v2/files/1585204476/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1380ff5f" tvg-name="Dr. Stone S4 S01 E13" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E13
+https://api.put.io/v2/files/1584838737/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4bed6c10" tvg-name="Dr. Stone S4 S01 E14" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E14
+https://api.put.io/v2/files/1584831614/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9764135b" tvg-name="Dr. Stone S4 S01 E15" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E15
+https://api.put.io/v2/files/1585221184/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ce8eafe7" tvg-name="Dr. Stone S4 S01 E16" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E16
+https://api.put.io/v2/files/1584838806/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e3bc1981" tvg-name="Dr. Stone S4 S01 E17" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E17
+https://api.put.io/v2/files/1585237168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="50ef3c80" tvg-name="Dr. Stone S4 S01 E18" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E18
+https://api.put.io/v2/files/1584831137/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c5559b42" tvg-name="Dr. Stone S4 S01 E22" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E22
+https://api.put.io/v2/files/1584821850/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="06b18269" tvg-name="Dr. Stone S4 S01 E23" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E23
+https://api.put.io/v2/files/1584821856/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="49d15d38" tvg-name="Dr. Stone S4 S01 E24" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E24
+https://api.put.io/v2/files/1584821845/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ee1c85ca" tvg-name="Dr. Stone S4 S01 E25" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E25
+https://api.put.io/v2/files/1584821770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8c3d15d5" tvg-name="Dr. Stone S4 S01 E26" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E26
+https://api.put.io/v2/files/1584821763/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8c3d15d5" tvg-name="Dr. Stone S4 S01 E26" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E26
+https://api.put.io/v2/files/1584831093/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b32f7015" tvg-name="Dr. Stone S4 S01 E27" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E27
+https://api.put.io/v2/files/1584821762/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="18dbc3b0" tvg-name="Dr. Stone S4 S01 E28" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E28
+https://api.put.io/v2/files/1584821755/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="18dbc3b0" tvg-name="Dr. Stone S4 S01 E28" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E28
 https://api.put.io/v2/files/1584829390/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6e023ec3" tvg-name="Dr. Stone S4 S01 E29" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E29
+https://api.put.io/v2/files/1584821750/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6e023ec3" tvg-name="Dr. Stone S4 S01 E29" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E29
+https://api.put.io/v2/files/1584821772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
+https://api.put.io/v2/files/1584822433/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
+https://api.put.io/v2/files/1584838927/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0064b34d" tvg-name="Dragon Ball Daima S01 E02" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E02
+https://api.put.io/v2/files/1584822466/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0064b34d" tvg-name="Dragon Ball Daima S01 E02" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E02
+https://api.put.io/v2/files/1584833575/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8e07e031" tvg-name="Dragon Ball Daima S01 E03" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E03
+https://api.put.io/v2/files/1584832770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cd1ac9ea" tvg-name="Dragon Ball Daima S01 E04" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E04
+https://api.put.io/v2/files/1584900334/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="582939fc" tvg-name="Dragon Ball Daima S01 E06" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E06
+https://api.put.io/v2/files/1584823658/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="582939fc" tvg-name="Dragon Ball Daima S01 E06" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E06
+https://api.put.io/v2/files/1584833178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d1a436ad" tvg-name="Dragon Ball Daima S01 E07" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E07
+https://api.put.io/v2/files/1584831644/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5ab8fc38" tvg-name="Dragon Ball Daima S01 E08" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E08
+https://api.put.io/v2/files/1584831083/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ceaea104" tvg-name="Dragon Ball Daima S01 E09" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E09
+https://api.put.io/v2/files/1584833009/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="74954b97" tvg-name="Dragon Ball Daima S01 E11" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E11
+https://api.put.io/v2/files/1584882268/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fa42c02b" tvg-name="Dragon Ball Daima S01 E12" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E12
+https://api.put.io/v2/files/1584821696/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fa42c02b" tvg-name="Dragon Ball Daima S01 E12" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E12
+https://api.put.io/v2/files/1584833245/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1f1e0ded" tvg-name="Dragon Ball Daima S01 E13" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E13
+https://api.put.io/v2/files/1584822437/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f5b9e8b4" tvg-name="Dragon Ball Daima S01 E14" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E14
+https://api.put.io/v2/files/1584822436/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f5b9e8b4" tvg-name="Dragon Ball Daima S01 E14" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E14
+https://api.put.io/v2/files/1584840061/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="02f62fbf" tvg-name="Dragon Ball Daima S01 E15" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E15
+https://api.put.io/v2/files/1584822432/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="02f62fbf" tvg-name="Dragon Ball Daima S01 E15" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E15
+https://api.put.io/v2/files/1584840703/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3609609d" tvg-name="Dragon Ball Daima S01 E16" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E16
+https://api.put.io/v2/files/1584822461/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3966e6cf" tvg-name="Dragon Ball Daima S01 E17" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E17
+https://api.put.io/v2/files/1584822425/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3966e6cf" tvg-name="Dragon Ball Daima S01 E17" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E17
+https://api.put.io/v2/files/1584831358/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f77c56eb" tvg-name="Dragon Ball Daima S01 E18" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E18
+https://api.put.io/v2/files/1584839187/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f1a7e3f9" tvg-name="Dragon Ball Daima S01 E20" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E20
+https://api.put.io/v2/files/1584820943/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f1a7e3f9" tvg-name="Dragon Ball Daima S01 E20" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E20
+https://api.put.io/v2/files/1584900326/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b252ef1d" tvg-name="Fairy Tail - 100 Years Quest S01 E03" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E03
+https://api.put.io/v2/files/1584867294/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1a138981" tvg-name="Fairy Tail - 100 Years Quest S01 E06" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E06
+https://api.put.io/v2/files/1584850788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a3ba750d" tvg-name="Fairy Tail - 100 Years Quest S01 E07" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E07
+https://api.put.io/v2/files/1584900116/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="79523f40" tvg-name="Fairy Tail - 100 Years Quest S01 E15" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E15
+https://api.put.io/v2/files/1584829143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b8783adb" tvg-name="Fairy Tail - 100 Years Quest S01 E16" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E16
+https://api.put.io/v2/files/1584829081/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0a6c0e56" tvg-name="Fairy Tail - 100 Years Quest S01 E17" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E17
 https://api.put.io/v2/files/1584829400/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e5f6f6fd" tvg-name="Fairy Tail - 100 Years Quest S01 E18" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E18
 https://api.put.io/v2/files/1584829089/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e5f6f6fd" tvg-name="Fairy Tail - 100 Years Quest S01 E18" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E18
+https://api.put.io/v2/files/1584876611/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="22b9ef98" tvg-name="Fairy Tail - 100 Years Quest S01 E19" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E19
+https://api.put.io/v2/files/1584829188/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a44f01d2" tvg-name="Fairy Tail - 100 Years Quest S01 E20" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E20
+https://api.put.io/v2/files/1585238337/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d89d5655" tvg-name="Fairy Tail - 100 Years Quest S01 E21" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E21
+https://api.put.io/v2/files/1584829276/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5027405b" tvg-name="Fairy Tail - 100 Years Quest S01 E22" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E22
+https://api.put.io/v2/files/1584829177/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fe41c181" tvg-name="Fairy Tail - 100 Years Quest S01 E23" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E23
+https://api.put.io/v2/files/1584829176/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="42e095ce" tvg-name="Fairy Tail - 100 Years Quest S01 E24" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E24
+https://api.put.io/v2/files/1584829090/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ec5d3de1" tvg-name="Fairy Tail - 100 Years Quest S01 E25" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E25
+https://api.put.io/v2/files/1584829159/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cd419d5b" tvg-name="Ghost Concert - missing Songs S01 E04" tvg-logo="" group-title="Series | Geral",Ghost Concert - missing Songs S01 E04
+https://api.put.io/v2/files/1584085255/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cd419d5b" tvg-name="Ghost Concert - missing Songs S01 E04" tvg-logo="" group-title="Series | Geral",Ghost Concert - missing Songs S01 E04
+https://api.put.io/v2/files/1584101425/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="46c46412" tvg-name="Gintama - 3-nen Z-gumi Ginpachi-sensei S01 E04" tvg-logo="" group-title="Series | Historico",Gintama - 3-nen Z-gumi Ginpachi-sensei S01 E04
+https://api.put.io/v2/files/1584838902/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c5dcb8f5" tvg-name="Gintama - 3-nen Z-gumi Ginpachi-sensei S01 E07" tvg-logo="" group-title="Series | Historico",Gintama - 3-nen Z-gumi Ginpachi-sensei S01 E07
+https://api.put.io/v2/files/1584885668/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d2105170" tvg-name="Grand Blue S2 S01 E06" tvg-logo="" group-title="Series | Comedia",Grand Blue S2 S01 E06
+https://api.put.io/v2/files/1584892790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7c3dc3f0" tvg-name="Grand Blue S2 S01 E07" tvg-logo="" group-title="Series | Comedia",Grand Blue S2 S01 E07
+https://api.put.io/v2/files/1584839199/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c6201789" tvg-name="Haikyuu!! To The Top S01 E17" tvg-logo="" group-title="Series | Shounen",Haikyuu!! To The Top S01 E17
+https://api.put.io/v2/files/1584828411/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="05b3b35a" tvg-name="Haikyuu!! To The Top S01 E19" tvg-logo="" group-title="Series | Shounen",Haikyuu!! To The Top S01 E19
 https://api.put.io/v2/files/1584829185/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="825fd21d" tvg-name="Haikyuu!! To The Top S01 E22" tvg-logo="" group-title="Series | Shounen",Haikyuu!! To The Top S01 E22
+https://api.put.io/v2/files/1584824824/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="45936750" tvg-name="Haikyuu!! To The Top S01 E23" tvg-logo="" group-title="Series | Shounen",Haikyuu!! To The Top S01 E23
+https://api.put.io/v2/files/1584824801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="08eab1aa" tvg-name="Hajime no Ippo - Rising - 01 [ S01 E01" tvg-logo="" group-title="Series | Esportes",Hajime no Ippo - Rising - 01 [ S01 E01
+https://api.put.io/v2/files/1585196666/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="08eab1aa" tvg-name="Hajime no Ippo - Rising - 01 [ S01 E01" tvg-logo="" group-title="Series | Esportes",Hajime no Ippo - Rising - 01 [ S01 E01
+https://api.put.io/v2/files/1585196667/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="08eab1aa" tvg-name="Hajime no Ippo - Rising - 01 [ S01 E01" tvg-logo="" group-title="Series | Esportes",Hajime no Ippo - Rising - 01 [ S01 E01
+https://api.put.io/v2/files/1585196668/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1abc3fe8" tvg-name="Heavy Object S01 E01" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E01
+https://api.put.io/v2/files/1583908238/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fb303911" tvg-name="Heavy Object S01 E02" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E02
+https://api.put.io/v2/files/1583908239/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b2077d8e" tvg-name="Heavy Object S01 E03" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E03
+https://api.put.io/v2/files/1583908241/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="50c55b88" tvg-name="Heavy Object S01 E04" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E04
+https://api.put.io/v2/files/1583908243/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b91bbb91" tvg-name="Heavy Object S01 E05" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E05
+https://api.put.io/v2/files/1583908244/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="288e2763" tvg-name="Heavy Object S01 E06" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E06
+https://api.put.io/v2/files/1583908246/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="157417f7" tvg-name="Heavy Object S01 E07" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E07
+https://api.put.io/v2/files/1583908248/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="91da62f8" tvg-name="Heavy Object S01 E08" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E08
+https://api.put.io/v2/files/1583908249/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="033233fd" tvg-name="Heavy Object S01 E09" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E09
+https://api.put.io/v2/files/1583908251/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6c6aac46" tvg-name="Heavy Object S01 E10" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E10
+https://api.put.io/v2/files/1583908253/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fe4b5af3" tvg-name="Heavy Object S01 E11" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E11
+https://api.put.io/v2/files/1583908255/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2a4ead10" tvg-name="Heavy Object S01 E12" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E12
+https://api.put.io/v2/files/1583908256/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="aa3e5fc4" tvg-name="Heavy Object S01 E13" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E13
+https://api.put.io/v2/files/1583908258/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d0ca05b4" tvg-name="Heavy Object S01 E14" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E14
+https://api.put.io/v2/files/1583908260/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="837c2c48" tvg-name="Heavy Object S01 E15" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E15
+https://api.put.io/v2/files/1583908262/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1792fb32" tvg-name="Heavy Object S01 E16" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E16
+https://api.put.io/v2/files/1583908264/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="35a5fdb3" tvg-name="Heavy Object S01 E17" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E17
+https://api.put.io/v2/files/1583908265/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="72863871" tvg-name="Heavy Object S01 E18" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E18
+https://api.put.io/v2/files/1583908267/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1f44e42e" tvg-name="Heavy Object S01 E19" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E19
+https://api.put.io/v2/files/1583908269/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1d629e85" tvg-name="Heavy Object S01 E20" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E20
+https://api.put.io/v2/files/1583908270/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0f02807e" tvg-name="Heavy Object S01 E21" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E21
+https://api.put.io/v2/files/1583908272/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9f5ab95e" tvg-name="Heavy Object S01 E22" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E22
+https://api.put.io/v2/files/1583908273/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3f387171" tvg-name="Heavy Object S01 E23" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E23
+https://api.put.io/v2/files/1583908275/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4bb78a53" tvg-name="Heavy Object S01 E24" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E24
+https://api.put.io/v2/files/1583908277/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="d4d1d4b8" tvg-name="Himouto! Umaru-chan S01 E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28323/frZ8L2JimRc0AF1v85.jpg" group-title="Series | Slice of Life",Himouto! Umaru-chan S01 E01
 https://cdn.animeiat.tv/files/28323/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP01%5B720p%5D.mp4
 #EXTINF:0 CUID="d4d1d4b8" tvg-name="Himouto! Umaru-chan S01 E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28336/tvIv9tFc0vwI57kg85.jpg" group-title="Series | Slice of Life",Himouto! Umaru-chan S01 E01
@@ -155,6 +781,24 @@ https://cdn.animeiat.tv/files/28326/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_S
 https://cdn.animeiat.tv/files/28314/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP12%5B720p%5D.mp4
 #EXTINF:0 CUID="835fb845" tvg-name="Himouto! Umaru-chan S01 E12" tvg-logo="https://api.animeiat.co/storage/thumbnails/28334/OjoP0eSEQgPTEdOh30.jpg" group-title="Series | Slice of Life",Himouto! Umaru-chan S01 E12
 https://cdn.animeiat.tv/files/28334/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_2nd_Season_-_EP12%5B720p%5D.mp4
+#EXTINF:0 CUID="df68aaca" tvg-name="Honzuki no Gekokujou S01 E32" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S01 E32
+https://api.put.io/v2/files/1584840914/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b4d2da2e" tvg-name="Honzuki no Gekokujou S01 E33" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S01 E33
+https://api.put.io/v2/files/1585114875/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="06d3bc4a" tvg-name="Honzuki no Gekokujou S01 E34" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S01 E34
+https://api.put.io/v2/files/1584839235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="be61b21b" tvg-name="Horimiya S01 E03" tvg-logo="" group-title="Series | Romance",Horimiya S01 E03
+https://api.put.io/v2/files/1585237143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e622b9a1" tvg-name="Isekai Meikyuu de Harem wo S01 E01" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E01
+https://api.put.io/v2/files/1584885398/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5d42f820" tvg-name="Isekai Meikyuu de Harem wo S01 E02" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E02
+https://api.put.io/v2/files/1584889704/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="75e28143" tvg-name="Isekai Meikyuu de Harem wo S01 E09" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E09
+https://api.put.io/v2/files/1584887833/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="77883dd7" tvg-name="Isekai Nonbiri Nouka S2 S01 E04" tvg-logo="" group-title="Series | Isekai",Isekai Nonbiri Nouka S2 S01 E04
+https://api.put.io/v2/files/1584084932/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="77883dd7" tvg-name="Isekai Nonbiri Nouka S2 S01 E04" tvg-logo="" group-title="Series | Isekai",Isekai Nonbiri Nouka S2 S01 E04
+https://api.put.io/v2/files/1584084933/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="83dfcddc" tvg-name="Jujutsu Kaisen S01 E48" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E48
 https://api.put.io/v2/files/1584838178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="82acca8e" tvg-name="Jujutsu Kaisen S01 E49" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E49
@@ -199,36 +843,328 @@ https://api.put.io/v2/files/1584830212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584820772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b5d22c0" tvg-name="Jujutsu Kaisen S01 E59" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E59
 https://api.put.io/v2/files/1584830209/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="09067646" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E04" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E04
+https://api.put.io/v2/files/1585276833/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="85f94f93" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E09" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E09
+https://api.put.io/v2/files/1584880853/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8aa0e433" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E12" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E12
+https://api.put.io/v2/files/1584881065/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="57412c3c" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E13" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E13
+https://api.put.io/v2/files/1585192536/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="40a9bc70" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E01" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E01
+https://api.put.io/v2/files/1584886331/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2b4a807d" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E02" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E02
+https://api.put.io/v2/files/1584967321/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ccf9b688" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E06" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E06
+https://api.put.io/v2/files/1584889779/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0b4be078" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E07" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E07
+https://api.put.io/v2/files/1584885422/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3df642a5" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E08" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E08
+https://api.put.io/v2/files/1584885685/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2194350a" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E11" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E11
+https://api.put.io/v2/files/1584889959/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a5d19d30" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E12" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E12
 https://api.put.io/v2/files/1584885285/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5f2a9cf4" tvg-name="Kawaii dake ja Nai Shikimori-san S01 E03" tvg-logo="" group-title="Series | Slice of Life",Kawaii dake ja Nai Shikimori-san S01 E03
+https://api.put.io/v2/files/1584909012/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="439f0c3c" tvg-name="Kawaii dake ja Nai Shikimori-san S01 E04" tvg-logo="" group-title="Series | Slice of Life",Kawaii dake ja Nai Shikimori-san S01 E04
+https://api.put.io/v2/files/1584909099/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f556a5a8" tvg-name="Kawaii dake ja Nai Shikimori-san S01 E05" tvg-logo="" group-title="Series | Slice of Life",Kawaii dake ja Nai Shikimori-san S01 E05
+https://api.put.io/v2/files/1585112078/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="82b8fa7b" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E01" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E01
+https://api.put.io/v2/files/1584822460/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4e5af9e4" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E02" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E02
+https://api.put.io/v2/files/1584820944/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4e5af9e4" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E02" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E02
+https://api.put.io/v2/files/1584832629/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f1ce21bd" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E03" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E03
+https://api.put.io/v2/files/1584822426/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f1ce21bd" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E03" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E03
+https://api.put.io/v2/files/1584832737/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="39f6f4a7" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E04" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E04
+https://api.put.io/v2/files/1584820898/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="39f6f4a7" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E04" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E04
+https://api.put.io/v2/files/1584832701/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f71f726b" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E05" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E05
 https://api.put.io/v2/files/1584820768/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f71f726b" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E05" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E05
+https://api.put.io/v2/files/1584833085/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a8582148" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E06
 https://api.put.io/v2/files/1584820769/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a8582148" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E06
+https://api.put.io/v2/files/1584832970/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="20814a34" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E07" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E07
 https://api.put.io/v2/files/1584820770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="20814a34" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E07" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E07
+https://api.put.io/v2/files/1584833180/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="06fb80d9" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E08" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E08
+https://api.put.io/v2/files/1584823994/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="06fb80d9" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E08" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E08
+https://api.put.io/v2/files/1584833280/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="939f2a49" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E03" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E03
+https://api.put.io/v2/files/1584893108/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5204b831" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04
+https://api.put.io/v2/files/1585053733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="51cf9c11" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06
 https://api.put.io/v2/files/1584820771/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="83c3ae08" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E09" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E09
+https://api.put.io/v2/files/1584832973/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b2499c2f" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10
+https://api.put.io/v2/files/1584820911/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1c73153e" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11
 https://api.put.io/v2/files/1584830186/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b71fceea" tvg-name="Kingdom S6 S01 E01" tvg-logo="" group-title="Series | Historico",Kingdom S6 S01 E01
+https://api.put.io/v2/files/1584876612/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bd8cecfb" tvg-name="Kingdom S6 S01 E03" tvg-logo="" group-title="Series | Historico",Kingdom S6 S01 E03
+https://api.put.io/v2/files/1584903058/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8f914c7c" tvg-name="Kobayashi-san Chi no Maid Dragon S2 S01 E03" tvg-logo="" group-title="Series | Comedia",Kobayashi-san Chi no Maid Dragon S2 S01 E03
+https://api.put.io/v2/files/1585220466/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="eeaa64c5" tvg-name="Kobayashi-san Chi no Maid Dragon S2 S01 E05" tvg-logo="" group-title="Series | Comedia",Kobayashi-san Chi no Maid Dragon S2 S01 E05
+https://api.put.io/v2/files/1584881200/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9659c11c" tvg-name="Kobayashi-san Chi no Maid Dragon S2 S01 E06" tvg-logo="" group-title="Series | Comedia",Kobayashi-san Chi no Maid Dragon S2 S01 E06
+https://api.put.io/v2/files/1584881134/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="116d8340" tvg-name="Kobayashi-san Chi no Maid Dragon S2 S01 E08" tvg-logo="" group-title="Series | Comedia",Kobayashi-san Chi no Maid Dragon S2 S01 E08
+https://api.put.io/v2/files/1584875681/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8f0ed8bc" tvg-name="Kobayashi-san Chi no Maid Dragon S2 S01 E11" tvg-logo="" group-title="Series | Comedia",Kobayashi-san Chi no Maid Dragon S2 S01 E11
+https://api.put.io/v2/files/1584839280/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="420873d7" tvg-name="Kuroneko to Majo no Kyoushitsu S01 E03" tvg-logo="" group-title="Series | Geral",Kuroneko to Majo no Kyoushitsu S01 E03
+https://api.put.io/v2/files/1584104486/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a0fe1887" tvg-name="LIAR GAME S01 E04" tvg-logo="" group-title="Series | Geral",LIAR GAME S01 E04
+https://api.put.io/v2/files/1584084055/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a0fe1887" tvg-name="LIAR GAME S01 E04" tvg-logo="" group-title="Series | Geral",LIAR GAME S01 E04
+https://api.put.io/v2/files/1584084227/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="816483dd" tvg-name="Log Horizon S3 S01 E02" tvg-logo="" group-title="Series | Isekai",Log Horizon S3 S01 E02
+https://api.put.io/v2/files/1584955642/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e189f6b0" tvg-name="Log Horizon S3 S01 E03" tvg-logo="" group-title="Series | Isekai",Log Horizon S3 S01 E03
+https://api.put.io/v2/files/1584903097/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b298a7a9" tvg-name="Log Horizon S3 S01 E04" tvg-logo="" group-title="Series | Isekai",Log Horizon S3 S01 E04
+https://api.put.io/v2/files/1584839278/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bcad4cef" tvg-name="Maid-san wa Taberu Dake S01 E05" tvg-logo="" group-title="Series | Geral",Maid-san wa Taberu Dake S01 E05
+https://api.put.io/v2/files/1584107441/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ce3dda7b" tvg-name="Mashle S01 E01" tvg-logo="" group-title="Series | Shounen",Mashle S01 E01
+https://api.put.io/v2/files/1584839249/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b7b54f2a" tvg-name="Mashle S01 E02" tvg-logo="" group-title="Series | Shounen",Mashle S01 E02
+https://api.put.io/v2/files/1585238024/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="648cd0f7" tvg-name="Mashle S01 E04" tvg-logo="" group-title="Series | Shounen",Mashle S01 E04
+https://api.put.io/v2/files/1584839202/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1574a2ac" tvg-name="Mashle S01 E07" tvg-logo="" group-title="Series | Shounen",Mashle S01 E07
+https://api.put.io/v2/files/1584875859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="90dfc5f5" tvg-name="Mashle S01 E09" tvg-logo="" group-title="Series | Shounen",Mashle S01 E09
+https://api.put.io/v2/files/1584841220/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f5ffe202" tvg-name="Mashle S01 E11" tvg-logo="" group-title="Series | Shounen",Mashle S01 E11
+https://api.put.io/v2/files/1584839353/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="584f335f" tvg-name="Mashle S01 E12" tvg-logo="" group-title="Series | Shounen",Mashle S01 E12
+https://api.put.io/v2/files/1584824493/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be8eae92" tvg-name="Mashle S01 E14" tvg-logo="" group-title="Series | Shounen",Mashle S01 E14
 https://api.put.io/v2/files/1584829440/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8cb0abfe" tvg-name="Mashle S01 E16" tvg-logo="" group-title="Series | Shounen",Mashle S01 E16
+https://api.put.io/v2/files/1584829501/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="54083930" tvg-name="Mashle S01 E17" tvg-logo="" group-title="Series | Shounen",Mashle S01 E17
+https://api.put.io/v2/files/1584829640/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d5dedec5" tvg-name="Mashle S01 E18" tvg-logo="" group-title="Series | Shounen",Mashle S01 E18
+https://api.put.io/v2/files/1584824607/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d5dedec5" tvg-name="Mashle S01 E18" tvg-logo="" group-title="Series | Shounen",Mashle S01 E18
+https://api.put.io/v2/files/1584838454/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0a43c974" tvg-name="Mashle S01 E19" tvg-logo="" group-title="Series | Shounen",Mashle S01 E19
+https://api.put.io/v2/files/1584953850/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8a7acee4" tvg-name="Mashle S01 E20" tvg-logo="" group-title="Series | Shounen",Mashle S01 E20
+https://api.put.io/v2/files/1584823235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8a7acee4" tvg-name="Mashle S01 E20" tvg-logo="" group-title="Series | Shounen",Mashle S01 E20
+https://api.put.io/v2/files/1584881090/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="863bbf43" tvg-name="Mashle S01 E21" tvg-logo="" group-title="Series | Shounen",Mashle S01 E21
+https://api.put.io/v2/files/1584829618/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="863bbf43" tvg-name="Mashle S01 E21" tvg-logo="" group-title="Series | Shounen",Mashle S01 E21
+https://api.put.io/v2/files/1584880493/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b66161d8" tvg-name="Mashle S01 E22" tvg-logo="" group-title="Series | Shounen",Mashle S01 E22
+https://api.put.io/v2/files/1584829533/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b7ca8035" tvg-name="Mashle S01 E23" tvg-logo="" group-title="Series | Shounen",Mashle S01 E23
+https://api.put.io/v2/files/1584829639/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e2dfe6c8" tvg-name="Mashle S01 E24" tvg-logo="" group-title="Series | Shounen",Mashle S01 E24
+https://api.put.io/v2/files/1584829661/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c47ce2db" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E05" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E05
+https://api.put.io/v2/files/1584908739/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="26f82cfd" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E06" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E06
+https://api.put.io/v2/files/1584908749/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8060e1ba" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E08" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E08
+https://api.put.io/v2/files/1584839420/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="15686995" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E11" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E11
+https://api.put.io/v2/files/1584838425/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="87ccd87c" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E13" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E13
+https://api.put.io/v2/files/1585105825/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f9e4038a" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E15" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E15
+https://api.put.io/v2/files/1584841399/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d994bf37" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E17" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E17
+https://api.put.io/v2/files/1584839310/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="eb89c4ec" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E21" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E21
+https://api.put.io/v2/files/1585012303/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1696cac3" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E24" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E24
+https://api.put.io/v2/files/1584875674/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="58ec203e" tvg-name="Monogatari Series - Off & Monster Season S01 E04" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E04
+https://api.put.io/v2/files/1584875466/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f4801438" tvg-name="Monogatari Series - Off & Monster Season S01 E07" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E07
+https://api.put.io/v2/files/1585237276/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5de7e458" tvg-name="Monogatari Series - Off & Monster Season S01 E08" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E08
+https://api.put.io/v2/files/1584955069/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b62c59ac" tvg-name="Monogatari Series - Off & Monster Season S01 E10" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E10
+https://api.put.io/v2/files/1584876315/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a7438729" tvg-name="Monogatari Series - Off & Monster Season S01 E12" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E12
+https://api.put.io/v2/files/1584954352/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f9d97bdb" tvg-name="Monogatari Series - Off & Monster Season S01 E14" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E14
+https://api.put.io/v2/files/1584878043/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6a88db05" tvg-name="Mushoku Tensei S2 S01 E03" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E03
+https://api.put.io/v2/files/1585242819/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9df9441d" tvg-name="Mushoku Tensei S2 S01 E05" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E05
+https://api.put.io/v2/files/1584890502/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="494b2049" tvg-name="Mushoku Tensei S2 S01 E06" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E06
+https://api.put.io/v2/files/1584890561/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="96130c43" tvg-name="Mushoku Tensei S2 S01 E07" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E07
+https://api.put.io/v2/files/1584885450/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c6e0c792" tvg-name="Mushoku Tensei S2 S01 E11" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E11
+https://api.put.io/v2/files/1585237150/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e1801e25" tvg-name="Mushoku Tensei S2 S01 E12" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E12
+https://api.put.io/v2/files/1584953904/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4311032d" tvg-name="Mushoku Tensei S2 S01 E20" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E20
+https://api.put.io/v2/files/1584838666/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8ab9a565" tvg-name="Mushoku Tensei S2 S01 E23" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E23
+https://api.put.io/v2/files/1584838892/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="99f5edd2" tvg-name="NEEDY GIRL OVERDOSE S01 E04" tvg-logo="" group-title="Series | Geral",NEEDY GIRL OVERDOSE S01 E04
+https://api.put.io/v2/files/1584099446/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="99f5edd2" tvg-name="NEEDY GIRL OVERDOSE S01 E04" tvg-logo="" group-title="Series | Geral",NEEDY GIRL OVERDOSE S01 E04
+https://api.put.io/v2/files/1584104678/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1b072436" tvg-name="Niwatori Fighter S01 E07" tvg-logo="" group-title="Series | Geral",Niwatori Fighter S01 E07
+https://api.put.io/v2/files/1584099444/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1b072436" tvg-name="Niwatori Fighter S01 E07" tvg-logo="" group-title="Series | Geral",Niwatori Fighter S01 E07
+https://api.put.io/v2/files/1584107439/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="29a477cf" tvg-name="Nomad - Megalo Box 2 S01 E02" tvg-logo="" group-title="Series | Esportes",Nomad - Megalo Box 2 S01 E02
+https://api.put.io/v2/files/1584890936/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="886829a7" tvg-name="One-Punch Man S3 S01 E06" tvg-logo="" group-title="Series | Comedia",One-Punch Man S3 S01 E06
 https://api.put.io/v2/files/1584874822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7116401" tvg-name="One-Punch Man S3 S01 E08" tvg-logo="" group-title="Series | Comedia",One-Punch Man S3 S01 E08
 https://api.put.io/v2/files/1584880359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6777e2df" tvg-name="Overlord IV S01 E02" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E02
+https://api.put.io/v2/files/1584838478/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5a952087" tvg-name="Overlord IV S01 E03" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E03
+https://api.put.io/v2/files/1584953635/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c611801b" tvg-name="Overlord IV S01 E12" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E12
+https://api.put.io/v2/files/1584875745/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3df32332" tvg-name="Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04" tvg-logo="" group-title="Series | Geral",Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04
+https://api.put.io/v2/files/1584084276/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3df32332" tvg-name="Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04" tvg-logo="" group-title="Series | Geral",Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04
+https://api.put.io/v2/files/1584084930/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5dc3f9eb" tvg-name="Princess Lover 01 [Blu-ray S01 E01" tvg-logo="" group-title="Series | Geral",Princess Lover 01 [Blu-ray S01 E01
+https://api.put.io/v2/files/1585203047/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="318a2811" tvg-name="Princess Lover 02 [Blu-ray S01 E02" tvg-logo="" group-title="Series | Geral",Princess Lover 02 [Blu-ray S01 E02
+https://api.put.io/v2/files/1585203048/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="751cfcef" tvg-name="Princess Lover 03 [Blu-ray S01 E03" tvg-logo="" group-title="Series | Geral",Princess Lover 03 [Blu-ray S01 E03
+https://api.put.io/v2/files/1585203049/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0c8098ca" tvg-name="Princess Lover 04 [Blu-ray S01 E04" tvg-logo="" group-title="Series | Geral",Princess Lover 04 [Blu-ray S01 E04
+https://api.put.io/v2/files/1585203050/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="26e97033" tvg-name="Princess Lover 05 [Blu-ray S01 E05" tvg-logo="" group-title="Series | Geral",Princess Lover 05 [Blu-ray S01 E05
+https://api.put.io/v2/files/1585203051/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d3db286f" tvg-name="Princess Lover 06 [Blu-ray S01 E06" tvg-logo="" group-title="Series | Geral",Princess Lover 06 [Blu-ray S01 E06
+https://api.put.io/v2/files/1585203052/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="829d9cfa" tvg-name="Princess Lover 07 [Blu-ray S01 E07" tvg-logo="" group-title="Series | Geral",Princess Lover 07 [Blu-ray S01 E07
+https://api.put.io/v2/files/1585203053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="317e8375" tvg-name="Princess Lover 08 [Blu-ray S01 E08" tvg-logo="" group-title="Series | Geral",Princess Lover 08 [Blu-ray S01 E08
+https://api.put.io/v2/files/1585203054/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="494cabf7" tvg-name="Princess Lover 09 [Blu-ray S01 E09" tvg-logo="" group-title="Series | Geral",Princess Lover 09 [Blu-ray S01 E09
+https://api.put.io/v2/files/1585203055/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bf96c90d" tvg-name="Princess Lover 10 [Blu-ray S01 E10" tvg-logo="" group-title="Series | Geral",Princess Lover 10 [Blu-ray S01 E10
+https://api.put.io/v2/files/1585203056/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3e669dab" tvg-name="Princess Lover 11 [Blu-ray S01 E11" tvg-logo="" group-title="Series | Geral",Princess Lover 11 [Blu-ray S01 E11
+https://api.put.io/v2/files/1585203057/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dac25f98" tvg-name="Princess Lover 12 [Blu-ray S01 E12" tvg-logo="" group-title="Series | Geral",Princess Lover 12 [Blu-ray S01 E12
+https://api.put.io/v2/files/1585203058/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="220373f1" tvg-name="Re Monster S01 E06" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E06
+https://api.put.io/v2/files/1584838736/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bd58d18a" tvg-name="Re Monster S01 E08" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E08
+https://api.put.io/v2/files/1584880707/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dabaa2c9" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E52" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E52
+https://api.put.io/v2/files/1585102258/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ae1a43bb" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E53" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E53
+https://api.put.io/v2/files/1585053442/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b8836ba3" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E54" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E54
+https://api.put.io/v2/files/1585008717/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bb88053b" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E56" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E56
+https://api.put.io/v2/files/1585071566/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e98081a6" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E58" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E58
+https://api.put.io/v2/files/1584874943/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c130d411" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E60" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E60
+https://api.put.io/v2/files/1584875027/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b50120c8" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E62" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E62
+https://api.put.io/v2/files/1584953703/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="73f90c2d" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E63" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E63
+https://api.put.io/v2/files/1584838625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="330e64db" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E65" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E65
+https://api.put.io/v2/files/1584880473/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bc934722" tvg-name="Retry! R S01 E01" tvg-logo="" group-title="Series | Geral",Retry! R S01 E01
+https://api.put.io/v2/files/1584885651/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ac369dcb" tvg-name="Retry! R S01 E02" tvg-logo="" group-title="Series | Geral",Retry! R S01 E02
+https://api.put.io/v2/files/1584885652/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="754dc9ac" tvg-name="Retry! R S01 E03" tvg-logo="" group-title="Series | Geral",Retry! R S01 E03
+https://api.put.io/v2/files/1584885667/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="85752c57" tvg-name="Retry! R S01 E05" tvg-logo="" group-title="Series | Geral",Retry! R S01 E05
+https://api.put.io/v2/files/1584900342/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="531bef05" tvg-name="Retry! R S01 E06" tvg-logo="" group-title="Series | Geral",Retry! R S01 E06
+https://api.put.io/v2/files/1584885644/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c119219d" tvg-name="Retry! R S01 E11" tvg-logo="" group-title="Series | Geral",Retry! R S01 E11
+https://api.put.io/v2/files/1584885506/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="daf87920" tvg-name="Retry! R S01 E12" tvg-logo="" group-title="Series | Geral",Retry! R S01 E12
+https://api.put.io/v2/files/1584885515/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e3c342fe" tvg-name="Rurouni Kenshin S01 E23" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E23
+https://api.put.io/v2/files/1585013010/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="810a05ea" tvg-name="Rurouni Kenshin S01 E24" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E24
+https://api.put.io/v2/files/1584842117/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="58894ddc" tvg-name="Rurouni Kenshin S01 E25" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E25
+https://api.put.io/v2/files/1585010845/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a3aa2a68" tvg-name="Rurouni Kenshin S01 E26" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E26
+https://api.put.io/v2/files/1584829164/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a3aa2a68" tvg-name="Rurouni Kenshin S01 E26" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E26
+https://api.put.io/v2/files/1585011103/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8503648e" tvg-name="Rurouni Kenshin S01 E27" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E27
+https://api.put.io/v2/files/1585191064/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="42df6227" tvg-name="Rurouni Kenshin S01 E28" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E28
+https://api.put.io/v2/files/1584953796/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="08fe8d71" tvg-name="Rurouni Kenshin S01 E29" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E29
+https://api.put.io/v2/files/1585011097/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b42989b0" tvg-name="Rurouni Kenshin S01 E30" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E30
 https://api.put.io/v2/files/1584829123/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="53d8d481" tvg-name="Rurouni Kenshin S01 E31" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E31
+https://api.put.io/v2/files/1584882243/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="920d5fa6" tvg-name="Rurouni Kenshin S01 E32" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E32
+https://api.put.io/v2/files/1584953731/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="78327a8c" tvg-name="Rurouni Kenshin S01 E34" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E34
+https://api.put.io/v2/files/1584841053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dac9f9b2" tvg-name="Rurouni Kenshin S01 E37" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E37
+https://api.put.io/v2/files/1584885686/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="808d1baf" tvg-name="Rurouni Kenshin S01 E38" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E38
+https://api.put.io/v2/files/1584878414/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="17063c2d" tvg-name="Rurouni Kenshin S01 E39" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E39
+https://api.put.io/v2/files/1584828883/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="17063c2d" tvg-name="Rurouni Kenshin S01 E39" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E39
+https://api.put.io/v2/files/1584840446/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="291fbd73" tvg-name="Rurouni Kenshin S01 E40" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E40
+https://api.put.io/v2/files/1584833518/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6da1094e" tvg-name="Rurouni Kenshin S01 E41" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E41
+https://api.put.io/v2/files/1584829535/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="03269d6e" tvg-name="Rurouni Kenshin S01 E42" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E42
 https://api.put.io/v2/files/1584829359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19c5e6bd" tvg-name="Rurouni Kenshin S01 E43" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E43
 https://api.put.io/v2/files/1584829088/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="19c5e6bd" tvg-name="Rurouni Kenshin S01 E43" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E43
+https://api.put.io/v2/files/1584833006/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="17a208ed" tvg-name="Rurouni Kenshin S01 E44" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E44
 https://api.put.io/v2/files/1584829084/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="17a208ed" tvg-name="Rurouni Kenshin S01 E44" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E44
+https://api.put.io/v2/files/1584890549/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0aaa5d95" tvg-name="Rurouni Kenshin S01 E45" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E45
 https://api.put.io/v2/files/1584829085/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c5594d16" tvg-name="Rurouni Kenshin S01 E46" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E46
 https://api.put.io/v2/files/1584829076/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4c763712" tvg-name="Rurouni Kenshin S01 E47" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E47
+https://api.put.io/v2/files/1584829086/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8cd64ee6" tvg-name="Shikizakura S01 E07" tvg-logo="" group-title="Series | Geral",Shikizakura S01 E07
+https://api.put.io/v2/files/1585012314/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="7adc4c4b" tvg-name="Shingeki no Kyojin S01 E69" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E69
 https://api.put.io/v2/files/1584820800/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="50cac7b6" tvg-name="Shingeki no Kyojin S01 E70" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E70
@@ -252,20 +1188,162 @@ https://api.put.io/v2/files/1584830233/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e112cf4b" tvg-name="Shingeki no Kyojin S01 E83" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E83
 https://api.put.io/v2/files/1584830239/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="4cebb42a" tvg-name="Shingeki no Kyojin S01 E84" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E84
+https://api.put.io/v2/files/1584823726/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4cebb42a" tvg-name="Shingeki no Kyojin S01 E84" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E84
 https://api.put.io/v2/files/1584830234/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e8165382" tvg-name="Shingeki no Kyojin S01 E85" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E85
 https://api.put.io/v2/files/1584830238/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9eff7481" tvg-name="Shingeki no Kyojin S01 E86" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E86
 https://api.put.io/v2/files/1584830237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c635bcfc" tvg-name="Shingeki no Kyojin S01 E87" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E87
+https://api.put.io/v2/files/1584823310/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c635bcfc" tvg-name="Shingeki no Kyojin S01 E87" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E87
 https://api.put.io/v2/files/1584830236/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="aa1c6c8b" tvg-name="Shingeki no Kyojin - The Final Season Part 3 S01 E01" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin - The Final Season Part 3 S01 E01
 https://api.put.io/v2/files/1584820793/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="aa1c6c8b" tvg-name="Shingeki no Kyojin - The Final Season Part 3 S01 E01" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin - The Final Season Part 3 S01 E01
+https://api.put.io/v2/files/1584833033/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="519bc70e" tvg-name="Shingeki no Kyojin - The Final Season Part 3 S01 E02" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin - The Final Season Part 3 S01 E02
+https://api.put.io/v2/files/1584824689/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="519bc70e" tvg-name="Shingeki no Kyojin - The Final Season Part 3 S01 E02" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin - The Final Season Part 3 S01 E02
+https://api.put.io/v2/files/1584833119/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6ec4d6b0" tvg-name="Spy x Family S01 E38" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E38
+https://api.put.io/v2/files/1584821629/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c1fd4714" tvg-name="Spy x Family S01 E41" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E41
+https://api.put.io/v2/files/1584821643/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b0970078" tvg-name="Spy x Family S01 E42" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E42
+https://api.put.io/v2/files/1584821632/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3139dcf8" tvg-name="Spy x Family S01 E43" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E43
+https://api.put.io/v2/files/1584821635/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1a8012ae" tvg-name="Spy x Family S01 E44" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E44
+https://api.put.io/v2/files/1584821617/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a4a94f39" tvg-name="Spy x Family S01 E45" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E45
+https://api.put.io/v2/files/1584821649/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a4a94f39" tvg-name="Spy x Family S01 E45" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E45
+https://api.put.io/v2/files/1584831116/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dcde62ff" tvg-name="Spy x Family S01 E46" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E46
+https://api.put.io/v2/files/1584821639/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dcde62ff" tvg-name="Spy x Family S01 E46" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E46
+https://api.put.io/v2/files/1584875412/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b602de87" tvg-name="Spy x Family S01 E48" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E48
+https://api.put.io/v2/files/1584821625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="225029f8" tvg-name="Spy x Family S01 E49" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E49
+https://api.put.io/v2/files/1584821621/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="225029f8" tvg-name="Spy x Family S01 E49" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E49
+https://api.put.io/v2/files/1584838474/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="03a5b46b" tvg-name="Spy x Family S01 E50" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E50
+https://api.put.io/v2/files/1584821610/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="7e32ecb9" tvg-name="Sword Art Online Alternative - Gun Gale Online S2 S01 E09" tvg-logo="" group-title="Series | Isekai",Sword Art Online Alternative - Gun Gale Online S2 S01 E09
 https://api.put.io/v2/files/1585073820/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="efa48923" tvg-name="Sword Art Online Alternative - Gun Gale Online S2 S01 E12" tvg-logo="" group-title="Series | Isekai",Sword Art Online Alternative - Gun Gale Online S2 S01 E12
 https://api.put.io/v2/files/1584874816/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b51a21fa" tvg-name="Tensei Shitara Slime Datta Ken S01 E53" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E53
+https://api.put.io/v2/files/1584875511/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bb1f8b66" tvg-name="Tensei Shitara Slime Datta Ken S01 E56" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E56
 https://api.put.io/v2/files/1585025580/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a0153af1" tvg-name="Tensei Shitara Slime Datta Ken S01 E57" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E57
+https://api.put.io/v2/files/1585023733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="436da968" tvg-name="Tensei Shitara Slime Datta Ken S01 E61" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E61
+https://api.put.io/v2/files/1585024353/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="94ab64b2" tvg-name="Tensei Shitara Slime Datta Ken S01 E62" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E62
 https://api.put.io/v2/files/1584880358/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="20d9292d" tvg-name="Tensei Shitara Slime Datta Ken S01 E71" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E71
+https://api.put.io/v2/files/1584838696/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e0739856" tvg-name="The Quintessential Quintuplets S02 E01" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E01
+https://api.put.io/v2/files/1585194858/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1f9fd0e7" tvg-name="The Quintessential Quintuplets S02 E02" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E02
+https://api.put.io/v2/files/1585194712/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a5a38716" tvg-name="The Quintessential Quintuplets S02 E03" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E03
+https://api.put.io/v2/files/1585194860/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b399d0fb" tvg-name="The Quintessential Quintuplets S02 E04" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E04
+https://api.put.io/v2/files/1585194861/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6177ff81" tvg-name="The Quintessential Quintuplets S02 E05" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E05
+https://api.put.io/v2/files/1585194826/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0df1cc86" tvg-name="The Quintessential Quintuplets S02 E06" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E06
+https://api.put.io/v2/files/1585194846/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9848c39a" tvg-name="The Quintessential Quintuplets S02 E07" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E07
+https://api.put.io/v2/files/1585194853/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7acf1b24" tvg-name="The Quintessential Quintuplets S02 E08" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E08
+https://api.put.io/v2/files/1585194833/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f580c2be" tvg-name="The Quintessential Quintuplets S02 E09" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E09
+https://api.put.io/v2/files/1585194859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="79d68747" tvg-name="The Quintessential Quintuplets S02 E10" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E10
+https://api.put.io/v2/files/1585194836/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="830c6c12" tvg-name="The Quintessential Quintuplets S02 E11" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E11
+https://api.put.io/v2/files/1585194855/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="44718df7" tvg-name="The Quintessential Quintuplets S02 E12" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E12
+https://api.put.io/v2/files/1585194856/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="378585be" tvg-name="Tongari Boushi no Atelier S01 E05" tvg-logo="" group-title="Series | Geral",Tongari Boushi no Atelier S01 E05
+https://api.put.io/v2/files/1584101423/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4597fe2c" tvg-name="Tsue to Tsurugi no Wistoria S2 S01 E03" tvg-logo="" group-title="Series | Geral",Tsue to Tsurugi no Wistoria S2 S01 E03
+https://api.put.io/v2/files/1584093725/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4597fe2c" tvg-name="Tsue to Tsurugi no Wistoria S2 S01 E03" tvg-logo="" group-title="Series | Geral",Tsue to Tsurugi no Wistoria S2 S01 E03
+https://api.put.io/v2/files/1584104487/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9fd2d532" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E01" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E01
+https://api.put.io/v2/files/1584832962/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e2ece121" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E02" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E02
+https://api.put.io/v2/files/1584833122/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ab557106" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E03" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E03
+https://api.put.io/v2/files/1584885538/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d84cb87d" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E04" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E04
+https://api.put.io/v2/files/1584833118/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="67e86fa8" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E05" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E05
+https://api.put.io/v2/files/1584832844/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a1d96761" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E06" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E06
+https://api.put.io/v2/files/1584890558/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9d7132f1" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E07" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E07
+https://api.put.io/v2/files/1584832963/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="79bf8d9d" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E08" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E08
+https://api.put.io/v2/files/1584838955/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3fa6efbe" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E09" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E09
+https://api.put.io/v2/files/1584833137/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3a7b80c7" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E10" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E10
+https://api.put.io/v2/files/1584832697/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="156ab43e" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E11" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E11
+https://api.put.io/v2/files/1584833568/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9a019a71" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E12" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E12
+https://api.put.io/v2/files/1584833008/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9a01f4d3" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E13" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E13
+https://api.put.io/v2/files/1584820817/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9a01f4d3" tvg-name="Vigilante - Boku no Hero Academia Illegals S2 S01 E13" tvg-logo="" group-title="Series | Shounen",Vigilante - Boku no Hero Academia Illegals S2 S01 E13
+https://api.put.io/v2/files/1584832175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e42002d8" tvg-name="Vinland Saga S2 S01 E01" tvg-logo="" group-title="Series | Seinen",Vinland Saga S2 S01 E01
+https://api.put.io/v2/files/1584880858/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4522f6c0" tvg-name="Vinland Saga S2 S01 E08" tvg-logo="" group-title="Series | Seinen",Vinland Saga S2 S01 E08
+https://api.put.io/v2/files/1584876357/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5f1b1b7f" tvg-name="Vinland Saga S2 S01 E09" tvg-logo="" group-title="Series | Seinen",Vinland Saga S2 S01 E09
+https://api.put.io/v2/files/1585238309/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="77e7b7d8" tvg-name="Vinland Saga S2 S01 E12" tvg-logo="" group-title="Series | Seinen",Vinland Saga S2 S01 E12
+https://api.put.io/v2/files/1584875892/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bb333133" tvg-name="Vinland Saga S2 S01 E14" tvg-logo="" group-title="Series | Seinen",Vinland Saga S2 S01 E14
+https://api.put.io/v2/files/1585024419/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e8e2d18f" tvg-name="Vinland Saga S2 S01 E15" tvg-logo="" group-title="Series | Seinen",Vinland Saga S2 S01 E15
+https://api.put.io/v2/files/1584838960/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c0d2746f" tvg-name="Wind Breaker S01 E02" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E02
+https://api.put.io/v2/files/1585053695/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ca582fa5" tvg-name="Wind Breaker S01 E04" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E04
+https://api.put.io/v2/files/1584890625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d6a6475a" tvg-name="Wind Breaker S01 E06" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E06
+https://api.put.io/v2/files/1584885522/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b33e422c" tvg-name="Wind Breaker S01 E07" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E07
+https://api.put.io/v2/files/1585277260/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="13c3ad2c" tvg-name="Wind Breaker S01 E10" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E10
+https://api.put.io/v2/files/1585010859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4c2bc4df" tvg-name="Wind Breaker S01 E11" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E11
+https://api.put.io/v2/files/1584892865/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
+https://api.put.io/v2/files/1584824624/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
+https://api.put.io/v2/files/1584885729/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0a9177d7" tvg-name="Wind Breaker S01 E21" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E21
+https://api.put.io/v2/files/1584824625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2108b9f5" tvg-name="Wind Breaker S01 E23" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E23
+https://api.put.io/v2/files/1584824477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fe951e71" tvg-name="Wind Breaker S01 E24" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E24
+https://api.put.io/v2/files/1584824626/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="68bec623" tvg-name="Wind Breaker S01 E25" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E25
+https://api.put.io/v2/files/1584824492/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="89d39d68" tvg-name="Yuusha no Kuzu S01 E15" tvg-logo="" group-title="Series | Geral",Yuusha no Kuzu S01 E15
+https://api.put.io/v2/files/1584099445/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="89d39d68" tvg-name="Yuusha no Kuzu S01 E15" tvg-logo="" group-title="Series | Geral",Yuusha no Kuzu S01 E15
+https://api.put.io/v2/files/1584107438/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
