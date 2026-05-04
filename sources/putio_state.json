@@ -9183,7 +9183,27 @@
       "stream_url": null,
       "status": "pending",
       "created_at": "2026-05-03T23:49:15.524769+00:00"
+    },
+    "7502af2ba94d3fb4b70cdfdcf83c469a98572ee5": {
+      "title": "[SubsPlease] Wind Breaker - 07 (720p) [7C1397BB].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105204325,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T02:44:18.650593+00:00"
+    },
+    "e5eacdfb87abf1a3d2bcd40405b5d9213b00c860": {
+      "title": "[SubsPlease] Kaguya-sama wa Kokurasetai S3 - 04 (720p) [2DD8F298].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105204326,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T02:44:19.277021+00:00"
     }
   },
-  "last_run": "2026-05-03T23:49:16.449167+00:00"
+  "last_run": "2026-05-04T02:44:20.357570+00:00"
 }
