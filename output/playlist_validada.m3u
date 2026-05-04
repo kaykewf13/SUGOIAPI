@@ -5,8 +5,6 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -907,6 +905,8 @@ https://api.put.io/v2/files/1584893108/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585053733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="51cf9c11" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06
 https://api.put.io/v2/files/1584820771/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e23fd043" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E08" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E08
+https://api.put.io/v2/files/1585297515/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="83c3ae08" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E09" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E09
 https://api.put.io/v2/files/1584832973/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b2499c2f" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10
