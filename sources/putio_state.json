@@ -9233,10 +9233,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105205884,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-04T04:53:38.746341+00:00"
+      "file_id": 1585297515,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585297515/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-04T04:53:38.746341+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585297515/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-04T09:12:02.773218+00:00"
     },
     "af856dcf1021f1ad00d0d7e3e0717d3e737e7924": {
       "title": "[SubsPlease] Haikyuu!! To The Top - 18 (720p) [7E17A8EB].mkv",
@@ -9247,7 +9251,47 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-04T08:05:24.311479+00:00"
+    },
+    "9d5838276a1d2e31d2491f73468a630f53cd9b0f": {
+      "title": "[SubsPlease] Boku no Hero Academia - 167 (720p) [EF051C54].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105209125,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T09:11:59.033174+00:00"
+    },
+    "a0ef206cf0abf34004096ddc2255c1efc3671eb2": {
+      "title": "[SubsPlease] Boku no Hero Academia - 166 (720p) [42F496C4].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105209126,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T09:11:59.724799+00:00"
+    },
+    "2d7b4e52411e4b39a8c24f67ffe38fd55098ab13": {
+      "title": "[SubsPlease] Black Clover - 158 (720p) [96D0D86C].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105209127,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T09:12:00.445921+00:00"
+    },
+    "ae0c4e78bdf46d616a4a6825611b3f34001a657c": {
+      "title": "[SubsPlease] Haikyuu!! To The Top - 14 (720p) [969E1AC6].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105209128,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T09:12:01.137991+00:00"
     }
   },
-  "last_run": "2026-05-04T08:05:25.316330+00:00"
+  "last_run": "2026-05-04T09:12:02.773251+00:00"
 }
