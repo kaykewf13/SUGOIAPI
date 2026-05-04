@@ -1,14 +1,23 @@
 """
-SUGOIAPI - pipeline.py v3.7.2
+SUGOIAPI - pipeline.py v3.7.3
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
 
+Mudancas v3.7.3:
+- Reconhece episodios soltos no formato "Princess Lover 01 Uncensored"
+- Reconhece tags tecnicas como marcador de episodio: BD, HDTV, BluRay, x264, x265, 720p, 1080p, etc
+- Reconhece formato fansub "Serie - 01 - Titulo" e "Serie - 01 [tag]"
+- Suporte a S01E0142 (4 digitos no episodio para One Piece e similares)
+- Suporte a S01 E55 (espaco opcional entre S e E - formato IPTV Editor)
+
+Mudancas v3.7.2:
+- Put.io URLs (api.put.io/.../stream) sempre VOD, nunca caem no fallback live
+- classificar_item refatorada com is_putio_url + is_vod_url determinista
+
 Mudancas v3.6:
-- Bug critico corrigido: parse_serie nao e mais reentrante.
-  Antes: chamadas multiplas sobre o mesmo item geravam "Episodio 001 E01 E01 E01"
-  Agora: cada item e processado UMA vez; nome e group-title sao deterministicos.
-- group-title fixo: "Series | <Categoria> | <NomeSerie>" sem hierarquia infinita
+- Bug critico corrigido: parse_serie nao e mais reentrante
+- group-title fixo: "Series | <Categoria>" sem hierarquia infinita
 - Deteccao de episodio extrai metadados sem mutar o nome original
 """
 
@@ -134,7 +143,7 @@ class Item:
 # ================================================================
 
 EP_PATTERNS = [
-    (re.compile(r"S(\d{1,2})E(\d{1,3})", re.IGNORECASE),
+    (re.compile(r"S(\d{1,2})\s*E(\d{1,4})", re.IGNORECASE),
      lambda m: (str(int(m.group(1))).zfill(2), str(int(m.group(2))).zfill(2))),
 
     (re.compile(r"\bEP\s*(\d{1,3})\b", re.IGNORECASE),
@@ -148,6 +157,18 @@ EP_PATTERNS = [
 
     (re.compile(r"(\d+)(?:st|nd|rd|th)\s+Season", re.IGNORECASE),
      lambda m: (m.group(1).zfill(2), "01")),
+
+    # Episodio solto seguido de tag tecnica/qualificador (anywhere na string)
+    # Ex: "Princess Lover 01 Uncensored", "Bleach 01 BD 1080p", "Naruto 142 BD 720p"
+    # Requer espaco/inicio antes do numero pra nao casar dentro de outras palavras
+    # NAO match "01. Titulo" (filme - usa ponto, nao espaco)
+    (re.compile(r"(?:^|\s)(\d{1,3})\s+(?:Uncensored|BD|HDTV|WEB|WEBRip|BluRay|DVDRip|HEVC|x264|x265|\d{3,4}p|\[)",
+                re.IGNORECASE),
+     lambda m: ("01", m.group(1).zfill(2))),
+
+    # Episodio com formato "- 01 -" ou "- 01 [" (padrao comum em fansubs)
+    (re.compile(r"\s-\s(\d{1,3})\s(?:-|\[|$)"),
+     lambda m: ("01", m.group(1).zfill(2))),
 
     (re.compile(r"[\s\-_\.]\s*(\d{2,3})\s*(?:\(|\[|\.|$)"),
      lambda m: ("01", str(int(m.group(1))).zfill(2) if int(m.group(1)) < 100 else m.group(1))),
@@ -180,13 +201,18 @@ def extrair_nome_serie(name):
     """
     Remove sufixos de episodio para obter o nome base da serie.
     Exemplo: "Naruto Shippuden S03E15 [1080p]" -> "Naruto Shippuden"
+    Exemplo: "Princess Lover 01 Uncensored [BD 720p]" -> "Princess Lover"
     """
     cleanup_patterns = [
-        r"\s*[-_]?\s*S\d{1,2}E\d{1,3}.*",
+        r"\s*[-_]?\s*S\d{1,2}\s*E\d{1,4}.*",
         r"\s*[-_]?\s*EP\s*\d{1,3}.*",
         r"\s*[-_]?\s*Epis[oó]dio\s*\d{1,3}.*",
         r"\s*[-_]?\s*Temporada\s*\d{1,2}.*",
         r"\s*[-_]?\s*\d+(?:st|nd|rd|th)\s+Season.*",
+        # Numero solto seguido de tag tecnica - corta ANTES do numero
+        r"\s+\d{1,3}\s+(?:Uncensored|BD|HDTV|WEB|WEBRip|BluRay|DVDRip|HEVC|x264|x265|\d{3,4}p|\[).*",
+        # Formato fansub "Serie - 01 - extras" ou "Serie - 01 [tag]"
+        r"\s+-\s+\d{1,3}\s+(?:-|\[).*",
         r"\s*[-_]?\s*\(?\d{3,4}p\)?.*",
         r"\s*\[.*?\]",
         r"\s*\(.*?\)",
