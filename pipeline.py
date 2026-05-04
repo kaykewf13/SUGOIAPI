@@ -1,5 +1,5 @@
 """
-SUGOIAPI - pipeline.py v3.7.1
+SUGOIAPI - pipeline.py v3.7.2
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
@@ -273,21 +273,31 @@ def classificar_item(item):
     """
     Classifica o item em live/movie/series.
     UMA chamada por item. Determinista. Sem recursao.
-    """
-    url_lower  = item.url.lower()
 
-    # Live: streams .m3u8 ou .ts
-    if any(ext in url_lower for ext in (".m3u8", ".ts", "/manifest")):
+    Ordem de verificacao:
+    1. Put.io URL (api.put.io/.../stream) -> sempre VOD (series ou movie)
+    2. URL contem .m3u8/.ts/manifest -> live
+    3. URL contem .mp4/.mkv/.avi -> VOD (series ou movie)
+    4. Fallback -> live com categoria "Geral"
+    """
+    url_lower = item.url.lower()
+
+    # Detecta URL VOD por dominio/padrao - inclui Put.io
+    is_putio_url = "api.put.io" in url_lower and "/stream" in url_lower
+    is_file_url  = any(ext in url_lower for ext in (".mp4", ".mkv", ".avi"))
+    is_vod_url   = is_putio_url or is_file_url
+
+    # Live: streams .m3u8 ou .ts (mas nao Put.io)
+    if not is_vod_url and any(ext in url_lower for ext in (".m3u8", ".ts", "/manifest")):
         item.kind = "live"
         item.category = detectar_categoria_canal(item.name)
         return item
 
-    # Series: padrao de episodio detectavel + URL VOD + nome de serie identificavel
+    # Series: tem padrao de episodio detectavel + nome de serie identificavel
     temp, ep = parse_episode(item.name)
     serie_name = extrair_nome_serie(item.name)
-    is_vod_url = (".mp4" in url_lower or ".mkv" in url_lower or "stream" in url_lower)
 
-    if temp and ep and is_vod_url and serie_name and len(serie_name) >= 3:
+    if is_vod_url and temp and ep and serie_name and len(serie_name) >= 3:
         item.kind       = "series"
         item.temporada  = temp
         item.episodio   = ep
@@ -295,10 +305,13 @@ def classificar_item(item):
         item.category   = detectar_categoria_anime(serie_name) or "Geral"
         return item
 
-    # Movie: .mp4 sem padrao de episodio
-    if any(ext in url_lower for ext in (".mp4", ".mkv", ".avi")):
+    # Movie: VOD sem padrao de episodio (Put.io ou .mp4/.mkv)
+    if is_vod_url:
         item.kind = "movie"
-        item.category = detectar_categoria_anime(item.name) or "Geral"
+        # Tenta extrair nome limpo mesmo sem episodio
+        nome_limpo = serie_name if serie_name and len(serie_name) >= 3 else item.name
+        item.name = nome_limpo
+        item.category = detectar_categoria_anime(nome_limpo) or "Geral"
         return item
 
     # Fallback: trata como Live
@@ -350,7 +363,7 @@ def fetch_url(url):
 
 def main():
     print("=" * 50)
-    print("  SUGOIAPI - Pipeline v3.7.1")
+    print("  SUGOIAPI - Pipeline v3.7.2")
     print("=" * 50 + "\n")
 
     todos = []
