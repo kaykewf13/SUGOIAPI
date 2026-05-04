@@ -1,8 +1,12 @@
 """
-SUGOIAPI - pipeline.py v3.7.3
+SUGOIAPI - pipeline.py v3.7.4
 
 Pipeline IPTV que consome multiplas fontes M3U, classifica entradas em
 Live/VOD/Series, agrupa por categoria e gera output/playlist_validada.m3u
+
+Mudancas v3.7.4:
+- Reconhece episodios com versao de release: "Serie - 01v2", "Anime - 05v3"
+- v2/v3 indica re-encode/correcao do mesmo episodio (comum em fansubs)
 
 Mudancas v3.7.3:
 - Reconhece episodios soltos no formato "Princess Lover 01 Uncensored"
@@ -170,6 +174,11 @@ EP_PATTERNS = [
     (re.compile(r"\s-\s(\d{1,3})\s(?:-|\[|$)"),
      lambda m: ("01", m.group(1).zfill(2))),
 
+    # Episodio com versao de release: "Serie - 01v2", "Anime - 05v3"
+    # v2/v3 indica re-release/correcao do mesmo episodio
+    (re.compile(r"\s-\s(\d{1,3})v\d+(?:\s|$|\.)"),
+     lambda m: ("01", m.group(1).zfill(2))),
+
     (re.compile(r"[\s\-_\.]\s*(\d{2,3})\s*(?:\(|\[|\.|$)"),
      lambda m: ("01", str(int(m.group(1))).zfill(2) if int(m.group(1)) < 100 else m.group(1))),
 ]
@@ -213,6 +222,8 @@ def extrair_nome_serie(name):
         r"\s+\d{1,3}\s+(?:Uncensored|BD|HDTV|WEB|WEBRip|BluRay|DVDRip|HEVC|x264|x265|\d{3,4}p|\[).*",
         # Formato fansub "Serie - 01 - extras" ou "Serie - 01 [tag]"
         r"\s+-\s+\d{1,3}\s+(?:-|\[).*",
+        # Versao de release "Serie - 01v2"
+        r"\s+-\s+\d{1,3}v\d+.*",
         r"\s*[-_]?\s*\(?\d{3,4}p\)?.*",
         r"\s*\[.*?\]",
         r"\s*\(.*?\)",
