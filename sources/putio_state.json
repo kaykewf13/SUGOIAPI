@@ -9317,10 +9317,26 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105222933,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-04T21:34:14.462293+00:00"
+      "file_id": 1585429875,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585429876/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429877/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429878/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429879/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429880/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429881/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429882/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429883/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429884/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429885/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429886/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429887/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585429888/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-04T21:34:14.462293+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585429876/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-04T23:59:12.368271+00:00"
     },
     "4cd01676b7bd72034b4446124d8bd214b058e996": {
       "title": "[SubsPlease] Yakusoku no Neverland S2 - 03 (720p) [ACA2171D].mkv",
@@ -9351,7 +9367,37 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-04T21:34:16.552560+00:00"
+    },
+    "ee794541d9804fce7d5627f4595850aa0412ccaf": {
+      "title": "[SubsPlease] Vigilante - Boku no Hero Academia Illegals S2 (01-13) (720p) [Batch]",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105226129,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T23:59:09.892203+00:00"
+    },
+    "741f94ec33bcad4e657257af32ee523163dee6a5": {
+      "title": "[SubsPlease] Kingdom S5 - 11 (720p) [54EB940D].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105226130,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T23:59:10.545149+00:00"
+    },
+    "c57b5e9e0da6156cafe205684ef1d8e96c9ceb53": {
+      "title": "[SubsPlease] Horimiya - Piece - 03 (720p) [0E0A76FF].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105226131,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T23:59:11.188142+00:00"
     }
   },
-  "last_run": "2026-05-04T21:34:17.631775+00:00"
+  "last_run": "2026-05-04T23:59:12.368301+00:00"
 }
