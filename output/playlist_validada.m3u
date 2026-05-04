@@ -5,6 +5,8 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -891,6 +893,8 @@ https://api.put.io/v2/files/1584832973/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584820911/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1c73153e" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11
 https://api.put.io/v2/files/1584830186/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="236b091e" tvg-name="Kingdom S5 S01 E12" tvg-logo="" group-title="Series | Historico",Kingdom S5 S01 E12
+https://api.put.io/v2/files/1585341351/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b71fceea" tvg-name="Kingdom S6 S01 E01" tvg-logo="" group-title="Series | Historico",Kingdom S6 S01 E01
 https://api.put.io/v2/files/1584876612/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bd8cecfb" tvg-name="Kingdom S6 S01 E03" tvg-logo="" group-title="Series | Historico",Kingdom S6 S01 E03
@@ -1341,6 +1345,8 @@ https://api.put.io/v2/files/1584892865/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584824624/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
 https://api.put.io/v2/files/1584885729/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a3f6b329" tvg-name="Wind Breaker S01 E16" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E16
+https://api.put.io/v2/files/1585343499/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0a9177d7" tvg-name="Wind Breaker S01 E21" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E21
 https://api.put.io/v2/files/1584824625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2108b9f5" tvg-name="Wind Breaker S01 E23" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E23
