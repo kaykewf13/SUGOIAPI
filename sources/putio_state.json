@@ -9291,7 +9291,27 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-04T09:12:01.137991+00:00"
+    },
+    "d7e99738f1d8d65ce5d47ecc4de513c7cfec3e09": {
+      "title": "[SubsPlease] Wind Breaker - 16 (720p) [1220608B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105210076,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T10:39:29.059837+00:00"
+    },
+    "7993f0441ca5c3caae422029b8653c48e8b9afb4": {
+      "title": "[SubsPlease] Kingdom S5 - 12 (720p) [BB7D5DAE].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105210077,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-04T10:39:29.706231+00:00"
     }
   },
-  "last_run": "2026-05-04T09:12:02.773251+00:00"
+  "last_run": "2026-05-04T10:39:30.685379+00:00"
 }
