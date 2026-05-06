@@ -995,12 +995,38 @@ https://api.put.io/v2/files/1584890936/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584874822/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7116401" tvg-name="One-Punch Man S3 S01 E08" tvg-logo="" group-title="Series | Comedia",One-Punch Man S3 S01 E08
 https://api.put.io/v2/files/1584880359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8f5ba37e" tvg-name="Overlord IV S01 E01" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E01
+https://api.put.io/v2/files/1585517166/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6777e2df" tvg-name="Overlord IV S01 E02" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E02
+https://api.put.io/v2/files/1585517167/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6777e2df" tvg-name="Overlord IV S01 E02" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E02
 https://api.put.io/v2/files/1584838478/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5a952087" tvg-name="Overlord IV S01 E03" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E03
+https://api.put.io/v2/files/1585517168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5a952087" tvg-name="Overlord IV S01 E03" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E03
 https://api.put.io/v2/files/1584953635/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="88fb908a" tvg-name="Overlord IV S01 E04" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E04
+https://api.put.io/v2/files/1585517169/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="bda4aff1" tvg-name="Overlord IV S01 E05" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E05
+https://api.put.io/v2/files/1585517170/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="70af6eaf" tvg-name="Overlord IV S01 E06" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E06
+https://api.put.io/v2/files/1585517171/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c8fddd69" tvg-name="Overlord IV S01 E07" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E07
+https://api.put.io/v2/files/1585517172/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="983087c1" tvg-name="Overlord IV S01 E08" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E08
+https://api.put.io/v2/files/1585517173/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cf8dfdb3" tvg-name="Overlord IV S01 E09" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E09
+https://api.put.io/v2/files/1585517174/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="62f6b2b7" tvg-name="Overlord IV S01 E10" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E10
+https://api.put.io/v2/files/1585517175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="00424820" tvg-name="Overlord IV S01 E11" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E11
+https://api.put.io/v2/files/1585517176/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c611801b" tvg-name="Overlord IV S01 E12" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E12
+https://api.put.io/v2/files/1585517177/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c611801b" tvg-name="Overlord IV S01 E12" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E12
 https://api.put.io/v2/files/1584875745/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="436aba4d" tvg-name="Overlord IV S01 E13" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E13
+https://api.put.io/v2/files/1585517178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6e163fde" tvg-name="Peter Grill To Kenja No Jikan S01 E01" tvg-logo="" group-title="Series | Ecchi e Harem",Peter Grill To Kenja No Jikan S01 E01
 https://api.put.io/v2/files/1585194253/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6e163fde" tvg-name="Peter Grill To Kenja No Jikan S01 E01" tvg-logo="" group-title="Series | Ecchi e Harem",Peter Grill To Kenja No Jikan S01 E01
@@ -1115,6 +1141,8 @@ https://api.put.io/v2/files/1584829123/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584882243/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="920d5fa6" tvg-name="Rurouni Kenshin S01 E32" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E32
 https://api.put.io/v2/files/1584953731/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4334b614" tvg-name="Rurouni Kenshin S01 E33" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E33
+https://api.put.io/v2/files/1585516919/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="78327a8c" tvg-name="Rurouni Kenshin S01 E34" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E34
 https://api.put.io/v2/files/1584841053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="dac9f9b2" tvg-name="Rurouni Kenshin S01 E37" tvg-logo="" group-title="Series | Acao e Aventura",Rurouni Kenshin S01 E37

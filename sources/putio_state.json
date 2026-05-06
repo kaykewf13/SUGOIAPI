@@ -9413,21 +9413,121 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105239390,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-05T09:38:00.948526+00:00"
+      "file_id": 1585516919,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585516919/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-05T09:38:00.948526+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585516919/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-06T10:40:12.182633+00:00"
     },
     "fdf3ca83cd209668f7d644ae02ce4096a69ea302": {
       "title": "[SubsPlease] Overlord IV (01-13) (720p) [Batch]",
       "category": "Isekai",
       "logo": "",
       "transfer_id": 105239392,
+      "file_id": 1585517165,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585517166/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517167/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517169/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517170/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517171/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517172/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517173/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517174/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517176/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517177/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1585517178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-05T09:38:01.622926+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585517166/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-06T10:40:12.392126+00:00"
+    },
+    "2c3df40f24e25f8ecd655de3ec5819a4b69299de": {
+      "title": "[SubsPlease] Black Clover - 161 (720p) [5521AE47].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105265751,
       "file_id": null,
       "stream_urls": [],
       "status": "pending",
-      "created_at": "2026-05-05T09:38:01.622926+00:00"
+      "created_at": "2026-05-06T10:40:06.109240+00:00"
+    },
+    "8f7a3f6bb3309fa9f1c320c7de557395c23184c3": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 21 (720p) [66EC5ABB].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105265752,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:06.747432+00:00"
+    },
+    "5b5fcfdce548fe6b2de4a4a79a9abe7df648958f": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 63 (720p) [865923A8].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105265753,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:07.418426+00:00"
+    },
+    "3d6d47ea889632be5e81248afd71d41b6575b5ca": {
+      "title": "[SubsPlease] Horimiya - 12 (720p) [8A9825ED].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105265754,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:08.049906+00:00"
+    },
+    "6d3ce01b02901823915c7d5e917cde09770995ae": {
+      "title": "[SubsPlease] Horimiya - 10 (720p) [F09312BE].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105265755,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:08.685716+00:00"
+    },
+    "6724bb452b2b66e15b06b55d3627c87311a13ad0": {
+      "title": "[SubsPlease] Horimiya - 08 (720p) [951C0D17].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105265756,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:09.595734+00:00"
+    },
+    "49c95f285a0de9e826a42d61bc2173266aae6a5b": {
+      "title": "[SubsPlease] Horimiya - 07 (720p) [545A1BF1].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105265757,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:10.274597+00:00"
+    },
+    "d71752ce3b8009c0564f806fb6cae275db6c9c75": {
+      "title": "[SubsPlease] Horimiya - 06 (720p) [35ABB4E8].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105265758,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-06T10:40:10.904675+00:00"
     }
   },
-  "last_run": "2026-05-05T09:38:02.609288+00:00"
+  "last_run": "2026-05-06T10:40:12.392155+00:00"
 }
