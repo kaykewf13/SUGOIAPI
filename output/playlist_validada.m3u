@@ -5,6 +5,8 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -149,6 +151,8 @@ https://api.put.io/v2/files/1584824754/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585329296/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e6af4c9c" tvg-name="Black Clover S01 E160" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E160
 https://api.put.io/v2/files/1584829682/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1b898a30" tvg-name="Black Clover S01 E161" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E161
+https://api.put.io/v2/files/1585716650/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9fc8ea87" tvg-name="Black Clover S01 E167" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E167
 https://api.put.io/v2/files/1584826728/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b848af5e" tvg-name="Black Clover S01 E170" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E170
@@ -309,6 +313,10 @@ https://api.put.io/v2/files/1583936495/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584838195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="cf9f8475" tvg-name="Dandadan S01 E04" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E04
 https://api.put.io/v2/files/1585242586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="74b58a5c" tvg-name="Dandadan S01 E06" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E06
+https://api.put.io/v2/files/1585909952/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="67f99683" tvg-name="Dandadan S01 E07" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E07
+https://api.put.io/v2/files/1585909951/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3d612c87" tvg-name="Dandadan S01 E13" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E13
 https://api.put.io/v2/files/1584822154/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bf635a85" tvg-name="Dandadan S01 E14" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E14
@@ -471,6 +479,8 @@ https://api.put.io/v2/files/1584829188/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585238337/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="d89d5655" tvg-name="Fairy Tail - 100 Years Quest S01 E21" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E21
 https://api.put.io/v2/files/1584829276/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d89d5655" tvg-name="Fairy Tail - 100 Years Quest S01 E21" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E21
+https://api.put.io/v2/files/1585714732/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5027405b" tvg-name="Fairy Tail - 100 Years Quest S01 E22" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E22
 https://api.put.io/v2/files/1584829177/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="fe41c181" tvg-name="Fairy Tail - 100 Years Quest S01 E23" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E23
@@ -713,6 +723,16 @@ https://api.put.io/v2/files/1585114875/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584839235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be61b21b" tvg-name="Horimiya S01 E03" tvg-logo="" group-title="Series | Romance",Horimiya S01 E03
 https://api.put.io/v2/files/1585237143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9b1f51af" tvg-name="Horimiya S01 E06" tvg-logo="" group-title="Series | Romance",Horimiya S01 E06
+https://api.put.io/v2/files/1585715568/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="03dd32a1" tvg-name="Horimiya S01 E07" tvg-logo="" group-title="Series | Romance",Horimiya S01 E07
+https://api.put.io/v2/files/1585715391/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1a0f28eb" tvg-name="Horimiya S01 E08" tvg-logo="" group-title="Series | Romance",Horimiya S01 E08
+https://api.put.io/v2/files/1585715533/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d0b69713" tvg-name="Horimiya S01 E10" tvg-logo="" group-title="Series | Romance",Horimiya S01 E10
+https://api.put.io/v2/files/1585715519/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="45f55d8e" tvg-name="Horimiya S01 E12" tvg-logo="" group-title="Series | Romance",Horimiya S01 E12
+https://api.put.io/v2/files/1585714730/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e622b9a1" tvg-name="Isekai Meikyuu de Harem wo S01 E01" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E01
 https://api.put.io/v2/files/1584885398/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e622b9a1" tvg-name="Isekai Meikyuu de Harem wo S01 E01" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E01
@@ -998,13 +1018,13 @@ https://api.put.io/v2/files/1584880359/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8f5ba37e" tvg-name="Overlord IV S01 E01" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E01
 https://api.put.io/v2/files/1585517166/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6777e2df" tvg-name="Overlord IV S01 E02" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E02
-https://api.put.io/v2/files/1585517167/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-#EXTINF:0 CUID="6777e2df" tvg-name="Overlord IV S01 E02" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E02
 https://api.put.io/v2/files/1584838478/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-#EXTINF:0 CUID="5a952087" tvg-name="Overlord IV S01 E03" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E03
-https://api.put.io/v2/files/1585517168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6777e2df" tvg-name="Overlord IV S01 E02" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E02
+https://api.put.io/v2/files/1585517167/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5a952087" tvg-name="Overlord IV S01 E03" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E03
 https://api.put.io/v2/files/1584953635/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5a952087" tvg-name="Overlord IV S01 E03" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E03
+https://api.put.io/v2/files/1585517168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="88fb908a" tvg-name="Overlord IV S01 E04" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E04
 https://api.put.io/v2/files/1585517169/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bda4aff1" tvg-name="Overlord IV S01 E05" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E05
@@ -1022,9 +1042,9 @@ https://api.put.io/v2/files/1585517175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="00424820" tvg-name="Overlord IV S01 E11" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E11
 https://api.put.io/v2/files/1585517176/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c611801b" tvg-name="Overlord IV S01 E12" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E12
-https://api.put.io/v2/files/1585517177/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
-#EXTINF:0 CUID="c611801b" tvg-name="Overlord IV S01 E12" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E12
 https://api.put.io/v2/files/1584875745/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c611801b" tvg-name="Overlord IV S01 E12" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E12
+https://api.put.io/v2/files/1585517177/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="436aba4d" tvg-name="Overlord IV S01 E13" tvg-logo="" group-title="Series | Isekai",Overlord IV S01 E13
 https://api.put.io/v2/files/1585517178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6e163fde" tvg-name="Peter Grill To Kenja No Jikan S01 E01" tvg-logo="" group-title="Series | Ecchi e Harem",Peter Grill To Kenja No Jikan S01 E01
@@ -1105,6 +1125,8 @@ https://api.put.io/v2/files/1584953703/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584838625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="330e64db" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E65" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E65
 https://api.put.io/v2/files/1584880473/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ae8ddc2a" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E71" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E71
+https://api.put.io/v2/files/1585909953/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bc934722" tvg-name="Retry! R S01 E01" tvg-logo="" group-title="Series | Geral",Retry! R S01 E01
 https://api.put.io/v2/files/1584885651/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ac369dcb" tvg-name="Retry! R S01 E02" tvg-logo="" group-title="Series | Geral",Retry! R S01 E02
@@ -1283,6 +1305,8 @@ https://api.put.io/v2/files/1585023733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585024353/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="94ab64b2" tvg-name="Tensei Shitara Slime Datta Ken S01 E62" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E62
 https://api.put.io/v2/files/1584880358/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9b31c89e" tvg-name="Tensei Shitara Slime Datta Ken S01 E63" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E63
+https://api.put.io/v2/files/1585712213/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="20d9292d" tvg-name="Tensei Shitara Slime Datta Ken S01 E71" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E71
 https://api.put.io/v2/files/1584838696/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e0739856" tvg-name="The Quintessential Quintuplets S02 E01" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E01

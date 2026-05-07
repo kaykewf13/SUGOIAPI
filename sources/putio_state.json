@@ -9527,7 +9527,69 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-06T10:40:10.904675+00:00"
+    },
+    "f5c14f776ad55bd104bf881b11b972c3bbe543f9": {
+      "title": "[SubsPlease] Dandadan - 07 (720p) [8C525D61].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105277646,
+      "file_id": 1585909951,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585909951/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-07T01:36:14.954307+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585909951/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-07T01:36:18.918847+00:00"
+    },
+    "f6592ee8c018036304fb2d1e857c3bb18688cbf3": {
+      "title": "[SubsPlease] Dandadan - 06 (720p) [8A8D8C72].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105277647,
+      "file_id": 1585909952,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585909952/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-07T01:36:15.641015+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585909952/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-07T01:36:19.059920+00:00"
+    },
+    "75f428e335e9277b2960e046a8dcfc664814c434": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 10 (720p) [17B457FD].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105277648,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-07T01:36:16.326309+00:00"
+    },
+    "c5416626ba71a56493f0ad91cb8fe5aad843c285": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 71 (720p) [18E7868D].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105277649,
+      "file_id": 1585909953,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585909953/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-07T01:36:17.006202+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585909953/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-07T01:36:19.203596+00:00"
+    },
+    "f92a8d198435b4ad33153cffd7106b5f5635f2f3": {
+      "title": "[SubsPlease] Kaguya-sama wa Kokurasetai S3 - 02 (720p) [E8E99D60].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105277650,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-07T01:36:17.691169+00:00"
     }
   },
-  "last_run": "2026-05-06T10:40:12.392155+00:00"
+  "last_run": "2026-05-07T01:36:19.203618+00:00"
 }
