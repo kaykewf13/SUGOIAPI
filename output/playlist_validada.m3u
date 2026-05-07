@@ -5,8 +5,6 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -811,6 +809,8 @@ https://api.put.io/v2/files/1584830212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584820772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b5d22c0" tvg-name="Jujutsu Kaisen S01 E59" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E59
 https://api.put.io/v2/files/1584830209/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="41838175" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E02" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E02
+https://api.put.io/v2/files/1585910082/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="09067646" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E04" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E04
 https://api.put.io/v2/files/1585276833/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="85f94f93" tvg-name="Kaguya-sama wa Kokurasetai S3 S01 E09" tvg-logo="" group-title="Series | Romance",Kaguya-sama wa Kokurasetai S3 S01 E09
@@ -961,6 +961,8 @@ https://api.put.io/v2/files/1584908739/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584908749/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8060e1ba" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E08" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E08
 https://api.put.io/v2/files/1584839420/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7719f997" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E10" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E10
+https://api.put.io/v2/files/1585914369/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="15686995" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E11" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E11
 https://api.put.io/v2/files/1584838425/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="87ccd87c" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E13" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E13
@@ -1301,6 +1303,8 @@ https://api.put.io/v2/files/1584875511/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585025580/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a0153af1" tvg-name="Tensei Shitara Slime Datta Ken S01 E57" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E57
 https://api.put.io/v2/files/1585023733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="d45dc59e" tvg-name="Tensei Shitara Slime Datta Ken S01 E58" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E58
+https://api.put.io/v2/files/1585987041/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="436da968" tvg-name="Tensei Shitara Slime Datta Ken S01 E61" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E61
 https://api.put.io/v2/files/1585024353/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="94ab64b2" tvg-name="Tensei Shitara Slime Datta Ken S01 E62" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E62

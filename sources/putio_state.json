@@ -9589,7 +9589,41 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-07T01:36:17.691169+00:00"
+    },
+    "1437bc4222858b27a932b52420bb6a0765dd54c2": {
+      "title": "[SubsPlease] Dr. Stone S4 - 21 (720p) [69244914].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105283320,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-07T11:00:28.718561+00:00"
+    },
+    "5159403b61e42fb416cbd2894e4778dcf5a3c0ab": {
+      "title": "[SubsPlease] Yakusoku no Neverland S2 - 02 (720p) [73AA1499].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105283321,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-07T11:00:29.345083+00:00"
+    },
+    "daf6d68ee06865a4f22938bc4f3e0723d229aada": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 58 (720p) [83CF103F].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105283322,
+      "file_id": 1585987041,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585987041/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-07T11:00:29.975679+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585987041/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-07T11:00:31.009220+00:00"
     }
   },
-  "last_run": "2026-05-07T01:36:19.203618+00:00"
+  "last_run": "2026-05-07T11:00:31.009248+00:00"
 }
