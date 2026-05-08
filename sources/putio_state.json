@@ -9595,10 +9595,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105283320,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-07T11:00:28.718561+00:00"
+      "file_id": 1585987237,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1585987237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-07T11:00:28.718561+00:00",
+      "stream_url": "https://api.put.io/v2/files/1585987237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-08T05:27:51.871926+00:00"
     },
     "5159403b61e42fb416cbd2894e4778dcf5a3c0ab": {
       "title": "[SubsPlease] Yakusoku no Neverland S2 - 02 (720p) [73AA1499].mkv",
@@ -9623,7 +9627,67 @@
       "created_at": "2026-05-07T11:00:29.975679+00:00",
       "stream_url": "https://api.put.io/v2/files/1585987041/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-05-07T11:00:31.009220+00:00"
+    },
+    "5720bd1cf58018130f8dd23e44f05b9ecf97817c": {
+      "title": "[SubsPlease] Chainsaw Man - 05 (720p) [637008B3].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105307296,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-08T05:27:47.281043+00:00"
+    },
+    "43d832dfc2718793fc93e83ac602e85d0843721b": {
+      "title": "[SubsPlease] Dr. Stone S4 - 30 (720p) [403C8293].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105307297,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-08T05:27:47.951223+00:00"
+    },
+    "d1fa1b156e56eb4c66175f76caa6cda8e0fadad0": {
+      "title": "[SubsPlease] 16bit Sensation - Another Layer - 03 (720p) [3A3CEEA3].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105307298,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-08T05:27:48.632467+00:00"
+    },
+    "f242da90acf21d16a69e883c7527453eb6afec7e": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 14 (720p) [A8B80F0D].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105307299,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-08T05:27:49.298810+00:00"
+    },
+    "1473e59061f9d44e01a2f0631e7b572d2067c000": {
+      "title": "[SubsPlease] Horimiya - 09 (720p) [6D048FF6].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105307300,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-08T05:27:49.973697+00:00"
+    },
+    "19aa2f96cdcec042e96e78373bb647451fb251a4": {
+      "title": "[SubsPlease] Horimiya - 05 (720p) [B1B31012].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105307301,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-08T05:27:50.645833+00:00"
     }
   },
-  "last_run": "2026-05-07T11:00:31.009248+00:00"
+  "last_run": "2026-05-08T05:27:51.871971+00:00"
 }

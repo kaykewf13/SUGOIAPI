@@ -5,6 +5,8 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -383,6 +385,8 @@ https://api.put.io/v2/files/1584838806/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585237168/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="50ef3c80" tvg-name="Dr. Stone S4 S01 E18" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E18
 https://api.put.io/v2/files/1584831137/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a2f23614" tvg-name="Dr. Stone S4 S01 E21" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E21
+https://api.put.io/v2/files/1585987237/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c5559b42" tvg-name="Dr. Stone S4 S01 E22" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E22
 https://api.put.io/v2/files/1584821850/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="06b18269" tvg-name="Dr. Stone S4 S01 E23" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E23
@@ -1435,6 +1439,8 @@ https://api.put.io/v2/files/1584824477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584824626/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="68bec623" tvg-name="Wind Breaker S01 E25" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E25
 https://api.put.io/v2/files/1584824492/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2232a1ec" tvg-name="Yakusoku no Neverland S2 S01 E02" tvg-logo="" group-title="Series | Psicologico",Yakusoku no Neverland S2 S01 E02
+https://api.put.io/v2/files/1585990413/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="89d39d68" tvg-name="Yuusha no Kuzu S01 E15" tvg-logo="" group-title="Series | Geral",Yuusha no Kuzu S01 E15
 https://api.put.io/v2/files/1584099445/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="89d39d68" tvg-name="Yuusha no Kuzu S01 E15" tvg-logo="" group-title="Series | Geral",Yuusha no Kuzu S01 E15
