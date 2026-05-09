@@ -99,6 +99,8 @@ https://api.put.io/v2/files/1584827053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584835636/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Kawaii dake ja Nai Shikimori-san - SP1" tvg-logo="" group-title="Filmes | Slice of Life",Kawaii dake ja Nai Shikimori-san - SP1
 https://api.put.io/v2/files/1584890920/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c39faef1" tvg-name="16bit Sensation - Another Layer S01 E03" tvg-logo="" group-title="Series | Terror e Suspense",16bit Sensation - Another Layer S01 E03
+https://api.put.io/v2/files/1586165758/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bde07000" tvg-name="16bit Sensation - Another Layer S01 E04" tvg-logo="" group-title="Series | Terror e Suspense",16bit Sensation - Another Layer S01 E04
 https://api.put.io/v2/files/1585024119/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b297093" tvg-name="16bit Sensation - Another Layer S01 E05" tvg-logo="" group-title="Series | Terror e Suspense",16bit Sensation - Another Layer S01 E05
@@ -247,6 +249,8 @@ https://api.put.io/v2/files/1584829394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584829392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9b026a2e" tvg-name="Chainsaw Man S01 E04" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E04
 https://api.put.io/v2/files/1585191488/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="28be2315" tvg-name="Chainsaw Man S01 E05" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E05
+https://api.put.io/v2/files/1586166570/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="49dec429" tvg-name="Chainsaw Man S01 E10" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E10
 https://api.put.io/v2/files/1584829393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e8b22d2a" tvg-name="Chainsaw Man S01 E11" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E11
@@ -409,6 +413,8 @@ https://api.put.io/v2/files/1584829390/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584821750/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6e023ec3" tvg-name="Dr. Stone S4 S01 E29" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E29
 https://api.put.io/v2/files/1584821772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3244851c" tvg-name="Dr. Stone S4 S01 E30" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E30
+https://api.put.io/v2/files/1586165152/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
 https://api.put.io/v2/files/1584822433/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
@@ -725,12 +731,16 @@ https://api.put.io/v2/files/1585114875/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584839235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be61b21b" tvg-name="Horimiya S01 E03" tvg-logo="" group-title="Series | Romance",Horimiya S01 E03
 https://api.put.io/v2/files/1585237143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="6294616c" tvg-name="Horimiya S01 E05" tvg-logo="" group-title="Series | Romance",Horimiya S01 E05
+https://api.put.io/v2/files/1586168185/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9b1f51af" tvg-name="Horimiya S01 E06" tvg-logo="" group-title="Series | Romance",Horimiya S01 E06
 https://api.put.io/v2/files/1585715568/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="03dd32a1" tvg-name="Horimiya S01 E07" tvg-logo="" group-title="Series | Romance",Horimiya S01 E07
 https://api.put.io/v2/files/1585715391/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1a0f28eb" tvg-name="Horimiya S01 E08" tvg-logo="" group-title="Series | Romance",Horimiya S01 E08
 https://api.put.io/v2/files/1585715533/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="14ea5fa3" tvg-name="Horimiya S01 E09" tvg-logo="" group-title="Series | Romance",Horimiya S01 E09
+https://api.put.io/v2/files/1586168209/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="d0b69713" tvg-name="Horimiya S01 E10" tvg-logo="" group-title="Series | Romance",Horimiya S01 E10
 https://api.put.io/v2/files/1585715519/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="45f55d8e" tvg-name="Horimiya S01 E12" tvg-logo="" group-title="Series | Romance",Horimiya S01 E12
@@ -1317,6 +1327,8 @@ https://api.put.io/v2/files/1584880358/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585712213/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="20d9292d" tvg-name="Tensei Shitara Slime Datta Ken S01 E71" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S01 E71
 https://api.put.io/v2/files/1584838696/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8fbc7225" tvg-name="Tensei Shitara Slime Datta Ken S4 S01 E05" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S4 S01 E05
+https://api.put.io/v2/files/1586318229/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e0739856" tvg-name="The Quintessential Quintuplets S02 E01" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E01
 https://api.put.io/v2/files/1585194858/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1f9fd0e7" tvg-name="The Quintessential Quintuplets S02 E02" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E02
