@@ -5,8 +5,6 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -427,6 +425,8 @@ https://api.put.io/v2/files/1584833575/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584832770/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="cd1ac9ea" tvg-name="Dragon Ball Daima S01 E04" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E04
 https://api.put.io/v2/files/1584900334/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e205da6e" tvg-name="Dragon Ball Daima S01 E05" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E05
+https://api.put.io/v2/files/1586320619/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="582939fc" tvg-name="Dragon Ball Daima S01 E06" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E06
 https://api.put.io/v2/files/1584823658/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="582939fc" tvg-name="Dragon Ball Daima S01 E06" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E06
@@ -1119,6 +1119,8 @@ https://api.put.io/v2/files/1585203056/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585203057/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ebb3ac78" tvg-name="Princess Lover S01 E12" tvg-logo="" group-title="Series | Geral",Princess Lover S01 E12
 https://api.put.io/v2/files/1585203058/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2b91e0d9" tvg-name="Re Monster S01 E04" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E04
+https://api.put.io/v2/files/1586318603/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="220373f1" tvg-name="Re Monster S01 E06" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E06
 https://api.put.io/v2/files/1584838736/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bd58d18a" tvg-name="Re Monster S01 E08" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E08
@@ -1247,6 +1249,8 @@ https://api.put.io/v2/files/1584820796/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584820795/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="71ccdc7f" tvg-name="Shingeki no Kyojin S01 E75" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E75
 https://api.put.io/v2/files/1584820794/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="41167fef" tvg-name="Shingeki no Kyojin S01 E76" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E76
+https://api.put.io/v2/files/1586508155/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e0cd6d9f" tvg-name="Shingeki no Kyojin S01 E78" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E78
 https://api.put.io/v2/files/1584830235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b23aca97" tvg-name="Shingeki no Kyojin S01 E79" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E79
