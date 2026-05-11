@@ -91,6 +91,8 @@ https://api.put.io/v2/files/1584830175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584953586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
 https://api.put.io/v2/files/1585190282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://api.put.io/v2/files/1586718801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
 https://api.put.io/v2/files/1584827053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
@@ -243,6 +245,8 @@ https://api.put.io/v2/files/1585024440/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585244024/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="031cf81f" tvg-name="Chainsaw Man S01 E02" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E02
 https://api.put.io/v2/files/1584829394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e246c7eb" tvg-name="Chainsaw Man S01 E03" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E03
+https://api.put.io/v2/files/1586509255/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9b026a2e" tvg-name="Chainsaw Man S01 E04" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E04
 https://api.put.io/v2/files/1584829392/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9b026a2e" tvg-name="Chainsaw Man S01 E04" tvg-logo="" group-title="Series | Shounen",Chainsaw Man S01 E04
@@ -675,6 +679,8 @@ https://api.put.io/v2/files/1583908273/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1583908275/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="4bb78a53" tvg-name="Heavy Object S01 E24" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E24
 https://api.put.io/v2/files/1583908277/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="cf36d0e9" tvg-name="Higurashi no Naku Koro ni Sotsu S01 E07" tvg-logo="" group-title="Series | Terror e Suspense",Higurashi no Naku Koro ni Sotsu S01 E07
+https://api.put.io/v2/files/1586509801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="d4d1d4b8" tvg-name="Himouto! Umaru-chan S01 E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28323/frZ8L2JimRc0AF1v85.jpg" group-title="Series | Slice of Life",Himouto! Umaru-chan S01 E01
 https://cdn.animeiat.tv/files/28323/%5BAnimeiat.co%5DHimouto%21_Umaru-chan_-_EP01%5B720p%5D.mp4
 #EXTINF:0 CUID="d4d1d4b8" tvg-name="Himouto! Umaru-chan S01 E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28336/tvIv9tFc0vwI57kg85.jpg" group-title="Series | Slice of Life",Himouto! Umaru-chan S01 E01
@@ -729,6 +735,8 @@ https://api.put.io/v2/files/1584840914/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585114875/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="06d3bc4a" tvg-name="Honzuki no Gekokujou S01 E34" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S01 E34
 https://api.put.io/v2/files/1584839235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="369f68de" tvg-name="Honzuki no Gekokujou S4 S01 E05" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S4 S01 E05
+https://api.put.io/v2/files/1586508254/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be61b21b" tvg-name="Horimiya S01 E03" tvg-logo="" group-title="Series | Romance",Horimiya S01 E03
 https://api.put.io/v2/files/1585237143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6294616c" tvg-name="Horimiya S01 E05" tvg-logo="" group-title="Series | Romance",Horimiya S01 E05
@@ -837,6 +845,10 @@ https://api.put.io/v2/files/1585192536/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584886331/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b4a807d" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E02" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E02
 https://api.put.io/v2/files/1584967321/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7d7d566b" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E03" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E03
+https://api.put.io/v2/files/1586617207/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0ebc893a" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E04" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E04
+https://api.put.io/v2/files/1586601201/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ccf9b688" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E06" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E06
 https://api.put.io/v2/files/1584889779/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0b4be078" tvg-name="Kaifuku Jutsushi no Yarinaoshi S01 E07" tvg-logo="" group-title="Series | Geral",Kaifuku Jutsushi no Yarinaoshi S01 E07

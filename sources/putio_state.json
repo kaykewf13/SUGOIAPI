@@ -9693,10 +9693,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105340981,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-09T05:44:43.105244+00:00"
+      "file_id": 1586320619,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586320619/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-09T05:44:43.105244+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586320619/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-11T06:33:51.954932+00:00"
     },
     "4c1b73b5af48e34e49e775c23ceeb1ef6fe7e2f2": {
       "title": "[SubsPlease] Re Monster - 04 (720p) [5ECA9DC6].mkv",
@@ -9765,31 +9769,97 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105372193,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-10T06:01:00.057920+00:00"
+      "file_id": 1586509255,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586509255/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-10T06:01:00.057920+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586509255/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-11T06:33:52.042730+00:00"
     },
     "6831ece60313aadf51f3d70287eea4dc5be81c0d": {
       "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 07 (720p) [E2F80CD1].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 105372194,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-10T06:01:00.759242+00:00"
+      "file_id": 1586509801,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586509801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-10T06:01:00.759242+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586509801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-11T06:33:52.131125+00:00"
     },
     "97378d9e51b8425f2db096c9e5cf11ca1e917d0c": {
       "title": "[SubsPlease] Honzuki no Gekokujou S4 - 05 (720p) [B75876F6].mkv",
       "category": "Isekai",
       "logo": "",
       "transfer_id": 105372195,
+      "file_id": 1586508254,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586508254/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-10T06:01:01.454383+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586508254/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-11T06:33:52.218491+00:00"
+    },
+    "a7d3d5c63953795bb142910b3f27be6436950f71": {
+      "title": "[SubsPlease] One Piece - 1161 (720p) [C8A50C5B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105407471,
+      "file_id": 1586718801,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586718801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-11T06:33:48.224280+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586718801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-11T06:33:52.327742+00:00"
+    },
+    "56c29c7f229e3c7560bc27564d93e0c19a676f6c": {
+      "title": "[SubsPlease] Boku no Hero Academia - 162 (720p) [95319354].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105407472,
       "file_id": null,
       "stream_urls": [],
       "status": "pending",
-      "created_at": "2026-05-10T06:01:01.454383+00:00"
+      "created_at": "2026-05-11T06:33:48.875347+00:00"
+    },
+    "f9923ff11e45d26afb5c5d26f6759fab4779f826": {
+      "title": "[SubsPlease] Boku no Hero Academia - 165 (720p) [FFD180D3].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105407473,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-11T06:33:49.506945+00:00"
+    },
+    "3e07a063bd0ec1b8a5ea4be0779b6d9c4c537ce3": {
+      "title": "[SubsPlease] Wind Breaker - 05 (720p) [700DF868].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105407474,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-11T06:33:50.135957+00:00"
+    },
+    "15cbafb1df377696c6ce9dba0c2daed7cf0d0f45": {
+      "title": "[SubsPlease] 29-sai Dokushin Chuuken Boukensha no Nichijou (01-12) (720p) [Batch]",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 105407475,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-11T06:33:50.779928+00:00"
     }
   },
-  "last_run": "2026-05-10T06:01:02.948731+00:00"
+  "last_run": "2026-05-11T06:33:52.327769+00:00"
 }
