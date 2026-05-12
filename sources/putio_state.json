@@ -9735,20 +9735,28 @@
       "category": "Ecchi e Harem",
       "logo": "",
       "transfer_id": 105372190,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-10T06:00:58.016191+00:00"
+      "file_id": 1586601201,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586601201/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-10T06:00:58.016191+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586601201/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-12T06:03:52.717726+00:00"
     },
     "fae80e3d6930793ed24c0a47ca68749b8c8901b2": {
       "title": "[SubsPlease] Kaifuku Jutsushi no Yarinaoshi - 03 (720p) [931E06FC].mkv",
       "category": "Ecchi e Harem",
       "logo": "",
       "transfer_id": 105372191,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-10T06:00:58.696192+00:00"
+      "file_id": 1586617207,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586617207/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-10T06:00:58.696192+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586617207/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-12T06:03:52.873278+00:00"
     },
     "762b445c9aadec8086c0f22affd96f9088b145bf": {
       "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 76 (720p) [323688BD].mkv",
@@ -9825,10 +9833,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105407472,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-11T06:33:48.875347+00:00"
+      "file_id": 1586720341,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586720341/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-11T06:33:48.875347+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586720341/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-12T06:03:53.025469+00:00"
     },
     "f9923ff11e45d26afb5c5d26f6759fab4779f826": {
       "title": "[SubsPlease] Boku no Hero Academia - 165 (720p) [FFD180D3].mkv",
@@ -9855,11 +9867,36 @@
       "category": "Comedia",
       "logo": "",
       "transfer_id": 105407475,
+      "file_id": 1586722796,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1586722797/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722798/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722799/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722800/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722802/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722803/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722804/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722805/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722806/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722807/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1586722808/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-11T06:33:50.779928+00:00",
+      "stream_url": "https://api.put.io/v2/files/1586722797/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-12T06:03:53.346989+00:00"
+    },
+    "eb52479a9f22d966bf903941d3335550b637dd96": {
+      "title": "[SubsPlease] Wind Breaker - 12 (720p) [CB961A56].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105438259,
       "file_id": null,
       "stream_urls": [],
       "status": "pending",
-      "created_at": "2026-05-11T06:33:50.779928+00:00"
+      "created_at": "2026-05-12T06:03:51.431942+00:00"
     }
   },
-  "last_run": "2026-05-11T06:33:52.327769+00:00"
+  "last_run": "2026-05-12T06:03:53.347010+00:00"
 }
