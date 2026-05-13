@@ -351,6 +351,12 @@ https://api.put.io/v2/files/1585242586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585909952/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="67f99683" tvg-name="Dandadan S01 E07" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E07
 https://api.put.io/v2/files/1585909951/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7b4e8115" tvg-name="Dandadan S01 E08" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E08
+https://api.put.io/v2/files/1587157454/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="097fe7a4" tvg-name="Dandadan S01 E09" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E09
+https://api.put.io/v2/files/1587157455/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f491bfd8" tvg-name="Dandadan S01 E10" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E10
+https://api.put.io/v2/files/1587157456/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3d612c87" tvg-name="Dandadan S01 E13" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E13
 https://api.put.io/v2/files/1584822154/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bf635a85" tvg-name="Dandadan S01 E14" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E14
@@ -1483,6 +1489,8 @@ https://api.put.io/v2/files/1585277260/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585010859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="4c2bc4df" tvg-name="Wind Breaker S01 E11" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E11
 https://api.put.io/v2/files/1584892865/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="2b3c1f1b" tvg-name="Wind Breaker S01 E12" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E12
+https://api.put.io/v2/files/1586961660/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
 https://api.put.io/v2/files/1584824624/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
