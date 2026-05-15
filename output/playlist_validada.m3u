@@ -1167,6 +1167,8 @@ https://api.put.io/v2/files/1585203057/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585203058/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b91e0d9" tvg-name="Re Monster S01 E04" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E04
 https://api.put.io/v2/files/1586318603/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="84605d8c" tvg-name="Re Monster S01 E05" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E05
+https://api.put.io/v2/files/1587349354/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="220373f1" tvg-name="Re Monster S01 E06" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E06
 https://api.put.io/v2/files/1584838736/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bd58d18a" tvg-name="Re Monster S01 E08" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E08
@@ -1479,6 +1481,8 @@ https://api.put.io/v2/files/1585024419/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584838960/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c0d2746f" tvg-name="Wind Breaker S01 E02" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E02
 https://api.put.io/v2/files/1585053695/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a02bea0d" tvg-name="Wind Breaker S01 E03" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E03
+https://api.put.io/v2/files/1587349312/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ca582fa5" tvg-name="Wind Breaker S01 E04" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E04
 https://api.put.io/v2/files/1584890625/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8db60268" tvg-name="Wind Breaker S01 E05" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E05
@@ -1487,6 +1491,8 @@ https://api.put.io/v2/files/1586720587/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584885522/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b33e422c" tvg-name="Wind Breaker S01 E07" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E07
 https://api.put.io/v2/files/1585277260/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c8babfd4" tvg-name="Wind Breaker S01 E09" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E09
+https://api.put.io/v2/files/1587349302/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="13c3ad2c" tvg-name="Wind Breaker S01 E10" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E10
 https://api.put.io/v2/files/1585010859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="4c2bc4df" tvg-name="Wind Breaker S01 E11" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E11

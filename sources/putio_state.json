@@ -9956,20 +9956,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105498917,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-14T06:20:46.491494+00:00"
+      "file_id": 1587349302,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587349302/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-14T06:20:46.491494+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587349302/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-15T06:28:52.028312+00:00"
     },
     "8b67d6ba6237e9c69088ed338e426ac13acc143d": {
       "title": "[SubsPlease] Wind Breaker - 03 (720p) [CC043CBF].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105498919,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-14T06:20:47.106506+00:00"
+      "file_id": 1587349312,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587349312/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-14T06:20:47.106506+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587349312/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-15T06:28:52.153668+00:00"
     },
     "91ac5bf2e3ba15669b0073573fa0feaed8391967": {
       "title": "[SubsPlease] Re Monster - 05 (720p) [199B7E5E].mkv",
@@ -9994,7 +10002,47 @@
       "created_at": "2026-05-14T06:20:48.349525+00:00",
       "stream_url": "https://api.put.io/v2/files/1587349117/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-05-14T06:20:49.345847+00:00"
+    },
+    "4e4c63450e1bd555baa063ea9527a53171e3ec66": {
+      "title": "[SubsPlease] Shuumatsu no Harem - 04 (720p) [4C13DECC].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105529490,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-15T06:28:49.090163+00:00"
+    },
+    "48cb456ff024e39debb7a62d4963bd275452585c": {
+      "title": "[SubsPlease] Date a Live IV - 07 (720p) [B74EDD6E].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105529491,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-15T06:28:49.709070+00:00"
+    },
+    "0ad47a53308a8396201b0591fe583c303e54328b": {
+      "title": "[SubsPlease] Boku no Hero Academia - 164v2 (720p) [1846E085].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105529492,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-15T06:28:50.337200+00:00"
+    },
+    "031555aa31ced595d81d35bdc2954b8192011e28": {
+      "title": "[SubsPlease] Dr. Stone S4 - 31 (720p) [0D21C22F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105529493,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-15T06:28:50.959513+00:00"
     }
   },
-  "last_run": "2026-05-14T06:20:49.345875+00:00"
+  "last_run": "2026-05-15T06:28:52.153686+00:00"
 }
