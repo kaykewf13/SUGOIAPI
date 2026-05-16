@@ -9984,10 +9984,14 @@
       "category": "Suspense",
       "logo": "",
       "transfer_id": 105498920,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-14T06:20:47.728321+00:00"
+      "file_id": 1587349354,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587349354/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-14T06:20:47.728321+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587349354/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-16T05:50:16.194265+00:00"
     },
     "6b49dd89814e2d4ab341631e6a0104f79d07a771": {
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 72 (720p) [60FAF460].mkv",
@@ -10038,11 +10042,45 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105529493,
+      "file_id": 1587552520,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587552520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-15T06:28:50.959513+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587552520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-16T05:50:16.282058+00:00"
+    },
+    "ff59b63bbd702ccea89c7e8cba447f088eaa4f26": {
+      "title": "[SubsPlease] Date a Live IV - 08 (720p) [B24DD222].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105555712,
       "file_id": null,
       "stream_urls": [],
       "status": "pending",
-      "created_at": "2026-05-15T06:28:50.959513+00:00"
+      "created_at": "2026-05-16T05:50:13.660825+00:00"
+    },
+    "fc7962fccea9ee815e7258a1fb38f11b14d65240": {
+      "title": "[SubsPlease] Dragon Ball Daima - 13 (720p) [ABBEC6C7].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105555713,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-16T05:50:14.292130+00:00"
+    },
+    "b9cca391deada232d038d5a9346161e784133edc": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 06 (720p) [04343531].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105555714,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-16T05:50:14.915421+00:00"
     }
   },
-  "last_run": "2026-05-15T06:28:52.153686+00:00"
+  "last_run": "2026-05-16T05:50:16.282083+00:00"
 }

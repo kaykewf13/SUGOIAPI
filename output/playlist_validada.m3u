@@ -5,6 +5,8 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -207,6 +209,8 @@ https://api.put.io/v2/files/1586720341/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584820790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3079e9e7" tvg-name="Boku no Hero Academia S01 E163" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E163
 https://api.put.io/v2/files/1585101204/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="df1fb1ca" tvg-name="Boku no Hero Academia S01 E164" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E164
+https://api.put.io/v2/files/1587552521/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a8670fa8" tvg-name="Boku no Hero Academia S01 E165" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E165
 https://api.put.io/v2/files/1584820786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a8670fa8" tvg-name="Boku no Hero Academia S01 E165" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E165
@@ -451,6 +455,8 @@ https://api.put.io/v2/files/1584821750/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584821772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3244851c" tvg-name="Dr. Stone S4 S01 E30" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E30
 https://api.put.io/v2/files/1586165152/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b58de548" tvg-name="Dr. Stone S4 S01 E31" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E31
+https://api.put.io/v2/files/1587552520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
 https://api.put.io/v2/files/1584822433/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
