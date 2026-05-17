@@ -10032,10 +10032,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105529492,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-15T06:28:50.337200+00:00"
+      "file_id": 1587552521,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587552521/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-15T06:28:50.337200+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587552521/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-17T06:18:14.994692+00:00"
     },
     "031555aa31ced595d81d35bdc2954b8192011e28": {
       "title": "[SubsPlease] Dr. Stone S4 - 31 (720p) [0D21C22F].mkv",
@@ -10056,10 +10060,14 @@
       "category": "Ecchi e Harem",
       "logo": "",
       "transfer_id": 105555712,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-16T05:50:13.660825+00:00"
+      "file_id": 1587746882,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587746882/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-16T05:50:13.660825+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587746882/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-17T06:18:15.086309+00:00"
     },
     "fc7962fccea9ee815e7258a1fb38f11b14d65240": {
       "title": "[SubsPlease] Dragon Ball Daima - 13 (720p) [ABBEC6C7].mkv",
@@ -10076,11 +10084,75 @@
       "category": "Isekai",
       "logo": "",
       "transfer_id": 105555714,
+      "file_id": 1587746257,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1587746257/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-16T05:50:14.915421+00:00",
+      "stream_url": "https://api.put.io/v2/files/1587746257/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-17T06:18:15.174904+00:00"
+    },
+    "10aff00dc5fa4ba8619150ab107fa10172aa73be": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 04 (720p) [C8BC86C7].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105581803,
       "file_id": null,
       "stream_urls": [],
       "status": "pending",
-      "created_at": "2026-05-16T05:50:14.915421+00:00"
+      "created_at": "2026-05-17T06:18:10.744268+00:00"
+    },
+    "93c1c332ce03936604eaa87a5c053da92b6ca432": {
+      "title": "[SubsPlease] Isekai Meikyuu de Harem wo - 03 (720p) [288FB9D2].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 105581804,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-17T06:18:11.375548+00:00"
+    },
+    "81867bf1f24db330d06797fea142b4c2c3a01c64": {
+      "title": "[SubsPlease] Wind Breaker - 14 (720p) [EC9AD951].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105581805,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-17T06:18:12.016042+00:00"
+    },
+    "f41332f2f783cc99068768c39936264451354539": {
+      "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 11 (720p) [2FBA40F6].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105581806,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-17T06:18:12.646667+00:00"
+    },
+    "b1cb2c03504e1a15cbf07eba151e80bbd7f29cbf": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 12 (720p) [8ADCB614].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105581807,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-17T06:18:13.280995+00:00"
+    },
+    "bd38ac8cfb35df3ebbcd28bbd91d8442d80ee048": {
+      "title": "[SubsPlease] Honzuki no Gekokujou S4 - 06 (720p) [8133B663].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105581808,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-17T06:18:13.903496+00:00"
     }
   },
-  "last_run": "2026-05-16T05:50:16.282083+00:00"
+  "last_run": "2026-05-17T06:18:15.174933+00:00"
 }

@@ -5,8 +5,6 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -399,8 +397,12 @@ https://api.put.io/v2/files/1584876062/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584876063/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e1b85f5f" tvg-name="Date a Live IV S01 E07" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E07
 https://api.put.io/v2/files/1584876064/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="e1b85f5f" tvg-name="Date a Live IV S01 E07" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E07
+https://api.put.io/v2/files/1587846238/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8e196c3b" tvg-name="Date a Live IV S01 E08" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E08
 https://api.put.io/v2/files/1584876065/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="8e196c3b" tvg-name="Date a Live IV S01 E08" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E08
+https://api.put.io/v2/files/1587746882/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1cc1b85a" tvg-name="Date a Live IV S01 E09" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E09
 https://api.put.io/v2/files/1584876066/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="7fbd4445" tvg-name="Date a Live IV S01 E10" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E10
@@ -489,6 +491,8 @@ https://api.put.io/v2/files/1584821696/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584833245/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1f1e0ded" tvg-name="Dragon Ball Daima S01 E13" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E13
 https://api.put.io/v2/files/1584822437/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1f1e0ded" tvg-name="Dragon Ball Daima S01 E13" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E13
+https://api.put.io/v2/files/1587750558/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f5b9e8b4" tvg-name="Dragon Ball Daima S01 E14" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E14
 https://api.put.io/v2/files/1584822436/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f5b9e8b4" tvg-name="Dragon Ball Daima S01 E14" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E14
@@ -1389,6 +1393,8 @@ https://api.put.io/v2/files/1585712213/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584838696/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8fbc7225" tvg-name="Tensei Shitara Slime Datta Ken S4 S01 E05" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S4 S01 E05
 https://api.put.io/v2/files/1586318229/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4d188b5c" tvg-name="Tensei Shitara Slime Datta Ken S4 S01 E06" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S4 S01 E06
+https://api.put.io/v2/files/1587746257/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e0739856" tvg-name="The Quintessential Quintuplets S02 E01" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E01
 https://api.put.io/v2/files/1585194858/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1f9fd0e7" tvg-name="The Quintessential Quintuplets S02 E02" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E02
