@@ -93,6 +93,8 @@ https://api.put.io/v2/files/1584953586/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585190282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
 https://api.put.io/v2/files/1586718801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://api.put.io/v2/files/1588140977/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
 https://api.put.io/v2/files/1584827053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
@@ -781,6 +783,8 @@ https://api.put.io/v2/files/1585114875/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584839235/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="369f68de" tvg-name="Honzuki no Gekokujou S4 S01 E05" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S4 S01 E05
 https://api.put.io/v2/files/1586508254/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="52c43b5f" tvg-name="Honzuki no Gekokujou S4 S01 E06" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S4 S01 E06
+https://api.put.io/v2/files/1587965830/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be61b21b" tvg-name="Horimiya S01 E03" tvg-logo="" group-title="Series | Romance",Horimiya S01 E03
 https://api.put.io/v2/files/1585237143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6294616c" tvg-name="Horimiya S01 E05" tvg-logo="" group-title="Series | Romance",Horimiya S01 E05
@@ -807,8 +811,12 @@ https://api.put.io/v2/files/1584886393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584889704/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1e24d375" tvg-name="Isekai Meikyuu de Harem wo S01 E03" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E03
 https://api.put.io/v2/files/1584886394/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="1e24d375" tvg-name="Isekai Meikyuu de Harem wo S01 E03" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E03
+https://api.put.io/v2/files/1587966298/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="dbe1a6f5" tvg-name="Isekai Meikyuu de Harem wo S01 E04" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E04
 https://api.put.io/v2/files/1584886395/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="dbe1a6f5" tvg-name="Isekai Meikyuu de Harem wo S01 E04" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E04
+https://api.put.io/v2/files/1587967029/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="cddb6049" tvg-name="Isekai Meikyuu de Harem wo S01 E05" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E05
 https://api.put.io/v2/files/1584886396/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8f6861a3" tvg-name="Isekai Meikyuu de Harem wo S01 E06" tvg-logo="" group-title="Series | Isekai",Isekai Meikyuu de Harem wo S01 E06
@@ -1035,6 +1043,8 @@ https://api.put.io/v2/files/1584839420/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585914369/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="15686995" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E11" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E11
 https://api.put.io/v2/files/1584838425/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0237dddf" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E12" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E12
+https://api.put.io/v2/files/1587966294/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="87ccd87c" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E13" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E13
 https://api.put.io/v2/files/1585105825/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f9e4038a" tvg-name="Mobile Suit Gundam - The Witch from Mercury S01 E15" tvg-logo="" group-title="Series | Mecha",Mobile Suit Gundam - The Witch from Mercury S01 E15
@@ -1053,6 +1063,8 @@ https://api.put.io/v2/files/1585237276/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584955069/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b62c59ac" tvg-name="Monogatari Series - Off & Monster Season S01 E10" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E10
 https://api.put.io/v2/files/1584876315/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="39a2befe" tvg-name="Monogatari Series - Off & Monster Season S01 E11" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E11
+https://api.put.io/v2/files/1587965914/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7438729" tvg-name="Monogatari Series - Off & Monster Season S01 E12" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E12
 https://api.put.io/v2/files/1584954352/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f9d97bdb" tvg-name="Monogatari Series - Off & Monster Season S01 E14" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E14
@@ -1511,6 +1523,8 @@ https://api.put.io/v2/files/1585010859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584892865/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b3c1f1b" tvg-name="Wind Breaker S01 E12" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E12
 https://api.put.io/v2/files/1586961660/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3640d7ec" tvg-name="Wind Breaker S01 E14" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E14
+https://api.put.io/v2/files/1587965950/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
 https://api.put.io/v2/files/1584824624/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
