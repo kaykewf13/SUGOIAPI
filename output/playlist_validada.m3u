@@ -1227,6 +1227,8 @@ https://api.put.io/v2/files/1584885667/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584900342/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="531bef05" tvg-name="Retry! R S01 E06" tvg-logo="" group-title="Series | Geral",Retry! R S01 E06
 https://api.put.io/v2/files/1584885644/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0d5433f6" tvg-name="Retry! R S01 E09" tvg-logo="" group-title="Series | Geral",Retry! R S01 E09
+https://api.put.io/v2/files/1588170175/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c119219d" tvg-name="Retry! R S01 E11" tvg-logo="" group-title="Series | Geral",Retry! R S01 E11
 https://api.put.io/v2/files/1584885506/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="daf87920" tvg-name="Retry! R S01 E12" tvg-logo="" group-title="Series | Geral",Retry! R S01 E12
