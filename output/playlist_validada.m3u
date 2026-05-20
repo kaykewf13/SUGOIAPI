@@ -1541,6 +1541,8 @@ https://api.put.io/v2/files/1584824477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584824626/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="68bec623" tvg-name="Wind Breaker S01 E25" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E25
 https://api.put.io/v2/files/1584824492/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="4c9ae381" tvg-name="Wonder Egg Priority S01 E11" tvg-logo="" group-title="Series | Psicologico",Wonder Egg Priority S01 E11
+https://api.put.io/v2/files/1588372282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2232a1ec" tvg-name="Yakusoku no Neverland S2 S01 E02" tvg-logo="" group-title="Series | Psicologico",Yakusoku no Neverland S2 S01 E02
 https://api.put.io/v2/files/1585990413/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="89d39d68" tvg-name="Yuusha no Kuzu S01 E15" tvg-logo="" group-title="Series | Geral",Yuusha no Kuzu S01 E15
