@@ -361,6 +361,8 @@ https://api.put.io/v2/files/1587157454/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1587157455/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f491bfd8" tvg-name="Dandadan S01 E10" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E10
 https://api.put.io/v2/files/1587157456/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="84fafcff" tvg-name="Dandadan S01 E12" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E12
+https://api.put.io/v2/files/1588516405/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3d612c87" tvg-name="Dandadan S01 E13" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E13
 https://api.put.io/v2/files/1584822154/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bf635a85" tvg-name="Dandadan S01 E14" tvg-logo="" group-title="Series | Shounen",Dandadan S01 E14
@@ -1159,6 +1161,8 @@ https://api.put.io/v2/files/1585194719/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585194798/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0a47af07" tvg-name="Peter Grill To Kenja No Jikan S01 E12" tvg-logo="" group-title="Series | Ecchi e Harem",Peter Grill To Kenja No Jikan S01 E12
 https://api.put.io/v2/files/1585194849/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="f93cf125" tvg-name="Peter Grill to Kenja no Jikan S2 S01 E07" tvg-logo="" group-title="Series | Ecchi e Harem",Peter Grill to Kenja no Jikan S2 S01 E07
+https://api.put.io/v2/files/1588517278/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3df32332" tvg-name="Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04" tvg-logo="" group-title="Series | Geral",Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04
 https://api.put.io/v2/files/1584084276/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3df32332" tvg-name="Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04" tvg-logo="" group-title="Series | Geral",Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi S01 E04
@@ -1217,6 +1221,8 @@ https://api.put.io/v2/files/1584880473/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585909953/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e9fa42f0" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E72" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E72
 https://api.put.io/v2/files/1587349117/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="664b1653" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E73" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E73
+https://api.put.io/v2/files/1588762195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bc934722" tvg-name="Retry! R S01 E01" tvg-logo="" group-title="Series | Geral",Retry! R S01 E01
 https://api.put.io/v2/files/1584885651/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ac369dcb" tvg-name="Retry! R S01 E02" tvg-logo="" group-title="Series | Geral",Retry! R S01 E02
@@ -1541,6 +1547,8 @@ https://api.put.io/v2/files/1584824477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584824626/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="68bec623" tvg-name="Wind Breaker S01 E25" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E25
 https://api.put.io/v2/files/1584824492/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7bec5e8e" tvg-name="Wonder Egg Priority S01 E09" tvg-logo="" group-title="Series | Psicologico",Wonder Egg Priority S01 E09
+https://api.put.io/v2/files/1588595497/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="4c9ae381" tvg-name="Wonder Egg Priority S01 E11" tvg-logo="" group-title="Series | Psicologico",Wonder Egg Priority S01 E11
 https://api.put.io/v2/files/1588372282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2232a1ec" tvg-name="Yakusoku no Neverland S2 S01 E02" tvg-logo="" group-title="Series | Psicologico",Yakusoku no Neverland S2 S01 E02

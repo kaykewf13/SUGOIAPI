@@ -10218,10 +10218,14 @@
       "category": "Suspense",
       "logo": "",
       "transfer_id": 105646826,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-19T06:45:06.145028+00:00"
+      "file_id": 1588372282,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1588372282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-19T06:45:06.145028+00:00",
+      "stream_url": "https://api.put.io/v2/files/1588372282/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-21T06:47:22.725272+00:00"
     },
     "7d8c382cbc12881df800149ba422c62cf22e91c8": {
       "title": "[SubsPlease] Peter Grill to Kenja no Jikan S2 - 07 (720p) [23AED27F].mkv",
@@ -10238,10 +10242,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105681685,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-20T06:45:26.685911+00:00"
+      "file_id": 1588516405,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1588516405/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-20T06:45:26.685911+00:00",
+      "stream_url": "https://api.put.io/v2/files/1588516405/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-21T06:47:22.827703+00:00"
     },
     "53bd94ae446b960920726abf8889c9ac5c8741c3": {
       "title": "[SubsPlease] Wonder Egg Priority - 09 (720p) [974CF748].mkv",
@@ -10252,7 +10260,31 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-20T06:45:27.368205+00:00"
+    },
+    "c1d8edc32ceef26dd2deed9ca26764bbdd6639ef": {
+      "title": "[SubsPlease] Re Monster - 03v2 (720p) [5AAC67CC].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 105712209,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-21T06:47:21.068974+00:00"
+    },
+    "cf2976fdcd7449c92205c989d8a2e498a3a6b563": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 73 (720p) [2FF2BC39].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105712213,
+      "file_id": 1588762195,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1588762195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-21T06:47:21.696387+00:00",
+      "stream_url": "https://api.put.io/v2/files/1588762195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-21T06:47:22.911723+00:00"
     }
   },
-  "last_run": "2026-05-20T06:45:28.587830+00:00"
+  "last_run": "2026-05-21T06:47:22.911741+00:00"
 }
