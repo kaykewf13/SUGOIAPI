@@ -463,6 +463,8 @@ https://api.put.io/v2/files/1584821772/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1586165152/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b58de548" tvg-name="Dr. Stone S4 S01 E31" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E31
 https://api.put.io/v2/files/1587552520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="60a033c3" tvg-name="Dr. Stone S4 S01 E32" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E32
+https://api.put.io/v2/files/1588938370/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
 https://api.put.io/v2/files/1584822433/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
@@ -1191,6 +1193,8 @@ https://api.put.io/v2/files/1585203056/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585203057/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ebb3ac78" tvg-name="Princess Lover S01 E12" tvg-logo="" group-title="Series | Geral",Princess Lover S01 E12
 https://api.put.io/v2/files/1585203058/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="fd80fb2f" tvg-name="Re Monster S01 E03" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E03
+https://api.put.io/v2/files/1588767267/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b91e0d9" tvg-name="Re Monster S01 E04" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E04
 https://api.put.io/v2/files/1586318603/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="84605d8c" tvg-name="Re Monster S01 E05" tvg-logo="" group-title="Series | Seinen",Re Monster S01 E05
