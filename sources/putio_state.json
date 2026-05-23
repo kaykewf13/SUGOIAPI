@@ -10274,10 +10274,14 @@
       "category": "Suspense",
       "logo": "",
       "transfer_id": 105712209,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-21T06:47:21.068974+00:00"
+      "file_id": 1588767267,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1588767267/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-21T06:47:21.068974+00:00",
+      "stream_url": "https://api.put.io/v2/files/1588767267/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-23T06:05:36.750445+00:00"
     },
     "cf2976fdcd7449c92205c989d8a2e498a3a6b563": {
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 73 (720p) [2FF2BC39].mkv",
@@ -10306,7 +10310,61 @@
       "created_at": "2026-05-22T06:44:47.118656+00:00",
       "stream_url": "https://api.put.io/v2/files/1588938370/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-05-22T06:44:48.318829+00:00"
+    },
+    "36686b09218ccc1e4fe3c1d7a700814b81afa408": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 10 (720p) [71427427].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105773187,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-23T06:05:33.054614+00:00"
+    },
+    "db1a64a8f120e5badb8dda9f04a5463797425cd5": {
+      "title": "[SubsPlease] Boku no Hero Academia (160-171) (720p) [Batch]",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105773191,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-23T06:05:33.712843+00:00"
+    },
+    "c0712d24b003a9d39695e0eb87264efb08b2065e": {
+      "title": "[SubsPlease] Black Clover - 162 (720p) [F19922F1].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105773192,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-23T06:05:34.359587+00:00"
+    },
+    "d699ea0338cc41fbf5fe11e7749d3c40ebc4271d": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 17 (720p) [DE2C4B54].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105773193,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-23T06:05:35.007134+00:00"
+    },
+    "b4c868a7e5b7c52fd81958aa1fa148dbdd5e09bb": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 07 (720p) [E3B82D3F].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105773194,
+      "file_id": 1589113836,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589113836/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-23T06:05:35.649761+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589113836/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-23T06:05:36.862287+00:00"
     }
   },
-  "last_run": "2026-05-22T06:44:48.318848+00:00"
+  "last_run": "2026-05-23T06:05:36.862309+00:00"
 }
