@@ -181,6 +181,8 @@ https://api.put.io/v2/files/1585329296/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584829682/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1b898a30" tvg-name="Black Clover S01 E161" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E161
 https://api.put.io/v2/files/1585716650/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="9411d068" tvg-name="Black Clover S01 E162" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E162
+https://api.put.io/v2/files/1589114520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="9fc8ea87" tvg-name="Black Clover S01 E167" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E167
 https://api.put.io/v2/files/1584826728/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b848af5e" tvg-name="Black Clover S01 E170" tvg-logo="" group-title="Series | Shounen",Black Clover S01 E170
@@ -194,45 +196,69 @@ https://api.put.io/v2/files/1584838667/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5d15282d" tvg-name="Blue Lock S01 E34" tvg-logo="" group-title="Series | Esportes",Blue Lock S01 E34
 https://api.put.io/v2/files/1584885470/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="13673fba" tvg-name="Boku no Hero Academia S01 E160" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E160
+https://api.put.io/v2/files/1589114471/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="13673fba" tvg-name="Boku no Hero Academia S01 E160" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E160
 https://api.put.io/v2/files/1584820788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="13673fba" tvg-name="Boku no Hero Academia S01 E160" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E160
 https://api.put.io/v2/files/1585101178/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0b2ddfc8" tvg-name="Boku no Hero Academia S01 E161" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E161
+https://api.put.io/v2/files/1589114472/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0b2ddfc8" tvg-name="Boku no Hero Academia S01 E161" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E161
 https://api.put.io/v2/files/1584820787/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0b2ddfc8" tvg-name="Boku no Hero Academia S01 E161" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E161
 https://api.put.io/v2/files/1585102956/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7c2ab3c" tvg-name="Boku no Hero Academia S01 E162" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E162
+https://api.put.io/v2/files/1589114473/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a7c2ab3c" tvg-name="Boku no Hero Academia S01 E162" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E162
 https://api.put.io/v2/files/1584820789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7c2ab3c" tvg-name="Boku no Hero Academia S01 E162" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E162
 https://api.put.io/v2/files/1586720341/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3079e9e7" tvg-name="Boku no Hero Academia S01 E163" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E163
+https://api.put.io/v2/files/1589114474/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3079e9e7" tvg-name="Boku no Hero Academia S01 E163" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E163
 https://api.put.io/v2/files/1584820790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3079e9e7" tvg-name="Boku no Hero Academia S01 E163" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E163
 https://api.put.io/v2/files/1585101204/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="df1fb1ca" tvg-name="Boku no Hero Academia S01 E164" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E164
+https://api.put.io/v2/files/1589114475/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="df1fb1ca" tvg-name="Boku no Hero Academia S01 E164" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E164
 https://api.put.io/v2/files/1587552521/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a8670fa8" tvg-name="Boku no Hero Academia S01 E165" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E165
+https://api.put.io/v2/files/1589114476/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a8670fa8" tvg-name="Boku no Hero Academia S01 E165" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E165
 https://api.put.io/v2/files/1584820786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a8670fa8" tvg-name="Boku no Hero Academia S01 E165" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E165
 https://api.put.io/v2/files/1586720370/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="562335b5" tvg-name="Boku no Hero Academia S01 E166" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E166
+https://api.put.io/v2/files/1589114477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="562335b5" tvg-name="Boku no Hero Academia S01 E166" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E166
 https://api.put.io/v2/files/1584820791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="562335b5" tvg-name="Boku no Hero Academia S01 E166" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E166
 https://api.put.io/v2/files/1585329130/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5b795d43" tvg-name="Boku no Hero Academia S01 E167" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E167
+https://api.put.io/v2/files/1589114478/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5b795d43" tvg-name="Boku no Hero Academia S01 E167" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E167
 https://api.put.io/v2/files/1585329205/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="544efd24" tvg-name="Boku no Hero Academia S01 E168" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E168
+https://api.put.io/v2/files/1589114479/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="544efd24" tvg-name="Boku no Hero Academia S01 E168" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E168
 https://api.put.io/v2/files/1584820785/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="544efd24" tvg-name="Boku no Hero Academia S01 E168" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E168
 https://api.put.io/v2/files/1584953631/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c2bb4206" tvg-name="Boku no Hero Academia S01 E169" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E169
+https://api.put.io/v2/files/1589114480/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="c2bb4206" tvg-name="Boku no Hero Academia S01 E169" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E169
 https://api.put.io/v2/files/1584820784/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="c2bb4206" tvg-name="Boku no Hero Academia S01 E169" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E169
 https://api.put.io/v2/files/1584908292/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5b548a09" tvg-name="Boku no Hero Academia S01 E170" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E170
+https://api.put.io/v2/files/1589114481/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="5b548a09" tvg-name="Boku no Hero Academia S01 E170" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E170
 https://api.put.io/v2/files/1584820783/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="5b548a09" tvg-name="Boku no Hero Academia S01 E170" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E170
 https://api.put.io/v2/files/1584908252/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b580eaee" tvg-name="Boku no Hero Academia S01 E171" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E171
+https://api.put.io/v2/files/1589114482/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b580eaee" tvg-name="Boku no Hero Academia S01 E171" tvg-logo="" group-title="Series | Shounen",Boku no Hero Academia S01 E171
 https://api.put.io/v2/files/1584953700/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="d34a297d" tvg-name="Boruto - Naruto Next Generations S01 E269" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E269
@@ -531,6 +557,8 @@ https://api.put.io/v2/files/1584829143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584829081/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0a6c0e56" tvg-name="Fairy Tail - 100 Years Quest S01 E17" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E17
 https://api.put.io/v2/files/1584829400/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="0a6c0e56" tvg-name="Fairy Tail - 100 Years Quest S01 E17" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E17
+https://api.put.io/v2/files/1589113946/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e5f6f6fd" tvg-name="Fairy Tail - 100 Years Quest S01 E18" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E18
 https://api.put.io/v2/files/1584829089/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e5f6f6fd" tvg-name="Fairy Tail - 100 Years Quest S01 E18" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E18
@@ -963,6 +991,8 @@ https://api.put.io/v2/files/1585297515/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584832973/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b2499c2f" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10
 https://api.put.io/v2/files/1584820911/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="b2499c2f" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E10
+https://api.put.io/v2/files/1589113889/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="1c73153e" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11
 https://api.put.io/v2/files/1584830186/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="236b091e" tvg-name="Kingdom S5 S01 E12" tvg-logo="" group-title="Series | Historico",Kingdom S5 S01 E12

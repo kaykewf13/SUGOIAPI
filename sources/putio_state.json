@@ -10316,40 +10316,67 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105773187,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-23T06:05:33.054614+00:00"
+      "file_id": 1589113889,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589113889/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-23T06:05:33.054614+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589113889/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-24T06:33:00.297038+00:00"
     },
     "db1a64a8f120e5badb8dda9f04a5463797425cd5": {
       "title": "[SubsPlease] Boku no Hero Academia (160-171) (720p) [Batch]",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105773191,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-23T06:05:33.712843+00:00"
+      "file_id": 1589114470,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589114471/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114472/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114473/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114474/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114475/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114476/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114477/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114478/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114479/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114480/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114481/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1589114482/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-23T06:05:33.712843+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589114471/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-24T06:33:00.481020+00:00"
     },
     "c0712d24b003a9d39695e0eb87264efb08b2065e": {
       "title": "[SubsPlease] Black Clover - 162 (720p) [F19922F1].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105773192,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-23T06:05:34.359587+00:00"
+      "file_id": 1589114520,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589114520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-23T06:05:34.359587+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589114520/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-24T06:33:00.567226+00:00"
     },
     "d699ea0338cc41fbf5fe11e7749d3c40ebc4271d": {
       "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 17 (720p) [DE2C4B54].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105773193,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-23T06:05:35.007134+00:00"
+      "file_id": 1589113946,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589113946/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-23T06:05:35.007134+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589113946/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-24T06:33:00.654522+00:00"
     },
     "b4c868a7e5b7c52fd81958aa1fa148dbdd5e09bb": {
       "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 07 (720p) [E3B82D3F].mkv",
@@ -10364,7 +10391,27 @@
       "created_at": "2026-05-23T06:05:35.649761+00:00",
       "stream_url": "https://api.put.io/v2/files/1589113836/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-05-23T06:05:36.862287+00:00"
+    },
+    "d12cb1820be299950a1096c1675193e0bd7ec78b": {
+      "title": "[SubsPlease] Chainsaw Man - 02 (720p) [8324378A].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105804112,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-24T06:32:58.615714+00:00"
+    },
+    "d772a8bf49a2d1e8814e34974763f1d891547699": {
+      "title": "[SubsPlease] Honzuki no Gekokujou S4 - 07 (720p) [7AA84DAE].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105804113,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-24T06:32:59.241328+00:00"
     }
   },
-  "last_run": "2026-05-23T06:05:36.862309+00:00"
+  "last_run": "2026-05-24T06:33:00.654544+00:00"
 }
