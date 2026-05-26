@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz"
+#EXTINF:-1 tvg-id="" tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" group-title="Canais | Brazil",COM Brasil
+https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" group-title="Canais | Brazil",Rede Brasil
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
@@ -135,6 +137,8 @@ https://api.put.io/v2/files/1584875010/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1586722807/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="928a65ab" tvg-name="29-sai Dokushin Chuuken Boukensha no Nichijou S01 E12" tvg-logo="" group-title="Series | Slice of Life",29-sai Dokushin Chuuken Boukensha no Nichijou S01 E12
 https://api.put.io/v2/files/1586722808/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="af3ef1d6" tvg-name="86 - Eighty Six S01 E05" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E05
+https://api.put.io/v2/files/1589705289/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="fac977f8" tvg-name="86 - Eighty Six S01 E09" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E09
 https://api.put.io/v2/files/1584880900/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0ebabbd2" tvg-name="86 - Eighty Six S01 E15" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E15
