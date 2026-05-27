@@ -10439,21 +10439,49 @@
       "category": "Guerra",
       "logo": "",
       "transfer_id": 105835952,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-25T07:07:40.241748+00:00"
+      "file_id": 1589705289,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589705289/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-25T07:07:40.241748+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589705289/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-27T06:59:27.630725+00:00"
     },
     "49769b326e0d36fccb5391e0f7cf51187100c8bc": {
       "title": "[SubsPlease] Kaguya-sama wa Kokurasetai S3 - 07 (720p) [D4627E61].mkv",
       "category": "Comedia",
       "logo": "",
       "transfer_id": 105872306,
+      "file_id": 1589814676,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589814676/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-26T06:42:46.119147+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589814676/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-27T06:59:27.717241+00:00"
+    },
+    "bb7bc56fe81b375090a16cd0fe6470b9d0bd0f0b": {
+      "title": "[SubsPlease] Mashle - 12 (720p) [A3BE6114].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105895346,
       "file_id": null,
       "stream_urls": [],
       "status": "pending",
-      "created_at": "2026-05-26T06:42:46.119147+00:00"
+      "created_at": "2026-05-27T06:59:25.981292+00:00"
+    },
+    "e97f8365c95f01a4d8cfcd9772f0f3e8a23cf617": {
+      "title": "[SubsPlease] 86 - Eighty Six - 11 (720p) [55A3886B].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 105895347,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-27T06:59:26.615360+00:00"
     }
   },
-  "last_run": "2026-05-26T06:42:47.070608+00:00"
+  "last_run": "2026-05-27T06:59:27.717266+00:00"
 }
