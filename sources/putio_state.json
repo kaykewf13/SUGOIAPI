@@ -10481,7 +10481,31 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-05-27T06:59:26.615360+00:00"
+    },
+    "786c29a07f623d8457eb7b972cbc4c086a7247df": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 06 (720p) [F7D7DAA6].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105914927,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-28T06:48:14.066869+00:00"
+    },
+    "82c30ab28921433af145c37b5a1618e558a6e003": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 74 (720p) [4182E94A].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 105914928,
+      "file_id": 1590165146,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1590165146/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-28T06:48:14.692193+00:00",
+      "stream_url": "https://api.put.io/v2/files/1590165146/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-28T06:48:15.778392+00:00"
     }
   },
-  "last_run": "2026-05-27T06:59:27.717266+00:00"
+  "last_run": "2026-05-28T06:48:15.778429+00:00"
 }

@@ -141,6 +141,8 @@ https://api.put.io/v2/files/1586722808/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1589705289/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="fac977f8" tvg-name="86 - Eighty Six S01 E09" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E09
 https://api.put.io/v2/files/1584880900/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="a4727008" tvg-name="86 - Eighty Six S01 E11" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E11
+https://api.put.io/v2/files/1590153327/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0ebabbd2" tvg-name="86 - Eighty Six S01 E15" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E15
 https://api.put.io/v2/files/1584880839/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f0a8ee17" tvg-name="86 - Eighty Six S01 E16" tvg-logo="" group-title="Series | Geral",86 - Eighty Six S01 E16
@@ -1049,6 +1051,8 @@ https://api.put.io/v2/files/1584841220/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584839353/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="584f335f" tvg-name="Mashle S01 E12" tvg-logo="" group-title="Series | Shounen",Mashle S01 E12
 https://api.put.io/v2/files/1584824493/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="584f335f" tvg-name="Mashle S01 E12" tvg-logo="" group-title="Series | Shounen",Mashle S01 E12
+https://api.put.io/v2/files/1589991448/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be8eae92" tvg-name="Mashle S01 E14" tvg-logo="" group-title="Series | Shounen",Mashle S01 E14
 https://api.put.io/v2/files/1584829440/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8cb0abfe" tvg-name="Mashle S01 E16" tvg-logo="" group-title="Series | Shounen",Mashle S01 E16
@@ -1267,6 +1271,8 @@ https://api.put.io/v2/files/1585909953/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1587349117/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="664b1653" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E73" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E73
 https://api.put.io/v2/files/1588762195/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="124bf458" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E74" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E74
+https://api.put.io/v2/files/1590165146/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="bc934722" tvg-name="Retry! R S01 E01" tvg-logo="" group-title="Series | Geral",Retry! R S01 E01
 https://api.put.io/v2/files/1584885651/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="ac369dcb" tvg-name="Retry! R S01 E02" tvg-logo="" group-title="Series | Geral",Retry! R S01 E02
