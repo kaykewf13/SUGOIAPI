@@ -10467,20 +10467,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 105895346,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-27T06:59:25.981292+00:00"
+      "file_id": 1589991448,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1589991448/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-27T06:59:25.981292+00:00",
+      "stream_url": "https://api.put.io/v2/files/1589991448/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-29T06:50:05.997133+00:00"
     },
     "e97f8365c95f01a4d8cfcd9772f0f3e8a23cf617": {
       "title": "[SubsPlease] 86 - Eighty Six - 11 (720p) [55A3886B].mkv",
       "category": "Guerra",
       "logo": "",
       "transfer_id": 105895347,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-05-27T06:59:26.615360+00:00"
+      "file_id": 1590153327,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1590153327/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-05-27T06:59:26.615360+00:00",
+      "stream_url": "https://api.put.io/v2/files/1590153327/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-05-29T06:50:06.088461+00:00"
     },
     "786c29a07f623d8457eb7b972cbc4c086a7247df": {
       "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 06 (720p) [F7D7DAA6].mkv",
@@ -10505,7 +10513,27 @@
       "created_at": "2026-05-28T06:48:14.692193+00:00",
       "stream_url": "https://api.put.io/v2/files/1590165146/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-05-28T06:48:15.778392+00:00"
+    },
+    "936ae51df931c8bd1a9da0b7f080ab5fe656ae81": {
+      "title": "[SubsPlease] Dr. Stone S4 - 33 (720p) [A3A77D15].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105935931,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-29T06:50:04.323163+00:00"
+    },
+    "592d00e1bb4ca60ba2c3552ba6409ddfe9775144": {
+      "title": "[SubsPlease] Dandadan - 03 (720p) [02ECF06E].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 105935932,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-05-29T06:50:04.960351+00:00"
     }
   },
-  "last_run": "2026-05-28T06:48:15.778429+00:00"
+  "last_run": "2026-05-29T06:50:06.088487+00:00"
 }
