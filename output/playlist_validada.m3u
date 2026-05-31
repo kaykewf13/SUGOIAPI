@@ -5,8 +5,6 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -567,6 +565,8 @@ https://api.put.io/v2/files/1584850788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584900116/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="79523f40" tvg-name="Fairy Tail - 100 Years Quest S01 E15" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E15
 https://api.put.io/v2/files/1584829143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="79523f40" tvg-name="Fairy Tail - 100 Years Quest S01 E15" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E15
+https://api.put.io/v2/files/1590574936/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="b8783adb" tvg-name="Fairy Tail - 100 Years Quest S01 E16" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E16
 https://api.put.io/v2/files/1584829081/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="0a6c0e56" tvg-name="Fairy Tail - 100 Years Quest S01 E17" tvg-logo="" group-title="Series | Shounen",Fairy Tail - 100 Years Quest S01 E17
@@ -1123,6 +1123,8 @@ https://api.put.io/v2/files/1584876315/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1587965914/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="a7438729" tvg-name="Monogatari Series - Off & Monster Season S01 E12" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E12
 https://api.put.io/v2/files/1584954352/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="17d81996" tvg-name="Monogatari Series - Off & Monster Season S01 E13" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E13
+https://api.put.io/v2/files/1590614406/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="f9d97bdb" tvg-name="Monogatari Series - Off & Monster Season S01 E14" tvg-logo="" group-title="Series | Seinen",Monogatari Series - Off & Monster Season S01 E14
 https://api.put.io/v2/files/1584878043/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6a88db05" tvg-name="Mushoku Tensei S2 S01 E03" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E03
@@ -1137,6 +1139,8 @@ https://api.put.io/v2/files/1584885450/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1585237150/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e1801e25" tvg-name="Mushoku Tensei S2 S01 E12" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E12
 https://api.put.io/v2/files/1584953904/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="7831e958" tvg-name="Mushoku Tensei S2 S01 E15" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E15
+https://api.put.io/v2/files/1590574864/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="4311032d" tvg-name="Mushoku Tensei S2 S01 E20" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E20
 https://api.put.io/v2/files/1584838666/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="8ab9a565" tvg-name="Mushoku Tensei S2 S01 E23" tvg-logo="" group-title="Series | Seinen",Mushoku Tensei S2 S01 E23
