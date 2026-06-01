@@ -97,6 +97,8 @@ https://api.put.io/v2/files/1586718801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1588140977/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
 https://api.put.io/v2/files/1589616328/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://api.put.io/v2/files/1591215295/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
 https://api.put.io/v2/files/1584827053/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
@@ -833,6 +835,8 @@ https://api.put.io/v2/files/1586508254/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1587965830/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="751d60e7" tvg-name="Honzuki no Gekokujou S4 S01 E07" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S4 S01 E07
 https://api.put.io/v2/files/1589384709/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="ae031bb1" tvg-name="Honzuki no Gekokujou S4 S01 E08" tvg-logo="" group-title="Series | Isekai",Honzuki no Gekokujou S4 S01 E08
+https://api.put.io/v2/files/1591034127/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="be61b21b" tvg-name="Horimiya S01 E03" tvg-logo="" group-title="Series | Romance",Horimiya S01 E03
 https://api.put.io/v2/files/1585237143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="6294616c" tvg-name="Horimiya S01 E05" tvg-logo="" group-title="Series | Romance",Horimiya S01 E05
@@ -1599,6 +1603,8 @@ https://api.put.io/v2/files/1585010859/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 https://api.put.io/v2/files/1584892865/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="2b3c1f1b" tvg-name="Wind Breaker S01 E12" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E12
 https://api.put.io/v2/files/1586961660/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+#EXTINF:0 CUID="3daf5fa5" tvg-name="Wind Breaker S01 E13" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E13
+https://api.put.io/v2/files/1591034479/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="3640d7ec" tvg-name="Wind Breaker S01 E14" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E14
 https://api.put.io/v2/files/1587965950/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:0 CUID="e823a86a" tvg-name="Wind Breaker S01 E15" tvg-logo="" group-title="Series | Shounen",Wind Breaker S01 E15
