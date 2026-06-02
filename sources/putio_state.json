@@ -10687,7 +10687,47 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-06-01T08:31:38.626830+00:00"
+    },
+    "2613054f4c29bbafcfc91d1aa15aafb832d19da8": {
+      "title": "[SubsPlease] Wonder Egg Priority - 08 (720p) [F093F21E].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106020361,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-02T07:22:17.129857+00:00"
+    },
+    "5eedbb17c10fcd9dbb4ca282099e0a9e1289f6d3": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 01 (720p) [1782C2FB].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106020362,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-02T07:22:17.788983+00:00"
+    },
+    "0d520999df1c18b77fdc39ebf698e2e6f7a03350": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - OVA P1 (720p) [60AACBCF].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106020363,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-02T07:22:18.460160+00:00"
+    },
+    "95e0c248c01e92a1b3dc85e3698c9c828c92faf1": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - OVA P2 (720p) [C979975C].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106020364,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-02T07:22:19.173455+00:00"
     }
   },
-  "last_run": "2026-06-01T08:31:40.451132+00:00"
+  "last_run": "2026-06-02T07:22:20.224780+00:00"
 }
