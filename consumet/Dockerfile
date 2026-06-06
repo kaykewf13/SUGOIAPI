@@ -1,12 +1,11 @@
 # Consumet API — Dockerfile para Railway / Render
-# Base no fork oficial: https://github.com/consumet/api.consumet.org
 FROM node:20-alpine
 
 WORKDIR /app
 
-# Clona o repositório oficial do Consumet na build
+# Clona um fork acessível do Consumet API na build
 RUN apk add --no-cache git && \
-    git clone https://github.com/consumet/api.consumet.org.git . && \
+    git clone https://github.com/riimuru/consumet-api.git . && \
     npm install
 
 # Variáveis de ambiente de produção
