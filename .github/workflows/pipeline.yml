@@ -88,6 +88,9 @@ jobs:
             echo "FAIL playlist_validada.m3u nao gerado"
             exit 1
           fi
+     # ============================================================
+        - name: Proteger token do Put.io
+          run: python sanitize_putio.py output/playlist_validada.m3u
 
       # ============================================================
       # FASE D: Commit e push com retry
