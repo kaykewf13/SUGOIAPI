@@ -10809,10 +10809,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106071863,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-05T07:04:10.131842+00:00"
+      "file_id": 1591992398,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1591992398/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-05T07:04:10.131842+00:00",
+      "stream_url": "https://api.put.io/v2/files/1591992398/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-06T06:26:24.353198+00:00"
     },
     "76de988a682322ea3cf020b67494d44bbb20907c": {
       "title": "[SubsPlease] Vinland Saga S2 - 07 (720p) [BA02BC90].mkv",
@@ -10853,7 +10857,51 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-06-05T07:04:12.713391+00:00"
+    },
+    "5167d91a85c3ff07ebb345f2ffff61599b090d91": {
+      "title": "[SubsPlease] Date a Live IV - 11 (720p) [86DBA5E6].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106089841,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-06T06:26:21.465086+00:00"
+    },
+    "b96a4a8e89106273fd7ee8f630106d2e5b9d7dff": {
+      "title": "[SubsPlease] Jujutsu Kaisen - Kaigyoku Gyokusetsu (720p) [A6A958F6].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106089842,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-06T06:26:22.088611+00:00"
+    },
+    "88635bf3261db9e0022b21927a5ce5142152f364": {
+      "title": "[SubsPlease] Vinland Saga S2 - 11 (720p) [C1118812].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 106089843,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-06T06:26:22.713720+00:00"
+    },
+    "b7b7119207ad296696769ffdafa6312fa2902ec1": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 09 (720p) [288F3CBD].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106089844,
+      "file_id": 1592192970,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1592192970/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-06T06:26:23.343330+00:00",
+      "stream_url": "https://api.put.io/v2/files/1592192970/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-06T06:26:24.436990+00:00"
     }
   },
-  "last_run": "2026-06-05T07:04:13.685219+00:00"
+  "last_run": "2026-06-06T06:26:24.437012+00:00"
 }
