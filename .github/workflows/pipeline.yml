@@ -73,7 +73,6 @@ jobs:
       # ============================================================
       - name: Executar pipeline principal
         run: python pipeline.py
-
       - name: Verificar output
         run: |
           if [ -f output/playlist_validada.m3u ]; then
