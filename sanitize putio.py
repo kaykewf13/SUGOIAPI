@@ -12,7 +12,8 @@ Depois: https://sugoiapi-putio-proxy.workers.dev/?id=1585191887
 import re
 
 # URL do Worker já publicado (ajuste se usar domínio custom)
-WORKER_URL = "https://sugoiapi-putio-proxy.workers.dev"
+WORKER_URL = "https://sugoiapi-putio-proxy.viraltechh.workers.dev"
+
 
 # Captura o file ID de qualquer URL de stream do Put.io, com ou sem token
 PUTIO_RE = re.compile(
