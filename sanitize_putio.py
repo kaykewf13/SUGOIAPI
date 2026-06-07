@@ -14,13 +14,10 @@ def sanitizar_linha(linha: str) -> str:
 def sanitizar_playlist(caminho: str) -> int:
     with open(caminho, "r", encoding="utf-8") as f:
         conteudo = f.read()
-
     ocorrencias = len(PUTIO_RE.findall(conteudo))
     novo = PUTIO_RE.sub(lambda m: f"{WORKER_URL}/?id={m.group(1)}", conteudo)
-
     with open(caminho, "w", encoding="utf-8") as f:
         f.write(novo)
-
     return ocorrencias
 
 
