@@ -10921,10 +10921,14 @@
       "category": "Guerra",
       "logo": "",
       "transfer_id": 106118477,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-07T20:40:49.895984+00:00"
+      "file_id": 1592572217,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1592572217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-07T20:40:49.895984+00:00",
+      "stream_url": "https://api.put.io/v2/files/1592572217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-09T06:48:39.470767+00:00"
     },
     "9d5c6b5b71ac3e5cbc380b8aeacaa0569f24a226": {
       "title": "[SubsPlease] 86 - Eighty Six - 08 (720p) [86DD9B16].mkv",
@@ -10946,5 +10950,5 @@
       "ready_at": "2026-06-07T20:40:52.087760+00:00"
     }
   },
-  "last_run": "2026-06-08T07:30:59.089959+00:00"
+  "last_run": "2026-06-09T06:48:39.470794+00:00"
 }
