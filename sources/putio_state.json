@@ -10948,7 +10948,17 @@
       "created_at": "2026-06-07T20:40:50.721332+00:00",
       "stream_url": "https://api.put.io/v2/files/1592571592/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-06-07T20:40:52.087760+00:00"
+    },
+    "c004a51a7ecbdbbeb43999ece4af86b146ab2dcd": {
+      "title": "[SubsPlease] Vinland Saga S2 - 13 (720p) [C0155EB0].mkv",
+      "category": "Guerra",
+      "logo": "",
+      "transfer_id": 106156928,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-10T07:08:45.139287+00:00"
     }
   },
-  "last_run": "2026-06-09T06:48:39.470794+00:00"
+  "last_run": "2026-06-10T07:08:46.195457+00:00"
 }
