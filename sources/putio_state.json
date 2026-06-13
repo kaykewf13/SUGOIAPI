@@ -10968,10 +10968,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106172671,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-11T07:30:28.083624+00:00"
+      "file_id": 1593111575,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593111575/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-11T07:30:28.083624+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593111575/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-13T06:58:02.178271+00:00"
     },
     "65c4f58a0571a5d6cfa40fce3a0b6369cdd65b1b": {
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 76 (720p) [F2FF47F7].mkv",
@@ -10992,11 +10996,29 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106187419,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-12T07:21:53.118254+00:00"
+      "file_id": 1593243922,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593243922/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-12T07:21:53.118254+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593243922/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-13T06:58:02.279370+00:00"
+    },
+    "c5992c0fa00e90fe8c704c79ebb21a26d477bd88": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 10 (720p) [2C03656B].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106203364,
+      "file_id": 1593417420,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593417420/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-13T06:58:01.067463+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593417420/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-13T06:58:02.380522+00:00"
     }
   },
-  "last_run": "2026-06-12T07:21:54.030122+00:00"
+  "last_run": "2026-06-13T06:58:02.380542+00:00"
 }
