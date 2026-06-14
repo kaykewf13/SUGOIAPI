@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-14T18:45:43.008376+00:00",
-  "total": 793,
+  "gerado_em": "2026-06-14T22:22:52.351042+00:00",
+  "total": 794,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -3820,6 +3820,11 @@
     {
       "nome": "Vinland Saga S2 S01 E09",
       "id": "1585238309",
+      "grupo": "Series | Seinen"
+    },
+    {
+      "nome": "Vinland Saga S2 S01 E10",
+      "id": "1593717623",
       "grupo": "Series | Seinen"
     },
     {
