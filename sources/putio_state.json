@@ -11056,7 +11056,21 @@
       "stream_urls": [],
       "status": "pending",
       "created_at": "2026-06-14T18:33:50.956854+00:00"
+    },
+    "c9cd61ec89c983c566506bfe794d121c4556b757": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 74 (720p) [98629C5C].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106237395,
+      "file_id": 1593778680,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593778680/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-15T05:07:23.503621+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593778680/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-15T05:07:24.540913+00:00"
     }
   },
-  "last_run": "2026-06-14T22:22:43.384372+00:00"
+  "last_run": "2026-06-15T05:07:24.540943+00:00"
 }
