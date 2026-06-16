@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-16T04:44:17.694041+00:00",
-  "total": 833,
+  "gerado_em": "2026-06-16T08:14:29.092112+00:00",
+  "total": 835,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -1741,6 +1741,11 @@
       "nome": "Heavy Object S01 E24",
       "id": "1583908277",
       "grupo": "Series | Geral"
+    },
+    {
+      "nome": "Higurashi no Naku Koro ni Sotsu S01 E05",
+      "id": "1593928813",
+      "grupo": "Series | Terror e Suspense"
     },
     {
       "nome": "Higurashi no Naku Koro ni Sotsu S01 E07",
@@ -3486,6 +3491,11 @@
       "nome": "Shingeki no Kyojin Movie - The Last Attack",
       "id": "1584835636",
       "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "Shingeki no Kyojin S01 E66",
+      "id": "1593930799",
+      "grupo": "Series | Shounen"
     },
     {
       "nome": "Shingeki no Kyojin S01 E67",

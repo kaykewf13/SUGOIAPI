@@ -5,8 +5,6 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -801,6 +799,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1583908273
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1583908275
 #EXTINF:0 CUID="4bb78a53" tvg-name="Heavy Object S01 E24" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E24
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1583908277
+#EXTINF:0 CUID="f6372795" tvg-name="Higurashi no Naku Koro ni Sotsu S01 E05" tvg-logo="" group-title="Series | Terror e Suspense",Higurashi no Naku Koro ni Sotsu S01 E05
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593928813
 #EXTINF:0 CUID="cf36d0e9" tvg-name="Higurashi no Naku Koro ni Sotsu S01 E07" tvg-logo="" group-title="Series | Terror e Suspense",Higurashi no Naku Koro ni Sotsu S01 E07
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1586509801
 #EXTINF:0 CUID="d4d1d4b8" tvg-name="Himouto! Umaru-chan S01 E01" tvg-logo="https://api.animeiat.co/storage/thumbnails/28323/frZ8L2JimRc0AF1v85.jpg" group-title="Series | Slice of Life",Himouto! Umaru-chan S01 E01
@@ -1447,6 +1447,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593922729
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585105823
 #EXTINF:0 CUID="317375aa" tvg-name="Shikizakura S01 E12" tvg-logo="" group-title="Series | Geral",Shikizakura S01 E12
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593924606
+#EXTINF:0 CUID="28622c50" tvg-name="Shingeki no Kyojin S01 E66" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E66
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593930799
 #EXTINF:0 CUID="3207cbf9" tvg-name="Shingeki no Kyojin S01 E67" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E67
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593920270
 #EXTINF:0 CUID="7adc4c4b" tvg-name="Shingeki no Kyojin S01 E69" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E69
