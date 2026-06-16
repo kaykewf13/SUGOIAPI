@@ -11,6 +11,8 @@ https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585191887
 #EXTINF:-1 tvg-id="" tvg-name="Blue lock - Episode Nagi" tvg-logo="" group-title="Filmes | Esportes",Blue lock - Episode Nagi
@@ -115,6 +117,22 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1592571591
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593694537
 #EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593697955
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919786
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919787
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919788
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919789
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919790
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - 1" tvg-logo="" group-title="Filmes | Shounen",One Piece - 1
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919791
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - Egghead SP" tvg-logo="" group-title="Filmes | Shounen",One Piece - Egghead SP
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919792
+#EXTINF:-1 tvg-id="" tvg-name="One Piece - Egghead SP" tvg-logo="" group-title="Filmes | Shounen",One Piece - Egghead SP
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919793
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584827053
 #EXTINF:-1 tvg-id="" tvg-name="Shingeki no Kyojin Movie - The Last Attack" tvg-logo="" group-title="Filmes | Shounen",Shingeki no Kyojin Movie - The Last Attack
@@ -1009,6 +1027,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820911
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1589113889
 #EXTINF:0 CUID="1c73153e" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584830186
+#EXTINF:0 CUID="559537ec" tvg-name="Kimetsu no Yaiba - Yuukaku-hen S01 E11" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Yuukaku-hen S01 E11
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919794
 #EXTINF:0 CUID="236b091e" tvg-name="Kingdom S5 S01 E12" tvg-logo="" group-title="Series | Historico",Kingdom S5 S01 E12
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585341351
 #EXTINF:0 CUID="b71fceea" tvg-name="Kingdom S6 S01 E01" tvg-logo="" group-title="Series | Historico",Kingdom S6 S01 E01
@@ -1385,14 +1405,22 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585105823
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820800
 #EXTINF:0 CUID="50cac7b6" tvg-name="Shingeki no Kyojin S01 E70" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E70
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820797
+#EXTINF:0 CUID="50cac7b6" tvg-name="Shingeki no Kyojin S01 E70" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E70
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919804
 #EXTINF:0 CUID="71721c35" tvg-name="Shingeki no Kyojin S01 E71" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E71
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820796
+#EXTINF:0 CUID="71721c35" tvg-name="Shingeki no Kyojin S01 E71" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E71
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919803
+#EXTINF:0 CUID="71bdbd72" tvg-name="Shingeki no Kyojin S01 E73" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E73
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919801
 #EXTINF:0 CUID="8684f481" tvg-name="Shingeki no Kyojin S01 E74" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E74
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820795
 #EXTINF:0 CUID="8684f481" tvg-name="Shingeki no Kyojin S01 E74" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E74
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593778680
 #EXTINF:0 CUID="71ccdc7f" tvg-name="Shingeki no Kyojin S01 E75" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E75
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820794
+#EXTINF:0 CUID="71ccdc7f" tvg-name="Shingeki no Kyojin S01 E75" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E75
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919802
 #EXTINF:0 CUID="41167fef" tvg-name="Shingeki no Kyojin S01 E76" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E76
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1586508155
 #EXTINF:0 CUID="e6aa23a5" tvg-name="Shingeki no Kyojin S01 E77" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E77

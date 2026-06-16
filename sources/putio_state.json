@@ -11070,7 +11070,1624 @@
       "created_at": "2026-06-15T05:07:23.503621+00:00",
       "stream_url": "https://api.put.io/v2/files/1593778680/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-06-15T05:07:24.540913+00:00"
+    },
+    "2031dba778b8c33a3813da346761256d270a2d99": {
+      "title": "[SubsPlease] Date a Live IV - 12 (720p) [D2F91B05].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252277,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:18.404566+00:00"
+    },
+    "10b9efee20b5139e869b2598498fc32e69a7f319": {
+      "title": "[SubsPlease] Date a Live IV - 10 (720p) [BDC0B31D].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252278,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:19.033012+00:00"
+    },
+    "f3fbda06812606ac81c1dd3ebf059930fb626e6e": {
+      "title": "[SubsPlease] Date a Live IV - 09 (720p) [21AECD21].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252279,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:19.664287+00:00"
+    },
+    "bf386a68fc25f0278de571443e1eb919b1b52f0f": {
+      "title": "[SubsPlease] Date a Live IV - 06 (720p) [05E3ECEB].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252280,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:20.291961+00:00"
+    },
+    "9be59fb270c82749cc0442c77a021808574ba132": {
+      "title": "[SubsPlease] Date a Live IV - 05 (720p) [9C972853].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252281,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:20.925010+00:00"
+    },
+    "816904c85a50a796fe282388cf161f4542ee3d3d": {
+      "title": "[SubsPlease] Date a Live IV - 04 (720p) [0932B09C].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252282,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:21.548657+00:00"
+    },
+    "3df7eb79a728db83a8635f3f043357f0a0431231": {
+      "title": "[SubsPlease] Date a Live IV - 03 (720p) [D91854B2].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252283,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:22.165404+00:00"
+    },
+    "6b57f37000e12a556e505d4ae4e063d8bd84980d": {
+      "title": "[SubsPlease] Date a Live IV - 02 (720p) [AD20D167].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252285,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:22.825335+00:00"
+    },
+    "6195fd449c6644978b01935f73e65369ddc7d0ef": {
+      "title": "[SubsPlease] Date a Live IV - 01 (720p) [D5E477EE].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252287,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:23.448906+00:00"
+    },
+    "7bdb66040204aecaded4a451fba8c03d03031e9f": {
+      "title": "[SubsPlease] Peter Grill to Kenja no Jikan S2 - 05 (720p) [B1EDA934].mkv",
+      "category": "Ecchi e Harem",
+      "logo": "",
+      "transfer_id": 106252288,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:24.082542+00:00"
+    },
+    "c2142c59763d2b8f9fdee68b94453b73f4962e98": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 276 (720p) [81D879CF].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252289,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:24.728587+00:00"
+    },
+    "efc9c35e91a4f3ad1397903a94e21a62fe447f3d": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 275 (720p) [F73BB48E].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252290,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:25.351387+00:00"
+    },
+    "6ecc5abacd4ed87d25ba2720087d854c6a62f310": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 274 (720p) [5A1DFB5B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252291,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:25.981244+00:00"
+    },
+    "bab60269489b865632868d2af7e7ef64179e6aeb": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 273 (720p) [D8D5BEE9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252292,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:26.609239+00:00"
+    },
+    "e9d0b05c3f2ca86ba57488588acb7875ddd16ab4": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 272 (720p) [8B512532].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252293,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:27.244581+00:00"
+    },
+    "e35ca2cc7d67b538e3121d089a55f96fd86fe210": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 271 (720p) [FDDF8222].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252294,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:27.863048+00:00"
+    },
+    "95231662e89d7653443e8180ab9a858f72fa7b8c": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 270 (720p) [8416962D].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252295,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:28.494789+00:00"
+    },
+    "636d3e670a523e32ef7422aace5030a031b27187": {
+      "title": "[SubsPlease] Boruto - Naruto Next Generations - 269 (720p) [0E163C41].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252296,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:29.114020+00:00"
+    },
+    "382409fb0e07c1af7c82061e108804ddf88c1cf8": {
+      "title": "[SubsPlease] One Piece - 1150 (720p) [CB53F96B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252297,
+      "file_id": 1593919786,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:29.730850+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919786/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.449391+00:00"
+    },
+    "3984e1405548376bc4e14e20f3fa79a5cd124a29": {
+      "title": "[SubsPlease] One Piece - 1145 (720p) [B6708006].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252298,
+      "file_id": 1593919787,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919787/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:30.351504+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919787/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.533522+00:00"
+    },
+    "dea41fd5a23cd04503093c9e5b0206d3f62322d0": {
+      "title": "[SubsPlease] One Piece - 1151 (720p) [85E39EDE].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252299,
+      "file_id": 1593919788,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:30.971308+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919788/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.617058+00:00"
+    },
+    "801a48bbdc8ff2f747c9393e6baff13e8ffe52a9": {
+      "title": "[SubsPlease] One Piece - 1148 (720p) [390AEABE].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252300,
+      "file_id": 1593919789,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:31.595727+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919789/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.700209+00:00"
+    },
+    "e49024dd65b7f462d4d142545b741b8bf1a685cd": {
+      "title": "[SubsPlease] One Piece - 1149 (720p) [4AE164C0].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252301,
+      "file_id": 1593919790,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:32.221553+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919790/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.783032+00:00"
+    },
+    "5033a680272318f91eba625ae9613f09aded2ddf": {
+      "title": "[SubsPlease] One Piece - 1147 (720p) [DA3FC8DF].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252302,
+      "file_id": 1593919791,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:32.845928+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919791/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.866878+00:00"
+    },
+    "a56320da3283c78d13a65ed8ad2319b7f805a188": {
+      "title": "[SubsPlease] One Piece - Egghead SP11 (720p) [78B4DD66].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252303,
+      "file_id": 1593919792,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919792/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:33.462892+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919792/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:39.950057+00:00"
+    },
+    "735928f6564b72a5782618c698e5acee0ede3c54": {
+      "title": "[SubsPlease] One Piece - Egghead SP10 (720p) [6E305A41].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252304,
+      "file_id": 1593919793,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919793/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:34.133742+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919793/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:40.045320+00:00"
+    },
+    "8b4ccdcc9f3730525697d651c3e283c2205eb04d": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 07 (720p) [5D996F9C].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252305,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:34.782397+00:00"
+    },
+    "fcd675d99f97c784913b97d582f419dffdb29462": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 05 (720p) [BC2BBA0A].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252306,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:35.408079+00:00"
+    },
+    "e7c060ab3bc647e1f1434c5eddcc4ab8fe75f247": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 01 (720p) [CD540B69].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252307,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:36.025415+00:00"
+    },
+    "b48b13a9804dc028656c5c85d2776a4f7e0e9850": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 11 (720p) [44AA0F48].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252308,
+      "file_id": 1593919794,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919794/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:36.692637+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919794/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:40.128937+00:00"
+    },
+    "c966ca4524cd4d5d9506abeaa5452cfe74110b95": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 02 (720p) [B1678C91].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252309,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:37.313262+00:00"
+    },
+    "1568bdc549bad581a18a5f4f94a89902ffab2c49": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 10 (720p) [EB335C8B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252310,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:37.930046+00:00"
+    },
+    "5d0fc80936af5e49d58ff4ffca806b40de4d50f2": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 09 (720p) [E5AADC5E].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252311,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:38.560848+00:00"
+    },
+    "2dde3dc0441cba678a6c1bfa62be47430a3f9b35": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 08 (720p) [BAD2EB42].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252312,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:39.190817+00:00"
+    },
+    "d947a15c9df616058cf589d7c26f11be0110b788": {
+      "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 07 (720p) [18046E24].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252313,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:39.809842+00:00"
+    },
+    "df5a795a3089e2df3ffa639e98498b63dde36668": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 46 (720p) [AE82D68E].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252314,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:40.444242+00:00"
+    },
+    "3e8fe72864d328971be07ec96f9d6b42f24ef72d": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 47 (720p) [4B76A8F2].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252315,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:41.071039+00:00"
+    },
+    "07706a525dc18b117638d801a629031657af29fd": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 45 (720p) [B18505A3].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252316,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:41.699204+00:00"
+    },
+    "be612fe76a37748940aaec82827bb27a8028b055": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 44 (720p) [4ACB9B55].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252317,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:42.323081+00:00"
+    },
+    "00744cdf06563db8a29088af8b483d2322a72168": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 43 (720p) [6659D8BA].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252318,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:42.945012+00:00"
+    },
+    "111e7dc60941661e68f22fb0818d865904809e6d": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 40 (720p) [4A1BE4DC].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252319,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:43.566497+00:00"
+    },
+    "bb481308a0bf072ead87cb9aca9f6b3718039caf": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 37 (720p) [55BF7A11].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252320,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:44.182502+00:00"
+    },
+    "ebe6eab287b6ee2ba1c9af700e4dddc4f6322bb3": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 42 (720p) [16F24D4D].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252321,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:44.846984+00:00"
+    },
+    "5cb28598b41ca0a390bd9887702c04a7bb9578de": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 41 (720p) [849F253A].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252322,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:45.470938+00:00"
+    },
+    "613f8763797489bdfd09401439d35b35b8f84a85": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 39 (720p) [37473DE9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252323,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:46.092832+00:00"
+    },
+    "2c6ac3a945ecec0433b5c157b102d1d9b473c131": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 73 (720p) [A8D3F4D1].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252324,
+      "file_id": 1593919801,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:46.715065+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919801/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:40.216842+00:00"
+    },
+    "39642aebe728476b150b2098376bd385710a8510": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 72 (720p) [20B7682F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252325,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:47.333556+00:00"
+    },
+    "c5b8c92eae12191078404c2a6bc4505631fc121f": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 68 (720p) [268357E7].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252326,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:47.995318+00:00"
+    },
+    "3d495cdedfa61905311e2afd39d9810269077f2c": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 67 (720p) [E264B4A9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252327,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:48.628216+00:00"
+    },
+    "a8eb8ce5acf71135c8681af60bac9f461e0915bd": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 75 (720p) [16B96149].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252328,
+      "file_id": 1593919802,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919802/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:49.258687+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919802/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:40.300685+00:00"
+    },
+    "6350239281334bdba98cae84d560f79d870a6f16": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 71 (720p) [34A17F85].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252329,
+      "file_id": 1593919803,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919803/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:49.880825+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919803/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:40.387224+00:00"
+    },
+    "2271f8854579beba321db1044e62f63a37b1ab1c": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 69 (720p) [50CC61F9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252330,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:50.542621+00:00"
+    },
+    "7da86936e3f7b3674ce971195c9c52e43f50fa1b": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 66 (720p) [05791D33].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252331,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:51.181851+00:00"
+    },
+    "a1b5751fc7db113bc9e6ab00e1e4392e518ca0b0": {
+      "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 70 (720p) [32CAEAEE].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252332,
+      "file_id": 1593919804,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593919804/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:51.835234+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593919804/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T02:44:40.478115+00:00"
+    },
+    "b58a613e50d4136948e90518a5f198e35579ec5e": {
+      "title": "[SubsPlease] Black Clover - 148 (720p) [32C8C103].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252334,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:52.453292+00:00"
+    },
+    "f9fc3cc1ac6c06ce61117ae7d6bc1fb5aa93b00d": {
+      "title": "[SubsPlease] Black Clover - 147 (720p) [8E474413].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252335,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:53.078514+00:00"
+    },
+    "2f3e8b3794a2d749bd56c8f951f0d006b19f18d4": {
+      "title": "[SubsPlease] Black Clover - 159 (720p) [0D564F2A].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252336,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:53.705947+00:00"
+    },
+    "cc0899a001d21ef24f0df1e66bf061c9cf5c9ca1": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 19 (720p) [BC8744A8].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252338,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:54.323014+00:00"
+    },
+    "200855e59b0dc58838eec3162a0cc94f985d6bc7": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 13.5 (720p) [B17A0BE7].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252339,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:54.944501+00:00"
+    },
+    "56c08fbd7a532a60d4dba1dba0881e73d4c87e44": {
+      "title": "[SubsPlease] Fairy Tail - 100 Years Quest - 16 (720p) [30ABA74D].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252340,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:55.575986+00:00"
+    },
+    "c28b1624c00900a3ae69839cfcab4211d11df8ab": {
+      "title": "[SubsPlease] Haikyuu!! To The Top - 16 (720p) [0989CEA7].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252341,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:56.194825+00:00"
+    },
+    "100a146067f70663a23ba5a584a712f9bc24fc49": {
+      "title": "[SubsPlease] Haikyuu!! To The Top - 15 (720p) [CA6EB306].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252342,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:56.816216+00:00"
+    },
+    "963d4b18110b43b16245ff95f6b074092b179065": {
+      "title": "[SubsPlease] Spy x Family (26-37) (720p) [Batch]",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252343,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:57.432771+00:00"
+    },
+    "e73b2a27fcc01bdd7fda1439a6e2d5b6f9331c70": {
+      "title": "[SubsPlease] Spy x Family - Code White (720p) [6F528BE8].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252344,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:58.062222+00:00"
+    },
+    "0e125b3a4defa3b758baa00fac73bccbfbae73b7": {
+      "title": "[SubsPlease] Spy x Family - 35 (720p) [98C85B94].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252345,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:58.679849+00:00"
+    },
+    "22fa0631b7c2d5c6571d02e164812ced3d94913a": {
+      "title": "[SubsPlease] Spy x Family - 33 (720p) [B2C04DF4].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252346,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:59.313074+00:00"
+    },
+    "0df1d68a631572d5c86c2fed38a42c0e7b9ce13a": {
+      "title": "[SubsPlease] Spy x Family - 36 (720p) [58D77A1C].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252347,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:43:59.932357+00:00"
+    },
+    "18ed3ea0d65916950449f39672d83424432e300c": {
+      "title": "[SubsPlease] Spy x Family - 34 (720p) [CC9BF398].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252348,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:00.585712+00:00"
+    },
+    "da3c5e16cba509c0265789b69decd0c73d08bb0e": {
+      "title": "[SubsPlease] Spy x Family - 37 (720p) [2CC9D748].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252349,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:01.231646+00:00"
+    },
+    "ba90de3d7ea0908e31604db24086f5a7a514dec3": {
+      "title": "[SubsPlease] Spy x Family - 32 (720p) [430715DB].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252350,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:01.853092+00:00"
+    },
+    "33a344f32fb447f093a654d9a83286b1167a4a31": {
+      "title": "[SubsPlease] Spy x Family - 31 (720p) [DB11CFA3].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252351,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:02.473688+00:00"
+    },
+    "ce4c353a6ff67da841e96944f2f8f29ba46e7b39": {
+      "title": "[SubsPlease] Spy x Family - 29 (720p) [783FCBA0].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252352,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:03.178699+00:00"
+    },
+    "85944e97394ac4ca2d7e78dd1d609d4cf83b8a98": {
+      "title": "[SubsPlease] Dr. Stone S4 - 20 (720p) [362D666F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252353,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:03.878909+00:00"
+    },
+    "d941bb00188aef1dd2f8bee9731b254a731c5cf8": {
+      "title": "[SubsPlease] Dr. Stone S4 - 19 (720p) [D5F358BA].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252354,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:04.502101+00:00"
+    },
+    "696f76ce287d2e4f5bde137d87f22fb30297450e": {
+      "title": "[SubsPlease] Dr. Stone S4 - 11 (720p) [65FCF105].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252355,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:05.128553+00:00"
+    },
+    "f9466b87b546f39912d3867c7866287e2481df83": {
+      "title": "[SubsPlease] Mashle - 08 (720p) [CD653682].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252356,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:05.763271+00:00"
+    },
+    "bf45266cd89c7fb41381050914b2f34f888aa132": {
+      "title": "[SubsPlease] Mashle - 06.5 (720p) [C29E7F89].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252357,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:06.388404+00:00"
+    },
+    "7794a13aaf8801e8562aa4c3ac525857186960e5": {
+      "title": "[SubsPlease] Mashle - 06 (720p) [EBB2B7AB].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252358,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:07.015629+00:00"
+    },
+    "0e9cbbf3b98ffdaa96fced46ad8b376180ea319b": {
+      "title": "[SubsPlease] Dandadan - 11 (720p) [D173BB7F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252359,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:07.633329+00:00"
+    },
+    "9aed34a927ca405fb345feb91d62f89f6469d8f0": {
+      "title": "[SubsPlease] Dandadan - 02 (720p) [CBF5A663].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252360,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:08.260394+00:00"
+    },
+    "a0f7be45ab79cc2cf899ab1cb08c0bc9d9538009": {
+      "title": "[SubsPlease] Wind Breaker - 08 (720p) [01BBFA2B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252361,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:08.886173+00:00"
+    },
+    "1170eb8c1a4b38fa1555b3eb4ac846c321178348": {
+      "title": "[SubsPlease] Blue Lock - 23 (720p) [428AC32F].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252362,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:09.537265+00:00"
+    },
+    "c7508636061b80d6d7b6866bc990cd6e22d9abca": {
+      "title": "[SubsPlease] Blue Lock - 17 (720p) [A97DA85B].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252363,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:10.172250+00:00"
+    },
+    "a99502fa225aebd891fc8a70055f31c95ca2eb89": {
+      "title": "[SubsPlease] Blue Lock - 24 (720p) [0083E942].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252364,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:10.805208+00:00"
+    },
+    "007fbcd4511b55a84faebd6f933d5ae59e89d4c7": {
+      "title": "[SubsPlease] Blue Lock - 22 (720p) [D817CAE9].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252365,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:11.451212+00:00"
+    },
+    "909412ba6fc0d879b97e7a0ca47197e0954b46b5": {
+      "title": "[SubsPlease] Blue Lock - 21 (720p) [4251C2C2].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252366,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:12.073921+00:00"
+    },
+    "2c4a55419a28c31703bae579edb574974e46ef89": {
+      "title": "[SubsPlease] Blue Lock - 20 (720p) [8C464764].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252367,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:12.692977+00:00"
+    },
+    "937b43408f07edca1272ea7d8e58961ff61c3abc": {
+      "title": "[SubsPlease] Blue Lock - 19 (720p) [D2647E50].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252368,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:13.320686+00:00"
+    },
+    "1b129459b461ee5fb1cc9d007cbeacef3a3cb396": {
+      "title": "[SubsPlease] Blue Lock - 18 (720p) [75E8C950].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252369,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:13.983667+00:00"
+    },
+    "e6a06369af665c115295b7f3dc37dfadcdc46fca": {
+      "title": "[SubsPlease] Blue Lock - 16 (720p) [F661CFB8].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252370,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:14.645288+00:00"
+    },
+    "f2447f8228121f79bc6bc872ebbd20c03c8ffecb": {
+      "title": "[SubsPlease] Blue Lock - 15 (720p) [BA724513].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106252371,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:15.266069+00:00"
+    },
+    "c003d6da13a6a51eb72c18a65739580d3349b26a": {
+      "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 03 (720p) [4CF059D9].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252372,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:15.910089+00:00"
+    },
+    "ea88f56663c292f24b16275b31a8721831392d5b": {
+      "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 06.5 (720p) [D1181523].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252373,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:16.534507+00:00"
+    },
+    "162ff8a6f1dff3438047cdb633e5aeb45c98c9e7": {
+      "title": "[SubsPlease] Another Journey to the West - 06 (720p) [9EDDE4FF].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252374,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:17.164329+00:00"
+    },
+    "ed2115fcd34f376c083f0a9a4e09bba81ad2f719": {
+      "title": "[SubsPlease] Another Journey to the West - 02 (720p) [EECEFD58].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252375,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:17.784301+00:00"
+    },
+    "aca35a82b73281e1ba5d1c0324cff1ab2c665f91": {
+      "title": "[SubsPlease] Another Journey to the West - 12 (720p) [0CAB4323].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252376,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:18.414182+00:00"
+    },
+    "c5b781883cb8b3ca982aef382494f82e7a67274f": {
+      "title": "[SubsPlease] Another Journey to the West - 11 (720p) [01EB9CAE].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252377,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:19.033668+00:00"
+    },
+    "f3563c02e2db570a26a86cf94a737a44b3e55a5d": {
+      "title": "[SubsPlease] Another Journey to the West - 10 (720p) [FA1E766E].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252378,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:19.662898+00:00"
+    },
+    "1ac376509fbdfbebe3b8f893feb4d208dca8a5de": {
+      "title": "[SubsPlease] Another Journey to the West - 08 (720p) [F559FF37].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252379,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:20.280631+00:00"
+    },
+    "a5c77fade63df3aded0067ae8608baad4c43ba3c": {
+      "title": "[SubsPlease] Another Journey to the West - 07 (720p) [FA30D458].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252380,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:20.897069+00:00"
+    },
+    "427a02532b07beb8816a9407cbb0dbe1e474fb2e": {
+      "title": "[SubsPlease] Another Journey to the West - 04 (720p) [8E4F95BE].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252381,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:21.515019+00:00"
+    },
+    "7d449b0619a11a92197e5ec05ae15271f83a32cf": {
+      "title": "[SubsPlease] Another Journey to the West - 09 (720p) [F14E705B].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252382,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:22.139258+00:00"
+    },
+    "afa640f2b4e82502cc5727d16cc5a9b9f2b693d4": {
+      "title": "[SubsPlease] Another Journey to the West - 05 (720p) [94239D08].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252383,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:22.756236+00:00"
+    },
+    "a8d747d2fcded1ce26b8204c1b7314b8c2b2f692": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 05 (720p) [8852C2AD].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252384,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:23.421415+00:00"
+    },
+    "90f9942608abc8bd2c6ce97bc81aea3b881cf45d": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 04 (720p) [505626E7].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252385,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:24.040508+00:00"
+    },
+    "4555e7c611c528ef07993e002d469d3d9ddc9d9d": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 03 (720p) [302D79C7].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252386,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:24.668067+00:00"
+    },
+    "a71dd65fdb01abbf8a8d01325ad4c6485284e959": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 02 (720p) [ABEC329B].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252387,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:25.286917+00:00"
+    },
+    "7ff8da1b5ab62d7b869b2d960f66282133794709": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 01 (720p) [0E3482D7].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252388,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:25.904733+00:00"
+    },
+    "a678c5822351a33a0c6a86347987b99af86874c6": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Gou - 24 (720p) [8AA6DC88].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252389,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:26.528743+00:00"
+    },
+    "40132e724cecfef99e597e69806cbc747259c142": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Gou - 23 (720p) [B7EAFFF3].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252391,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:27.147996+00:00"
+    },
+    "a72557919a3ddf9fb4331694283cde8db4803365": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Gou - 22 (720p) [66836C00].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252392,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:27.842122+00:00"
+    },
+    "553d912797bab0010cd3ad385375e4d5e104e68b": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Gou - 19 (720p) [251731B1].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252393,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:28.460942+00:00"
+    },
+    "1803a477be40bc0208f837fb5f8981f20b03c6f9": {
+      "title": "[SubsPlease] Higurashi no Naku Koro ni Gou - 17 (720p) [C9DE17D3].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252395,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:29.075648+00:00"
+    },
+    "a1f1f1014cb0ce6248536a1711761905806f9fdc": {
+      "title": "[SubsPlease] Shikizakura - 12 (720p) [9C0DB857].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252396,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:29.699864+00:00"
+    },
+    "8f7efb504079fbfda1cd593cd4ce39a106929938": {
+      "title": "[SubsPlease] Shikizakura - 11 (720p) [B9437534].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252397,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:30.323129+00:00"
+    },
+    "1e234b22b1661ac5e3142105f7a3b701968d4a60": {
+      "title": "[SubsPlease] Shikizakura - 10 (720p) [807D6146].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252398,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:30.943960+00:00"
+    },
+    "c03d0c768cb2dc3dd4e39dd92b0f7f5aec3baa79": {
+      "title": "[SubsPlease] Shikizakura - 09 (720p) [EDE3CEB0].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106252399,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T02:44:31.699763+00:00"
+    },
+    "cd5017fda94ab1519d8320a2c2f23fef3ac14a61": {
+      "title": "[SubsPlease] Shikizakura - 08 (720p) [2025DE95].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "e54b2a0048fabba92fc29aacf92cea682e52a5b8": {
+      "title": "[SubsPlease] Shikizakura - 06 (720p) [BF50CD8E].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "acbca7d87ec9d893da21992af5c31adf0a03caa8": {
+      "title": "[SubsPlease] Shikizakura - 05 (720p) [FEAFCB67].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "09129ab8ed81ec792205500a50ac3207772d9e4f": {
+      "title": "[SubsPlease] Shikizakura - 04 (720p) [C4895492].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "c742dc6f6d6d7815278ca4437703d0fdac7edd06": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 16 (720p) [4C318574].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "3b8a5aafd8cf218c8b36fb56fe0d478dbf70a1a9": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 15 (720p) [5435D965].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "8ee833651207d36dc18f1f61eb96a9a5934025fa": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 13 (720p) [38E2CD62].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "7feae08b98d02744b09c8b657139372cf995f152": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 12 (720p) [E9DA6C14].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "8af52d4e32108a800013e5124622f76bffb8afe8": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 11 (720p) [0BECE5CA].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "3c171e2b04dc6fc67d21f8d4709e453c705a0859": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 10 (720p) [9C749C4B].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "ab2d022b0be7ae39ba841b1bf1ca7a398b3f0a7b": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 09 (720p) [7062D5D0].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "2996e84420fe525e18906a9f31d3e6fc8690cf70": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 08 (720p) [591C271A].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "ec2519d4d2edfd0114b99e15e5d2c51ec2e97401": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 07 (720p) [22F19CAF].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "b55f4e9e035ef8e98539dd39f5857c92beeb883c": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 06 (720p) [74B208E1].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "832f217bc26790210091aada6af0cba81c53e424": {
+      "title": "[SubsPlease] Nomad - Megalo Box 2 - 04 (720p) [8945094A].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "eb6c7f9ba0d551883db9d97f266e68eac51161ef": {
+      "title": "[SubsPlease] Nomad - Megalo Box 2 - 03 (720p) [729AF274].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "1cba2fde62921a3728b01f7e1ee60f7eae655d93": {
+      "title": "[SubsPlease] Nomad - Megalo Box 2 - 01 (720p) [7FC0324B].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "d17b16cfd441c64bc26696fbd6a3362a48d0dd92": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition (01-13) (720p) [Batch]",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "d7a9dfc1788c254e789bb7400fb51f01e3809689": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 09 (720p) [1C1B2C04].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "411846f2683ae52978ddc5e7a510613eafeb5ff5": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 13 (720p) [C39EFBA0].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "6e3f88ccbd9d491b6d93b2b432fbab95b49e9803": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 12 (720p) [10495C67].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "c675e7cc67172700607be1462648ded94c01fa85": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 11 (720p) [FE67EBA6].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "37343b7792d7ef7fb50a7bfdecc19754cb4d7be0": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 10 (720p) [3B5F9738].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "fb4022ad0ce8e67ef5e99b927003ee7914080aeb": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 08 (720p) [9CF842EC].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "4bb254a4a9df27cd137d4d3e2be6054398945a9a": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 07 (720p) [269C275A].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "cdd2634359ecad5f39bb649d0d78a83fc9598bb9": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 06 (720p) [5137B805].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "d7ce7882d9ddcd4f01ae5282c03230bfcc6e55ed": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 05 (720p) [5D22E1DF].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "0f195c0b5050588805f3930bbfc9b7fdf0bdee91": {
+      "title": "[SubsPlease] Mobile Suit Gundam - The Witch from Mercury - 09 (720p) [0390A63A].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "3dfe0a154fa7579ecfb3cd1c639f76b2b3c1746c": {
+      "title": "[SubsPlease] 86 - Eighty Six - 11.5 (720p) [CE50FD29].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "ee5139c3af1155f9e71630223d90595bf8ececc5": {
+      "title": "[SubsPlease] 86 - Eighty Six - 10 (720p) [D1B532B6].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "b6bad451b2960938d7335cb1359f143be1879dcc": {
+      "title": "[SubsPlease] Kingdom S5 - 04 (720p) [1170C080].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "168411f3ff21f76c83b857f22ad67872e882f2b5": {
+      "title": "[SubsPlease] Kingdom S5 - 13 (720p) [8E60ABD0].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "8f6ba26ea3dd9078b85384f3f43d942c3ed36421": {
+      "title": "[SubsPlease] Kingdom S5 - 10 (720p) [36C5446B].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "facbddf21d983af0376f968a402b67773291dd6f": {
+      "title": "[SubsPlease] Kingdom S5 - 09 (720p) [B0D057F0].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "1e9572034614873ca4301d152470d2337bc1b231": {
+      "title": "[SubsPlease] Kingdom S5 - 08 (720p) [A2F5B0D6].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "c1db2a8ba29a8ea3cf7284cfbf0e036669f6e859": {
+      "title": "[SubsPlease] Kingdom S5 - 07 (720p) [2669F65A].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "635e94a8100d5a693dd44f2a4410ee4b799da7cf": {
+      "title": "[SubsPlease] Kingdom S5 - 06 (720p) [C7B41920].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "3ddeb37d620aeb42f2c0ff4b58060c6fe603f37e": {
+      "title": "[SubsPlease] Kingdom S5 - 05 (720p) [D989516E].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "13b95e0b6820828bbd8eab7faa09ddb83eca8492": {
+      "title": "[SubsPlease] Overlord IV - 06 (720p) [4394E40D].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "b8ad8d37f2169b44cf7a93596b6ffac52ca176ee": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 66v2 (720p) [14EB774A].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "0181d599d5265f7f7a319b8423fba9dec1d10e9f": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 59 (720p) [C830614E].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "d9fed49b4ae551892cb2abe57bc246ee4747f95d": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 60 (720p) [04F54786].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "d9b7eadc3d20efbf4fbc6a44c4eed29d738a8e4c": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken - 65.5 (720p) [720B5021].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "a8766d1fdec06d59e8fb6dd03fddff29c3aef974": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 10 (720p) [B19789E6].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "f74fed67dc18d7c94f2902c42639a27abfff8649": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 09 (720p) [D59CD16E].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "fe4bf0971f8e57f86633cab33f125ebe65ae1f29": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 04 (720p) [3F2F9EF0].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "b727f342f562e4c98d54a21363e4bc493c2744a0": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 08 (720p) [8E7C2151].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "a165134ff2db1248c856f54eb7e3a629bdbe5f0b": {
+      "title": "[SubsPlease] Mushoku Tensei S2 - 02 (720p) [1A9E26F7].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "0995119b7036302edcde7cbaef88593917e3917e": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - 12 (720p) [483EA23F].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "38f02871b92627692df4f41f701d4a14e5487e85": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - 11 (720p) [24B242B1].mkv",
+      "status": "error",
+      "error": "400 Client Error: BAD REQUEST for url: https://api.put.io/v2/transfers/add"
+    },
+    "c64d079b18f621b8fd72f28efdac0c71163a82ea": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - 10 (720p) [EC1104A4].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "0702424f397da6d6e13deb8c6c90e77d3c1b0dcc": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - 09 (720p) [1DE5E141].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "80a3f97d01a77af2513a46b572950f98f6ac5f15": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - 08 (720p) [5018D938].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "208ebaa52770f86806add6f77aaeadf965b16014": {
+      "title": "[SubsPlease] Arifureta Shokugyou de Sekai Saikyou S2 - 13 (720p) [E61F0958].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "51f37dd22353f5cb7c7e90de14ea54971b7ca408": {
+      "title": "[SubsPlease] Honzuki no Gekokujou - 26.5.1 (720p) [BB1AADCB].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "f344d24f144f453a0b6873015c129fbdce4919c7": {
+      "title": "[SubsPlease] Honzuki no Gekokujou - 27 (720p) [9A56EDF4].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "4d7a04f602a7909e1f4b28e660f31b68ffffe734": {
+      "title": "[SubsPlease] One-Punch Man S3 - 00 (720p) [3194D9D8].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "9115bb0b296dd6fdd98969c8c147dd7a87fa5f10": {
+      "title": "[SubsPlease] One-Punch Man S3 (00-12) (720p) [Batch]",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "6b98a4a9bea50c6785d7a4dd6f941dad25b724f7": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 04 (720p) [A1BA7FC2].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "bbf3f7dd0c896f641cb526bb8dd0df1fad216a62": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 02 (720p) [1F70EFCA].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "4d74ea3c1e4328fcc33abe22e838594197825d58": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 12 (720p) [76CC6529].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "68a8c6f687b92e5b96a397f0312c239c1e35ddf7": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 11 (720p) [2A4CF105].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "10e2fb02266538484968c430b10785d108cd696e": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 05 (720p) [F32C6538].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "559eb0fcb7f373df5ad5636771514c47b7df175b": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 03 (720p) [08ACBA75].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "5d1da3eacdf929dd7d80226d7dde0b09310c1bb7": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 09 (720p) [7E303DA8].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "5003375d7667a465b88e76cf88768443999cb939": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 08 (720p) [368AEC9A].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "6df7be29ff89b0423bdb89c14071a2960c59c150": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 07 (720p) [A3BA650F].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "95b3c12be4a35379552be80d0dfe7208f78ad17b": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 10 (720p) [5F38068B].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "be8042c960314f09e092f5cc61c5e1eb5ed6a3dc": {
+      "title": "[SubsPlease] Horimiya - 11 (720p) [B3F987A3].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "258995dc404d2c213e5758a702779bff20e76b72": {
+      "title": "[SubsPlease] Horimiya - 04 (720p) [F0E0B024].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "fd41d71c7e4a8013f6b8890f32c87c37d4571c38": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 04 (720p) [09D813ED].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "7ff6f21ea83034483e717fddfdd33dd45d99b859": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - SP1 (720p) [6D6FD9BC].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "cd5568955ea776e5e422a7cb45b4a477857b77e7": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 11 (720p) [0AA8B765].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "a60177d20d0697c815ca0ed768bc59fa9f91b78c": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 13 (720p) [E86C74F5].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "56f1eb013fa0393c040f7f00068d25ba3db7dbe4": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 12 (720p) [D74ADF28].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "3f83cdc2737e32963fb44d57216fbb7f94320e80": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 10 (720p) [08893CA8].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "d714d71d777e091f99f645db24d297e157f5342f": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 09 (720p) [92442373].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "101366246885069aaa4afac3fa60e5e827e24bea": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 08 (720p) [39FC4641].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "f1f3e1c72f3422889cbbc969359302eb664816c8": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 07 (720p) [A4FEAC6D].mkv",
+      "status": "error",
+      "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-06-16T01:20:56.444250+00:00"
+  "last_run": "2026-06-16T02:44:40.478177+00:00"
 }

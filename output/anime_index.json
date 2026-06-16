@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-16T01:21:15.974980+00:00",
-  "total": 795,
+  "gerado_em": "2026-06-16T02:44:50.880323+00:00",
+  "total": 808,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -2198,6 +2198,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Kimetsu no Yaiba - Yuukaku-hen S01 E11",
+      "id": "1593919794",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Kingdom S5 S01 E12",
       "id": "1585341351",
       "grupo": "Series | Historico"
@@ -2720,6 +2725,46 @@
     {
       "nome": "One Piece - 1",
       "id": "1593697955",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - 1",
+      "id": "1593919786",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - 1",
+      "id": "1593919787",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - 1",
+      "id": "1593919788",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - 1",
+      "id": "1593919789",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - 1",
+      "id": "1593919790",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - 1",
+      "id": "1593919791",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - Egghead SP",
+      "id": "1593919792",
+      "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "One Piece - Egghead SP",
+      "id": "1593919793",
       "grupo": "Filmes | Shounen"
     },
     {
@@ -3338,8 +3383,23 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Shingeki no Kyojin S01 E70",
+      "id": "1593919804",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Shingeki no Kyojin S01 E71",
       "id": "1584820796",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Shingeki no Kyojin S01 E71",
+      "id": "1593919803",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Shingeki no Kyojin S01 E73",
+      "id": "1593919801",
       "grupo": "Series | Shounen"
     },
     {
@@ -3355,6 +3415,11 @@
     {
       "nome": "Shingeki no Kyojin S01 E75",
       "id": "1584820794",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Shingeki no Kyojin S01 E75",
+      "id": "1593919802",
       "grupo": "Series | Shounen"
     },
     {
