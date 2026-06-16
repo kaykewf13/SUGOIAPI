@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-16T02:44:50.880323+00:00",
-  "total": 808,
+  "gerado_em": "2026-06-16T04:44:17.694041+00:00",
+  "total": 833,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -148,6 +148,56 @@
       "grupo": "Series | Terror e Suspense"
     },
     {
+      "nome": "Another Journey to the West S01 E02",
+      "id": "1593920290",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E04",
+      "id": "1593923665",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E05",
+      "id": "1593923217",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E06",
+      "id": "1593920711",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E07",
+      "id": "1593923879",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E08",
+      "id": "1593923345",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E09",
+      "id": "1593923130",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E10",
+      "id": "1593923202",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E11",
+      "id": "1593924887",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E12",
+      "id": "1593923056",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
       "nome": "Arifureta Shokugyou de Sekai Saikyou S2 - OVA P1",
       "id": "1591430139",
       "grupo": "Filmes | Isekai"
@@ -190,6 +240,16 @@
     {
       "nome": "Black Clover S01 E147",
       "id": "1584829790",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Black Clover S01 E147",
+      "id": "1593920712",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Black Clover S01 E148",
+      "id": "1593920710",
       "grupo": "Series | Shounen"
     },
     {
@@ -246,6 +306,11 @@
       "nome": "Blue lock - Episode Nagi",
       "id": "1591216727",
       "grupo": "Filmes | Esportes"
+    },
+    {
+      "nome": "Blue Lock S01 E23",
+      "id": "1593922730",
+      "grupo": "Series | Esportes"
     },
     {
       "nome": "Blue Lock S01 E27",
@@ -713,6 +778,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Dandadan S01 E11",
+      "id": "1593919822",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Dandadan S01 E12",
       "id": "1588516405",
       "grupo": "Series | Shounen"
@@ -895,6 +965,11 @@
     {
       "nome": "Dr. Stone S4 S01 E18",
       "id": "1584831137",
+      "grupo": "Series | Geral"
+    },
+    {
+      "nome": "Dr. Stone S4 S01 E19",
+      "id": "1593920657",
       "grupo": "Series | Geral"
     },
     {
@@ -1125,6 +1200,11 @@
     {
       "nome": "Dragon Ball Daima S01 E20",
       "id": "1584900326",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Fairy Tail - 100 Years Quest - 13.5 S01 E13",
+      "id": "1593920597",
       "grupo": "Series | Shounen"
     },
     {
@@ -2308,6 +2388,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Mashle S01 E08",
+      "id": "1593920379",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Mashle S01 E09",
       "id": "1584841220",
       "grupo": "Series | Shounen"
@@ -2456,6 +2541,16 @@
       "nome": "Mobile Suit Gundam - The Witch from Mercury S01 E24",
       "id": "1584875674",
       "grupo": "Series | Mecha"
+    },
+    {
+      "nome": "Monogatari Series - Off & Monster Season - 06.5 S01 E06",
+      "id": "1593920373",
+      "grupo": "Series | Seinen"
+    },
+    {
+      "nome": "Monogatari Series - Off & Monster Season S01 E03",
+      "id": "1593920506",
+      "grupo": "Series | Seinen"
     },
     {
       "nome": "Monogatari Series - Off & Monster Season S01 E04",
@@ -3328,8 +3423,18 @@
       "grupo": "Series | Geral"
     },
     {
+      "nome": "Shikizakura S01 E09",
+      "id": "1593920589",
+      "grupo": "Series | Geral"
+    },
+    {
       "nome": "Shikizakura S01 E10",
       "id": "1585105821",
+      "grupo": "Series | Geral"
+    },
+    {
+      "nome": "Shikizakura S01 E10",
+      "id": "1593920594",
       "grupo": "Series | Geral"
     },
     {
@@ -3338,8 +3443,18 @@
       "grupo": "Series | Geral"
     },
     {
+      "nome": "Shikizakura S01 E11",
+      "id": "1593922729",
+      "grupo": "Series | Geral"
+    },
+    {
       "nome": "Shikizakura S01 E12",
       "id": "1585105823",
+      "grupo": "Series | Geral"
+    },
+    {
+      "nome": "Shikizakura S01 E12",
+      "id": "1593924606",
       "grupo": "Series | Geral"
     },
     {
@@ -3373,8 +3488,18 @@
       "grupo": "Filmes | Shounen"
     },
     {
+      "nome": "Shingeki no Kyojin S01 E67",
+      "id": "1593920270",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Shingeki no Kyojin S01 E69",
       "id": "1584820800",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Shingeki no Kyojin S01 E69",
+      "id": "1593920756",
       "grupo": "Series | Shounen"
     },
     {

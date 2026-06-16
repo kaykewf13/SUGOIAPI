@@ -11596,10 +11596,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252327,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:48.628216+00:00"
+      "file_id": 1593920270,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920270/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:48.628216+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920270/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T04:44:03.615359+00:00"
     },
     "a8eb8ce5acf71135c8681af60bac9f461e0915bd": {
       "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 75 (720p) [16B96149].mkv",
@@ -11634,10 +11638,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252330,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:50.542621+00:00"
+      "file_id": 1593920756,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920756/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:50.542621+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920756/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-16T04:44:03.761243+00:00"
     },
     "7da86936e3f7b3674ce971195c9c52e43f50fa1b": {
       "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 66 (720p) [05791D33].mkv",
@@ -12687,7 +12695,117 @@
       "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 Shorts - 07 (720p) [A4FEAC6D].mkv",
       "status": "error",
       "error": "429 Client Error: TOO MANY REQUESTS for url: https://api.put.io/v2/transfers/add"
+    },
+    "1d5f51984b9579ba8efeb6c46a57bb8667f379c0": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 38 (720p) [CE076177].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106253490,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:55.272896+00:00"
+    },
+    "a139168b73fae6bd769c8f2bfaf006906498a0f0": {
+      "title": "[SubsPlease] Jujutsu Kaisen - 36 (720p) [896C98C7].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106253491,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:55.957208+00:00"
+    },
+    "b641711df2f1e645b5d6f8329b31ef09b657d8d9": {
+      "title": "[SubsPlease] Spy x Family - 30 (720p) [775B4E65].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106253492,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:56.645530+00:00"
+    },
+    "6843999ae065f44fd88bd6e66bebe63837bb7767": {
+      "title": "[SubsPlease] Another Journey to the West - 03 (720p) [49B7B108].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106253493,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:57.325170+00:00"
+    },
+    "92fe781eaa4e1abe570e77cb9eb5785f26c604b0": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 05 (720p) [D54F7423].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106253495,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:58.012131+00:00"
+    },
+    "88e957497482826d32eb59541b20d34ba979c528": {
+      "title": "[SubsPlease] Yuukoku no Moriarty - 04 (720p) [BE927AAC].mkv",
+      "category": "Suspense",
+      "logo": "",
+      "transfer_id": 106253496,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:58.696577+00:00"
+    },
+    "ff09effc5e979eb6bd63270b9e81b300672c84ae": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 04 (720p) [D22E8922].mkv",
+      "category": "Luta",
+      "logo": "",
+      "transfer_id": 106253497,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:43:59.375741+00:00"
+    },
+    "e7cc6fb310a2356d8c64fc7f9e57ae0cb3475650": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 03 (720p) [FBB56BAA].mkv",
+      "category": "Luta",
+      "logo": "",
+      "transfer_id": 106253498,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:44:00.080169+00:00"
+    },
+    "27665c2a2f00f8e062c55a990772664de2b1109a": {
+      "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 02 (720p) [DCD31787].mkv",
+      "category": "Luta",
+      "logo": "",
+      "transfer_id": 106253499,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:44:00.823239+00:00"
+    },
+    "c5bea536635dfff809aeba5ced00789056a91fbc": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou - 06 (720p) [55D6AF22].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 106253500,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:44:01.549514+00:00"
+    },
+    "aff0a14eb04954779bfa0a473e3db9cf89cf19ce": {
+      "title": "[SubsPlease] Goumon Baito-kun no Nichijou (01-12) (720p) [Batch]",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 106253502,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-16T04:44:02.289830+00:00"
     }
   },
-  "last_run": "2026-06-16T02:44:40.478177+00:00"
+  "last_run": "2026-06-16T04:44:03.761306+00:00"
 }
