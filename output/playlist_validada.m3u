@@ -9,8 +9,6 @@ https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
-#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
-https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585191887
 #EXTINF:-1 tvg-id="" tvg-name="Blue lock - Episode Nagi" tvg-logo="" group-title="Filmes | Esportes",Blue lock - Episode Nagi
@@ -799,6 +797,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1583908273
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1583908275
 #EXTINF:0 CUID="4bb78a53" tvg-name="Heavy Object S01 E24" tvg-logo="" group-title="Series | Geral",Heavy Object S01 E24
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1583908277
+#EXTINF:0 CUID="5945cde2" tvg-name="Higurashi no Naku Koro ni Sotsu S01 E04" tvg-logo="" group-title="Series | Terror e Suspense",Higurashi no Naku Koro ni Sotsu S01 E04
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593952178
 #EXTINF:0 CUID="f6372795" tvg-name="Higurashi no Naku Koro ni Sotsu S01 E05" tvg-logo="" group-title="Series | Terror e Suspense",Higurashi no Naku Koro ni Sotsu S01 E05
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593928813
 #EXTINF:0 CUID="cf36d0e9" tvg-name="Higurashi no Naku Koro ni Sotsu S01 E07" tvg-logo="" group-title="Series | Terror e Suspense",Higurashi no Naku Koro ni Sotsu S01 E07
