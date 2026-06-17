@@ -5,10 +5,14 @@ https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585191887
 #EXTINF:-1 tvg-id="" tvg-name="Blue lock - Episode Nagi" tvg-logo="" group-title="Filmes | Esportes",Blue lock - Episode Nagi
@@ -299,6 +303,12 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584908252
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584953700
 #EXTINF:0 CUID="d34a297d" tvg-name="Boruto - Naruto Next Generations S01 E269" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E269
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584824757
+#EXTINF:0 CUID="fbbf6b1c" tvg-name="Boruto - Naruto Next Generations S01 E270" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E270
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594157738
+#EXTINF:0 CUID="7d2c9d8c" tvg-name="Boruto - Naruto Next Generations S01 E271" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E271
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594157393
+#EXTINF:0 CUID="eac287ee" tvg-name="Boruto - Naruto Next Generations S01 E276" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E276
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594158061
 #EXTINF:0 CUID="fd37b4e0" tvg-name="Boruto - Naruto Next Generations S01 E279" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E279
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584830155
 #EXTINF:0 CUID="bec33b4b" tvg-name="Boruto - Naruto Next Generations S01 E281" tvg-logo="" group-title="Series | Shounen",Boruto - Naruto Next Generations S01 E281
@@ -949,6 +959,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584886403
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584084932
 #EXTINF:0 CUID="77883dd7" tvg-name="Isekai Nonbiri Nouka S2 S01 E04" tvg-logo="" group-title="Series | Isekai",Isekai Nonbiri Nouka S2 S01 E04
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584084933
+#EXTINF:0 CUID="e5cc11e9" tvg-name="Jujutsu Kaisen S01 E43" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E43
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594155321
 #EXTINF:0 CUID="44b9d3bb" tvg-name="Jujutsu Kaisen S01 E44" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E44
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594131013
 #EXTINF:0 CUID="8b6217e6" tvg-name="Jujutsu Kaisen S01 E45" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E45

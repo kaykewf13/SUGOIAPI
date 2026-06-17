@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T08:09:28.753641+00:00",
-  "total": 851,
+  "gerado_em": "2026-06-17T10:44:09.535025+00:00",
+  "total": 855,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -485,6 +485,21 @@
     {
       "nome": "Boruto - Naruto Next Generations S01 E269",
       "id": "1584824757",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Boruto - Naruto Next Generations S01 E270",
+      "id": "1594157738",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Boruto - Naruto Next Generations S01 E271",
+      "id": "1594157393",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Boruto - Naruto Next Generations S01 E276",
+      "id": "1594158061",
       "grupo": "Series | Shounen"
     },
     {
@@ -2006,6 +2021,11 @@
       "nome": "Jujutsu Kaisen - Kaigyoku Gyokusetsu",
       "id": "1592193652",
       "grupo": "Filmes | Shounen"
+    },
+    {
+      "nome": "Jujutsu Kaisen S01 E43",
+      "id": "1594155321",
+      "grupo": "Series | Shounen"
     },
     {
       "nome": "Jujutsu Kaisen S01 E44",
