@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T04:40:51.806187+00:00",
-  "total": 848,
+  "gerado_em": "2026-06-17T08:09:28.753641+00:00",
+  "total": 851,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -2008,6 +2008,16 @@
       "grupo": "Filmes | Shounen"
     },
     {
+      "nome": "Jujutsu Kaisen S01 E44",
+      "id": "1594131013",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Jujutsu Kaisen S01 E45",
+      "id": "1594131115",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Jujutsu Kaisen S01 E46",
       "id": "1594123010",
       "grupo": "Series | Shounen"
@@ -2345,6 +2355,11 @@
     {
       "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E11",
       "id": "1584830186",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Kimetsu no Yaiba - Yuukaku-hen S01 E10",
+      "id": "1594133627",
       "grupo": "Series | Shounen"
     },
     {
