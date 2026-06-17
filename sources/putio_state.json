@@ -11998,50 +11998,70 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252364,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:10.805208+00:00"
+      "file_id": 1594049045,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594049045/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:10.805208+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594049045/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T19:02:49.414349+00:00"
     },
     "007fbcd4511b55a84faebd6f933d5ae59e89d4c7": {
       "title": "[SubsPlease] Blue Lock - 22 (720p) [D817CAE9].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252365,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:11.451212+00:00"
+      "file_id": 1594049005,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594049005/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:11.451212+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594049005/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T19:02:49.515249+00:00"
     },
     "909412ba6fc0d879b97e7a0ca47197e0954b46b5": {
       "title": "[SubsPlease] Blue Lock - 21 (720p) [4251C2C2].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252366,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:12.073921+00:00"
+      "file_id": 1594049553,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594049553/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:12.073921+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594049553/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T19:02:49.608890+00:00"
     },
     "2c4a55419a28c31703bae579edb574974e46ef89": {
       "title": "[SubsPlease] Blue Lock - 20 (720p) [8C464764].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252367,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:12.692977+00:00"
+      "file_id": 1594049505,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594049505/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:12.692977+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594049505/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T19:02:49.701073+00:00"
     },
     "937b43408f07edca1272ea7d8e58961ff61c3abc": {
       "title": "[SubsPlease] Blue Lock - 19 (720p) [D2647E50].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252368,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:13.320686+00:00"
+      "file_id": 1594048523,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594048523/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:13.320686+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594048523/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T19:02:49.802502+00:00"
     },
     "1b129459b461ee5fb1cc9d007cbeacef3a3cb396": {
       "title": "[SubsPlease] Blue Lock - 18 (720p) [75E8C950].mkv",
@@ -12937,5 +12957,5 @@
       "ready_at": "2026-06-17T16:25:45.802003+00:00"
     }
   },
-  "last_run": "2026-06-17T16:25:45.802024+00:00"
+  "last_run": "2026-06-17T19:02:49.802534+00:00"
 }

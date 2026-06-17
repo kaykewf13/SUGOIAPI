@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T16:26:00.170678+00:00",
-  "total": 864,
+  "gerado_em": "2026-06-17T19:03:02.628385+00:00",
+  "total": 868,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -2038,6 +2038,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Jujutsu Kaisen S01 E39",
+      "id": "1594251723",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Jujutsu Kaisen S01 E40",
       "id": "1594197346",
       "grupo": "Series | Shounen"
@@ -2375,6 +2380,11 @@
     {
       "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04",
       "id": "1585053733",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E05",
+      "id": "1594248068",
       "grupo": "Series | Shounen"
     },
     {
@@ -3648,6 +3658,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Shingeki no Kyojin S01 E68",
+      "id": "1594250978",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Shingeki no Kyojin S01 E69",
       "id": "1584820800",
       "grupo": "Series | Shounen"
@@ -3675,6 +3690,11 @@
     {
       "nome": "Shingeki no Kyojin S01 E71",
       "id": "1593919803",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Shingeki no Kyojin S01 E72",
+      "id": "1594250931",
       "grupo": "Series | Shounen"
     },
     {

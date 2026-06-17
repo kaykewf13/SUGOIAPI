@@ -1,8 +1,6 @@
 #EXTM3U x-tvg-url="http://drewlive24.duckdns.org:8081/merged_epg.xml.gz"
 #EXTINF:-1 tvg-id="" tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" group-title="Canais | Brazil",COM Brasil
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" group-title="Canais | Brazil",Rede Brasil
-https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
@@ -965,6 +963,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584084932
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584084933
 #EXTINF:0 CUID="d686ff52" tvg-name="Jujutsu Kaisen S01 E37" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E37
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594191637
+#EXTINF:0 CUID="66977c7a" tvg-name="Jujutsu Kaisen S01 E39" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E39
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594251723
 #EXTINF:0 CUID="713b0a02" tvg-name="Jujutsu Kaisen S01 E40" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E40
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594197346
 #EXTINF:0 CUID="829e008f" tvg-name="Jujutsu Kaisen S01 E41" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E41
@@ -1099,6 +1099,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594203642
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584893108
 #EXTINF:0 CUID="5204b831" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585053733
+#EXTINF:0 CUID="dda7d0fe" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E05" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E05
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594248068
 #EXTINF:0 CUID="51cf9c11" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820771
 #EXTINF:0 CUID="51cf9c11" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06
@@ -1511,6 +1513,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593924606
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593930799
 #EXTINF:0 CUID="3207cbf9" tvg-name="Shingeki no Kyojin S01 E67" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E67
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593920270
+#EXTINF:0 CUID="2c51f03d" tvg-name="Shingeki no Kyojin S01 E68" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E68
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594250978
 #EXTINF:0 CUID="7adc4c4b" tvg-name="Shingeki no Kyojin S01 E69" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E69
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820800
 #EXTINF:0 CUID="7adc4c4b" tvg-name="Shingeki no Kyojin S01 E69" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E69
@@ -1523,6 +1527,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919804
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820796
 #EXTINF:0 CUID="71721c35" tvg-name="Shingeki no Kyojin S01 E71" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E71
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919803
+#EXTINF:0 CUID="b3f3ffe5" tvg-name="Shingeki no Kyojin S01 E72" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E72
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594250931
 #EXTINF:0 CUID="71bdbd72" tvg-name="Shingeki no Kyojin S01 E73" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E73
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593919801
 #EXTINF:0 CUID="8684f481" tvg-name="Shingeki no Kyojin S01 E74" tvg-logo="" group-title="Series | Shounen",Shingeki no Kyojin S01 E74
