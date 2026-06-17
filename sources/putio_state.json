@@ -11676,20 +11676,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252334,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:52.453292+00:00"
+      "file_id": 1593920710,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920710/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:52.453292+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920710/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.111290+00:00"
     },
     "f9fc3cc1ac6c06ce61117ae7d6bc1fb5aa93b00d": {
       "title": "[SubsPlease] Black Clover - 147 (720p) [8E474413].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252335,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:53.078514+00:00"
+      "file_id": 1593920712,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920712/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:53.078514+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920712/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.220727+00:00"
     },
     "2f3e8b3794a2d749bd56c8f951f0d006b19f18d4": {
       "title": "[SubsPlease] Black Clover - 159 (720p) [0D564F2A].mkv",
@@ -11894,10 +11902,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252356,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:05.763271+00:00"
+      "file_id": 1593920379,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920379/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:05.763271+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920379/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.328516+00:00"
     },
     "bf45266cd89c7fb41381050914b2f34f888aa132": {
       "title": "[SubsPlease] Mashle - 06.5 (720p) [C29E7F89].mkv",
@@ -11954,10 +11966,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252362,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:09.537265+00:00"
+      "file_id": 1593922730,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593922730/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:09.537265+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593922730/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.437361+00:00"
     },
     "c7508636061b80d6d7b6866bc990cd6e22d9abca": {
       "title": "[SubsPlease] Blue Lock - 17 (720p) [A97DA85B].mkv",
@@ -12054,120 +12070,168 @@
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252372,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:15.910089+00:00"
+      "file_id": 1593920506,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920506/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:15.910089+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920506/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.545322+00:00"
     },
     "ea88f56663c292f24b16275b31a8721831392d5b": {
       "title": "[SubsPlease] Monogatari Series - Off & Monster Season - 06.5 (720p) [D1181523].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252373,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:16.534507+00:00"
+      "file_id": 1593920373,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920373/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:16.534507+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920373/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.653985+00:00"
     },
     "162ff8a6f1dff3438047cdb633e5aeb45c98c9e7": {
       "title": "[SubsPlease] Another Journey to the West - 06 (720p) [9EDDE4FF].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252374,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:17.164329+00:00"
+      "file_id": 1593920711,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920711/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:17.164329+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920711/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.762811+00:00"
     },
     "ed2115fcd34f376c083f0a9a4e09bba81ad2f719": {
       "title": "[SubsPlease] Another Journey to the West - 02 (720p) [EECEFD58].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252375,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:17.784301+00:00"
+      "file_id": 1593920290,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920290/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:17.784301+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920290/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.871492+00:00"
     },
     "aca35a82b73281e1ba5d1c0324cff1ab2c665f91": {
       "title": "[SubsPlease] Another Journey to the West - 12 (720p) [0CAB4323].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252376,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:18.414182+00:00"
+      "file_id": 1593923056,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923056/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:18.414182+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923056/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:30.981240+00:00"
     },
     "c5b781883cb8b3ca982aef382494f82e7a67274f": {
       "title": "[SubsPlease] Another Journey to the West - 11 (720p) [01EB9CAE].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252377,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:19.033668+00:00"
+      "file_id": 1593924887,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593924887/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:19.033668+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593924887/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.095605+00:00"
     },
     "f3563c02e2db570a26a86cf94a737a44b3e55a5d": {
       "title": "[SubsPlease] Another Journey to the West - 10 (720p) [FA1E766E].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252378,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:19.662898+00:00"
+      "file_id": 1593923202,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923202/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:19.662898+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923202/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.204494+00:00"
     },
     "1ac376509fbdfbebe3b8f893feb4d208dca8a5de": {
       "title": "[SubsPlease] Another Journey to the West - 08 (720p) [F559FF37].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252379,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:20.280631+00:00"
+      "file_id": 1593923345,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923345/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:20.280631+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923345/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.313570+00:00"
     },
     "a5c77fade63df3aded0067ae8608baad4c43ba3c": {
       "title": "[SubsPlease] Another Journey to the West - 07 (720p) [FA30D458].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252380,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:20.897069+00:00"
+      "file_id": 1593923879,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923879/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:20.897069+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923879/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.426298+00:00"
     },
     "427a02532b07beb8816a9407cbb0dbe1e474fb2e": {
       "title": "[SubsPlease] Another Journey to the West - 04 (720p) [8E4F95BE].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252381,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:21.515019+00:00"
+      "file_id": 1593923665,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923665/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:21.515019+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923665/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.537221+00:00"
     },
     "7d449b0619a11a92197e5ec05ae15271f83a32cf": {
       "title": "[SubsPlease] Another Journey to the West - 09 (720p) [F14E705B].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252382,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:22.139258+00:00"
+      "file_id": 1593923130,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923130/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:22.139258+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923130/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.646701+00:00"
     },
     "afa640f2b4e82502cc5727d16cc5a9b9f2b693d4": {
       "title": "[SubsPlease] Another Journey to the West - 05 (720p) [94239D08].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252383,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:22.756236+00:00"
+      "file_id": 1593923217,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593923217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:22.756236+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593923217/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.754573+00:00"
     },
     "a8d747d2fcded1ce26b8204c1b7314b8c2b2f692": {
       "title": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 05 (720p) [8852C2AD].mkv",
@@ -12274,40 +12338,56 @@
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252396,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:29.699864+00:00"
+      "file_id": 1593924606,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593924606/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:29.699864+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593924606/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.862395+00:00"
     },
     "8f7efb504079fbfda1cd593cd4ce39a106929938": {
       "title": "[SubsPlease] Shikizakura - 11 (720p) [B9437534].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252397,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:30.323129+00:00"
+      "file_id": 1593922729,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593922729/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:30.323129+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593922729/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:31.969100+00:00"
     },
     "1e234b22b1661ac5e3142105f7a3b701968d4a60": {
       "title": "[SubsPlease] Shikizakura - 10 (720p) [807D6146].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252398,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:30.943960+00:00"
+      "file_id": 1593920594,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920594/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:30.943960+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920594/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:32.075725+00:00"
     },
     "c03d0c768cb2dc3dd4e39dd92b0f7f5aec3baa79": {
       "title": "[SubsPlease] Shikizakura - 09 (720p) [EDE3CEB0].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106252399,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:31.699763+00:00"
+      "file_id": 1593920589,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1593920589/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:31.699763+00:00",
+      "stream_url": "https://api.put.io/v2/files/1593920589/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-17T04:40:32.223866+00:00"
     },
     "cd5017fda94ab1519d8320a2c2f23fef3ac14a61": {
       "title": "[SubsPlease] Shikizakura - 08 (720p) [2025DE95].mkv",
@@ -12815,5 +12895,5 @@
       "created_at": "2026-06-16T04:44:02.289830+00:00"
     }
   },
-  "last_run": "2026-06-17T01:19:31.434022+00:00"
+  "last_run": "2026-06-17T04:40:32.223894+00:00"
 }
