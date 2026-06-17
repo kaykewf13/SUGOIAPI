@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-17T13:30:49.433744+00:00",
-  "total": 857,
+  "gerado_em": "2026-06-17T16:26:00.170678+00:00",
+  "total": 864,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -2033,6 +2033,26 @@
       "grupo": "Filmes | Shounen"
     },
     {
+      "nome": "Jujutsu Kaisen S01 E37",
+      "id": "1594191637",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Jujutsu Kaisen S01 E40",
+      "id": "1594197346",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Jujutsu Kaisen S01 E41",
+      "id": "1594198155",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Jujutsu Kaisen S01 E42",
+      "id": "1594191212",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Jujutsu Kaisen S01 E43",
       "id": "1594155321",
       "grupo": "Series | Shounen"
@@ -2343,6 +2363,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E02",
+      "id": "1594203642",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E03",
       "id": "1584893108",
       "grupo": "Series | Shounen"
@@ -2360,6 +2385,11 @@
     {
       "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06",
       "id": "1590167727",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E07",
+      "id": "1594191733",
       "grupo": "Series | Shounen"
     },
     {
@@ -3310,6 +3340,11 @@
     {
       "nome": "Re Zero kara Hajimeru Isekai Seikatsu S01 E76",
       "id": "1593106222",
+      "grupo": "Series | Isekai"
+    },
+    {
+      "nome": "Re Zero kara Hajimeru Isekai Seikatsu S01 E77",
+      "id": "1594219114",
       "grupo": "Series | Isekai"
     },
     {

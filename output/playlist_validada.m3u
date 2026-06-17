@@ -11,6 +11,8 @@ https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585191887
 #EXTINF:-1 tvg-id="" tvg-name="Blue lock - Episode Nagi" tvg-logo="" group-title="Filmes | Esportes",Blue lock - Episode Nagi
@@ -961,6 +963,14 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584886403
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584084932
 #EXTINF:0 CUID="77883dd7" tvg-name="Isekai Nonbiri Nouka S2 S01 E04" tvg-logo="" group-title="Series | Isekai",Isekai Nonbiri Nouka S2 S01 E04
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584084933
+#EXTINF:0 CUID="d686ff52" tvg-name="Jujutsu Kaisen S01 E37" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E37
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594191637
+#EXTINF:0 CUID="713b0a02" tvg-name="Jujutsu Kaisen S01 E40" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E40
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594197346
+#EXTINF:0 CUID="829e008f" tvg-name="Jujutsu Kaisen S01 E41" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E41
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594198155
+#EXTINF:0 CUID="aa8f3b48" tvg-name="Jujutsu Kaisen S01 E42" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E42
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594191212
 #EXTINF:0 CUID="e5cc11e9" tvg-name="Jujutsu Kaisen S01 E43" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E43
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594155321
 #EXTINF:0 CUID="44b9d3bb" tvg-name="Jujutsu Kaisen S01 E44" tvg-logo="" group-title="Series | Shounen",Jujutsu Kaisen S01 E44
@@ -1083,6 +1093,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584833180
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584823994
 #EXTINF:0 CUID="06fb80d9" tvg-name="Kimetsu no Yaiba - Hashira Geiko-hen S01 E08" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Hashira Geiko-hen S01 E08
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584833280
+#EXTINF:0 CUID="b2008089" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E02" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E02
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594203642
 #EXTINF:0 CUID="939f2a49" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E03" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E03
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584893108
 #EXTINF:0 CUID="5204b831" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E04
@@ -1091,6 +1103,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585053733
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584820771
 #EXTINF:0 CUID="51cf9c11" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E06
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1590167727
+#EXTINF:0 CUID="2f9f2e06" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E07" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E07
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594191733
 #EXTINF:0 CUID="e23fd043" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E08" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E08
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585297515
 #EXTINF:0 CUID="83c3ae08" tvg-name="Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E09" tvg-logo="" group-title="Series | Shounen",Kimetsu no Yaiba - Katanakaji no Sato-hen S01 E09
@@ -1387,6 +1401,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1590165146
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1591802375
 #EXTINF:0 CUID="5bdfb13d" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E76" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E76
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593106222
+#EXTINF:0 CUID="4d99b987" tvg-name="Re Zero kara Hajimeru Isekai Seikatsu S01 E77" tvg-logo="" group-title="Series | Isekai",Re Zero kara Hajimeru Isekai Seikatsu S01 E77
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594219114
 #EXTINF:0 CUID="bc934722" tvg-name="Retry! R S01 E01" tvg-logo="" group-title="Series | Geral",Retry! R S01 E01
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584885651
 #EXTINF:0 CUID="ac369dcb" tvg-name="Retry! R S01 E02" tvg-logo="" group-title="Series | Geral",Retry! R S01 E02
