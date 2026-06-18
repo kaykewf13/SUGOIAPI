@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-18T01:18:58.142580+00:00",
-  "total": 885,
+  "gerado_em": "2026-06-18T04:40:11.800072+00:00",
+  "total": 892,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -500,6 +500,16 @@
     {
       "nome": "Boruto - Naruto Next Generations S01 E272",
       "id": "1594166767",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Boruto - Naruto Next Generations S01 E273",
+      "id": "1594333607",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Boruto - Naruto Next Generations S01 E274",
+      "id": "1594332416",
       "grupo": "Series | Shounen"
     },
     {
@@ -2448,6 +2458,21 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Kimetsu no Yaiba - Yuukaku-hen S01 E07",
+      "id": "1594326126",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Kimetsu no Yaiba - Yuukaku-hen S01 E08",
+      "id": "1594328761",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Kimetsu no Yaiba - Yuukaku-hen S01 E09",
+      "id": "1594337523",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Kimetsu no Yaiba - Yuukaku-hen S01 E10",
       "id": "1594133627",
       "grupo": "Series | Shounen"
@@ -3854,12 +3879,22 @@
     },
     {
       "nome": "Spy x Family S01 E33",
+      "id": "1594345142",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E33",
       "id": "1594288947",
       "grupo": "Series | Shounen"
     },
     {
       "nome": "Spy x Family S01 E34",
       "id": "1594288948",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E35",
+      "id": "1594323391",
       "grupo": "Series | Shounen"
     },
     {
