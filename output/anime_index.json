@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-18T07:59:12.136448+00:00",
-  "total": 893,
+  "gerado_em": "2026-06-18T10:39:40.570741+00:00",
+  "total": 897,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -3869,7 +3869,17 @@
     },
     {
       "nome": "Spy x Family S01 E31",
+      "id": "1594384092",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E31",
       "id": "1594288945",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E32",
+      "id": "1594383189",
       "grupo": "Series | Shounen"
     },
     {
@@ -3885,6 +3895,11 @@
     {
       "nome": "Spy x Family S01 E33",
       "id": "1594288947",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E34",
+      "id": "1594378815",
       "grupo": "Series | Shounen"
     },
     {
@@ -3910,6 +3925,11 @@
     {
       "nome": "Spy x Family S01 E36",
       "id": "1594288950",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E37",
+      "id": "1594383484",
       "grupo": "Series | Shounen"
     },
     {
