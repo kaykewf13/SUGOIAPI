@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-18T16:17:51.540574+00:00",
-  "total": 905,
+  "gerado_em": "2026-06-18T19:01:46.894132+00:00",
+  "total": 908,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -150,6 +150,11 @@
     {
       "nome": "Another Journey to the West S01 E02",
       "id": "1593920290",
+      "grupo": "Series | Terror e Suspense"
+    },
+    {
+      "nome": "Another Journey to the West S01 E03",
+      "id": "1594449000",
       "grupo": "Series | Terror e Suspense"
     },
     {
@@ -2593,6 +2598,11 @@
       "grupo": "Series | Geral"
     },
     {
+      "nome": "Mashle - 06.5 S01 E06",
+      "id": "1594438310",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Mashle S01 E01",
       "id": "1584839249",
       "grupo": "Series | Shounen"
@@ -3895,6 +3905,11 @@
     {
       "nome": "Spy x Family S01 E29",
       "id": "1594288943",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E30",
+      "id": "1594449299",
       "grupo": "Series | Shounen"
     },
     {

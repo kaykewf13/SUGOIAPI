@@ -11406,10 +11406,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252306,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:35.408079+00:00"
+      "file_id": 1594248068,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594248068/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:35.408079+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594248068/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T19:01:31.730529+00:00"
     },
     "e7c060ab3bc647e1f1434c5eddcc4ab8fe75f247": {
       "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 01 (720p) [CD540B69].mkv",
@@ -11648,20 +11652,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252325,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:47.333556+00:00"
+      "file_id": 1594250931,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594250931/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:47.333556+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594250931/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T19:01:31.874341+00:00"
     },
     "c5b8c92eae12191078404c2a6bc4505631fc121f": {
       "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 68 (720p) [268357E7].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252326,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:47.995318+00:00"
+      "file_id": 1594250978,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594250978/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:47.995318+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594250978/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T19:01:32.023341+00:00"
     },
     "3d495cdedfa61905311e2afd39d9810269077f2c": {
       "title": "[SubsPlease] Shingeki no Kyojin (The Final Season) - 67 (720p) [E264B4A9].mkv",
@@ -13043,5 +13055,5 @@
       "ready_at": "2026-06-18T16:17:36.538639+00:00"
     }
   },
-  "last_run": "2026-06-18T16:17:36.538661+00:00"
+  "last_run": "2026-06-18T19:01:32.023386+00:00"
 }
