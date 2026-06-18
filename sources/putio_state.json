@@ -11194,10 +11194,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252290,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:25.351387+00:00"
+      "file_id": 1594166393,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594166393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:25.351387+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594166393/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T13:26:02.164557+00:00"
     },
     "6ecc5abacd4ed87d25ba2720087d854c6a62f310": {
       "title": "[SubsPlease] Boruto - Naruto Next Generations - 274 (720p) [5A1DFB5B].mkv",
@@ -11224,10 +11228,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252293,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:27.244581+00:00"
+      "file_id": 1594166767,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594166767/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:27.244581+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594166767/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T13:26:02.263553+00:00"
     },
     "e35ca2cc7d67b538e3121d089a55f96fd86fe210": {
       "title": "[SubsPlease] Boruto - Naruto Next Generations - 271 (720p) [FDDF8222].mkv",
@@ -12997,5 +13005,5 @@
       "ready_at": "2026-06-17T16:25:45.802003+00:00"
     }
   },
-  "last_run": "2026-06-18T10:39:20.300941+00:00"
+  "last_run": "2026-06-18T13:26:02.263626+00:00"
 }

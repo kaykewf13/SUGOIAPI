@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-18T10:39:40.570741+00:00",
-  "total": 897,
+  "gerado_em": "2026-06-18T13:26:13.758109+00:00",
+  "total": 899,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -1060,6 +1060,11 @@
     {
       "nome": "Dr. Stone S4 S01 E19",
       "id": "1593920657",
+      "grupo": "Series | Geral"
+    },
+    {
+      "nome": "Dr. Stone S4 S01 E20",
+      "id": "1594386532",
       "grupo": "Series | Geral"
     },
     {
@@ -3855,6 +3860,11 @@
     {
       "nome": "Spy x Family S01 E28",
       "id": "1594288942",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Spy x Family S01 E29",
+      "id": "1594386159",
       "grupo": "Series | Shounen"
     },
     {

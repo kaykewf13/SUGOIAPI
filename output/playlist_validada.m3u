@@ -7,6 +7,8 @@ https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585191887
 #EXTINF:-1 tvg-id="" tvg-name="Blue lock - Episode Nagi" tvg-logo="" group-title="Filmes | Esportes",Blue lock - Episode Nagi
@@ -525,6 +527,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585237168
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584831137
 #EXTINF:0 CUID="1e52fd6a" tvg-name="Dr. Stone S4 S01 E19" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E19
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593920657
+#EXTINF:0 CUID="a4a1fad4" tvg-name="Dr. Stone S4 S01 E20" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E20
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594386532
 #EXTINF:0 CUID="a2f23614" tvg-name="Dr. Stone S4 S01 E21" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E21
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585987237
 #EXTINF:0 CUID="c5559b42" tvg-name="Dr. Stone S4 S01 E22" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E22
@@ -1597,6 +1601,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594288940
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594288941
 #EXTINF:0 CUID="6d31760a" tvg-name="Spy x Family S01 E28" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E28
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594288942
+#EXTINF:0 CUID="63873b66" tvg-name="Spy x Family S01 E29" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E29
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594386159
 #EXTINF:0 CUID="63873b66" tvg-name="Spy x Family S01 E29" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E29
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594288943
 #EXTINF:0 CUID="54dc2165" tvg-name="Spy x Family S01 E30" tvg-logo="" group-title="Series | Shounen",Spy x Family S01 E30
