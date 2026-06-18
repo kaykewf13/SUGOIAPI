@@ -11392,10 +11392,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252305,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:34.782397+00:00"
+      "file_id": 1594191733,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594191733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:34.782397+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594191733/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:35.605774+00:00"
     },
     "fcd675d99f97c784913b97d582f419dffdb29462": {
       "title": "[SubsPlease] Kimetsu no Yaiba - Katanakaji no Sato-hen - 05 (720p) [BC2BBA0A].mkv",
@@ -11436,10 +11440,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252309,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:37.313262+00:00"
+      "file_id": 1594203642,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594203642/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:37.313262+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594203642/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:35.764567+00:00"
     },
     "1568bdc549bad581a18a5f4f94a89902ffab2c49": {
       "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 10 (720p) [EB335C8B].mkv",
@@ -11560,40 +11568,56 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252319,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:43.566497+00:00"
+      "file_id": 1594197346,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594197346/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:43.566497+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594197346/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:35.918674+00:00"
     },
     "bb481308a0bf072ead87cb9aca9f6b3718039caf": {
       "title": "[SubsPlease] Jujutsu Kaisen - 37 (720p) [55BF7A11].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252320,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:44.182502+00:00"
+      "file_id": 1594191637,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594191637/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:44.182502+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594191637/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:36.080315+00:00"
     },
     "ebe6eab287b6ee2ba1c9af700e4dddc4f6322bb3": {
       "title": "[SubsPlease] Jujutsu Kaisen - 42 (720p) [16F24D4D].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252321,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:44.846984+00:00"
+      "file_id": 1594191212,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594191212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:44.846984+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594191212/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:36.234439+00:00"
     },
     "5cb28598b41ca0a390bd9887702c04a7bb9578de": {
       "title": "[SubsPlease] Jujutsu Kaisen - 41 (720p) [849F253A].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252322,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:45.470938+00:00"
+      "file_id": 1594198155,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594198155/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:45.470938+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594198155/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:36.386611+00:00"
     },
     "613f8763797489bdfd09401439d35b35b8f84a85": {
       "title": "[SubsPlease] Jujutsu Kaisen - 39 (720p) [37473DE9].mkv",
@@ -13003,7 +13027,21 @@
       "created_at": "2026-06-17T16:25:43.803363+00:00",
       "stream_url": "https://api.put.io/v2/files/1594219114/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-06-17T16:25:45.802003+00:00"
+    },
+    "d89fbffb657b3cac3c805658cdcb8d316e51fb12": {
+      "title": "[SubsPlease] Dr. Stone S4 - 36 (720p) [95476145].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106298617,
+      "file_id": 1594432292,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594432292/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-18T16:17:34.152746+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594432292/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T16:17:36.538639+00:00"
     }
   },
-  "last_run": "2026-06-18T13:26:02.263626+00:00"
+  "last_run": "2026-06-18T16:17:36.538661+00:00"
 }

@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-06-18T13:26:13.758109+00:00",
-  "total": 899,
+  "gerado_em": "2026-06-18T16:17:51.540574+00:00",
+  "total": 905,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -818,6 +818,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Dandadan S01 E02",
+      "id": "1594423773",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Dandadan S01 E03",
       "id": "1590360823",
       "grupo": "Series | Shounen"
@@ -1023,6 +1028,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Dr. Stone S4 S01 E11",
+      "id": "1594422686",
+      "grupo": "Series | Geral"
+    },
+    {
       "nome": "Dr. Stone S4 S01 E12",
       "id": "1585204476",
       "grupo": "Series | Geral"
@@ -1155,6 +1165,11 @@
     {
       "nome": "Dr. Stone S4 S01 E35",
       "id": "1593243922",
+      "grupo": "Series | Geral"
+    },
+    {
+      "nome": "Dr. Stone S4 S01 E36",
+      "id": "1594432292",
       "grupo": "Series | Geral"
     },
     {
@@ -2068,6 +2083,11 @@
       "grupo": "Series | Shounen"
     },
     {
+      "nome": "Jujutsu Kaisen S01 E38",
+      "id": "1594427230",
+      "grupo": "Series | Shounen"
+    },
+    {
       "nome": "Jujutsu Kaisen S01 E39",
       "id": "1594251723",
       "grupo": "Series | Shounen"
@@ -2585,6 +2605,11 @@
     {
       "nome": "Mashle S01 E04",
       "id": "1584839202",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Mashle S01 E06",
+      "id": "1594425493",
       "grupo": "Series | Shounen"
     },
     {
@@ -4400,6 +4425,11 @@
     {
       "nome": "Wind Breaker S01 E07",
       "id": "1585277260",
+      "grupo": "Series | Shounen"
+    },
+    {
+      "nome": "Wind Breaker S01 E08",
+      "id": "1594424866",
       "grupo": "Series | Shounen"
     },
     {
