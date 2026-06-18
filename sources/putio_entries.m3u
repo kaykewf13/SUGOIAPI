@@ -2688,6 +2688,12 @@ https://api.put.io/v2/files/1594449000/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 #EXTINF:-1 tvg-name="[SubsPlease] Spy x Family - 30 (720p) [775B4E65].mkv" tvg-logo="" group-title="Put.io",[SubsPlease] Spy x Family - 30 (720p) [775B4E65].mkv
 https://api.put.io/v2/files/1594449299/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
+#EXTINF:-1 tvg-name="[SubsPlease] Jujutsu Kaisen - 36 (720p) [896C98C7].mkv" tvg-logo="" group-title="Put.io",[SubsPlease] Jujutsu Kaisen - 36 (720p) [896C98C7].mkv
+https://api.put.io/v2/files/1594449895/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
+#EXTINF:-1 tvg-name="[SubsPlease] Boruto - Naruto Next Generations - 269 (720p) [0E163C41].mkv" tvg-logo="" group-title="Put.io",[SubsPlease] Boruto - Naruto Next Generations - 269 (720p) [0E163C41].mkv
+https://api.put.io/v2/files/1594469549/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
+
 #EXTINF:-1 tvg-name="[SubsPlease] Spy x Family - 26v2 (720p) [57F69984].mkv" tvg-logo="" group-title="Put.io",[SubsPlease] Spy x Family - 26v2 (720p) [57F69984].mkv
 https://api.put.io/v2/files/1594288940/stream?oauth_token=NLNXW4PKZWT2XLOROMIC
 
