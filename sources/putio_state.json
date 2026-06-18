@@ -11096,10 +11096,14 @@
       "category": "Ecchi e Harem",
       "logo": "",
       "transfer_id": 106252279,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:19.664287+00:00"
+      "file_id": 1594100575,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594100575/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:19.664287+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594100575/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T01:18:42.545482+00:00"
     },
     "bf386a68fc25f0278de571443e1eb919b1b52f0f": {
       "title": "[SubsPlease] Date a Live IV - 06 (720p) [05E3ECEB].mkv",
@@ -11486,20 +11490,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252316,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:41.699204+00:00"
+      "file_id": 1594131115,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594131115/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:41.699204+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594131115/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T01:18:42.702253+00:00"
     },
     "be612fe76a37748940aaec82827bb27a8028b055": {
       "title": "[SubsPlease] Jujutsu Kaisen - 44 (720p) [4ACB9B55].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252317,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:42.323081+00:00"
+      "file_id": 1594131013,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594131013/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:42.323081+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594131013/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-18T01:18:42.847218+00:00"
     },
     "00744cdf06563db8a29088af8b483d2322a72168": {
       "title": "[SubsPlease] Jujutsu Kaisen - 43 (720p) [6659D8BA].mkv",
@@ -12961,5 +12973,5 @@
       "ready_at": "2026-06-17T16:25:45.802003+00:00"
     }
   },
-  "last_run": "2026-06-17T21:47:11.450905+00:00"
+  "last_run": "2026-06-18T01:18:42.847261+00:00"
 }
