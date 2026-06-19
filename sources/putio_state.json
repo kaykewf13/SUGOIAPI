@@ -11282,10 +11282,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252296,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:29.114020+00:00"
+      "file_id": 1594469549,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594469549/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:29.114020+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594469549/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T21:34:28.377329+00:00"
     },
     "382409fb0e07c1af7c82061e108804ddf88c1cf8": {
       "title": "[SubsPlease] One Piece - 1150 (720p) [CB53F96B].mkv",
@@ -13050,30 +13054,42 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106253491,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T04:43:55.957208+00:00"
+      "file_id": 1594449895,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594449895/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T04:43:55.957208+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594449895/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T21:34:28.460199+00:00"
     },
     "b641711df2f1e645b5d6f8329b31ef09b657d8d9": {
       "title": "[SubsPlease] Spy x Family - 30 (720p) [775B4E65].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106253492,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T04:43:56.645530+00:00"
+      "file_id": 1594449299,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594449299/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T04:43:56.645530+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594449299/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T21:34:28.542731+00:00"
     },
     "6843999ae065f44fd88bd6e66bebe63837bb7767": {
       "title": "[SubsPlease] Another Journey to the West - 03 (720p) [49B7B108].mkv",
       "category": "Suspense",
       "logo": "",
       "transfer_id": 106253493,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T04:43:57.325170+00:00"
+      "file_id": 1594449000,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594449000/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T04:43:57.325170+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594449000/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T21:34:28.627172+00:00"
     },
     "92fe781eaa4e1abe570e77cb9eb5785f26c604b0": {
       "title": "[SubsPlease] Yuukoku no Moriarty - 05 (720p) [D54F7423].mkv",
@@ -13202,5 +13218,5 @@
       "ready_at": "2026-06-19T16:08:28.437041+00:00"
     }
   },
-  "last_run": "2026-06-19T18:49:48.189933+00:00"
+  "last_run": "2026-06-19T21:34:28.627190+00:00"
 }
