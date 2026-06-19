@@ -11212,20 +11212,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252291,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:25.981244+00:00"
+      "file_id": 1594332416,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594332416/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:25.981244+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594332416/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T04:41:55.242361+00:00"
     },
     "bab60269489b865632868d2af7e7ef64179e6aeb": {
       "title": "[SubsPlease] Boruto - Naruto Next Generations - 273 (720p) [D8D5BEE9].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252292,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:26.609239+00:00"
+      "file_id": 1594333607,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594333607/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:26.609239+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594333607/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T04:41:55.373726+00:00"
     },
     "e9d0b05c3f2ca86ba57488588acb7875ddd16ab4": {
       "title": "[SubsPlease] Boruto - Naruto Next Generations - 272 (720p) [8B512532].mkv",
@@ -11480,30 +11488,42 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252311,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:38.560848+00:00"
+      "file_id": 1594337523,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594337523/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:38.560848+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594337523/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T04:41:55.607091+00:00"
     },
     "2dde3dc0441cba678a6c1bfa62be47430a3f9b35": {
       "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 08 (720p) [BAD2EB42].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252312,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:39.190817+00:00"
+      "file_id": 1594328761,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594328761/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:39.190817+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594328761/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T04:41:55.738189+00:00"
     },
     "d947a15c9df616058cf589d7c26f11be0110b788": {
       "title": "[SubsPlease] Kimetsu no Yaiba - Yuukaku-hen - 07 (720p) [18046E24].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252313,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:39.809842+00:00"
+      "file_id": 1594326126,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594326126/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:39.809842+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594326126/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T04:41:55.965820+00:00"
     },
     "df5a795a3089e2df3ffa639e98498b63dde36668": {
       "title": "[SubsPlease] Jujutsu Kaisen - 46 (720p) [AE82D68E].mkv",
@@ -11929,10 +11949,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252346,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:59.313074+00:00"
+      "file_id": 1594345142,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594345142/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:59.313074+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594345142/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T04:41:56.097365+00:00"
     },
     "0df1d68a631572d5c86c2fed38a42c0e7b9ce13a": {
       "title": "[SubsPlease] Spy x Family - 36 (720p) [58D77A1C].mkv",
@@ -13102,5 +13126,5 @@
       "ready_at": "2026-06-18T16:17:36.538639+00:00"
     }
   },
-  "last_run": "2026-06-19T01:24:48.198693+00:00"
+  "last_run": "2026-06-19T04:41:56.097422+00:00"
 }
