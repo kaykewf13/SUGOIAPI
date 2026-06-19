@@ -11963,10 +11963,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252347,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:59.932357+00:00"
+      "file_id": 1594357128,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594357128/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:59.932357+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594357128/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T08:09:32.720240+00:00"
     },
     "18ed3ea0d65916950449f39672d83424432e300c": {
       "title": "[SubsPlease] Spy x Family - 34 (720p) [CC9BF398].mkv",
@@ -13126,5 +13130,5 @@
       "ready_at": "2026-06-18T16:17:36.538639+00:00"
     }
   },
-  "last_run": "2026-06-19T04:41:56.097422+00:00"
+  "last_run": "2026-06-19T08:09:32.720295+00:00"
 }
