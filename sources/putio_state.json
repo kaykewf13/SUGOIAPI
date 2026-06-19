@@ -11977,40 +11977,56 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252348,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:00.585712+00:00"
+      "file_id": 1594378815,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594378815/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:00.585712+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594378815/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T10:40:50.763528+00:00"
     },
     "da3c5e16cba509c0265789b69decd0c73d08bb0e": {
       "title": "[SubsPlease] Spy x Family - 37 (720p) [2CC9D748].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252349,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:01.231646+00:00"
+      "file_id": 1594383484,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594383484/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:01.231646+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594383484/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T10:40:50.874136+00:00"
     },
     "ba90de3d7ea0908e31604db24086f5a7a514dec3": {
       "title": "[SubsPlease] Spy x Family - 32 (720p) [430715DB].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252350,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:01.853092+00:00"
+      "file_id": 1594383189,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594383189/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:01.853092+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594383189/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T10:40:50.982660+00:00"
     },
     "33a344f32fb447f093a654d9a83286b1167a4a31": {
       "title": "[SubsPlease] Spy x Family - 31 (720p) [DB11CFA3].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252351,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:02.473688+00:00"
+      "file_id": 1594384092,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594384092/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:02.473688+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594384092/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T10:40:51.090858+00:00"
     },
     "ce4c353a6ff67da841e96944f2f8f29ba46e7b39": {
       "title": "[SubsPlease] Spy x Family - 29 (720p) [783FCBA0].mkv",
@@ -13128,7 +13144,17 @@
       "created_at": "2026-06-18T16:17:34.152746+00:00",
       "stream_url": "https://api.put.io/v2/files/1594432292/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-06-18T16:17:36.538639+00:00"
+    },
+    "b2fd8a0731f7489ba37b61d3ba24b190b4d820e1": {
+      "title": "[SubsPlease] Kobayashi-san Chi no Maid Dragon - Samishigariya no Ryuu (720p) [FF594D7B].mkv",
+      "category": "Comedia",
+      "logo": "",
+      "transfer_id": 106312877,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-06-19T10:40:49.543160+00:00"
     }
   },
-  "last_run": "2026-06-19T08:09:32.720295+00:00"
+  "last_run": "2026-06-19T10:40:51.090907+00:00"
 }
