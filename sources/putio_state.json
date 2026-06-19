@@ -11086,10 +11086,14 @@
       "category": "Ecchi e Harem",
       "logo": "",
       "transfer_id": 106252278,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:19.033012+00:00"
+      "file_id": 1594307016,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594307016/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:19.033012+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594307016/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T01:24:47.663314+00:00"
     },
     "f3fbda06812606ac81c1dd3ebf059930fb626e6e": {
       "title": "[SubsPlease] Date a Live IV - 09 (720p) [21AECD21].mkv",
@@ -11872,30 +11876,53 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252343,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:57.432771+00:00"
+      "file_id": 1594288939,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594288940/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288941/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288942/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288943/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288944/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288945/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288946/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288947/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288948/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288949/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288950/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594288951/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:57.432771+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594288940/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T01:24:47.935653+00:00"
     },
     "e73b2a27fcc01bdd7fda1439a6e2d5b6f9331c70": {
       "title": "[SubsPlease] Spy x Family - Code White (720p) [6F528BE8].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252344,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:58.062222+00:00"
+      "file_id": 1594286933,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594286933/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:58.062222+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594286933/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T01:24:48.067242+00:00"
     },
     "0e125b3a4defa3b758baa00fac73bccbfbae73b7": {
       "title": "[SubsPlease] Spy x Family - 35 (720p) [98C85B94].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252345,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:43:58.679849+00:00"
+      "file_id": 1594323391,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594323391/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:43:58.679849+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594323391/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T01:24:48.198640+00:00"
     },
     "22fa0631b7c2d5c6571d02e164812ced3d94913a": {
       "title": "[SubsPlease] Spy x Family - 33 (720p) [B2C04DF4].mkv",
@@ -13075,5 +13102,5 @@
       "ready_at": "2026-06-18T16:17:36.538639+00:00"
     }
   },
-  "last_run": "2026-06-18T21:49:52.819005+00:00"
+  "last_run": "2026-06-19T01:24:48.198693+00:00"
 }
