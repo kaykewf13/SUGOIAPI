@@ -12075,10 +12075,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252355,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:05.128553+00:00"
+      "file_id": 1594422686,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594422686/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:05.128553+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594422686/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T16:08:27.799308+00:00"
     },
     "f9466b87b546f39912d3867c7866287e2481df83": {
       "title": "[SubsPlease] Mashle - 08 (720p) [CD653682].mkv",
@@ -12109,10 +12113,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252358,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:07.015629+00:00"
+      "file_id": 1594425493,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594425493/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:07.015629+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594425493/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T16:08:27.925960+00:00"
     },
     "0e9cbbf3b98ffdaa96fced46ad8b376180ea319b": {
       "title": "[SubsPlease] Dandadan - 11 (720p) [D173BB7F].mkv",
@@ -12129,20 +12137,28 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252360,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:08.260394+00:00"
+      "file_id": 1594423773,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594423773/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:08.260394+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594423773/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T16:08:28.055153+00:00"
     },
     "a0f7be45ab79cc2cf899ab1cb08c0bc9d9538009": {
       "title": "[SubsPlease] Wind Breaker - 08 (720p) [01BBFA2B].mkv",
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106252361,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T02:44:08.886173+00:00"
+      "file_id": 1594424866,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594424866/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T02:44:08.886173+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594424866/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T16:08:28.185446+00:00"
     },
     "1170eb8c1a4b38fa1555b3eb4ac846c321178348": {
       "title": "[SubsPlease] Blue Lock - 23 (720p) [428AC32F].mkv",
@@ -13016,10 +13032,14 @@
       "category": "Shounen",
       "logo": "",
       "transfer_id": 106253490,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T04:43:55.272896+00:00"
+      "file_id": 1594427230,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594427230/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T04:43:55.272896+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594427230/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T16:08:28.312515+00:00"
     },
     "a139168b73fae6bd769c8f2bfaf006906498a0f0": {
       "title": "[SubsPlease] Jujutsu Kaisen - 36 (720p) [896C98C7].mkv",
@@ -13162,7 +13182,21 @@
       "created_at": "2026-06-19T10:40:49.543160+00:00",
       "stream_url": "https://api.put.io/v2/files/1594576866/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-06-19T13:27:44.716409+00:00"
+    },
+    "c4c330f8b7f445b35d42ec08fcc9b674f8641ddf": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 11 (720p) [5F4CB3DA].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106316858,
+      "file_id": 1594616465,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594616465/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-19T16:08:26.502011+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594616465/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-19T16:08:28.437041+00:00"
     }
   },
-  "last_run": "2026-06-19T13:27:44.716430+00:00"
+  "last_run": "2026-06-19T16:08:28.437053+00:00"
 }
