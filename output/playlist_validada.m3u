@@ -9,8 +9,6 @@ https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
-#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
-https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon - Samishigariya no Ryuu" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon - Samishigariya no Ryuu
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594576866
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
@@ -487,16 +485,28 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584822132
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584822128
 #EXTINF:0 CUID="e224e2d6" tvg-name="Date a Live IV S01 E01" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E01
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876058
+#EXTINF:0 CUID="e224e2d6" tvg-name="Date a Live IV S01 E01" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E01
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594689958
 #EXTINF:0 CUID="306c74d7" tvg-name="Date a Live IV S01 E02" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E02
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876059
+#EXTINF:0 CUID="306c74d7" tvg-name="Date a Live IV S01 E02" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E02
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594689342
 #EXTINF:0 CUID="e8568c43" tvg-name="Date a Live IV S01 E03" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E03
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876060
+#EXTINF:0 CUID="e8568c43" tvg-name="Date a Live IV S01 E03" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E03
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594679594
 #EXTINF:0 CUID="cd3932d0" tvg-name="Date a Live IV S01 E04" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E04
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876061
+#EXTINF:0 CUID="cd3932d0" tvg-name="Date a Live IV S01 E04" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E04
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594691248
 #EXTINF:0 CUID="8eaca43d" tvg-name="Date a Live IV S01 E05" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E05
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876062
+#EXTINF:0 CUID="8eaca43d" tvg-name="Date a Live IV S01 E05" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E05
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594677690
 #EXTINF:0 CUID="3e42a935" tvg-name="Date a Live IV S01 E06" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E06
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876063
+#EXTINF:0 CUID="3e42a935" tvg-name="Date a Live IV S01 E06" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E06
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594673595
 #EXTINF:0 CUID="e1b85f5f" tvg-name="Date a Live IV S01 E07" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E07
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876064
 #EXTINF:0 CUID="e1b85f5f" tvg-name="Date a Live IV S01 E07" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E07
@@ -517,6 +527,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594307016
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876068
 #EXTINF:0 CUID="79bfca14" tvg-name="Date a Live IV S01 E12" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E12
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584876069
+#EXTINF:0 CUID="79bfca14" tvg-name="Date a Live IV S01 E12" tvg-logo="" group-title="Series | Romance",Date a Live IV S01 E12
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594689638
 #EXTINF:0 CUID="668bf1cc" tvg-name="Date a Live V S01 E03" tvg-logo="" group-title="Series | Romance",Date a Live V S01 E03
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585204701
 #EXTINF:0 CUID="2d86e0f4" tvg-name="Date a Live V S01 E04" tvg-logo="" group-title="Series | Romance",Date a Live V S01 E04

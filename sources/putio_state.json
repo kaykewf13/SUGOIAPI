@@ -13156,10 +13156,25 @@
       "category": "Comedia",
       "logo": "",
       "transfer_id": 106253502,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T04:44:02.289830+00:00"
+      "file_id": 1594514008,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594514009/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514010/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514011/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514012/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514013/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514014/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514015/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514016/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514017/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514018/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514019/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+        "https://api.put.io/v2/files/1594514020/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T04:44:02.289830+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594514009/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-20T01:12:45.230351+00:00"
     },
     "6aea596909845034215aa35d70bb74ea2beec300": {
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 77 (720p) [E00DF851].mkv",
@@ -13218,5 +13233,5 @@
       "ready_at": "2026-06-19T16:08:28.437041+00:00"
     }
   },
-  "last_run": "2026-06-19T21:34:28.627190+00:00"
+  "last_run": "2026-06-20T01:12:45.230381+00:00"
 }
