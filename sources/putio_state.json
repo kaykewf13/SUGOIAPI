@@ -13144,10 +13144,14 @@
       "category": "Luta",
       "logo": "",
       "transfer_id": 106253497,
-      "file_id": null,
-      "stream_urls": [],
-      "status": "pending",
-      "created_at": "2026-06-16T04:43:59.375741+00:00"
+      "file_id": 1594856289,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1594856289/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-06-16T04:43:59.375741+00:00",
+      "stream_url": "https://api.put.io/v2/files/1594856289/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-06-22T04:42:32.527106+00:00"
     },
     "e7cc6fb310a2356d8c64fc7f9e57ae0cb3475650": {
       "title": "[SubsPlease] Berserk - The Golden Age Arc Memorial Edition - 03 (720p) [FBB56BAA].mkv",
@@ -13297,5 +13301,5 @@
       "ready_at": "2026-06-21T18:43:56.847090+00:00"
     }
   },
-  "last_run": "2026-06-22T01:21:18.754430+00:00"
+  "last_run": "2026-06-22T04:42:32.527141+00:00"
 }
