@@ -9,6 +9,8 @@ https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
 https://www.youtube.com/watch?v=ABVQXgr2LW4
+#EXTINF:-1 tvg-id="" tvg-name="TV Câmara" tvg-logo="https://i.imgur.com/UpV2PRk.png" group-title="Canais | Geral",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon - Samishigariya no Ryuu" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon - Samishigariya no Ryuu
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594576866
 #EXTINF:-1 tvg-id="" tvg-name="Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2" tvg-logo="" group-title="Filmes | Comedia",Kobayashi-san Chi no Maid Dragon S2 Shorts - SP2
@@ -597,6 +599,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1591992398
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593243922
 #EXTINF:0 CUID="8c590f77" tvg-name="Dr. Stone S4 S01 E36" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E36
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594432292
+#EXTINF:0 CUID="eb49fe22" tvg-name="Dr. Stone S4 S01 E37" tvg-logo="" group-title="Series | Geral",Dr. Stone S4 S01 E37
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1595611614
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1584822433
 #EXTINF:0 CUID="19f9a4ef" tvg-name="Dragon Ball Daima S01 E01" tvg-logo="" group-title="Series | Shounen",Dragon Ball Daima S01 E01
