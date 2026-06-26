@@ -3,6 +3,8 @@
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV Cultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="Canais | Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" group-title="Canais | Geral",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC Ⓨ" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Canais | Geral",RBC Ⓨ
 https://www.youtube.com/watch?v=oUdd3CsxYaE
 #EXTINF:-1 tvg-id="" tvg-name="SBT Ⓨ" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo.png" group-title="Canais | Geral",SBT Ⓨ
@@ -1767,6 +1769,8 @@ https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1592192970
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1593417420
 #EXTINF:0 CUID="3f01ccb5" tvg-name="Tensei Shitara Slime Datta Ken S4 S01 E11" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S4 S01 E11
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1594616465
+#EXTINF:0 CUID="91061e8f" tvg-name="Tensei Shitara Slime Datta Ken S4 S01 E12" tvg-logo="" group-title="Series | Isekai",Tensei Shitara Slime Datta Ken S4 S01 E12
+https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1595761920
 #EXTINF:0 CUID="e0739856" tvg-name="The Quintessential Quintuplets S02 E01" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E01
 https://sugoiapi-putio-proxy.viraltechh.workers.dev/?id=1585194858
 #EXTINF:0 CUID="1f9fd0e7" tvg-name="The Quintessential Quintuplets S02 E02" tvg-logo="" group-title="Series | Romance",The Quintessential Quintuplets S02 E02
