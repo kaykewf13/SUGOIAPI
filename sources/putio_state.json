@@ -13369,7 +13369,27 @@
       "created_at": "2026-07-03T16:42:03.106512+00:00",
       "stream_url": "https://api.put.io/v2/files/1597056558/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-07-03T16:42:04.171364+00:00"
+    },
+    "3f0a12a1bcd410ce34ce547e3cb9f3582a860c2a": {
+      "title": "[SubsPlease] Mushoku Tensei S3 - 02 (720p) [D54BD556].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106587494,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-07-04T13:49:27.210779+00:00"
+    },
+    "be3c74682e1eada9cba2923b38ec388f8ba197d4": {
+      "title": "[SubsPlease] Mushoku Tensei S3 - 01 (720p) [F43EC3AE].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106587495,
+      "file_id": null,
+      "stream_urls": [],
+      "status": "pending",
+      "created_at": "2026-07-04T13:49:27.845196+00:00"
     }
   },
-  "last_run": "2026-07-04T11:00:39.696709+00:00"
+  "last_run": "2026-07-04T13:49:28.815283+00:00"
 }
