@@ -13397,7 +13397,21 @@
       "created_at": "2026-07-04T13:49:27.845196+00:00",
       "stream_url": "https://api.put.io/v2/files/1597251155/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-07-04T16:11:06.281169+00:00"
+    },
+    "80791275c3edc84875080dee969e5f839a09dfb3": {
+      "title": "[SubsPlease] One Piece Novel Heroines (720p) [E9B3DBB7].mkv",
+      "category": "Shounen",
+      "logo": "",
+      "transfer_id": 106611322,
+      "file_id": 1597509143,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1597509143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-07-05T16:17:14.523544+00:00",
+      "stream_url": "https://api.put.io/v2/files/1597509143/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-07-05T16:17:15.536930+00:00"
     }
   },
-  "last_run": "2026-07-05T13:55:14.745412+00:00"
+  "last_run": "2026-07-05T16:17:15.536954+00:00"
 }
