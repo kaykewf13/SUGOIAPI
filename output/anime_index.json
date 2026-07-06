@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-06T15:48:50.833517+00:00",
-  "total": 944,
+  "gerado_em": "2026-07-06T20:09:23.533787+00:00",
+  "total": 945,
   "itens": [
     {
       "nome": "01. Flashing Before My Eyes",
@@ -1830,6 +1830,11 @@
     {
       "nome": "Grand Blue S2 S01 E07",
       "id": "1584839199",
+      "grupo": "Series | Comedia"
+    },
+    {
+      "nome": "Grand Blue S3 S01 E01",
+      "id": "1597723018",
       "grupo": "Series | Comedia"
     },
     {
