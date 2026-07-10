@@ -13439,7 +13439,21 @@
       "created_at": "2026-07-08T14:33:54.690271+00:00",
       "stream_url": "https://api.put.io/v2/files/1598067559/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-07-08T16:47:32.154676+00:00"
+    },
+    "2b5f746a8bfc77e2336a1f4edd7daad50fcca674": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 14 (720p) [63DF47B8].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106725236,
+      "file_id": 1598469597,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1598469597/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-07-10T17:04:11.916412+00:00",
+      "stream_url": "https://api.put.io/v2/files/1598469597/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-07-10T17:04:12.987393+00:00"
     }
   },
-  "last_run": "2026-07-10T14:43:30.805386+00:00"
+  "last_run": "2026-07-10T17:04:12.987420+00:00"
 }
