@@ -13467,7 +13467,21 @@
       "created_at": "2026-07-11T10:22:51.398403+00:00",
       "stream_url": "https://api.put.io/v2/files/1598617896/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
       "ready_at": "2026-07-11T13:42:38.262729+00:00"
+    },
+    "96eea83597a9024623f039ba21f80c9944befdf8": {
+      "title": "[SubsPlease] Mushoku Tensei S3 - 03 (720p) [C8BF8703].mkv",
+      "category": "Isekai",
+      "logo": "",
+      "transfer_id": 106768694,
+      "file_id": 1598835302,
+      "stream_urls": [
+        "https://api.put.io/v2/files/1598835302/stream?oauth_token=NLNXW4PKZWT2XLOROMIC"
+      ],
+      "status": "ready",
+      "created_at": "2026-07-12T16:05:54.224667+00:00",
+      "stream_url": "https://api.put.io/v2/files/1598835302/stream?oauth_token=NLNXW4PKZWT2XLOROMIC",
+      "ready_at": "2026-07-12T16:05:55.316918+00:00"
     }
   },
-  "last_run": "2026-07-12T13:42:28.022754+00:00"
+  "last_run": "2026-07-12T16:05:55.316947+00:00"
 }
