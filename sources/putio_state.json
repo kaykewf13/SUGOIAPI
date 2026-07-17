@@ -13514,7 +13514,12 @@
       "title": "[SubsPlease] Youjo Senki S2 - 02 (720p) [D6854462].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "33a2e3c3ee9bd672241a99f541b851e1d09faea5": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 15 (720p) [ADE0AE1D].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-07-17T13:53:42.592453+00:00"
+  "last_run": "2026-07-17T16:23:11.064078+00:00"
 }
