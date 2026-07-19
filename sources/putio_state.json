@@ -13529,7 +13529,12 @@
       "title": "[SubsPlease] Mushoku Tensei S3 - 04 (720p) [24BA9D4D].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "0ba4f2f1535f76144e776adbae7f7136fb074da7": {
+      "title": "[SubsPlease] One Piece - 1170 (720p) [E560A2D0].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-07-19T16:04:47.043673+00:00"
+  "last_run": "2026-07-19T19:17:18.325706+00:00"
 }
