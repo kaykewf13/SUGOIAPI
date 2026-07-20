@@ -13534,7 +13534,12 @@
       "title": "[SubsPlease] One Piece - 1170 (720p) [E560A2D0].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "23a42905ec3e024cb8e2d08d75f0933de1160536": {
+      "title": "[SubsPlease] Grand Blue S3 - 03 (720p) [432461E2].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-07-20T14:23:26.987862+00:00"
+  "last_run": "2026-07-20T16:30:58.619089+00:00"
 }
