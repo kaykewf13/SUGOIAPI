@@ -13544,7 +13544,12 @@
       "title": "[SubsPlease] Dr. Stone S3 (01-22) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "c67513be5d613fffcd7eb2133f5cab19a1fc3dd1": {
+      "title": "[SubsPlease] Youjo Senki S2 - 03 (720p) [6AC84880].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-07-22T11:16:50.413497+00:00"
+  "last_run": "2026-07-22T14:11:39.582258+00:00"
 }
