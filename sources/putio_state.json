@@ -13554,7 +13554,12 @@
       "title": "[SubsPlease] Dr. Stone S4 (01-24) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "3af96ab7fcf77db48b83e0c5780b5e7fb6804caf": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 16 (720p) [90314CB9].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-07-24T13:59:27.221381+00:00"
+  "last_run": "2026-07-24T16:50:02.273220+00:00"
 }
