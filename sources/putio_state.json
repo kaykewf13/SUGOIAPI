@@ -13564,7 +13564,12 @@
       "title": "[SubsPlease] Honzuki no Gekokujou S4 - 15 (720p) [B8E6C33B].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "fb71c998a53cd827c07db0e48471a307464be3b6": {
+      "title": "[SubsPlease] Dr. Stone S4 (25-37) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-07-25T19:19:48.731168+00:00"
+  "last_run": "2026-07-25T22:03:15.140919+00:00"
 }
