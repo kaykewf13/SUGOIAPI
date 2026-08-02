@@ -13604,7 +13604,17 @@
       "title": "[SubsPlease] Honzuki no Gekokujou S4 - 16 (720p) [582F09E8].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "d3eb0e458de64deedd05086cdc7ad10a616db2be": {
+      "title": "[SubsPlease] One Piece - 1172 (720p) [0DF42298].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "ef860b90615280fee9457b74cd8300e043a1e380": {
+      "title": "[SubsPlease] Mushoku Tensei S3 - 06 (720p) [365B95B1].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-02T13:43:24.292682+00:00"
+  "last_run": "2026-08-02T16:07:50.601246+00:00"
 }
