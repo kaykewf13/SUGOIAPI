@@ -13619,7 +13619,12 @@
       "title": "[SubsPlease] Boku no Hero Academia - I am a Hero too (720p) [DFE4D908].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "7ec8805db0dbd4be4ea9185a71f31c0e34014165": {
+      "title": "[SubsPlease] Grand Blue S3 - 05 (720p) [732156BF].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-03T14:54:44.929151+00:00"
+  "last_run": "2026-08-03T17:15:34.432546+00:00"
 }
