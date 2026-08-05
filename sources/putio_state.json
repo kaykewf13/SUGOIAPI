@@ -13624,7 +13624,12 @@
       "title": "[SubsPlease] Grand Blue S3 - 05 (720p) [732156BF].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "c24c77dbf3b01b530bab3facb1c1d4ed68e1a13b": {
+      "title": "[SubsPlease] Youjo Senki S2 - 05 (720p) [707C2C36].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-05T11:28:02.379442+00:00"
+  "last_run": "2026-08-05T14:24:36.999856+00:00"
 }
