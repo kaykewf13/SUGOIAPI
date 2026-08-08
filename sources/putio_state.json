@@ -13634,7 +13634,12 @@
       "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 17 (720p) [9A3F7052].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "1e17f46800360ec11cffb0492d46aaea306bc943": {
+      "title": "[SubsPlease] Honzuki no Gekokujou S4 - 17 (720p) [517486F4].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-08T07:05:07.581056+00:00"
+  "last_run": "2026-08-08T09:45:57.824450+00:00"
 }
