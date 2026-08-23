@@ -13714,7 +13714,12 @@
       "title": "[SubsPlease] Honzuki no Gekokujou S4 - 19 (720p) [82272B33].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "07c2229f164e1482f27276b877bd6e4e0a2ed853": {
+      "title": "[SubsPlease] Mushoku Tensei S3 - 09 (720p) [45D69292].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-23T12:53:41.247957+00:00"
+  "last_run": "2026-08-23T15:30:28.033675+00:00"
 }
