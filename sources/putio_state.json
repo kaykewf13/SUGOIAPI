@@ -13729,7 +13729,12 @@
       "title": "[SubsPlease] Grand Blue S3 - 08 (720p) [49512975].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "2cb3efdf5e492b26772a52388b44f26559699bf6": {
+      "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 45 (720p) [35F1E527].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-24T15:47:17.253541+00:00"
+  "last_run": "2026-08-24T18:52:05.866630+00:00"
 }
