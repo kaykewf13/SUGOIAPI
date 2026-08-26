@@ -13734,7 +13734,17 @@
       "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 45 (720p) [35F1E527].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "4c9f7f28767c4beb9d596d0d4a9ae1c7a84860a2": {
+      "title": "[SubsPlease] Youjo Senki S2 - 08 (720p) [F4488FFD].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "cad4e307e0d9a992cd32623b19b96a2d41aab315": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 80 (720p) [0D6CDEA1].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-26T13:05:43.688456+00:00"
+  "last_run": "2026-08-26T16:25:10.156528+00:00"
 }
