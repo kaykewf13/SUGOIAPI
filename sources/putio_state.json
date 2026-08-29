@@ -13749,7 +13749,12 @@
       "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 20 (720p) [230C8252].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "599d976889bae854a05bba1a2092f1a789b59ab7": {
+      "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 46 (720p) [BBCB924A].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-29T09:56:51.278775+00:00"
+  "last_run": "2026-08-29T16:35:35.016723+00:00"
 }
