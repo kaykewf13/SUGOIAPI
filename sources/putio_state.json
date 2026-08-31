@@ -13764,7 +13764,12 @@
       "title": "[SubsPlease] Mushoku Tensei S3 - 10 (720p) [6E58CF13].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "94bdb1869f624aee37f687f224bf9b7317f77fa8": {
+      "title": "[SubsPlease] Grand Blue S3 - 09 (720p) [6E522E3F].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-08-31T13:19:31.940710+00:00"
+  "last_run": "2026-08-31T20:47:30.251275+00:00"
 }
