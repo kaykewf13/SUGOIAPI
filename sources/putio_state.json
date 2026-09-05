@@ -13789,7 +13789,12 @@
       "title": "[SubsPlease] Honzuki no Gekokujou S4 - 20 (720p) [8CC0C59E].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "c377b4c9726feb906204091f6cfcd41ec5142801": {
+      "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 47 (720p) [B5FB814A].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-09-05T14:58:53.445855+00:00"
+  "last_run": "2026-09-05T17:17:23.980086+00:00"
 }
