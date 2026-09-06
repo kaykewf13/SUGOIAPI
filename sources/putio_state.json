@@ -13794,7 +13794,12 @@
       "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 47 (720p) [B5FB814A].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "a8fca4306d8461b0f2a9d367b6d7f7c45ed000dd": {
+      "title": "[SubsPlease] Mushoku Tensei S3 - 11 (720p) [0C3D876B].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-09-06T10:43:09.981837+00:00"
+  "last_run": "2026-09-06T15:19:37.666895+00:00"
 }
