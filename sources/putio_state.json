@@ -13849,7 +13849,17 @@
       "title": "[SubsPlease] Grand Blue S3 - 11 (720p) [CC930212].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "303ec4c7fe936b2eef79c367ab0ca43369ee93bb": {
+      "title": "[SubsPlease] Youjo Senki S2 - 11 (720p) [52D84314].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "4e971a0bac3b568d86c0cfacfac2751a6f5e0680": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 83 (720p) [BE31D05D].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-09-16T11:17:42.053200+00:00"
+  "last_run": "2026-09-16T16:37:12.625890+00:00"
 }
