@@ -13859,7 +13859,12 @@
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 83 (720p) [BE31D05D].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "193d0599cc160aa293f562772b7922b6c9e80a39": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 - 23 (720p) [343E14BB].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-09-18T10:59:49.096352+00:00"
+  "last_run": "2026-09-18T16:13:51.687869+00:00"
 }
