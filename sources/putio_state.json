@@ -13919,7 +13919,12 @@
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu - 85 (720p) [EEC967B3].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "5b837bddf7d7401bf0953655b54af2da90a9a599": {
+      "title": "[SubsPlease] Tensei Shitara Ken Deshita S2 - 01 (720p) [59A1E7F6].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-09-30T17:55:24.198156+00:00"
+  "last_run": "2026-09-30T22:07:43.241692+00:00"
 }
