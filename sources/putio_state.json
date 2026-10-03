@@ -13929,7 +13929,12 @@
       "title": "[SubsPlease] Honzuki no Gekokujou S4 - 24 (720p) [FF7B6174].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "f14a5fff8892ec27508f427e80ab7f3fc6d1f36d": {
+      "title": "[SubsPlease] Black Clover - 171 (720p) [8E186C37].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-03T11:28:23.368966+00:00"
+  "last_run": "2026-10-03T16:04:58.440445+00:00"
 }
