@@ -13934,7 +13934,12 @@
       "title": "[SubsPlease] Black Clover - 171 (720p) [8E186C37].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "3cad6519af33c1ee59a41f0ac1b6a1d6e514248c": {
+      "title": "[SubsPlease] Youjo Senki S2 (01-12) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-05T14:14:19.114486+00:00"
+  "last_run": "2026-10-05T21:58:17.397081+00:00"
 }
