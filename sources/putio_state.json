@@ -13949,7 +13949,12 @@
       "title": "[SubsPlease] Black Clover - 172 (720p) [C0237D4E].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "002f8df5224534a79ccdba118f3faf7b97689561": {
+      "title": "[SubsPlease] Dragon Ball Super - Beerus - 01 (720p) [EABC6046].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-11T12:31:38.404204+00:00"
+  "last_run": "2026-10-11T19:29:26.421101+00:00"
 }
