@@ -13954,7 +13954,12 @@
       "title": "[SubsPlease] Dragon Ball Super - Beerus - 01 (720p) [EABC6046].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "be960e98d8f5f55b92613f7253a571cfd996f7c0": {
+      "title": "[SubsPlease] Tensei Shitara Ken Deshita S2 - 03 (720p) [0F490F15].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-14T11:35:47.406938+00:00"
+  "last_run": "2026-10-14T16:58:00.181861+00:00"
 }
