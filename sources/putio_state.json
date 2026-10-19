@@ -13969,7 +13969,12 @@
       "title": "[SubsPlease] Dragon Ball Super - Beerus - 02 (720p) [F78D3B9A].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "1ea3f49eae6bc9a1b995c5ca51d13d4697d11b22": {
+      "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 49 (720p) [FED78079].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-19T12:47:44.218306+00:00"
+  "last_run": "2026-10-19T20:32:18.318332+00:00"
 }
