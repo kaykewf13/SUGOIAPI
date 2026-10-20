@@ -13974,7 +13974,12 @@
       "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 49 (720p) [FED78079].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "5f46e083a019106e992e7cc6cfb0b4e78c1a74ef": {
+      "title": "[SubsPlease] Honzuki no Gekokujou S4 (01-24) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-20T19:08:51.534915+00:00"
+  "last_run": "2026-10-20T23:45:29.163702+00:00"
 }
