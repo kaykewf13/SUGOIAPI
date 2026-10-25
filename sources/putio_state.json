@@ -13994,7 +13994,12 @@
       "title": "[SubsPlease] Jujutsu Kaisen (25-47) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "3371af92d0b84749aeab0f33ea495ecef1c50f69": {
+      "title": "[SubsPlease] Dragon Ball Super - Beerus - 03 (720p) [E8376E65].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-25T15:55:30.649395+00:00"
+  "last_run": "2026-10-25T20:42:05.247536+00:00"
 }
