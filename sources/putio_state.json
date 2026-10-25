@@ -13989,7 +13989,12 @@
       "title": "[SubsPlease] Black Clover - 174 (720p) [2117A953].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "69c9f007a13a2b0f04193f2e515be26b3b9e88e9": {
+      "title": "[SubsPlease] Jujutsu Kaisen (25-47) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-24T23:05:02.069124+00:00"
+  "last_run": "2026-10-25T04:09:36.173515+00:00"
 }
