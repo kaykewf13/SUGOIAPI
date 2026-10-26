@@ -13999,7 +13999,12 @@
       "title": "[SubsPlease] Dragon Ball Super - Beerus - 03 (720p) [E8376E65].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "6b4ae497d3663f7a9a3cffd770e86da596d79923": {
+      "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 50 (720p) [FA4028BC].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-26T12:40:19.616598+00:00"
+  "last_run": "2026-10-26T20:25:59.539689+00:00"
 }
