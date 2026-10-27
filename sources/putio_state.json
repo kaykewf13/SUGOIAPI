@@ -14004,7 +14004,12 @@
       "title": "[SubsPlease] Bleach - Sennen Kessen Hen - 50 (720p) [FA4028BC].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "b04508316db9fc5f847966489c7ac42076db1192": {
+      "title": "[SubsPlease] Jujutsu Kaisen (48-59) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-26T20:25:59.539689+00:00"
+  "last_run": "2026-10-27T00:20:54.191686+00:00"
 }
