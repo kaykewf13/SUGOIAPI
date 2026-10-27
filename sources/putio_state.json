@@ -14009,7 +14009,17 @@
       "title": "[SubsPlease] Jujutsu Kaisen (48-59) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "51ed0b685e56eff7713b9e2df0ffd3823453561c": {
+      "title": "[SubsPlease] Mushoku Tensei S2 (01-24) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "3b785c5e80e44909a19a9d9311a89d8917c832de": {
+      "title": "[SubsPlease] Mushoku Tensei S3 (01-14) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-27T00:20:54.191686+00:00"
+  "last_run": "2026-10-27T08:51:50.410244+00:00"
 }
