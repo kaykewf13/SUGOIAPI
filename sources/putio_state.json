@@ -14019,7 +14019,17 @@
       "title": "[SubsPlease] Mushoku Tensei S3 (01-14) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "432737e262dc7846b4f2ebfae0a93dcb3cf75301": {
+      "title": "[SubsPlease] Grand Blue S2 (01-12) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "513cbe850b1637e4a24c313184c0ba678eaccca4": {
+      "title": "[SubsPlease] Grand Blue S3 (01-12) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-27T22:03:40.375912+00:00"
+  "last_run": "2026-10-28T05:04:33.444434+00:00"
 }
