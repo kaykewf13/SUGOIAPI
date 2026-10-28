@@ -14029,7 +14029,12 @@
       "title": "[SubsPlease] Grand Blue S3 (01-12) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "eaa96a5cac3206c6be29de8dc2755f5d7657b567": {
+      "title": "[SubsPlease] Tensei Shitara Ken Deshita S2 - 05 (720p) [502856AA].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-28T12:32:39.904733+00:00"
+  "last_run": "2026-10-28T20:12:24.802982+00:00"
 }
