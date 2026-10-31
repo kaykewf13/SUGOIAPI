@@ -14039,7 +14039,12 @@
       "title": "[SubsPlease] Bleach - Sennen Kessen Hen (41-50) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "24c5c83b58d5caf13ffc45f4a46e6ee73a687db5": {
+      "title": "[SubsPlease] Black Clover - 175 (720p) [3239C0A4].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-10-31T12:02:06.330688+00:00"
+  "last_run": "2026-10-31T17:16:08.653843+00:00"
 }
