@@ -14049,7 +14049,12 @@
       "title": "[SubsPlease] Dragon Ball Super - Beerus - 04 (720p) [CEE710D4].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "a3e0a2e285f7bf972c21870a6e0f0bc43a1a1aa9": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu (51-66) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-03T16:58:02.706425+00:00"
+  "last_run": "2026-11-03T23:07:15.040975+00:00"
 }
