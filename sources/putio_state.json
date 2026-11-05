@@ -14059,7 +14059,12 @@
       "title": "[SubsPlease] Tensei Shitara Ken Deshita S2 - 06 (720p) [5492D530].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "f641066fedb1d70ae08fddafde33c75991ddcece": {
+      "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu (67-85) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-04T21:13:27.137859+00:00"
+  "last_run": "2026-11-05T06:04:19.659228+00:00"
 }
