@@ -14069,7 +14069,12 @@
       "title": "[SubsPlease] Tensei Shitara Slime Datta Ken (49-72) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "c456a92892ccd530182a048fa3899a88846790ec": {
+      "title": "[SubsPlease] Black Clover - 176 (720p) [51DD2B31].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-07T09:52:10.224766+00:00"
+  "last_run": "2026-11-07T17:42:16.292206+00:00"
 }
