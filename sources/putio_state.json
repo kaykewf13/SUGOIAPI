@@ -14064,7 +14064,12 @@
       "title": "[SubsPlease] Re Zero kara Hajimeru Isekai Seikatsu (67-85) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "22d2f87e0457958f7a2dab2cc969224a718da7c5": {
+      "title": "[SubsPlease] Tensei Shitara Slime Datta Ken (49-72) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-06T20:49:34.849079+00:00"
+  "last_run": "2026-11-07T00:49:50.349979+00:00"
 }
