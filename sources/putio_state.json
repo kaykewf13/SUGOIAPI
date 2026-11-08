@@ -14079,7 +14079,12 @@
       "title": "[SubsPlease] Tensei Shitara Slime Datta Ken S4 (01-24) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "dc5b80af46e058a8e5c7b9fd190a2ec19147eac2": {
+      "title": "[SubsPlease] Dragon Ball Super - Beerus - 05 (720p) [8CFBCB73].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-08T13:06:07.067876+00:00"
+  "last_run": "2026-11-08T19:30:04.158993+00:00"
 }
