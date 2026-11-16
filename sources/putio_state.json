@@ -14099,7 +14099,12 @@
       "title": "[SubsPlease] Dragon Ball Super - Beerus - 06 (720p) [3C1BA0DF].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "f5453dc6a2bc0698029ae1a46c7d884afd5f82fb": {
+      "title": "[SubsPlease] Vinland Saga S2 (01-24) (720p) [Batch]",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-16T10:54:36.482421+00:00"
+  "last_run": "2026-11-16T21:54:07.111198+00:00"
 }
