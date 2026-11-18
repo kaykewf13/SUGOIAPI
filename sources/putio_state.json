@@ -14104,7 +14104,12 @@
       "title": "[SubsPlease] Vinland Saga S2 (01-24) (720p) [Batch]",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "e54a9bed8a5e10e1c0f4a55a33d60689cf89e3c9": {
+      "title": "[SubsPlease] Tensei Shitara Ken Deshita S2 - 08 (720p) [994D4E4D].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-18T11:27:03.466159+00:00"
+  "last_run": "2026-11-18T20:18:37.139326+00:00"
 }
