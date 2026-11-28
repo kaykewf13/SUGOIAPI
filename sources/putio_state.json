@@ -14124,7 +14124,12 @@
       "title": "[SubsPlease] Tensei Shitara Ken Deshita S2 - 09 (720p) [A7A16D78].mkv",
       "status": "error",
       "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
+    },
+    "bf9874ea0e7d8fa2ddab08301a6bd86a7676728a": {
+      "title": "[SubsPlease] Black Clover - 179 (720p) [328DCF42].mkv",
+      "status": "error",
+      "error": "402 Client Error: PAYMENT REQUIRED for url: https://api.put.io/v2/transfers/add"
     }
   },
-  "last_run": "2026-11-28T03:16:51.544863+00:00"
+  "last_run": "2026-11-28T15:21:49.647257+00:00"
 }
